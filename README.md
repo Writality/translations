@@ -1,2 +1,4 @@
-# translations
-A repository for community translations for writality ui
+# Writality Community Translations
+
+This repository contains generated language-pack artifacts for Writality.
+Edit translations in Crowdin, not in this repository.
