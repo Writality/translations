@@ -1,0 +1,1673 @@
+{
+  "schemaVersion": 1,
+  "locale": "fr",
+  "name": "French",
+  "nativeName": "Français",
+  "version": "0b8b3ea992b0-fr",
+  "sourceRevision": "0b8b3ea992b00150173bc8af8bde97a066b62543",
+  "resources": {
+    "chronology": {
+      "conceptList": {
+        "emptyState": "Aucune date (pour l'instant)",
+        "searchPlaceholder": "Rechercher dans les concepts"
+      },
+      "empty": {
+        "calendarSystem": {
+          "description": "Configurez votre calendrier pour commencer la gestion des dates."
+        },
+        "customEras": {
+          "description": "Définissez les époques afin d'organiser votre ligne du temps.",
+          "title": "Époques personnalisées"
+        },
+        "setup": "Établir une ligne du temps",
+        "timelineTracking": {
+          "description": "Coordonnez les dates et évènements à travers vos histoires dans un même univers.",
+          "title": "Timeline tracking"
+        }
+      },
+      "eventPreview": {
+        "conceptNotFound": "Le concept n'a pas pu être trouvé",
+        "goTo": "Voir le concept",
+        "noConceptDescription": "Pas de description de concept",
+        "noDateDescription": "Pas de description de date",
+        "relatedEntities": "Entités apparentées"
+      },
+      "minimap": {
+        "addConceptDate": "Add concept date",
+        "moveTimeline": "Move timeline"
+      },
+      "quickAdd": {
+        "description": "Quickly add a date to the timeline.",
+        "labelPlaceholder": "Label",
+        "submit": "Add to timeline",
+        "title": "Quick add",
+        "addTimelineDate": "Add Timeline Date",
+        "editTimelineDate": "Edit Timeline Date",
+        "addDescription": "Pick a concept and confirm the date to add it to the timeline.",
+        "editDescription": "Adjust the date details and save your changes.",
+        "labelInputPlaceholder": "e.g., Birth, Founding, Coronation",
+        "selectConceptPlaceholder": "Select a concept...",
+        "newEvent": "New event",
+        "loadingDateDetails": "Loading date details...",
+        "couldNotLoadSelectedDate": "Could not load the selected date.",
+        "selectEntitiesPlaceholder": "Select concepts and segments..."
+      },
+      "toolbar": {
+        "jumpLeft": "Jump left",
+        "jumpRight": "Jump right",
+        "panLeft": "Pan left",
+        "panRight": "Pan right",
+        "resetView": "Reset view",
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out",
+        "fitTimeline": "Fit timeline"
+      },
+      "toggleDates": "Toggle dates",
+      "noDatesLinked": "No dates linked yet.",
+      "previewSegment": "Preview {{name}}"
+    },
+    "timeSystem": {
+      "calendar": {
+        "beforeMonth": "Before month",
+        "events": "Events",
+        "formatPreview": "Format preview",
+        "fromYear": "From year",
+        "jumpTo": "Jump to",
+        "leap": "Leap",
+        "moonEvents": {
+          "full": "Full Moon",
+          "half": "Half Moon",
+          "new": "New Moon"
+        },
+        "navigation": "Navigation",
+        "nextYear": "Next year",
+        "previousYear": "Previous year",
+        "seasonEnds": "Season ends",
+        "seasonStarts": "Season starts",
+        "untilYear": "Until year",
+        "yearRange": "Year range"
+      },
+      "customDatePicker": {
+        "placeholder": "Enter custom date picker.",
+        "selectEra": "Select era",
+        "setupHint": "Configure your calendar before choosing dates."
+      },
+      "dateFormatDropdown": {
+        "description": "Configure date format dropdown.",
+        "noPresetSelected": "No preset selected",
+        "preview": "Preview"
+      },
+      "days": {
+        "addCustomDay": "Add custom day",
+        "addSpecialDay": "Add special day",
+        "customDaysDescription": "Mark holidays or events on regular calendar dates.",
+        "dayNamePlaceholder": "Day name",
+        "description": "Configure days.",
+        "leapYearOnly": "Leap year only",
+        "loading": "Loading days...",
+        "noCustomDays": "No custom days",
+        "noCustomDaysDescription": "Add a custom day to get started.",
+        "noSpecialDays": "No special days",
+        "onlyInLeapYears": "Only in leap years",
+        "recurrenceAnnual": "Annual",
+        "recurrenceMonthly": "Monthly",
+        "recurrenceOneTime": "One-time",
+        "requiresLeapRule": "Requires leap-year rule",
+        "specialDayDescriptionPlaceholder": "Describe the special day",
+        "specialDayNamePlaceholder": "Special day name",
+        "specialDaysDescription": "Create extra days that sit outside the normal months."
+      },
+      "duration": {
+        "addSubtract": "Add Subtract",
+        "addToDate": "Add To Date",
+        "amountPlaceholder": "Amount",
+        "betweenDates": "Between Dates",
+        "endDate": "End date",
+        "enterCompleteDateAndAmount": "Enter Complete Date And Amount",
+        "enterCompleteDates": "Enter Complete Dates",
+        "negativeHint": "Negative",
+        "result": "Result",
+        "resultPrefix": "{{value}} {{unit}}",
+        "startDate": "Start date",
+        "startingDate": "Starting date",
+        "swapDates": "Swap dates",
+        "totalDays": "Total Days",
+        "unit": "Unit"
+      },
+      "editor": {
+        "groups": {
+          "calendar": "Calendar"
+        },
+        "preparingPreview": "Preparing",
+        "sections": {
+          "moons": "Moons",
+          "week": "Week"
+        },
+        "title": "Time system editor"
+      },
+      "eras": {
+        "backwardDescription": "Show earlier eras first.",
+        "description": "Configure eras.",
+        "eraNamePlaceholder": "Era name",
+        "forward": "Forward",
+        "forwardDescription": "Show later eras first.",
+        "continueYears": "Continue year numbering across eras",
+        "continueYearsDescription": "Keep world-year numbering across both backward and forward eras instead of restarting each era at year 1.",
+        "loading": "Loading eras...",
+        "moveToBackward": "Move to backward",
+        "moveToForward": "Move to forward",
+        "noDatesDefined": "No dates defined",
+        "noErasDefined": "No eras defined",
+        "ongoing": "Ongoing",
+        "pickColor": "Pick colour",
+        "updateFailed": "Failed to update era",
+        "year": "Year",
+        "addBackwardEra": "Add Backward Era",
+        "addForwardEra": "Add Forward Era",
+        "startYearPlaceholder": "Start year",
+        "backwardResetHint": "Years reset at each backward era start, then increase into earlier years (e.g., \"BC\", \"Before Common Era\")",
+        "errorEarlierThanMin": "Era start year cannot be earlier than {{year}}.",
+        "errorLaterThanMax": "Era start year cannot be later than {{year}}."
+      },
+      "months": {
+        "addLeapDay": "Add leap day",
+        "addMonth": "Add month",
+        "description": "Configure months.",
+        "leapDays": "Leap days",
+        "length": "Length",
+        "loading": "Loading months...",
+        "monthNamePlaceholder": "Month name"
+      },
+      "overview": {
+        "calendarStructure": "Calendar structure",
+        "calendarStructureEmptyDescription": "Add months, weekdays, or days to define your calendar.",
+        "calendarStructureEmptyTitle": "No calendar structure yet",
+        "daysPerMonthAverage": "Average days per month",
+        "daysPerWeek": "Days per week",
+        "defined": "Defined",
+        "description": "Configure overview.",
+        "earliestDate": "Earliest date",
+        "hoursPerYear": "Hours per year",
+        "latestDate": "Latest date",
+        "loading": "Loading overview...",
+        "monthsPerYear": "Months per year",
+        "notSet": "Not set",
+        "quickStart": "Quick start",
+        "quickStartDescription": "Set up your calendar in a few steps.",
+        "timelineRange": "Timeline range",
+        "totalYears": "Total years"
+      },
+      "presetSelector": {
+        "apply": "Apply",
+        "applyPreset": "Apply preset",
+        "applyWarning": "Applying this preset will replace your current calendar.",
+        "applying": "Applying...",
+        "categories": {
+          "real-world": "Real-world",
+          "historical": "Historical",
+          "fantasy": "Fantasy",
+          "sci-fi": "Sci-fi"
+        },
+        "moreMonths": "More Months",
+        "origin": "Origin",
+        "replace": "Replace",
+        "replaceDescription": "Replace the current calendar with this preset.",
+        "replaceTitle": "Replace calendar?",
+        "restDay": "Rest day",
+        "summary": "Summary",
+        "title": "Preset selector",
+        "usePreset": "Use preset"
+      },
+      "seasonDatePicker": {
+        "cancelSelection": "Cancel selection",
+        "clearDates": "Clear dates",
+        "loading": "Loading season date picker...",
+        "noMonths": "No months",
+        "pickEnd": "Pick End",
+        "pickStartEnd": "Pick Start End",
+        "resetDraft": "Reset draft",
+        "wrapHint": "Hold Shift to wrap around."
+      },
+      "seasons": {
+        "addSeason": "Add season",
+        "configureMonthsFirst": "Configure months first",
+        "description": "Configure seasons.",
+        "loading": "Loading seasons...",
+        "pickRange": "Pick range",
+        "season": "Season",
+        "seasonNamePlaceholder": "Season name"
+      },
+      "time": {
+        "description": "Configure time.",
+        "loading": "Loading time...",
+        "secondsPerMinute": "Seconds per minute",
+        "units": "Units",
+        "formattingTitle": "Time Formatting",
+        "formatLabel": "Time format",
+        "format24h": "24-hour (14:30)",
+        "format12h": "12-hour (2:30 PM)",
+        "separatorLabel": "Time separator",
+        "separatorColon": "Colon (:)",
+        "separatorDot": "Dot (.)",
+        "separatorSpace": "Space",
+        "showSecondsInDisplay": "Show seconds in time display"
+      },
+      "weekdays": {
+        "addWeekday": "Add weekday",
+        "description": "Configure weekdays.",
+        "epochWeekday": "Epoch weekday",
+        "epochWeekdayDescription": "The first day of the calendar cycle.",
+        "loading": "Loading weekdays...",
+        "selectWeekday": "Select Weekday",
+        "weekdayNamePlaceholder": "Weekday name"
+      },
+      "leapDayModal": {
+        "defaultName": "Leap Day",
+        "editTitle": "Edit Leap Day",
+        "newTitle": "New Leap Day",
+        "rulesTitle": "Leap Year Rules",
+        "ruleActionSkip": "Skip",
+        "ruleEveryYears": "Every {{cycle}} years",
+        "ruleSkipEveryYears": "but not every {{cycle}} years",
+        "ruleAndEveryYears": "and every {{cycle}} years",
+        "addRule": "Add rule",
+        "howItWorksTitle": "How leap year rules work:",
+        "howItWorksBody": "Rules are evaluated in order. A year is a leap year if it matches any \"Add\" rule, unless it also matches a subsequent \"Skip\" rule. For example, the Gregorian calendar adds a leap day every 4 years, but skips every 100 years, unless it's also divisible by 400."
+      }
+    },
+    "app": {
+      "name": "Writality"
+    },
+    "common": {
+      "loading": "Loading...",
+      "settings": "Settings",
+      "search": "Search",
+      "deleted": "Deleted",
+      "close": "Close",
+      "back": "Back",
+      "continue": "Continue",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "import": "Import",
+      "export": "Export",
+      "edit": "Edit",
+      "delete": "Delete",
+      "more": "More",
+      "minimize": "Minimise",
+      "maximize": "Maximise",
+      "restore": "Restore",
+      "refresh": "Refresh",
+      "projects": "Projects",
+      "allProjects": "Library",
+      "newProject": "New project",
+      "new": "New",
+      "dashboard": "Study",
+      "gallery": "Gallery",
+      "chronology": "Chronology",
+      "files": "Workbench",
+      "manuscripts": "Manuscripts",
+      "collapseAllFolders": "Collapse all folders",
+      "expandAllFolders": "Expand all folders",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "continueWhereYouLeftOff": "Continue where you left off",
+      "language": "Language",
+      "english": "English",
+      "spanish": "Spanish",
+      "french": "French",
+      "italian": "Italian",
+      "portuguese": "Portuguese",
+      "norwegian": "Norwegian",
+      "selectLanguage": "Select language",
+      "name": "Name",
+      "description": "Description",
+      "category": "Category",
+      "abbreviation": "Abbreviation",
+      "noDescription": "No description",
+      "item": "item",
+      "german": "German",
+      "dutch": "Dutch",
+      "slovak": "Slovak",
+      "russian": "Russian",
+      "save": "Save",
+      "update": "Update",
+      "saving": "Saving...",
+      "add": "Add",
+      "confirm": "Confirm",
+      "dismiss": "Dismiss",
+      "color": "colour",
+      "open": "Open",
+      "remove": "Remove",
+      "default": "Default",
+      "concept": "Concept",
+      "segment": "Segment",
+      "toggleSection": "Toggle {{section}}",
+      "completed": "Completed",
+      "shared": {
+        "addADescriptionOptional": "Add a description (optional)",
+        "addImage": "Add image",
+        "addNote": "Add note",
+        "addRelationship": "Add Relationship",
+        "added": "Added",
+        "afterMonth": "After month",
+        "aliases": "Aliases",
+        "appearance": "Appearance",
+        "attributeValue": "Attribute value",
+        "attributes": "Attributes",
+        "backups": "Backups",
+        "backward": "Backward",
+        "beforeFirstMonth": "Before first month",
+        "bugReports": "Bug Reports",
+        "calendarSystem": "Calendar system",
+        "cartography": "Cartography",
+        "changelog": "Changelog",
+        "clearAllFilters": "Clear all filters",
+        "clearFilters": "Clear filters",
+        "color": "Colour",
+        "commandsShortcuts": "Commands & Shortcuts",
+        "concept": "concept",
+        "content": "Content",
+        "create": "Create",
+        "createMyOwnTheme": "Create my own theme",
+        "createType": "Create type",
+        "created": "Created",
+        "custom": "Custom",
+        "customDays": "Custom days",
+        "dashed": "Dashed",
+        "dateFormat": "Date format",
+        "dates": "Dates",
+        "day": "Day",
+        "daysPerYear": "Days per year",
+        "deadline": "Deadline",
+        "deadlineHasPassed": "Deadline has passed.",
+        "deleteBackup": "Delete backup",
+        "deleteBlock": "Delete Block",
+        "deleteExternalLink": "Delete External Link",
+        "deleteTag": "Delete Tag",
+        "deleteType": "Delete type",
+        "deleteCount": "Delete {{name}}",
+        "deletedItems": "Deleted Items",
+        "dictionary": "Dictionary",
+        "discord": "Discord",
+        "downloading": "Downloading...",
+        "editType": "Edit type",
+        "emptySpace": "Empty space",
+        "era": "Era",
+        "externalLinks": "External Links",
+        "folder": "Folder",
+        "getStarted": "Get Started",
+        "hoursPerDay": "Hours per day",
+        "httpsExampleComOrDoi": "https://example.com or DOI",
+        "hyphenation": "Hyphenation",
+        "importAttributesFromAnotherConcept": "Import attributes from another concept",
+        "joinTheDiscord": "Join the Discord",
+        "kanban": "Kanban",
+        "lineHeight": "Line height",
+        "linkTitle": "Link title",
+        "medium": "Medium",
+        "minutesPerHour": "Minutes per hour",
+        "modules": "Modules",
+        "moreOptions": "More options",
+        "net": "Net",
+        "newAlias": "New alias",
+        "newGroup": "New group",
+        "newSegment": "New segment",
+        "newTab": "New tab",
+        "newType": "New type",
+        "next": "Next",
+        "nextMonth": "Next month",
+        "noEstimate": "No estimate",
+        "noImagesFound": "No images found",
+        "noSegmentsYet": "No segments yet",
+        "noTimelineYet": "No timeline yet",
+        "noType": "No type",
+        "none": "None",
+        "notSetUp": "Not set up",
+        "noteCount": "Note #{{id}}",
+        "notes": "Notes",
+        "optionalResearchNote": "Optional research note",
+        "paragraphSpacing": "Paragraph spacing",
+        "previousMonth": "Previous month",
+        "profile": "Profile",
+        "readability": "Readability",
+        "readingEffort": "Reading effort",
+        "relationships": "Relationships",
+        "removeAlias": "Remove Alias",
+        "removeCustomIcon": "Remove custom icon",
+        "removed": "Removed",
+        "renameAndRestart": "Rename and restart",
+        "resetEachMonth": "Reset Each Month",
+        "scope": "Scope",
+        "searchSegments": "Search segments...",
+        "seasons": "Seasons",
+        "selectDateOrRange": "Select date or range",
+        "setUpTheTimeSystemFirst": "Set up the time system first.",
+        "short": "Short",
+        "showLabels": "Show labels",
+        "showLess": "Show less",
+        "showMore": "Show more",
+        "size": "Size",
+        "solid": "Solid",
+        "specialDays": "Special days",
+        "sprites": "Sprites",
+        "start": "Start",
+        "studio": "Studio",
+        "time": "Time",
+        "timer": "Timer",
+        "title": "Title",
+        "titleSize": "Title size",
+        "titleSpacing": "Title spacing",
+        "toggleSidebarCount": "Toggle sidebar ({{shortcut}})",
+        "totalWords": "Total words",
+        "turnInto": "Turn into",
+        "types": "Types",
+        "updatedCount": "Updated {{time}}",
+        "updatesBackups": "Updates & Backups",
+        "upload": "Upload",
+        "uploadImage": "Upload image",
+        "version": "Version",
+        "versionHistory": "Version History",
+        "years": "Years",
+        "yourName": "Your name",
+        "countActiveDaysAheadAtThis": "{{count}} active days ahead at this pace.",
+        "countDates": "{{count}} dates",
+        "countFilesStillParsing": "{{count}} files still parsing",
+        "countItemsPermanentlyDeleted": "{{count}} items permanently deleted",
+        "countItemsRestored": "{{count}} items restored",
+        "countMoreFilesWaitingAfterThis": "{{count}} more files waiting after this one",
+        "countRelationshipsAcrossDirectSegments": "{{count}} relationships across direct segments.",
+        "and": "and",
+        "insertBlock": "Insert block",
+        "createBlock": "Create block",
+        "createExternalLink": "Create external link",
+        "addAttribute": "Add attribute",
+        "titleFont": "Title font",
+        "commandPalette": "Command palette",
+        "reportABug": "Report a bug",
+        "deleteManuscript": "Delete manuscript",
+        "addSegment": "Add segment",
+        "removeEntry": "Remove entry",
+        "notAvailable": "n/a",
+        "chooseBackgroundImage": "Choose background image",
+        "selectProjectToManage": "Select or create a project to manage {{item}}.",
+        "noSearchMatches": "No {{item}} match your search."
+      },
+      "actions": "Actions",
+      "type": "Type",
+      "empty": "Empty",
+      "date": "Date",
+      "image": "Image",
+      "note": "Note",
+      "tags": "Tags",
+      "blocks": "Blocks",
+      "concepts": "Concepts",
+      "segments": "Segments",
+      "months": "Months",
+      "month": "Month",
+      "days": "Days",
+      "overview": "Overview",
+      "reset": "Reset",
+      "resetToDefaults": "Reset to defaults",
+      "createConcept": "Create concept",
+      "createSegment": "Create segment",
+      "addDate": "Add Date",
+      "debugConsole": "Debug Console",
+      "storyGraph": "Story Graph",
+      "readableBackups": "Readable Backups",
+      "workspaceName": "Workspace name",
+      "fontSize": "Font size",
+      "justify": "Justify",
+      "left": "Left",
+      "center": "Centre",
+      "long": "Long",
+      "position": "Position",
+      "eras": "Eras",
+      "duration": "Duration",
+      "weekdays": "Weekdays",
+      "tag": "Tag",
+      "conceptName": "Concept name",
+      "words": "words",
+      "count": {
+        "words": "{{count}} words",
+        "ready": "{{count}} ready",
+        "imported": "{{count}} imported"
+      },
+      "status": {
+        "importing": "Importing"
+      }
+    },
+    "table": {
+      "clearFilter": "Clear filter",
+      "rowCount": "{{filtered}} of {{total}} rows",
+      "rowsPerPage": "Rows per page",
+      "pageOf": "Page {{page}} of {{total}}",
+      "firstPage": "First page",
+      "previousPage": "Previous page",
+      "nextPage": "Next page",
+      "lastPage": "Last page"
+    },
+    "tooltips": {
+      "common": {
+        "clearColor": "Clear colour",
+        "enterReadOnlyMode": "Enter read-only mode",
+        "exitReadOnlyMode": "Exit read-only mode",
+        "resetSidebarToDefaultSize": "Reset sidebar to default size"
+      },
+      "concept": {
+        "expandImage": "Expand image",
+        "positionImage": "Position image",
+        "addOrChangeImage": "Add/Change image",
+        "removeImage": "Remove image"
+      },
+      "image": {
+        "small200": "Small (200px)",
+        "medium400": "Medium (400px)",
+        "large100": "Large (100%)",
+        "flipHorizontal": "Flip horizontal",
+        "flipVertical": "Flip vertical",
+        "resetImage": "Reset image",
+        "deleteImage": "Delete image",
+        "align": {
+          "left": "Align left",
+          "center": "Align centre",
+          "right": "Align right"
+        }
+      },
+      "aspectRatio": {
+        "filterImages": "Filter {{ratio}} images",
+        "landscape": "Landscape (e.g. 4:3, 16:9)",
+        "portrait": "Portrait (taller than wide)",
+        "square": "Square (1:1)",
+        "panoramic": "Panoramic (very wide)",
+        "label": {
+          "landscape": "Landscape",
+          "portrait": "Portrait",
+          "square": "Square",
+          "panoramic": "Panoramic"
+        }
+      },
+      "sidebar": {
+        "filterOnTags": "Filter on tags",
+        "workbench": "Segments and concepts for building your story.",
+        "manuscripts": "Assemble and read the manuscript."
+      },
+      "graph": {
+        "hideAllLabels": "Hide labels",
+        "expandGraph": "Expand graph"
+      },
+      "relationship": {
+        "swapSourceTarget": "Swap source and target"
+      },
+      "moons": {
+        "cycleLength": "Length of the moon's full cycle in days",
+        "phaseOffset": "Offset in days to adjust the starting phase of the moon"
+      },
+      "table": {
+        "addColumnBefore": "Add column before",
+        "addColumnAfter": "Add column after",
+        "deleteColumn": "Delete column",
+        "addRowAbove": "Add row above",
+        "addRowBelow": "Add row below",
+        "deleteRow": "Delete row",
+        "mergeCells": "Merge cells",
+        "splitCells": "Split cells",
+        "cellBackgroundColor": "Cell background colour",
+        "tableBorders": "Table borders",
+        "deleteTable": "Delete table"
+      },
+      "editor": {
+        "fontFamily": "Font family",
+        "moreFormattingOptions": "More formatting options",
+        "bold": "Bold",
+        "italic": "Italic",
+        "underline": "Underline",
+        "strikethrough": "Strikethrough",
+        "textColor": "Text colour",
+        "highlightColor": "Highlight colour",
+        "clearFormatting": "Clear formatting",
+        "linkEntity": "Link entity",
+        "boldShortcut": "Bold ({{shortcut}})",
+        "italicShortcut": "Italic ({{shortcut}})",
+        "underlineShortcut": "Underline ({{shortcut}})",
+        "searchShortcut": "Search (Ctrl+F)",
+        "undoShortcut": "Undo (Ctrl+Z)",
+        "redoShortcut": "Redo (Ctrl+Shift+Z)",
+        "searchPlaceholder": "Search...",
+        "replaceWithPlaceholder": "Replace with...",
+        "previousShiftEnter": "Previous (Shift+Enter)",
+        "nextEnter": "Next (Enter)",
+        "caseSensitive": "Case Sensitive",
+        "matchWholeWord": "Match Whole Word",
+        "showReplace": "Show Replace",
+        "closeEsc": "Close (Esc)",
+        "replaceCurrent": "Replace current",
+        "replaceAll": "Replace all"
+      }
+    },
+    "concept": {
+      "typeTree": {
+        "title": "Type Hierarchy",
+        "emptyDescription": "No types yet. Types help organise your concepts into categories.",
+        "newTypeName": "New Type",
+        "addSubtype": "Add subtype"
+      },
+      "dateEditor": {
+        "noDateSet": "No date set",
+        "deleteDateTitle": "Delete Date",
+        "deleteDateDescription": "Are you sure you want to delete \"{{label}}\"? This action cannot be undone.",
+        "noCalendarSystemConfigured": "No calendar system configured",
+        "configureCalendar": "Configure Calendar"
+      },
+      "dateEditorDialog": {
+        "editDateTitle": "Edit Date",
+        "addDateDescription": "Add a new date to track important moments.",
+        "editDateDescription": "Edit the date details.",
+        "labelPlaceholder": "e.g., Birth, Founded, Reign"
+      },
+      "aliases": {
+        "howItWorksTitle": "How aliases work",
+        "howItWorksParagraph1": "Think of aliases like labels on the same folder. When you mention this concept with",
+        "howItWorksParagraph1Tail": "the mention links to the concept itself, not just plain text.",
+        "howItWorksParagraph2": "When you rename the concept or an alias, linked mentions can update everywhere automatically. Use mentions consistently to keep names synchronised across your project.",
+        "howItWorksParagraph3": "If you remove an alias, links stay intact and affected mentions fall back to the concept name.",
+        "helpAriaLabel": "Alias help",
+        "typeAliasPlaceholder": "Type alias...",
+        "saveAliasAriaLabel": "Save alias",
+        "cancelEditAriaLabel": "Cancel edit",
+        "aliasOptionsAriaLabel": "Alias {{name}} options",
+        "checkingUsage": "Checking usage...",
+        "aliasOptions": "Alias options",
+        "addAliasAriaLabel": "Add alias",
+        "removeAliasDescription": "This alias is used in {{mentionCount}} mention across {{sourceCount}} item. Removing it keeps all links intact, and those mentions will display the concept name instead."
+      },
+      "sidebar": {
+        "tabs": {
+          "details": "Details",
+          "versions": "Versions",
+          "wordUsage": "Text Insights"
+        },
+        "layout": {
+          "releaseToShow": "Release to show",
+          "dropToShow": "Drop here to show section",
+          "hidden": "Hidden",
+          "releaseToHide": "Release to hide"
+        }
+      },
+      "imageSelector": {
+        "imageAriaLabel": "Concept image",
+        "expandImageAriaLabel": "Expand concept image",
+        "positionImageAriaLabel": "Position concept image",
+        "done": "Done",
+        "donePositioningAriaLabel": "Done positioning concept image",
+        "editImageAriaLabel": "Edit concept image",
+        "removeCurrentImageAriaLabel": "Remove current image",
+        "previousImage": "Previous image",
+        "nextImage": "Next image",
+        "goToImage": "Go to image {{index}}"
+      },
+      "attributes": {
+        "namePlaceholder": "Attribute name",
+        "keyAriaLabel": "Attribute key",
+        "removeAriaLabel": "Remove attribute value",
+        "existingAttributes": "Existing attributes",
+        "cancelAddAriaLabel": "Cancel add attribute",
+        "importPlaceholder": "Select concept...",
+        "importNoConcepts": "No concepts found."
+      }
+    },
+    "relationships": {
+      "editor": {
+        "addDescription": "Create a new relationship between entities.",
+        "currentlySource": "Currently the source",
+        "currentlyTarget": "Currently the target",
+        "flipSourceTarget": "Flip source and target",
+        "conceptToLink": "Concept to link",
+        "selectConceptPlaceholder": "Select a concept to link...",
+        "createNewType": "Create new type…",
+        "typePlaceholder": "Eg. Family | Faction | Friend...",
+        "notesPlaceholder": "Notes (optional)",
+        "relationshipNotes": "Relationship notes",
+        "preview": "Preview:"
+      },
+      "deleteTitle": "Delete Relationship",
+      "deleteDescription": "Are you sure you want to delete this relationship? This action cannot be undone."
+    },
+    "dashboard": {
+      "loadingGraph": "Loading graph...",
+      "continueEditing": "Continue editing",
+      "lastEdited": "Last edited",
+      "noSegmentsCreated": "No segments created",
+      "noConceptsCreated": "No concepts created",
+      "wordBreakdown": "Word Breakdown",
+      "wordsInSegments": "words in {{count}} segments",
+      "wordsInConcepts": "words in {{count}} concepts",
+      "writingInsights": "Writing Insights",
+      "readingTime": "Reading Time",
+      "mostProductiveDay": "Most Productive Day",
+      "activeDays": "Active Days",
+      "estimatedReadingTime": "estimated reading time",
+      "yourBestWritingDay": "your best writing day",
+      "daysWithContinuousWritingActivity": "days with continuous writing activity",
+      "minShort": "min",
+      "minRead": "min read",
+      "notAvailable": "N/A",
+      "storySegments": "story segments",
+      "writingConsistency": "Writing Consistency",
+      "activityPattern": "Activity Pattern",
+      "storyBalance": "Story Balance",
+      "developmentDepth": "Development Depth",
+      "completionProgress": "Completion Progress",
+      "conceptsWithDates": "Concepts with Dates",
+      "conceptsWithRelationships": "Concepts with Relationships",
+      "of": "of",
+      "timeframes": {
+        "oneWeek": "1 week",
+        "twoWeeks": "2 weeks",
+        "threeMonths": "3 months",
+        "oneYear": "1 year",
+        "allTime": "all time"
+      },
+      "analytics": {
+        "consistency": {
+          "keepWriting": "Keep writing to see your progress!",
+          "excellent": "Excellent consistency!",
+          "lower": "Lower percentages indicate less frequent activity.",
+          "message": "You were active on {{activeDays}} out of {{totalDays}} days ({{consistencyRate}}% consistency) in the last {{timeframeLabel}} timeframe. {{consistencyText}}"
+        },
+        "activity": {
+          "noWriting": "No writing activity recorded for the {{timeframeLabel}} timeframe.",
+          "wroteWords": "you wrote {{count}} words",
+          "trimmedWords": "you trimmed {{count}} words (net)",
+          "unchanged": "your net word count stayed unchanged",
+          "message": "In the {{timeframeLabel}} timeframe, {{totalWordsText}} across {{activeDays}} active days, averaging {{avgWordsPerActiveDay}} net words per session. Your largest single-day change was {{maxAbsoluteDailyChange}} words."
+        },
+        "storyBalance": {
+          "start": "Start writing to see your story balance!",
+          "narrative": "narrative",
+          "worldBuilding": "world-building",
+          "message": "Your project is {{narrative}}% narrative and {{worldBuilding}}% world-building.",
+          "leansWorldBuilding": "Based on word count, your project currently leans toward world-building.",
+          "moreConcepts": "Your world could benefit from more concept development.",
+          "greatFocus": "Great {{dominant}} focus!"
+        },
+        "development": {
+          "start": "Start developing your content to see depth insights!",
+          "wordsPerSegment": "{{count}} words per segment",
+          "wordsPerConcept": "{{count}} words per concept",
+          "message": "You're averaging {{stats}}."
+        }
+      },
+      "dailyWordDiff": {
+        "title": "Today's words added and removed",
+        "wordsToday": "Words today",
+        "activity": "Activity",
+        "noActivityYet": "No activity yet",
+        "writingActivityFor": "Writing activity for {{date}}",
+        "addedRemoved": "Added / removed",
+        "changedToday": "Changed today",
+        "writingActivity": "Writing activity",
+        "wordsTouched": "{{count}} words touched",
+        "goalMetToday": "Goal met (+{{value}})",
+        "toGoal": "{{value}} to goal"
+      },
+      "wordCountCalendar": {
+        "title": "Daily word count",
+        "yearLabel": "Year:",
+        "loading": "Loading calendar...",
+        "addedWords": "{{count}} words added",
+        "removedWords": "{{count}} words removed",
+        "netWords": "Net: {{value}} words",
+        "activityWords": "Activity: {{value}} words",
+        "noActivity": "No activity",
+        "less": "Less",
+        "todayDiff": "Today: {{value}}",
+        "touched": "Touched",
+        "loadingItems": "Loading items...",
+        "noItemDetails": "No item details recorded for this date"
+      },
+      "goal": {
+        "title": "Project goal",
+        "description": "Set a word target and deadline to track required daily pace.",
+        "optionalDescription": "Goals are optional. Add a word target when you want pace tracking.",
+        "wordGoal": "Word goal",
+        "activeDays": "Active writing days",
+        "remainingWords": "Remaining words",
+        "activeDaysLeft": "Active days left",
+        "requiredPerDay": "Required per day",
+        "wordsPerDay": "words/day",
+        "complete": "Goal reached.",
+        "onTrack": "Pace calculated from remaining active days.",
+        "waitingDeadline": "Set a deadline to calculate required pace.",
+        "successfulWeek": "Successful writing days",
+        "bonusCongrats": "Bonus writing day on {{dayName}}. Great extra momentum!",
+        "successOnDay": "Great writing on {{dayName}}.",
+        "dailyAverage": "Daily average",
+        "behindBy": "{{count}} active days behind at this pace. Increase your daily words to catch up."
+      },
+      "smartGraph": {
+        "percentDone": "{{count}}% done",
+        "daysWriting": "{{count}} days writing",
+        "writtenSoFar": "Written so far",
+        "onTimePace": "On-time pace",
+        "currentPace": "Your current pace",
+        "keepGoing": "If you keep going",
+        "today": "Today",
+        "goalNeedsMomentum": "Add writing activity to calculate your current pace.",
+        "noDeadlineForecastVerdict": "At this pace, you’ll finish around {{date}}.",
+        "behindVerdict": "{{count}} active days behind at this pace.",
+        "momentumVerdict": "Momentum view",
+        "goalSummary": "{{remaining}} words left. Aim for {{perDay}} words on each active writing day.",
+        "noDeadlineGoalSummary": "{{remaining}} words left. About {{days}} writing days at your current pace.",
+        "noDeadlineNeedsActivitySummary": "{{remaining}} words left. Add writing activity to estimate your finish date.",
+        "noGoalSummary": "You are averaging {{average}} words on days with writing activity.",
+        "yourPace": "Your pace",
+        "projectedFinish": "Projected finish",
+        "writingDaysToGoal": "Writing days to goal",
+        "notEnoughData": "Not enough data",
+        "perDay": "/day",
+        "thisWeek": "This week",
+        "daysWritingLabel": "Days writing",
+        "goalWords": "Goal {{count}} words",
+        "deadlineLabel": "Deadline {{date}}",
+        "adjustGoal": "Adjust goal",
+        "noGoal": "No goal — just writing",
+        "setGoal": "Set a goal"
+      }
+    },
+    "overview": {
+      "stories": "Stories",
+      "newStory": "New Story",
+      "templateStory": "Template Story",
+      "updatedToday": "Updated Today",
+      "updatedThisWeek": "Updated This Week",
+      "updatedThisMonth": "Updated This Month",
+      "updatedAllTime": "Updated All Time"
+    },
+    "projectCard": {
+      "createNewProject": "Create new project",
+      "segmentsCount": "{{count}} segments",
+      "conceptsCount": "{{count}} concepts"
+    },
+    "timer": {
+      "completeCelebrationLabel": "Writality logo with a jingling gold bell",
+      "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
+      "completeTitle": "Wow, you did the thing!",
+      "durationMinutes": "{{count}} minutes",
+      "pause": "Pause",
+      "placeholder": "Set a duration",
+      "quickStart": {
+        "focus": {
+          "description": "Focused work session",
+          "label": "Focus"
+        },
+        "long": {
+          "description": "Long work session"
+        },
+        "pomodoro": {
+          "description": "Pomodoro session",
+          "label": "Pomodoro"
+        }
+      },
+      "startPreset": "Start preset"
+    },
+    "settings": {
+      "groups": {
+        "workspace": "Workspace",
+        "data": "Data",
+        "troubleshooting": "Troubleshooting",
+        "support": "Support"
+      },
+      "sections": {
+        "editor": "Editor",
+        "import": "Import Files",
+        "workspaceLocation": "Workspace Location",
+        "help": "Need help?"
+      },
+      "emailSupport": "Email support at bara@writality.com",
+      "helpDescription": "Get help and support for using Writality",
+      "helpPrompt": "Need help or want to talk?"
+    },
+    "discordInvite": {
+      "eyebrow": "Writality Discord",
+      "title": "Come show me what you are building ;)",
+      "description": "Bugs and feature requests are still welcome in the app, but Discord is the better place for in-depth discussions: screenshots, story graphs, questions, bugs that require more details, tiny wins, and the ideas that may require a back and forth."
+    },
+    "discordSettings": {
+      "description": "Share feedback, bugs, feature requests, stories, and graphs.",
+      "featureRequests": {
+        "title": "Feature requests",
+        "description": "The app form is useful, but in case we need more we have Discord now. We can talk through the shape of features and share reference images."
+      },
+      "bugsWithContext": {
+        "title": "Bugs with context",
+        "description": "Some bugs need a screenshot, a short back-and-forth, or the exact shape of a workspace. This gives us room for that."
+      },
+      "showAndTell": {
+        "title": "Show-and-tell",
+        "description": "I keep building graph and story tools because I want people to use them for strange, specific, beautiful projects. Please show me."
+      }
+    },
+    "workspace": {
+      "description": "Customise your workspace appearance and preferences",
+      "editorAppearance": {
+        "previewDescription": "Preview how your editor will look",
+        "conceptTitle": "Concept editor appearance",
+        "description": "Customise editor backgrounds and labels.",
+        "segmentTitle": "Segment editor appearance",
+        "switchTo": "Switch view",
+        "title": "Editor appearance"
+      },
+      "theme": {
+        "title": "Theme",
+        "description": "Choose your preferred interface theme. We have custom themes for you to choose from and ensure a comfortable writing experience.",
+        "showLess": "Show Less",
+        "browseAll": "Browse All {{count}} Themes",
+        "customTheme": {
+          "import": "Import theme",
+          "description": "Name your theme, tune the colour classes, and preview how common app UI will look.",
+          "name": "Theme name",
+          "save": "Save theme",
+          "saved": "Theme saved",
+          "deleted": "Theme deleted",
+          "imported": "Theme imported",
+          "exported": "Theme exported",
+          "conflict": "Theme name conflicts with an existing theme",
+          "defaultName": "My Theme",
+          "defaultSlug": "my-theme",
+          "saveError": "Failed to save theme",
+          "errors": {
+            "nameRequired": "Theme name is required.",
+            "nameConflictsBundled": "Theme name conflicts with a bundled theme.",
+            "nameExists": "Theme name already exists."
+          },
+          "groups": {
+            "core": "Core",
+            "border": "Borders & Inputs",
+            "sidebar": "Primary Sidebar",
+            "secondarySidebar": "Secondary Sidebar",
+            "editor": "Editor & Labels"
+          },
+          "export": "Export {{name}}",
+          "saveNew": "Save as new theme",
+          "unsavedDraft": "Unsaved",
+          "options": {
+            "grainy": {
+              "label": "Grain texture",
+              "description": "Applies subtle grain textures to selected surfaces. This does not work reliably on low DPI screens."
+            },
+            "rounded": {
+              "label": "Rounded corners",
+              "description": "Rounds corners across app surfaces. Turn off for square corners."
+            },
+            "sidebarItemBorders": {
+              "label": "Sidebar indentation lines",
+              "description": "Shows vertical indentation guide lines in sidebars."
+            }
+          },
+          "delete": "Delete theme",
+          "deleteTitle": "Delete theme?"
+        },
+        "projectAppearance": {
+          "title": "Use project-specific appearance",
+          "description": "When off, the app uses your global appearance. When on, this project keeps its own theme and fonts."
+        }
+      },
+      "fonts": {
+        "title": "Fonts",
+        "interface": {
+          "title": "Interface Font",
+          "description": "Used for controls, menus, and everyday UI text.",
+          "previewTitle": "Interface Preview"
+        },
+        "heading": {
+          "title": "Title Font",
+          "description": "Used for H1-H4 headings across the app.",
+          "previewTitle": "Title Preview"
+        },
+        "custom": {
+          "title": "Custom fonts",
+          "description": "Upload .ttf, .otf, .woff, or .woff2 fonts from your computer.",
+          "addButton": "Add custom font",
+          "empty": "No custom fonts added yet.",
+          "added": "Custom fonts added.",
+          "skipped": "Some fonts were already added and were skipped.",
+          "addFailed": "Failed to add custom fonts.",
+          "removeFailed": "Failed to remove custom font."
+        }
+      },
+      "scale": {
+        "title": "Scale",
+        "description": "Adjust the overall interface size for comfort.",
+        "ariaLabel": "App scale",
+        "ariaLabelPercent": "App scale percentage",
+        "smaller": "Smaller",
+        "larger": "Larger",
+        "quickPresets": "Quick presets",
+        "tip": "Tip: 100% matches the default layout. Use presets for quick switches and the slider for fine tuning."
+      },
+      "split": {
+        "tileToLeft": "Tile to Left",
+        "tileToRight": "Tile to Right"
+      },
+      "editorBackground": {
+        "previewTitle": "Background preview"
+      }
+    },
+    "profile": {
+      "description": "Manage your author identity for this workspace.",
+      "displayName": {
+        "title": "Display Name",
+        "description": "This is the name the app refers to you by and is used in places like the project activity feed. It does not have to be unique and can be changed at any time."
+      },
+      "errors": {
+        "nameRequired": "Name cannot be empty",
+        "updateFailed": "Failed to update profile"
+      }
+    },
+    "modules": {
+      "description": "Enable or disable project modules to simplify the interface.",
+      "available": "Available Modules",
+      "toggleAria": "Toggle {{module}} module",
+      "items": {
+        "timeline": {
+          "label": "Timeline & Chronology",
+          "description": "Chronology view, calendar tools, and concept dates.",
+          "disabledDescription": "Turning this off hides Chronology and calendar-related controls. Timeline settings and dates are not deleted and will reappear when enabled."
+        },
+        "manuscript": {
+          "label": "Manuscript",
+          "description": "Manuscript composition, sidebar tab, and manuscript reader.",
+          "disabledDescription": "Turning this off hides Manuscripts in the sidebar and related features. Existing manuscripts will not be deleted and will reappear if you turn the module back on."
+        },
+        "storygraph": {
+          "description": "Relationship graph on Dashboard.",
+          "disabledDescription": "Turning this off hides Story Graph on Dashboard. Existing concepts and relationships are not deleted and will reappear if you turn the module back on."
+        },
+        "kanban": {
+          "description": "Task board powered by Kanban-scoped tags and notes.",
+          "disabledDescription": "Turning this off hides the Kanban board. Existing Kanban tags and note assignments are not deleted and will reappear if you turn the module back on."
+        },
+        "map": {
+          "description": "Map editor, pins, regions, and cartography tools.",
+          "disabledDescription": "Turning this off hides the Cartography workspace. Existing maps, pins, regions, and artwork are not deleted and will reappear if you turn the module back on."
+        }
+      }
+    },
+    "commands": {
+      "description": "Quick actions and keyboard shortcuts for navigating the app",
+      "palette": {
+        "enterCommandMode": "Enter command mode",
+        "closePalette": "Close palette"
+      },
+      "pageCommands": {
+        "title": "Page Commands"
+      },
+      "shortcuts": {
+        "title": "Keyboard Shortcuts",
+        "openGlobalSearch": "Open global search",
+        "closeCurrentTab": "Close current tab",
+        "backInTabHistory": "Back in tab history",
+        "forwardInTabHistory": "Forward in tab history",
+        "togglePrimarySidebar": "Toggle primary sidebar",
+        "switchTabsByIndex": "Switch tabs by index",
+        "findInEditor": "Find in editor",
+        "toggleSegmentConceptSidebar": "Toggle segment/concept sidebar"
+      }
+    },
+    "workspaceLocation": {
+      "description": "Manage where Writality finds and stores your workspace data.",
+      "connectWorkspace": "Open an existing workspace",
+      "connectWorkspaceDescription": "Point Writality to a workspace folder that is already on this computer or drive. This changes which workspace opens; it does not move any files.",
+      "moveWorkspace": "Move your workspace",
+      "moveWorkspaceDescription": "Move this workspace folder and all of its project data to a new location. Writality will update the saved location and restart when the move is complete.",
+      "currentDataLocation": "Your current data location",
+      "chooseNewLocation": "Destination for this workspace",
+      "browse": "Browse",
+      "selectNewLocationHint": "Select a new location to see the workspace path preview.",
+      "chooseDifferentFolder": "Choose a different folder from your current File Location.",
+      "beforeContinue": "Before you continue",
+      "warningDoNotClose": "Do not close the app while the move is in progress.",
+      "warningFreeSpace": "Make sure the destination drive has enough free space.",
+      "moveAndRestart": "Move files and restart",
+      "confirmTitle": "Confirm Workspace Move",
+      "confirmDescription": "This will move your workspace folder, update the saved location, and restart the app.",
+      "typeToConfirmSuffix": "to confirm",
+      "workspaceNameFallback": "workspace name",
+      "moving": "Moving...",
+      "confirmAndMove": "Confirm and Move",
+      "movedTo": "Workspace moved to: {{path}}",
+      "changeDir": "Open existing workspace",
+      "changedTo": "Workspace location changed to: {{path}}",
+      "rename": {
+        "description": "Rename the workspace folder without changing its location or contents.",
+        "confirmTitle": "Confirm workspace rename",
+        "confirmDescription": "This will rename the workspace folder, update its saved location, and restart the app.",
+        "renaming": "Renaming...",
+        "renamedTo": "Workspace renamed to: {{path}}",
+        "error": "Failed to rename workspace"
+      },
+      "errors": {
+        "loadCurrent": "Could not load current File Location",
+        "openPicker": "Could not open folder picker",
+        "move": "Failed to move workspace",
+        "changeDir": "Failed to change workspace location: {{message}}"
+      }
+    },
+    "deleted": {
+      "description": "Restore your work or remove it forever. Items stay here until you permanently delete them.",
+      "recentlyDeleted": "Recently deleted",
+      "searchPlaceholder": "Search deleted items...",
+      "restoreSelected": "Restore selected",
+      "deleteSelected": "Delete selected",
+      "selectedCount": "{{count}} selected",
+      "selectProject": "Select or create a project to manage deleted items.",
+      "failedToLoad": "Failed to load deleted items.",
+      "emptyFiltered": "No deleted items match your search.",
+      "empty": "Nothing here right now. Deleted items will show up as you remove them.",
+      "deletePermanently": "Delete permanently",
+      "table": {
+        "selectAllAria": "Select all deleted items",
+        "selectItemAria": "Select {{name}}",
+        "item": "Item"
+      },
+      "toast": {
+        "restored": "{{type}} restored",
+        "permanentlyDeleted": "{{type}} permanently deleted",
+        "failedRestore": "Failed to restore item",
+        "failedDelete": "Failed to delete item",
+        "bulkRestored_one": "{{count}} item restored",
+        "bulkDeleted_one": "{{count}} item permanently deleted",
+        "failedBulk": "Failed to {{action}} selected items"
+      }
+    },
+    "tags": {
+      "description": "View every tag in this project, sort by usage, and delete tags you no longer need.",
+      "failedToLoad": "Failed to load tags",
+      "empty": "No tags in this project yet.",
+      "filterPlaceholder": "Filter tags...",
+      "deleteAria": "Delete tag {{name}}",
+      "deleted": "Tag deleted",
+      "updated": "Tag updated",
+      "duplicateName": "A tag with this name already exists.",
+      "failedCreate": "Failed to create tag",
+      "failedDelete": "Failed to delete tag",
+      "failedUpdate": "Failed to update tag",
+      "failedUpdateOrder": "Failed to update tag order",
+      "orderUpdated": "Tag order updated",
+      "dragHandle": "Reorder {{name}}",
+      "table": {
+        "order": "Order",
+        "usedOn": "Used On"
+      },
+      "createNewTag": "Create New Tag",
+      "addTag": "Add a tag",
+      "enterTagName": "Enter tag name...",
+      "selectScopes": "Select scopes...",
+      "editTag": "Edit Tag",
+      "saveChanges": "Save Changes",
+      "createTag": "Create Tag",
+      "moveFirst": "Move to front",
+      "moveLeft": "Move left",
+      "moveRight": "Move right",
+      "otherTags": "Other tags"
+    },
+    "blocks": {
+      "description": "Create and manage reusable writing blocks for this project.",
+      "failedToLoad": "Failed to load blocks",
+      "empty": "No blocks in this project yet.",
+      "emptyHint": "Blocks are reusable pieces of writing you can quickly insert whilst drafting to stay consistent and save time.",
+      "emptyCreateHelp": "Blocks can be created in the editor by selecting text and then clicking create",
+      "emptyExample1": "A chapter opening you reuse across scenes",
+      "emptyExample2": "A character description template for new cast members",
+      "emptyExample3": "A standard note format for world-building details",
+      "filterPlaceholder": "Filter blocks...",
+      "favoriteAria": "Toggle favourite for block {{name}}",
+      "renameAria": "Rename block {{name}}",
+      "deleteAria": "Delete block {{name}}",
+      "renameTitle": "Rename Block",
+      "table": {
+        "name": "Block",
+        "used": "Used",
+        "updated": "Updated"
+      },
+      "toast": {
+        "renamed": "Block renamed",
+        "deleted": "Block deleted",
+        "failedRename": "Failed to rename block",
+        "failedDelete": "Failed to delete block",
+        "failedFavorite": "Failed to update favourite"
+      }
+    },
+    "importSettings": {
+      "description": "Drop Word or Markdown files, then review and place them one at a time so the import feels deliberate instead of overwhelming.",
+      "bringFiles": "Bring files into your project",
+      "supportedFormats": "Supported formats: {{formats}}. Each file is imported as a new entity.",
+      "dropOrChoose": "Drop files here or choose them manually",
+      "dropHint": "Your files will be converted into concepts or segments according to your selection.",
+      "chooseFiles": "Choose files",
+      "progressHint": "We use the first heading for the title when available, then guide you one file at a time.",
+      "importProgress": "Import progress",
+      "clearImported": "Clear imported",
+      "nothingQueued": "Nothing queued yet.",
+      "whereShouldThisGo": "Where should this go?",
+      "whereHint": "Pick the destination for this file, import it, then continue with the next one.",
+      "segmentDescription": "Part of a larger document structure. Best for chapters, scenes, sections, or sequential content.",
+      "conceptDescription": "A standalone idea or reference. Best for notes, lore, definitions, characters, and connected knowledge.",
+      "removeFile": "Remove this file",
+      "importAs": "Import as",
+      "segments": "segments",
+      "concepts": "concepts",
+      "segmentSplitTitle": "Split by headings",
+      "segmentSplitHint": "Create a new item each time a selected heading appears.",
+      "segmentSplitActiveHint": "Splitting on: {{levels}}",
+      "segmentSplitNone": "Do not split",
+      "segmentSplitHeading": "Heading {{level}}",
+      "segmentSplitHeadingShort": "H{{level}}",
+      "moreFilesWaiting_one": "{{count}} more file waiting after this one",
+      "stillParsing_one": "{{count}} file still parsing",
+      "noMoreFilesWaiting": "No more files waiting after this one",
+      "upNext": "Up next:",
+      "batchHandled": "Everything in this batch has been handled.",
+      "imported": "Imported {{name}}.",
+      "importedSplit": "Imported {{name}} as {{count}} {{target}}.",
+      "status": {
+        "parsing": "Parsing",
+        "ready": "Ready",
+        "imported": "Imported",
+        "error": "Error"
+      },
+      "errors": {
+        "dropSupported": "Drop .docx or Markdown files to import them.",
+        "parse": "Could not parse file",
+        "someSkipped": "Some files were skipped because only .docx and Markdown are supported.",
+        "importFailed": "Import failed"
+      }
+    },
+    "updates": {
+      "description": "Check for software updates and manage data backups",
+      "checking": "Checking...",
+      "checkForUpdates": "Check for Updates",
+      "toast": {
+        "noUpdates": "No updates available",
+        "updateAvailable": "Update available: {{version}}",
+        "startingDownload": "Starting download...",
+        "updateDownloaded": "Update downloaded: {{version}}",
+        "updateError": "Update error: {{message}}",
+        "failedCheck": "Failed to check for updates",
+        "failedDownload": "Failed to download update",
+        "failedInstall": "Failed to install update",
+        "backupCreated": "Backup created successfully",
+        "failedCreateBackup": "Failed to create backup",
+        "backupRestored": "Backup restored successfully",
+        "failedRestoreBackup": "Failed to restore backup",
+        "backupDeleted": "Backup deleted successfully",
+        "failedDeleteBackup": "Failed to delete backup",
+        "unknownError": "Unknown error",
+        "failedUpdateGeneric": "Update failed. Please try again."
+      },
+      "status": {
+        "versionInfoPending": "Version info will appear as soon as the updater checks in.",
+        "scanning": "Scanning for newer builds...",
+        "buildReady": "Build {{version}} is staged and ready when you are.",
+        "synced": "You're synced with the latest stable release.",
+        "joined": "Joined {{date}}",
+        "buildLabel": "Writality build",
+        "currentVersion": "Current Version"
+      },
+      "download": {
+        "newVersionAvailable": "New Version Available",
+        "releaseNotes": "Release Notes:",
+        "downloadUpdate": "Download Update",
+        "installUpdate": "Install Update"
+      },
+      "backups": {
+        "title": "Data Backups",
+        "searchPlaceholder": "Search backups...",
+        "createBackup": "Create Backup",
+        "manualBackup": "Manual backup",
+        "restoreConfirm": "Are you sure you want to restore this backup? This will overwrite your current data.",
+        "deleteDescription": "This will permanently remove the selected backup.",
+        "totalSize": "Total Size",
+        "restoreBackup": "Restore backup",
+        "empty": "No backups yet. Create your first backup to protect your data.",
+        "description": "Database backups are full app restore snapshots. Use these when you want a restorable copy of the Writality workspace."
+      },
+      "notification": {
+        "isAvailable": "is available"
+      }
+    },
+    "readableBackups": {
+      "description": "Keep readable Markdown or Word copies of your project outside Writality.",
+      "noProject": "Select or create a project to configure readable backups.",
+      "runNow": "Back up now",
+      "lastSuccess": "Last readable backup: {{date}}",
+      "noSuccessfulRun": "No readable backup has completed yet.",
+      "pending": "{{count}} pending",
+      "toasts": {
+        "runComplete": "Readable backup completed"
+      },
+      "readable": {
+        "enable": "Enable readable backups",
+        "description": "Readable backups write Segments, Concepts, and Notes as Markdown or Word files in a folder you choose, so your work remains accessible outside Writality.",
+        "disabled": "Turn on readable backups to configure folder, formats, and manual sync.",
+        "implications": "The first backup creates files for existing content and may take a while, especially with DOCX. You can keep writing while it runs. Future edits are exported after about {{seconds}} seconds of inactivity. Markdown is faster and more portable; DOCX is richer but heavier. Changing the folder starts a fresh sync in the new location and leaves the old files untouched. These readable files are not full app restore snapshots; use Updates & Backups for database backups."
+      },
+      "folder": {
+        "title": "Backup folder",
+        "missing": "Choose a folder before enabling readable backups.",
+        "choose": "Choose folder"
+      },
+      "formats": {
+        "markdown": "Markdown (.md)",
+        "docx": "Word (.docx)"
+      },
+      "status": {
+        "idle": "Not started",
+        "queued": "Preparing initial backup",
+        "running": "Backing up existing content",
+        "complete": "Initial backup complete",
+        "paused": "Backup paused"
+      }
+    },
+    "languageSettings": {
+      "title": "App Language",
+      "description": "Choose the language used for Writality's interface and spellcheck.",
+      "note": "App language changes the UI text only.",
+      "communityLanguages": "Community languages",
+      "communityLanguagesDescription": "Install community translations for offline use, then refresh them when updates are available.",
+      "communityLanguagesOffline": "Could not fetch community languages. Installed languages still work offline.",
+      "noCommunityLanguages": "No community languages are installed yet.",
+      "installed": "Installed",
+      "updateAvailable": "Update available",
+      "installedOffline": "Installed locally",
+      "completionPercent": "{{percent}}% translated",
+      "installedVersion": "Installed {{version}}",
+      "install": "Install",
+      "update": "Update",
+      "installFailed": "Failed to install language.",
+      "installComplete": "{{language}} installed.",
+      "refreshFailed": "Failed to refresh language.",
+      "refreshComplete": "{{language}} refreshed.",
+      "removeFailed": "Failed to remove language.",
+      "removeComplete": "{{language}} removed."
+    },
+    "dictionary": {
+      "description": "Manage your custom dictionary words",
+      "clearAll": "Clear All",
+      "loading": "Loading dictionary...",
+      "spellcheck": "Spellcheck",
+      "enableSpellcheck": "Enable Spellcheck",
+      "spellcheckDescription": "Show misspelling underlines and spelling suggestions in the editor.",
+      "spellcheckLanguage": "Spellcheck Language",
+      "enableSpellcheckToChange": "Enable spellcheck to change language preferences.",
+      "toastLanguageFallback": "Could not apply {{requested}}. Using {{effective}} instead.",
+      "activeLanguageMismatch": "Spellcheck language mismatch: requested language {{requested}}, but your system language is {{active}}.",
+      "toggle": "Toggle spellcheck",
+      "clearDialogDescription": "This will remove all {{count}} {{wordLabel}} from your custom dictionary. This action cannot be undone.",
+      "clearDialogTitle": "Clear Custom Dictionary?",
+      "clearDictionary": "Clear Dictionary",
+      "empty": "Your custom dictionary is empty.",
+      "emptyHint": "Add words above or click \"Add to Dictionary\" when spell-checking.",
+      "enterWord": "Enter a word to add...",
+      "searchWords": "Search words...",
+      "failedToUpdateSpellcheck": "Failed to update spellcheck.",
+      "macNote": "Note: For macOS, spell check is controlled by your system language settings, which may not match the language you selected. Change your system language and restart the app to apply.",
+      "word": "word",
+      "yourDictionary": "Your Dictionary ({{count}} {{wordLabel}})",
+      "removeWord": "Remove word"
+    },
+    "bugs": {
+      "description": "Report a bug or view existing reports.",
+      "dialogDescription": "Writality doesn't collect any user data. Bug reports are the only way we can improve the application. Thank you for helping make Writality better!",
+      "titlePlaceholder": "Brief description of the bug",
+      "descriptionPlaceholder": "Please provide detailed steps to reproduce the bug...",
+      "knownBugsPrefix": "Known bugs",
+      "knownBugsSuffix": "are listed in settings.",
+      "submit": "Submit Report",
+      "submitting": "Submitting...",
+      "submitted": "Bug report submitted! Thank you for your feedback.",
+      "failed": "Failed to submit bug report",
+      "viewKnownBugs": "View known bugs in settings",
+      "searchPlaceholder": "Search bug reports...",
+      "filterByStatus": "Filter by status",
+      "emptyFiltered": "No bug reports match your filters.",
+      "empty": "No bugs reported yet.",
+      "table": {
+        "status": "Status"
+      },
+      "status": {
+        "not_started": {
+          "label": "Not Started",
+          "description": "This bug has been reported but not yet reviewed or worked on."
+        },
+        "started": {
+          "label": "In Progress",
+          "description": "This bug is currently being investigated or worked on."
+        },
+        "completed": {
+          "description": "This bug has been fixed and the solution is live."
+        },
+        "rejected": {
+          "label": "Rejected",
+          "description": "This bug report was reviewed but will not be addressed."
+        }
+      },
+      "discordPrompt": "You can also join the Discord for feature requests, bugs, screenshots, story graphs, and general Writality talk."
+    },
+    "changelog": {
+      "description": "Recent updates and release notes",
+      "empty": "No changelog entries are bundled with this build.",
+      "selectEntry": "Select a changelog entry."
+    },
+    "versionSettings": {
+      "description": "Control how minor versions are retained for this project.",
+      "retentionTitle": "Minor Version Retention",
+      "unlimited": "Unlimited (default, no automatic cleanup)",
+      "keepLast": "Keep last {{count}} minor versions",
+      "custom": "Custom limit",
+      "customPlaceholder": "Enter a number",
+      "customHint": "Press Enter or leave the field to save the custom limit.",
+      "customInvalid": "Use a whole number greater than 0.",
+      "customSaved": "Keeping the last {{count}} minor versions.",
+      "footprint": "Version snapshots are text-only and typically have a small storage footprint for most projects.",
+      "duplicates": "Identical minor versions are never saved because we compare content hashes first.",
+      "updateFailed": "Failed to update version retention."
+    },
+    "debug": {
+      "description": "View application logs and debug information",
+      "console": {
+        "filters": {
+          "all": "All",
+          "errors": "Errors",
+          "warnings": "Warnings",
+          "info": "Info",
+          "success": "Success",
+          "debug": "Debug",
+          "migration": "Migration"
+        },
+        "never": "Never",
+        "exported": "Logs exported to {{path}}",
+        "exportFailed": "Failed to export logs",
+        "description": "Inspect runtime logs and diagnostics.",
+        "refreshing": "Refreshing…",
+        "failedToLoad": "Failed to load logs",
+        "clearLogs": "Clear logs",
+        "loadingLogs": "Loading logs…",
+        "emptyFilter": "No logs for this filter",
+        "total": "Total: {{count}}",
+        "errors": "Errors: {{count}}",
+        "warnings": "Warnings: {{count}}"
+      }
+    },
+    "externalLinks": {
+      "description": "Manage reusable research links for this project.",
+      "failedToLoad": "Failed to load external links",
+      "empty": "No external links in this project yet.",
+      "emptyHint": "External links keep sources, articles, videos, interviews, and reference material close to your writing.",
+      "emptyCreateHelp": "Select text in the editor, choose Create, then Create External Link to add your first source.",
+      "filterPlaceholder": "Filter external links...",
+      "editAria": "Edit external link {{title}}",
+      "deleteAria": "Delete external link {{title}}",
+      "editTitle": "Edit External Link",
+      "usedCount": "Used {{count}}",
+      "toast": {
+        "updated": "External link updated",
+        "deleted": "External link deleted",
+        "failedUpdate": "Failed to update external link",
+        "failedDelete": "Failed to delete external link"
+      }
+    },
+    "iconPicker": {
+      "searchPlaceholder": "Search icons by name, category",
+      "loadMore": "Load More ({{count}} remaining)",
+      "noIconsFound": "No icons found",
+      "recent": "Recent"
+    },
+    "wordUsage": {
+      "title": "Word Usage",
+      "sentences": "Sentences",
+      "avgWords": "Avg words",
+      "avgWordsPerSentence": "Avg words/sentence",
+      "characters": "Characters",
+      "charactersNoSpaces": "Characters, no spaces",
+      "paragraphs": "Paragraphs",
+      "textStats": "Text Stats",
+      "showTextStats": "Show text stats",
+      "vocabulary": "Vocabulary",
+      "vocabularyDiversity": "Word variety",
+      "uniqueWords": "Unique words",
+      "freshWordsPer100": "{{count}} fresh words per 100.",
+      "per100Words": "per 100 words",
+      "uniqueOfTotalWords": "unique of {{count}} words.",
+      "vocabularyHint": "For fiction, roughly 45-70 often reads natural. Lower can mean repetition or glue-heavy prose; higher can mean dense wording or synonym-chasing.",
+      "readabilitySummary": "Based on the items below. Demanding text may simply have longer sentences or specialist words.",
+      "fleschReference": "Flesch reference",
+      "fleschReferenceGuide": "Flesch reference guide",
+      "fleschReferenceHelp": "Flesch estimates reading ease from sentence length and syllables. Specialist words can lower the score, so compare it with the reader you are writing for.",
+      "strengthScore": "Effort score",
+      "readingEase": "Ease score",
+      "readingEaseHelp": "A 0-100 Flesch Reading Ease score. Higher usually means quicker to read; lower usually means denser.",
+      "gradeLevel": "Grade level",
+      "gradeLevelHelp": "Flesch-Kincaid gives a rough US school grade based on sentence length and syllables. It is about density, not whether the passage is right for your audience.",
+      "estimate": "Estimate",
+      "noReadabilityIssues": "No reading effort items to show.",
+      "readabilityIssues": {
+        "adverbs": "Adverbs",
+        "passiveVoice": "Passive voice",
+        "complexWording": "Complex wording",
+        "hardSentences": "Long sentences",
+        "veryHardSentences": "Very long sentences",
+        "wordRepetition": "Repeated words",
+        "characterRepetition": "Repeated sounds",
+        "badStyle": "Punctuation and slang",
+        "weakWords": "Vague words",
+        "strongWords": "Vivid words"
+      },
+      "readabilityIssueHelp": {
+        "adverbs": "Shows adverbs and words ending in -ly. They can add nuance; if a line feels slow, check whether the verb already says enough.",
+        "passiveVoice": "Shows likely passive voice, where something has an action done to it. This can be useful when the actor does not matter, and less clear when the actor should be named.",
+        "complexWording": "Shows very long words and a small list of complex words. Technical or science terms may belong here; check whether your reader will know them.",
+        "hardSentences": "Shows sentences of 20-24 words. Long sentences can work well; this helps you find places where readers may need more breath.",
+        "veryHardSentences": "Shows sentences of 25 words or more. These can suit complex action, reflection, or voice; they may just ask more from the reader.",
+        "wordRepetition": "Shows repeated words close together. Repetition can create rhythm, emphasis, or a motif; this helps you spot it.",
+        "characterRepetition": "Shows neighbouring words with matching starts or endings. These echoes can add music, texture, or emphasis; this helps you notice clusters.",
+        "badStyle": "Shows repeated punctuation and informal spellings such as gonna, kinda, or tho. Some belong in voice or dialogue; this makes them easy to check.",
+        "weakWords": "Shows broad or uncertain words such as maybe, somewhat, thing, or seems. They can soften voice or leave room for doubt.",
+        "strongWords": "Shows vivid, precise, or energetic words. Use it to see where the writing has extra charge."
+      },
+      "sentenceLength": "Sentence Length",
+      "flow": "Flow",
+      "flowHint": "Use the chart below to see how sentence length varies across the text.",
+      "sentenceRhythm": "Sentence Rhythm",
+      "sentenceRhythmChartLabel": "Sentence rhythm chart",
+      "sentenceRhythmBarLabel": "Sentence {{index}}: {{wordCount}} words, {{label}}",
+      "sentenceLabel": "Sentence {{index}}",
+      "sentenceRhythmHint": "Each bar is a sentence; taller bars mean more words.",
+      "noSentences": "No sentences yet.",
+      "noParagraphs": "No paragraphs yet.",
+      "paragraphDensityDotLabel": "Paragraph {{index}}: {{label}}, {{wordCount}} words",
+      "paragraphDensityTooltip": "Paragraph {{index}} · {{label}} · {{wordCount}} words",
+      "englishAnalysisUnavailable": "English-specific sentence opener and readability rules are unavailable for the selected writing language.",
+      "englishReadabilityUnavailable": "English-specific Flesch and style checks are unavailable for the selected writing language. Repetition and sentence length are still checked.",
+      "sentenceLengthLabels": {
+        "veryLong": "Very long"
+      },
+      "densityLabels": {
+        "simple": "Simple",
+        "moderate": "Moderate",
+        "complex": "Complex",
+        "dense": "Dense"
+      },
+      "densityHelp": {
+        "simple": "1–25 words. Select to highlight all simple paragraphs.",
+        "moderate": "26–60 words. Select to highlight all moderate paragraphs.",
+        "complex": "61–100 words. Select to highlight all complex paragraphs.",
+        "dense": "101+ words. Select to highlight all dense paragraphs."
+      },
+      "openerLabels": {
+        "dialogue": "Dialogue",
+        "pronoun": "Pronoun",
+        "article": "Article",
+        "conjunction": "Conjunction",
+        "preposition": "Preposition",
+        "adverb": "Adverb",
+        "properNoun": "Proper noun",
+        "other": "Other"
+      },
+      "openerHelp": {
+        "dialogue": "Starts with quoted dialogue using straight or curly quote marks.",
+        "pronoun": "Starts with a pronoun, such as she, they, it, or this.",
+        "article": "Starts with an article: a, an, or the.",
+        "conjunction": "Starts with a joining word, such as and, but, or because.",
+        "preposition": "Starts with a relationship word, such as under, near, or with.",
+        "adverb": "Starts with a known adverb or a word ending in -ly.",
+        "properNoun": "Starts with a likely specific name. Capitalisation alone is not treated as enough evidence.",
+        "other": "Does not match one of the opener patterns above."
+      },
+      "strengthLabels": {
+        "strong": "Easy read",
+        "good": "Mostly easy",
+        "needsPolish": "Takes focus",
+        "drafty": "Demanding read"
+      },
+      "readabilityLabels": {
+        "veryEasy": "Very easy",
+        "easy": "Easy",
+        "fairlyEasy": "Fairly easy",
+        "plainEnglish": "Plain English",
+        "fairlyDifficult": "Fairly difficult",
+        "difficult": "Difficult",
+        "veryDifficult": "Very difficult"
+      },
+      "averageWords": "Avg {{count}} words",
+      "end": "End",
+      "paragraphDensity": "Paragraph Density",
+      "paragraphDensityHint": "Each dot is a paragraph - darker reads denser.",
+      "structure": "Structure",
+      "sentenceOpener": "Sentence Opener",
+      "sentenceOpenerHint": "What part of speech starts each sentence.",
+      "searchPlaceholder": "Search word...",
+      "searchAriaLabel": "Search word usage",
+      "saveWordAriaLabel": "Save searched word",
+      "queryCount": "\"{{word}}\" appears {{count}} times",
+      "searchHelper": "Search or pick a common word to see its usage count.",
+      "commonWords": "Common words",
+      "frequentWords": "Frequent words",
+      "savedWords": "Saved words",
+      "noSavedWords": "No saved words yet.",
+      "removeSavedWord": "Remove saved word {{word}}",
+      "help": {
+        "overview": "Counts are based on the editor text: words, detected sentences, and average words per sentence.",
+        "vocabulary": "Word variety estimates how many fresh, non-common words appear per 100 words. It describes texture; it is not a quality score.",
+        "readability": "A rough guide to how much effort the text may take to read, based on countable patterns such as sentence length, repetition, passive voice, adverbs, specialist-looking words, vague words, and informal spellings. Demanding text is not necessarily worse; audience, genre, and purpose matter.",
+        "flow": "Each vertical bar is a sentence, coloured by length. Select a length below to highlight every matching sentence in the editor.",
+        "sentenceLength": "Buckets are Writality rhythm markers: 1-8, 9-16, 17-24, and 25+ words. They help spot pacing, not correctness.",
+        "sentenceRhythm": "Each bar represents one sentence. Long passages scroll horizontally so every sentence stays hoverable.",
+        "structure": "Density is based on words per paragraph. Openers use lightweight word-list heuristics for how sentences begin.",
+        "paragraphDensity": "Density is based on words per paragraph: 1-25, 26-60, 61-100, and 101+ words.",
+        "sentenceOpener": "Openers use lightweight word-list heuristics for pronouns, articles, conjunctions, prepositions, adverbs, proper nouns, and other starts.",
+        "wordUsage": "Frequent words come from this project after common stopwords are filtered for the selected spellcheck language."
+      }
+    }
+  }
+}

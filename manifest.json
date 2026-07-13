@@ -1,5 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T16:05:52.860Z",
-  "languages": []
+  "generatedAt": "2026-07-13T21:14:58.528Z",
+  "languages": [
+    {
+      "locale": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "version": "0b8b3ea992b0-de",
+      "completionPercent": 59.8,
+      "downloadUrl": "https://raw.githubusercontent.com/Writality/translations/main/packs/de.json",
+      "sha256": "7ae1a658b66c03b594354c509245d640a893bcb90cdca351c215582a243051e4",
+      "sizeBytes": 67269
+    },
+    {
+      "locale": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "version": "0b8b3ea992b0-es",
+      "completionPercent": 66.4,
+      "downloadUrl": "https://raw.githubusercontent.com/Writality/translations/main/packs/es.json",
+      "sha256": "5e8ec74b0cfaec8a922f9639262ff42195c046a878d7ad089f6d1d139c343a2e",
+      "sizeBytes": 84397
+    },
+    {
+      "locale": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "version": "0b8b3ea992b0-fr",
+      "completionPercent": 66.4,
+      "downloadUrl": "https://raw.githubusercontent.com/Writality/translations/main/packs/fr.json",
+      "sha256": "6bf25e55307d7563e4ec757485b5977b7275058ba3e8ea0aa82d02d52081b12d",
+      "sizeBytes": 74889
+    },
+    {
+      "locale": "pt",
+      "name": "Portuguese",
+      "nativeName": "Português",
+      "version": "0b8b3ea992b0-pt",
+      "completionPercent": 100,
+      "downloadUrl": "https://raw.githubusercontent.com/Writality/translations/main/packs/pt.json",
+      "sha256": "79ed424eebb63b4050672855dc8fd8284941db9b162cc32a59c05d37107905d3",
+      "sizeBytes": 122841
+    }
+  ]
 }

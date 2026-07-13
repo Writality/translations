@@ -1,0 +1,2578 @@
+{
+  "schemaVersion": 1,
+  "locale": "pt",
+  "name": "Portuguese",
+  "nativeName": "Português",
+  "version": "0b8b3ea992b0-pt",
+  "sourceRevision": "0b8b3ea992b00150173bc8af8bde97a066b62543",
+  "resources": {
+    "chronology": {
+      "conceptList": {
+        "emptyState": "Nenhuma data ainda",
+        "searchPlaceholder": "Procurar conceitos"
+      },
+      "empty": {
+        "calendarSystem": {
+          "description": "Defina seu sistema de calendário para começar a rastrear datas."
+        },
+        "customEras": {
+          "description": "Defina eras para organizar sua linha do tempo.",
+          "title": "Eras personalizadas"
+        },
+        "setup": "Definir cronologia",
+        "timelineTracking": {
+          "description": "Acompanhe datas e eventos no mundo de sua história.",
+          "title": "Aconpanhamento de linha do tempo"
+        }
+      },
+      "eventPreview": {
+        "conceptNotFound": "Conceito não encontrado",
+        "goTo": "Ir para conceito",
+        "noConceptDescription": "Nenhuma descrição de conceito",
+        "noDateDescription": "Nenhuma descrição de data",
+        "relatedEntities": "Entidades relacionadas"
+      },
+      "minimap": {
+        "addConceptDate": "Adicionar data ao conceito",
+        "moveTimeline": "Mover linha do tempo"
+      },
+      "quickAdd": {
+        "description": "Adicionar uma data à linha do tempo rapidamente.",
+        "labelPlaceholder": "Etiqueta",
+        "submit": "Adicionar à linha do tempo",
+        "title": "Adição rápida",
+        "addTimelineDate": "Adicionar data à linha do tempo",
+        "editTimelineDate": "Editar data da linha do tempo",
+        "addDescription": "Escolha um conceito e confirme a data para adicioná-lo à linha do tempo.",
+        "editDescription": "Ajuste os detalhes da data e salve suas alterações.",
+        "labelInputPlaceholder": "Ex: nascimento, fundação, coroação",
+        "selectConceptPlaceholder": "Selecione um conceito",
+        "newEvent": "Novo evento",
+        "loadingDateDetails": "Carregando detalhes da data...",
+        "couldNotLoadSelectedDate": "Não foi possível carregar a data selecionada.",
+        "selectEntitiesPlaceholder": "Selecione conceitos e segmentos..."
+      },
+      "toolbar": {
+        "jumpLeft": "Pular à esquerda",
+        "jumpRight": "Pular à direita",
+        "panLeft": "Mover à esquerda",
+        "panRight": "Mover à direita",
+        "resetView": "Restaurar visualização",
+        "zoomIn": "Aumentar o zoom",
+        "zoomOut": "Diminuir o zoom",
+        "fitTimeline": "Ajustar a linha do tempo "
+      },
+      "toggleDates": "Alternar datas",
+      "noDatesLinked": "Nenhuma data associada",
+      "previewSegment": "Pré-visualizar {{name}}"
+    },
+    "timeSystem": {
+      "calendar": {
+        "beforeMonth": "Antes do mês",
+        "events": "Eventos",
+        "formatPreview": "Pré-visualizar formato",
+        "fromYear": "A partir do ano",
+        "jumpTo": "Pular para",
+        "leap": "Bissexto ",
+        "moonEvents": {
+          "full": "Lua cheia ",
+          "half": "Meia lua",
+          "new": "Lua nova"
+        },
+        "navigation": "Navegação",
+        "nextYear": "Ano seguinte",
+        "previousYear": "Ano anterior",
+        "seasonEnds": "Estação termina em",
+        "seasonStarts": "Estação começa em",
+        "untilYear": "Até o ano",
+        "yearRange": "Intervalo de anos"
+      },
+      "customDatePicker": {
+        "placeholder": "Insira ",
+        "selectEra": "Selecionar era",
+        "setupHint": "Configure seu calendário antes de escolher datas."
+      },
+      "dateFormatDropdown": {
+        "description": "Configurar caixa suspensa de formato de data.",
+        "noPresetSelected": "Nenhuma predefinição selecionada",
+        "preview": "Pré-visualizar"
+      },
+      "days": {
+        "addCustomDay": "Adicionar dia personalizado",
+        "addSpecialDay": "Adicionar dia especial",
+        "customDaysDescription": "Destacar feriados ou eventos nas datas comuns do calendário. ",
+        "dayNamePlaceholder": "Nome do dia",
+        "description": "Configurar dias.",
+        "leapYearOnly": "Somente ano bissexto",
+        "loading": "Carregando dias...",
+        "noCustomDays": "Nenhum dia personalizado",
+        "noCustomDaysDescription": "Adicione um dia personalizado para começar.",
+        "noSpecialDays": "Nenhum dia especial",
+        "onlyInLeapYears": "Apenas nos anos bissextos",
+        "recurrenceAnnual": "Anual",
+        "recurrenceMonthly": "Mensalmente",
+        "recurrenceOneTime": "Uma única vez",
+        "requiresLeapRule": "Requer regra de ano bissexto",
+        "specialDayDescriptionPlaceholder": "Descreva o dia especial",
+        "specialDayNamePlaceholder": "Nome do dia especial",
+        "specialDaysDescription": "Crie dias adicionais à parte dos meses normais."
+      },
+      "duration": {
+        "addSubtract": "Adicionar subtração",
+        "addToDate": "Adicionar à data",
+        "amountPlaceholder": "Quantidade",
+        "betweenDates": "Entre datas",
+        "endDate": "Data final",
+        "enterCompleteDateAndAmount": "Digite a data e o valor completo",
+        "enterCompleteDates": "Digite datas completas",
+        "negativeHint": "Negativo",
+        "result": "Resultado",
+        "resultPrefix": "{{value}} {{unit}}",
+        "startDate": "Data de início",
+        "startingDate": "Data de início",
+        "swapDates": "Trocar datas",
+        "totalDays": "Total de dias",
+        "unit": "Unidade"
+      },
+      "editor": {
+        "groups": {
+          "calendar": "Calendário"
+        },
+        "preparingPreview": "Preparando",
+        "sections": {
+          "moons": "Luas",
+          "week": "Semana"
+        },
+        "title": "Editor de sistema de tempo"
+      },
+      "eras": {
+        "backwardDescription": "Mostrar eras mais antigas primeiro.",
+        "description": "Configurar eras.",
+        "eraNamePlaceholder": "Nome da era",
+        "forward": "Avançar",
+        "forwardDescription": "Mostrar eras mais recentes primeiro.",
+        "continueYears": "Continuar a numeração dos anos entre as eras",
+        "continueYearsDescription": "Mantenha a numeração de anos do mundo através das eras ao invés de reiniciar cada era no ano 1.",
+        "loading": "Carregando eras...",
+        "moveToBackward": "Mover para trás",
+        "moveToForward": "Mover para frente",
+        "noDatesDefined": "Nenhuma data definida",
+        "noErasDefined": "Nenhuma era definida",
+        "ongoing": "Em andamento",
+        "pickColor": "Escolher cor",
+        "updateFailed": "Falha ao atualizar a era",
+        "year": "Ano",
+        "addBackwardEra": "Adicionar era antes",
+        "addForwardEra": "Adicionar era depois",
+        "startYearPlaceholder": "Ano inicial",
+        "backwardResetHint": "Os anos recomeçam no início de cada era regressiva e aumentam para o passado (ex: \"A.C.\", \"Antes da Era Comum\")",
+        "errorEarlierThanMin": "O ano inicial da era não pode ser anterior a {{year}}.",
+        "errorLaterThanMax": "O ano inicial da era não pode ser posterior a {{year}}."
+      },
+      "months": {
+        "addLeapDay": "Adicionar dia bissexto",
+        "addMonth": "Adicionar mês",
+        "description": "Configurar meses.",
+        "leapDays": "Dias bissextos",
+        "length": "Duração",
+        "loading": "Carregando meses...",
+        "monthNamePlaceholder": "Nome do mês"
+      },
+      "overview": {
+        "calendarStructure": "Estrutura de calendário",
+        "calendarStructureEmptyDescription": "Adicione meses, dias úteis ou dias para definir seu calendário.",
+        "calendarStructureEmptyTitle": "Nenhuma estrutura de calendário ainda",
+        "daysPerMonthAverage": "Média de dias por mês",
+        "daysPerWeek": "Dias por semana",
+        "defined": "Definido",
+        "description": "Configurar visão geral.",
+        "earliestDate": "Data mais antiga",
+        "hoursPerYear": "Horas por ano",
+        "latestDate": "Data mais recente",
+        "loading": "Carregando visão geral...",
+        "monthsPerYear": "Meses por ano",
+        "notSet": "Não definido",
+        "quickStart": "Início rápido",
+        "quickStartDescription": "Configure o seu calendário em poucos passos.",
+        "timelineRange": "Intervalo de linha do tempo",
+        "totalYears": "Total de anos"
+      },
+      "presetSelector": {
+        "apply": "Aplicar",
+        "applyPreset": "Aplicar predefinição",
+        "applyWarning": "Aplicar esta predefinição substituirá seu calendário atual.",
+        "applying": "Aplicando...",
+        "categories": {
+          "real-world": "Mundo real",
+          "historical": "Histórico",
+          "fantasy": "Fantasia",
+          "sci-fi": "Ficção científica"
+        },
+        "moreMonths": "Mais meses",
+        "origin": "Origem",
+        "replace": "Substituir",
+        "replaceDescription": "Substitua o calendário atual com esta predefinição.",
+        "replaceTitle": "Substituir o calendário?",
+        "restDay": "Dia de descanso",
+        "summary": "Resumo",
+        "title": "Seletor de predefinição",
+        "usePreset": "Usar predefinição"
+      },
+      "seasonDatePicker": {
+        "cancelSelection": "Cancelar seleção",
+        "clearDates": "Limpar datas",
+        "loading": "Carregando seletor de datas de estação...",
+        "noMonths": "Nenhum mês",
+        "pickEnd": "Selecione o término",
+        "pickStartEnd": "Selecionar Início Término",
+        "resetDraft": "Limpar rascunho",
+        "wrapHint": "Mantenha Shift pressionado para voltar ao início."
+      },
+      "seasons": {
+        "addSeason": "Adicionar estação",
+        "configureMonthsFirst": "Configurar os meses primeiro",
+        "description": "Configurar estações.",
+        "loading": "Carregando estações...",
+        "pickRange": "Selecionar intervalo",
+        "season": "Estação",
+        "seasonNamePlaceholder": "Nome da estação"
+      },
+      "time": {
+        "description": "Configurar hora",
+        "loading": "Carregando hora...",
+        "secondsPerMinute": "Segundos por minuto",
+        "units": "Unidades",
+        "formattingTitle": "Formatação de hora",
+        "formatLabel": "Formato de hora",
+        "format24h": "24 horas (14:30)",
+        "format12h": "12 horas (2:30 PM)",
+        "separatorLabel": "Separador de hora",
+        "separatorColon": "Dois pontos (:)",
+        "separatorDot": "Ponto (.)",
+        "separatorSpace": "Espaço",
+        "showSecondsInDisplay": "Mostrar segundos na exibição de tempo"
+      },
+      "weekdays": {
+        "addWeekday": "Adicionar dia da semana",
+        "description": "Configurar dias.",
+        "epochWeekday": "Dia da semana inicial",
+        "epochWeekdayDescription": "O primeiro dia do ciclo do calendário.",
+        "loading": "Carregando dias...",
+        "selectWeekday": "Selecionar dia da semana",
+        "weekdayNamePlaceholder": "Nome do dia da semana"
+      },
+      "leapDayModal": {
+        "defaultName": "Ano bissexto",
+        "editTitle": "Editar dia bissexto",
+        "newTitle": "Novo dia bissexto",
+        "rulesTitle": "Regras de ano bissexto",
+        "ruleActionSkip": "Pular",
+        "ruleEveryYears": "A cada {{cycle}} ano(s)",
+        "ruleSkipEveryYears": "mas não a cada {{cycle}} ano(s)",
+        "ruleAndEveryYears": "e a cada {{cycle}} ano(s)",
+        "addRule": "Adicionar regra",
+        "howItWorksTitle": "Como as regras de ano bissexto funcionam:",
+        "howItWorksBody": "As regras são avaliadas em ordem. Um ano é um ano bissexto se corresponde a qualquer regra \"Adicionar\", a menos que também corresponda a uma regra \"Pular\" subsequente. Por exemplo, o calendário Gregoriano adiciona um ano bissexto a cada 4 anos, mas pula a cada 100 anos, a menos que o ano em questão seja divisível por 400."
+      }
+    },
+    "app": {
+      "name": "Writality"
+    },
+    "common": {
+      "loading": "Carregando...",
+      "settings": "Configurações",
+      "search": "Busca",
+      "deleted": "Excluído",
+      "close": "Fechar",
+      "back": "Voltar",
+      "continue": "Continuar",
+      "cancel": "Cancelar",
+      "clear": "Limpar",
+      "import": "Importar",
+      "export": "Exportar",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "more": "Mais",
+      "minimize": "Minimizar",
+      "maximize": "Maximizar",
+      "restore": "Restaurar",
+      "refresh": "Atualizar",
+      "projects": "Projetos",
+      "allProjects": "Biblioteca",
+      "newProject": "Novo projeto",
+      "new": "Novo",
+      "dashboard": "Escritório",
+      "gallery": "Galeria",
+      "chronology": "Cronologia",
+      "files": "Bancada de trabalho",
+      "manuscripts": "Manuscritos",
+      "collapseAllFolders": "Recolher todas as pastas",
+      "expandAllFolders": "Expandir todas as pastas",
+      "collapse": "Recolher",
+      "expand": "Expandir",
+      "continueWhereYouLeftOff": "Continue onde você parou",
+      "language": "Idioma",
+      "english": "Inglês",
+      "spanish": "Espanhol",
+      "french": "Francês",
+      "italian": "Italiano",
+      "portuguese": "Português",
+      "norwegian": "Norueguês",
+      "selectLanguage": "Selecionar idioma",
+      "name": "Nome",
+      "description": "Descrição",
+      "category": "Categoria",
+      "abbreviation": "Abreviatura",
+      "noDescription": "Nenhuma descrição",
+      "item": "item",
+      "german": "Alemão",
+      "dutch": "Holandês",
+      "slovak": "Eslovaco",
+      "russian": "Russo",
+      "save": "Salvar",
+      "update": "Atualizar",
+      "saving": "Salvando...",
+      "add": "Adicionar",
+      "confirm": "Confirmar",
+      "dismiss": "Dispensar",
+      "color": "cor",
+      "open": "Abrir",
+      "remove": "Remover",
+      "default": "Padrão",
+      "concept": "Conceito",
+      "segment": "Segmento",
+      "toggleSection": "Alternar {{section}}",
+      "completed": "Concluído",
+      "shared": {
+        "addADescriptionOptional": "Adicionar uma descrição (opcional)",
+        "addImage": "Adicionar imagem",
+        "addNote": "Adicionar nota",
+        "addRelationship": "Adicionar relacionamento",
+        "added": "Adicionado",
+        "afterMonth": "Após o mês",
+        "aliases": "Nomes alternativos",
+        "appearance": "Aparência",
+        "attributeValue": "Valor do atributo",
+        "attributes": "Atributos",
+        "backups": "Backups",
+        "backward": "Para trás",
+        "beforeFirstMonth": "Antes do primeiro mês",
+        "bugReports": "Relatórios de erro",
+        "calendarSystem": "Sistema de calendário",
+        "cartography": "Cartografia",
+        "changelog": "Histórico de mudanças",
+        "clearAllFilters": "Limpar todos os filtros",
+        "clearFilters": "Limpar filtros",
+        "color": "Cor",
+        "commandsShortcuts": "Comandos e Atalhos",
+        "concept": "conceito",
+        "content": "Conteúdo",
+        "create": "Criar",
+        "createMyOwnTheme": "Criar meu próprio tema",
+        "createType": "Criar tipo",
+        "created": "Criado",
+        "custom": "Personalizado",
+        "customDays": "Dias personalizados",
+        "dashed": "Tracejado",
+        "dateFormat": "Formato da data",
+        "dates": "Datas",
+        "day": "Dia",
+        "daysPerYear": "Dias por ano",
+        "deadline": "Data limite",
+        "deadlineHasPassed": "O prazo venceu.",
+        "deleteBackup": "Excluir backup",
+        "deleteBlock": "Excluir bloco",
+        "deleteExternalLink": "Excluir link externo",
+        "deleteTag": "Excluir marcador",
+        "deleteType": "Excluir tipo",
+        "deleteCount": "Excluir {{name}}",
+        "deletedItems": "Itens excluídos",
+        "dictionary": "Dicionário",
+        "discord": "Discord",
+        "downloading": "Fazendo o download...",
+        "editType": "Editar tipo",
+        "emptySpace": "Espaço em branco",
+        "era": "Era",
+        "externalLinks": "Links externos",
+        "folder": "Pasta",
+        "getStarted": "Vamos começar",
+        "hoursPerDay": "Horas por dia",
+        "httpsExampleComOrDoi": "https://exemplo.com ou DOI",
+        "hyphenation": "Hifenização",
+        "importAttributesFromAnotherConcept": "Importar atributos de outro conceito",
+        "joinTheDiscord": "Junte-se ao Discord",
+        "kanban": "Kanban",
+        "lineHeight": "Altura da linha",
+        "linkTitle": "Título do link",
+        "medium": "Médio",
+        "minutesPerHour": "Minutos por hora",
+        "modules": "Módulos",
+        "moreOptions": "Mais opções",
+        "net": "Rede",
+        "newAlias": "Novo nome alternativo",
+        "newGroup": "Novo grupo",
+        "newSegment": "Novo segmento",
+        "newTab": "Nova aba",
+        "newType": "Novo tipo",
+        "next": "Seguinte",
+        "nextMonth": "Próximo mês",
+        "noEstimate": "Nenhuma estimativa",
+        "noImagesFound": "Nenhuma imagem encontrada",
+        "noSegmentsYet": "Nenhum segmento ainda",
+        "noTimelineYet": "Nenhuma linha do tempo ainda",
+        "noType": "Nenhum tipo",
+        "none": "Nenhum",
+        "notSetUp": "Não configurado",
+        "noteCount": "Nota #{{id}}",
+        "notes": "Notas",
+        "optionalResearchNote": "Nota de pesquisa opcional",
+        "paragraphSpacing": "Espaçamento entre parágrafos:",
+        "previousMonth": "Mês anterior",
+        "profile": "Perfil",
+        "readability": "Legibilidade:",
+        "readingEffort": "Esforço de leitura",
+        "relationships": "Relacionamentos",
+        "removeAlias": "Excluir nome alternativo",
+        "removeCustomIcon": "Excluir ícone personalizado",
+        "removed": "Excluído",
+        "renameAndRestart": "Renomear e reiniciar",
+        "resetEachMonth": "Redefinir cada mês",
+        "scope": "Escopo",
+        "searchSegments": "Pesquisar segmentos...",
+        "seasons": "Estações",
+        "selectDateOrRange": "Selecionar data ou intervalo",
+        "setUpTheTimeSystemFirst": "Configure o sistema de tempo primeiro.",
+        "short": "Curto",
+        "showLabels": "Exibir rótulos",
+        "showLess": "Mostrar menos",
+        "showMore": "Mostrar mais",
+        "size": "Tamanho",
+        "solid": "Sólido",
+        "specialDays": "Dias especiais",
+        "sprites": "Sprites",
+        "start": "Inicio",
+        "studio": "Estúdio",
+        "time": "Hora",
+        "timer": "Cronômetro",
+        "title": "Título",
+        "titleSize": "Tamanho do título",
+        "titleSpacing": "Espaçamento do título",
+        "toggleSidebarCount": "Alternar barra lateral ({{shortcut}})",
+        "totalWords": "Total de palavras",
+        "turnInto": "Transformar em",
+        "types": "Tipos",
+        "updatedCount": "Atualizado {{time}}",
+        "updatesBackups": "Atualizações & Backups",
+        "upload": "Carregar",
+        "uploadImage": "Carregar imagem",
+        "version": "Versão",
+        "versionHistory": "Histórico de versões",
+        "years": "Anos",
+        "yourName": "Seu nome",
+        "countActiveDaysAheadAtThis": "{{count}} dias ativos à frente neste ritmo.",
+        "countDates": "{{count}} datas",
+        "countFilesStillParsing": "{{count}} arquivos ainda em análise",
+        "countItemsPermanentlyDeleted": "{{count}} itens permanentemente excluídos",
+        "countItemsRestored": "{{count}} itens restaurados",
+        "countMoreFilesWaitingAfterThis": "{{count}} arquivos aguardando depois deste",
+        "countRelationshipsAcrossDirectSegments": "{{count}} relacionamentos entre segmentos diretos.",
+        "and": "e",
+        "insertBlock": "Inserir bloco",
+        "createBlock": "Criar bloco",
+        "createExternalLink": "Criar link externo",
+        "addAttribute": "Adicionar atributo",
+        "titleFont": "Fonte do título",
+        "commandPalette": "Paleta de comandos",
+        "reportABug": "Relatar um erro",
+        "deleteManuscript": "Excluir manuscrito",
+        "addSegment": "Adicionar segmento",
+        "removeEntry": "Remover entrada",
+        "notAvailable": "n/a",
+        "chooseBackgroundImage": "Escolher imagem de fundo",
+        "selectProjectToManage": "Selecione ou crie um projeto para gerenciar {{item}}.",
+        "noSearchMatches": "Nenhum {{item}} corresponde à sua pesquisa."
+      },
+      "actions": "Ações",
+      "type": "Tipo",
+      "empty": "Vazio",
+      "date": "Data",
+      "image": "Imagem",
+      "note": "Nota",
+      "tags": "Marcadores",
+      "blocks": "Blocos",
+      "concepts": "Conceitos",
+      "segments": "Segmentos",
+      "months": "Meses",
+      "month": "Mês",
+      "days": "Dias",
+      "overview": "Visão geral",
+      "reset": "Redefinir",
+      "resetToDefaults": "Redefinir para os padrões",
+      "createConcept": "Criar conceito",
+      "createSegment": "Criar segmento",
+      "addDate": "Adicionar data",
+      "debugConsole": "Console de depuração",
+      "storyGraph": "Gráfico da história",
+      "readableBackups": "Backups legíveis",
+      "workspaceName": "Nome do espaço de trabalho",
+      "fontSize": "Tamanho da fonte",
+      "justify": "Justificar",
+      "left": "Esquerda",
+      "center": "Centralizado",
+      "long": "Longo",
+      "position": "Posição",
+      "eras": "Eras",
+      "duration": "Duração",
+      "weekdays": "Dias de semana",
+      "tag": "Marcador",
+      "conceptName": "Nome do conceito",
+      "words": "palavras",
+      "count": {
+        "words": "{{count}} palavras",
+        "ready": "{{count}} pronto",
+        "imported": "{{count}} importado"
+      },
+      "status": {
+        "importing": "Importando"
+      }
+    },
+    "table": {
+      "clearFilter": "Limpar filtro",
+      "rowCount": "{{filtered}} de {{total}} linhas",
+      "rowsPerPage": "Linhas por página",
+      "pageOf": "Página {{page}} de {{total}}",
+      "firstPage": "Primeira página",
+      "previousPage": "Página anterior",
+      "nextPage": "Próxima página",
+      "lastPage": "Última página "
+    },
+    "tooltips": {
+      "common": {
+        "clearColor": "Limpar cor",
+        "enterReadOnlyMode": "Entrar em modo somente leitura",
+        "exitReadOnlyMode": "Sair do modo somente leitura",
+        "resetSidebarToDefaultSize": "Redefinir barra lateral para o tamanho padrao"
+      },
+      "concept": {
+        "expandImage": "Expandir imagem",
+        "positionImage": "Posicionar imagem ",
+        "addOrChangeImage": "Adicionar/alterar imagem",
+        "removeImage": "Remover imagem"
+      },
+      "image": {
+        "small200": "Pequena (200px)",
+        "medium400": "Médio (400px)",
+        "large100": "Grande (100%)",
+        "flipHorizontal": "Inverter horizontalmente",
+        "flipVertical": "Inverter verticalmente",
+        "resetImage": "Redefinir imagem",
+        "deleteImage": "Excluir imagem",
+        "align": {
+          "left": "Alinhar à esquerda",
+          "center": "Centralizar",
+          "right": "Alinhar à direita"
+        }
+      },
+      "aspectRatio": {
+        "filterImages": "Filtrar imagens {{ratio}}",
+        "landscape": "Paisagem (ex: 4:3, 16:9)",
+        "portrait": "Retrato (mais alto que largo)",
+        "square": "Quadrado (1:1)",
+        "panoramic": "Panorâmico (muito largo)",
+        "label": {
+          "landscape": "Paisagem",
+          "portrait": "Retrato",
+          "square": "Quadrado",
+          "panoramic": "Panorâmico"
+        }
+      },
+      "sidebar": {
+        "filterOnTags": "Filtrar por marcadores",
+        "workbench": "Segmentos e conceitos para construir sua história.",
+        "manuscripts": "Construir e ler o manuscrito."
+      },
+      "graph": {
+        "hideAllLabels": "Ocultar rótulos",
+        "expandGraph": "Expandir o gráfico"
+      },
+      "relationship": {
+        "swapSourceTarget": "Trocar origem e destino"
+      },
+      "moons": {
+        "cycleLength": "Duração do ciclo completo da lua em dias ",
+        "phaseOffset": "Diferença em dias para ajustar a fase inicial da lua"
+      },
+      "table": {
+        "addColumnBefore": "Adicionar coluna antes",
+        "addColumnAfter": "Adicionar coluna depois",
+        "deleteColumn": "Excluir coluna",
+        "addRowAbove": "Adicionar linha acima",
+        "addRowBelow": "Adicionar linha abaixo",
+        "deleteRow": "Excluir linha ",
+        "mergeCells": "Mesclar células",
+        "splitCells": "Dividir células",
+        "cellBackgroundColor": "Cor de fundo da célula",
+        "tableBorders": "Bordas da tabela",
+        "deleteTable": "Excluir tabela"
+      },
+      "editor": {
+        "fontFamily": "Família da fonte",
+        "moreFormattingOptions": "Mais opções de formatação",
+        "bold": "Negrito",
+        "italic": "Itálico",
+        "underline": "Sublinhado",
+        "strikethrough": "Tachado",
+        "textColor": "Cor do texto",
+        "highlightColor": "Cor do destaque",
+        "clearFormatting": "Limpar formatação",
+        "linkEntity": "Criar link com entidade",
+        "boldShortcut": "Negrito ({{shortcut}})",
+        "italicShortcut": "Itálico ({{shortcut}})",
+        "underlineShortcut": "Sublinhado ({{shortcut}})",
+        "searchShortcut": "Procurar (Ctrl+F)",
+        "undoShortcut": "Desfazer (Ctrl+Z)",
+        "redoShortcut": "Refazer (Ctrl+Shift+Z)",
+        "searchPlaceholder": "Procurar...",
+        "replaceWithPlaceholder": "Substituir por...",
+        "previousShiftEnter": "Anterior (Shift+Enter)",
+        "nextEnter": "Próximo (Enter)",
+        "caseSensitive": "Diferenciar maiúsculas de minúsculas",
+        "matchWholeWord": "Corresponder palavra inteira",
+        "showReplace": "Mostrar Substituir",
+        "closeEsc": "Fechar (Esc)",
+        "replaceCurrent": "Substituir atual",
+        "replaceAll": "Substituir todos"
+      }
+    },
+    "concept": {
+      "typeTree": {
+        "title": "Hierarquia do tipo",
+        "emptyDescription": "Ainda não há tipos. Tipos ajudam a organizar seus conceitos em categorias.",
+        "newTypeName": "Novo Tipo",
+        "addSubtype": "Adicionar subtipo"
+      },
+      "dateEditor": {
+        "noDateSet": "Nenhuma data definida",
+        "deleteDateTitle": "Excluir data",
+        "deleteDateDescription": "Você tem certeza de que quer excluir \"{{label}}\"? Esta ação não pode ser desfeita.",
+        "noCalendarSystemConfigured": "Nenhum sistema de calendário configurado",
+        "configureCalendar": "Configurar Calendário"
+      },
+      "dateEditorDialog": {
+        "editDateTitle": "Editar Data",
+        "addDateDescription": "Adicionar uma nova data para acompanhar momentos importantes.",
+        "editDateDescription": "Editar os detalhes da data.",
+        "labelPlaceholder": "Ex: nascimento, fundação, reinado"
+      },
+      "aliases": {
+        "howItWorksTitle": "Como os nomes alternativos funcionam",
+        "howItWorksParagraph1": "Pense nos nomes alternativos como marcadores na mesma pasta. Quando você menciona esse conceito com",
+        "howItWorksParagraph1Tail": "a menção se conecta ao conceito, e não apenas texto puro.",
+        "howItWorksParagraph2": "Quando você muda o nome do conceito ou de um nome alternativo, as menções relacionadas são automaticamente atualizadas em todos os locais. Use menções consistentemente, para manter os nomes sincronizados no seu projeto.",
+        "howItWorksParagraph3": "Se você remover um nome alternativo, as ligações permanecem intactas e as menções afetadas retornam ao nome do conceito.",
+        "helpAriaLabel": "Ajuda com nomes alternativos",
+        "typeAliasPlaceholder": "Digite o nome alternativo...",
+        "saveAliasAriaLabel": "Salvar nome alternativo",
+        "cancelEditAriaLabel": "Cancelar edição",
+        "aliasOptionsAriaLabel": "Opções do nome alternativo {{name}}",
+        "checkingUsage": "Verificando utilização...",
+        "aliasOptions": "Opções de nome alternativo",
+        "addAliasAriaLabel": "Adicionar nome alternativo",
+        "removeAliasDescription": "Este nome alternativo é usado em {{mentionCount}} menções em {{sourceCount}} itens. Removê-lo mantém todas as ligações intactas, e passa a exibir o nome do conceito em todas as menções."
+      },
+      "sidebar": {
+        "tabs": {
+          "details": "Detalhes",
+          "versions": "Versões",
+          "wordUsage": "Insights de texto"
+        },
+        "layout": {
+          "releaseToShow": "Solte para mostrar",
+          "dropToShow": "Solte aqui para mostrar a seção",
+          "hidden": "Oculto",
+          "releaseToHide": "Solte para esconder"
+        }
+      },
+      "imageSelector": {
+        "imageAriaLabel": "Imagem do conceito",
+        "expandImageAriaLabel": "Expandir imagem do conceito",
+        "positionImageAriaLabel": "Posicionar imagem do conceito",
+        "done": "Concluído",
+        "donePositioningAriaLabel": "Posicionamento da imagem do conceito concluído.",
+        "editImageAriaLabel": "Editar imagem do conceito",
+        "removeCurrentImageAriaLabel": "Remover imagem atual",
+        "previousImage": "Imagem anterior",
+        "nextImage": "Próxima imagem",
+        "goToImage": "Ir para a imagem {{index}}"
+      },
+      "attributes": {
+        "namePlaceholder": "Nome do atributo",
+        "keyAriaLabel": "Chave do atributo",
+        "removeAriaLabel": "Remover valor do atributo",
+        "existingAttributes": "Atributos existentes",
+        "cancelAddAriaLabel": "Cancelar adição de atributo",
+        "importPlaceholder": "Selecione um conceito...",
+        "importNoConcepts": "Nenhum conceito encontrado."
+      }
+    },
+    "relationships": {
+      "editor": {
+        "addDescription": "Criar relacionamento entre as entidades.",
+        "currentlySource": "Atualmente a fonte",
+        "currentlyTarget": "Atualmente o alvo",
+        "flipSourceTarget": "Trocar origem e destino",
+        "conceptToLink": "Conceito para ligar",
+        "selectConceptPlaceholder": "Selecione um conceito para vincular...",
+        "createNewType": "Criar tipo…",
+        "typePlaceholder": "Ex: família, facção, amigo...",
+        "notesPlaceholder": "Notas (opcional)",
+        "relationshipNotes": "Notas de relacionamento",
+        "preview": "Pré-visualizar:"
+      },
+      "deleteTitle": "Excluir Relacionamento",
+      "deleteDescription": "Você tem certeza de que quer excluir este relacionamento? Esta ação não pode ser desfeita."
+    },
+    "dashboard": {
+      "loadingGraph": "Carregando gráfico...",
+      "continueEditing": "Continuar editando",
+      "lastEdited": "Última edição",
+      "noSegmentsCreated": "Nenhum segmento criado",
+      "noConceptsCreated": "Nenhum conceito criado",
+      "wordBreakdown": "Divisão por palavras",
+      "wordsInSegments": "palavras em {{count}} segmentos",
+      "wordsInConcepts": "palavras em {{count}} conceitos",
+      "writingInsights": "Insights de escrita",
+      "readingTime": "Tempo de leitura",
+      "mostProductiveDay": "Dia mais produtivo",
+      "activeDays": "Dias ativos",
+      "estimatedReadingTime": "tempo estimado de leitura",
+      "yourBestWritingDay": "seu melhor dia de escrita",
+      "daysWithContinuousWritingActivity": "dias com atividade de escrita contínua",
+      "minShort": "min",
+      "minRead": "min de leitura",
+      "notAvailable": "N/A",
+      "storySegments": "segmentos da história",
+      "writingConsistency": "Consistência de escrita",
+      "activityPattern": "Padrão de atividade",
+      "storyBalance": "Balanço da história",
+      "developmentDepth": "Profundidade do desenvolvimento",
+      "completionProgress": "Progresso da conclusão",
+      "conceptsWithDates": "Conceitos com datas",
+      "conceptsWithRelationships": "Conceitos com relacionamentos",
+      "of": "de",
+      "timeframes": {
+        "oneWeek": "1 semana",
+        "twoWeeks": "2 semanas",
+        "threeMonths": "3 meses",
+        "oneYear": "1 ano",
+        "allTime": "desde sempre"
+      },
+      "analytics": {
+        "consistency": {
+          "keepWriting": "Continue escrevendo para ver o seu progresso!",
+          "excellent": "Excelente consistência!",
+          "lower": "Porcentagens menores indicam atividade menos frequente.",
+          "message": "Você esteve ativo em {{activeDays}} de um total de {{totalDays}} dias (consistência de {{consistencyRate}}%) no último {{timeframeLabel}} período. {{consistencyText}}"
+        },
+        "activity": {
+          "noWriting": "Nenhuma atividade de escrita registrada para o  {{timeframeLabel}} período.",
+          "wroteWords": "você escreveu {{count}} palavras.",
+          "trimmedWords": "você cortou {{count}} palavras.",
+          "unchanged": "sua contagem final de palavras não mudou",
+          "message": "No período {{timeframeLabel}}, {{totalWordsText}} em {{activeDays}} dias ativos, média final de palavras de {{avgWordsPerActiveDay}} por sessão. A maior mudança em um único dia foi de {{maxAbsoluteDailyChange}} palavras."
+        },
+        "storyBalance": {
+          "start": "Comece a escrever para ver o saldo da sua história!",
+          "narrative": "narrativa",
+          "worldBuilding": "construção de mundo",
+          "message": "Seu projeto é {{narrative}}% narrativa e {{worldBuilding}}% construção de mundo. ",
+          "leansWorldBuilding": "Baseado na contagem de palavras, seu projeto atualmente se inclina para a construção de mundos.",
+          "moreConcepts": "O seu mundo poderia se beneficiar de mais desenvolvimento de conceitos.",
+          "greatFocus": "Grande foco em {{dominant}}!"
+        },
+        "development": {
+          "start": "Comece a desenvolver seu conteúdo para ver insights aprofundados!",
+          "wordsPerSegment": "{{count}} palavras por segmento",
+          "wordsPerConcept": "{{count}} palavras por conceito",
+          "message": "Você está com {{stats}} em média,"
+        }
+      },
+      "dailyWordDiff": {
+        "title": "Palavras adicionadas e removidas hoje",
+        "wordsToday": "Palavras hoje",
+        "activity": "Atividade",
+        "noActivityYet": "Nenhuma atividade ainda",
+        "writingActivityFor": "Atividade de escrita para {{date}}",
+        "addedRemoved": "Adicionadas / removidas",
+        "changedToday": "Alteradas hoje",
+        "writingActivity": "Atividade de escrita",
+        "wordsTouched": "{{count}} palavras tocadas",
+        "goalMetToday": "Meta atingida (+{{value}})",
+        "toGoal": "{{value}} até a meta"
+      },
+      "wordCountCalendar": {
+        "title": "Contagem diária de palavras",
+        "yearLabel": "Ano:",
+        "loading": "Carregando calendário...",
+        "addedWords": "{{count}} palavras adicionadas",
+        "removedWords": "{{count}} palavras removidas",
+        "netWords": "Contagem final: {{value}} palavras",
+        "activityWords": "Atividade: {{value}} palavras",
+        "noActivity": "Nenhuma atividade",
+        "less": "Menos",
+        "todayDiff": "Hoje: {{value}}",
+        "touched": "Tocadas",
+        "loadingItems": "Carregando Itens...",
+        "noItemDetails": "Nenhum detalhe de item registrado para esta data"
+      },
+      "goal": {
+        "title": "Meta do projeto",
+        "description": "Defina uma meta de palavras e prazo para acompanhar o ritmo diário necessário.",
+        "optionalDescription": "Metas são opcionais. Adicione uma meta de palavras quando quiser acompanhar o ritmo.",
+        "wordGoal": "Meta de palavras",
+        "activeDays": "Dias de escrita ativa",
+        "remainingWords": "Palavras restantes",
+        "activeDaysLeft": "Dias ativos restantes",
+        "requiredPerDay": "Requeridas por dia",
+        "wordsPerDay": "palavras/dia",
+        "complete": "Meta atingida.",
+        "onTrack": "Ritmo calculado a partir de dias ativos restantes.",
+        "waitingDeadline": "Defina um prazo para calcular o ritmo desejado.",
+        "successfulWeek": "Dias de escrita bem sucedidos",
+        "bonusCongrats": "Dia de bônus na escrita! {{dayName}} rendeu um ótimo impulso extra.",
+        "successOnDay": "{{dayName}} rendeu ótimas linhas!",
+        "dailyAverage": "Média diária",
+        "behindBy": "{{count}} dias ativos em atraso neste ritmo. Aumente suas palavras diárias para recuperar o atraso."
+      },
+      "smartGraph": {
+        "percentDone": "{{count}}% concluído",
+        "daysWriting": "Escrevendo há {{count}} dias",
+        "writtenSoFar": "Escrito até agora",
+        "onTimePace": "Ritmo em dia",
+        "currentPace": "Seu ritmo atual",
+        "keepGoing": "Se você continuar",
+        "today": "Hoje",
+        "goalNeedsMomentum": "Adicione atividade de escrita para calcular o seu ritmo atual.",
+        "noDeadlineForecastVerdict": "Neste ritmo, você terminará perto de {{date}}.",
+        "behindVerdict": "{{count}} dias ativos à frente neste ritmo.",
+        "momentumVerdict": "Visualização do impulso",
+        "goalSummary": "{{remaining}} palavras restantes. Estabeleça {{perDay}} palavras por dia como meta em cada dia ativo de escrita.",
+        "noDeadlineGoalSummary": "{{remaining}} palavras restantes. Cerca de {{days}} dias de escrita no seu ritmo atual.",
+        "noDeadlineNeedsActivitySummary": "Faltam {{remaining}} palavras. Faça uma atividade de escrita para estimar sua data final.",
+        "noGoalSummary": "Você tem escrito {{average}} palavras em média, nos dias com atividade de escrita.",
+        "yourPace": "Seu ritmo",
+        "projectedFinish": "Projeto concluído",
+        "writingDaysToGoal": "Dias de escrita até a meta",
+        "notEnoughData": "Dados insuficientes",
+        "perDay": "/dia",
+        "thisWeek": "Esta semana",
+        "daysWritingLabel": "Dias escrevendo",
+        "goalWords": "Meta {{count}} palavras",
+        "deadlineLabel": "Prazo {{date}}",
+        "adjustGoal": "Ajustar meta",
+        "noGoal": "Sem meta — apenas escrevendo",
+        "setGoal": "Definir uma meta"
+      }
+    },
+    "overview": {
+      "stories": "Histórias",
+      "newStory": "Nova história",
+      "templateStory": "História modelo",
+      "updatedToday": "Atualizado hoje",
+      "updatedThisWeek": "Atualizado esta semana",
+      "updatedThisMonth": "Atualizado este mês",
+      "updatedAllTime": "Atualizado em qualquer tempo"
+    },
+    "projectCard": {
+      "createNewProject": "Criar novo projeto",
+      "segmentsCount": "{{count}} segmentos",
+      "conceptsCount": "{{count}} conceitos"
+    },
+    "timer": {
+      "completeCelebrationLabel": "Logotipo do Writality com um sino dourado tocando",
+      "completeDescription": "Sino pequeno, grande progresso. Recupere o fôlego e continue assim quando estiver pronto.",
+      "completeTitle": "Uau, você conseguiu!",
+      "durationMinutes": "{{count}} minutos",
+      "pause": "Pausar",
+      "placeholder": "Definir uma duração",
+      "quickStart": {
+        "focus": {
+          "description": "Sessão de trabalho focada",
+          "label": "Foco"
+        },
+        "long": {
+          "description": "Sessão de trabalho longa"
+        },
+        "pomodoro": {
+          "description": "Sessão Pomodoro",
+          "label": "Pomodoro"
+        }
+      },
+      "startPreset": "Iniciar predefinição"
+    },
+    "editor": {
+      "image": {
+        "noActiveProject": "Nenhum projeto ativo encontrado.",
+        "pastedImage": "Imagem colada",
+        "saveFailed": "Não foi possível salvar a imagem.",
+        "saveIt": "Salve",
+        "unsavedAria": "A imagem não está salva no Writality",
+        "unsavedDescription": "Esta imagem não está salva no Writality. Salve-a para adicioná-la à sua galeria de imagens com uma miniatura."
+      },
+      "menu": {
+        "exportAsJson": "Exportar como JSON",
+        "exportAsWord": "Exportar como Word (.docx)",
+        "exportAsPdf": "Exportar como PDF (.pdf)",
+        "exportAsHtml": "Exportar como HTML (.html)",
+        "exportAsMarkdown": "Exportar como Markdown (.md)",
+        "importFromJson": "Importar de JSON",
+        "importFromWord": "Importar de Word (.docx)",
+        "importFromMarkdown": "Importar de Markdown (.md)"
+      },
+      "blockMenu": {
+        "optionsAndDrag": "Clique para opções, arraste para mover",
+        "copyToClipboard": "Copiar para a área de transferência",
+        "duplicate": "Duplicar"
+      },
+      "createMenu": {
+        "shareSnippet": "Compartilhar trecho",
+        "createLink": "Criar link",
+        "createConcept": "Criar conceito a partir da seleção",
+        "conceptType": "Tipo de conceito",
+        "blockName": "Nome do bloco",
+        "pressEnterToSave": "Pressione Enter para salvar",
+        "searchConceptsOrSegments": "Pesquisar conceitos ou segmentos...",
+        "couldNotFindAnything": "Não foi possível encontrar nada :(",
+        "splitSegment": "Criar segmento a partir da seleção",
+        "splitSegmentTitle": "Nomear novo segmento",
+        "segmentName": "Nome do segmento"
+      },
+      "mention": {
+        "untitledConcept": "Conceito sem título",
+        "createConceptWithName": "Criar conceito \"{{name}}\"",
+        "selectType": "Selecionar tipo",
+        "createAs": "Criar \"{{name}}\" como",
+        "searchType": "Pesquisar tipo...",
+        "noMatchingTypes": "Não há tipos correspondentes",
+        "creatingConcept": "Criando conceito...",
+        "displayForConcept": "Exibição de menção para {{name}}",
+        "availableAliases": "{{count}} disponíveis",
+        "noAliasesYet": "Ainda não há nomes alternativos",
+        "selectAlias": "Selecionar nome alternativo",
+        "aliasNamePlaceholder": "Nome alternativo",
+        "newAliasHelp": "Pressione Enter para criar um nome alternativo e inserir, Esc para voltar.",
+        "mode": {
+          "alias": "Nome alternativo",
+          "newAliasHint": "Criar e usar um nome alternativo"
+        }
+      },
+      "slash": {
+        "basic": "Básico",
+        "insert": "Inserir",
+        "openSavedBlocksLibrary": "Abrir sua biblioteca de blocos salvos",
+        "externalLink": "Link externo",
+        "createExternalLink": "Criar um link da web",
+        "searchBlocks": "Procurar blocos...",
+        "noSavedBlocks": "Nenhum bloco salvo",
+        "noResults": "Nenhum resultado",
+        "insertSavedBlockContent": "Inserir conteúdo de bloco salvo"
+      },
+      "spellcheck": {
+        "unavailableReadOnly": "A verificação ortográfica está indisponível no modo somente leitura",
+        "suggestionsFor": "Sugestões para \"{{word}}\"",
+        "noSuggestionsFor": "Nenhuma sugestão para \"{{word}}\"",
+        "addToDictionary": "Adicionar ao dicionário",
+        "noErrorsDetected": "Nenhum erro de ortografia detectado"
+      },
+      "alignment": {
+        "trigger": "Alinhamento do texto"
+      },
+      "contextMenu": {
+        "undo": "Desfazer",
+        "redo": "Refazer",
+        "cut": "Recortar",
+        "copy": "Copiar",
+        "paste": "Colar",
+        "selectAll": "Selecionar tudo"
+      },
+      "placeholders": {
+        "note": "Começar a escrever...",
+        "block": "Digite texto, digite / para comandos ou @ para menções..."
+      },
+      "details": {
+        "fill": {
+          "tint": "Tom",
+          "flat": "Plano",
+          "borderOnly": "Borda"
+        }
+      },
+      "codeBlock": {
+        "language": "Linguagem do bloco de código",
+        "searchLanguages": "Pesquisar idiomas...",
+        "noLanguagesFound": "Nenhum idioma encontrado."
+      },
+      "formatting": {
+        "inlineCode": "Código em linha",
+        "subscript": "Subscrito",
+        "superscript": "Sobrescrito",
+        "quote": "Citação",
+        "divider": "Divisória",
+        "backToDefault": "Voltar ao padrão",
+        "noFill": "Sem preenchimento",
+        "moreColours": "Mais cores"
+      },
+      "shareSnippet": {
+        "renderPreviewFailed": "Não foi possível renderizar a pré-visualização do trecho"
+      }
+    },
+    "segment": {
+      "notes": {
+        "createNote": "Criar nota",
+        "noNotesYet": "Nenhuma nota ainda",
+        "emptyDescription": "Notas são uma ótima maneira de acompanhar ideias e pensamentos e garantir que você não se esqueça de detalhes importantes.",
+        "deleteTitle": "Excluir nota",
+        "deleteDescription": "Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.",
+        "expandAction": "Expandir nota",
+        "emptyNote": "Nota vazia"
+      }
+    },
+    "segmentGraph": {
+      "appearance": "Aparência do gráfico"
+    },
+    "outline": {
+      "loading": "Carregando esboço",
+      "error": "O esboço não pôde ser carregado.",
+      "todoCompletion": "Conclusão de tarefas",
+      "noTodos": "Ainda não há tarefas",
+      "completed": "{{completed}} de {{total}} concluídas",
+      "remaining": "Restantes",
+      "storyWords": "Palavras da história",
+      "folders": "Pastas",
+      "totalTodos": "Total de tarefas",
+      "empty": "Adicione um segmento ou pasta do gráfico para começar a esboçar sua história.",
+      "outlineTodos": "Tarefas do esboço",
+      "todosRemaining": "{{count}} tarefas restantes na história.",
+      "noRelationships": "Ainda não há relacionamentos entre segmentos.",
+      "relationshipsSummary": "{{count}} relacionamentos conectam este esboço.",
+      "metricsAria": "Métricas de esboço"
+    },
+    "planning": {
+      "addNoteTo": "Adicionar nota a {{name}}",
+      "addRelationshipTo": "Adicionar relação com {{name}}",
+      "completedCount": "{{count}} concluídos",
+      "editSegmentTitle": "Editar título do segmento: {{name}}",
+      "markComplete": "Marcar {{name}} como concluída",
+      "markIncomplete": "Marcar {{name}} como incompleta",
+      "noOpeningText": "Ainda não há texto de abertura",
+      "noSegmentsDescription": "Crie o primeiro segmento nesta pasta para começar a moldar a linha do tempo desta história.",
+      "noTasksOnSegment": "Ainda não há tarefas neste segmento.",
+      "noneYet": "Ainda não há nada",
+      "relationshipsAcrossSegments_one": "{{count}} relacionamentos entre segmentos diretos.",
+      "totalCount": "{{count}} no total",
+      "viewMore": "Ver {{count}} mais"
+    },
+    "topbarSettings": {
+      "tooltip": "Ver configurações",
+      "font": "Fonte",
+      "editorWidth": "Largura do editor",
+      "textWeight": "Peso do texto",
+      "titleWeight": "Peso do título",
+      "textAlign": "Alinhamento do texto",
+      "backgroundColor": "Cor de fundo",
+      "textColor": "Cor do texto",
+      "widthTooltip": "Largura: {{mode}}",
+      "fontSizeTooltip": "Tamanho da fonte: {{mode}}",
+      "titleSizeTooltip": "Tamanho do título: {{mode}}",
+      "lineHeightTooltip": "Altura da linha: {{mode}}",
+      "paragraphSpacingTooltip": "Espaçamento dos parágrafos: {{mode}}",
+      "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
+      "textAlignTooltip": "Alinhamento do texto: {{mode}}",
+      "showScrollbar": "Exibir barra de rolagem",
+      "indentParagraphs": "Indentar parágrafos",
+      "typewriterMode": "Modo máquina de escrever",
+      "dimMode": "Focar parágrafo atual",
+      "typewriterBlur": "Máquina de escrever com desfoque",
+      "typewriterBlurAmount": "Intensidade do desfoque",
+      "hemingwayMode": "Modo Hemingway",
+      "fixedEditorToolbar": "Barra de ferramentas do editor fixa",
+      "toolbarPosition": {
+        "top": "Parte superior",
+        "bottom": "Parte Inferior"
+      },
+      "readOnly": "Somente leitura",
+      "tooltips": {
+        "enterZenMode": "Entrar em modo zen",
+        "exitZenMode": "Sair do modo zen",
+        "typewriterMode": "Mantém a linha ativa centrada durante a escrita.",
+        "dimMode": "Esmaece os parágrafos inativos para manter o foco no parágrafo atual.",
+        "typewriterBlur": "Desfoca os parágrafos inativos, mantendo o parágrafo atual nítido.",
+        "hemingwayMode": "Escrita sem volta: bloqueia o uso do backspace e mover o cursor para trás.",
+        "fixedEditorToolbar": "Mantém os controles de formatação fixados no editor, inclusive no modo zen."
+      },
+      "modes": {
+        "serif": "Serifa",
+        "mono": "Mono",
+        "tight": "Apertado",
+        "flush": "Sem recuo",
+        "regular": "Regular",
+        "wide": "Largo",
+        "small": "Pequeno",
+        "large": "Grande",
+        "relaxed": "Relaxado"
+      },
+      "toasts": {
+        "noContentToExport": "Nenhum conteúdo para exportar",
+        "contentExported": "Conteúdo exportado com sucesso",
+        "exportFailed": "Falha ao exportar conteúdo",
+        "exportWordSuccess": "Documento exportado para Word com sucesso",
+        "exportWordFailed": "Falha ao exportar para o Word",
+        "exportPdfSuccess": "Documento exportado para PDF com sucesso",
+        "exportPdfFailed": "Falha ao exportar para PDF",
+        "exportHtmlSuccess": "Documento exportado para HTML com sucesso",
+        "exportHtmlFailed": "Falha ao exportar para HTML",
+        "exportMarkdownSuccess": "Documento exportado para Markdown com sucesso",
+        "exportMarkdownFailed": "Falha ao exportar para Markdown",
+        "contentImported": "Conteúdo importado com sucesso",
+        "importInvalidJson": "Falha ao importar conteúdo. Formato JSON inválido.",
+        "readFileFailed": "Falha ao ler o arquivo",
+        "importWordSuccess": "Documento Word importado com sucesso",
+        "importWordFailed": "Falha ao importar o documento do Word",
+        "importWordFileTooLarge": "O arquivo é muito grande. O tamanho máximo é 10MB.",
+        "importMarkdownSuccess": "Documento Markdown importado com sucesso",
+        "importMarkdownFailed": "Falha ao importar o documento Markdown"
+      },
+      "highlightDialogue": "Destacar diálogo",
+      "dialogueHighlightMode": "Estilo",
+      "dialogueHighlightModes": {
+        "quotes": "Aspas",
+        "raya": "Travessão"
+      },
+      "inheritBackground": "Herdar plano de fundo",
+      "background": "Plano de fundo",
+      "backgroundImage": "Imagem de fundo",
+      "blur": "Desfoque",
+      "editorSettingsTooltip": "Configurações do editor",
+      "fit": "Ajustar",
+      "opacity": "Opacidade",
+      "positionX": "Posição X",
+      "positionY": "Posição Y",
+      "removeBackgroundImage": "Remover imagem de fundo",
+      "useDefaultBackgroundImage": "Usar imagem de fundo padrão",
+      "zoom": "Zoom"
+    },
+    "gallery": {
+      "searchPlaceholder": "Pesquisar imagens",
+      "breadcrumb": {
+        "all": "Todas as imagens ({{total}})",
+        "filtered": "Imagens filtradas ({{count}} de {{total}})"
+      },
+      "empty": {
+        "withFilters": "Nenhuma imagem corresponde aos filtros atuais.",
+        "withoutFilters": "Adicione sua primeira imagem para começar."
+      },
+      "toasts": {
+        "deleted": "Imagem excluída",
+        "deleteFailed": "Falha ao excluir imagem"
+      },
+      "imageDialog": {
+        "nameUpdated": "Nome da imagem atualizado com sucesso",
+        "failedUpdateName": "Falha ao atualizar o nome da imagem",
+        "dimensions": "Dimensões",
+        "fileSize": "Tamanho do arquivo",
+        "unknown": "Desconhecido",
+        "download": "Baixar",
+        "downloaded": "Imagem baixada",
+        "downloadFailed": "Falha ao baixar a imagem"
+      }
+    },
+    "imageSelector": {
+      "searchPlaceholder": "Pesquisar mídia...",
+      "loadingImages": "Carregando imagens...",
+      "uploading": "Carregando",
+      "tryAdjustingFilters": "Tente ajustar seus termos ou filtros de pesquisa",
+      "addSelected": "Adicionar imagem {{count}}",
+      "addSelected_other": "Adicionar imagens {{count}}"
+    },
+    "kanban": {
+      "settings": {
+        "ariaLabel": "Configurações da visualização kanban",
+        "title": "Configurações do quadro",
+        "list": "Lista",
+        "board": "Quadro",
+        "showEmptyColumns": "Exibir colunas vazias",
+        "showNestedNotes": "Exibir notas aninhadas",
+        "showNestedNotesHelp": "Exibir notas ligadas a cada cartão diretamente sob o cartão.",
+        "columnBorderStyle": "Estilo da borda da coluna",
+        "columnColorMode": "Modo de cor da coluna"
+      },
+      "cards": {
+        "actionsAria": "Ações para {{title}}",
+        "removeFromBoard": "Remover do quadro",
+        "editTagsAria": "Editar marcadores em {{entityType}} {{entityId}}",
+        "filterTags": "Filtrar marcadores",
+        "noMatchingTags": "Sem marcadores correspondentes",
+        "nestedNotes": "Notas aninhadas",
+        "conceptFallback": "Conceito #{{id}}",
+        "segmentFallback": "Segmento #{{id}}",
+        "noContent": "Nenhum conteúdo",
+        "openLinkedEntity": "Abrir {{entityType}} {{name}} vinculado",
+        "dragNoteAria": "Arrastar nota {{id}}",
+        "dragEntityAria": "Arrastar {{entityType}} {{id}}",
+        "deleted": "{{type}} excluído.",
+        "deleteTitle": "Excluir {{type}}",
+        "deleteDescription": "Tem certeza que deseja excluir este item? Esta ação não pode ser desfeita.",
+        "deleteFailed": "Não foi possível excluir este cartão."
+      },
+      "list": {
+        "noMatchingItems": "Não há itens correspondentes",
+        "noAvailableItems": "Nenhum item disponível",
+        "newNote": "Nova nota",
+        "existingNotes": "Notas existentes",
+        "existingConcepts": "Conceitos existentes",
+        "existingSegments": "Segmentos existentes",
+        "existingImages": "Imagens existentes"
+      },
+      "dialog": {
+        "placeholder": "Escreva sua nota"
+      }
+    },
+    "manuscript": {
+      "segmentPicker": {
+        "title": "Adicionar segmento ao manuscrito",
+        "selectSegment": "Selecionar segmento",
+        "adding": "Adicionando...",
+        "addSegment": "Adicionar segmento"
+      },
+      "entryDialog": {
+        "editItem": "Editar Item",
+        "labelOptional": "Rótulo (opcional)",
+        "titleRequired": "Título *",
+        "emptySpaceType": "Tipo de espaço em branco",
+        "emptySpaceQuarter1": "1/4 página",
+        "emptySpaceQuarter2": "2/4 página",
+        "emptySpaceQuarter3": "3/4 página",
+        "emptySpacePageBreak": "Quebra de página",
+        "emptySpacePlaceholder": "ex.: Fim da Parte I",
+        "titlePlaceholder": "ex.: Capítulo 1"
+      },
+      "format": {
+        "title": "Formatar manuscrito",
+        "customize": "Formatar você mesmo",
+        "preset": "Predefinição",
+        "basedOn": "Baseado em",
+        "typography": "Tipografia & layout",
+        "contentWidth": "Largura do conteúdo",
+        "paragraph": "Comportamento do parágrafo",
+        "indentFirstParagraph": "Recuar primeiro parágrafo",
+        "indentAfterHeadings": "Recuar após os cabeçalhos",
+        "firstLineIndent": "Recuo da primeira linha",
+        "paragraphSpacingPercentage": "Porcentagem de espaçamento dos parágrafos",
+        "align": {
+          "right": "Direita"
+        },
+        "presets": {
+          "writality": {
+            "description": "Sem formatação extra. A exportação mantém o estilo do editor."
+          },
+          "book_manuscript": {
+            "label": "Formato do manuscrito do livro",
+            "description": "Formatação de manuscrito no padrão da indústria para envio a editoras e agentes."
+          },
+          "classic_manuscript": {
+            "label": "Manuscrito clássico",
+            "description": "Estilo tradicional de envio, inspirado no formato de manuscrito Shunn."
+          },
+          "web_novel": {
+            "label": "Web novel",
+            "description": "Espaçamento fluido para episódios, inspirado no padrão de leitura do Tapas."
+          },
+          "screenplay": {
+            "label": "Roteiro",
+            "description": "Formatação de roteiro em fonte Courier, alinhada aos padrões do Nicholl."
+          },
+          "poetry": {
+            "label": "Poesia",
+            "description": "Espaçamento por ritmo para legibilidade de estrofes."
+          },
+          "kindle_reflowable": {
+            "label": "Layout fluido para Kindle",
+            "description": "Configurações padrão para e-books reajustáveis, alinhadas com o KDP."
+          }
+        },
+        "emptySpaceAfterSegments": "Adicionar quebra de página após cada segmento",
+        "bundledFontLabel": "{{font}} (embutida)",
+        "helpFor": "Ajuda para {{label}}",
+        "textColumnWidth": "Largura da coluna de texto",
+        "indentBodyParagraphs": "Recuar a primeira linha de parágrafos do corpo",
+        "indentFirstSegmentParagraph": "Recuar primeiro parágrafo em cada segmento",
+        "indent": "Recuar",
+        "runningHeaderFooter": "Cabeçalho e Rodapé",
+        "availableTokens": "Tokens disponíveis (exportações + visualização paginada)",
+        "runningTextTokenHelpPrefix": "Digite seu nome, pen name ou qualquer outro texto diretamente nos campos do cabeçalho ou rodapé. Apenas",
+        "runningTextTokenHelpSuffix": "são substituídos automaticamente.",
+        "header": "Cabeçalho",
+        "footer": "Rodapé",
+        "enableRunningHeader": "Habilitar cabeçalho",
+        "enableRunningFooter": "Habilitar rodapé",
+        "runningHeaderText": "Texto do cabeçalho",
+        "runningFooterText": "Texto do rodapé",
+        "alignment": "Alinhamento",
+        "runningHeaderDisabled": "Cabeçalho está desativado.",
+        "runningFooterDisabled": "Rodapé está desativado.",
+        "titleStyles": "Estilos de título",
+        "titlePreview": "Capítulo Um",
+        "fontWeights": {
+          "light": "Light (300)",
+          "regular": "Regular (400)",
+          "medium": "Medium (500)",
+          "semibold": "Semibold (600)",
+          "bold": "Bold (700)"
+        },
+        "hints": {
+          "fontSize": "Tamanho do texto do corpo em pontos",
+          "lineHeight": "Espaço entre as linhas de texto",
+          "textColumnWidth": "Largura da área de texto do corpo do manuscrito",
+          "indent": "Recuo da primeira linha aplicado a parágrafos recuados",
+          "paragraphSpacing": "Espaço extra entre parágrafos",
+          "runningText": "Use {page} para o número da página e {title} para o título do manuscrito. Adicione seu nome ou qualquer outro texto como texto simples. Controles de alinhamento onde esta linha fica na página (visão paginada, PDF, HTML e Word).",
+          "titleSize": "Tamanho dos títulos dos manuscritos e segmentos",
+          "titleSpacing": "Espaço entre o título do capítulo/segmento e o texto seguinte"
+        }
+      }
+    },
+    "mapEditor": {
+      "pinPanel": {
+        "searchPlaceholder": "Pesquisar conceitos e notas…",
+        "searchAriaLabel": "Pesquisar conceitos e notas",
+        "empty": "Nenhum conceito ou nota correspondente.",
+        "helper": "Escolha uma entrada, clique no mapa para colocar. Arraste um alfinete para movê-lo ou clique com o botão direito para ações."
+      },
+      "notePin": {
+        "marker": "Marcador de nota"
+      },
+      "spriteList": {
+        "close": "Fechar lista de sprites",
+        "empty": "Nenhum sprite colocado ainda.",
+        "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
+      },
+      "errors": {
+        "saveEdits": "Falha ao salvar edições do mapa"
+      },
+      "labels": {
+        "newLabel": "Novo rótulo",
+        "colour": "Cor",
+        "region": "Região",
+        "newRegion": "Nova região",
+        "numberedMap": "Mapa {{number}}"
+      },
+      "actions": {
+        "newMap": "Novo mapa",
+        "exportMap": "Exportar mapa",
+        "deleteMap": "Excluir mapa",
+        "hideSpriteList": "Ocultar lista de sprites",
+        "showSpriteList": "Exibir lista de sprites",
+        "movePin": "Mover..."
+      },
+      "layers": {
+        "drawing": "Desenho",
+        "interactive": "Interativo",
+        "artTooltip": "Desenhar e editar o mapa principal",
+        "interactiveTooltip": "Editar elementos interativos do mapa",
+        "regionsAboveSprites": "Regiões desenhadas acima dos sprites",
+        "spritesAboveRegions": "Sprites desenhados acima das regiões"
+      },
+      "visibility": {
+        "landmass": "Massa terrestre",
+        "regions": "Regiões",
+        "text": "Texto",
+        "hide": "Ocultar {{label}}",
+        "show": "Exibir {{label}}"
+      },
+      "confirmDeleteMap": "Excluir este mapa? Isto não pode ser desfeito.",
+      "toasts": {
+        "pinDeleted": "Alfinete excluído.",
+        "deletePinFailed": "Falha ao excluir alfinete",
+        "chooseConceptForRegionImage": "Escolha um conceito antes de criar uma imagem para a região",
+        "regionImageRefreshed": "Imagem de região atualizada",
+        "refreshRegionImageFailed": "Falha ao atualizar imagem da região",
+        "createConceptFailed": "Falha ao criar conceito",
+        "mapExported": "Mapa exportado",
+        "exportMapFailed": "Falha ao exportar mapa",
+        "chooseOrEnterConcept": "Escolha um conceito ou digite um novo nome de conceito",
+        "createRegionImageFailed": "Falha ao criar imagem da região",
+        "createRegionFailed": "Falha ao criar região",
+        "selectProjectBeforeCreate": "Selecione um projeto antes de criar um mapa",
+        "mapDimensionsMinimum": "Dimensões do mapa devem ter pelo menos {{width}} x {{height}}px",
+        "mapCreated": "Mapa criado",
+        "createMapFailed": "Falha ao criar mapa",
+        "mapDeleted": "Mapa excluído",
+        "deleteMapFailed": "Falha ao excluir mapa",
+        "chooseConceptOrNoteFirst": "Escolha um conceito ou nota primeiro",
+        "placePinFailed": "Falha ao colocar alfinete",
+        "movePinFailed": "Falha ao mover alfinete",
+        "regionRelationshipAdded": "Relacionamento com região adicionado",
+        "addRegionRelationshipFailed": "Falha ao adicionar relacionamento com região",
+        "clickMapToPlacePin": "Clique no mapa para colocar este alfinete."
+      }
+    },
+    "graph": {
+      "mapCreate": {
+        "title": "Criar novo mapa",
+        "changeImage": "Alterar",
+        "selectImage": "Selecionar Imagem",
+        "mapName": "Nome do mapa",
+        "mapNamePlaceholder": "Digite o nome do mapa",
+        "descriptionOptional": "Descrição (opcional)",
+        "descriptionPlaceholder": "Descreva este mapa (opcional)",
+        "creating": "Criando...",
+        "createMap": "Criar mapa"
+      },
+      "empty": {
+        "description": "Crie conceitos com relacionamentos para ver o gráfico"
+      },
+      "goTo": "Ir para",
+      "clearSelection": "Limpar seleção",
+      "fitToView": "Ajustar à área de visualização",
+      "fullscreen": {
+        "open": "Abrir em tela cheia"
+      },
+      "export": {
+        "button": "Exportar gráfico",
+        "exporting": "Exportando gráfico...",
+        "success": "Imagem do gráfico exportada",
+        "failure": "Não foi possível exportar a imagem do gráfico"
+      },
+      "selectedNode": {
+        "title": "Nó selecionado",
+        "clickNodeHint": "Clique em um nó no gráfico para ver seus detalhes",
+        "notFound": "Nó não encontrado",
+        "noContentYet": "Este conceito ainda não tem conteúdo. Clique acima para abrir e começar a editar."
+      },
+      "preferences": {
+        "tooltip": "Preferências do gráfico",
+        "close": "Fechar preferências do gráfico",
+        "display": "Exibir",
+        "advanced": "Avançado",
+        "arrows": "Setas",
+        "showImages": "Exibir imagens (quando disponível)",
+        "animate": "Animar",
+        "nodeSize": "Tamanho do nó",
+        "nodeBorderRadius": "Raio da borda do nó",
+        "linkThickness": "Espessura do link",
+        "lineType": "Tipo de linha",
+        "forces": "Forças",
+        "centreForce": "Centralizar força",
+        "centerForce": "Centralizando força",
+        "axisForceX": "Força do eixo X",
+        "axisForceY": "Força do eixo Y",
+        "radialForce": "Força radial",
+        "orbit": "Órbita",
+        "orbitOuterRadius": "Raio externo da órbita",
+        "orbitStrength": "Força da órbita",
+        "repelForce": "Repelir força",
+        "chargeDistance": "Distância da carga",
+        "linkForce": "Força do link",
+        "linkDistance": "Distância do link",
+        "groups": {
+          "title": "Grupos",
+          "delete": "Excluir grupo",
+          "toggleDetails": "Alternar detalhes do grupo",
+          "groupName": "Nome do grupo",
+          "matchBy": "Correspondência por",
+          "matchValue": "Selecionar valor",
+          "queryPlaceholder": "Digite a consulta...",
+          "queryHelp": "Operadores de consulta: type:, tag:, name:, id:, ou texto sem formatação.",
+          "searchOptions": "Opções de pesquisa",
+          "optionType": "corresponder ao tipo de conceito",
+          "optionTag": "corresponder ao marcador/etiqueta de conceito",
+          "optionName": "corresponder ao texto do nome do conceito",
+          "optionId": "corresponder ao ID exato do conceito",
+          "optionPlain": "texto sem formatação corresponde ao nome do conceito",
+          "examples": "Exemplos: type:personagem, tag:aliado, name:rei, id:42",
+          "clusterStrength": "Força do agrupamento (ficar junto)",
+          "clusterRadius": "Raio do agrupamento (quão grande é o grupo)",
+          "repelStrength": "Capacidade de repelir inimigo",
+          "repelDistance": "Distância de repelimento inimigo",
+          "hostility": "Grupos inimigos",
+          "hostilityStrength": "Força da hostilidade",
+          "hostilityDistance": "Distância mínima de separação"
+        },
+        "filters": {
+          "title": "Filtros",
+          "activeCount": "{{count}} ativo(s)",
+          "searchPlaceholder": "Pesquisar gráfico...",
+          "relationshipTypes": "Tipos de relacionamento",
+          "anyType": "Qualquer tipo",
+          "anyRelationshipType": "Qualquer tipo de relacionamento",
+          "anyTag": "Qualquer marcador",
+          "anyConcept": "Qualquer conceito",
+          "orphans": "Exibir conceitos não conectados",
+          "empty": "Nenhum conceito corresponde aos filtros atuais."
+        },
+        "resetDefaults": "Redefinir para o padrão",
+        "sliderHelp": {
+          "nodeSize": {
+            "title": "Altera o tamanho do nó.",
+            "increase": "Aumentar: nós maiores e mais proeminentes.",
+            "decrease": "Diminuir: nós menores e menos dominantes."
+          },
+          "nodeBorderRadius": {
+            "title": "Arredonda os cantos das formas dos nós.",
+            "increase": "Aumentar: cantos mais arredondados (como círculos).",
+            "decrease": "Diminuir: cantos mais afiados (como quadrados)."
+          },
+          "linkThickness": {
+            "title": "Define a espessura da linha para links de relacionamento.",
+            "increase": "Aumentar: links aparecem mais fortes",
+            "decrease": "Diminuir: links aparecem mais fracos e sutis."
+          },
+          "centerForce": {
+            "title": "Puxa nós em direção ao centro do gráfico.",
+            "increase": "Aumentar: layout mais concentrado no centro.",
+            "decrease": "Diminuir: layout mais longe do centro."
+          },
+          "axisForceX": {
+            "title": "Atração horizontal em direção ao centro.",
+            "increase": "Aumentar: nós mais fortemente alinhados ao longo do eixo X.",
+            "decrease": "Diminuir: alinhamento horizontal mais fraco."
+          },
+          "axisForceY": {
+            "title": "Atração vertical em direção ao centro.",
+            "increase": "Aumentar: nós mais fortemente alinhados ao longo do eixo Y.",
+            "decrease": "Diminuir: alinhamento vertical mais fraco."
+          },
+          "radialForce": {
+            "title": "Atrai nós em ao redor de um raio a partir do centro.",
+            "increase": "Aumentar: organização lembra mais fortemente um anel.",
+            "decrease": "Diminuir: organização radial mais fraca."
+          },
+          "orphanOrbitOuterRadius": {
+            "title": "Distância de nós isolados do centro quando a órbita está ativada.",
+            "increase": "Aumentar: nós isolados orbitam mais distantes.",
+            "decrease": "Diminuir: nós isolados orbitam mais próximos."
+          },
+          "orphanOrbitStrength": {
+            "title": "Adesão à órbita de nós isolados.",
+            "increase": "Aumentar: nós isolados aderem mais firmemente à órbita.",
+            "decrease": "Diminuir: nós isolados se comportam mais livremente."
+          },
+          "repelForce": {
+            "title": "Intensidade com que os nós se repelem.",
+            "increase": "Aumentar: maior separação e espaçamento.",
+            "decrease": "Diminuir: agrupamento mais denso."
+          },
+          "chargeDistance": {
+            "title": "Distância máxima onde a repulsão dos nós tem efeito.",
+            "increase": "Aumentar: repulsão afeta nós mais distantes.",
+            "decrease": "Diminuir: repulsão possui alcance mais curto."
+          },
+          "linkForce": {
+            "title": "Força de atração dos links.",
+            "increase": "Aumentar: nós conectados permancem mais próximos.",
+            "decrease": "Diminuir: nós conectados podem se afastar mais."
+          },
+          "linkDistance": {
+            "title": "Comprimento ideal dos vínculos entre nós conectados.",
+            "increase": "Aumentar: nós conectados ficam mais afastados.",
+            "decrease": "Diminuir: nós conectados ficam mais próximos."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "world": "Mundo",
+      "openSettings": "Abrir configurações",
+      "page": "Página",
+      "newPage": "Nova página",
+      "toggleSidebar": "Alternar barra lateral",
+      "goBack": "Voltar",
+      "goForward": "Avançar",
+      "breadcrumb": "Trilha de navegação",
+      "goToFolder": "Ir para pasta {{name}}",
+      "configureTimeSystem": "Configurar sistema de tempo",
+      "conceptWithId": "Conceito #{{id}}",
+      "segmentWithId": "Segmento #{{id}}",
+      "noteWithId": "Nota #{{id}}"
+    },
+    "tabs": {
+      "openTab": "Abrir aba {{name}}",
+      "closeTab": "Fechar aba {{name}}",
+      "splitView": "Esta aba contém visualização dividida",
+      "exitSplitView": "Sair da visualização dividida nesta aba",
+      "loadingPane": "Carregando painel...",
+      "loadingConcept": "Carregando conceito...",
+      "loadingSegment": "Carregando segmento...",
+      "loadingFolder": "Carregando pasta...",
+      "loadingManuscript": "Carregando manuscrito..."
+    },
+    "sidebar": {
+      "visibility": {
+        "hideSections": "Ocultar seções",
+        "hiddenSections": "Seções ocultas",
+        "noneHidden": "Não há seções ocultas.",
+        "pressToHide": "Pressione para ocultar",
+        "selectedToHide": "Selecionado para ocultar",
+        "unhideSection": "Exibir {{section}}",
+        "confirmHide": "Ocultar ({{count}})"
+      },
+      "preview": {
+        "loading": "Carregando pré-visualização...",
+        "empty": "Ainda não há conteúdo."
+      },
+      "options": "Opções",
+      "tags": {
+        "menuLabel": "Opções de visibilidade do marcador para {{scope}}",
+        "optionsMenuLabel": "Opções de marcador e contagem de palavras para {{scope}}",
+        "filterLabel": "Marcadores visíveis em {{scope}}",
+        "showAll": "Mostrar tudo",
+        "showSelected": "Mostrar selecionados",
+        "chooseTags": "Selecionar marcadores",
+        "showNone": "Não mostrar nenhum",
+        "excludeAllConceptsFromWordCount": "Excluir todos os conceitos da contagem de palavras",
+        "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras"
+      },
+      "items": {
+        "openItem": "Abrir {{type}}: {{name}}",
+        "updateTag": "Atualizar marcador",
+        "moreActions": "Mais ações",
+        "openMenu": "Abrir menu",
+        "openFolderActionsMenu": "Abrir menu de ações da pasta",
+        "openTypeActionsMenu": "Abrir menu de ações do tipo",
+        "openFolderAddMenu": "Abrir menu de adicionar pasta",
+        "openTypeAddMenu": "Abrir menu de adicionar tipo",
+        "folderAddTooltip": "Adicionar segmentos ou pastas",
+        "typeAddTooltip": "Adicionar conceitos ou tipos",
+        "folderActionsTooltip": "Excluir, renomear e mais...",
+        "typeActionsTooltip": "Excluir, editar e mais...",
+        "newFolder": "Nova pasta",
+        "deleteFolder": "Excluir pasta",
+        "changeConceptIcon": "Alterar ícone do conceito",
+        "changeFolderIcon": "Alterar ícone da pasta",
+        "changeFolderColor": "Alterar cor da pasta",
+        "excludeFromWordCount": "Excluir da contagem de palavras",
+        "includeInWordCount": "Incluir na contagem de palavras",
+        "excludedFromWordCount": "Excluído da contagem de palavras",
+        "types": {
+          "segment": "segmento"
+        },
+        "wordCountExclusionLockedByAllConcepts": "A contagem de palavras é controlada por todos os conceitos.",
+        "wordCountExclusionLockedByParentFolder": "A contagem de palavras é controlada pela pasta pai.",
+        "wordCountExclusionLockedByParentType": "O contador de palavras é controlado pelo tipo pai."
+      },
+      "files": {
+        "createFolder": "Criar pasta",
+        "toggleSection": "Alternar seção de segmentos",
+        "emptyDescription": "Segmentos contêm o conteúdo real da história. Pense neles como cenas, seções ou capítulos. Você pode combiná-los em estruturas maiores e moldá-los em um manuscrito completo.",
+        "emptyExample1": "Segmento 1: O Início",
+        "emptyExample2": "Cenas de introdução do personagem",
+        "emptyExample3": "Trocas de diálogo importantes",
+        "emptyExample4": "Passagens descritivas e construção de mundos"
+      },
+      "deleted": {
+        "deleteAll": "Excluir tudo",
+        "restoreAll": "Restaurar tudo"
+      },
+      "concepts": {
+        "toggleSection": "Alternar seção de conceitos",
+        "emptyDescription": "Conceitos são a base do seu mundo: personagens, locais, itens e ideias que tornam sua narrativa rica e detalhada.",
+        "emptyExample1": "Personagens principais e suas histórias",
+        "emptyExample2": "Locais e cenários importantes",
+        "emptyExample3": "Itens mágicos ou tecnologia",
+        "emptyExample4": "Elementos de construção de mundo e lore"
+      },
+      "manuscripts": {
+        "createManuscript": "Criar manuscrito",
+        "newManuscriptName": "Novo manuscrito",
+        "openManuscriptActionsMenu": "Abrir menu de ações de manuscrito",
+        "rename": "Renomear",
+        "renameManuscript": "Renomear manuscrito",
+        "deleteManuscriptDescription": "Isto remove a estrutura do manuscrito, mas não exclui os segmentos.",
+        "addOptions": {
+          "noMatchingSegments": "Nenhum segmento correspondente",
+          "addTitle": "Adicionar título",
+          "addEmptySpace": "Adicionar espaço em branco"
+        },
+        "entry": {
+          "untitledTitle": "Título sem nome",
+          "updateTitle": "Atualizar título",
+          "hideSegmentTitle": "Ocultar título do segmento",
+          "showSegmentTitle": "Exibir título do segmento",
+          "openSegment": "Abrir segmento",
+          "addAbove": "Adicionar acima",
+          "addBelow": "Adicionar abaixo",
+          "removeEntryTitle": "Remover entrada",
+          "removeEntryDescription": "Isso remove a entrada da estrutura do manuscrito.",
+          "removeEntryConfirm": "Remover entrada"
+        },
+        "toggleSection": "Alternar seção de manuscritos",
+        "emptyDescription": "O manuscrito organiza seus arquivos e segmentos em uma narrativa estruturada. Crie manuscritos (como Livro 1 ou Livro 2) e divida-os em atos, partes ou na estrutura que preferir.",
+        "emptyExample1": "Livro 1: O Início",
+        "emptyExample2": "Livro 2: O Meio",
+        "emptyExample3": "Livro 3: O Fim",
+        "emptyExample4": "Ato I: A Preparação",
+        "emptyExample5": "Ato II: O Confronto",
+        "emptyExample6": "Ato III: A Resolução"
+      },
+      "examples": "Exemplos:",
+      "toggleSection": "Alternar seção {{section}}"
+    },
+    "notes": {
+      "editTagsAria": "Editar marcadores da nota {{id}}",
+      "linkedToEditor": "Esta nota está vinculada ao editor",
+      "linkedToEditorCount": "Vinculada ao editor {{count}} vezes"
+    },
+    "editableTitle": {
+      "ariaLabel": "Título {{entityType}} editável",
+      "actionsAriaLabel": "Abrir ações do título"
+    },
+    "banner": {
+      "entities": {
+        "project": "projeto"
+      },
+      "actions": {
+        "useProjectImage": "Usar imagem do projeto",
+        "hideBackground": "Ocultar plano de fundo"
+      },
+      "imageControls": {
+        "imageAriaLabel": "Imagem de banner {{entity}}",
+        "positionImage": "Posicionar imagem do banner {{entity}}",
+        "donePositioning": "Posicionamento de banner {{entity}} concluído",
+        "removeImage": "Remover imagem do banner {{entity}}",
+        "changeBackgroundImage": "Alterar imagem do plano de fundo",
+        "editImage": "Editar imagem do banner {{entity}}"
+      }
+    },
+    "versionHistory": {
+      "noVersionsYet": "Ainda não há versões",
+      "fileDescription": "Versões são criadas automaticamente quando você salva seu arquivo. Por padrão, uma nova versão é criada a cada 200 palavras adicionadas ou excluídas.",
+      "entityDescription": "Versões são criadas automaticamente quando você salva seu {{entityName}}. Por padrão, uma nova versão é criada a cada 100 palavras adicionadas ou excluídas.",
+      "compareVersions": "Comparar versões",
+      "major": "Principal"
+    },
+    "coming_soon": {
+      "title": "Em breve",
+      "description": "Esta ação ainda não está disponível."
+    },
+    "setup": {
+      "errors": {
+        "restoreFailed": "Falha ao restaurar da pasta escolhida. Por favor verifique se ela contém uma estrutura válida."
+      },
+      "welcome": {
+        "title": "Bem-vindo ao Writality",
+        "description": "Seu espaço de escrita completo para romances, contos e projetos criativos.",
+        "checklistTitle": "Vamos configurar seu espaço de escrita:",
+        "step1": "Nomeie seu diretório de trabalho",
+        "step2": "Escolha onde armazená-lo",
+        "step3": "Comece a criar projetos!",
+        "restore": "Restaurar de uma pasta existente"
+      },
+      "details": {
+        "title": "Configure seu espaço de trabalho",
+        "subtitle": "Vamos começar pelo básico",
+        "workspaceNamePlaceholder": "Minha escrita",
+        "workspaceNameHint": "Este será o nome do diretório da sua área de trabalho",
+        "authorName": "Nome do autor",
+        "authorNameHint": "Isto será o autor padrão para seus projetos"
+      },
+      "storage": {
+        "title": "Escolher local de armazenamento",
+        "subtitle": "Onde devemos salvar seu espaço de trabalho?",
+        "yourWorkspace": "Seu espaço de trabalho",
+        "author": "Autor",
+        "folderLabel": "Pasta de armazenamento",
+        "chooseFolder": "Clique para escolher a pasta",
+        "folderHint": "Recomendamos uma pasta em nuvem (Dropbox, Drive, iCloud)",
+        "willCreateAt": "O espaço de trabalho será criado em:",
+        "createWorkspace": "Criar espaço de trabalho"
+      }
+    },
+    "tutorial": {
+      "previous": "Anterior"
+    },
+    "noProject": {
+      "headline": "Hora de concluir esse projeto de vez!",
+      "subheadline": "O passo mais importante é o primeiro ;)",
+      "organizeTitle": "Organize da forma que quiser",
+      "organizeDescription": "Rascunhe sem medo. O Writality se molda ao seu processo, não o contrário.",
+      "worldTitle": "Construa esse mundo",
+      "worldDescription": "Crie personagens, locais e cronologias vivos, que evoluem junto com a sua história."
+    },
+    "searchPage": {
+      "commandCount": "{{count}} Segmentos",
+      "description": "Procurar comandos e atalhos",
+      "footerHint": "Pressione Enter para salvar",
+      "noCommands": "Nenhum comando corresponde \"{{query}}\"",
+      "noResults": "Sem resultados para \"{{query}}\"",
+      "placeholder": "Pesquisar comandos",
+      "resultCount": "{{count}} Resultados",
+      "typeMore": "Digite mais para pesquisar"
+    },
+    "tagFilter": {
+      "filterByTags": "Filtrar por Etiquetas",
+      "noTagsAvailable": "Nenhuma etiqueta disponível",
+      "filterLogic": "Lógica de filtro",
+      "logic": {
+        "or": "Ou"
+      }
+    },
+    "settings": {
+      "groups": {
+        "workspace": "Espaço de trabalho",
+        "data": "Dado",
+        "troubleshooting": "Resolução de problemas",
+        "support": "Suporte"
+      },
+      "sections": {
+        "editor": "Editor",
+        "import": "Importar arquivos",
+        "workspaceLocation": "Localização do espaço de trabalho",
+        "help": "Precisa de ajuda?"
+      },
+      "emailSupport": "Suporte por e-mail em bara@writality.com",
+      "helpDescription": "Obtenha ajuda e suporte para usar a Writality",
+      "helpPrompt": "Precisa de ajuda ou quer falar?"
+    },
+    "discordInvite": {
+      "eyebrow": "Discord Writality",
+      "title": "Venha me mostrar o que você está construindo ;)",
+      "description": "Erros e pedidos de recursos ainda são bem-vindos no aplicativo, mas o Discord é o melhor lugar para discussões aprofundadas: capturas de tela, gráficos de história, perguntas, erros que exigem mais detalhes, pequenos ganhos e as ideias que podem demandar uns e outros."
+    },
+    "discordSettings": {
+      "description": "Compartilhe comentários, erros, solicitações de funcionalidades, histórias e gráficos.",
+      "featureRequests": {
+        "title": "Sugestões de recursos",
+        "description": "O formulário do aplicativo é útil, mas, caso precisemos de mais, é o Discord agora. Podemos conversar sobre o formato dos recursos e compartilhar imagens de referência."
+      },
+      "bugsWithContext": {
+        "title": "Erros com contexto",
+        "description": "Alguns erros precisam de uma captura de tela, uma gravação curta e reversa, ou da representação exata de um espaço de trabalho. Isto nos dá espaço para isso."
+      },
+      "showAndTell": {
+        "title": "Mostrar/ocultar",
+        "description": "Eu continuo construindo gráficos e ferramentas de história porque quero que as pessoas os usem para projetos estranhos, específicos e bonitos. Por favor, mostre-me."
+      }
+    },
+    "workspace": {
+      "description": "Personalize a aparência e as preferências do seu espaço de trabalho",
+      "editorAppearance": {
+        "previewDescription": "Pré-visualize como seu editor será exibido",
+        "conceptTitle": "Conceito da aparência do editor",
+        "description": "Personalizar os fundos do editor e rótulos.",
+        "segmentTitle": "Aparência do editor de segmento",
+        "switchTo": "Alternar visualização",
+        "title": "Aparência do editor"
+      },
+      "theme": {
+        "title": "Tema",
+        "description": "Escolha o seu tema de ‘interface’ preferido. Nós temos temas personalizados para você escolher e garantir uma experiência de escrita confortável.",
+        "showLess": "Mostrar menos",
+        "browseAll": "Procurar todos os temas {{count}}",
+        "customTheme": {
+          "import": "Importar tema",
+          "description": "Nomeie seu tema, ajuste as classes de cores e pré-visualize como a ‘interface’ de usuário de aplicativos comum irá parecer.",
+          "name": "Nome do tema",
+          "save": "Salvar tema",
+          "saved": "Tema salvo",
+          "deleted": "Tema apagado",
+          "imported": "Tema importado",
+          "exported": "Tema exportado",
+          "conflict": "O nome do tema está em conflito com um tema existente",
+          "defaultName": "Meu tema",
+          "defaultSlug": "meu-tema",
+          "saveError": "Falha ao salvar o tema",
+          "errors": {
+            "nameRequired": "O nome do tema é obrigatório.",
+            "nameConflictsBundled": "O nome do tema está em conflito com um tema embutido.",
+            "nameExists": "O nome do tema já existe."
+          },
+          "groups": {
+            "core": "Essencial",
+            "border": "Bordas e Entradas",
+            "sidebar": "Barra Lateral Principal",
+            "secondarySidebar": "Barra lateral secundária",
+            "editor": "Editor & Marcadores"
+          },
+          "export": "Exportar {{name}}",
+          "saveNew": "Salvar como novo tema",
+          "unsavedDraft": "Não salvo",
+          "options": {
+            "grainy": {
+              "label": "Textura de grãos",
+              "description": "Aplica texturas sutis de grão a superfícies selecionadas. Não funciona de forma confiável em telas com DPI baixo."
+            },
+            "rounded": {
+              "label": "Cantos arredondados",
+              "description": "Arredonda cantos no aplicativo. Desative para cantos quadrados."
+            },
+            "sidebarItemBorders": {
+              "label": "Linhas de recuo da barra lateral",
+              "description": "Mostra linhas de guia de recuo vertical nas barras laterais."
+            }
+          },
+          "delete": "Excluir tema",
+          "deleteTitle": "Excluir tema?"
+        },
+        "projectAppearance": {
+          "title": "Usar aparência específica do projeto",
+          "description": "Quando desativado, o aplicativo usa sua aparência global. Quando ativado, o projeto mantém seu próprio tema e fontes."
+        }
+      },
+      "fonts": {
+        "title": "Fontes",
+        "interface": {
+          "title": "Fonte da interface",
+          "description": "Usado para controles, menus e texto da interface.",
+          "previewTitle": "Pré-visualização da interface"
+        },
+        "heading": {
+          "title": "Fonte do título",
+          "description": "Usado para os cabeçalhos H1-H4 em todo o aplicativo.",
+          "previewTitle": "Pré-visualização do título"
+        },
+        "custom": {
+          "title": "Fontes personalizadas",
+          "description": "Envie fontes .ttf, .otf, .woff ou .woff2 do seu computador.",
+          "addButton": "Adicionar fonte personalizada",
+          "empty": "Nenhuma fonte personalizada adicionada.",
+          "added": "Fontes personalizadas adicionadas.",
+          "skipped": "Algumas fontes já existentes foram ignoradas.",
+          "addFailed": "Falha ao adicionar fontes personalizadas.",
+          "removeFailed": "Falha ao remover fonte personalizada."
+        }
+      },
+      "scale": {
+        "title": "Escala",
+        "description": "Ajuste o tamanho geral da interface para conforto.",
+        "ariaLabel": "Escala do aplicativo",
+        "ariaLabelPercent": "Porcentagem da escala do aplicativo",
+        "smaller": "Menor",
+        "larger": "Maior",
+        "quickPresets": "Predefinições rápidas",
+        "tip": "Dica: 100% equivale ao layout padrão. Use predefinições para trocas rápidas e o controle deslizante para ajuste fino."
+      },
+      "split": {
+        "tileToLeft": "Ajustar à esquerda",
+        "tileToRight": "Ajustar à direita"
+      },
+      "editorBackground": {
+        "previewTitle": "Prévia do plano de fundo"
+      }
+    },
+    "profile": {
+      "description": "Gerencie sua identidade de autor para este espaço de trabalho.",
+      "displayName": {
+        "title": "Nome para exibição",
+        "description": "Seu nome de exibição no app e no feed de atividades do projeto. Não precisa ser único e pode ser alterado a qualquer momento."
+      },
+      "errors": {
+        "nameRequired": "O nome não pode ficar vazio",
+        "updateFailed": "Falha ao atualizar o perfil"
+      }
+    },
+    "modules": {
+      "description": "Ative ou desative módulos do projeto para simplificar a interface.",
+      "available": "Módulos disponíveis",
+      "toggleAria": "Alternar módulo {{module}}",
+      "items": {
+        "timeline": {
+          "label": "Linha do tempo & Cronologia",
+          "description": "Visualização cronológica, ferramentas de calendário e datas de conceitos.",
+          "disabledDescription": "Oculta a cronologia e o calendário. Nenhuma data ou configuração da linha do tempo é excluída, e tudo reaparece ao reativar."
+        },
+        "manuscript": {
+          "label": "Manuscrito",
+          "description": "Composição de manuscritos, aba da barra lateral e leitor de manuscritos.",
+          "disabledDescription": "Oculta os manuscritos na barra lateral e funções associadas. Seus textos não serão apagados e reaparecerão ao reativar."
+        },
+        "storygraph": {
+          "description": "Gráfico de relacionamento no painel.",
+          "disabledDescription": "Oculta o gráfico da história no painel. Seus conceitos e relações não serão apagados e reaparecerão ao reativar."
+        },
+        "kanban": {
+          "description": "Quadro de tarefas (kanban via marcadores e notas).",
+          "disabledDescription": "Oculta o quadro kanban. Seus marcadores e vínculos com as notas não serão apagados e reaparecerão ao reativar."
+        },
+        "map": {
+          "description": "Editor de mapa, alfinetes, regiões e ferramentas de cartografia.",
+          "disabledDescription": "Oculta a cartografia. Seus mapas, marcadores, regiões e ilustrações não serão apagados e reaparecerão ao reativar."
+        }
+      }
+    },
+    "commands": {
+      "description": "Ações rápidas e atalhos de teclado para navegar no aplicativo",
+      "palette": {
+        "enterCommandMode": "Entrar no modo de comando",
+        "closePalette": "Fechar paleta"
+      },
+      "pageCommands": {
+        "title": "Comandos de página"
+      },
+      "shortcuts": {
+        "title": "Atalhos do teclado",
+        "openGlobalSearch": "Abrir a pesquisa global",
+        "closeCurrentTab": "Fechar a aba atual",
+        "backInTabHistory": "Histórico de abas: voltar",
+        "forwardInTabHistory": "Histórico de abas: avançar",
+        "togglePrimarySidebar": "Alternar barra lateral primária",
+        "switchTabsByIndex": "Trocar abas pelo índice",
+        "findInEditor": "Localizar no editor",
+        "toggleSegmentConceptSidebar": "Alternar barra lateral de segmentos/conceitos"
+      }
+    },
+    "workspaceLocation": {
+      "description": "Gerencie onde o Writality lê e armazena dados de seu espaço de trabalho.",
+      "connectWorkspace": "Abrir um espaço de trabalho existente",
+      "connectWorkspaceDescription": "Aponta o Writality para uma pasta de espaço de trabalho já existente neste computador ou unidade. Isso muda o espaço de trabalho aberto, mas não move nenhum arquivo.",
+      "moveWorkspace": "Mover seu espaço de trabalho",
+      "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O Writality atualizará o caminho salvo e reiniciará após a conclusão.",
+      "currentDataLocation": "Localização atual dos seus dados",
+      "chooseNewLocation": "Destino para este espaço de trabalho",
+      "browse": "Navegar",
+      "selectNewLocationHint": "Selecione um novo local para pré-visualizar o caminho da área de trabalho.",
+      "chooseDifferentFolder": "Escolha uma pasta diferente do local do arquivo atual.",
+      "beforeContinue": "Antes de continuar",
+      "warningDoNotClose": "Não feche o aplicativo enquanto a transferência estiver em andamento.",
+      "warningFreeSpace": "Certifique-se de que o drive de destino tenha espaço livre suficiente.",
+      "moveAndRestart": "Mover arquivos e reiniciar",
+      "confirmTitle": "Confirmar movimentação do espaço de trabalho",
+      "confirmDescription": "Isto moverá a pasta do seu espaço de trabalho, atualizará o local salvo e reiniciará o aplicativo.",
+      "typeToConfirmSuffix": "para confirmar",
+      "workspaceNameFallback": "nome do espaço de trabalho",
+      "moving": "Movendo...",
+      "confirmAndMove": "Confirmar e mover",
+      "movedTo": "Espaço de trabalho movido para: {{path}}",
+      "changeDir": "Abrir espaço de trabalho existente",
+      "changedTo": "Local do espaço de trabalho alterado para: {{path}}",
+      "rename": {
+        "description": "Renomear a pasta do espaço de trabalho sem alterar seu local ou conteúdo.",
+        "confirmTitle": "Confirmar renomeação do projeto",
+        "confirmDescription": "Isto renomeará a pasta do espaço de trabalho, atualizará sua localização salva e reiniciará o aplicativo.",
+        "renaming": "Renomeando...",
+        "renamedTo": "Espaço de trabalho renomeado para: {{path}}",
+        "error": "Falha ao renomear espaço de trabalho"
+      },
+      "errors": {
+        "loadCurrent": "Não foi possível carregar o local do arquivo atual",
+        "openPicker": "Não foi possível abrir o seletor de pastas",
+        "move": "Falha ao mover espaço de trabalho",
+        "changeDir": "Falha ao alterar a localização do espaço de trabalho: {{message}}"
+      }
+    },
+    "deleted": {
+      "description": "Restaure seu trabalho ou remova-o para sempre. Os itens permanecem até que você os exclua permanentemente.",
+      "recentlyDeleted": "Excluídos recentemente",
+      "searchPlaceholder": "Pesquisar itens excluídos...",
+      "restoreSelected": "Restaurar selecionados",
+      "deleteSelected": "Excluir selecionados",
+      "selectedCount": "{{count}} selecionados",
+      "selectProject": "Selecione ou crie um projeto para gerenciar itens excluídos.",
+      "failedToLoad": "Falha ao carregar itens excluídos.",
+      "emptyFiltered": "Nenhum item excluído corresponde à sua pesquisa.",
+      "empty": "Não há nada aqui no momento. Itens excluídos serão exibidos quando você os remover.",
+      "deletePermanently": "Excluir permanentemente",
+      "table": {
+        "selectAllAria": "Selecionar todos os itens excluídos",
+        "selectItemAria": "Selecionar {{name}}",
+        "item": "Item"
+      },
+      "toast": {
+        "restored": "{{type}} restaurado",
+        "permanentlyDeleted": "{{type}} excluído permanentemente",
+        "failedRestore": "Falha ao restaurar o item",
+        "failedDelete": "Falha ao excluir item",
+        "bulkRestored_one": "{{count}} itens restaurados",
+        "bulkDeleted_one": "{{count}} itens excluídos permanentemente",
+        "failedBulk": "Falha ao {{action}} itens selecionados"
+      }
+    },
+    "tags": {
+      "description": "Veja cada marcador deste projeto, classifique por uso e exclua os que você não precisa mais.",
+      "failedToLoad": "Falha ao carregar marcadores",
+      "empty": "Ainda não há marcadores neste projeto.",
+      "filterPlaceholder": "Filtrar marcadores...",
+      "deleteAria": "Excluir marcador {{name}}",
+      "deleted": "Marcador excluído",
+      "updated": "Marcador atualizado",
+      "duplicateName": "Já existe um marcador com este nome",
+      "failedCreate": "Falha ao criar marcador",
+      "failedDelete": "Falha ao excluir marcador",
+      "failedUpdate": "Falha ao atualizar marcador",
+      "failedUpdateOrder": "Falha ao atualizar ordem do marcador",
+      "orderUpdated": "Ordem do marcador atualizada",
+      "dragHandle": "Reordenar {{name}}",
+      "table": {
+        "order": "Ordenar",
+        "usedOn": "Usado em"
+      },
+      "createNewTag": "Criar novo marcador",
+      "addTag": "Adicionar um marcador",
+      "enterTagName": "Insira o nome do marcador...",
+      "selectScopes": "Selecionar escopos...",
+      "editTag": "Editar marcador",
+      "saveChanges": "Salvar alterações",
+      "createTag": "Criar marcador",
+      "moveFirst": "Mover para a frente",
+      "moveLeft": "Mover para a esquerda",
+      "moveRight": "Mover para a direita",
+      "otherTags": "Outros marcadores"
+    },
+    "blocks": {
+      "description": "Crie e gerencie blocos de escrita reutilizáveis para este projeto.",
+      "failedToLoad": "Falha ao carregar blocos",
+      "empty": "Ainda não há blocos neste projeto.",
+      "emptyHint": "Blocos são trechos reutilizáveis que você pode inserir durante a escrita para manter a consistência e poupar tempo.",
+      "emptyCreateHelp": "Blocos podem ser criados no editor selecionando texto e clicando em criar",
+      "emptyExample1": "A abertura de um capítulo que você utiliza em várias cenas",
+      "emptyExample2": "Um modelo de descrição de personagem para novos membros do elenco",
+      "emptyExample3": "Um formato de nota padrão para detalhes de construção de mundo",
+      "filterPlaceholder": "Filtrar blocos...",
+      "favoriteAria": "Alternar favorito para bloco {{name}}",
+      "renameAria": "Renomear bloco {{name}}",
+      "deleteAria": "Excluir bloco {{name}}",
+      "renameTitle": "Renomear bloco",
+      "table": {
+        "name": "Bloco",
+        "used": "Em uso",
+        "updated": "Atualizado"
+      },
+      "toast": {
+        "renamed": "Bloco renomeado",
+        "deleted": "Bloco excluído",
+        "failedRename": "Falha ao renomear bloco",
+        "failedDelete": "Falha ao excluir bloco",
+        "failedFavorite": "Falha ao atualizar favorito"
+      }
+    },
+    "importSettings": {
+      "description": "Arrastar arquivos Word ou Markdown para revisar e importar um a um, mantendo o processo organizado e sob controle.",
+      "bringFiles": "Traga arquivos para o seu projeto",
+      "supportedFormats": "Formatos suportados: {{formats}}. Cada arquivo é importado como uma nova entidade.",
+      "dropOrChoose": "Solte arquivos aqui ou escolha-os manualmente",
+      "dropHint": "Seus arquivos serão convertidos em conceitos ou segmentos de acordo com a sua seleção.",
+      "chooseFiles": "Selecionar arquivos",
+      "progressHint": "Utilizamos o primeiro cabeçalho como título quando disponível, em seguida te guiamos um arquivo de cada vez.",
+      "importProgress": "Progresso da Importação",
+      "clearImported": "Limpar importados",
+      "nothingQueued": "Nada na fila ainda.",
+      "whereShouldThisGo": "Para onde deveria ir?",
+      "whereHint": "Escolha o destino para este arquivo, importe-o e depois continue com o próximo.",
+      "segmentDescription": "Parte de uma estrutura de documentos maior. Melhor para capítulos, cenas, seções ou conteúdo sequencial.",
+      "conceptDescription": "Uma ideia ou referência independente. Ideal para notas, lore, definições, personagens e conhecimento conectado.",
+      "removeFile": "Remover este arquivo",
+      "importAs": "Importar como",
+      "segments": "segmentos",
+      "concepts": "conceitos",
+      "segmentSplitTitle": "Dividir por cabeçalhos",
+      "segmentSplitHint": "Cria um novo item cada vez que um cabeçalho selecionado aparecer.",
+      "segmentSplitActiveHint": "Dividindo em: {{levels}}",
+      "segmentSplitNone": "Não dividir",
+      "segmentSplitHeading": "Cabeçalho {{level}}",
+      "segmentSplitHeadingShort": "H{{level}}",
+      "moreFilesWaiting_one": "{{count}} arquivos aguardando depois deste",
+      "stillParsing_one": "{{count}} arquivos ainda em análise",
+      "noMoreFilesWaiting": "Não há mais arquivos aguardando depois deste",
+      "upNext": "A seguir:",
+      "batchHandled": "Tudo neste lote foi resolvido.",
+      "imported": "Importado {{name}}.",
+      "importedSplit": "{{name}} importado como {{count}} {{target}}.",
+      "status": {
+        "parsing": "Processando",
+        "ready": "Pronto",
+        "imported": "Importado",
+        "error": "Erro"
+      },
+      "errors": {
+        "dropSupported": "Arraste e solte arquivos .docx ou markdown para importá-los.",
+        "parse": "Não foi possível processar o arquivo",
+        "someSkipped": "Alguns arquivos foram ignorados porque apenas .docx e markdown são suportados.",
+        "importFailed": "A importação falhou"
+      }
+    },
+    "updates": {
+      "description": "Verificar atualizações de software e gerenciar backups de dados",
+      "checking": "Verificando...",
+      "checkForUpdates": "Buscar atualizações",
+      "toast": {
+        "noUpdates": "Nenhuma atualização disponível",
+        "updateAvailable": "Atualização disponível: {{version}}",
+        "startingDownload": "Iniciando download...",
+        "updateDownloaded": "Atualização baixada: {{version}}",
+        "updateError": "Falha na atualização: {{message}}",
+        "failedCheck": "Falha ao verificar atualizações",
+        "failedDownload": "Falha ao baixar a atualização",
+        "failedInstall": "Falha ao instalar atualização",
+        "backupCreated": "Backup criado com sucesso",
+        "failedCreateBackup": "Falha ao criar backup",
+        "backupRestored": "Backup restaurado com sucesso",
+        "failedRestoreBackup": "Falha ao restaurar o backup",
+        "backupDeleted": "Backup excluído com sucesso",
+        "failedDeleteBackup": "Falha ao excluir o backup",
+        "unknownError": "Erro desconhecido",
+        "failedUpdateGeneric": "Falha na atualização. Por favor, tente novamente."
+      },
+      "status": {
+        "versionInfoPending": "As informações da versão aparecerão assim que o atualizador for verificado.",
+        "scanning": "Procurando por versões mais recentes...",
+        "buildReady": "A versão {{version}} foi preparada e está pronta para quando você quiser.",
+        "synced": "Você está sincronizado com a versão estável mais recente.",
+        "joined": "Entrou em {{date}}",
+        "buildLabel": "Writality versão",
+        "currentVersion": "Versão atual"
+      },
+      "download": {
+        "newVersionAvailable": "Nova versão disponível",
+        "releaseNotes": "Notas de lançamento:",
+        "downloadUpdate": " Baixar atualização",
+        "installUpdate": "Instalar atualização"
+      },
+      "backups": {
+        "title": "Backups de dados",
+        "searchPlaceholder": "Pesquisar backups...",
+        "createBackup": "Criar backup",
+        "manualBackup": "Backup manual",
+        "restoreConfirm": "Tem certeza que deseja restaurar este backup? Isto irá substituir seus dados atuais.",
+        "deleteDescription": "Isto irá remover permanentemente o backup selecionado.",
+        "totalSize": "Tamanho total",
+        "restoreBackup": "Restaurar backup",
+        "empty": "Nenhum backup ainda. Crie seu primeiro backup para proteger seus dados.",
+        "description": "Os backups do banco de dados são uma restauração completa de snapshots. Use-os quando você quiser uma cópia restaurável do espaço de trabalho Writality."
+      },
+      "notification": {
+        "isAvailable": "está disponível"
+      }
+    },
+    "readableBackups": {
+      "description": "Mantenha cópias legíveis do seu projeto em markdown ou Word fora do Writality.",
+      "noProject": "Selecione ou crie um projeto para configurar backups legíveis.",
+      "runNow": "Fazer backup agora",
+      "lastSuccess": "Último backup legível: {{date}}",
+      "noSuccessfulRun": "Nenhum backup legível foi concluído ainda.",
+      "pending": "{{count}} pendente(s)",
+      "toasts": {
+        "runComplete": "Backup legível concluído"
+      },
+      "readable": {
+        "enable": "Habilitar backups legíveis",
+        "description": "Backups legíveis gravam segmentos, conceitos e notas como arquivos markdown ou Word em uma pasta que você escolher, mantendo seu trabalho acessível fora do Writality.",
+        "disabled": "Ative os backups legíveis para configurar pastas, formatos e sincronização manual.",
+        "implications": "O primeiro backup (especialmente em .docx) pode demorar. Continue escrevendo normalmente. Edições futuras são exportadas após {{seconds}}s de inatividade. Markdown é ágil e portátil; o docx é mais pesado, mas rico em formatação. Mudar a pasta reinicia a sincronização no novo local sem apagar os arquivos antigos. Estes arquivos não restauram o sistema; use \"Atualizações e Backups\" para o banco de dados."
+      },
+      "folder": {
+        "title": "Pasta de backups",
+        "missing": "Escolha uma pasta antes de habilitar backups legíveis.",
+        "choose": "Selecionar pasta"
+      },
+      "formats": {
+        "markdown": "Markdown (.md)",
+        "docx": "Word (.docx)"
+      },
+      "status": {
+        "idle": "Não iniciado",
+        "queued": "Preparando o backup inicial",
+        "running": "Fazendo backup do conteúdo existente",
+        "complete": "Backup inicial concluído",
+        "paused": "Backup pausado"
+      }
+    },
+    "languageSettings": {
+      "title": "Idioma do aplicativo",
+      "description": "Escolha o idioma usado para a interface e verificação ortográfica do Writality.",
+      "note": "O idioma do aplicativo altera apenas o texto da interface.",
+      "communityLanguages": "Traduções da comunidade",
+      "communityLanguagesDescription": "Instale as traduções da comunidade para uso off-line, em seguida, atualize-as quando as atualizações estiverem disponíveis.",
+      "communityLanguagesOffline": "Não foi possível buscar as traduções da comunidade. Os idiomas instalados ainda funcionam off-line.",
+      "noCommunityLanguages": "Nenhuma tradução da comunidade foi instaladaainda.",
+      "installed": "Instalado",
+      "updateAvailable": "Atualização disponível",
+      "installedOffline": "Localmente instalado",
+      "completionPercent": "{{percent}}% traduzido",
+      "installedVersion": "{{version}} instalada",
+      "install": "Instalar",
+      "update": "Atualizar",
+      "installFailed": "Falha ao instalar idioma.",
+      "installComplete": "{{language}} instalado..",
+      "refreshFailed": "Falha ao atualizar o idioma.",
+      "refreshComplete": "{{language}} atualizado.",
+      "removeFailed": "Falha ao remover o idioma.",
+      "removeComplete": "{{language}} removido."
+    },
+    "dictionary": {
+      "description": "Gerencie as palavras do seu dicionário personalizado",
+      "clearAll": "Limpar tudo",
+      "loading": "Carregando dicionário...",
+      "spellcheck": "Verificação ortográfica",
+      "enableSpellcheck": "Habilitar verificação ortográfica",
+      "spellcheckDescription": "Exibe palavras incorretas sublinhadas e sugestões de ortografia no editor.",
+      "spellcheckLanguage": "Idioma da verificação ortográfica",
+      "enableSpellcheckToChange": "Habilite verificação ortográfica para mudar as preferências do idioma.",
+      "toastLanguageFallback": "Não foi possível aplicar {{requested}}. Usando {{effective}} em vez disso.",
+      "activeLanguageMismatch": "Idioma do corretor incorreto: solicitado {{requested}}, ativo no sistema {{active}}.",
+      "toggle": "Alternar verificação ortográfica",
+      "clearDialogDescription": "Isto irá remover todas as {{count}} {{wordLabel}} do seu dicionário personalizado. Esta ação não pode ser desfeita.",
+      "clearDialogTitle": "Limpar o dicionário personalizado?",
+      "clearDictionary": "Limpar dicionário",
+      "empty": "Seu dicionário personalizado está vazio.",
+      "emptyHint": "Adicione palavras acima ou clique em \"Adicionar ao dicionário\" quando estiver verificando ortografia.",
+      "enterWord": "Digite uma palavra para adicionar...",
+      "searchWords": "Pesquisar palavras...",
+      "failedToUpdateSpellcheck": "Falha ao atualizar a verificação ortográfica.",
+      "macNote": "Nota: Para macOS, a verificação ortográfica é controlada pelas configurações de idioma do seu sistema, que podem não corresponder ao idioma selecionado. Altere o idioma do seu sistema e reinicie o aplicativo para aplicar.",
+      "word": "palavra",
+      "yourDictionary": "Seu dicionário ({{count}} {{wordLabel}})",
+      "removeWord": "Excluir palavra"
+    },
+    "bugs": {
+      "description": "Relatar um erro ou ver relatórios existentes.",
+      "dialogDescription": "O Writality não coleta dados dos usuários. Os relatórios de erro são a única forma de melhorarmos o aplicativo. Obrigado por ajudar a tornar o Writality melhor!",
+      "titlePlaceholder": "Descrição resumida do erro",
+      "descriptionPlaceholder": "Por favor, forneça etapas detalhadas para reproduzir o erro...",
+      "knownBugsPrefix": "Erros conhecidos",
+      "knownBugsSuffix": "estão listados nas configurações.",
+      "submit": "Enviar relatório",
+      "submitting": "Enviando...",
+      "submitted": "Relatório de erro enviado! Obrigado por seu feedback.",
+      "failed": "Falha ao enviar o relatório de erro",
+      "viewKnownBugs": "Ver erros conhecidos nas configurações",
+      "searchPlaceholder": "Pesquisar relatórios de erro...",
+      "filterByStatus": "Filtrar por status",
+      "emptyFiltered": "Nenhum relatório de erro corresponde aos seus filtros.",
+      "empty": "Nenhum erro relatado ainda.",
+      "table": {
+        "status": "Status"
+      },
+      "status": {
+        "not_started": {
+          "label": "Não iniciado",
+          "description": "Este erro foi relatado, mas ainda não foi revisado ou trabalhado."
+        },
+        "started": {
+          "label": "Em andamento",
+          "description": "Este erro está sendo investigado ou trabalhado no momento."
+        },
+        "completed": {
+          "description": "Esse erro foi corrigido e a solução está implementada."
+        },
+        "rejected": {
+          "label": "Rejeitado",
+          "description": "Este relatório de erro foi revisado, mas não será endereçado.."
+        }
+      },
+      "discordPrompt": "Você também pode se juntar ao Discord para solicitações de funcionalidades, erros, capturas de tela, gráficos de história e conversas gerais sobre o Writality."
+    },
+    "changelog": {
+      "description": "Atualizações recentes e notas de lançamento",
+      "empty": "Nenhum registro de alterações foi incluído nesta versão.",
+      "selectEntry": "Selecione um registro de alterações"
+    },
+    "versionSettings": {
+      "description": "Controle como as versões menores são mantidas para este projeto.",
+      "retentionTitle": "Retenção de versões menores",
+      "unlimited": "Ilimitado (padrão, sem limpeza automática)",
+      "keepLast": "Manter as últimas {{count}} versões menores",
+      "custom": "Limite personalizado",
+      "customPlaceholder": "Digite um número",
+      "customHint": "Pressione Enter ou deixe o campo para salvar o limite personalizado.",
+      "customInvalid": "Use um número inteiro maior que 0.",
+      "customSaved": "Mantendo as últimas {{count}} versões menores.",
+      "footprint": "Imagens de versão são somente texto e tipicamente ocupam pouco espaço de armazenamento para a maioria dos projetos.",
+      "duplicates": "Versões menores idênticas nunca são salvas pois os hashes são comparados antes.",
+      "updateFailed": "Falha ao atualizar a retenção da versões."
+    },
+    "debug": {
+      "description": "Exibir registros da aplicação e informações de depuração",
+      "console": {
+        "filters": {
+          "all": "Todos",
+          "errors": "Erros",
+          "warnings": "Alertas",
+          "info": "Informações",
+          "success": "Sucesso",
+          "debug": "Depuração",
+          "migration": "Migração"
+        },
+        "never": "Nunca",
+        "exported": "Registros exportados para {{path}}",
+        "exportFailed": "Falha ao exportar registros",
+        "description": "Inspecione os registros em tempo de execução e diagnósticos.",
+        "refreshing": "Atualizando…",
+        "failedToLoad": "Falha ao carregar os registros.",
+        "clearLogs": "Limpar registros",
+        "loadingLogs": "Carregando registros…",
+        "emptyFilter": "Não há registros para este filtro",
+        "total": "Total: {{count}}",
+        "errors": "Erros: {{count}}",
+        "warnings": "Alertas: {{count}}"
+      }
+    },
+    "externalLinks": {
+      "description": "Gerencie links de pesquisa reutilizáveis para este projeto.",
+      "failedToLoad": "Falha ao carregar links externos",
+      "empty": "Ainda não há links externos neste projeto.",
+      "emptyHint": "Links externos mantêm fontes, artigos, vídeos, entrevistas e material de referência perto de sua escrita.",
+      "emptyCreateHelp": "Selecione o texto no editor, escolha Criar e, em seguida, Criar Link Externo para adicionar sua primeira fonte.",
+      "filterPlaceholder": "Filtrar links externos...",
+      "editAria": "Editar link externo {{title}}",
+      "deleteAria": "Excluir link externo {{title}}",
+      "editTitle": "Editar link externo",
+      "usedCount": "Usado em {{count}}",
+      "toast": {
+        "updated": "Link externo atualizado",
+        "deleted": "Link externo excluído",
+        "failedUpdate": "Falha ao atualizar link externo",
+        "failedDelete": "Falha ao excluir link externo"
+      }
+    },
+    "iconPicker": {
+      "searchPlaceholder": "Pesquisar ícones por nome, categoria",
+      "loadMore": "Carregar Mais ({{count}} restantes)",
+      "noIconsFound": "Nenhum ícone encontrado",
+      "recent": "Recente"
+    },
+    "wordUsage": {
+      "title": "Uso de palavras",
+      "sentences": "Frases",
+      "avgWords": "Média de palavras",
+      "avgWordsPerSentence": "Média de palavras/frase",
+      "characters": "Caracteres",
+      "charactersNoSpaces": "Caracteres, sem espaços",
+      "paragraphs": "Parágrafos",
+      "textStats": "Estatísticas do texto",
+      "showTextStats": "Exibir estatísticas do texto",
+      "vocabulary": "Vocabulário",
+      "vocabularyDiversity": "Diversidade de palavras",
+      "uniqueWords": " Palavras únicas",
+      "freshWordsPer100": "{{count}} palavras novas por 100.",
+      "per100Words": "por 100 palavras",
+      "uniqueOfTotalWords": "único de {{count}} palavras.",
+      "vocabularyHint": "Na ficção, entre 45-70 flui melhor. Menos indica repetição ou excesso de conectivos; mais indica texto denso ou caça a sinônimos.",
+      "readabilitySummary": "Com base nos itens abaixo. Textos exigentes podem ter frases longas ou termos técnicos.",
+      "fleschReference": "Referência Flesch",
+      "fleschReferenceGuide": "Guia de referência Flesch",
+      "fleschReferenceHelp": "O Flesch avalia a leitura pelas sílabas e tamanho das frases. Termos técnicos baixam a nota, então compare com o seu público-alvo.",
+      "strengthScore": "Pontuação de esforço",
+      "readingEase": "Pontuação de facilidade",
+      "readingEaseHelp": "Pontuação Flesch de 0 a 100. Notas maiores indicam leitura rápida; menores indicam texto denso.",
+      "gradeLevel": "Nível de escolaridade",
+      "gradeLevelHelp": "O Flesch-Kincaid estima a série escolar americana por sílabas e frases. Avalia a densidade, não se o texto é adequado ao seu público.",
+      "estimate": "Estimativa",
+      "noReadabilityIssues": "Nenhum item do esforço de leitura para mostrar.",
+      "readabilityIssues": {
+        "adverbs": "Advérbios",
+        "passiveVoice": "Voz passiva",
+        "complexWording": "Palavras complexas",
+        "hardSentences": "Frases longas",
+        "veryHardSentences": "Frases muito longas",
+        "wordRepetition": "Palavras repetidas",
+        "characterRepetition": "Sons repetidos",
+        "badStyle": "Pontuação e gíria",
+        "weakWords": "Palavras vagas",
+        "strongWords": "Palavras vívidas"
+      },
+      "readabilityIssueHelp": {
+        "adverbs": "Mostra advérbios terminados em -mente. Dão nuance; se o ritmo estiver lento, veja se o verbo já basta.",
+        "passiveVoice": "Mostra a voz passiva, em que o sujeito sofre a ação. Útil quando quem age não importa; menos claro se o autor da ação deve ser nomeado.",
+        "complexWording": "Mostra palavras longas ou complexas. Termos técnicos ou científicos podem se incluir aqui; avalie se o seu leitor os conhece.",
+        "hardSentences": "Mostra frases com 20-24 palavras. Frases longas podem funcionar bem; isso ajuda a achar onde o leitor precisa de fôlego.",
+        "veryHardSentences": "Mostra frases com 25 palavras ou mais. Adequadas para ações complexas, reflexões ou voz; elas exigem mais do leitor.",
+        "wordRepetition": "Mostra palavras repetidas próximas. A repetição cria ritmo, ênfase ou motivo; isso ajuda você a encontrá-las.",
+        "characterRepetition": "Mostra palavras próximas com sons ou finais parecidos. Esses ecos trazem música e textura; ajuda a notar blocos.",
+        "badStyle": "Mostra pontuação repetida e grafias informais (como 'pra' ou 'tá'). Comuns em diálogos e voz; ajuda a revisá-los.",
+        "weakWords": "Mostra palavras vagas ou incertas (talvez, algo, parece). Elas podem suavizar a voz narrativa ou deixar margem para dúvida.",
+        "strongWords": "Mostra palavras vívidas, precisas ou enérgicas. Use para ver onde o texto tem mais força."
+      },
+      "sentenceLength": "Comprimento da frase",
+      "flow": "Fluxo",
+      "flowHint": "Use o gráfico abaixo para ver como o comprimento da frase varia no texto.",
+      "sentenceRhythm": "Ritmo da frase",
+      "sentenceRhythmChartLabel": "Gráfico de ritmo da frase",
+      "sentenceRhythmBarLabel": "Frase {{index}}: {{wordCount}} palavras, {{label}}",
+      "sentenceLabel": "Frase {{index}}",
+      "sentenceRhythmHint": "Cada barra é uma frase; barras mais altas indicam mais palavras.",
+      "noSentences": "Ainda não há frases.",
+      "noParagraphs": "Ainda não há parágrafos.",
+      "paragraphDensityDotLabel": "Parágrafo {{index}}: {{label}}, {{wordCount}} palavras",
+      "paragraphDensityTooltip": "Parágrafo {{index}} · {{label}} · {{wordCount}} palavras",
+      "englishAnalysisUnavailable": "As regras de legibilidade e de início de frase específicas do inglês não estão disponíveis para o idioma selecionado.",
+      "englishReadabilityUnavailable": "Análises de estilo e Flesch do inglês estão indisponíveis para este idioma. Repetição e tamanho de frase continuam ativos.",
+      "sentenceLengthLabels": {
+        "veryLong": "Muito longo"
+      },
+      "densityLabels": {
+        "simple": "Simples",
+        "moderate": "Moderado",
+        "complex": "Complexo",
+        "dense": "Denso"
+      },
+      "densityHelp": {
+        "simple": "1–25 palavras. Selecione para destacar todos os parágrafos simples.",
+        "moderate": "26–60 palavras. Selecione para destacar todos os parágrafos moderados.",
+        "complex": "61-100 palavras. Selecione para destacar todos os parágrafos complexos.",
+        "dense": "101+ palavras. Selecione para destacar todos os parágrafos densos."
+      },
+      "openerLabels": {
+        "dialogue": "Diálogo",
+        "pronoun": "Pronome",
+        "article": "Artigo",
+        "conjunction": "Conjunção",
+        "preposition": "Preposição",
+        "adverb": "Advérbio",
+        "properNoun": "Substantivos próprios",
+        "other": "Outros"
+      },
+      "openerHelp": {
+        "dialogue": "Começa com diálogo entre aspas retas ou curvas.",
+        "pronoun": "Começa com pronome, tais como ela, eles, ele ou este.",
+        "article": "Começa com um artigo: um, uma, o, a.",
+        "conjunction": "Começa com uma palavra de junção, como e, mas, ou porquê.",
+        "preposition": "Começa com uma palavra de relacionamento, como abaixo, perto ou com.",
+        "adverb": "Começa com um advérbio conhecido ou uma palavra terminada em -mente.",
+        "properNoun": "Começa com provável nome próprio. Apenas o uso de maiúsculas não é evidência suficiente.",
+        "other": "Não corresponde a um dos padrões de abertura acima."
+      },
+      "strengthLabels": {
+        "strong": "Leitura fácil",
+        "good": "Praticamente fácil",
+        "needsPolish": "Requer foco",
+        "drafty": "Leitura exigente"
+      },
+      "readabilityLabels": {
+        "veryEasy": "Muito fácil",
+        "easy": "Fácil",
+        "fairlyEasy": "Bastante fácil",
+        "plainEnglish": "Inglês simples",
+        "fairlyDifficult": "Bastante difícil",
+        "difficult": "Difícil",
+        "veryDifficult": "Muito difícil"
+      },
+      "averageWords": "{{count}} palavras/média",
+      "end": "Fim",
+      "paragraphDensity": "Densidade do parágrafo",
+      "paragraphDensityHint": "Cada ponto é um parágrafo; tons mais escuros indicam texto mais denso.",
+      "structure": "Estrutura",
+      "sentenceOpener": "Abridor de frase",
+      "sentenceOpenerHint": "Qual classe gramatical inicia cada frase",
+      "searchPlaceholder": "Pesquisar palavra...",
+      "searchAriaLabel": "Pesquisar uso de palavra",
+      "saveWordAriaLabel": "Salvar palavra pesquisada",
+      "queryCount": "\"{{word}}\" aparece {{count}} vezes",
+      "searchHelper": "Busque ou escolha uma palavra comum para ver sua contagem de uso.",
+      "commonWords": "Palavras comuns",
+      "frequentWords": "Palavras frequentes",
+      "savedWords": "Palavras salvas",
+      "noSavedWords": "Ainda não há palavras salvas.",
+      "removeSavedWord": "Remover palavra salva {{word}}",
+      "help": {
+        "overview": "As contagens são baseadas no texto do editor: palavras, frases detectadas e média de palavras por frase.",
+        "vocabulary": "A variedade lexical estima quantas palavras novas e incomuns aparecem a cada 100 palavras. Descreve a textura do texto; não é uma nota de qualidade.",
+        "readability": "Um guia aproximado do esforço de leitura do texto, baseado em padrões quantificáveis como comprimento das frases, repetição, voz passiva, advérbios, termos técnicos, palavras vagas e grafias informais. Um texto exigente não é necessariamente pior; o público, o gênero e o propósito importam.",
+        "flow": "Cada barra vertical é uma frase, colorida por comprimento. Selecione um tamanho abaixo para destacar as frases correspondentes no editor.",
+        "sentenceLength": "As faixas são marcadores de ritmo do Writality: 1-8, 9-16, 17-24 e 25+ palavras. Elas ajudam a notar o ritmo, não a correção.",
+        "sentenceRhythm": "Cada barra representa uma frase. Trechos longos têm rolagem horizontal para que todas as frases continuem interativas.",
+        "structure": "Densidade baseada em palavras por parágrafo. Inícios de frase usam listas de palavras para analisar como as frases começam.",
+        "paragraphDensity": "Densidade baseada em palavras por parágrafo. 1-25, 26-60, 61-100, e 101+ palavras.",
+        "sentenceOpener": "Os inícios de frase usam heurísticas simples de listas de palavras para pronomes, artigos, conjunções, preposições, advérbios, nomes próprios e outros começos.",
+        "wordUsage": "As palavras frequentes vêm deste projeto, após a filtragem de palavras vazias (stopwords) para o idioma selecionado no corretor ortográfico."
+      }
+    }
+  }
+}
