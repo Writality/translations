@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "0b8b3ea992b0-pt",
-  "sourceRevision": "0b8b3ea992b00150173bc8af8bde97a066b62543",
+  "version": "68533aa400b6-pt",
+  "sourceRevision": "68533aa400b6742b32e96f761da501bfd92795c0",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -733,594 +733,594 @@
       "deleteDescription": "Você tem certeza de que quer excluir este relacionamento? Esta ação não pode ser desfeita."
     },
     "dashboard": {
-      "loadingGraph": "Carregando gráfico...",
-      "continueEditing": "Continuar editando",
-      "lastEdited": "Última edição",
-      "noSegmentsCreated": "Nenhum segmento criado",
-      "noConceptsCreated": "Nenhum conceito criado",
-      "wordBreakdown": "Divisão por palavras",
-      "wordsInSegments": "palavras em {{count}} segmentos",
-      "wordsInConcepts": "palavras em {{count}} conceitos",
-      "writingInsights": "Insights de escrita",
-      "readingTime": "Tempo de leitura",
-      "mostProductiveDay": "Dia mais produtivo",
-      "activeDays": "Dias ativos",
-      "estimatedReadingTime": "tempo estimado de leitura",
-      "yourBestWritingDay": "seu melhor dia de escrita",
-      "daysWithContinuousWritingActivity": "dias com atividade de escrita contínua",
+      "loadingGraph": "Loading graph...",
+      "continueEditing": "Continue editing",
+      "lastEdited": "Last edited",
+      "noSegmentsCreated": "No segments created",
+      "noConceptsCreated": "No concepts created",
+      "wordBreakdown": "Word Breakdown",
+      "wordsInSegments": "words in {{count}} segments",
+      "wordsInConcepts": "words in {{count}} concepts",
+      "writingInsights": "Writing Insights",
+      "readingTime": "Reading Time",
+      "mostProductiveDay": "Most Productive Day",
+      "activeDays": "Active Days",
+      "estimatedReadingTime": "estimated reading time",
+      "yourBestWritingDay": "your best writing day",
+      "daysWithContinuousWritingActivity": "days with continuous writing activity",
       "minShort": "min",
-      "minRead": "min de leitura",
+      "minRead": "min read",
       "notAvailable": "N/A",
-      "storySegments": "segmentos da história",
-      "writingConsistency": "Consistência de escrita",
-      "activityPattern": "Padrão de atividade",
-      "storyBalance": "Balanço da história",
-      "developmentDepth": "Profundidade do desenvolvimento",
-      "completionProgress": "Progresso da conclusão",
-      "conceptsWithDates": "Conceitos com datas",
-      "conceptsWithRelationships": "Conceitos com relacionamentos",
-      "of": "de",
+      "storySegments": "story segments",
+      "writingConsistency": "Writing Consistency",
+      "activityPattern": "Activity Pattern",
+      "storyBalance": "Story Balance",
+      "developmentDepth": "Development Depth",
+      "completionProgress": "Completion Progress",
+      "conceptsWithDates": "Concepts with Dates",
+      "conceptsWithRelationships": "Concepts with Relationships",
+      "of": "of",
       "timeframes": {
-        "oneWeek": "1 semana",
-        "twoWeeks": "2 semanas",
-        "threeMonths": "3 meses",
-        "oneYear": "1 ano",
-        "allTime": "desde sempre"
+        "oneWeek": "1 week",
+        "twoWeeks": "2 weeks",
+        "threeMonths": "3 months",
+        "oneYear": "1 year",
+        "allTime": "all time"
       },
       "analytics": {
         "consistency": {
-          "keepWriting": "Continue escrevendo para ver o seu progresso!",
-          "excellent": "Excelente consistência!",
-          "lower": "Porcentagens menores indicam atividade menos frequente.",
-          "message": "Você esteve ativo em {{activeDays}} de um total de {{totalDays}} dias (consistência de {{consistencyRate}}%) no último {{timeframeLabel}} período. {{consistencyText}}"
+          "keepWriting": "Keep writing to see your progress!",
+          "excellent": "Excellent consistency!",
+          "lower": "Lower percentages indicate less frequent activity.",
+          "message": "You were active on {{activeDays}} out of {{totalDays}} days ({{consistencyRate}}% consistency) in the last {{timeframeLabel}} timeframe. {{consistencyText}}"
         },
         "activity": {
-          "noWriting": "Nenhuma atividade de escrita registrada para o  {{timeframeLabel}} período.",
-          "wroteWords": "você escreveu {{count}} palavras.",
-          "trimmedWords": "você cortou {{count}} palavras.",
-          "unchanged": "sua contagem final de palavras não mudou",
-          "message": "No período {{timeframeLabel}}, {{totalWordsText}} em {{activeDays}} dias ativos, média final de palavras de {{avgWordsPerActiveDay}} por sessão. A maior mudança em um único dia foi de {{maxAbsoluteDailyChange}} palavras."
+          "noWriting": "No writing activity recorded for the {{timeframeLabel}} timeframe.",
+          "wroteWords": "you wrote {{count}} words",
+          "trimmedWords": "you trimmed {{count}} words (net)",
+          "unchanged": "your net word count stayed unchanged",
+          "message": "In the {{timeframeLabel}} timeframe, {{totalWordsText}} across {{activeDays}} active days, averaging {{avgWordsPerActiveDay}} net words per session. Your largest single-day change was {{maxAbsoluteDailyChange}} words."
         },
         "storyBalance": {
-          "start": "Comece a escrever para ver o saldo da sua história!",
-          "narrative": "narrativa",
-          "worldBuilding": "construção de mundo",
-          "message": "Seu projeto é {{narrative}}% narrativa e {{worldBuilding}}% construção de mundo. ",
-          "leansWorldBuilding": "Baseado na contagem de palavras, seu projeto atualmente se inclina para a construção de mundos.",
-          "moreConcepts": "O seu mundo poderia se beneficiar de mais desenvolvimento de conceitos.",
-          "greatFocus": "Grande foco em {{dominant}}!"
+          "start": "Start writing to see your story balance!",
+          "narrative": "narrative",
+          "worldBuilding": "world-building",
+          "message": "Your project is {{narrative}}% narrative and {{worldBuilding}}% world-building.",
+          "leansWorldBuilding": "Based on word count, your project currently leans toward world-building.",
+          "moreConcepts": "Your world could benefit from more concept development.",
+          "greatFocus": "Great {{dominant}} focus!"
         },
         "development": {
-          "start": "Comece a desenvolver seu conteúdo para ver insights aprofundados!",
-          "wordsPerSegment": "{{count}} palavras por segmento",
-          "wordsPerConcept": "{{count}} palavras por conceito",
-          "message": "Você está com {{stats}} em média,"
+          "start": "Start developing your content to see depth insights!",
+          "wordsPerSegment": "{{count}} words per segment",
+          "wordsPerConcept": "{{count}} words per concept",
+          "message": "You're averaging {{stats}}."
         }
       },
       "dailyWordDiff": {
-        "title": "Palavras adicionadas e removidas hoje",
-        "wordsToday": "Palavras hoje",
-        "activity": "Atividade",
-        "noActivityYet": "Nenhuma atividade ainda",
-        "writingActivityFor": "Atividade de escrita para {{date}}",
-        "addedRemoved": "Adicionadas / removidas",
-        "changedToday": "Alteradas hoje",
-        "writingActivity": "Atividade de escrita",
-        "wordsTouched": "{{count}} palavras tocadas",
-        "goalMetToday": "Meta atingida (+{{value}})",
-        "toGoal": "{{value}} até a meta"
+        "title": "Today's words added and removed",
+        "wordsToday": "Words today",
+        "activity": "Activity",
+        "noActivityYet": "No activity yet",
+        "writingActivityFor": "Writing activity for {{date}}",
+        "addedRemoved": "Added / removed",
+        "changedToday": "Changed today",
+        "writingActivity": "Writing activity",
+        "wordsTouched": "{{count}} words touched",
+        "goalMetToday": "Goal met (+{{value}})",
+        "toGoal": "{{value}} to goal"
       },
       "wordCountCalendar": {
-        "title": "Contagem diária de palavras",
-        "yearLabel": "Ano:",
-        "loading": "Carregando calendário...",
-        "addedWords": "{{count}} palavras adicionadas",
-        "removedWords": "{{count}} palavras removidas",
-        "netWords": "Contagem final: {{value}} palavras",
-        "activityWords": "Atividade: {{value}} palavras",
-        "noActivity": "Nenhuma atividade",
-        "less": "Menos",
-        "todayDiff": "Hoje: {{value}}",
-        "touched": "Tocadas",
-        "loadingItems": "Carregando Itens...",
-        "noItemDetails": "Nenhum detalhe de item registrado para esta data"
+        "title": "Daily word count",
+        "yearLabel": "Year:",
+        "loading": "Loading calendar...",
+        "addedWords": "{{count}} words added",
+        "removedWords": "{{count}} words removed",
+        "netWords": "Net: {{value}} words",
+        "activityWords": "Activity: {{value}} words",
+        "noActivity": "No activity",
+        "less": "Less",
+        "todayDiff": "Today: {{value}}",
+        "touched": "Touched",
+        "loadingItems": "Loading items...",
+        "noItemDetails": "No item details recorded for this date"
       },
       "goal": {
-        "title": "Meta do projeto",
-        "description": "Defina uma meta de palavras e prazo para acompanhar o ritmo diário necessário.",
-        "optionalDescription": "Metas são opcionais. Adicione uma meta de palavras quando quiser acompanhar o ritmo.",
-        "wordGoal": "Meta de palavras",
-        "activeDays": "Dias de escrita ativa",
-        "remainingWords": "Palavras restantes",
-        "activeDaysLeft": "Dias ativos restantes",
-        "requiredPerDay": "Requeridas por dia",
-        "wordsPerDay": "palavras/dia",
-        "complete": "Meta atingida.",
-        "onTrack": "Ritmo calculado a partir de dias ativos restantes.",
-        "waitingDeadline": "Defina um prazo para calcular o ritmo desejado.",
-        "successfulWeek": "Dias de escrita bem sucedidos",
-        "bonusCongrats": "Dia de bônus na escrita! {{dayName}} rendeu um ótimo impulso extra.",
-        "successOnDay": "{{dayName}} rendeu ótimas linhas!",
-        "dailyAverage": "Média diária",
-        "behindBy": "{{count}} dias ativos em atraso neste ritmo. Aumente suas palavras diárias para recuperar o atraso."
+        "title": "Project goal",
+        "description": "Set a word target and deadline to track required daily pace.",
+        "optionalDescription": "Goals are optional. Add a word target when you want pace tracking.",
+        "wordGoal": "Word goal",
+        "activeDays": "Active writing days",
+        "remainingWords": "Remaining words",
+        "activeDaysLeft": "Active days left",
+        "requiredPerDay": "Required per day",
+        "wordsPerDay": "words/day",
+        "complete": "Goal reached.",
+        "onTrack": "Pace calculated from remaining active days.",
+        "waitingDeadline": "Set a deadline to calculate required pace.",
+        "successfulWeek": "Successful writing days",
+        "bonusCongrats": "Bonus writing day on {{dayName}}. Great extra momentum!",
+        "successOnDay": "Great writing on {{dayName}}.",
+        "dailyAverage": "Daily average",
+        "behindBy": "{{count}} active days behind at this pace. Increase your daily words to catch up."
       },
       "smartGraph": {
-        "percentDone": "{{count}}% concluído",
-        "daysWriting": "Escrevendo há {{count}} dias",
-        "writtenSoFar": "Escrito até agora",
-        "onTimePace": "Ritmo em dia",
-        "currentPace": "Seu ritmo atual",
-        "keepGoing": "Se você continuar",
-        "today": "Hoje",
-        "goalNeedsMomentum": "Adicione atividade de escrita para calcular o seu ritmo atual.",
-        "noDeadlineForecastVerdict": "Neste ritmo, você terminará perto de {{date}}.",
-        "behindVerdict": "{{count}} dias ativos à frente neste ritmo.",
-        "momentumVerdict": "Visualização do impulso",
-        "goalSummary": "{{remaining}} palavras restantes. Estabeleça {{perDay}} palavras por dia como meta em cada dia ativo de escrita.",
-        "noDeadlineGoalSummary": "{{remaining}} palavras restantes. Cerca de {{days}} dias de escrita no seu ritmo atual.",
-        "noDeadlineNeedsActivitySummary": "Faltam {{remaining}} palavras. Faça uma atividade de escrita para estimar sua data final.",
-        "noGoalSummary": "Você tem escrito {{average}} palavras em média, nos dias com atividade de escrita.",
-        "yourPace": "Seu ritmo",
-        "projectedFinish": "Projeto concluído",
-        "writingDaysToGoal": "Dias de escrita até a meta",
-        "notEnoughData": "Dados insuficientes",
-        "perDay": "/dia",
-        "thisWeek": "Esta semana",
-        "daysWritingLabel": "Dias escrevendo",
-        "goalWords": "Meta {{count}} palavras",
-        "deadlineLabel": "Prazo {{date}}",
-        "adjustGoal": "Ajustar meta",
-        "noGoal": "Sem meta — apenas escrevendo",
-        "setGoal": "Definir uma meta"
+        "percentDone": "{{count}}% done",
+        "daysWriting": "{{count}} days writing",
+        "writtenSoFar": "Written so far",
+        "onTimePace": "On-time pace",
+        "currentPace": "Your current pace",
+        "keepGoing": "If you keep going",
+        "today": "Today",
+        "goalNeedsMomentum": "Add writing activity to calculate your current pace.",
+        "noDeadlineForecastVerdict": "At this pace, you’ll finish around {{date}}.",
+        "behindVerdict": "{{count}} active days behind at this pace.",
+        "momentumVerdict": "Momentum view",
+        "goalSummary": "{{remaining}} words left. Aim for {{perDay}} words on each active writing day.",
+        "noDeadlineGoalSummary": "{{remaining}} words left. About {{days}} writing days at your current pace.",
+        "noDeadlineNeedsActivitySummary": "{{remaining}} words left. Add writing activity to estimate your finish date.",
+        "noGoalSummary": "You are averaging {{average}} words on days with writing activity.",
+        "yourPace": "Your pace",
+        "projectedFinish": "Projected finish",
+        "writingDaysToGoal": "Writing days to goal",
+        "notEnoughData": "Not enough data",
+        "perDay": "/day",
+        "thisWeek": "This week",
+        "daysWritingLabel": "Days writing",
+        "goalWords": "Goal {{count}} words",
+        "deadlineLabel": "Deadline {{date}}",
+        "adjustGoal": "Adjust goal",
+        "noGoal": "No goal — just writing",
+        "setGoal": "Set a goal"
       }
     },
     "overview": {
-      "stories": "Histórias",
-      "newStory": "Nova história",
-      "templateStory": "História modelo",
-      "updatedToday": "Atualizado hoje",
-      "updatedThisWeek": "Atualizado esta semana",
-      "updatedThisMonth": "Atualizado este mês",
-      "updatedAllTime": "Atualizado em qualquer tempo"
+      "stories": "Stories",
+      "newStory": "New Story",
+      "templateStory": "Template Story",
+      "updatedToday": "Updated Today",
+      "updatedThisWeek": "Updated This Week",
+      "updatedThisMonth": "Updated This Month",
+      "updatedAllTime": "Updated All Time"
     },
     "projectCard": {
-      "createNewProject": "Criar novo projeto",
-      "segmentsCount": "{{count}} segmentos",
-      "conceptsCount": "{{count}} conceitos"
+      "createNewProject": "Create new project",
+      "segmentsCount": "{{count}} segments",
+      "conceptsCount": "{{count}} concepts"
     },
     "timer": {
-      "completeCelebrationLabel": "Logotipo do Writality com um sino dourado tocando",
-      "completeDescription": "Sino pequeno, grande progresso. Recupere o fôlego e continue assim quando estiver pronto.",
-      "completeTitle": "Uau, você conseguiu!",
-      "durationMinutes": "{{count}} minutos",
-      "pause": "Pausar",
-      "placeholder": "Definir uma duração",
+      "completeCelebrationLabel": "Writality logo with a jingling gold bell",
+      "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
+      "completeTitle": "Wow, you did the thing!",
+      "durationMinutes": "{{count}} minutes",
+      "pause": "Pause",
+      "placeholder": "Set a duration",
       "quickStart": {
         "focus": {
-          "description": "Sessão de trabalho focada",
-          "label": "Foco"
+          "description": "Focused work session",
+          "label": "Focus"
         },
         "long": {
-          "description": "Sessão de trabalho longa"
+          "description": "Long work session"
         },
         "pomodoro": {
-          "description": "Sessão Pomodoro",
+          "description": "Pomodoro session",
           "label": "Pomodoro"
         }
       },
-      "startPreset": "Iniciar predefinição"
+      "startPreset": "Start preset"
     },
     "editor": {
       "image": {
-        "noActiveProject": "Nenhum projeto ativo encontrado.",
-        "pastedImage": "Imagem colada",
-        "saveFailed": "Não foi possível salvar a imagem.",
-        "saveIt": "Salve",
-        "unsavedAria": "A imagem não está salva no Writality",
-        "unsavedDescription": "Esta imagem não está salva no Writality. Salve-a para adicioná-la à sua galeria de imagens com uma miniatura."
+        "noActiveProject": "No active project found.",
+        "pastedImage": "Pasted image",
+        "saveFailed": "Could not save image.",
+        "saveIt": "Save it",
+        "unsavedAria": "Image is not saved within Writality",
+        "unsavedDescription": "This image is not saved within Writality. Save it to add it to your image gallery with a thumbnail."
       },
       "menu": {
-        "exportAsJson": "Exportar como JSON",
-        "exportAsWord": "Exportar como Word (.docx)",
-        "exportAsPdf": "Exportar como PDF (.pdf)",
-        "exportAsHtml": "Exportar como HTML (.html)",
-        "exportAsMarkdown": "Exportar como Markdown (.md)",
-        "importFromJson": "Importar de JSON",
-        "importFromWord": "Importar de Word (.docx)",
-        "importFromMarkdown": "Importar de Markdown (.md)"
+        "exportAsJson": "Export as JSON",
+        "exportAsWord": "Export as Word (.docx)",
+        "exportAsPdf": "Export as PDF (.pdf)",
+        "exportAsHtml": "Export as HTML (.html)",
+        "exportAsMarkdown": "Export as Markdown (.md)",
+        "importFromJson": "Import from JSON",
+        "importFromWord": "Import from Word (.docx)",
+        "importFromMarkdown": "Import from Markdown (.md)"
       },
       "blockMenu": {
-        "optionsAndDrag": "Clique para opções, arraste para mover",
-        "copyToClipboard": "Copiar para a área de transferência",
-        "duplicate": "Duplicar"
+        "optionsAndDrag": "Click for options, drag to move",
+        "copyToClipboard": "Copy to clipboard",
+        "duplicate": "Duplicate"
       },
       "createMenu": {
-        "shareSnippet": "Compartilhar trecho",
-        "createLink": "Criar link",
-        "createConcept": "Criar conceito a partir da seleção",
-        "conceptType": "Tipo de conceito",
-        "blockName": "Nome do bloco",
-        "pressEnterToSave": "Pressione Enter para salvar",
-        "searchConceptsOrSegments": "Pesquisar conceitos ou segmentos...",
-        "couldNotFindAnything": "Não foi possível encontrar nada :(",
-        "splitSegment": "Criar segmento a partir da seleção",
-        "splitSegmentTitle": "Nomear novo segmento",
-        "segmentName": "Nome do segmento"
+        "shareSnippet": "Share Snippet",
+        "createLink": "Create Link",
+        "createConcept": "Create concept from selection",
+        "conceptType": "Concept type",
+        "blockName": "Block name",
+        "pressEnterToSave": "Press Enter to save",
+        "searchConceptsOrSegments": "Search concepts or segments...",
+        "couldNotFindAnything": "Could not find anything :(",
+        "splitSegment": "Create segment from selection",
+        "splitSegmentTitle": "Name new segment",
+        "segmentName": "Segment name"
       },
       "mention": {
-        "untitledConcept": "Conceito sem título",
-        "createConceptWithName": "Criar conceito \"{{name}}\"",
-        "selectType": "Selecionar tipo",
-        "createAs": "Criar \"{{name}}\" como",
-        "searchType": "Pesquisar tipo...",
-        "noMatchingTypes": "Não há tipos correspondentes",
-        "creatingConcept": "Criando conceito...",
-        "displayForConcept": "Exibição de menção para {{name}}",
-        "availableAliases": "{{count}} disponíveis",
-        "noAliasesYet": "Ainda não há nomes alternativos",
-        "selectAlias": "Selecionar nome alternativo",
-        "aliasNamePlaceholder": "Nome alternativo",
-        "newAliasHelp": "Pressione Enter para criar um nome alternativo e inserir, Esc para voltar.",
+        "untitledConcept": "Untitled Concept",
+        "createConceptWithName": "Create concept \"{{name}}\"",
+        "selectType": "Select type",
+        "createAs": "Create \"{{name}}\" as",
+        "searchType": "Search type...",
+        "noMatchingTypes": "No matching types",
+        "creatingConcept": "Creating concept...",
+        "displayForConcept": "Mention display for {{name}}",
+        "availableAliases": "{{count}} available",
+        "noAliasesYet": "No aliases yet",
+        "selectAlias": "Select alias",
+        "aliasNamePlaceholder": "Alias name",
+        "newAliasHelp": "Press Enter to create alias and insert, Escape to go back.",
         "mode": {
-          "alias": "Nome alternativo",
-          "newAliasHint": "Criar e usar um nome alternativo"
+          "alias": "Alias",
+          "newAliasHint": "Create and use an alias"
         }
       },
       "slash": {
-        "basic": "Básico",
-        "insert": "Inserir",
-        "openSavedBlocksLibrary": "Abrir sua biblioteca de blocos salvos",
-        "externalLink": "Link externo",
-        "createExternalLink": "Criar um link da web",
-        "searchBlocks": "Procurar blocos...",
-        "noSavedBlocks": "Nenhum bloco salvo",
-        "noResults": "Nenhum resultado",
-        "insertSavedBlockContent": "Inserir conteúdo de bloco salvo"
+        "basic": "Basic",
+        "insert": "Insert",
+        "openSavedBlocksLibrary": "Open your saved blocks library",
+        "externalLink": "External Link",
+        "createExternalLink": "Create a web link",
+        "searchBlocks": "Search blocks...",
+        "noSavedBlocks": "No saved blocks",
+        "noResults": "No results",
+        "insertSavedBlockContent": "Insert saved block content"
       },
       "spellcheck": {
-        "unavailableReadOnly": "A verificação ortográfica está indisponível no modo somente leitura",
-        "suggestionsFor": "Sugestões para \"{{word}}\"",
-        "noSuggestionsFor": "Nenhuma sugestão para \"{{word}}\"",
-        "addToDictionary": "Adicionar ao dicionário",
-        "noErrorsDetected": "Nenhum erro de ortografia detectado"
+        "unavailableReadOnly": "Spell check is unavailable in read-only mode",
+        "suggestionsFor": "Suggestions for \"{{word}}\"",
+        "noSuggestionsFor": "No suggestions for \"{{word}}\"",
+        "addToDictionary": "Add to Dictionary",
+        "noErrorsDetected": "No spelling errors detected"
       },
       "alignment": {
-        "trigger": "Alinhamento do texto"
+        "trigger": "Text alignment"
       },
       "contextMenu": {
-        "undo": "Desfazer",
-        "redo": "Refazer",
-        "cut": "Recortar",
-        "copy": "Copiar",
-        "paste": "Colar",
-        "selectAll": "Selecionar tudo"
+        "undo": "Undo",
+        "redo": "Redo",
+        "cut": "Cut",
+        "copy": "Copy",
+        "paste": "Paste",
+        "selectAll": "Select all"
       },
       "placeholders": {
-        "note": "Começar a escrever...",
-        "block": "Digite texto, digite / para comandos ou @ para menções..."
+        "note": "Start writing...",
+        "block": "Enter text, type / for commands or @ for mentions..."
       },
       "details": {
         "fill": {
-          "tint": "Tom",
-          "flat": "Plano",
-          "borderOnly": "Borda"
+          "tint": "Tint",
+          "flat": "Flat",
+          "borderOnly": "Border"
         }
       },
       "codeBlock": {
-        "language": "Linguagem do bloco de código",
-        "searchLanguages": "Pesquisar idiomas...",
-        "noLanguagesFound": "Nenhum idioma encontrado."
+        "language": "Code block language",
+        "searchLanguages": "Search languages...",
+        "noLanguagesFound": "No languages found."
       },
       "formatting": {
-        "inlineCode": "Código em linha",
-        "subscript": "Subscrito",
-        "superscript": "Sobrescrito",
-        "quote": "Citação",
-        "divider": "Divisória",
-        "backToDefault": "Voltar ao padrão",
-        "noFill": "Sem preenchimento",
-        "moreColours": "Mais cores"
+        "inlineCode": "Inline Code",
+        "subscript": "Subscript",
+        "superscript": "Superscript",
+        "quote": "Quote",
+        "divider": "Divider",
+        "backToDefault": "Back to default",
+        "noFill": "No fill",
+        "moreColours": "More colours"
       },
       "shareSnippet": {
-        "renderPreviewFailed": "Não foi possível renderizar a pré-visualização do trecho"
+        "renderPreviewFailed": "Could not render snippet preview"
       }
     },
     "segment": {
       "notes": {
-        "createNote": "Criar nota",
-        "noNotesYet": "Nenhuma nota ainda",
-        "emptyDescription": "Notas são uma ótima maneira de acompanhar ideias e pensamentos e garantir que você não se esqueça de detalhes importantes.",
-        "deleteTitle": "Excluir nota",
-        "deleteDescription": "Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.",
-        "expandAction": "Expandir nota",
-        "emptyNote": "Nota vazia"
+        "createNote": "Create Note",
+        "noNotesYet": "No notes yet.",
+        "emptyDescription": "Notes are a great way to keep track of ideas and thoughts and make sure you do not forget important details.",
+        "deleteTitle": "Delete Note",
+        "deleteDescription": "Are you sure you want to delete this note? This action cannot be undone.",
+        "expandAction": "Expand note",
+        "emptyNote": "Empty note"
       }
     },
     "segmentGraph": {
-      "appearance": "Aparência do gráfico"
+      "appearance": "Graph appearance"
     },
     "outline": {
-      "loading": "Carregando esboço",
-      "error": "O esboço não pôde ser carregado.",
-      "todoCompletion": "Conclusão de tarefas",
-      "noTodos": "Ainda não há tarefas",
-      "completed": "{{completed}} de {{total}} concluídas",
-      "remaining": "Restantes",
-      "storyWords": "Palavras da história",
-      "folders": "Pastas",
-      "totalTodos": "Total de tarefas",
-      "empty": "Adicione um segmento ou pasta do gráfico para começar a esboçar sua história.",
-      "outlineTodos": "Tarefas do esboço",
-      "todosRemaining": "{{count}} tarefas restantes na história.",
-      "noRelationships": "Ainda não há relacionamentos entre segmentos.",
-      "relationshipsSummary": "{{count}} relacionamentos conectam este esboço.",
-      "metricsAria": "Métricas de esboço"
+      "loading": "Loading outline…",
+      "error": "The outline could not be loaded.",
+      "todoCompletion": "Todo completion",
+      "noTodos": "No todos yet",
+      "completed": "{{completed}} of {{total}} completed",
+      "remaining": "Remaining",
+      "storyWords": "Story words",
+      "folders": "Folders",
+      "totalTodos": "Total todos",
+      "empty": "Add a segment or folder from the graph to begin outlining your story.",
+      "outlineTodos": "Outline todos",
+      "todosRemaining": "{{count}} todos remaining across the story.",
+      "noRelationships": "No segment relationships yet.",
+      "relationshipsSummary": "{{count}} relationships connect this outline.",
+      "metricsAria": "Outline metrics"
     },
     "planning": {
-      "addNoteTo": "Adicionar nota a {{name}}",
-      "addRelationshipTo": "Adicionar relação com {{name}}",
-      "completedCount": "{{count}} concluídos",
-      "editSegmentTitle": "Editar título do segmento: {{name}}",
-      "markComplete": "Marcar {{name}} como concluída",
-      "markIncomplete": "Marcar {{name}} como incompleta",
-      "noOpeningText": "Ainda não há texto de abertura",
-      "noSegmentsDescription": "Crie o primeiro segmento nesta pasta para começar a moldar a linha do tempo desta história.",
-      "noTasksOnSegment": "Ainda não há tarefas neste segmento.",
-      "noneYet": "Ainda não há nada",
-      "relationshipsAcrossSegments_one": "{{count}} relacionamentos entre segmentos diretos.",
-      "totalCount": "{{count}} no total",
-      "viewMore": "Ver {{count}} mais"
+      "addNoteTo": "Add note to {{name}}",
+      "addRelationshipTo": "Add relationship to {{name}}",
+      "completedCount": "{{count}} completed",
+      "editSegmentTitle": "Edit segment title: {{name}}",
+      "markComplete": "Mark {{name}} complete",
+      "markIncomplete": "Mark {{name}} incomplete",
+      "noOpeningText": "No opening text yet.",
+      "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
+      "noTasksOnSegment": "No tasks on this segment yet.",
+      "noneYet": "None yet",
+      "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
+      "totalCount": "{{count}} total",
+      "viewMore": "View {{count}} more"
     },
     "topbarSettings": {
-      "tooltip": "Ver configurações",
-      "font": "Fonte",
-      "editorWidth": "Largura do editor",
-      "textWeight": "Peso do texto",
-      "titleWeight": "Peso do título",
-      "textAlign": "Alinhamento do texto",
-      "backgroundColor": "Cor de fundo",
-      "textColor": "Cor do texto",
-      "widthTooltip": "Largura: {{mode}}",
-      "fontSizeTooltip": "Tamanho da fonte: {{mode}}",
-      "titleSizeTooltip": "Tamanho do título: {{mode}}",
-      "lineHeightTooltip": "Altura da linha: {{mode}}",
-      "paragraphSpacingTooltip": "Espaçamento dos parágrafos: {{mode}}",
-      "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
-      "textAlignTooltip": "Alinhamento do texto: {{mode}}",
-      "showScrollbar": "Exibir barra de rolagem",
-      "indentParagraphs": "Indentar parágrafos",
-      "typewriterMode": "Modo máquina de escrever",
-      "dimMode": "Focar parágrafo atual",
-      "typewriterBlur": "Máquina de escrever com desfoque",
-      "typewriterBlurAmount": "Intensidade do desfoque",
-      "hemingwayMode": "Modo Hemingway",
-      "fixedEditorToolbar": "Barra de ferramentas do editor fixa",
+      "tooltip": "View settings",
+      "font": "Font",
+      "editorWidth": "Editor width",
+      "textWeight": "Text weight",
+      "titleWeight": "Title weight",
+      "textAlign": "Text align",
+      "backgroundColor": "Background colour",
+      "textColor": "Text colour",
+      "widthTooltip": "Width: {{mode}}",
+      "fontSizeTooltip": "Font size: {{mode}}",
+      "titleSizeTooltip": "Title size: {{mode}}",
+      "lineHeightTooltip": "Line height: {{mode}}",
+      "paragraphSpacingTooltip": "Paragraph spacing: {{mode}}",
+      "titleSpacingTooltip": "Title spacing: {{mode}}",
+      "textAlignTooltip": "Text align: {{mode}}",
+      "showScrollbar": "Show scrollbar",
+      "indentParagraphs": "Indent paragraphs",
+      "typewriterMode": "Typewriter mode",
+      "dimMode": "Dim mode",
+      "typewriterBlur": "Typewriter blur",
+      "typewriterBlurAmount": "Blur strength",
+      "hemingwayMode": "Hemingway mode",
+      "fixedEditorToolbar": "Fixed editor toolbar",
       "toolbarPosition": {
-        "top": "Parte superior",
-        "bottom": "Parte Inferior"
+        "top": "Top",
+        "bottom": "Bottom"
       },
-      "readOnly": "Somente leitura",
+      "readOnly": "Read only",
       "tooltips": {
-        "enterZenMode": "Entrar em modo zen",
-        "exitZenMode": "Sair do modo zen",
-        "typewriterMode": "Mantém a linha ativa centrada durante a escrita.",
-        "dimMode": "Esmaece os parágrafos inativos para manter o foco no parágrafo atual.",
-        "typewriterBlur": "Desfoca os parágrafos inativos, mantendo o parágrafo atual nítido.",
-        "hemingwayMode": "Escrita sem volta: bloqueia o uso do backspace e mover o cursor para trás.",
-        "fixedEditorToolbar": "Mantém os controles de formatação fixados no editor, inclusive no modo zen."
+        "enterZenMode": "Enter zen mode",
+        "exitZenMode": "Exit zen mode",
+        "typewriterMode": "Keeps the active writing line centred while drafting.",
+        "dimMode": "Fades inactive paragraphs to keep focus on the current paragraph.",
+        "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
+        "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
+        "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
       },
       "modes": {
-        "serif": "Serifa",
+        "serif": "Serif",
         "mono": "Mono",
-        "tight": "Apertado",
-        "flush": "Sem recuo",
+        "tight": "Tight",
+        "flush": "Flush",
         "regular": "Regular",
-        "wide": "Largo",
-        "small": "Pequeno",
-        "large": "Grande",
-        "relaxed": "Relaxado"
+        "wide": "Wide",
+        "small": "Small",
+        "large": "Large",
+        "relaxed": "Relaxed"
       },
       "toasts": {
-        "noContentToExport": "Nenhum conteúdo para exportar",
-        "contentExported": "Conteúdo exportado com sucesso",
-        "exportFailed": "Falha ao exportar conteúdo",
-        "exportWordSuccess": "Documento exportado para Word com sucesso",
-        "exportWordFailed": "Falha ao exportar para o Word",
-        "exportPdfSuccess": "Documento exportado para PDF com sucesso",
-        "exportPdfFailed": "Falha ao exportar para PDF",
-        "exportHtmlSuccess": "Documento exportado para HTML com sucesso",
-        "exportHtmlFailed": "Falha ao exportar para HTML",
-        "exportMarkdownSuccess": "Documento exportado para Markdown com sucesso",
-        "exportMarkdownFailed": "Falha ao exportar para Markdown",
-        "contentImported": "Conteúdo importado com sucesso",
-        "importInvalidJson": "Falha ao importar conteúdo. Formato JSON inválido.",
-        "readFileFailed": "Falha ao ler o arquivo",
-        "importWordSuccess": "Documento Word importado com sucesso",
-        "importWordFailed": "Falha ao importar o documento do Word",
-        "importWordFileTooLarge": "O arquivo é muito grande. O tamanho máximo é 10MB.",
-        "importMarkdownSuccess": "Documento Markdown importado com sucesso",
-        "importMarkdownFailed": "Falha ao importar o documento Markdown"
+        "noContentToExport": "No content to export",
+        "contentExported": "Content exported successfully",
+        "exportFailed": "Failed to export content",
+        "exportWordSuccess": "Document exported to Word successfully",
+        "exportWordFailed": "Failed to export to Word",
+        "exportPdfSuccess": "Document exported to PDF successfully",
+        "exportPdfFailed": "Failed to export to PDF",
+        "exportHtmlSuccess": "Document exported to HTML successfully",
+        "exportHtmlFailed": "Failed to export to HTML",
+        "exportMarkdownSuccess": "Document exported to Markdown successfully",
+        "exportMarkdownFailed": "Failed to export to Markdown",
+        "contentImported": "Content imported successfully",
+        "importInvalidJson": "Failed to import content. Invalid JSON format.",
+        "readFileFailed": "Failed to read file",
+        "importWordSuccess": "Word document imported successfully",
+        "importWordFailed": "Failed to import Word document",
+        "importWordFileTooLarge": "File is too large. Maximum size is 10MB.",
+        "importMarkdownSuccess": "Markdown document imported successfully",
+        "importMarkdownFailed": "Failed to import Markdown document"
       },
-      "highlightDialogue": "Destacar diálogo",
-      "dialogueHighlightMode": "Estilo",
+      "highlightDialogue": "Highlight dialogue",
+      "dialogueHighlightMode": "Style",
       "dialogueHighlightModes": {
-        "quotes": "Aspas",
-        "raya": "Travessão"
+        "quotes": "Quotes",
+        "raya": "Raya"
       },
-      "inheritBackground": "Herdar plano de fundo",
-      "background": "Plano de fundo",
-      "backgroundImage": "Imagem de fundo",
-      "blur": "Desfoque",
-      "editorSettingsTooltip": "Configurações do editor",
-      "fit": "Ajustar",
-      "opacity": "Opacidade",
-      "positionX": "Posição X",
-      "positionY": "Posição Y",
-      "removeBackgroundImage": "Remover imagem de fundo",
-      "useDefaultBackgroundImage": "Usar imagem de fundo padrão",
+      "inheritBackground": "Inherit background",
+      "background": "Background",
+      "backgroundImage": "Background image",
+      "blur": "Blur",
+      "editorSettingsTooltip": "Editor settings",
+      "fit": "Fit",
+      "opacity": "Opacity",
+      "positionX": "Position X",
+      "positionY": "Position Y",
+      "removeBackgroundImage": "Remove background image",
+      "useDefaultBackgroundImage": "Use default background image",
       "zoom": "Zoom"
     },
     "gallery": {
-      "searchPlaceholder": "Pesquisar imagens",
+      "searchPlaceholder": "Search images",
       "breadcrumb": {
-        "all": "Todas as imagens ({{total}})",
-        "filtered": "Imagens filtradas ({{count}} de {{total}})"
+        "all": "All images ({{total}})",
+        "filtered": "Filtered images ({{count}} of {{total}})"
       },
       "empty": {
-        "withFilters": "Nenhuma imagem corresponde aos filtros atuais.",
-        "withoutFilters": "Adicione sua primeira imagem para começar."
+        "withFilters": "No images match your current filters.",
+        "withoutFilters": "Add your first image to get started."
       },
       "toasts": {
-        "deleted": "Imagem excluída",
-        "deleteFailed": "Falha ao excluir imagem"
+        "deleted": "Image deleted",
+        "deleteFailed": "Failed to delete image"
       },
       "imageDialog": {
-        "nameUpdated": "Nome da imagem atualizado com sucesso",
-        "failedUpdateName": "Falha ao atualizar o nome da imagem",
-        "dimensions": "Dimensões",
-        "fileSize": "Tamanho do arquivo",
-        "unknown": "Desconhecido",
-        "download": "Baixar",
-        "downloaded": "Imagem baixada",
-        "downloadFailed": "Falha ao baixar a imagem"
+        "nameUpdated": "Image name updated successfully",
+        "failedUpdateName": "Failed to update image name",
+        "dimensions": "Dimensions",
+        "fileSize": "File Size",
+        "unknown": "Unknown",
+        "download": "Download",
+        "downloaded": "Image downloaded",
+        "downloadFailed": "Failed to download image"
       }
     },
     "imageSelector": {
-      "searchPlaceholder": "Pesquisar mídia...",
-      "loadingImages": "Carregando imagens...",
-      "uploading": "Carregando",
-      "tryAdjustingFilters": "Tente ajustar seus termos ou filtros de pesquisa",
-      "addSelected": "Adicionar imagem {{count}}",
-      "addSelected_other": "Adicionar imagens {{count}}"
+      "searchPlaceholder": "Search media...",
+      "loadingImages": "Loading images...",
+      "uploading": "Uploading...",
+      "tryAdjustingFilters": "Try adjusting your search terms or filters",
+      "addSelected": "Add {{count}} image",
+      "addSelected_other": "Add {{count}} images"
     },
     "kanban": {
       "settings": {
-        "ariaLabel": "Configurações da visualização kanban",
-        "title": "Configurações do quadro",
-        "list": "Lista",
-        "board": "Quadro",
-        "showEmptyColumns": "Exibir colunas vazias",
-        "showNestedNotes": "Exibir notas aninhadas",
-        "showNestedNotesHelp": "Exibir notas ligadas a cada cartão diretamente sob o cartão.",
-        "columnBorderStyle": "Estilo da borda da coluna",
-        "columnColorMode": "Modo de cor da coluna"
+        "ariaLabel": "Kanban view settings",
+        "title": "Board settings",
+        "list": "List",
+        "board": "Board",
+        "showEmptyColumns": "Show empty columns",
+        "showNestedNotes": "Show nested notes",
+        "showNestedNotesHelp": "Show notes linked to each card directly under the card.",
+        "columnBorderStyle": "Column border style",
+        "columnColorMode": "Column colour mode"
       },
       "cards": {
-        "actionsAria": "Ações para {{title}}",
-        "removeFromBoard": "Remover do quadro",
-        "editTagsAria": "Editar marcadores em {{entityType}} {{entityId}}",
-        "filterTags": "Filtrar marcadores",
-        "noMatchingTags": "Sem marcadores correspondentes",
-        "nestedNotes": "Notas aninhadas",
-        "conceptFallback": "Conceito #{{id}}",
-        "segmentFallback": "Segmento #{{id}}",
-        "noContent": "Nenhum conteúdo",
-        "openLinkedEntity": "Abrir {{entityType}} {{name}} vinculado",
-        "dragNoteAria": "Arrastar nota {{id}}",
-        "dragEntityAria": "Arrastar {{entityType}} {{id}}",
-        "deleted": "{{type}} excluído.",
-        "deleteTitle": "Excluir {{type}}",
-        "deleteDescription": "Tem certeza que deseja excluir este item? Esta ação não pode ser desfeita.",
-        "deleteFailed": "Não foi possível excluir este cartão."
+        "actionsAria": "Actions for {{title}}",
+        "removeFromBoard": "Remove from board",
+        "editTagsAria": "Edit tags on {{entityType}} {{entityId}}",
+        "filterTags": "Filter tags",
+        "noMatchingTags": "No matching tags",
+        "nestedNotes": "Nested notes",
+        "conceptFallback": "Concept #{{id}}",
+        "segmentFallback": "Segment #{{id}}",
+        "noContent": "No content",
+        "openLinkedEntity": "Open linked {{entityType}} {{name}}",
+        "dragNoteAria": "Drag note {{id}}",
+        "dragEntityAria": "Drag {{entityType}} {{id}}",
+        "deleted": "{{type}} deleted.",
+        "deleteTitle": "Delete {{type}}",
+        "deleteDescription": "Are you sure you want to delete this item? This action cannot be undone.",
+        "deleteFailed": "Could not delete this card."
       },
       "list": {
-        "noMatchingItems": "Não há itens correspondentes",
-        "noAvailableItems": "Nenhum item disponível",
-        "newNote": "Nova nota",
-        "existingNotes": "Notas existentes",
-        "existingConcepts": "Conceitos existentes",
-        "existingSegments": "Segmentos existentes",
-        "existingImages": "Imagens existentes"
+        "noMatchingItems": "No matching items",
+        "noAvailableItems": "No available items",
+        "newNote": "New note",
+        "existingNotes": "Existing notes",
+        "existingConcepts": "Existing concepts",
+        "existingSegments": "Existing segments",
+        "existingImages": "Existing images"
       },
       "dialog": {
-        "placeholder": "Escreva sua nota"
+        "placeholder": "Write your note"
       }
     },
     "manuscript": {
       "segmentPicker": {
-        "title": "Adicionar segmento ao manuscrito",
-        "selectSegment": "Selecionar segmento",
-        "adding": "Adicionando...",
-        "addSegment": "Adicionar segmento"
+        "title": "Add Segment to Manuscript",
+        "selectSegment": "Select Segment",
+        "adding": "Adding...",
+        "addSegment": "Add Segment"
       },
       "entryDialog": {
-        "editItem": "Editar Item",
-        "labelOptional": "Rótulo (opcional)",
-        "titleRequired": "Título *",
-        "emptySpaceType": "Tipo de espaço em branco",
-        "emptySpaceQuarter1": "1/4 página",
-        "emptySpaceQuarter2": "2/4 página",
-        "emptySpaceQuarter3": "3/4 página",
-        "emptySpacePageBreak": "Quebra de página",
-        "emptySpacePlaceholder": "ex.: Fim da Parte I",
-        "titlePlaceholder": "ex.: Capítulo 1"
+        "editItem": "Edit Item",
+        "labelOptional": "Label (Optional)",
+        "titleRequired": "Title *",
+        "emptySpaceType": "Empty space type",
+        "emptySpaceQuarter1": "1/4 page",
+        "emptySpaceQuarter2": "2/4 page",
+        "emptySpaceQuarter3": "3/4 page",
+        "emptySpacePageBreak": "Page break",
+        "emptySpacePlaceholder": "e.g., End of Part I",
+        "titlePlaceholder": "e.g., Chapter One"
       },
       "format": {
-        "title": "Formatar manuscrito",
-        "customize": "Formatar você mesmo",
-        "preset": "Predefinição",
-        "basedOn": "Baseado em",
-        "typography": "Tipografia & layout",
-        "contentWidth": "Largura do conteúdo",
-        "paragraph": "Comportamento do parágrafo",
-        "indentFirstParagraph": "Recuar primeiro parágrafo",
-        "indentAfterHeadings": "Recuar após os cabeçalhos",
-        "firstLineIndent": "Recuo da primeira linha",
-        "paragraphSpacingPercentage": "Porcentagem de espaçamento dos parágrafos",
+        "title": "Format manuscript",
+        "customize": "Format yourself",
+        "preset": "Preset",
+        "basedOn": "Based on",
+        "typography": "Typography & layout",
+        "contentWidth": "Content width",
+        "paragraph": "Paragraph behaviour",
+        "indentFirstParagraph": "Indent first paragraph",
+        "indentAfterHeadings": "Indent after headings",
+        "firstLineIndent": "First-line indent",
+        "paragraphSpacingPercentage": "Paragraph spacing percentage",
         "align": {
-          "right": "Direita"
+          "right": "Right"
         },
         "presets": {
           "writality": {
-            "description": "Sem formatação extra. A exportação mantém o estilo do editor."
+            "description": "No extra formatting. Exports keep the editor styling."
           },
           "book_manuscript": {
-            "label": "Formato do manuscrito do livro",
-            "description": "Formatação de manuscrito no padrão da indústria para envio a editoras e agentes."
+            "label": "Book manuscript format",
+            "description": "Industry-standard manuscript formatting for publisher and agent submissions."
           },
           "classic_manuscript": {
-            "label": "Manuscrito clássico",
-            "description": "Estilo tradicional de envio, inspirado no formato de manuscrito Shunn."
+            "label": "Classic manuscript",
+            "description": "Traditional submission style inspired by Shunn manuscript format."
           },
           "web_novel": {
             "label": "Web novel",
-            "description": "Espaçamento fluido para episódios, inspirado no padrão de leitura do Tapas."
+            "description": "Episode-friendly spacing influenced by Tapas web reading norms."
           },
           "screenplay": {
-            "label": "Roteiro",
-            "description": "Formatação de roteiro em fonte Courier, alinhada aos padrões do Nicholl."
+            "label": "Screenplay",
+            "description": "Courier-based screenplay baseline consistent with Nicholl expectations."
           },
           "poetry": {
-            "label": "Poesia",
-            "description": "Espaçamento por ritmo para legibilidade de estrofes."
+            "label": "Poetry",
+            "description": "Rhythm-first spacing for stanza legibility and pacing."
           },
           "kindle_reflowable": {
-            "label": "Layout fluido para Kindle",
-            "description": "Configurações padrão para e-books reajustáveis, alinhadas com o KDP."
+            "label": "Kindle reflowable",
+            "description": "Reflowable ebook-oriented defaults based on KDP guidance."
           }
         },
-        "emptySpaceAfterSegments": "Adicionar quebra de página após cada segmento",
-        "bundledFontLabel": "{{font}} (embutida)",
-        "helpFor": "Ajuda para {{label}}",
-        "textColumnWidth": "Largura da coluna de texto",
-        "indentBodyParagraphs": "Recuar a primeira linha de parágrafos do corpo",
-        "indentFirstSegmentParagraph": "Recuar primeiro parágrafo em cada segmento",
-        "indent": "Recuar",
-        "runningHeaderFooter": "Cabeçalho e Rodapé",
-        "availableTokens": "Tokens disponíveis (exportações + visualização paginada)",
-        "runningTextTokenHelpPrefix": "Digite seu nome, pen name ou qualquer outro texto diretamente nos campos do cabeçalho ou rodapé. Apenas",
-        "runningTextTokenHelpSuffix": "são substituídos automaticamente.",
-        "header": "Cabeçalho",
-        "footer": "Rodapé",
-        "enableRunningHeader": "Habilitar cabeçalho",
-        "enableRunningFooter": "Habilitar rodapé",
-        "runningHeaderText": "Texto do cabeçalho",
-        "runningFooterText": "Texto do rodapé",
-        "alignment": "Alinhamento",
-        "runningHeaderDisabled": "Cabeçalho está desativado.",
-        "runningFooterDisabled": "Rodapé está desativado.",
-        "titleStyles": "Estilos de título",
-        "titlePreview": "Capítulo Um",
+        "emptySpaceAfterSegments": "Add page break after every segment",
+        "bundledFontLabel": "{{font}} (Bundled)",
+        "helpFor": "Help for {{label}}",
+        "textColumnWidth": "Text column width",
+        "indentBodyParagraphs": "Indent first line of body paragraphs",
+        "indentFirstSegmentParagraph": "Indent first paragraph in each segment",
+        "indent": "Indent",
+        "runningHeaderFooter": "Running header/footer",
+        "availableTokens": "Available tokens (exports + paginated view)",
+        "runningTextTokenHelpPrefix": "Type your name, pen name, or any other text directly in the header or footer fields. Only",
+        "runningTextTokenHelpSuffix": "are replaced automatically.",
+        "header": "Header",
+        "footer": "Footer",
+        "enableRunningHeader": "Enable running header",
+        "enableRunningFooter": "Enable running footer",
+        "runningHeaderText": "Running header text",
+        "runningFooterText": "Running footer text",
+        "alignment": "Alignment",
+        "runningHeaderDisabled": "Running header is disabled.",
+        "runningFooterDisabled": "Running footer is disabled.",
+        "titleStyles": "Title styles",
+        "titlePreview": "Chapter One",
         "fontWeights": {
           "light": "Light (300)",
           "regular": "Regular (400)",
@@ -1329,473 +1329,473 @@
           "bold": "Bold (700)"
         },
         "hints": {
-          "fontSize": "Tamanho do texto do corpo em pontos",
-          "lineHeight": "Espaço entre as linhas de texto",
-          "textColumnWidth": "Largura da área de texto do corpo do manuscrito",
-          "indent": "Recuo da primeira linha aplicado a parágrafos recuados",
-          "paragraphSpacing": "Espaço extra entre parágrafos",
-          "runningText": "Use {page} para o número da página e {title} para o título do manuscrito. Adicione seu nome ou qualquer outro texto como texto simples. Controles de alinhamento onde esta linha fica na página (visão paginada, PDF, HTML e Word).",
-          "titleSize": "Tamanho dos títulos dos manuscritos e segmentos",
-          "titleSpacing": "Espaço entre o título do capítulo/segmento e o texto seguinte"
+          "fontSize": "Body text size in points",
+          "lineHeight": "Space between lines of text",
+          "textColumnWidth": "Width of the manuscript body text area",
+          "indent": "First-line indent applied to indented paragraphs",
+          "paragraphSpacing": "Extra space between paragraphs",
+          "runningText": "Use {page} for the page number and {title} for the manuscript name. Add your name or any other wording as plain text. Alignment controls where this line sits on the page (paginated view, PDF, HTML, and Word).",
+          "titleSize": "Size of manuscript and segment titles",
+          "titleSpacing": "Space between chapter/segment title and following text"
         }
       }
     },
     "mapEditor": {
       "pinPanel": {
-        "searchPlaceholder": "Pesquisar conceitos e notas…",
-        "searchAriaLabel": "Pesquisar conceitos e notas",
-        "empty": "Nenhum conceito ou nota correspondente.",
-        "helper": "Escolha uma entrada, clique no mapa para colocar. Arraste um alfinete para movê-lo ou clique com o botão direito para ações."
+        "searchPlaceholder": "Search concepts and notes…",
+        "searchAriaLabel": "Search concepts and notes",
+        "empty": "No concepts or notes match.",
+        "helper": "Choose an entry, click the map to place. Drag a pin to move it or right-click for actions."
       },
       "notePin": {
-        "marker": "Marcador de nota"
+        "marker": "Note marker"
       },
       "spriteList": {
-        "close": "Fechar lista de sprites",
-        "empty": "Nenhum sprite colocado ainda.",
+        "close": "Close sprite list",
+        "empty": "No sprites placed yet.",
         "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
       },
       "errors": {
-        "saveEdits": "Falha ao salvar edições do mapa"
+        "saveEdits": "Failed to save map edits"
       },
       "labels": {
-        "newLabel": "Novo rótulo",
-        "colour": "Cor",
-        "region": "Região",
-        "newRegion": "Nova região",
-        "numberedMap": "Mapa {{number}}"
+        "newLabel": "New label",
+        "colour": "Colour",
+        "region": "Region",
+        "newRegion": "New Region",
+        "numberedMap": "Map {{number}}"
       },
       "actions": {
-        "newMap": "Novo mapa",
-        "exportMap": "Exportar mapa",
-        "deleteMap": "Excluir mapa",
-        "hideSpriteList": "Ocultar lista de sprites",
-        "showSpriteList": "Exibir lista de sprites",
-        "movePin": "Mover..."
+        "newMap": "New Map",
+        "exportMap": "Export map",
+        "deleteMap": "Delete map",
+        "hideSpriteList": "Hide sprite list",
+        "showSpriteList": "Show sprite list",
+        "movePin": "Move..."
       },
       "layers": {
-        "drawing": "Desenho",
-        "interactive": "Interativo",
-        "artTooltip": "Desenhar e editar o mapa principal",
-        "interactiveTooltip": "Editar elementos interativos do mapa",
-        "regionsAboveSprites": "Regiões desenhadas acima dos sprites",
-        "spritesAboveRegions": "Sprites desenhados acima das regiões"
+        "drawing": "Drawing",
+        "interactive": "Interactive",
+        "artTooltip": "Draw and edit the core map",
+        "interactiveTooltip": "Edit interactive map elements",
+        "regionsAboveSprites": "Regions draw above sprites",
+        "spritesAboveRegions": "Sprites draw above regions"
       },
       "visibility": {
-        "landmass": "Massa terrestre",
-        "regions": "Regiões",
-        "text": "Texto",
-        "hide": "Ocultar {{label}}",
-        "show": "Exibir {{label}}"
+        "landmass": "Landmass",
+        "regions": "Regions",
+        "text": "Text",
+        "hide": "Hide {{label}}",
+        "show": "Show {{label}}"
       },
-      "confirmDeleteMap": "Excluir este mapa? Isto não pode ser desfeito.",
+      "confirmDeleteMap": "Delete this map? This cannot be undone.",
       "toasts": {
-        "pinDeleted": "Alfinete excluído.",
-        "deletePinFailed": "Falha ao excluir alfinete",
-        "chooseConceptForRegionImage": "Escolha um conceito antes de criar uma imagem para a região",
-        "regionImageRefreshed": "Imagem de região atualizada",
-        "refreshRegionImageFailed": "Falha ao atualizar imagem da região",
-        "createConceptFailed": "Falha ao criar conceito",
-        "mapExported": "Mapa exportado",
-        "exportMapFailed": "Falha ao exportar mapa",
-        "chooseOrEnterConcept": "Escolha um conceito ou digite um novo nome de conceito",
-        "createRegionImageFailed": "Falha ao criar imagem da região",
-        "createRegionFailed": "Falha ao criar região",
-        "selectProjectBeforeCreate": "Selecione um projeto antes de criar um mapa",
-        "mapDimensionsMinimum": "Dimensões do mapa devem ter pelo menos {{width}} x {{height}}px",
-        "mapCreated": "Mapa criado",
-        "createMapFailed": "Falha ao criar mapa",
-        "mapDeleted": "Mapa excluído",
-        "deleteMapFailed": "Falha ao excluir mapa",
-        "chooseConceptOrNoteFirst": "Escolha um conceito ou nota primeiro",
-        "placePinFailed": "Falha ao colocar alfinete",
-        "movePinFailed": "Falha ao mover alfinete",
-        "regionRelationshipAdded": "Relacionamento com região adicionado",
-        "addRegionRelationshipFailed": "Falha ao adicionar relacionamento com região",
-        "clickMapToPlacePin": "Clique no mapa para colocar este alfinete."
+        "pinDeleted": "Pin deleted",
+        "deletePinFailed": "Failed to delete pin",
+        "chooseConceptForRegionImage": "Choose a concept before creating a region image",
+        "regionImageRefreshed": "Region image refreshed",
+        "refreshRegionImageFailed": "Failed to refresh region image",
+        "createConceptFailed": "Failed to create concept",
+        "mapExported": "Map exported",
+        "exportMapFailed": "Failed to export map",
+        "chooseOrEnterConcept": "Choose a concept or enter a new concept name",
+        "createRegionImageFailed": "Failed to create region image",
+        "createRegionFailed": "Failed to create region",
+        "selectProjectBeforeCreate": "Select a project before creating a map",
+        "mapDimensionsMinimum": "Map dimensions must be at least {{width}} x {{height}}px",
+        "mapCreated": "Map created",
+        "createMapFailed": "Failed to create map",
+        "mapDeleted": "Map deleted",
+        "deleteMapFailed": "Failed to delete map",
+        "chooseConceptOrNoteFirst": "Choose a concept or note first",
+        "placePinFailed": "Failed to place pin",
+        "movePinFailed": "Failed to move pin",
+        "regionRelationshipAdded": "Region relationship added",
+        "addRegionRelationshipFailed": "Failed to add region relationship",
+        "clickMapToPlacePin": "Click the map to place this pin."
       }
     },
     "graph": {
       "mapCreate": {
-        "title": "Criar novo mapa",
-        "changeImage": "Alterar",
-        "selectImage": "Selecionar Imagem",
-        "mapName": "Nome do mapa",
-        "mapNamePlaceholder": "Digite o nome do mapa",
-        "descriptionOptional": "Descrição (opcional)",
-        "descriptionPlaceholder": "Descreva este mapa (opcional)",
-        "creating": "Criando...",
-        "createMap": "Criar mapa"
+        "title": "Create new map",
+        "changeImage": "Change",
+        "selectImage": "Select Image",
+        "mapName": "Map Name",
+        "mapNamePlaceholder": "Enter map name",
+        "descriptionOptional": "Description (optional)",
+        "descriptionPlaceholder": "Describe this map (optional)",
+        "creating": "Creating...",
+        "createMap": "Create Map"
       },
       "empty": {
-        "description": "Crie conceitos com relacionamentos para ver o gráfico"
+        "description": "Create concepts with relationships to see the graph"
       },
-      "goTo": "Ir para",
-      "clearSelection": "Limpar seleção",
-      "fitToView": "Ajustar à área de visualização",
+      "goTo": "Go to",
+      "clearSelection": "Clear Selection",
+      "fitToView": "Fit to view",
       "fullscreen": {
-        "open": "Abrir em tela cheia"
+        "open": "Open fullscreen"
       },
       "export": {
-        "button": "Exportar gráfico",
-        "exporting": "Exportando gráfico...",
-        "success": "Imagem do gráfico exportada",
-        "failure": "Não foi possível exportar a imagem do gráfico"
+        "button": "Export graph",
+        "exporting": "Exporting graph...",
+        "success": "Graph image exported",
+        "failure": "Could not export graph image"
       },
       "selectedNode": {
-        "title": "Nó selecionado",
-        "clickNodeHint": "Clique em um nó no gráfico para ver seus detalhes",
-        "notFound": "Nó não encontrado",
-        "noContentYet": "Este conceito ainda não tem conteúdo. Clique acima para abrir e começar a editar."
+        "title": "Selected Node",
+        "clickNodeHint": "Click a node in the graph to view its details",
+        "notFound": "Node not found",
+        "noContentYet": "This concept has no content yet. Click above to open and start editing."
       },
       "preferences": {
-        "tooltip": "Preferências do gráfico",
-        "close": "Fechar preferências do gráfico",
-        "display": "Exibir",
-        "advanced": "Avançado",
-        "arrows": "Setas",
-        "showImages": "Exibir imagens (quando disponível)",
-        "animate": "Animar",
-        "nodeSize": "Tamanho do nó",
-        "nodeBorderRadius": "Raio da borda do nó",
-        "linkThickness": "Espessura do link",
-        "lineType": "Tipo de linha",
-        "forces": "Forças",
-        "centreForce": "Centralizar força",
-        "centerForce": "Centralizando força",
-        "axisForceX": "Força do eixo X",
-        "axisForceY": "Força do eixo Y",
-        "radialForce": "Força radial",
-        "orbit": "Órbita",
-        "orbitOuterRadius": "Raio externo da órbita",
-        "orbitStrength": "Força da órbita",
-        "repelForce": "Repelir força",
-        "chargeDistance": "Distância da carga",
-        "linkForce": "Força do link",
-        "linkDistance": "Distância do link",
+        "tooltip": "Graph preferences",
+        "close": "Close graph preferences",
+        "display": "Display",
+        "advanced": "Advanced",
+        "arrows": "Arrows",
+        "showImages": "Show images (when available)",
+        "animate": "Animate",
+        "nodeSize": "Node size",
+        "nodeBorderRadius": "Node border radius",
+        "linkThickness": "Link thickness",
+        "lineType": "Line type",
+        "forces": "Forces",
+        "centreForce": "Centre force",
+        "centerForce": "Centring force",
+        "axisForceX": "Axis force X",
+        "axisForceY": "Axis force Y",
+        "radialForce": "Radial force",
+        "orbit": "Orbit",
+        "orbitOuterRadius": "Orbit outer radius",
+        "orbitStrength": "Orbit strength",
+        "repelForce": "Repel force",
+        "chargeDistance": "Charge distance",
+        "linkForce": "Link force",
+        "linkDistance": "Link distance",
         "groups": {
-          "title": "Grupos",
-          "delete": "Excluir grupo",
-          "toggleDetails": "Alternar detalhes do grupo",
-          "groupName": "Nome do grupo",
-          "matchBy": "Correspondência por",
-          "matchValue": "Selecionar valor",
-          "queryPlaceholder": "Digite a consulta...",
-          "queryHelp": "Operadores de consulta: type:, tag:, name:, id:, ou texto sem formatação.",
-          "searchOptions": "Opções de pesquisa",
-          "optionType": "corresponder ao tipo de conceito",
-          "optionTag": "corresponder ao marcador/etiqueta de conceito",
-          "optionName": "corresponder ao texto do nome do conceito",
-          "optionId": "corresponder ao ID exato do conceito",
-          "optionPlain": "texto sem formatação corresponde ao nome do conceito",
-          "examples": "Exemplos: type:personagem, tag:aliado, name:rei, id:42",
-          "clusterStrength": "Força do agrupamento (ficar junto)",
-          "clusterRadius": "Raio do agrupamento (quão grande é o grupo)",
-          "repelStrength": "Capacidade de repelir inimigo",
-          "repelDistance": "Distância de repelimento inimigo",
-          "hostility": "Grupos inimigos",
-          "hostilityStrength": "Força da hostilidade",
-          "hostilityDistance": "Distância mínima de separação"
+          "title": "Groups",
+          "delete": "Delete group",
+          "toggleDetails": "Toggle group details",
+          "groupName": "Group name",
+          "matchBy": "Match by",
+          "matchValue": "Select value",
+          "queryPlaceholder": "Enter query...",
+          "queryHelp": "Query operators: type:, tag:, name:, id:, or plain text.",
+          "searchOptions": "Search options",
+          "optionType": "match concept type",
+          "optionTag": "match concept tag/label",
+          "optionName": "match concept name text",
+          "optionId": "match exact concept id",
+          "optionPlain": "plain text matches concept name",
+          "examples": "Examples: type:character tag:allied, name:king, id:42",
+          "clusterStrength": "Cluster strength (stick together)",
+          "clusterRadius": "Cluster radius (how wide the group is)",
+          "repelStrength": "Enemy repel strength",
+          "repelDistance": "Enemy repel distance",
+          "hostility": "Enemy groups",
+          "hostilityStrength": "Hostility strength",
+          "hostilityDistance": "Minimum separation distance"
         },
         "filters": {
-          "title": "Filtros",
-          "activeCount": "{{count}} ativo(s)",
-          "searchPlaceholder": "Pesquisar gráfico...",
-          "relationshipTypes": "Tipos de relacionamento",
-          "anyType": "Qualquer tipo",
-          "anyRelationshipType": "Qualquer tipo de relacionamento",
-          "anyTag": "Qualquer marcador",
-          "anyConcept": "Qualquer conceito",
-          "orphans": "Exibir conceitos não conectados",
-          "empty": "Nenhum conceito corresponde aos filtros atuais."
+          "title": "Filters",
+          "activeCount": "{{count}} active",
+          "searchPlaceholder": "Search graph...",
+          "relationshipTypes": "Relationship types",
+          "anyType": "Any type",
+          "anyRelationshipType": "Any relationship type",
+          "anyTag": "Any tag",
+          "anyConcept": "Any concept",
+          "orphans": "Show unconnected concepts",
+          "empty": "No concepts match the current filters."
         },
-        "resetDefaults": "Redefinir para o padrão",
+        "resetDefaults": "Reset defaults",
         "sliderHelp": {
           "nodeSize": {
-            "title": "Altera o tamanho do nó.",
-            "increase": "Aumentar: nós maiores e mais proeminentes.",
-            "decrease": "Diminuir: nós menores e menos dominantes."
+            "title": "Scales node size.",
+            "increase": "Increase: nodes become larger and more prominent.",
+            "decrease": "Decrease: nodes become smaller and less dominant."
           },
           "nodeBorderRadius": {
-            "title": "Arredonda os cantos das formas dos nós.",
-            "increase": "Aumentar: cantos mais arredondados (como círculos).",
-            "decrease": "Diminuir: cantos mais afiados (como quadrados)."
+            "title": "Rounds the corners of node shapes.",
+            "increase": "Increase: corners become rounder (toward circles).",
+            "decrease": "Decrease: corners become sharper (toward squares)."
           },
           "linkThickness": {
-            "title": "Define a espessura da linha para links de relacionamento.",
-            "increase": "Aumentar: links aparecem mais fortes",
-            "decrease": "Diminuir: links aparecem mais fracos e sutis."
+            "title": "Sets line thickness for relationship links.",
+            "increase": "Increase: links appear bolder.",
+            "decrease": "Decrease: links appear thinner and subtler."
           },
           "centerForce": {
-            "title": "Puxa nós em direção ao centro do gráfico.",
-            "increase": "Aumentar: layout mais concentrado no centro.",
-            "decrease": "Diminuir: layout mais longe do centro."
+            "title": "Pulls nodes toward the graph centre.",
+            "increase": "Increase: layout stays tighter around the centre.",
+            "decrease": "Decrease: layout can spread farther from the centre."
           },
           "axisForceX": {
-            "title": "Atração horizontal em direção ao centro.",
-            "increase": "Aumentar: nós mais fortemente alinhados ao longo do eixo X.",
-            "decrease": "Diminuir: alinhamento horizontal mais fraco."
+            "title": "Horizontal pull toward the centre line.",
+            "increase": "Increase: nodes align more strongly along the X axis.",
+            "decrease": "Decrease: weaker horizontal alignment."
           },
           "axisForceY": {
-            "title": "Atração vertical em direção ao centro.",
-            "increase": "Aumentar: nós mais fortemente alinhados ao longo do eixo Y.",
-            "decrease": "Diminuir: alinhamento vertical mais fraco."
+            "title": "Vertical pull toward the centre line.",
+            "increase": "Increase: nodes align more strongly along the Y axis.",
+            "decrease": "Decrease: weaker vertical alignment."
           },
           "radialForce": {
-            "title": "Atrai nós em ao redor de um raio a partir do centro.",
-            "increase": "Aumentar: organização lembra mais fortemente um anel.",
-            "decrease": "Diminuir: organização radial mais fraca."
+            "title": "Pulls nodes toward/around a radius from centre.",
+            "increase": "Increase: stronger ring-like organisation.",
+            "decrease": "Decrease: weaker radial organisation."
           },
           "orphanOrbitOuterRadius": {
-            "title": "Distância de nós isolados do centro quando a órbita está ativada.",
-            "increase": "Aumentar: nós isolados orbitam mais distantes.",
-            "decrease": "Diminuir: nós isolados orbitam mais próximos."
+            "title": "Distance of isolated nodes from the centre when orbit is enabled.",
+            "increase": "Increase: isolated nodes orbit farther out.",
+            "decrease": "Decrease: isolated nodes orbit closer in."
           },
           "orphanOrbitStrength": {
-            "title": "Adesão à órbita de nós isolados.",
-            "increase": "Aumentar: nós isolados aderem mais firmemente à órbita.",
-            "decrease": "Diminuir: nós isolados se comportam mais livremente."
+            "title": "How strongly isolated nodes stay on their orbit path.",
+            "increase": "Increase: isolated nodes stick to orbit more firmly.",
+            "decrease": "Decrease: isolated nodes drift more freely."
           },
           "repelForce": {
-            "title": "Intensidade com que os nós se repelem.",
-            "increase": "Aumentar: maior separação e espaçamento.",
-            "decrease": "Diminuir: agrupamento mais denso."
+            "title": "How strongly nodes push each other apart.",
+            "increase": "Increase: more separation and spacing.",
+            "decrease": "Decrease: denser clustering."
           },
           "chargeDistance": {
-            "title": "Distância máxima onde a repulsão dos nós tem efeito.",
-            "increase": "Aumentar: repulsão afeta nós mais distantes.",
-            "decrease": "Diminuir: repulsão possui alcance mais curto."
+            "title": "Maximum distance where node repulsion has effect.",
+            "increase": "Increase: repulsion affects nodes from farther away.",
+            "decrease": "Decrease: repulsion is more local/short-range."
           },
           "linkForce": {
-            "title": "Força de atração dos links.",
-            "increase": "Aumentar: nós conectados permancem mais próximos.",
-            "decrease": "Diminuir: nós conectados podem se afastar mais."
+            "title": "How strongly links pull connected nodes together.",
+            "increase": "Increase: connected nodes stay tighter.",
+            "decrease": "Decrease: connected nodes can drift farther apart."
           },
           "linkDistance": {
-            "title": "Comprimento ideal dos vínculos entre nós conectados.",
-            "increase": "Aumentar: nós conectados ficam mais afastados.",
-            "decrease": "Diminuir: nós conectados ficam mais próximos."
+            "title": "Target length of links between connected nodes.",
+            "increase": "Increase: connected nodes sit farther apart.",
+            "decrease": "Decrease: connected nodes sit closer together."
           }
         }
       }
     },
     "navigation": {
-      "world": "Mundo",
-      "openSettings": "Abrir configurações",
-      "page": "Página",
-      "newPage": "Nova página",
-      "toggleSidebar": "Alternar barra lateral",
-      "goBack": "Voltar",
-      "goForward": "Avançar",
-      "breadcrumb": "Trilha de navegação",
-      "goToFolder": "Ir para pasta {{name}}",
-      "configureTimeSystem": "Configurar sistema de tempo",
-      "conceptWithId": "Conceito #{{id}}",
-      "segmentWithId": "Segmento #{{id}}",
-      "noteWithId": "Nota #{{id}}"
+      "world": "World",
+      "openSettings": "Open Settings",
+      "page": "Page",
+      "newPage": "New page",
+      "toggleSidebar": "Toggle sidebar",
+      "goBack": "Go back",
+      "goForward": "Go forward",
+      "breadcrumb": "Breadcrumb",
+      "goToFolder": "Go to folder {{name}}",
+      "configureTimeSystem": "Configure Time System",
+      "conceptWithId": "Concept {{id}}",
+      "segmentWithId": "Segment {{id}}",
+      "noteWithId": "Note {{id}}"
     },
     "tabs": {
-      "openTab": "Abrir aba {{name}}",
-      "closeTab": "Fechar aba {{name}}",
-      "splitView": "Esta aba contém visualização dividida",
-      "exitSplitView": "Sair da visualização dividida nesta aba",
-      "loadingPane": "Carregando painel...",
-      "loadingConcept": "Carregando conceito...",
-      "loadingSegment": "Carregando segmento...",
-      "loadingFolder": "Carregando pasta...",
-      "loadingManuscript": "Carregando manuscrito..."
+      "openTab": "Open tab {{name}}",
+      "closeTab": "Close tab {{name}}",
+      "splitView": "This tab contains split view",
+      "exitSplitView": "Exit split view in this tab",
+      "loadingPane": "Loading pane...",
+      "loadingConcept": "Loading concept...",
+      "loadingSegment": "Loading segment...",
+      "loadingFolder": "Loading folder...",
+      "loadingManuscript": "Loading manuscript..."
     },
     "sidebar": {
       "visibility": {
-        "hideSections": "Ocultar seções",
-        "hiddenSections": "Seções ocultas",
-        "noneHidden": "Não há seções ocultas.",
-        "pressToHide": "Pressione para ocultar",
-        "selectedToHide": "Selecionado para ocultar",
-        "unhideSection": "Exibir {{section}}",
-        "confirmHide": "Ocultar ({{count}})"
+        "hideSections": "Hide sections",
+        "hiddenSections": "Hidden sections",
+        "noneHidden": "No sections are hidden.",
+        "pressToHide": "Press to hide",
+        "selectedToHide": "Selected to hide",
+        "unhideSection": "Show {{section}}",
+        "confirmHide": "Hide ({{count}})"
       },
       "preview": {
-        "loading": "Carregando pré-visualização...",
-        "empty": "Ainda não há conteúdo."
+        "loading": "Loading preview...",
+        "empty": "No content yet."
       },
-      "options": "Opções",
+      "options": "Options",
       "tags": {
-        "menuLabel": "Opções de visibilidade do marcador para {{scope}}",
-        "optionsMenuLabel": "Opções de marcador e contagem de palavras para {{scope}}",
-        "filterLabel": "Marcadores visíveis em {{scope}}",
-        "showAll": "Mostrar tudo",
-        "showSelected": "Mostrar selecionados",
-        "chooseTags": "Selecionar marcadores",
-        "showNone": "Não mostrar nenhum",
-        "excludeAllConceptsFromWordCount": "Excluir todos os conceitos da contagem de palavras",
-        "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras"
+        "menuLabel": "Tag visibility options for {{scope}}",
+        "optionsMenuLabel": "Tag and word count options for {{scope}}",
+        "filterLabel": "Visible tags in {{scope}}",
+        "showAll": "Show all",
+        "showSelected": "Show selected",
+        "chooseTags": "Choose tags",
+        "showNone": "Show none",
+        "excludeAllConceptsFromWordCount": "Exclude all concepts from word count",
+        "includeAllConceptsInWordCount": "Include all concepts in word count"
       },
       "items": {
-        "openItem": "Abrir {{type}}: {{name}}",
-        "updateTag": "Atualizar marcador",
-        "moreActions": "Mais ações",
-        "openMenu": "Abrir menu",
-        "openFolderActionsMenu": "Abrir menu de ações da pasta",
-        "openTypeActionsMenu": "Abrir menu de ações do tipo",
-        "openFolderAddMenu": "Abrir menu de adicionar pasta",
-        "openTypeAddMenu": "Abrir menu de adicionar tipo",
-        "folderAddTooltip": "Adicionar segmentos ou pastas",
-        "typeAddTooltip": "Adicionar conceitos ou tipos",
-        "folderActionsTooltip": "Excluir, renomear e mais...",
-        "typeActionsTooltip": "Excluir, editar e mais...",
-        "newFolder": "Nova pasta",
-        "deleteFolder": "Excluir pasta",
-        "changeConceptIcon": "Alterar ícone do conceito",
-        "changeFolderIcon": "Alterar ícone da pasta",
-        "changeFolderColor": "Alterar cor da pasta",
-        "excludeFromWordCount": "Excluir da contagem de palavras",
-        "includeInWordCount": "Incluir na contagem de palavras",
-        "excludedFromWordCount": "Excluído da contagem de palavras",
+        "openItem": "Open {{type}}: {{name}}",
+        "updateTag": "Update tag",
+        "moreActions": "More actions",
+        "openMenu": "Open menu",
+        "openFolderActionsMenu": "Open folder actions menu",
+        "openTypeActionsMenu": "Open type actions menu",
+        "openFolderAddMenu": "Open folder add menu",
+        "openTypeAddMenu": "Open type add menu",
+        "folderAddTooltip": "Add segments or folders",
+        "typeAddTooltip": "Add concepts or types",
+        "folderActionsTooltip": "Delete, rename and more...",
+        "typeActionsTooltip": "Delete, edit and more...",
+        "newFolder": "New folder",
+        "deleteFolder": "Delete folder",
+        "changeConceptIcon": "Change concept icon",
+        "changeFolderIcon": "Change folder icon",
+        "changeFolderColor": "Change folder colour",
+        "excludeFromWordCount": "Exclude from word count",
+        "includeInWordCount": "Include in word count",
+        "excludedFromWordCount": "Excluded from word count",
         "types": {
-          "segment": "segmento"
+          "segment": "segment"
         },
-        "wordCountExclusionLockedByAllConcepts": "A contagem de palavras é controlada por todos os conceitos.",
-        "wordCountExclusionLockedByParentFolder": "A contagem de palavras é controlada pela pasta pai.",
-        "wordCountExclusionLockedByParentType": "O contador de palavras é controlado pelo tipo pai."
+        "wordCountExclusionLockedByAllConcepts": "Word count is controlled by all concepts.",
+        "wordCountExclusionLockedByParentFolder": "Word count is controlled by the parent folder.",
+        "wordCountExclusionLockedByParentType": "Word count is controlled by the parent type."
       },
       "files": {
-        "createFolder": "Criar pasta",
-        "toggleSection": "Alternar seção de segmentos",
-        "emptyDescription": "Segmentos contêm o conteúdo real da história. Pense neles como cenas, seções ou capítulos. Você pode combiná-los em estruturas maiores e moldá-los em um manuscrito completo.",
-        "emptyExample1": "Segmento 1: O Início",
-        "emptyExample2": "Cenas de introdução do personagem",
-        "emptyExample3": "Trocas de diálogo importantes",
-        "emptyExample4": "Passagens descritivas e construção de mundos"
+        "createFolder": "Create folder",
+        "toggleSection": "Toggle Segments section",
+        "emptyDescription": "Segments contain the actual story content. Think of them as scenes, sections, or chapters. You can combine segments into larger structures and shape them into a complete manuscript.",
+        "emptyExample1": "Segment 1: The Beginning",
+        "emptyExample2": "Character introduction scenes",
+        "emptyExample3": "Important dialogue exchanges",
+        "emptyExample4": "Descriptive passages and world-building"
       },
       "deleted": {
-        "deleteAll": "Excluir tudo",
-        "restoreAll": "Restaurar tudo"
+        "deleteAll": "Delete all",
+        "restoreAll": "Restore all"
       },
       "concepts": {
-        "toggleSection": "Alternar seção de conceitos",
-        "emptyDescription": "Conceitos são a base do seu mundo: personagens, locais, itens e ideias que tornam sua narrativa rica e detalhada.",
-        "emptyExample1": "Personagens principais e suas histórias",
-        "emptyExample2": "Locais e cenários importantes",
-        "emptyExample3": "Itens mágicos ou tecnologia",
-        "emptyExample4": "Elementos de construção de mundo e lore"
+        "toggleSection": "Toggle Concepts section",
+        "emptyDescription": "Concepts are the building blocks of your story world: characters, locations, items, and ideas that make your narrative rich and detailed.",
+        "emptyExample1": "Main characters and their backstories",
+        "emptyExample2": "Important locations and settings",
+        "emptyExample3": "Magical items or technology",
+        "emptyExample4": "World-building elements and lore"
       },
       "manuscripts": {
-        "createManuscript": "Criar manuscrito",
-        "newManuscriptName": "Novo manuscrito",
-        "openManuscriptActionsMenu": "Abrir menu de ações de manuscrito",
-        "rename": "Renomear",
-        "renameManuscript": "Renomear manuscrito",
-        "deleteManuscriptDescription": "Isto remove a estrutura do manuscrito, mas não exclui os segmentos.",
+        "createManuscript": "Create manuscript",
+        "newManuscriptName": "New Manuscript",
+        "openManuscriptActionsMenu": "Open manuscript actions menu",
+        "rename": "Rename",
+        "renameManuscript": "Rename Manuscript",
+        "deleteManuscriptDescription": "This removes the manuscript structure but does not delete segments.",
         "addOptions": {
-          "noMatchingSegments": "Nenhum segmento correspondente",
-          "addTitle": "Adicionar título",
-          "addEmptySpace": "Adicionar espaço em branco"
+          "noMatchingSegments": "No matching segments",
+          "addTitle": "Add title",
+          "addEmptySpace": "Add empty space"
         },
         "entry": {
-          "untitledTitle": "Título sem nome",
-          "updateTitle": "Atualizar título",
-          "hideSegmentTitle": "Ocultar título do segmento",
-          "showSegmentTitle": "Exibir título do segmento",
-          "openSegment": "Abrir segmento",
-          "addAbove": "Adicionar acima",
-          "addBelow": "Adicionar abaixo",
-          "removeEntryTitle": "Remover entrada",
-          "removeEntryDescription": "Isso remove a entrada da estrutura do manuscrito.",
-          "removeEntryConfirm": "Remover entrada"
+          "untitledTitle": "Untitled title",
+          "updateTitle": "Update title",
+          "hideSegmentTitle": "Hide segment title",
+          "showSegmentTitle": "Show segment title",
+          "openSegment": "Open segment",
+          "addAbove": "Add above",
+          "addBelow": "Add below",
+          "removeEntryTitle": "Remove Entry",
+          "removeEntryDescription": "This removes the entry from the manuscript structure.",
+          "removeEntryConfirm": "Remove entry"
         },
-        "toggleSection": "Alternar seção de manuscritos",
-        "emptyDescription": "O manuscrito organiza seus arquivos e segmentos em uma narrativa estruturada. Crie manuscritos (como Livro 1 ou Livro 2) e divida-os em atos, partes ou na estrutura que preferir.",
-        "emptyExample1": "Livro 1: O Início",
-        "emptyExample2": "Livro 2: O Meio",
-        "emptyExample3": "Livro 3: O Fim",
-        "emptyExample4": "Ato I: A Preparação",
-        "emptyExample5": "Ato II: O Confronto",
-        "emptyExample6": "Ato III: A Resolução"
+        "toggleSection": "Toggle Manuscripts section",
+        "emptyDescription": "The manuscript is where you organise files and segments into a structured narrative. Create manuscripts like Book 1 or Book 2, then arrange them into acts, parts, or any structure that fits your story.",
+        "emptyExample1": "Book 1: The Beginning",
+        "emptyExample2": "Book 2: The Middle",
+        "emptyExample3": "Book 3: The End",
+        "emptyExample4": "Act I: The Setup",
+        "emptyExample5": "Act II: The Confrontation",
+        "emptyExample6": "Act III: The Resolution"
       },
-      "examples": "Exemplos:",
-      "toggleSection": "Alternar seção {{section}}"
+      "examples": "Examples:",
+      "toggleSection": "Toggle {{section}} section"
     },
     "notes": {
-      "editTagsAria": "Editar marcadores da nota {{id}}",
-      "linkedToEditor": "Esta nota está vinculada ao editor",
-      "linkedToEditorCount": "Vinculada ao editor {{count}} vezes"
+      "editTagsAria": "Edit tags on note {{id}}",
+      "linkedToEditor": "This note is linked to the editor",
+      "linkedToEditorCount": "Linked to editor {{count}} times"
     },
     "editableTitle": {
-      "ariaLabel": "Título {{entityType}} editável",
-      "actionsAriaLabel": "Abrir ações do título"
+      "ariaLabel": "Editable {{entityType}} title",
+      "actionsAriaLabel": "Open title actions"
     },
     "banner": {
       "entities": {
-        "project": "projeto"
+        "project": "project"
       },
       "actions": {
-        "useProjectImage": "Usar imagem do projeto",
-        "hideBackground": "Ocultar plano de fundo"
+        "useProjectImage": "Use Project Image",
+        "hideBackground": "Hide Background"
       },
       "imageControls": {
-        "imageAriaLabel": "Imagem de banner {{entity}}",
-        "positionImage": "Posicionar imagem do banner {{entity}}",
-        "donePositioning": "Posicionamento de banner {{entity}} concluído",
-        "removeImage": "Remover imagem do banner {{entity}}",
-        "changeBackgroundImage": "Alterar imagem do plano de fundo",
-        "editImage": "Editar imagem do banner {{entity}}"
+        "imageAriaLabel": "{{entity}} banner image",
+        "positionImage": "Position {{entity}} banner image",
+        "donePositioning": "Done positioning {{entity}} banner image",
+        "removeImage": "Remove {{entity}} banner image",
+        "changeBackgroundImage": "Change background image",
+        "editImage": "Edit {{entity}} banner image"
       }
     },
     "versionHistory": {
-      "noVersionsYet": "Ainda não há versões",
-      "fileDescription": "Versões são criadas automaticamente quando você salva seu arquivo. Por padrão, uma nova versão é criada a cada 200 palavras adicionadas ou excluídas.",
-      "entityDescription": "Versões são criadas automaticamente quando você salva seu {{entityName}}. Por padrão, uma nova versão é criada a cada 100 palavras adicionadas ou excluídas.",
-      "compareVersions": "Comparar versões",
-      "major": "Principal"
+      "noVersionsYet": "No versions yet",
+      "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
+      "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
+      "compareVersions": "Compare versions",
+      "major": "Major"
     },
     "coming_soon": {
-      "title": "Em breve",
-      "description": "Esta ação ainda não está disponível."
+      "title": "Coming soon",
+      "description": "This section is not available yet."
     },
     "setup": {
       "errors": {
-        "restoreFailed": "Falha ao restaurar da pasta escolhida. Por favor verifique se ela contém uma estrutura válida."
+        "restoreFailed": "Failed to restore from the selected folder. Please make sure it contains a valid project structure."
       },
       "welcome": {
-        "title": "Bem-vindo ao Writality",
-        "description": "Seu espaço de escrita completo para romances, contos e projetos criativos.",
-        "checklistTitle": "Vamos configurar seu espaço de escrita:",
-        "step1": "Nomeie seu diretório de trabalho",
-        "step2": "Escolha onde armazená-lo",
-        "step3": "Comece a criar projetos!",
-        "restore": "Restaurar de uma pasta existente"
+        "title": "Welcome to Writality",
+        "description": "Your complete writing workspace for novels, stories, and creative projects",
+        "checklistTitle": "Let's set up your writing workspace:",
+        "step1": "Name your workspace directory",
+        "step2": "Choose where to store it",
+        "step3": "Start creating projects!",
+        "restore": "Restore from existing folder"
       },
       "details": {
-        "title": "Configure seu espaço de trabalho",
-        "subtitle": "Vamos começar pelo básico",
-        "workspaceNamePlaceholder": "Minha escrita",
-        "workspaceNameHint": "Este será o nome do diretório da sua área de trabalho",
-        "authorName": "Nome do autor",
-        "authorNameHint": "Isto será o autor padrão para seus projetos"
+        "title": "Set up your workspace",
+        "subtitle": "Let's start with the basics",
+        "workspaceNamePlaceholder": "My Writing",
+        "workspaceNameHint": "This will be the name of your workspace directory",
+        "authorName": "Author Name",
+        "authorNameHint": "This will be used as the default author for your projects"
       },
       "storage": {
-        "title": "Escolher local de armazenamento",
-        "subtitle": "Onde devemos salvar seu espaço de trabalho?",
-        "yourWorkspace": "Seu espaço de trabalho",
-        "author": "Autor",
-        "folderLabel": "Pasta de armazenamento",
-        "chooseFolder": "Clique para escolher a pasta",
-        "folderHint": "Recomendamos uma pasta em nuvem (Dropbox, Drive, iCloud)",
-        "willCreateAt": "O espaço de trabalho será criado em:",
-        "createWorkspace": "Criar espaço de trabalho"
+        "title": "Choose storage location",
+        "subtitle": "Where should we save your workspace?",
+        "yourWorkspace": "Your workspace",
+        "author": "Author",
+        "folderLabel": "Storage folder",
+        "chooseFolder": "Click to choose folder",
+        "folderHint": "We recommend a cloud-synced folder (Dropbox, Google Drive, iCloud)",
+        "willCreateAt": "Workspace will be created at:",
+        "createWorkspace": "Create Workspace"
       }
     },
     "tutorial": {
-      "previous": "Anterior"
+      "previous": "Previous"
     },
     "noProject": {
-      "headline": "Hora de concluir esse projeto de vez!",
-      "subheadline": "O passo mais importante é o primeiro ;)",
-      "organizeTitle": "Organize da forma que quiser",
-      "organizeDescription": "Rascunhe sem medo. O Writality se molda ao seu processo, não o contrário.",
-      "worldTitle": "Construa esse mundo",
-      "worldDescription": "Crie personagens, locais e cronologias vivos, que evoluem junto com a sua história."
+      "headline": "Let's get that project finally finished",
+      "subheadline": "The most important step is the first one ;)",
+      "organizeTitle": "Organise however you like",
+      "organizeDescription": "Get messy with it. Writality should mould to your process, not the other way around.",
+      "worldTitle": "Build that world",
+      "worldDescription": "Create characters, locations, and timelines that are living documents and can evolve as your story grows."
     },
     "searchPage": {
       "commandCount": "{{count}} Segmentos",

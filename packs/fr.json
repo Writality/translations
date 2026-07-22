@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "0b8b3ea992b0-fr",
-  "sourceRevision": "0b8b3ea992b00150173bc8af8bde97a066b62543",
+  "version": "68533aa400b6-fr",
+  "sourceRevision": "68533aa400b6742b32e96f761da501bfd92795c0",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -22,7 +22,7 @@
         "setup": "Établir une ligne du temps",
         "timelineTracking": {
           "description": "Coordonnez les dates et évènements à travers vos histoires dans un même univers.",
-          "title": "Timeline tracking"
+          "title": "Suivi (ligne du temps)"
         }
       },
       "eventPreview": {
@@ -33,12 +33,12 @@
         "relatedEntities": "Entités apparentées"
       },
       "minimap": {
-        "addConceptDate": "Add concept date",
-        "moveTimeline": "Move timeline"
+        "addConceptDate": "Ajouter une date-concept",
+        "moveTimeline": "Déplacer la ligne du temps"
       },
       "quickAdd": {
-        "description": "Quickly add a date to the timeline.",
-        "labelPlaceholder": "Label",
+        "description": "Ajouter une date (rapide).",
+        "labelPlaceholder": "Libellé",
         "submit": "Add to timeline",
         "title": "Quick add",
         "addTimelineDate": "Add Timeline Date",
@@ -909,6 +909,911 @@
         }
       },
       "startPreset": "Start preset"
+    },
+    "editor": {
+      "image": {
+        "noActiveProject": "No active project found.",
+        "pastedImage": "Pasted image",
+        "saveFailed": "Could not save image.",
+        "saveIt": "Save it",
+        "unsavedAria": "Image is not saved within Writality",
+        "unsavedDescription": "This image is not saved within Writality. Save it to add it to your image gallery with a thumbnail."
+      },
+      "menu": {
+        "exportAsJson": "Export as JSON",
+        "exportAsWord": "Export as Word (.docx)",
+        "exportAsPdf": "Export as PDF (.pdf)",
+        "exportAsHtml": "Export as HTML (.html)",
+        "exportAsMarkdown": "Export as Markdown (.md)",
+        "importFromJson": "Import from JSON",
+        "importFromWord": "Import from Word (.docx)",
+        "importFromMarkdown": "Import from Markdown (.md)"
+      },
+      "blockMenu": {
+        "optionsAndDrag": "Click for options, drag to move",
+        "copyToClipboard": "Copy to clipboard",
+        "duplicate": "Duplicate"
+      },
+      "createMenu": {
+        "shareSnippet": "Share Snippet",
+        "createLink": "Create Link",
+        "createConcept": "Create concept from selection",
+        "conceptType": "Concept type",
+        "blockName": "Block name",
+        "pressEnterToSave": "Press Enter to save",
+        "searchConceptsOrSegments": "Search concepts or segments...",
+        "couldNotFindAnything": "Could not find anything :(",
+        "splitSegment": "Create segment from selection",
+        "splitSegmentTitle": "Name new segment",
+        "segmentName": "Segment name"
+      },
+      "mention": {
+        "untitledConcept": "Untitled Concept",
+        "createConceptWithName": "Create concept \"{{name}}\"",
+        "selectType": "Select type",
+        "createAs": "Create \"{{name}}\" as",
+        "searchType": "Search type...",
+        "noMatchingTypes": "No matching types",
+        "creatingConcept": "Creating concept...",
+        "displayForConcept": "Mention display for {{name}}",
+        "availableAliases": "{{count}} available",
+        "noAliasesYet": "No aliases yet",
+        "selectAlias": "Select alias",
+        "aliasNamePlaceholder": "Alias name",
+        "newAliasHelp": "Press Enter to create alias and insert, Escape to go back.",
+        "mode": {
+          "alias": "Alias",
+          "newAliasHint": "Create and use an alias"
+        }
+      },
+      "slash": {
+        "basic": "Basic",
+        "insert": "Insert",
+        "openSavedBlocksLibrary": "Open your saved blocks library",
+        "externalLink": "External Link",
+        "createExternalLink": "Create a web link",
+        "searchBlocks": "Search blocks...",
+        "noSavedBlocks": "No saved blocks",
+        "noResults": "No results",
+        "insertSavedBlockContent": "Insert saved block content"
+      },
+      "spellcheck": {
+        "unavailableReadOnly": "Spell check is unavailable in read-only mode",
+        "suggestionsFor": "Suggestions for \"{{word}}\"",
+        "noSuggestionsFor": "No suggestions for \"{{word}}\"",
+        "addToDictionary": "Add to Dictionary",
+        "noErrorsDetected": "No spelling errors detected"
+      },
+      "alignment": {
+        "trigger": "Text alignment"
+      },
+      "contextMenu": {
+        "undo": "Undo",
+        "redo": "Redo",
+        "cut": "Cut",
+        "copy": "Copy",
+        "paste": "Paste",
+        "selectAll": "Select all"
+      },
+      "placeholders": {
+        "note": "Start writing...",
+        "block": "Enter text, type / for commands or @ for mentions..."
+      },
+      "details": {
+        "fill": {
+          "tint": "Tint",
+          "flat": "Flat",
+          "borderOnly": "Border"
+        }
+      },
+      "codeBlock": {
+        "language": "Code block language",
+        "searchLanguages": "Search languages...",
+        "noLanguagesFound": "No languages found."
+      },
+      "formatting": {
+        "inlineCode": "Inline Code",
+        "subscript": "Subscript",
+        "superscript": "Superscript",
+        "quote": "Quote",
+        "divider": "Divider",
+        "backToDefault": "Back to default",
+        "noFill": "No fill",
+        "moreColours": "More colours"
+      },
+      "shareSnippet": {
+        "renderPreviewFailed": "Could not render snippet preview"
+      }
+    },
+    "segment": {
+      "notes": {
+        "createNote": "Create Note",
+        "noNotesYet": "No notes yet.",
+        "emptyDescription": "Notes are a great way to keep track of ideas and thoughts and make sure you do not forget important details.",
+        "deleteTitle": "Delete Note",
+        "deleteDescription": "Are you sure you want to delete this note? This action cannot be undone.",
+        "expandAction": "Expand note",
+        "emptyNote": "Empty note"
+      }
+    },
+    "segmentGraph": {
+      "appearance": "Graph appearance"
+    },
+    "outline": {
+      "loading": "Loading outline…",
+      "error": "The outline could not be loaded.",
+      "todoCompletion": "Todo completion",
+      "noTodos": "No todos yet",
+      "completed": "{{completed}} of {{total}} completed",
+      "remaining": "Remaining",
+      "storyWords": "Story words",
+      "folders": "Folders",
+      "totalTodos": "Total todos",
+      "empty": "Add a segment or folder from the graph to begin outlining your story.",
+      "outlineTodos": "Outline todos",
+      "todosRemaining": "{{count}} todos remaining across the story.",
+      "noRelationships": "No segment relationships yet.",
+      "relationshipsSummary": "{{count}} relationships connect this outline.",
+      "metricsAria": "Outline metrics"
+    },
+    "planning": {
+      "addNoteTo": "Add note to {{name}}",
+      "addRelationshipTo": "Add relationship to {{name}}",
+      "completedCount": "{{count}} completed",
+      "editSegmentTitle": "Edit segment title: {{name}}",
+      "markComplete": "Mark {{name}} complete",
+      "markIncomplete": "Mark {{name}} incomplete",
+      "noOpeningText": "No opening text yet.",
+      "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
+      "noTasksOnSegment": "No tasks on this segment yet.",
+      "noneYet": "None yet",
+      "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
+      "totalCount": "{{count}} total",
+      "viewMore": "View {{count}} more"
+    },
+    "topbarSettings": {
+      "tooltip": "View settings",
+      "font": "Font",
+      "editorWidth": "Editor width",
+      "textWeight": "Text weight",
+      "titleWeight": "Title weight",
+      "textAlign": "Text align",
+      "backgroundColor": "Background colour",
+      "textColor": "Text colour",
+      "widthTooltip": "Width: {{mode}}",
+      "fontSizeTooltip": "Font size: {{mode}}",
+      "titleSizeTooltip": "Title size: {{mode}}",
+      "lineHeightTooltip": "Line height: {{mode}}",
+      "paragraphSpacingTooltip": "Paragraph spacing: {{mode}}",
+      "titleSpacingTooltip": "Title spacing: {{mode}}",
+      "textAlignTooltip": "Text align: {{mode}}",
+      "showScrollbar": "Show scrollbar",
+      "indentParagraphs": "Indent paragraphs",
+      "typewriterMode": "Typewriter mode",
+      "dimMode": "Dim mode",
+      "typewriterBlur": "Typewriter blur",
+      "typewriterBlurAmount": "Blur strength",
+      "hemingwayMode": "Hemingway mode",
+      "fixedEditorToolbar": "Fixed editor toolbar",
+      "toolbarPosition": {
+        "top": "Top",
+        "bottom": "Bottom"
+      },
+      "readOnly": "Read only",
+      "tooltips": {
+        "enterZenMode": "Enter zen mode",
+        "exitZenMode": "Exit zen mode",
+        "typewriterMode": "Keeps the active writing line centred while drafting.",
+        "dimMode": "Fades inactive paragraphs to keep focus on the current paragraph.",
+        "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
+        "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
+        "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
+      },
+      "modes": {
+        "serif": "Serif",
+        "mono": "Mono",
+        "tight": "Tight",
+        "flush": "Flush",
+        "regular": "Regular",
+        "wide": "Wide",
+        "small": "Small",
+        "large": "Large",
+        "relaxed": "Relaxed"
+      },
+      "toasts": {
+        "noContentToExport": "No content to export",
+        "contentExported": "Content exported successfully",
+        "exportFailed": "Failed to export content",
+        "exportWordSuccess": "Document exported to Word successfully",
+        "exportWordFailed": "Failed to export to Word",
+        "exportPdfSuccess": "Document exported to PDF successfully",
+        "exportPdfFailed": "Failed to export to PDF",
+        "exportHtmlSuccess": "Document exported to HTML successfully",
+        "exportHtmlFailed": "Failed to export to HTML",
+        "exportMarkdownSuccess": "Document exported to Markdown successfully",
+        "exportMarkdownFailed": "Failed to export to Markdown",
+        "contentImported": "Content imported successfully",
+        "importInvalidJson": "Failed to import content. Invalid JSON format.",
+        "readFileFailed": "Failed to read file",
+        "importWordSuccess": "Word document imported successfully",
+        "importWordFailed": "Failed to import Word document",
+        "importWordFileTooLarge": "File is too large. Maximum size is 10MB.",
+        "importMarkdownSuccess": "Markdown document imported successfully",
+        "importMarkdownFailed": "Failed to import Markdown document"
+      },
+      "highlightDialogue": "Highlight dialogue",
+      "dialogueHighlightMode": "Style",
+      "dialogueHighlightModes": {
+        "quotes": "Quotes",
+        "raya": "Raya"
+      },
+      "inheritBackground": "Inherit background",
+      "background": "Background",
+      "backgroundImage": "Background image",
+      "blur": "Blur",
+      "editorSettingsTooltip": "Editor settings",
+      "fit": "Fit",
+      "opacity": "Opacity",
+      "positionX": "Position X",
+      "positionY": "Position Y",
+      "removeBackgroundImage": "Remove background image",
+      "useDefaultBackgroundImage": "Use default background image",
+      "zoom": "Zoom"
+    },
+    "gallery": {
+      "searchPlaceholder": "Search images",
+      "breadcrumb": {
+        "all": "All images ({{total}})",
+        "filtered": "Filtered images ({{count}} of {{total}})"
+      },
+      "empty": {
+        "withFilters": "No images match your current filters.",
+        "withoutFilters": "Add your first image to get started."
+      },
+      "toasts": {
+        "deleted": "Image deleted",
+        "deleteFailed": "Failed to delete image"
+      },
+      "imageDialog": {
+        "nameUpdated": "Image name updated successfully",
+        "failedUpdateName": "Failed to update image name",
+        "dimensions": "Dimensions",
+        "fileSize": "File Size",
+        "unknown": "Unknown",
+        "download": "Download",
+        "downloaded": "Image downloaded",
+        "downloadFailed": "Failed to download image"
+      }
+    },
+    "imageSelector": {
+      "searchPlaceholder": "Search media...",
+      "loadingImages": "Loading images...",
+      "uploading": "Uploading...",
+      "tryAdjustingFilters": "Try adjusting your search terms or filters",
+      "addSelected": "Add {{count}} image",
+      "addSelected_other": "Add {{count}} images"
+    },
+    "kanban": {
+      "settings": {
+        "ariaLabel": "Kanban view settings",
+        "title": "Board settings",
+        "list": "List",
+        "board": "Board",
+        "showEmptyColumns": "Show empty columns",
+        "showNestedNotes": "Show nested notes",
+        "showNestedNotesHelp": "Show notes linked to each card directly under the card.",
+        "columnBorderStyle": "Column border style",
+        "columnColorMode": "Column colour mode"
+      },
+      "cards": {
+        "actionsAria": "Actions for {{title}}",
+        "removeFromBoard": "Remove from board",
+        "editTagsAria": "Edit tags on {{entityType}} {{entityId}}",
+        "filterTags": "Filter tags",
+        "noMatchingTags": "No matching tags",
+        "nestedNotes": "Nested notes",
+        "conceptFallback": "Concept #{{id}}",
+        "segmentFallback": "Segment #{{id}}",
+        "noContent": "No content",
+        "openLinkedEntity": "Open linked {{entityType}} {{name}}",
+        "dragNoteAria": "Drag note {{id}}",
+        "dragEntityAria": "Drag {{entityType}} {{id}}",
+        "deleted": "{{type}} deleted.",
+        "deleteTitle": "Delete {{type}}",
+        "deleteDescription": "Are you sure you want to delete this item? This action cannot be undone.",
+        "deleteFailed": "Could not delete this card."
+      },
+      "list": {
+        "noMatchingItems": "No matching items",
+        "noAvailableItems": "No available items",
+        "newNote": "New note",
+        "existingNotes": "Existing notes",
+        "existingConcepts": "Existing concepts",
+        "existingSegments": "Existing segments",
+        "existingImages": "Existing images"
+      },
+      "dialog": {
+        "placeholder": "Write your note"
+      }
+    },
+    "manuscript": {
+      "segmentPicker": {
+        "title": "Add Segment to Manuscript",
+        "selectSegment": "Select Segment",
+        "adding": "Adding...",
+        "addSegment": "Add Segment"
+      },
+      "entryDialog": {
+        "editItem": "Edit Item",
+        "labelOptional": "Label (Optional)",
+        "titleRequired": "Title *",
+        "emptySpaceType": "Empty space type",
+        "emptySpaceQuarter1": "1/4 page",
+        "emptySpaceQuarter2": "2/4 page",
+        "emptySpaceQuarter3": "3/4 page",
+        "emptySpacePageBreak": "Page break",
+        "emptySpacePlaceholder": "e.g., End of Part I",
+        "titlePlaceholder": "e.g., Chapter One"
+      },
+      "format": {
+        "title": "Format manuscript",
+        "customize": "Format yourself",
+        "preset": "Preset",
+        "basedOn": "Based on",
+        "typography": "Typography & layout",
+        "contentWidth": "Content width",
+        "paragraph": "Paragraph behaviour",
+        "indentFirstParagraph": "Indent first paragraph",
+        "indentAfterHeadings": "Indent after headings",
+        "firstLineIndent": "First-line indent",
+        "paragraphSpacingPercentage": "Paragraph spacing percentage",
+        "align": {
+          "right": "Right"
+        },
+        "presets": {
+          "writality": {
+            "description": "No extra formatting. Exports keep the editor styling."
+          },
+          "book_manuscript": {
+            "label": "Book manuscript format",
+            "description": "Industry-standard manuscript formatting for publisher and agent submissions."
+          },
+          "classic_manuscript": {
+            "label": "Classic manuscript",
+            "description": "Traditional submission style inspired by Shunn manuscript format."
+          },
+          "web_novel": {
+            "label": "Web novel",
+            "description": "Episode-friendly spacing influenced by Tapas web reading norms."
+          },
+          "screenplay": {
+            "label": "Screenplay",
+            "description": "Courier-based screenplay baseline consistent with Nicholl expectations."
+          },
+          "poetry": {
+            "label": "Poetry",
+            "description": "Rhythm-first spacing for stanza legibility and pacing."
+          },
+          "kindle_reflowable": {
+            "label": "Kindle reflowable",
+            "description": "Reflowable ebook-oriented defaults based on KDP guidance."
+          }
+        },
+        "emptySpaceAfterSegments": "Add page break after every segment",
+        "bundledFontLabel": "{{font}} (Bundled)",
+        "helpFor": "Help for {{label}}",
+        "textColumnWidth": "Text column width",
+        "indentBodyParagraphs": "Indent first line of body paragraphs",
+        "indentFirstSegmentParagraph": "Indent first paragraph in each segment",
+        "indent": "Indent",
+        "runningHeaderFooter": "Running header/footer",
+        "availableTokens": "Available tokens (exports + paginated view)",
+        "runningTextTokenHelpPrefix": "Type your name, pen name, or any other text directly in the header or footer fields. Only",
+        "runningTextTokenHelpSuffix": "are replaced automatically.",
+        "header": "Header",
+        "footer": "Footer",
+        "enableRunningHeader": "Enable running header",
+        "enableRunningFooter": "Enable running footer",
+        "runningHeaderText": "Running header text",
+        "runningFooterText": "Running footer text",
+        "alignment": "Alignment",
+        "runningHeaderDisabled": "Running header is disabled.",
+        "runningFooterDisabled": "Running footer is disabled.",
+        "titleStyles": "Title styles",
+        "titlePreview": "Chapter One",
+        "fontWeights": {
+          "light": "Light (300)",
+          "regular": "Regular (400)",
+          "medium": "Medium (500)",
+          "semibold": "Semibold (600)",
+          "bold": "Bold (700)"
+        },
+        "hints": {
+          "fontSize": "Body text size in points",
+          "lineHeight": "Space between lines of text",
+          "textColumnWidth": "Width of the manuscript body text area",
+          "indent": "First-line indent applied to indented paragraphs",
+          "paragraphSpacing": "Extra space between paragraphs",
+          "runningText": "Use {page} for the page number and {title} for the manuscript name. Add your name or any other wording as plain text. Alignment controls where this line sits on the page (paginated view, PDF, HTML, and Word).",
+          "titleSize": "Size of manuscript and segment titles",
+          "titleSpacing": "Space between chapter/segment title and following text"
+        }
+      }
+    },
+    "mapEditor": {
+      "pinPanel": {
+        "searchPlaceholder": "Search concepts and notes…",
+        "searchAriaLabel": "Search concepts and notes",
+        "empty": "No concepts or notes match.",
+        "helper": "Choose an entry, click the map to place. Drag a pin to move it or right-click for actions."
+      },
+      "notePin": {
+        "marker": "Note marker"
+      },
+      "spriteList": {
+        "close": "Close sprite list",
+        "empty": "No sprites placed yet.",
+        "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
+      },
+      "errors": {
+        "saveEdits": "Failed to save map edits"
+      },
+      "labels": {
+        "newLabel": "New label",
+        "colour": "Colour",
+        "region": "Region",
+        "newRegion": "New Region",
+        "numberedMap": "Map {{number}}"
+      },
+      "actions": {
+        "newMap": "New Map",
+        "exportMap": "Export map",
+        "deleteMap": "Delete map",
+        "hideSpriteList": "Hide sprite list",
+        "showSpriteList": "Show sprite list",
+        "movePin": "Move..."
+      },
+      "layers": {
+        "drawing": "Drawing",
+        "interactive": "Interactive",
+        "artTooltip": "Draw and edit the core map",
+        "interactiveTooltip": "Edit interactive map elements",
+        "regionsAboveSprites": "Regions draw above sprites",
+        "spritesAboveRegions": "Sprites draw above regions"
+      },
+      "visibility": {
+        "landmass": "Landmass",
+        "regions": "Regions",
+        "text": "Text",
+        "hide": "Hide {{label}}",
+        "show": "Show {{label}}"
+      },
+      "confirmDeleteMap": "Delete this map? This cannot be undone.",
+      "toasts": {
+        "pinDeleted": "Pin deleted",
+        "deletePinFailed": "Failed to delete pin",
+        "chooseConceptForRegionImage": "Choose a concept before creating a region image",
+        "regionImageRefreshed": "Region image refreshed",
+        "refreshRegionImageFailed": "Failed to refresh region image",
+        "createConceptFailed": "Failed to create concept",
+        "mapExported": "Map exported",
+        "exportMapFailed": "Failed to export map",
+        "chooseOrEnterConcept": "Choose a concept or enter a new concept name",
+        "createRegionImageFailed": "Failed to create region image",
+        "createRegionFailed": "Failed to create region",
+        "selectProjectBeforeCreate": "Select a project before creating a map",
+        "mapDimensionsMinimum": "Map dimensions must be at least {{width}} x {{height}}px",
+        "mapCreated": "Map created",
+        "createMapFailed": "Failed to create map",
+        "mapDeleted": "Map deleted",
+        "deleteMapFailed": "Failed to delete map",
+        "chooseConceptOrNoteFirst": "Choose a concept or note first",
+        "placePinFailed": "Failed to place pin",
+        "movePinFailed": "Failed to move pin",
+        "regionRelationshipAdded": "Region relationship added",
+        "addRegionRelationshipFailed": "Failed to add region relationship",
+        "clickMapToPlacePin": "Click the map to place this pin."
+      }
+    },
+    "graph": {
+      "mapCreate": {
+        "title": "Create new map",
+        "changeImage": "Change",
+        "selectImage": "Select Image",
+        "mapName": "Map Name",
+        "mapNamePlaceholder": "Enter map name",
+        "descriptionOptional": "Description (optional)",
+        "descriptionPlaceholder": "Describe this map (optional)",
+        "creating": "Creating...",
+        "createMap": "Create Map"
+      },
+      "empty": {
+        "description": "Create concepts with relationships to see the graph"
+      },
+      "goTo": "Go to",
+      "clearSelection": "Clear Selection",
+      "fitToView": "Fit to view",
+      "fullscreen": {
+        "open": "Open fullscreen"
+      },
+      "export": {
+        "button": "Export graph",
+        "exporting": "Exporting graph...",
+        "success": "Graph image exported",
+        "failure": "Could not export graph image"
+      },
+      "selectedNode": {
+        "title": "Selected Node",
+        "clickNodeHint": "Click a node in the graph to view its details",
+        "notFound": "Node not found",
+        "noContentYet": "This concept has no content yet. Click above to open and start editing."
+      },
+      "preferences": {
+        "tooltip": "Graph preferences",
+        "close": "Close graph preferences",
+        "display": "Display",
+        "advanced": "Advanced",
+        "arrows": "Arrows",
+        "showImages": "Show images (when available)",
+        "animate": "Animate",
+        "nodeSize": "Node size",
+        "nodeBorderRadius": "Node border radius",
+        "linkThickness": "Link thickness",
+        "lineType": "Line type",
+        "forces": "Forces",
+        "centreForce": "Centre force",
+        "centerForce": "Centring force",
+        "axisForceX": "Axis force X",
+        "axisForceY": "Axis force Y",
+        "radialForce": "Radial force",
+        "orbit": "Orbit",
+        "orbitOuterRadius": "Orbit outer radius",
+        "orbitStrength": "Orbit strength",
+        "repelForce": "Repel force",
+        "chargeDistance": "Charge distance",
+        "linkForce": "Link force",
+        "linkDistance": "Link distance",
+        "groups": {
+          "title": "Groups",
+          "delete": "Delete group",
+          "toggleDetails": "Toggle group details",
+          "groupName": "Group name",
+          "matchBy": "Match by",
+          "matchValue": "Select value",
+          "queryPlaceholder": "Enter query...",
+          "queryHelp": "Query operators: type:, tag:, name:, id:, or plain text.",
+          "searchOptions": "Search options",
+          "optionType": "match concept type",
+          "optionTag": "match concept tag/label",
+          "optionName": "match concept name text",
+          "optionId": "match exact concept id",
+          "optionPlain": "plain text matches concept name",
+          "examples": "Examples: type:character tag:allied, name:king, id:42",
+          "clusterStrength": "Cluster strength (stick together)",
+          "clusterRadius": "Cluster radius (how wide the group is)",
+          "repelStrength": "Enemy repel strength",
+          "repelDistance": "Enemy repel distance",
+          "hostility": "Enemy groups",
+          "hostilityStrength": "Hostility strength",
+          "hostilityDistance": "Minimum separation distance"
+        },
+        "filters": {
+          "title": "Filters",
+          "activeCount": "{{count}} active",
+          "searchPlaceholder": "Search graph...",
+          "relationshipTypes": "Relationship types",
+          "anyType": "Any type",
+          "anyRelationshipType": "Any relationship type",
+          "anyTag": "Any tag",
+          "anyConcept": "Any concept",
+          "orphans": "Show unconnected concepts",
+          "empty": "No concepts match the current filters."
+        },
+        "resetDefaults": "Reset defaults",
+        "sliderHelp": {
+          "nodeSize": {
+            "title": "Scales node size.",
+            "increase": "Increase: nodes become larger and more prominent.",
+            "decrease": "Decrease: nodes become smaller and less dominant."
+          },
+          "nodeBorderRadius": {
+            "title": "Rounds the corners of node shapes.",
+            "increase": "Increase: corners become rounder (toward circles).",
+            "decrease": "Decrease: corners become sharper (toward squares)."
+          },
+          "linkThickness": {
+            "title": "Sets line thickness for relationship links.",
+            "increase": "Increase: links appear bolder.",
+            "decrease": "Decrease: links appear thinner and subtler."
+          },
+          "centerForce": {
+            "title": "Pulls nodes toward the graph centre.",
+            "increase": "Increase: layout stays tighter around the centre.",
+            "decrease": "Decrease: layout can spread farther from the centre."
+          },
+          "axisForceX": {
+            "title": "Horizontal pull toward the centre line.",
+            "increase": "Increase: nodes align more strongly along the X axis.",
+            "decrease": "Decrease: weaker horizontal alignment."
+          },
+          "axisForceY": {
+            "title": "Vertical pull toward the centre line.",
+            "increase": "Increase: nodes align more strongly along the Y axis.",
+            "decrease": "Decrease: weaker vertical alignment."
+          },
+          "radialForce": {
+            "title": "Pulls nodes toward/around a radius from centre.",
+            "increase": "Increase: stronger ring-like organisation.",
+            "decrease": "Decrease: weaker radial organisation."
+          },
+          "orphanOrbitOuterRadius": {
+            "title": "Distance of isolated nodes from the centre when orbit is enabled.",
+            "increase": "Increase: isolated nodes orbit farther out.",
+            "decrease": "Decrease: isolated nodes orbit closer in."
+          },
+          "orphanOrbitStrength": {
+            "title": "How strongly isolated nodes stay on their orbit path.",
+            "increase": "Increase: isolated nodes stick to orbit more firmly.",
+            "decrease": "Decrease: isolated nodes drift more freely."
+          },
+          "repelForce": {
+            "title": "How strongly nodes push each other apart.",
+            "increase": "Increase: more separation and spacing.",
+            "decrease": "Decrease: denser clustering."
+          },
+          "chargeDistance": {
+            "title": "Maximum distance where node repulsion has effect.",
+            "increase": "Increase: repulsion affects nodes from farther away.",
+            "decrease": "Decrease: repulsion is more local/short-range."
+          },
+          "linkForce": {
+            "title": "How strongly links pull connected nodes together.",
+            "increase": "Increase: connected nodes stay tighter.",
+            "decrease": "Decrease: connected nodes can drift farther apart."
+          },
+          "linkDistance": {
+            "title": "Target length of links between connected nodes.",
+            "increase": "Increase: connected nodes sit farther apart.",
+            "decrease": "Decrease: connected nodes sit closer together."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "world": "World",
+      "openSettings": "Open Settings",
+      "page": "Page",
+      "newPage": "New page",
+      "toggleSidebar": "Toggle sidebar",
+      "goBack": "Go back",
+      "goForward": "Go forward",
+      "breadcrumb": "Breadcrumb",
+      "goToFolder": "Go to folder {{name}}",
+      "configureTimeSystem": "Configure Time System",
+      "conceptWithId": "Concept {{id}}",
+      "segmentWithId": "Segment {{id}}",
+      "noteWithId": "Note {{id}}"
+    },
+    "tabs": {
+      "openTab": "Open tab {{name}}",
+      "closeTab": "Close tab {{name}}",
+      "splitView": "This tab contains split view",
+      "exitSplitView": "Exit split view in this tab",
+      "loadingPane": "Loading pane...",
+      "loadingConcept": "Loading concept...",
+      "loadingSegment": "Loading segment...",
+      "loadingFolder": "Loading folder...",
+      "loadingManuscript": "Loading manuscript..."
+    },
+    "sidebar": {
+      "visibility": {
+        "hideSections": "Hide sections",
+        "hiddenSections": "Hidden sections",
+        "noneHidden": "No sections are hidden.",
+        "pressToHide": "Press to hide",
+        "selectedToHide": "Selected to hide",
+        "unhideSection": "Show {{section}}",
+        "confirmHide": "Hide ({{count}})"
+      },
+      "preview": {
+        "loading": "Loading preview...",
+        "empty": "No content yet."
+      },
+      "options": "Options",
+      "tags": {
+        "menuLabel": "Tag visibility options for {{scope}}",
+        "optionsMenuLabel": "Tag and word count options for {{scope}}",
+        "filterLabel": "Visible tags in {{scope}}",
+        "showAll": "Show all",
+        "showSelected": "Show selected",
+        "chooseTags": "Choose tags",
+        "showNone": "Show none",
+        "excludeAllConceptsFromWordCount": "Exclude all concepts from word count",
+        "includeAllConceptsInWordCount": "Include all concepts in word count"
+      },
+      "items": {
+        "openItem": "Open {{type}}: {{name}}",
+        "updateTag": "Update tag",
+        "moreActions": "More actions",
+        "openMenu": "Open menu",
+        "openFolderActionsMenu": "Open folder actions menu",
+        "openTypeActionsMenu": "Open type actions menu",
+        "openFolderAddMenu": "Open folder add menu",
+        "openTypeAddMenu": "Open type add menu",
+        "folderAddTooltip": "Add segments or folders",
+        "typeAddTooltip": "Add concepts or types",
+        "folderActionsTooltip": "Delete, rename and more...",
+        "typeActionsTooltip": "Delete, edit and more...",
+        "newFolder": "New folder",
+        "deleteFolder": "Delete folder",
+        "changeConceptIcon": "Change concept icon",
+        "changeFolderIcon": "Change folder icon",
+        "changeFolderColor": "Change folder colour",
+        "excludeFromWordCount": "Exclude from word count",
+        "includeInWordCount": "Include in word count",
+        "excludedFromWordCount": "Excluded from word count",
+        "types": {
+          "segment": "segment"
+        },
+        "wordCountExclusionLockedByAllConcepts": "Word count is controlled by all concepts.",
+        "wordCountExclusionLockedByParentFolder": "Word count is controlled by the parent folder.",
+        "wordCountExclusionLockedByParentType": "Word count is controlled by the parent type."
+      },
+      "files": {
+        "createFolder": "Create folder",
+        "toggleSection": "Toggle Segments section",
+        "emptyDescription": "Segments contain the actual story content. Think of them as scenes, sections, or chapters. You can combine segments into larger structures and shape them into a complete manuscript.",
+        "emptyExample1": "Segment 1: The Beginning",
+        "emptyExample2": "Character introduction scenes",
+        "emptyExample3": "Important dialogue exchanges",
+        "emptyExample4": "Descriptive passages and world-building"
+      },
+      "deleted": {
+        "deleteAll": "Delete all",
+        "restoreAll": "Restore all"
+      },
+      "concepts": {
+        "toggleSection": "Toggle Concepts section",
+        "emptyDescription": "Concepts are the building blocks of your story world: characters, locations, items, and ideas that make your narrative rich and detailed.",
+        "emptyExample1": "Main characters and their backstories",
+        "emptyExample2": "Important locations and settings",
+        "emptyExample3": "Magical items or technology",
+        "emptyExample4": "World-building elements and lore"
+      },
+      "manuscripts": {
+        "createManuscript": "Create manuscript",
+        "newManuscriptName": "New Manuscript",
+        "openManuscriptActionsMenu": "Open manuscript actions menu",
+        "rename": "Rename",
+        "renameManuscript": "Rename Manuscript",
+        "deleteManuscriptDescription": "This removes the manuscript structure but does not delete segments.",
+        "addOptions": {
+          "noMatchingSegments": "No matching segments",
+          "addTitle": "Add title",
+          "addEmptySpace": "Add empty space"
+        },
+        "entry": {
+          "untitledTitle": "Untitled title",
+          "updateTitle": "Update title",
+          "hideSegmentTitle": "Hide segment title",
+          "showSegmentTitle": "Show segment title",
+          "openSegment": "Open segment",
+          "addAbove": "Add above",
+          "addBelow": "Add below",
+          "removeEntryTitle": "Remove Entry",
+          "removeEntryDescription": "This removes the entry from the manuscript structure.",
+          "removeEntryConfirm": "Remove entry"
+        },
+        "toggleSection": "Toggle Manuscripts section",
+        "emptyDescription": "The manuscript is where you organise files and segments into a structured narrative. Create manuscripts like Book 1 or Book 2, then arrange them into acts, parts, or any structure that fits your story.",
+        "emptyExample1": "Book 1: The Beginning",
+        "emptyExample2": "Book 2: The Middle",
+        "emptyExample3": "Book 3: The End",
+        "emptyExample4": "Act I: The Setup",
+        "emptyExample5": "Act II: The Confrontation",
+        "emptyExample6": "Act III: The Resolution"
+      },
+      "examples": "Examples:",
+      "toggleSection": "Toggle {{section}} section"
+    },
+    "notes": {
+      "editTagsAria": "Edit tags on note {{id}}",
+      "linkedToEditor": "This note is linked to the editor",
+      "linkedToEditorCount": "Linked to editor {{count}} times"
+    },
+    "editableTitle": {
+      "ariaLabel": "Editable {{entityType}} title",
+      "actionsAriaLabel": "Open title actions"
+    },
+    "banner": {
+      "entities": {
+        "project": "project"
+      },
+      "actions": {
+        "useProjectImage": "Use Project Image",
+        "hideBackground": "Hide Background"
+      },
+      "imageControls": {
+        "imageAriaLabel": "{{entity}} banner image",
+        "positionImage": "Position {{entity}} banner image",
+        "donePositioning": "Done positioning {{entity}} banner image",
+        "removeImage": "Remove {{entity}} banner image",
+        "changeBackgroundImage": "Change background image",
+        "editImage": "Edit {{entity}} banner image"
+      }
+    },
+    "versionHistory": {
+      "noVersionsYet": "No versions yet",
+      "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
+      "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
+      "compareVersions": "Compare versions",
+      "major": "Major"
+    },
+    "coming_soon": {
+      "title": "Coming soon",
+      "description": "This section is not available yet."
+    },
+    "setup": {
+      "errors": {
+        "restoreFailed": "Failed to restore from the selected folder. Please make sure it contains a valid project structure."
+      },
+      "welcome": {
+        "title": "Welcome to Writality",
+        "description": "Your complete writing workspace for novels, stories, and creative projects",
+        "checklistTitle": "Let's set up your writing workspace:",
+        "step1": "Name your workspace directory",
+        "step2": "Choose where to store it",
+        "step3": "Start creating projects!",
+        "restore": "Restore from existing folder"
+      },
+      "details": {
+        "title": "Set up your workspace",
+        "subtitle": "Let's start with the basics",
+        "workspaceNamePlaceholder": "My Writing",
+        "workspaceNameHint": "This will be the name of your workspace directory",
+        "authorName": "Author Name",
+        "authorNameHint": "This will be used as the default author for your projects"
+      },
+      "storage": {
+        "title": "Choose storage location",
+        "subtitle": "Where should we save your workspace?",
+        "yourWorkspace": "Your workspace",
+        "author": "Author",
+        "folderLabel": "Storage folder",
+        "chooseFolder": "Click to choose folder",
+        "folderHint": "We recommend a cloud-synced folder (Dropbox, Google Drive, iCloud)",
+        "willCreateAt": "Workspace will be created at:",
+        "createWorkspace": "Create Workspace"
+      }
+    },
+    "tutorial": {
+      "previous": "Previous"
+    },
+    "noProject": {
+      "headline": "Let's get that project finally finished",
+      "subheadline": "The most important step is the first one ;)",
+      "organizeTitle": "Organise however you like",
+      "organizeDescription": "Get messy with it. Writality should mould to your process, not the other way around.",
+      "worldTitle": "Build that world",
+      "worldDescription": "Create characters, locations, and timelines that are living documents and can evolve as your story grows."
+    },
+    "searchPage": {
+      "commandCount": "{{count}} commands",
+      "description": "Search commands and shortcuts",
+      "footerHint": "Press Enter to select",
+      "noCommands": "No commands match \"{{query}}\"",
+      "noResults": "No results for \"{{query}}\"",
+      "placeholder": "Search commands",
+      "resultCount": "{{count}} results",
+      "typeMore": "Type more to search"
+    },
+    "tagFilter": {
+      "filterByTags": "Filter by Tags",
+      "noTagsAvailable": "No tags available",
+      "filterLogic": "Filter Logic",
+      "logic": {
+        "or": "Or"
+      }
     },
     "settings": {
       "groups": {
