@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "68533aa400b6-pt",
-  "sourceRevision": "68533aa400b6742b32e96f761da501bfd92795c0",
+  "version": "260c14d78fc0-pt",
+  "sourceRevision": "260c14d78fc0ba172f547f3193b1e395ffd694d1",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -276,7 +276,7 @@
       }
     },
     "app": {
-      "name": "Writality"
+      "name": "{{appName}}"
     },
     "common": {
       "loading": "Carregando...",
@@ -889,7 +889,7 @@
       "conceptsCount": "{{count}} concepts"
     },
     "timer": {
-      "completeCelebrationLabel": "Writality logo with a jingling gold bell",
+      "completeCelebrationLabel": "{{appName}} logo with a jingling gold bell",
       "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
       "completeTitle": "Wow, you did the thing!",
       "durationMinutes": "{{count}} minutes",
@@ -916,8 +916,8 @@
         "pastedImage": "Pasted image",
         "saveFailed": "Could not save image.",
         "saveIt": "Save it",
-        "unsavedAria": "Image is not saved within Writality",
-        "unsavedDescription": "This image is not saved within Writality. Save it to add it to your image gallery with a thumbnail."
+        "unsavedAria": "Image is not saved within {{appName}}",
+        "unsavedDescription": "This image is not saved within {{appName}}. Save it to add it to your image gallery with a thumbnail."
       },
       "menu": {
         "exportAsJson": "Export as JSON",
@@ -1589,10 +1589,7 @@
       "goForward": "Go forward",
       "breadcrumb": "Breadcrumb",
       "goToFolder": "Go to folder {{name}}",
-      "configureTimeSystem": "Configure Time System",
-      "conceptWithId": "Concept {{id}}",
-      "segmentWithId": "Segment {{id}}",
-      "noteWithId": "Note {{id}}"
+      "configureTimeSystem": "Configure Time System"
     },
     "tabs": {
       "openTab": "Open tab {{name}}",
@@ -1758,7 +1755,7 @@
         "restoreFailed": "Failed to restore from the selected folder. Please make sure it contains a valid project structure."
       },
       "welcome": {
-        "title": "Welcome to Writality",
+        "title": "Welcome to {{appName}}",
         "description": "Your complete writing workspace for novels, stories, and creative projects",
         "checklistTitle": "Let's set up your writing workspace:",
         "step1": "Name your workspace directory",
@@ -1793,7 +1790,7 @@
       "headline": "Let's get that project finally finished",
       "subheadline": "The most important step is the first one ;)",
       "organizeTitle": "Organise however you like",
-      "organizeDescription": "Get messy with it. Writality should mould to your process, not the other way around.",
+      "organizeDescription": "Get messy with it. {{appName}} should mould to your process, not the other way around.",
       "worldTitle": "Build that world",
       "worldDescription": "Create characters, locations, and timelines that are living documents and can evolve as your story grows."
     },
@@ -1828,12 +1825,12 @@
         "workspaceLocation": "Localização do espaço de trabalho",
         "help": "Precisa de ajuda?"
       },
-      "emailSupport": "Suporte por e-mail em bara@writality.com",
-      "helpDescription": "Obtenha ajuda e suporte para usar a Writality",
+      "emailSupport": "Suporte por e-mail em {{supportEmail}}",
+      "helpDescription": "Obtenha ajuda e suporte para usar a {{appName}}",
       "helpPrompt": "Precisa de ajuda ou quer falar?"
     },
     "discordInvite": {
-      "eyebrow": "Discord Writality",
+      "eyebrow": "Discord {{appName}}",
       "title": "Venha me mostrar o que você está construindo ;)",
       "description": "Erros e pedidos de recursos ainda são bem-vindos no aplicativo, mas o Discord é o melhor lugar para discussões aprofundadas: capturas de tela, gráficos de história, perguntas, erros que exigem mais detalhes, pequenos ganhos e as ideias que podem demandar uns e outros."
     },
@@ -2020,11 +2017,11 @@
       }
     },
     "workspaceLocation": {
-      "description": "Gerencie onde o Writality lê e armazena dados de seu espaço de trabalho.",
+      "description": "Gerencie onde o {{appName}} lê e armazena dados de seu espaço de trabalho.",
       "connectWorkspace": "Abrir um espaço de trabalho existente",
-      "connectWorkspaceDescription": "Aponta o Writality para uma pasta de espaço de trabalho já existente neste computador ou unidade. Isso muda o espaço de trabalho aberto, mas não move nenhum arquivo.",
+      "connectWorkspaceDescription": "Aponta o {{appName}} para uma pasta de espaço de trabalho já existente neste computador ou unidade. Isso muda o espaço de trabalho aberto, mas não move nenhum arquivo.",
       "moveWorkspace": "Mover seu espaço de trabalho",
-      "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O Writality atualizará o caminho salvo e reiniciará após a conclusão.",
+      "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O {{appName}} atualizará o caminho salvo e reiniciará após a conclusão.",
       "currentDataLocation": "Localização atual dos seus dados",
       "chooseNewLocation": "Destino para este espaço de trabalho",
       "browse": "Navegar",
@@ -2216,7 +2213,7 @@
         "buildReady": "A versão {{version}} foi preparada e está pronta para quando você quiser.",
         "synced": "Você está sincronizado com a versão estável mais recente.",
         "joined": "Entrou em {{date}}",
-        "buildLabel": "Writality versão",
+        "buildLabel": "{{appName}} versão",
         "currentVersion": "Versão atual"
       },
       "download": {
@@ -2235,14 +2232,14 @@
         "totalSize": "Tamanho total",
         "restoreBackup": "Restaurar backup",
         "empty": "Nenhum backup ainda. Crie seu primeiro backup para proteger seus dados.",
-        "description": "Os backups do banco de dados são uma restauração completa de snapshots. Use-os quando você quiser uma cópia restaurável do espaço de trabalho Writality."
+        "description": "Os backups do banco de dados são uma restauração completa de snapshots. Use-os quando você quiser uma cópia restaurável do espaço de trabalho {{appName}}."
       },
       "notification": {
         "isAvailable": "está disponível"
       }
     },
     "readableBackups": {
-      "description": "Mantenha cópias legíveis do seu projeto em markdown ou Word fora do Writality.",
+      "description": "Mantenha cópias legíveis do seu projeto em markdown ou Word fora do {{appName}}.",
       "noProject": "Selecione ou crie um projeto para configurar backups legíveis.",
       "runNow": "Fazer backup agora",
       "lastSuccess": "Último backup legível: {{date}}",
@@ -2253,7 +2250,7 @@
       },
       "readable": {
         "enable": "Habilitar backups legíveis",
-        "description": "Backups legíveis gravam segmentos, conceitos e notas como arquivos markdown ou Word em uma pasta que você escolher, mantendo seu trabalho acessível fora do Writality.",
+        "description": "Backups legíveis gravam segmentos, conceitos e notas como arquivos markdown ou Word em uma pasta que você escolher, mantendo seu trabalho acessível fora do {{appName}}.",
         "disabled": "Ative os backups legíveis para configurar pastas, formatos e sincronização manual.",
         "implications": "O primeiro backup (especialmente em .docx) pode demorar. Continue escrevendo normalmente. Edições futuras são exportadas após {{seconds}}s de inatividade. Markdown é ágil e portátil; o docx é mais pesado, mas rico em formatação. Mudar a pasta reinicia a sincronização no novo local sem apagar os arquivos antigos. Estes arquivos não restauram o sistema; use \"Atualizações e Backups\" para o banco de dados."
       },
@@ -2276,7 +2273,7 @@
     },
     "languageSettings": {
       "title": "Idioma do aplicativo",
-      "description": "Escolha o idioma usado para a interface e verificação ortográfica do Writality.",
+      "description": "Escolha o idioma usado para a interface e verificação ortográfica do {{appName}}.",
       "note": "O idioma do aplicativo altera apenas o texto da interface.",
       "communityLanguages": "Traduções da comunidade",
       "communityLanguagesDescription": "Instale as traduções da comunidade para uso off-line, em seguida, atualize-as quando as atualizações estiverem disponíveis.",
@@ -2323,7 +2320,7 @@
     },
     "bugs": {
       "description": "Relatar um erro ou ver relatórios existentes.",
-      "dialogDescription": "O Writality não coleta dados dos usuários. Os relatórios de erro são a única forma de melhorarmos o aplicativo. Obrigado por ajudar a tornar o Writality melhor!",
+      "dialogDescription": "O {{appName}} não coleta dados dos usuários. Os relatórios de erro são a única forma de melhorarmos o aplicativo. Obrigado por ajudar a tornar o {{appName}} melhor!",
       "titlePlaceholder": "Descrição resumida do erro",
       "descriptionPlaceholder": "Por favor, forneça etapas detalhadas para reproduzir o erro...",
       "knownBugsPrefix": "Erros conhecidos",
@@ -2357,7 +2354,7 @@
           "description": "Este relatório de erro foi revisado, mas não será endereçado.."
         }
       },
-      "discordPrompt": "Você também pode se juntar ao Discord para solicitações de funcionalidades, erros, capturas de tela, gráficos de história e conversas gerais sobre o Writality."
+      "discordPrompt": "Você também pode se juntar ao Discord para solicitações de funcionalidades, erros, capturas de tela, gráficos de história e conversas gerais sobre o {{appName}}."
     },
     "changelog": {
       "description": "Atualizações recentes e notas de lançamento",
@@ -2566,7 +2563,7 @@
         "vocabulary": "A variedade lexical estima quantas palavras novas e incomuns aparecem a cada 100 palavras. Descreve a textura do texto; não é uma nota de qualidade.",
         "readability": "Um guia aproximado do esforço de leitura do texto, baseado em padrões quantificáveis como comprimento das frases, repetição, voz passiva, advérbios, termos técnicos, palavras vagas e grafias informais. Um texto exigente não é necessariamente pior; o público, o gênero e o propósito importam.",
         "flow": "Cada barra vertical é uma frase, colorida por comprimento. Selecione um tamanho abaixo para destacar as frases correspondentes no editor.",
-        "sentenceLength": "As faixas são marcadores de ritmo do Writality: 1-8, 9-16, 17-24 e 25+ palavras. Elas ajudam a notar o ritmo, não a correção.",
+        "sentenceLength": "As faixas são marcadores de ritmo do {{appName}}: 1-8, 9-16, 17-24 e 25+ palavras. Elas ajudam a notar o ritmo, não a correção.",
         "sentenceRhythm": "Cada barra representa uma frase. Trechos longos têm rolagem horizontal para que todas as frases continuem interativas.",
         "structure": "Densidade baseada em palavras por parágrafo. Inícios de frase usam listas de palavras para analisar como as frases começam.",
         "paragraphDensity": "Densidade baseada em palavras por parágrafo. 1-25, 26-60, 61-100, e 101+ palavras.",

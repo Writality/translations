@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "68533aa400b6-es",
-  "sourceRevision": "68533aa400b6742b32e96f761da501bfd92795c0",
+  "version": "260c14d78fc0-es",
+  "sourceRevision": "260c14d78fc0ba172f547f3193b1e395ffd694d1",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -276,7 +276,7 @@
       }
     },
     "app": {
-      "name": "Writality"
+      "name": "{{appName}}"
     },
     "common": {
       "loading": "Cargando...",
@@ -889,7 +889,7 @@
       "conceptsCount": "{{count}} conceptos"
     },
     "timer": {
-      "completeCelebrationLabel": "Logo de Writality con una campanita dorada que tintinea",
+      "completeCelebrationLabel": "Logo de {{appName}} con una campanita dorada que tintinea",
       "completeDescription": "Una pequeña campana, un gran avance. Respira hondo y sigue adelante cuando estés listo.",
       "completeTitle": "¡Vaya, has hecho la cosa!",
       "durationMinutes": "{{count}} minutos",
@@ -916,8 +916,8 @@
         "pastedImage": "Imagen pegada",
         "saveFailed": "No se pudo guardar la imagen.",
         "saveIt": "Guardar",
-        "unsavedAria": "La imagen no está guardada en Writality",
-        "unsavedDescription": "La imagen no está guardada en Writality. Guárdelo para añadirla a tu galería de imágenes con una miniatura."
+        "unsavedAria": "La imagen no está guardada en {{appName}}",
+        "unsavedDescription": "La imagen no está guardada en {{appName}}. Guárdelo para añadirla a tu galería de imágenes con una miniatura."
       },
       "menu": {
         "exportAsJson": "Exportar a JSON",
@@ -1589,10 +1589,7 @@
       "goForward": "Avanzar",
       "breadcrumb": "Ruta de navegación",
       "goToFolder": "Ir a la carpeta {{name}}",
-      "configureTimeSystem": "Configurar Sistema de Tiempo",
-      "conceptWithId": "Concepto {{id}}",
-      "segmentWithId": "Segmento {{id}}",
-      "noteWithId": "Nota {{id}}"
+      "configureTimeSystem": "Configurar Sistema de Tiempo"
     },
     "tabs": {
       "openTab": "Abrir pestaña {{name}}",
@@ -1758,7 +1755,7 @@
         "restoreFailed": "Error al restaurar desde la carpeta seleccionada. Por favor, asegúrese de que contiene una estructura de proyecto válida."
       },
       "welcome": {
-        "title": "Bienvenido a Writality",
+        "title": "Bienvenido a {{appName}}",
         "description": "Tu espacio de trabajo completo para novelas, historias y proyectos creativos",
         "checklistTitle": "Vamos a configurar tu espacio de trabajo de escritura:",
         "step1": "Nombra el directorio de tu espacio de trabajo",
@@ -1793,7 +1790,7 @@
       "headline": "Vamos a terminar ese proyecto de una vez por todas",
       "subheadline": "El paso más importante es el primero ;)",
       "organizeTitle": "Organiza como quieras",
-      "organizeDescription": "Trabaja como quieras, Writality debería adaptarse a tu proceso, y no al revés.",
+      "organizeDescription": "Trabaja como quieras, {{appName}} debería adaptarse a tu proceso, y no al revés.",
       "worldTitle": "Construye ese mundo",
       "worldDescription": "Crea personajes, escenarios y líneas temporales que sean documentos vivos y puedan evolucionar a medida que tu historia vaya desarrollándose."
     },
@@ -1828,12 +1825,12 @@
         "workspaceLocation": "Ubicación del área de trabajo",
         "help": "¿Necesitas ayuda?"
       },
-      "emailSupport": "Correo de soporte a bara@writality.com",
-      "helpDescription": "Obtén ayuda y soporte para usar Writality",
+      "emailSupport": "Correo de soporte a {{supportEmail}}",
+      "helpDescription": "Obtén ayuda y soporte para usar {{appName}}",
       "helpPrompt": "¿Necesitas ayuda o quieres hablar?"
     },
     "discordInvite": {
-      "eyebrow": "Discord de Writality",
+      "eyebrow": "Discord de {{appName}}",
       "title": "Ven a mostrarme lo que estás construyendo ;)",
       "description": "Los bugs y las solicitudes de características siguen siendo bienvenidos en la aplicación, pero Discord es el mejor lugar para discusiones en profundidad: capturas de pantalla, gráficos de historias, preguntas, errores que requieren más detalles, minúsculas victorias y las ideas que pueden requerir una y otra vez."
     },
@@ -2020,11 +2017,11 @@
       }
     },
     "workspaceLocation": {
-      "description": "Gestione dónde Writality encuentra y almacena los datos de su espacio de trabajo.",
+      "description": "Gestione dónde {{appName}} encuentra y almacena los datos de su espacio de trabajo.",
       "connectWorkspace": "Abrir un área de trabajo existente",
-      "connectWorkspaceDescription": "Guíe a Writality a una carpeta de área de trabajo que ya está en este ordenador o unidad. Esto cambia el espacio de trabajo abierto; no mueve ningún archivo.",
+      "connectWorkspaceDescription": "Guíe a {{appName}} a una carpeta de área de trabajo que ya está en este ordenador o unidad. Esto cambia el espacio de trabajo abierto; no mueve ningún archivo.",
       "moveWorkspace": "Mover tu área de trabajo",
-      "moveWorkspaceDescription": "Mover esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. Writality actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
+      "moveWorkspaceDescription": "Mover esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
       "currentDataLocation": "Ubicación actual de tus datos",
       "chooseNewLocation": "Destino para esta área de trabajo",
       "browse": "Explorar",
@@ -2216,7 +2213,7 @@
         "buildReady": "Versión {{version}} está preparada y lista cuando quieras.",
         "synced": "Estás sincronizado con la última versión estable.",
         "joined": "Unido {{date}}",
-        "buildLabel": "Versión de Writality",
+        "buildLabel": "Versión de {{appName}}",
         "currentVersion": "Versión actual"
       },
       "download": {
@@ -2235,14 +2232,14 @@
         "totalSize": "Tamaño total",
         "restoreBackup": "Restaurar copia de seguridad",
         "empty": "Aún no hay copias de seguridad. Crea tu primera copia de seguridad para proteger tus datos.",
-        "description": "Las copias de seguridad de la base de datos son instantáneas completas de restauración. Utilízalas cuando quieras una copia restaurable del espacio de trabajo de Writality."
+        "description": "Las copias de seguridad de la base de datos son instantáneas completas de restauración. Utilízalas cuando quieras una copia restaurable del espacio de trabajo de {{appName}}."
       },
       "notification": {
         "isAvailable": "está disponible"
       }
     },
     "readableBackups": {
-      "description": "Mantén copias de Markdown o Word legibles de tu proyecto fuera de Writality.",
+      "description": "Mantén copias de Markdown o Word legibles de tu proyecto fuera de {{appName}}.",
       "noProject": "Seleccione o cree un proyecto para configurar copias de seguridad legibles.",
       "runNow": "Hacer copia de seguridad ahora",
       "lastSuccess": "Última copia de seguridad legible: {{date}}",
@@ -2253,7 +2250,7 @@
       },
       "readable": {
         "enable": "Habilitar copias de seguridad legibles",
-        "description": "Las copias de seguridad Legibles escriben Segmentos, Conceptos y Notas como archivos Markdown o Word en una carpeta que elijas, para que tu trabajo siga siendo accesible fuera de Writality.",
+        "description": "Las copias de seguridad Legibles escriben Segmentos, Conceptos y Notas como archivos Markdown o Word en una carpeta que elijas, para que tu trabajo siga siendo accesible fuera de {{appName}}.",
         "disabled": "Activar copias de seguridad legibles para configurar carpetas, formatos y sincronización manual.",
         "implications": "La primera copia de seguridad crea archivos para contenido existente y puede tomar un tiempo, especialmente con DOCX. Puedes seguir escribiendo mientras se ejecuta. Las futuras ediciones se exportan después de aproximadamente {{seconds}} segundos de inactividad. Markdown es más rápido y portátil; DOCX es más rico pero más pesado. Cambiar la carpeta inicia una nueva sincronización en la nueva ubicación y deja los archivos antiguos sin tocar. Estos archivos legibles no son instantáneas comletas de la base de datos de la app; use Actualizaciones y Copias de seguridad para copias de seguridad de la base de datos."
       },
@@ -2276,7 +2273,7 @@
     },
     "languageSettings": {
       "title": "Idioma de la aplicación",
-      "description": "Elija el idioma utilizado para la interfaz de Writality y la corrección ortográfica.",
+      "description": "Elija el idioma utilizado para la interfaz de {{appName}} y la corrección ortográfica.",
       "note": "El idioma de la aplicación sólo cambia el texto de la interfaz de usuario.",
       "communityLanguages": "Idiomas de la comunidad",
       "communityLanguagesDescription": "Instala traducciones comunitarias para usarlas sin conexión y luego actualízalas cuando haya actualizaciones disponibles.",
@@ -2323,7 +2320,7 @@
     },
     "bugs": {
       "description": "Reportar un error o ver informes existentes.",
-      "dialogDescription": "Writality no recopila ningún dato de usuario. Los informes de errores son la única manera de mejorar la aplicación. ¡Gracias por ayudar a mejorar Writality!",
+      "dialogDescription": "{{appName}} no recopila ningún dato de usuario. Los informes de errores son la única manera de mejorar la aplicación. ¡Gracias por ayudar a mejorar {{appName}}!",
       "titlePlaceholder": "Breve descripción del error",
       "descriptionPlaceholder": "Por favor proporcione pasos detallados para reproducir el error...",
       "knownBugsPrefix": "Errores Conocidos",
@@ -2357,7 +2354,7 @@
           "description": "Este informe de error ha sido revisado pero no será abordado."
         }
       },
-      "discordPrompt": "También puedes unirte a Discord para solicitudes de características, errores, capturas de pantalla, gráficos de historias y charla general sobre Writality."
+      "discordPrompt": "También puedes unirte a Discord para solicitudes de características, errores, capturas de pantalla, gráficos de historias y charla general sobre {{appName}}."
     },
     "changelog": {
       "description": "Actualizaciones recientes y notas de la versión",
@@ -2566,7 +2563,7 @@
         "vocabulary": "La variedad de palabras calcula cuántas palabras nuevas poco comunes aparecen por cada 100 palabras. Describe la textura; no es una puntuación de calidad.",
         "readability": "Una guía aproximada del esfuerzo que puede suponer la lectura del texto, basada en patrones cuantificables como la longitud de las frases, las repeticiones, la voz pasiva, los adverbios, los términos que parecen especializados, las palabras ambiguas y las grafías informales. Un texto exigente no es necesariamente peor; el público, el género y la finalidad son factores importantes.",
         "flow": "Cada barra vertical es una oración, coloreada por la longitud. Seleccione una longitud debajo para resaltar cada frase coincidente en el editor.",
-        "sentenceLength": "Los «buckets» son marcadores rítmicos de Writality: 1-8, 9-16, 17-24 y 25 o más palabras. Sirven para identificar el ritmo, no para evaluar la corrección.",
+        "sentenceLength": "Los «buckets» son marcadores rítmicos de {{appName}}: 1-8, 9-16, 17-24 y 25 o más palabras. Sirven para identificar el ritmo, no para evaluar la corrección.",
         "sentenceRhythm": "Cada barra representa una frase. Los pasajes largos se desplazan horizontalmente para que cada oración permanezca flotante.",
         "structure": "La densidad se calcula en función del número de palabras por párrafo. Las aperturas utilizan heurísticas sencillas basadas en listas de palabras para determinar cómo comienzan las frases.",
         "paragraphDensity": "La densidad se basa en palabras por párrafo: 1-25, 26-60, 61-100 y 101+ palabras.",

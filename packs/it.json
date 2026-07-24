@@ -3,11 +3,11 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "68533aa400b6-it",
-  "sourceRevision": "68533aa400b6742b32e96f761da501bfd92795c0",
+  "version": "260c14d78fc0-it",
+  "sourceRevision": "260c14d78fc0ba172f547f3193b1e395ffd694d1",
   "resources": {
     "app": {
-      "name": "Writality"
+      "name": "{{appName}}"
     },
     "common": {
       "loading": "Caricamento...",
