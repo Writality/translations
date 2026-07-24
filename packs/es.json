@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "260c14d78fc0-es",
-  "sourceRevision": "260c14d78fc0ba172f547f3193b1e395ffd694d1",
+  "version": "2d384d7837d3-es",
+  "sourceRevision": "2d384d7837d34cea97c2793610b44eec4a79520e",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -285,6 +285,8 @@
       "deleted": "Borrado",
       "close": "Cerrar",
       "back": "Volver",
+      "previous": "Previous",
+      "next": "Next",
       "continue": "Continuar",
       "cancel": "Cancelar",
       "clear": "Limpiar",
@@ -670,6 +672,8 @@
         "howItWorksParagraph1Tail": "la mención enlaza al concepto en sí mismo, no solo texto plano.",
         "howItWorksParagraph2": "Cuando renombres el concepto o un alias, las menciones enlazadas se pueden actualizar automáticamente en todas partes. Usa menciones consistentemente para mantener los nombres sincronizados en todo tu proyecto.",
         "howItWorksParagraph3": "Si eliminas un alias, los enlaces permanecen intactos y las menciones afectadas vuelven al nombre del concepto.",
+        "howItWorksParagraph4": "You can now also link concepts without typing @. Simply start typing a concept name or alias and, if there is a match, a small suggestion will appear. Use the arrow keys if there is more than one, then press Enter or click the one you want to turn that text into a linked mention.",
+        "howItWorksParagraph5": "Nothing changes just because a suggestion appears. If you keep writing or add a space, your text stays as normal text. You can also turn Concept link suggestions off from the editor view settings if they get in the way.",
         "helpAriaLabel": "Ayuda de alias",
         "typeAliasPlaceholder": "Escribe alias...",
         "saveAliasAriaLabel": "Guardar alias",
@@ -1582,6 +1586,17 @@
     "navigation": {
       "world": "Mundo",
       "openSettings": "Abrir configuración",
+      "addPage": "Add page",
+      "searchPages": "Search pages to add",
+      "scrollForMorePages": "Scroll for more pages",
+      "noMatchingPages": "No matching pages.",
+      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
+      "changePageIcon": "Change icon",
+      "hidePage": "Remove {{page}}",
+      "hidePageTitle": "Hide page?",
+      "hidePageDescription": "Hide {{page}} from the main navigation? You can add it back at any time with the + button.",
+      "hidePageConfirm": "Hide page",
       "page": "Página",
       "newPage": "Nueva página",
       "toggleSidebar": "Alternar barra lateral",
@@ -1589,7 +1604,10 @@
       "goForward": "Avanzar",
       "breadcrumb": "Ruta de navegación",
       "goToFolder": "Ir a la carpeta {{name}}",
-      "configureTimeSystem": "Configurar Sistema de Tiempo"
+      "configureTimeSystem": "Configurar Sistema de Tiempo",
+      "untitledConcept": "Untitled concept",
+      "untitledSegment": "Untitled segment",
+      "untitledNote": "Untitled note"
     },
     "tabs": {
       "openTab": "Abrir pestaña {{name}}",
@@ -1824,6 +1842,11 @@
         "import": "Importar archivos",
         "workspaceLocation": "Ubicación del área de trabajo",
         "help": "¿Necesitas ayuda?"
+      },
+      "search": {
+        "placeholder": "Search settings",
+        "clear": "Clear settings search",
+        "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Correo de soporte a {{supportEmail}}",
       "helpDescription": "Obtén ayuda y soporte para usar {{appName}}",

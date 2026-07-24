@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "260c14d78fc0-fr",
-  "sourceRevision": "260c14d78fc0ba172f547f3193b1e395ffd694d1",
+  "version": "2d384d7837d3-fr",
+  "sourceRevision": "2d384d7837d34cea97c2793610b44eec4a79520e",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -285,6 +285,8 @@
       "deleted": "Deleted",
       "close": "Close",
       "back": "Back",
+      "previous": "Previous",
+      "next": "Next",
       "continue": "Continue",
       "cancel": "Cancel",
       "clear": "Clear",
@@ -665,12 +667,14 @@
         "labelPlaceholder": "e.g., Birth, Founded, Reign"
       },
       "aliases": {
-        "howItWorksTitle": "How aliases work",
+        "howItWorksTitle": "How aliases and concept linking work",
         "howItWorksParagraph1": "Think of aliases like labels on the same folder. When you mention this concept with",
         "howItWorksParagraph1Tail": "the mention links to the concept itself, not just plain text.",
         "howItWorksParagraph2": "When you rename the concept or an alias, linked mentions can update everywhere automatically. Use mentions consistently to keep names synchronised across your project.",
         "howItWorksParagraph3": "If you remove an alias, links stay intact and affected mentions fall back to the concept name.",
-        "helpAriaLabel": "Alias help",
+        "howItWorksParagraph4": "You can now also link concepts without typing @. Simply start typing a concept name or alias and, if there is a match, a small suggestion will appear. Use the arrow keys if there is more than one, then press Enter or click the one you want to turn that text into a linked mention.",
+        "howItWorksParagraph5": "Nothing changes just because a suggestion appears. If you keep writing or add a space, your text stays as normal text. You can also turn Concept link suggestions off from the editor view settings if they get in the way.",
+        "helpAriaLabel": "Concept linking and alias help",
         "typeAliasPlaceholder": "Type alias...",
         "saveAliasAriaLabel": "Save alias",
         "cancelEditAriaLabel": "Cancel edit",
@@ -1582,6 +1586,17 @@
     "navigation": {
       "world": "World",
       "openSettings": "Open Settings",
+      "addPage": "Add page",
+      "searchPages": "Search pages to add",
+      "scrollForMorePages": "Scroll for more pages",
+      "noMatchingPages": "No matching pages.",
+      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
+      "changePageIcon": "Change icon",
+      "hidePage": "Remove {{page}}",
+      "hidePageTitle": "Hide page?",
+      "hidePageDescription": "Hide {{page}} from the main navigation? You can add it back at any time with the + button.",
+      "hidePageConfirm": "Hide page",
       "page": "Page",
       "newPage": "New page",
       "toggleSidebar": "Toggle sidebar",
@@ -1589,7 +1604,10 @@
       "goForward": "Go forward",
       "breadcrumb": "Breadcrumb",
       "goToFolder": "Go to folder {{name}}",
-      "configureTimeSystem": "Configure Time System"
+      "configureTimeSystem": "Configure Time System",
+      "untitledConcept": "Untitled concept",
+      "untitledSegment": "Untitled segment",
+      "untitledNote": "Untitled note"
     },
     "tabs": {
       "openTab": "Open tab {{name}}",
@@ -1824,6 +1842,11 @@
         "import": "Import Files",
         "workspaceLocation": "Workspace Location",
         "help": "Need help?"
+      },
+      "search": {
+        "placeholder": "Search settings",
+        "clear": "Clear settings search",
+        "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Email support at {{supportEmail}}",
       "helpDescription": "Get help and support for using {{appName}}",
