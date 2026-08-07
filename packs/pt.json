@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "860f350908e6-pt",
-  "sourceRevision": "860f350908e64f93469c3edc44c9c4a1a29061bd",
+  "version": "f2dd5b0d5976-pt",
+  "sourceRevision": "f2dd5b0d5976d60505bf4a01ece348953a736238",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -64,6 +64,7 @@
       },
       "toggleDates": "Alternar datas",
       "noDatesLinked": "Nenhuma data associada",
+      "noDatesLinkedDescription": "Vincule datas para situar este conceito na cronologia da sua história, acompanhar acontecimentos importantes e manter a linha do tempo coerente.",
       "previewSegment": "Pré-visualizar {{name}}"
     },
     "timeSystem": {
@@ -682,6 +683,7 @@
         "checkingUsage": "Verificando utilização...",
         "aliasOptions": "Opções de nome alternativo",
         "addAliasAriaLabel": "Adicionar nome alternativo",
+        "emptyDescription": "Nomes alternativos permitem referir-se a este conceito por outros nomes, títulos ou grafias, tornando mais fácil encontrá-lo e vinculá-lo enquanto escreve.",
         "removeAliasDescription": "Este nome alternativo é usado em {{mentionCount}} menções em {{sourceCount}} itens. Removê-lo mantém todas as ligações intactas, e passa a exibir o nome do conceito em todas as menções."
       },
       "sidebar": {
@@ -715,6 +717,7 @@
         "removeAriaLabel": "Remover valor do atributo",
         "existingAttributes": "Atributos existentes",
         "cancelAddAriaLabel": "Cancelar adição de atributo",
+        "emptyDescription": "Os atributos guardam factos rápidos sobre este conceito, como função, localização ou aparência, para que os detalhes importantes sejam fáceis de consultar.",
         "importPlaceholder": "Selecione um conceito...",
         "importNoConcepts": "Nenhum conceito encontrado."
       }
@@ -725,8 +728,6 @@
         "currentlySource": "Atualmente a fonte",
         "currentlyTarget": "Atualmente o alvo",
         "flipSourceTarget": "Trocar origem e destino",
-        "conceptToLink": "Conceito para ligar",
-        "selectConceptPlaceholder": "Selecione um conceito para vincular...",
         "createNewType": "Criar tipo…",
         "typePlaceholder": "Ex: família, facção, amigo...",
         "notesPlaceholder": "Notas (opcional)",
@@ -1046,19 +1047,11 @@
     "outline": {
       "loading": "Carregando esboço",
       "error": "O esboço não pôde ser carregado.",
-      "todoCompletion": "Conclusão de tarefas",
       "noTodos": "Ainda não há tarefas",
-      "completed": "{{completed}} de {{total}} concluídas",
-      "remaining": "Restantes",
-      "storyWords": "Palavras da história",
-      "folders": "Pastas",
       "totalTodos": "Total de tarefas",
       "empty": "Adicione um segmento ou pasta do gráfico para começar a esboçar sua história.",
       "outlineTodos": "Tarefas do esboço",
-      "todosRemaining": "{{count}} tarefas restantes na história.",
-      "noRelationships": "Ainda não há relacionamentos entre segmentos.",
-      "relationshipsSummary": "{{count}} relacionamentos conectam este esboço.",
-      "metricsAria": "Métricas de esboço"
+      "noRelationships": "Ainda não há relacionamentos entre segmentos."
     },
     "planning": {
       "addNoteTo": "Adicionar nota a {{name}}",
@@ -1612,6 +1605,8 @@
     "tabs": {
       "openTab": "Abrir aba {{name}}",
       "closeTab": "Fechar aba {{name}}",
+      "reorderTab": "Reordenar aba {{name}}",
+      "reorderInstructions": "Pressione Espaço para selecionar uma aba, use as setas para movê-la e pressione Espaço novamente para soltá-la.",
       "splitView": "Esta aba contém visualização dividida",
       "exitSplitView": "Sair da visualização dividida nesta aba",
       "loadingPane": "Carregando painel...",
@@ -1665,7 +1660,7 @@
         "changeFolderIcon": "Alterar ícone da pasta",
         "changeFolderColor": "Alterar cor da pasta",
         "excludeFromWordCount": "Excluir da contagem de palavras",
-        "includeInWordCount": "Incluir na contagem de palavras",
+        "excludeFromOutline": "Excluir do esboço",
         "excludedFromWordCount": "Excluído da contagem de palavras",
         "types": {
           "segment": "segmento"
@@ -2446,7 +2441,8 @@
       "searchPlaceholder": "Pesquisar ícones por nome, categoria",
       "loadMore": "Carregar Mais ({{count}} restantes)",
       "noIconsFound": "Nenhum ícone encontrado",
-      "recent": "Recente"
+      "recent": "Recente",
+      "selected": "Selecionado"
     },
     "wordUsage": {
       "title": "Uso de palavras",

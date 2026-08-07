@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "860f350908e6-de",
-  "sourceRevision": "860f350908e64f93469c3edc44c9c4a1a29061bd",
+  "version": "f2dd5b0d5976-de",
+  "sourceRevision": "f2dd5b0d5976d60505bf4a01ece348953a736238",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,8 +725,6 @@
         "currentlySource": "Currently the source",
         "currentlyTarget": "Currently the target",
         "flipSourceTarget": "Flip source and target",
-        "conceptToLink": "Concept to link",
-        "selectConceptPlaceholder": "Select a concept to link...",
         "createNewType": "Create new type…",
         "typePlaceholder": "Eg. Family | Faction | Friend...",
         "notesPlaceholder": "Notes (optional)",
@@ -1046,19 +1044,11 @@
     "outline": {
       "loading": "Loading outline…",
       "error": "The outline could not be loaded.",
-      "todoCompletion": "Todo completion",
       "noTodos": "No todos yet",
-      "completed": "{{completed}} of {{total}} completed",
-      "remaining": "Remaining",
-      "storyWords": "Story words",
-      "folders": "Folders",
       "totalTodos": "Total todos",
       "empty": "Add a segment or folder from the graph to begin outlining your story.",
       "outlineTodos": "Outline todos",
-      "todosRemaining": "{{count}} todos remaining across the story.",
-      "noRelationships": "No segment relationships yet.",
-      "relationshipsSummary": "{{count}} relationships connect this outline.",
-      "metricsAria": "Outline metrics"
+      "noRelationships": "No segment relationships yet."
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
@@ -1612,6 +1602,8 @@
     "tabs": {
       "openTab": "Open tab {{name}}",
       "closeTab": "Close tab {{name}}",
+      "reorderTab": "Reorder tab {{name}}",
+      "reorderInstructions": "Press Space to pick up a tab, use the arrow keys to move it, then press Space to drop it.",
       "splitView": "This tab contains split view",
       "exitSplitView": "Exit split view in this tab",
       "loadingPane": "Loading pane...",
@@ -1665,7 +1657,7 @@
         "changeFolderIcon": "Change folder icon",
         "changeFolderColor": "Change folder colour",
         "excludeFromWordCount": "Exclude from word count",
-        "includeInWordCount": "Include in word count",
+        "excludeFromOutline": "Exclude from outline",
         "excludedFromWordCount": "Excluded from word count",
         "types": {
           "segment": "segment"
@@ -2446,7 +2438,8 @@
       "searchPlaceholder": "Search icons by name, category",
       "loadMore": "Load More ({{count}} remaining)",
       "noIconsFound": "No icons found",
-      "recent": "Recent"
+      "recent": "Recent",
+      "selected": "Ausgewählt"
     },
     "wordUsage": {
       "title": "Word Usage",
