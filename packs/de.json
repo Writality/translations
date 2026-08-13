@@ -3,276 +3,277 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "17e04c871403-de",
-  "sourceRevision": "17e04c871403507d7934902794de7e99dd24fabf",
+  "version": "b96d23c1c468-de",
+  "sourceRevision": "b96d23c1c46884a371fe60dbd34101b7dea3e22a",
   "resources": {
     "chronology": {
       "conceptList": {
         "emptyState": "Keine vorhandenen Einträge",
-        "searchPlaceholder": "Search concepts"
+        "searchPlaceholder": "Konzepte durchsuchen"
       },
       "empty": {
         "calendarSystem": {
-          "description": "Set up your calendar system to start tracking dates."
+          "description": "Richte dein Kalendersystem ein, um Daten zu verfolgen."
         },
         "customEras": {
-          "description": "Define eras to organise your timeline.",
-          "title": "Custom eras"
+          "description": "Richte Ären ein, um deine Zeitleiste zu organisieren.",
+          "title": "Benutzerdefinierte Ären"
         },
-        "setup": "Set up chronology",
+        "setup": "Richte deine Chronologie ein",
         "timelineTracking": {
-          "description": "Track dates and events across your story world.",
-          "title": "Timeline tracking"
+          "description": "Verfolge Daten und Ereignisse in deiner Welt.",
+          "title": "Zeitleiste"
         }
       },
       "eventPreview": {
-        "conceptNotFound": "Concept not found",
-        "goTo": "Go to concept",
-        "noConceptDescription": "No concept description",
-        "noDateDescription": "No date description",
-        "relatedEntities": "Related entities"
+        "conceptNotFound": "Konzept nicht gefunden",
+        "goTo": "Gehe zu Konzept",
+        "noConceptDescription": "Keine Konzeptbeschreibung",
+        "noDateDescription": "Keine Datumsbeschreibung",
+        "relatedEntities": "Verknüpfte Objekte"
       },
       "minimap": {
-        "addConceptDate": "Add concept date",
-        "moveTimeline": "Move timeline"
+        "addConceptDate": "Füge ein Konzeptdatum hinzu",
+        "moveTimeline": "Verschiebe die Zeitleiste"
       },
       "quickAdd": {
-        "description": "Quickly add a date to the timeline.",
+        "description": "Füge schnell ein Datum zur Zeitleiste hinzu.",
         "labelPlaceholder": "Label",
-        "submit": "Add to timeline",
-        "title": "Quick add",
-        "addTimelineDate": "Add Timeline Date",
-        "editTimelineDate": "Edit Timeline Date",
-        "addDescription": "Pick a concept and confirm the date to add it to the timeline.",
-        "editDescription": "Adjust the date details and save your changes.",
-        "labelInputPlaceholder": "e.g., Birth, Founding, Coronation",
-        "selectConceptPlaceholder": "Select a concept...",
-        "newEvent": "New event",
-        "loadingDateDetails": "Loading date details...",
-        "couldNotLoadSelectedDate": "Could not load the selected date.",
-        "selectEntitiesPlaceholder": "Select concepts and segments..."
+        "submit": "Zur Zeitleiste hinzufügen",
+        "title": "Schnelles hinzufügen",
+        "addTimelineDate": "Füge ein Zeitleisten Datum hinzu",
+        "editTimelineDate": "Bearbeite ein Zeitleisten Datum",
+        "addDescription": "Wähle ein Konzept und bestätige das Datum, um es zur Zeitleiste hinzuzufügen.",
+        "editDescription": "Passe die Datumsdetails an und speichere deine Änderungen.",
+        "labelInputPlaceholder": "z. B. Geburt, Gründung, Krönung",
+        "selectConceptPlaceholder": "Wähle ein Konzept...",
+        "newEvent": "Neues Ereignis",
+        "loadingDateDetails": "Datumsdetails werden geladen...",
+        "couldNotLoadSelectedDate": "Konnte das ausgewählte Datum nicht laden.",
+        "selectEntitiesPlaceholder": "Wähle ein Konzept und Segment..."
       },
       "toolbar": {
-        "jumpLeft": "Jump left",
-        "jumpRight": "Jump right",
-        "panLeft": "Pan left",
-        "panRight": "Pan right",
-        "resetView": "Reset view",
-        "zoomIn": "Zoom in",
-        "zoomOut": "Zoom out",
-        "fitTimeline": "Fit timeline"
+        "jumpLeft": "Nach links springen",
+        "jumpRight": "Nach rechts springen",
+        "panLeft": "Nach links schieben",
+        "panRight": "Nach rechts schieben",
+        "resetView": "Ansicht zurücksetzen",
+        "zoomIn": "Ansicht vergrößern",
+        "zoomOut": "Ansicht verkleinern",
+        "fitTimeline": "Zeitleiste anpassen"
       },
-      "toggleDates": "Toggle dates",
-      "noDatesLinked": "No dates linked yet.",
-      "previewSegment": "Preview {{name}}"
+      "toggleDates": "Daten umschalten",
+      "noDatesLinked": "Noch keine Daten verknüpft.",
+      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
+      "previewSegment": "Vorschau {{name}}"
     },
     "timeSystem": {
       "calendar": {
-        "beforeMonth": "Before month",
-        "events": "Events",
-        "formatPreview": "Format preview",
-        "fromYear": "From year",
-        "jumpTo": "Jump to",
-        "leap": "Leap",
+        "beforeMonth": "Vormonat",
+        "events": "Ereignisse",
+        "formatPreview": "Vorschau",
+        "fromYear": "Ab Jahr",
+        "jumpTo": "Gehe zu",
+        "leap": "Schaltjahr",
         "moonEvents": {
-          "full": "Full Moon",
-          "half": "Half Moon",
-          "new": "New Moon"
+          "full": "Vollmond",
+          "half": "Halbmond",
+          "new": "Neumond"
         },
         "navigation": "Navigation",
-        "nextYear": "Next year",
+        "nextYear": "Nächstes Jahr",
         "previousYear": "Vorjahr",
-        "seasonEnds": "Season ends",
-        "seasonStarts": "Season starts",
-        "untilYear": "Until year",
-        "yearRange": "Year range"
+        "seasonEnds": "Jahreszeit endet",
+        "seasonStarts": "Jahreszeit startet",
+        "untilYear": "Bis Jahr",
+        "yearRange": "Jahreszeitraum"
       },
       "customDatePicker": {
-        "placeholder": "Enter custom date picker.",
+        "placeholder": "Eigene Datumsauswahl eingeben.",
         "selectEra": "Epoche auswählen",
-        "setupHint": "Configure your calendar before choosing dates."
+        "setupHint": "Konfiguriere deinen Kalender vor der Datumsauswahl."
       },
       "dateFormatDropdown": {
-        "description": "Configure date format dropdown.",
-        "noPresetSelected": "No preset selected",
-        "preview": "Preview"
+        "description": "Konfiguriere das Datumsformat-Dropdown-Menü.",
+        "noPresetSelected": "Keine Voreinstellung ausgewählt",
+        "preview": "Vorschau"
       },
       "days": {
-        "addCustomDay": "Add custom day",
-        "addSpecialDay": "Add special day",
-        "customDaysDescription": "Mark holidays or events on regular calendar dates.",
-        "dayNamePlaceholder": "Day name",
-        "description": "Configure days.",
-        "leapYearOnly": "Leap year only",
-        "loading": "Loading days...",
-        "noCustomDays": "No custom days",
-        "noCustomDaysDescription": "Add a custom day to get started.",
-        "noSpecialDays": "No special days",
-        "onlyInLeapYears": "Only in leap years",
-        "recurrenceAnnual": "Annual",
-        "recurrenceMonthly": "Monthly",
-        "recurrenceOneTime": "One-time",
-        "requiresLeapRule": "Requires leap-year rule",
-        "specialDayDescriptionPlaceholder": "Describe the special day",
-        "specialDayNamePlaceholder": "Special day name",
-        "specialDaysDescription": "Create extra days that sit outside the normal months."
+        "addCustomDay": "Füge einen benutzerdefinierten Tag hinzu",
+        "addSpecialDay": "Füge einen besonderen Tag hinzu",
+        "customDaysDescription": "Markiere Feiertage oder Events an regulären Kalenderdaten.",
+        "dayNamePlaceholder": "Name des Tages",
+        "description": "Konfiguriere Tage.",
+        "leapYearOnly": "Nur Schaltjahr",
+        "loading": "Lade Tage...",
+        "noCustomDays": "Keine benutzerdefinierten Tage",
+        "noCustomDaysDescription": "Füge einen benutzerdefinierten Tag hinzu, um zu beginnen.",
+        "noSpecialDays": "Keine besonderen Tage",
+        "onlyInLeapYears": "Nur in Schaltjahren",
+        "recurrenceAnnual": "Jährlich",
+        "recurrenceMonthly": "Monatlich",
+        "recurrenceOneTime": "Einmalig",
+        "requiresLeapRule": "Benötige Schaltjahr-Regel",
+        "specialDayDescriptionPlaceholder": "Beschreibe den besonderen Tag",
+        "specialDayNamePlaceholder": "Name des besonderen Tages",
+        "specialDaysDescription": "Erstelle zusätzliche Tage, die außerhalb der normalen Monate liegen."
       },
       "duration": {
-        "addSubtract": "Add Subtract",
-        "addToDate": "Add To Date",
-        "amountPlaceholder": "Amount",
-        "betweenDates": "Between Dates",
-        "endDate": "End date",
-        "enterCompleteDateAndAmount": "Enter Complete Date And Amount",
-        "enterCompleteDates": "Enter Complete Dates",
-        "negativeHint": "Negative",
-        "result": "Result",
+        "addSubtract": "Füge ein Substrakt hinzu",
+        "addToDate": "Zum Datum hinzufügen",
+        "amountPlaceholder": "Anzahl",
+        "betweenDates": "Zwischen den Daten",
+        "endDate": "Enddatum",
+        "enterCompleteDateAndAmount": "Gebe das komplette Datum und die Anzahl ein",
+        "enterCompleteDates": "Gebe vollständige Daten ein",
+        "negativeHint": "Negativ",
+        "result": "Ergebnis",
         "resultPrefix": "{{value}} {{unit}}",
-        "startDate": "Start date",
-        "startingDate": "Starting date",
-        "swapDates": "Swap dates",
-        "totalDays": "Total Days",
-        "unit": "Unit"
+        "startDate": "Startdatum",
+        "startingDate": "Startdatum",
+        "swapDates": "Daten tauschen",
+        "totalDays": "Gesamte Anzahl der Tage",
+        "unit": "Einheit"
       },
       "editor": {
         "groups": {
-          "calendar": "Calendar"
+          "calendar": "Kalender"
         },
-        "preparingPreview": "Preparing",
+        "preparingPreview": "Vorbereiten",
         "sections": {
-          "moons": "Moons",
-          "week": "Week"
+          "moons": "Monde",
+          "week": "Woche"
         },
-        "title": "Time system editor"
+        "title": "Zeitsystem-Editor"
       },
       "eras": {
-        "backwardDescription": "Show earlier eras first.",
-        "description": "Configure eras.",
-        "eraNamePlaceholder": "Era name",
-        "forward": "Forward",
-        "forwardDescription": "Show later eras first.",
-        "continueYears": "Continue year numbering across eras",
-        "continueYearsDescription": "Keep world-year numbering across both backward and forward eras instead of restarting each era at year 1.",
-        "loading": "Loading eras...",
-        "moveToBackward": "Move to backward",
-        "moveToForward": "Move to forward",
-        "noDatesDefined": "No dates defined",
-        "noErasDefined": "No eras defined",
-        "ongoing": "Ongoing",
-        "pickColor": "Pick colour",
-        "updateFailed": "Failed to update era",
-        "year": "Year",
-        "addBackwardEra": "Add Backward Era",
-        "addForwardEra": "Add Forward Era",
-        "startYearPlaceholder": "Start year",
-        "backwardResetHint": "Years reset at each backward era start, then increase into earlier years (e.g., \"BC\", \"Before Common Era\")",
-        "errorEarlierThanMin": "Era start year cannot be earlier than {{year}}.",
-        "errorLaterThanMax": "Era start year cannot be later than {{year}}."
+        "backwardDescription": "Ältere Ären zuerst anzeigen.",
+        "description": "Ären konfigurieren.",
+        "eraNamePlaceholder": "Name der Ära",
+        "forward": "Vorwärts",
+        "forwardDescription": "Neuere Ären zuerst anzeigen ",
+        "continueYears": "Jahresnummerierung über Ären fortsetzen",
+        "continueYearsDescription": "Behalte die Welt-Jahres-Nummerierung sowohl über ältere und neuere Ären, anstatt jede Ära in Jahr 1 neu zu starten.",
+        "loading": "Ären laden...",
+        "moveToBackward": "Nach hinten verschieben",
+        "moveToForward": "Nach vorne verschieben",
+        "noDatesDefined": "Keine Daten definiert",
+        "noErasDefined": "Keine Ären definiert",
+        "ongoing": "Laufend",
+        "pickColor": "Wähle eine Farbe",
+        "updateFailed": "Update der Ären fehlgeschlagen",
+        "year": "Jahr",
+        "addBackwardEra": "Füge eine ältere Ära hinzu",
+        "addForwardEra": "Füge eine neuere Ära hinzu",
+        "startYearPlaceholder": "Startjahr",
+        "backwardResetHint": "",
+        "errorEarlierThanMin": "Die Ära kann nicht vor {{year}} starten.",
+        "errorLaterThanMax": "Die Ära kann nicht nach {{year}} starten."
       },
       "months": {
-        "addLeapDay": "Add leap day",
-        "addMonth": "Add month",
-        "description": "Configure months.",
-        "leapDays": "Leap days",
-        "length": "Length",
-        "loading": "Loading months...",
-        "monthNamePlaceholder": "Month name"
+        "addLeapDay": "Füge einen Schalttag hinzu",
+        "addMonth": "Füge einen Monat hinzu",
+        "description": "Monate konfigurieren.",
+        "leapDays": "Schalttage",
+        "length": "Länge",
+        "loading": "Lade Monate...",
+        "monthNamePlaceholder": "Name des Monats"
       },
       "overview": {
-        "calendarStructure": "Calendar structure",
-        "calendarStructureEmptyDescription": "Add months, weekdays, or days to define your calendar.",
-        "calendarStructureEmptyTitle": "No calendar structure yet",
-        "daysPerMonthAverage": "Average days per month",
-        "daysPerWeek": "Days per week",
-        "defined": "Defined",
-        "description": "Configure overview.",
-        "earliestDate": "Earliest date",
-        "hoursPerYear": "Hours per year",
-        "latestDate": "Latest date",
-        "loading": "Loading overview...",
-        "monthsPerYear": "Months per year",
-        "notSet": "Not set",
-        "quickStart": "Quick start",
-        "quickStartDescription": "Set up your calendar in a few steps.",
-        "timelineRange": "Timeline range",
-        "totalYears": "Total years"
+        "calendarStructure": "Kalenderstruktur",
+        "calendarStructureEmptyDescription": "Füge Monate, Wochentage oder Tage hinzu, um deinen Kalender zu erstellen.",
+        "calendarStructureEmptyTitle": "Keine Kalenderstruktur vorhanden",
+        "daysPerMonthAverage": "Durchschnittliche Anzahl der Tage pro Monat",
+        "daysPerWeek": "Tage pro Woche",
+        "defined": "Festgelegt",
+        "description": "Konfiguriere die Übersicht.",
+        "earliestDate": "Frühestes Datum",
+        "hoursPerYear": "Stunden pro Tag",
+        "latestDate": "Spätestes Datum",
+        "loading": "Lade Übersicht...",
+        "monthsPerYear": "Monate pro Jahr",
+        "notSet": "Nicht konfiguriert",
+        "quickStart": "Schnellstart",
+        "quickStartDescription": "Richte deinen Kalender in wenigen Schritten ein.",
+        "timelineRange": "Zeitachsen-Bereich",
+        "totalYears": "Anzahl Jahre"
       },
       "presetSelector": {
-        "apply": "Apply",
-        "applyPreset": "Apply preset",
-        "applyWarning": "Applying this preset will replace your current calendar.",
-        "applying": "Applying...",
+        "apply": "Annehmen",
+        "applyPreset": "Voreinstellung übernehmen",
+        "applyWarning": "Das Annehmen dieser Voreinstellung wird deine aktuelle Kalenderstruktur überschreiben.",
+        "applying": "Wird angewendet...",
         "categories": {
-          "real-world": "Real-world",
-          "historical": "Historical",
+          "real-world": "Reale Welt",
+          "historical": "Historisch",
           "fantasy": "Fantasy",
           "sci-fi": "Sci-Fi"
         },
-        "moreMonths": "More Months",
-        "origin": "Origin",
-        "replace": "Replace",
-        "replaceDescription": "Replace the current calendar with this preset.",
-        "replaceTitle": "Replace calendar?",
-        "restDay": "Rest day",
-        "summary": "Summary",
-        "title": "Preset selector",
-        "usePreset": "Use preset"
+        "moreMonths": "Mehr Monate",
+        "origin": "Ursprung",
+        "replace": "Ersetzen",
+        "replaceDescription": "Ersetze die aktuelle Kalenderstruktur mit dieser Voreinstellung.",
+        "replaceTitle": "Kalender ersetzen?",
+        "restDay": "Ruhetag",
+        "summary": "Zusammenfassung",
+        "title": "Voreinstellung auswählen",
+        "usePreset": "Voreinstellung benutzen"
       },
       "seasonDatePicker": {
-        "cancelSelection": "Cancel selection",
-        "clearDates": "Clear dates",
-        "loading": "Loading season date picker...",
-        "noMonths": "No months",
-        "pickEnd": "Pick End",
-        "pickStartEnd": "Pick Start End",
-        "resetDraft": "Reset draft",
-        "wrapHint": "Hold Shift to wrap around."
+        "cancelSelection": "Auswahl aufheben",
+        "clearDates": "Daten leeren",
+        "loading": "Lade Jahreszeiten-Auswahl...",
+        "noMonths": "Keine Monate",
+        "pickEnd": "Ende auswählen",
+        "pickStartEnd": "Wähle den Start des Endes",
+        "resetDraft": "Entwurf zurücksetzen",
+        "wrapHint": "Halte Shift, um zu umwickeln."
       },
       "seasons": {
-        "addSeason": "Add season",
-        "configureMonthsFirst": "Configure months first",
-        "description": "Configure seasons.",
-        "loading": "Loading seasons...",
-        "pickRange": "Pick range",
-        "season": "Season",
-        "seasonNamePlaceholder": "Season name"
+        "addSeason": "Füge Jahreszeit hinzu",
+        "configureMonthsFirst": "Konfiguriere zuerst die Monate",
+        "description": "Konfiguriere Jahreszeiten.",
+        "loading": "Lade Jahreszeiten...",
+        "pickRange": "Auswahlbereich",
+        "season": "Jahreszeit",
+        "seasonNamePlaceholder": "Jahreszeit-Name"
       },
       "time": {
-        "description": "Configure time.",
-        "loading": "Loading time...",
-        "secondsPerMinute": "Seconds per minute",
-        "units": "Units",
-        "formattingTitle": "Time Formatting",
-        "formatLabel": "Time format",
-        "format24h": "24-hour (14:30)",
-        "format12h": "12-hour (2:30 PM)",
-        "separatorLabel": "Time separator",
-        "separatorColon": "Colon (:)",
-        "separatorDot": "Dot (.)",
-        "separatorSpace": "Space",
-        "showSecondsInDisplay": "Show seconds in time display"
+        "description": "Konfiguriere Zeit.",
+        "loading": "Lade Zeit...",
+        "secondsPerMinute": "Sekunden pro Minute",
+        "units": "Einheiten",
+        "formattingTitle": "Zeit formatieren",
+        "formatLabel": "Zeitformat",
+        "format24h": "24-Stunden-System (14:30)",
+        "format12h": "12-Stunden-System (2:30 PM)",
+        "separatorLabel": "Trennungszeichen",
+        "separatorColon": "Doppelpunkt (:)",
+        "separatorDot": "Punkt (.)",
+        "separatorSpace": "Leerzeichen",
+        "showSecondsInDisplay": "Sekunden in der Zeitanzeige anzeigen"
       },
       "weekdays": {
-        "addWeekday": "Add weekday",
-        "description": "Configure weekdays.",
-        "epochWeekday": "Epoch weekday",
-        "epochWeekdayDescription": "The first day of the calendar cycle.",
-        "loading": "Loading weekdays...",
-        "selectWeekday": "Select Weekday",
-        "weekdayNamePlaceholder": "Weekday name"
+        "addWeekday": "Füge einen Wochentag hinzu",
+        "description": "Konfiguriere Wochentage.",
+        "epochWeekday": "Wochentag der Epoche",
+        "epochWeekdayDescription": "Der erste Tag des Kalenderzyklus.",
+        "loading": "Lade Wochentage...",
+        "selectWeekday": "Wähle Wochentag aus",
+        "weekdayNamePlaceholder": "Wochentag Name"
       },
       "leapDayModal": {
-        "defaultName": "Leap Day",
-        "editTitle": "Edit Leap Day",
-        "newTitle": "New Leap Day",
-        "rulesTitle": "Leap Year Rules",
-        "ruleActionSkip": "Skip",
-        "ruleEveryYears": "Every {{cycle}} years",
-        "ruleSkipEveryYears": "but not every {{cycle}} years",
-        "ruleAndEveryYears": "and every {{cycle}} years",
-        "addRule": "Add rule",
-        "howItWorksTitle": "How leap year rules work:",
-        "howItWorksBody": "Rules are evaluated in order. A year is a leap year if it matches any \"Add\" rule, unless it also matches a subsequent \"Skip\" rule. For example, the Gregorian calendar adds a leap day every 4 years, but skips every 100 years, unless it's also divisible by 400."
+        "defaultName": "Schalttag",
+        "editTitle": "Schalttag bearbeiten",
+        "newTitle": "Neuer Schalttag",
+        "rulesTitle": "Regeln für Schaltjahre",
+        "ruleActionSkip": "Überspringen",
+        "ruleEveryYears": "Alle {{cycle}} Jahre",
+        "ruleSkipEveryYears": "nicht alle {{cycle}} Jahre",
+        "ruleAndEveryYears": "und alle {{cycle}} Jahre",
+        "addRule": "Füge Regel hinzu",
+        "howItWorksTitle": "Wie Schaltjahre funktionieren:",
+        "howItWorksBody": "Regeln werden in einer bestimmten Reihenfolge ausgeführt. Ein Jahr ist ein Schaltjahr, wenn es mit einer Regel übereinstimmt, es sei denn, es entspricht auch einer \"Überspringen\"-Regel. Zum Beispiel fügt der gregorianische Kalender alle 4 Jahre einen Schalttag hinzu, überspringt das Schaltjahr aber alle 100 Jahre, wenn dieses auch durch 400 teilbar ist."
       }
     },
     "app": {
@@ -290,6 +291,7 @@
       "continue": "Continue",
       "cancel": "Cancel",
       "clear": "Clear",
+      "clearSelection": "Clear selection",
       "import": "Import",
       "export": "Export",
       "edit": "Edit",
@@ -327,8 +329,8 @@
       "abbreviation": "Abbreviation",
       "noDescription": "No description",
       "item": "item",
-      "german": "German",
-      "dutch": "Dutch",
+      "german": "Deutsch",
+      "dutch": "Niederländisch",
       "slovak": "Slovak",
       "russian": "Russian",
       "save": "Save",
@@ -350,6 +352,7 @@
         "addImage": "Add image",
         "addNote": "Add note",
         "addRelationship": "Add Relationship",
+        "resizeSidebar": "Resize sidebar",
         "added": "Added",
         "afterMonth": "After month",
         "aliases": "Aliases",
@@ -369,6 +372,7 @@
         "commandsShortcuts": "Commands & Shortcuts",
         "concept": "concept",
         "content": "Content",
+        "archive": "Archive",
         "create": "Create",
         "createMyOwnTheme": "Create my own theme",
         "createType": "Create type",
@@ -379,7 +383,7 @@
         "dateFormat": "Date format",
         "dates": "Dates",
         "day": "Day",
-        "daysPerYear": "Days per year",
+        "daysPerYear": "Tage pro Jahr",
         "deadline": "Deadline",
         "deadlineHasPassed": "Deadline has passed.",
         "deleteBackup": "Delete backup",
@@ -647,92 +651,102 @@
       }
     },
     "concept": {
+      "typeSelector": {
+        "removeType": "Remove type"
+      },
       "typeTree": {
-        "title": "Type Hierarchy",
-        "emptyDescription": "No types yet. Types help organise your concepts into categories.",
-        "newTypeName": "New Type",
-        "addSubtype": "Add subtype"
+        "title": "Typen-Hierarchie",
+        "emptyDescription": "Noch keine Typen. Typen helfen dabei Konzepte in Kategorien zu organisieren.",
+        "newTypeName": "Neuer Typ",
+        "addSubtype": "Untertyp hinzufügen"
       },
       "dateEditor": {
-        "noDateSet": "No date set",
-        "deleteDateTitle": "Delete Date",
-        "deleteDateDescription": "Are you sure you want to delete \"{{label}}\"? This action cannot be undone.",
-        "noCalendarSystemConfigured": "No calendar system configured",
-        "configureCalendar": "Configure Calendar"
+        "noDateSet": "Kein Datum festgelegt",
+        "deleteDateTitle": "Datum löschen",
+        "deleteDateDescription": "Möchten Sie \"{{label}}\" wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "noCalendarSystemConfigured": "Kein Kalendersystem konfiguriert",
+        "configureCalendar": "Kalender konfigurieren"
       },
       "dateEditorDialog": {
-        "editDateTitle": "Edit Date",
-        "addDateDescription": "Add a new date to track important moments.",
-        "editDateDescription": "Edit the date details.",
-        "labelPlaceholder": "e.g., Birth, Founded, Reign"
+        "editDateTitle": "Datum bearbeiten",
+        "addDateDescription": "Fügen Sie ein neues Datum hinzu, um wichtige Momente zu verfolgen.",
+        "editDateDescription": "Datumsdetails bearbeiten.",
+        "labelPlaceholder": "z.B. Geburt, Gründung, Herrschaft"
       },
       "aliases": {
-        "howItWorksTitle": "How aliases and concept linking work",
-        "howItWorksParagraph1": "Think of aliases like labels on the same folder. When you mention this concept with",
-        "howItWorksParagraph1Tail": "the mention links to the concept itself, not just plain text.",
-        "howItWorksParagraph2": "When you rename the concept or an alias, linked mentions can update everywhere automatically. Use mentions consistently to keep names synchronised across your project.",
-        "howItWorksParagraph3": "If you remove an alias, links stay intact and affected mentions fall back to the concept name.",
-        "howItWorksParagraph4": "You can now also link concepts without typing @. Simply start typing a concept name or alias and, if there is a match, a small suggestion will appear. Use the arrow keys if there is more than one, then press Enter or click the one you want to turn that text into a linked mention.",
-        "howItWorksParagraph5": "Nothing changes just because a suggestion appears. If you keep writing or add a space, your text stays as normal text. You can also turn Concept link suggestions off from the editor view settings if they get in the way.",
-        "helpAriaLabel": "Concept linking and alias help",
-        "typeAliasPlaceholder": "Type alias...",
-        "saveAliasAriaLabel": "Save alias",
-        "cancelEditAriaLabel": "Cancel edit",
-        "aliasOptionsAriaLabel": "Alias {{name}} options",
-        "checkingUsage": "Checking usage...",
-        "aliasOptions": "Alias options",
-        "addAliasAriaLabel": "Add alias",
-        "removeAliasDescription": "This alias is used in {{mentionCount}} mention across {{sourceCount}} item. Removing it keeps all links intact, and those mentions will display the concept name instead."
+        "howItWorksTitle": "Wie Aliase und Konzeptverknüpfungen funktionieren",
+        "howItWorksParagraph1": "Aliase sind wie verschiedene Etikette für den gleichen Ordner. Wenn Sie das Konzept erwähnen mit",
+        "howItWorksParagraph1Tail": "die Erwähnung verknüpft das Konzept selbst, nicht nur den reinen Text.",
+        "howItWorksParagraph2": "Wenn Sie das Konzept oder einen Alias umbenennen, werden verknüpfte Erwähnungen überall automatisch aktualisiert. Verwenden Sie konsequent Erwähnungen, um die Namen in Ihrem gesamten Projekt synchronisiert zu halten.",
+        "howItWorksParagraph3": "Wenn Sie ein Alias entfernen, bleiben verknüpfte Erwähnungen erhalten und greifen auf den Konzeptnamen zurück.",
+        "howItWorksParagraph4": "Sie können nun auch Konzepte verknüpfen, ohne @ einzugeben. Fangen Sie einfach an einen Konzeptnamen oder einen Alias einzugeben und wenn es eine Übereinstimmung gibt, erscheint ein Vorschlag. Wenn es mehr als einen gibt, verwenden Sie die Pfeiltasten zur Auswahl und drücken dann die Eingabetaste, oder klicken auf den Text, um diesen in eine Verknüpfung umzuwandeln.",
+        "howItWorksParagraph5": "Nur weil ein Vorschlag erscheint, ändert sich nichts. Wenn Sie weiterschreiben oder ein Leerzeichen einfügen, bleibt Ihr Text einfach Text. Sie können die Vorschläge auch in den Editor-Ansichtseinstellungen ausschalten, falls diese im Weg umgehen.",
+        "helpAriaLabel": "Konzeptverknüpfungen und Alias Hilfe",
+        "typeAliasPlaceholder": "Alias eingeben...",
+        "saveAliasAriaLabel": "Alias speichern",
+        "cancelEditAriaLabel": "Bearbeitung abbrechen",
+        "aliasOptionsAriaLabel": "Alias {{name}} Optionen",
+        "checkingUsage": "Verwendung überprüfen...",
+        "aliasOptions": "Alias Optionen",
+        "addAliasAriaLabel": "Alias hinzufügen",
+        "emptyDescription": "Aliases let you refer to this concept by alternate names, titles, or spellings, making it easier to find and link while you write.",
+        "removeAliasDescription": "Dieses Alias wird in {{mentionCount}} Erwähnungen in {{sourceCount}} Objekten verwendet. Wenn dieses entfernt wird, bleiben die Verknüpfungen erhalten und die Erwähnungen werden stattdessen den Konzeptnamen anzeigen."
       },
       "sidebar": {
         "tabs": {
           "details": "Details",
-          "versions": "Versions",
-          "wordUsage": "Text Insights"
+          "versions": "Versionen",
+          "wordUsage": "Text-Einblicke"
         },
         "layout": {
-          "releaseToShow": "Release to show",
-          "dropToShow": "Drop here to show section",
-          "hidden": "Hidden",
-          "releaseToHide": "Release to hide"
+          "releaseToShow": "Zum Anzeigen loslassen",
+          "dropToShow": "Hier ablegen, um Abschnitt anzuzeigen",
+          "hidden": "Ausgeblendet",
+          "releaseToHide": "Zum Ausblenden loslassen"
         }
       },
       "imageSelector": {
-        "imageAriaLabel": "Concept image",
-        "expandImageAriaLabel": "Expand concept image",
-        "positionImageAriaLabel": "Position concept image",
-        "done": "Done",
-        "donePositioningAriaLabel": "Done positioning concept image",
-        "editImageAriaLabel": "Edit concept image",
-        "removeCurrentImageAriaLabel": "Remove current image",
-        "previousImage": "Previous image",
-        "nextImage": "Next image",
-        "goToImage": "Go to image {{index}}"
+        "imageAriaLabel": "Konzeptbild",
+        "expandImageAriaLabel": "Konzeptbild erweitern",
+        "positionImageAriaLabel": "Konzeptbild positionieren",
+        "done": "Fertig",
+        "donePositioningAriaLabel": "Positionierung des Konzeptbildes abschließen",
+        "editImageAriaLabel": "Konzeptbild bearbeiten",
+        "removeCurrentImageAriaLabel": "Aktuelles Bild entfernen",
+        "previousImage": "Vorheriges Bild",
+        "nextImage": "Nächstes Bild",
+        "goToImage": "Gehe zu Bild {{index}}"
       },
       "attributes": {
-        "namePlaceholder": "Attribute name",
-        "keyAriaLabel": "Attribute key",
-        "removeAriaLabel": "Remove attribute value",
-        "existingAttributes": "Existing attributes",
-        "cancelAddAriaLabel": "Cancel add attribute",
-        "importPlaceholder": "Select concept...",
-        "importNoConcepts": "No concepts found."
+        "namePlaceholder": "Eigenschaftsname",
+        "keyAriaLabel": "Eigenschaftsschlüssel",
+        "removeAriaLabel": "Eigenschaftswert entfernen",
+        "existingAttributes": "Vorhandene Eigenschaften",
+        "cancelAddAriaLabel": "Eigenschaft hinzufügen abbrechen",
+        "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
+        "importPlaceholder": "Konzept auswählen...",
+        "importNoConcepts": "Keine Konzepte gefunden."
       }
     },
     "relationships": {
       "editor": {
-        "addDescription": "Create a new relationship between entities.",
-        "currentlySource": "Currently the source",
-        "currentlyTarget": "Currently the target",
-        "flipSourceTarget": "Flip source and target",
-        "createNewType": "Create new type…",
-        "typePlaceholder": "Eg. Family | Faction | Friend...",
-        "notesPlaceholder": "Notes (optional)",
-        "relationshipNotes": "Relationship notes",
-        "preview": "Preview:"
+        "addDescription": "Erstelle eine neue Beziehung zwischen Objekten.",
+        "editTitle": "Edit relationship",
+        "editDescription": "Update this relationship's type or notes.",
+        "saveChanges": "Save changes",
+        "currentlySource": "Aktuell die Quelle",
+        "currentlyTarget": "Aktuell das Ziel",
+        "flipSourceTarget": "Quelle und Ziel tauschen",
+        "entityToLink": "Concept or segment to link",
+        "selectEntityPlaceholder": "Select a concept or segment to link...",
+        "createNewType": "Neuen Typ erstellen...",
+        "typePlaceholder": "z.B. Familie | Fraktion | Freund...",
+        "notesPlaceholder": "Notizen (optional)",
+        "relationshipNotes": "Beziehungsnotizen",
+        "preview": "Vorschau:"
       },
-      "deleteTitle": "Delete Relationship",
-      "deleteDescription": "Are you sure you want to delete this relationship? This action cannot be undone."
+      "deleteTitle": "Beziehung löschen",
+      "deleteDescription": "Sind Sie sich sicher, dass sie diese Beziehung löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
     },
     "dashboard": {
       "loadingGraph": "Loading graph...",
@@ -878,8 +892,44 @@
     },
     "overview": {
       "stories": "Stories",
+      "classicView": "Classic view",
       "newStory": "New Story",
       "templateStory": "Template Story",
+      "resizeArchiveShelf": "Resize archived stories shelf",
+      "noArchivedProjects": "No projects archived",
+      "moveEarlier": "Move earlier",
+      "moveLater": "Move later",
+      "bookDimensions": "Book dimensions",
+      "bookWidth": "Width",
+      "bookHeight": "Height",
+      "leanAmount": "Lean",
+      "bookDesign": "Book design",
+      "spineVariants": {
+        "cloth": {
+          "name": "Matte Cloth",
+          "blurb": "Flat colour, faint woven grain"
+        },
+        "leather": {
+          "name": "Soft Grain",
+          "blurb": "Subtle mottled texture"
+        },
+        "linen": {
+          "name": "Linen Weave",
+          "blurb": "Light crosshatch texture"
+        },
+        "vintage": {
+          "name": "Vintage",
+          "blurb": "Faded with quiet head/tail bands"
+        },
+        "modern": {
+          "name": "Modern Matte",
+          "blurb": "Flat with one soft edge line"
+        },
+        "suede": {
+          "name": "Suede",
+          "blurb": "Even colour, whisper of top light"
+        }
+      },
       "updatedToday": "Updated Today",
       "updatedThisWeek": "Updated This Week",
       "updatedThisMonth": "Updated This Month",
@@ -887,6 +937,9 @@
     },
     "projectCard": {
       "createNewProject": "Create new project",
+      "changeColor": "Change project colour",
+      "openProject": "Open {{name}}",
+      "optionsForProject": "Options for {{name}}",
       "segmentsCount": "{{count}} segments",
       "conceptsCount": "{{count}} concepts"
     },
@@ -1021,7 +1074,8 @@
         "divider": "Divider",
         "backToDefault": "Back to default",
         "noFill": "No fill",
-        "moreColours": "More colours"
+        "moreColours": "More colours",
+        "setDefaultFontSize": "Set {{size}} as default"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Could not render snippet preview"
@@ -1044,14 +1098,18 @@
     "outline": {
       "loading": "Loading outline…",
       "error": "The outline could not be loaded.",
-      "noTodos": "No todos yet",
       "totalTodos": "Total todos",
       "empty": "Add a segment or folder from the graph to begin outlining your story.",
       "outlineTodos": "Outline todos",
-      "noRelationships": "No segment relationships yet."
+      "noTodos": "No todos yet.",
+      "noRelationships": "No relationships yet."
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
+      "openSegment": "Open segment",
+      "addReferenceImage": "Add reference image",
+      "addReferenceImageTo": "Add reference image to {{name}}",
+      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Add relationship to {{name}}",
       "completedCount": "{{count}} completed",
       "editSegmentTitle": "Edit segment title: {{name}}",
@@ -1060,8 +1118,11 @@
       "noOpeningText": "No opening text yet.",
       "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
       "noTasksOnSegment": "No tasks on this segment yet.",
+      "noDatedFiles": "No dated files yet.",
       "noneYet": "None yet",
       "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
+      "folderSidebar": "Folder sidebar",
+      "storyMap": "Story map",
       "totalCount": "{{count}} total",
       "viewMore": "View {{count}} more"
     },
@@ -1082,6 +1143,7 @@
       "titleSpacingTooltip": "Title spacing: {{mode}}",
       "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
+      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
@@ -1101,6 +1163,7 @@
         "dimMode": "Fades inactive paragraphs to keep focus on the current paragraph.",
         "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
         "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
+        "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
         "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
       },
       "modes": {
@@ -1155,166 +1218,166 @@
       "zoom": "Zoom"
     },
     "gallery": {
-      "searchPlaceholder": "Search images",
+      "searchPlaceholder": "Bilder suchen",
       "breadcrumb": {
-        "all": "All images ({{total}})",
-        "filtered": "Filtered images ({{count}} of {{total}})"
+        "all": "Alle Bilder ({{total}})",
+        "filtered": "Gefilterte Bilder ({{count}} von {{total}})"
       },
       "empty": {
-        "withFilters": "No images match your current filters.",
-        "withoutFilters": "Add your first image to get started."
+        "withFilters": "Keine Bilder entsprechen den aktuellen Filtern.",
+        "withoutFilters": "Füge dein erstes Bild hinzu, um zu beginnen."
       },
       "toasts": {
-        "deleted": "Image deleted",
-        "deleteFailed": "Failed to delete image"
+        "deleted": "Bild gelöscht",
+        "deleteFailed": "Bild löschen fehlgeschlagen"
       },
       "imageDialog": {
-        "nameUpdated": "Image name updated successfully",
-        "failedUpdateName": "Failed to update image name",
-        "dimensions": "Dimensions",
-        "fileSize": "File Size",
-        "unknown": "Unknown",
+        "nameUpdated": "Bildname erfolgreich geändert",
+        "failedUpdateName": "Bildname ändern fehlgeschlagen",
+        "dimensions": "Dimensionen",
+        "fileSize": "Dateigröße",
+        "unknown": "Unbekannt",
         "download": "Download",
-        "downloaded": "Image downloaded",
-        "downloadFailed": "Failed to download image"
+        "downloaded": "Bild heruntergeladen",
+        "downloadFailed": "Bild herunterladen fehlgeschlagen"
       }
     },
     "imageSelector": {
-      "searchPlaceholder": "Search media...",
-      "loadingImages": "Loading images...",
+      "searchPlaceholder": "Medien durchsuchen...",
+      "loadingImages": "Bilder laden...",
       "uploading": "Uploading...",
-      "tryAdjustingFilters": "Try adjusting your search terms or filters",
-      "addSelected": "Add {{count}} image",
-      "addSelected_other": "Add {{count}} images"
+      "tryAdjustingFilters": "Passe die Sucheinstellungen an",
+      "addSelected": "{{count}} Bild hinzufügen",
+      "addSelected_other": "{{count}} Bild hinzufügen"
     },
     "kanban": {
       "settings": {
-        "ariaLabel": "Kanban view settings",
-        "title": "Board settings",
-        "list": "List",
+        "ariaLabel": "Kanban Ansichtseinstellungen",
+        "title": "Board Einstellungen",
+        "list": "Liste",
         "board": "Board",
-        "showEmptyColumns": "Show empty columns",
-        "showNestedNotes": "Show nested notes",
-        "showNestedNotesHelp": "Show notes linked to each card directly under the card.",
-        "columnBorderStyle": "Column border style",
-        "columnColorMode": "Column colour mode"
+        "showEmptyColumns": "Zeige leere Spalten",
+        "showNestedNotes": "Zeige verschachtelte Notizen",
+        "showNestedNotesHelp": "Zeigt die mit jeder Karte verknüpften Notizen direkt unter der Karte an.",
+        "columnBorderStyle": "Spaltenrand Stil",
+        "columnColorMode": "Spaltenfarben-Modus"
       },
       "cards": {
-        "actionsAria": "Actions for {{title}}",
-        "removeFromBoard": "Remove from board",
-        "editTagsAria": "Edit tags on {{entityType}} {{entityId}}",
-        "filterTags": "Filter tags",
-        "noMatchingTags": "No matching tags",
-        "nestedNotes": "Nested notes",
-        "conceptFallback": "Concept #{{id}}",
+        "actionsAria": "Aktionen für {{title}}",
+        "removeFromBoard": "Vom Board entfernen",
+        "editTagsAria": "Tags auf {{entityType}} {{entityId}} bearbeiten",
+        "filterTags": "Tags filtern",
+        "noMatchingTags": "Keine passenden Tags",
+        "nestedNotes": "Verschachtelte Notizen",
+        "conceptFallback": "Konzept #{{id}}",
         "segmentFallback": "Segment #{{id}}",
-        "noContent": "No content",
-        "openLinkedEntity": "Open linked {{entityType}} {{name}}",
-        "dragNoteAria": "Drag note {{id}}",
-        "dragEntityAria": "Drag {{entityType}} {{id}}",
-        "deleted": "{{type}} deleted.",
-        "deleteTitle": "Delete {{type}}",
-        "deleteDescription": "Are you sure you want to delete this item? This action cannot be undone.",
-        "deleteFailed": "Could not delete this card."
+        "noContent": "Kein Inhalt",
+        "openLinkedEntity": "Verknüpfte {{entityType}} {{name}} öffnen",
+        "dragNoteAria": "Ziehe Notiz {{id}}",
+        "dragEntityAria": "Ziehe {{entityType}} {{id}}",
+        "deleted": "{{type}} gelöscht.",
+        "deleteTitle": "{{type}} löschen",
+        "deleteDescription": "Bist du dir sicher, dass du dieses Item wirklich löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "deleteFailed": "Diese Karte konnte nicht gelöscht werden."
       },
       "list": {
-        "noMatchingItems": "No matching items",
-        "noAvailableItems": "No available items",
-        "newNote": "New note",
-        "existingNotes": "Existing notes",
-        "existingConcepts": "Existing concepts",
-        "existingSegments": "Existing segments",
-        "existingImages": "Existing images"
+        "noMatchingItems": "Keine passenden Items",
+        "noAvailableItems": "Keine verfügbaren Items",
+        "newNote": "Neue Notiz",
+        "existingNotes": "Bestehende Notizen",
+        "existingConcepts": "Bestehende Konzepte",
+        "existingSegments": "Bestehende Segmente",
+        "existingImages": "Bestehende Bilder"
       },
       "dialog": {
-        "placeholder": "Write your note"
+        "placeholder": "Schreibe deine Notiz"
       }
     },
     "manuscript": {
       "segmentPicker": {
-        "title": "Add Segment to Manuscript",
-        "selectSegment": "Select Segment",
-        "adding": "Adding...",
-        "addSegment": "Add Segment"
+        "title": "Segment zu Manuskript hinzufügen",
+        "selectSegment": "Segment auswählen",
+        "adding": "Wird hinzugefügt...",
+        "addSegment": "Segment hinzufügen"
       },
       "entryDialog": {
-        "editItem": "Edit Item",
-        "labelOptional": "Label (Optional)",
-        "titleRequired": "Title *",
-        "emptySpaceType": "Empty space type",
-        "emptySpaceQuarter1": "1/4 page",
-        "emptySpaceQuarter2": "2/4 page",
-        "emptySpaceQuarter3": "3/4 page",
-        "emptySpacePageBreak": "Page break",
-        "emptySpacePlaceholder": "e.g., End of Part I",
-        "titlePlaceholder": "e.g., Chapter One"
+        "editItem": "Objekt bearbeiten",
+        "labelOptional": "Label (optional)",
+        "titleRequired": "Titel *",
+        "emptySpaceType": "Art des Leerraums",
+        "emptySpaceQuarter1": "1/4 Seite",
+        "emptySpaceQuarter2": "2/4 Seite",
+        "emptySpaceQuarter3": "3/4 Seite",
+        "emptySpacePageBreak": "Seitenumbruch",
+        "emptySpacePlaceholder": "z.B. Ende von Teil I",
+        "titlePlaceholder": "z.B. Kapitel Eins"
       },
       "format": {
-        "title": "Format manuscript",
-        "customize": "Format yourself",
-        "preset": "Preset",
-        "basedOn": "Based on",
-        "typography": "Typography & layout",
-        "contentWidth": "Content width",
-        "paragraph": "Paragraph behaviour",
-        "indentFirstParagraph": "Indent first paragraph",
-        "indentAfterHeadings": "Indent after headings",
-        "firstLineIndent": "First-line indent",
-        "paragraphSpacingPercentage": "Paragraph spacing percentage",
+        "title": "Manuskript formatieren",
+        "customize": "Selbst formatieren",
+        "preset": "Voreinstellung",
+        "basedOn": "Basiert auf",
+        "typography": "Typografie & Layout",
+        "contentWidth": "Inhaltsbreite",
+        "paragraph": "Absatzverhalten",
+        "indentFirstParagraph": "Einzug erster Absatz",
+        "indentAfterHeadings": "Einzug nach Überschriften",
+        "firstLineIndent": "Einzug erste Zeile",
+        "paragraphSpacingPercentage": "Absatzabstand Prozentsatz",
         "align": {
-          "right": "Right"
+          "right": "Rechts"
         },
         "presets": {
           "writality": {
-            "description": "No extra formatting. Exports keep the editor styling."
+            "description": "Keine extra Formatierung. Exporte behalten den Editor-Stil."
           },
           "book_manuscript": {
-            "label": "Book manuscript format",
-            "description": "Industry-standard manuscript formatting for publisher and agent submissions."
+            "label": "Buchmanuskript Format",
+            "description": "Industrieübliche Manuskriptformatierung für Einreichungen bei Verlagen und Agenten."
           },
           "classic_manuscript": {
-            "label": "Classic manuscript",
-            "description": "Traditional submission style inspired by Shunn manuscript format."
+            "label": "Klassisches Manuskript",
+            "description": "Traditioneller Einreichungsstil, inspiriert vom Shunn-Manuskript-Format."
           },
           "web_novel": {
-            "label": "Web novel",
-            "description": "Episode-friendly spacing influenced by Tapas web reading norms."
+            "label": "Webnovel",
+            "description": "Episodenfreundliche Abstände, beeinflusst von Tapas-Weblesestandards."
           },
           "screenplay": {
-            "label": "Screenplay",
-            "description": "Courier-based screenplay baseline consistent with Nicholl expectations."
+            "label": "Drehbuch",
+            "description": "Courier-basierte Drehbuchgrundlage, in Übereinstimmung mit Nicholl-Erwartungen."
           },
           "poetry": {
-            "label": "Poetry",
-            "description": "Rhythm-first spacing for stanza legibility and pacing."
+            "label": "Poesie",
+            "description": "Rhythmus-fokussierte Abstände, für Strophenlesbarkeit und Tempo."
           },
           "kindle_reflowable": {
-            "label": "Kindle reflowable",
-            "description": "Reflowable ebook-oriented defaults based on KDP guidance."
+            "label": "Kindle mitfließendes Format",
+            "description": "Mitfließende E-Book-orientierte Standards, basierend auf KDP Leitlinien."
           }
         },
-        "emptySpaceAfterSegments": "Add page break after every segment",
-        "bundledFontLabel": "{{font}} (Bundled)",
-        "helpFor": "Help for {{label}}",
-        "textColumnWidth": "Text column width",
-        "indentBodyParagraphs": "Indent first line of body paragraphs",
-        "indentFirstSegmentParagraph": "Indent first paragraph in each segment",
-        "indent": "Indent",
-        "runningHeaderFooter": "Running header/footer",
-        "availableTokens": "Available tokens (exports + paginated view)",
-        "runningTextTokenHelpPrefix": "Type your name, pen name, or any other text directly in the header or footer fields. Only",
-        "runningTextTokenHelpSuffix": "are replaced automatically.",
-        "header": "Header",
-        "footer": "Footer",
-        "enableRunningHeader": "Enable running header",
-        "enableRunningFooter": "Enable running footer",
-        "runningHeaderText": "Running header text",
-        "runningFooterText": "Running footer text",
-        "alignment": "Alignment",
-        "runningHeaderDisabled": "Running header is disabled.",
-        "runningFooterDisabled": "Running footer is disabled.",
-        "titleStyles": "Title styles",
-        "titlePreview": "Chapter One",
+        "emptySpaceAfterSegments": "Seitenumbruch nach jedem Segment hinzufügen",
+        "bundledFontLabel": "{{font}} (Gebündelt)",
+        "helpFor": "Hilfe zu {{label}}",
+        "textColumnWidth": "Textspaltenbreite",
+        "indentBodyParagraphs": "Die erste Zeile des Absatzes einziehen",
+        "indentFirstSegmentParagraph": "Den ersten Absatz jedes Segments einziehen",
+        "indent": "Einzug",
+        "runningHeaderFooter": "Fortlaufende Kopf-/Fußzeile",
+        "availableTokens": "Vorhandene Token (Exporte + Seitenansichten)",
+        "runningTextTokenHelpPrefix": "Geben Sie Ihren Namen, Künstlernamen, oder einen anderen Text direkt in die Kopf- oder Fußzeilenfelder ein. Nur",
+        "runningTextTokenHelpSuffix": "werden automatisch ersetzt.",
+        "header": "Kopfzeile",
+        "footer": "Fußzeile",
+        "enableRunningHeader": "Fortlaufende Kopfzeile aktivieren",
+        "enableRunningFooter": "Fortlaufende Fußzeile aktivieren",
+        "runningHeaderText": "Text der fortlaufenden Kopfzeile",
+        "runningFooterText": "Text der fortlaufenden Fußzeile",
+        "alignment": "Ausrichtung",
+        "runningHeaderDisabled": "Fortlaufende Kopfzeile ist deaktiviert.",
+        "runningFooterDisabled": "Fortlaufende Fußzeile ist deaktiviert.",
+        "titleStyles": "Überschriftstile",
+        "titlePreview": "Kapitel Eins",
         "fontWeights": {
           "light": "Light (300)",
           "regular": "Regular (400)",
@@ -1323,14 +1386,14 @@
           "bold": "Bold (700)"
         },
         "hints": {
-          "fontSize": "Body text size in points",
-          "lineHeight": "Space between lines of text",
-          "textColumnWidth": "Width of the manuscript body text area",
-          "indent": "First-line indent applied to indented paragraphs",
-          "paragraphSpacing": "Extra space between paragraphs",
-          "runningText": "Use {page} for the page number and {title} for the manuscript name. Add your name or any other wording as plain text. Alignment controls where this line sits on the page (paginated view, PDF, HTML, and Word).",
-          "titleSize": "Size of manuscript and segment titles",
-          "titleSpacing": "Space between chapter/segment title and following text"
+          "fontSize": "Textgröße in Punkten",
+          "lineHeight": "Abstand zwischen Textzeilen",
+          "textColumnWidth": "Breite des Manuskripts-Textbereichs",
+          "indent": "Einzug der ersten Zeile auf eingezogene Absätze angewendet",
+          "paragraphSpacing": "Zusätzlicher Abstand zwischen Absätzen",
+          "runningText": "Verwende {page} für die Seitennummer und {title} für den Manuskriptnamen. Fügen Sie Ihren Namen und weitere Formulierungen als einfachen Text hinzu. Die Ausrichtung bestimmt wo diese Zeile auf der Seite steht (Seitenansicht, PDF, HTML, und Word).",
+          "titleSize": "Größe von Manuskript- und Segment-Titeln",
+          "titleSpacing": "Abstand zwischen Kapitel-/Segment-Titeln und folgendem Text"
         }
       }
     },
@@ -1580,7 +1643,7 @@
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
       "noMatchingPages": "No matching pages.",
-      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "noPagesToAdd": "All default pages are already in navigation. You can search to add a custom pages.",
       "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
       "changePageIcon": "Change icon",
       "hidePage": "Remove {{page}}",
@@ -1636,7 +1699,11 @@
         "chooseTags": "Choose tags",
         "showNone": "Show none",
         "excludeAllConceptsFromWordCount": "Exclude all concepts from word count",
-        "includeAllConceptsInWordCount": "Include all concepts in word count"
+        "includeAllConceptsInWordCount": "Include all concepts in word count",
+        "disableHoverPreview": "Disable hover preview",
+        "enableHoverPreview": "Enable hover preview",
+        "disableFadedDotBackground": "Disable faded dot background",
+        "enableFadedDotBackground": "Enable faded dot background"
       },
       "items": {
         "openItem": "Open {{type}}: {{name}}",
@@ -1724,102 +1791,103 @@
       "toggleSection": "Toggle {{section}} section"
     },
     "notes": {
-      "editTagsAria": "Edit tags on note {{id}}",
-      "linkedToEditor": "This note is linked to the editor",
-      "linkedToEditorCount": "Linked to editor {{count}} times"
+      "editTagsAria": "Tags der Notiz {{id}} bearbeiten",
+      "linkedToEditor": "Diese Notiz ist mit dem Editor verknüpft",
+      "linkedToEditorCount": "{{count}}-mal mit dem Editor verknüpft"
     },
     "editableTitle": {
-      "ariaLabel": "Editable {{entityType}} title",
-      "actionsAriaLabel": "Open title actions"
+      "ariaLabel": "Bearbeitbarer {{entityType}} Titel",
+      "actionsAriaLabel": "Öffne Titelaktionen"
     },
     "banner": {
       "entities": {
-        "project": "project"
+        "project": "Projekt"
       },
       "actions": {
-        "useProjectImage": "Use Project Image",
-        "hideBackground": "Hide Background"
+        "useProjectImage": "Projektbild verwenden",
+        "hideBackground": "Hintergrund ausblenden"
       },
       "imageControls": {
-        "imageAriaLabel": "{{entity}} banner image",
-        "positionImage": "Position {{entity}} banner image",
-        "donePositioning": "Done positioning {{entity}} banner image",
-        "removeImage": "Remove {{entity}} banner image",
-        "changeBackgroundImage": "Change background image",
-        "editImage": "Edit {{entity}} banner image"
+        "imageAriaLabel": "{{entity}} Bannerbild",
+        "positionImage": "{{entity}} Bannerbild positionieren",
+        "donePositioning": "{{entity}} Bannerbild positionieren abschließen",
+        "removeImage": "{{entity}} Bannerbild entfernen",
+        "changeBackgroundImage": "Hintergrundbild ändern",
+        "editImage": "{{entity}} Bannerbild bearbeiten"
       }
     },
     "versionHistory": {
-      "noVersionsYet": "No versions yet",
-      "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
-      "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
-      "compareVersions": "Compare versions",
-      "major": "Major"
+      "noVersionsYet": "Bisher keine Versionen",
+      "fileDescription": "Versionen werden automatisch erzeugt, wenn Sie Ihre Datei speichern. Standardmäßig erstellen wir eine neue Version alle 200 Wörter, die Sie hinzufügen oder löschen.",
+      "entityDescription": "Versionen werden automatisch erzeugt, wenn Sie Ihr {{entityName}} speichern. Standardmäßig erstellen wir eine neue Version alle 100 Wörter, die Sie hinzufügen oder löschen.",
+      "compareVersions": "Versionen vergleichen",
+      "major": "Hauptversion",
+      "createMajor": "Create major version"
     },
     "coming_soon": {
-      "title": "Coming soon",
-      "description": "This section is not available yet."
+      "title": "Bald verfügbar",
+      "description": "Dieser Abschnitt ist noch nicht verfügbar."
     },
     "setup": {
       "errors": {
-        "restoreFailed": "Failed to restore from the selected folder. Please make sure it contains a valid project structure."
+        "restoreFailed": "Wiederherstellung aus dem gewählten Ordner fehlgeschlagen. Bitte stellen Sie sicher, dass dieser eine gültige Projektstruktur enthält."
       },
       "welcome": {
-        "title": "Welcome to {{appName}}",
-        "description": "Your complete writing workspace for novels, stories, and creative projects",
-        "checklistTitle": "Let's set up your writing workspace:",
-        "step1": "Name your workspace directory",
-        "step2": "Choose where to store it",
-        "step3": "Start creating projects!",
-        "restore": "Restore from existing folder"
+        "title": "Willkommen bei {{appName}}",
+        "description": "Ihr vollständiger Arbeitsbereich für Romane, Geschichten, und kreative Projekte",
+        "checklistTitle": "Lassen Sie uns ihren Arbeitsbereich einrichten:",
+        "step1": "Benennen Sie ihr Arbeitsverzeichnis",
+        "step2": "Speicherort auswählen",
+        "step3": "Beginnen Sie mit dem Erstellen von Projekten!",
+        "restore": "Wiederherstellen aus vorhandenem Ordner"
       },
       "details": {
-        "title": "Set up your workspace",
-        "subtitle": "Let's start with the basics",
-        "workspaceNamePlaceholder": "My Writing",
-        "workspaceNameHint": "This will be the name of your workspace directory",
-        "authorName": "Author Name",
-        "authorNameHint": "This will be used as the default author for your projects"
+        "title": "Arbeitsbereich einrichten",
+        "subtitle": "Beginnen wir mit den Grundlagen",
+        "workspaceNamePlaceholder": "Meine Werke",
+        "workspaceNameHint": "Dies wird der Name Ihres Arbeitsverzeichnisses sein",
+        "authorName": "Name des Autors",
+        "authorNameHint": "Dies wird als Standard-Autor für Ihre Projekte verwendet"
       },
       "storage": {
-        "title": "Choose storage location",
-        "subtitle": "Where should we save your workspace?",
-        "yourWorkspace": "Your workspace",
-        "author": "Author",
-        "folderLabel": "Storage folder",
-        "chooseFolder": "Click to choose folder",
-        "folderHint": "We recommend a cloud-synced folder (Dropbox, Google Drive, iCloud)",
-        "willCreateAt": "Workspace will be created at:",
-        "createWorkspace": "Create Workspace"
+        "title": "Speicherort auswählen",
+        "subtitle": "Wo sollen wir Ihren Arbeitsbereich speichern?",
+        "yourWorkspace": "Ihr Arbeitsbereich",
+        "author": "Autor",
+        "folderLabel": "Speicherordner",
+        "chooseFolder": "Zum Auswählen des Ordners klicken",
+        "folderHint": "Wir empfehlen einen Cloud-synchronisierten Ordner (Dropbox, Google Drive, iCloud)",
+        "willCreateAt": "Arbeitsbereich wird erstellt in:",
+        "createWorkspace": "Arbeitsbereich erstellen"
       }
     },
     "tutorial": {
-      "previous": "Previous"
+      "previous": "Vorherige"
     },
     "noProject": {
-      "headline": "Let's get that project finally finished",
-      "subheadline": "The most important step is the first one ;)",
-      "organizeTitle": "Organise however you like",
-      "organizeDescription": "Get messy with it. {{appName}} should mould to your process, not the other way around.",
-      "worldTitle": "Build that world",
-      "worldDescription": "Create characters, locations, and timelines that are living documents and can evolve as your story grows."
+      "headline": "Lassen Sie uns jenes Projekt endlich abschließen",
+      "subheadline": "Der wichtigste Schritt ist der Erste ;)",
+      "organizeTitle": "Organisieren Sie nach Ihren Wünschen",
+      "organizeDescription": "Seien Sie chaotisch. {{appName}} sollte sich ihrem Prozess anpassen, nicht umgekehrt.",
+      "worldTitle": "Erbauen Sie jene Welt",
+      "worldDescription": "Erschaffen Sie Charaktere, Orte und Zeitlinien die in Ihren Dokumenten leben und sich entwickeln können, wenn Ihre Geschichte wächst."
     },
     "searchPage": {
-      "commandCount": "{{count}} commands",
-      "description": "Search commands and shortcuts",
-      "footerHint": "Press Enter to select",
-      "noCommands": "No commands match \"{{query}}\"",
-      "noResults": "No results for \"{{query}}\"",
-      "placeholder": "Search commands",
-      "resultCount": "{{count}} results",
-      "typeMore": "Type more to search"
+      "commandCount": "{{count}} -Befehle",
+      "description": "Befehle und Verknüpfungen durchsuchen",
+      "footerHint": "Enter drücken um auszuwählen",
+      "noCommands": "Keine Befehle stimmen überein \"{{query}}\"",
+      "noResults": "Keine Ergebnisse gefunden für \"{{query}}\"",
+      "placeholder": "Befehle suchen",
+      "resultCount": "{{count}} Einträge",
+      "typeMore": "Mehr zum Suchen eingeben"
     },
     "tagFilter": {
-      "filterByTags": "Filter by Tags",
-      "noTagsAvailable": "No tags available",
-      "filterLogic": "Filter Logic",
+      "filterByTags": "Nach Tags filtern",
+      "noTagsAvailable": "Keine Tags verfügbar",
+      "filterLogic": "Filterlogik",
       "logic": {
-        "or": "Or"
+        "or": "Oder"
       }
     },
     "settings": {
@@ -1863,6 +1931,25 @@
         "title": "Show-and-tell",
         "description": "I keep building graph and story tools because I want people to use them for strange, specific, beautiful projects. Please show me."
       }
+    },
+    "supportSettings": {
+      "navigationLabel": "Support {{appName}}",
+      "title": "Support {{appName}}",
+      "description": "Help keep {{appName}} free and moving forward.",
+      "eyebrow": "Optional support",
+      "heroTitle": "Creativity must be free.",
+      "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
+      "promiseTitle": "What your support changes",
+      "promiseDescription": "If you choose to donate, your support gives me more time to improve the app, polish what is already here, and get {{appName}} into more writers' hands.",
+      "moreTimeTitle": "More time to build",
+      "moreTimeDescription": "More features, thoughtful polish, and room to pay down technical debt.",
+      "costsTitle": "Practical costs",
+      "costsDescription": "Help with essentials such as signing the Windows app and keeping the project moving.",
+      "ctaTitle": "If you can help",
+      "ctaDescription": "You can support {{appName}} directly through Patreon. Every contribution helps, but using the app will never depend on one.",
+      "accessDescription": "If donating is comfortable for you, please feel free. Your support helps keep {{appName}} a wonderful free app for writers who cannot afford paid tools. Please never stretch your budget. Remember even $1 is a lot of money in many parts of the world.",
+      "cta": "Support on Patreon",
+      "optional": "Completely optional. {{appName}} remains free either way."
     },
     "workspace": {
       "description": "Customise your workspace appearance and preferences",
@@ -2435,11 +2522,18 @@
       }
     },
     "iconPicker": {
-      "searchPlaceholder": "Search icons by name, category",
-      "loadMore": "Load More ({{count}} remaining)",
-      "noIconsFound": "No icons found",
-      "recent": "Recent",
-      "selected": "Ausgewählt"
+      "searchPlaceholder": "Icons nach Namen, Kategorie suchen",
+      "loadMore": "Lade weitere ({{count}} verbleibend)",
+      "noIconsFound": "Keine Icons gefunden",
+      "recent": "Zuletzt genutzte",
+      "selected": "Selected"
+    },
+    "ui": {
+      "colorPicker": {
+        "hexColour": "Hex colour",
+        "hexPlaceholder": "FFE or FFEECC",
+        "applyHexColour": "Apply hex colour"
+      }
     },
     "wordUsage": {
       "title": "Word Usage",

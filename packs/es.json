@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "17e04c871403-es",
-  "sourceRevision": "17e04c871403507d7934902794de7e99dd24fabf",
+  "version": "b96d23c1c468-es",
+  "sourceRevision": "b96d23c1c46884a371fe60dbd34101b7dea3e22a",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -64,7 +64,7 @@
       },
       "toggleDates": "Alternar fechas",
       "noDatesLinked": "Aún no hay fechas enlazadas.",
-      "noDatesLinkedDescription": "Vincula fechas para situar este concepto en la cronología de tu historia, seguir acontecimientos importantes y mantener coherente su línea temporal.",
+      "noDatesLinkedDescription": "Vincula fechas para colocar este concepto en la cronología de tu historia, haz seguimiento de eventos importantes y mantén la coherencia de la línea temporal.",
       "previewSegment": "Previsualizar {{name}}"
     },
     "timeSystem": {
@@ -286,11 +286,12 @@
       "deleted": "Borrado",
       "close": "Cerrar",
       "back": "Volver",
-      "previous": "Previous",
-      "next": "Next",
+      "previous": "Anterior",
+      "next": "Siguiente",
       "continue": "Continuar",
       "cancel": "Cancelar",
       "clear": "Limpiar",
+      "clearSelection": "Borrar selección",
       "import": "Importar",
       "export": "Exportar",
       "edit": "Editar",
@@ -351,6 +352,7 @@
         "addImage": "Añadir imagen",
         "addNote": "Añadir nota",
         "addRelationship": "Añadir relación",
+        "resizeSidebar": "Redimensionar la barra lateral",
         "added": "Añadido",
         "afterMonth": "Después del mes",
         "aliases": "Aliases",
@@ -370,6 +372,7 @@
         "commandsShortcuts": "Comandos y Atajos",
         "concept": "concepto",
         "content": "Contenido",
+        "archive": "Archivo",
         "create": "Crear",
         "createMyOwnTheme": "Crear mi propio tema",
         "createType": "Crear tipo",
@@ -648,6 +651,9 @@
       }
     },
     "concept": {
+      "typeSelector": {
+        "removeType": "Borrar tipo"
+      },
       "typeTree": {
         "title": "Jerarquía de tipo",
         "emptyDescription": "Aún no hay tipos. Los tipos ayudan a organizar sus conceptos en categorías.",
@@ -668,14 +674,14 @@
         "labelPlaceholder": "p. ej., Nacimiento, Fundación, Reinado"
       },
       "aliases": {
-        "howItWorksTitle": "Cómo funcionan los alias",
+        "howItWorksTitle": "Cómo funcionan los alias y el enlace de conceptos",
         "howItWorksParagraph1": "Piense en alias como etiquetas en la misma carpeta. Cuando mencione este concepto con",
         "howItWorksParagraph1Tail": "la mención enlaza al concepto en sí mismo, no solo texto plano.",
         "howItWorksParagraph2": "Cuando renombres el concepto o un alias, las menciones enlazadas se pueden actualizar automáticamente en todas partes. Usa menciones consistentemente para mantener los nombres sincronizados en todo tu proyecto.",
         "howItWorksParagraph3": "Si eliminas un alias, los enlaces permanecen intactos y las menciones afectadas vuelven al nombre del concepto.",
-        "howItWorksParagraph4": "You can now also link concepts without typing @. Simply start typing a concept name or alias and, if there is a match, a small suggestion will appear. Use the arrow keys if there is more than one, then press Enter or click the one you want to turn that text into a linked mention.",
-        "howItWorksParagraph5": "Nothing changes just because a suggestion appears. If you keep writing or add a space, your text stays as normal text. You can also turn Concept link suggestions off from the editor view settings if they get in the way.",
-        "helpAriaLabel": "Ayuda de alias",
+        "howItWorksParagraph4": "Ahora también puede vincular conceptos sin escribir @. Simplemente empieza a escribir un nombre o alias de concepto y, si coinciden, aparecerá una pequeña sugerencia. Usa las flechas del teclado si hay más de una, pulsa Enter o haz clic en el texto que deseas convertir en una mención vinculada.",
+        "howItWorksParagraph5": "Nada cambia solo porque aparezca una sugerencia. Si sigues escribiendo o añades un espacio, tu texto permanece como texto normal. También puedes desactivar las sugerencias de enlaces Concepto desde la configuración de la vista editor si molestan.",
+        "helpAriaLabel": "Enlace de conceptos y ayuda de alias",
         "typeAliasPlaceholder": "Escribe alias...",
         "saveAliasAriaLabel": "Guardar alias",
         "cancelEditAriaLabel": "Cancelar edición",
@@ -683,7 +689,7 @@
         "checkingUsage": "Comprobando uso...",
         "aliasOptions": "Opciones de alias",
         "addAliasAriaLabel": "Añadir alias",
-        "emptyDescription": "Los alias permiten referirte a este concepto con nombres, títulos o variantes ortográficas alternativas, para encontrarlo y enlazarlo más fácilmente mientras escribes.",
+        "emptyDescription": "Los aliases te permiten referenciar este concepto con nombres alternativos, títulos u ortografía, haciendo más sencillo encontrar y vincular mientras escribes.",
         "removeAliasDescription": "Este alias se utiliza en {{mentionCount}} menciones a lo largo de {{sourceCount}} ítems. La eliminación mantiene intactos todos los enlaces, y esas menciones mostrarán el nombre del concepto en su lugar."
       },
       "sidebar": {
@@ -717,7 +723,7 @@
         "removeAriaLabel": "Quitar valores de atributo",
         "existingAttributes": "Atributos existentes",
         "cancelAddAriaLabel": "Cancelar añadir atributo",
-        "emptyDescription": "Los atributos guardan datos rápidos sobre este concepto, como su función, ubicación o apariencia, para que los detalles importantes sean fáciles de consultar.",
+        "emptyDescription": "Los atributos capturan datos rápidos sobre este concepto, tales como un rol, ubicación o apariencia, por lo que los detalles importantes son fáciles de referir.",
         "importPlaceholder": "Seleccionar concepto...",
         "importNoConcepts": "No se encontraron conceptos."
       }
@@ -725,9 +731,14 @@
     "relationships": {
       "editor": {
         "addDescription": "Crear una nueva relación entre entidades.",
+        "editTitle": "Editar relación",
+        "editDescription": "Actualizar el tipo o notas de esta relación.",
+        "saveChanges": "Guardar cambios",
         "currentlySource": "Actualmente el origen",
         "currentlyTarget": "Actualmente el objetivo",
         "flipSourceTarget": "Intercambiar origen y destino",
+        "entityToLink": "Concepto o segmento a vincular",
+        "selectEntityPlaceholder": "Seleccione un concepto o segmento a enlazar...",
         "createNewType": "Crear nuevo tipo…",
         "typePlaceholder": "Por ejemplo, Familia | Facción | Amigo...",
         "notesPlaceholder": "Notas (opcional)",
@@ -881,8 +892,44 @@
     },
     "overview": {
       "stories": "Historias",
+      "classicView": "Vista clásica",
       "newStory": "Nueva historia",
       "templateStory": "Plantilla de historia",
+      "resizeArchiveShelf": "Redimensionar las historias archivadas del estante",
+      "noArchivedProjects": "Sin proyectos archivados",
+      "moveEarlier": "Mover antes",
+      "moveLater": "Mover después",
+      "bookDimensions": "Dimensiones del libro",
+      "bookWidth": "Ancho",
+      "bookHeight": "Alto",
+      "leanAmount": "Inclinar",
+      "bookDesign": "Diseño del libro",
+      "spineVariants": {
+        "cloth": {
+          "name": "Tela Mate",
+          "blurb": "Color plano, granulado textil tenue"
+        },
+        "leather": {
+          "name": "Granulado suave",
+          "blurb": "Textura moteada sutil"
+        },
+        "linen": {
+          "name": "Tramado de lino",
+          "blurb": "Textura de rayado cruzado ligero"
+        },
+        "vintage": {
+          "name": "Vintage",
+          "blurb": "Atenuado con cabezadas sutiles"
+        },
+        "modern": {
+          "name": "Mate moderno",
+          "blurb": "Plano con una línea de borde suave"
+        },
+        "suede": {
+          "name": "Ante",
+          "blurb": "Color uniforme con un destello superior suave"
+        }
+      },
       "updatedToday": "Actualizado hoy",
       "updatedThisWeek": "Actualizado esta semana",
       "updatedThisMonth": "Actualizado este mes",
@@ -890,6 +937,9 @@
     },
     "projectCard": {
       "createNewProject": "Crear nuevo proyecto",
+      "changeColor": "Cambiar el color del proyecto",
+      "openProject": "Abrir {{name}}",
+      "optionsForProject": "Opciones para {{name}}",
       "segmentsCount": "{{count}} segmentos",
       "conceptsCount": "{{count}} conceptos"
     },
@@ -922,7 +972,7 @@
         "saveFailed": "No se pudo guardar la imagen.",
         "saveIt": "Guardar",
         "unsavedAria": "La imagen no está guardada en {{appName}}",
-        "unsavedDescription": "La imagen no está guardada en {{appName}}. Guárdelo para añadirla a tu galería de imágenes con una miniatura."
+        "unsavedDescription": "La imagen no está guardada en {{appName}}. Guárdala para añadirla a tu galería de imágenes con una miniatura."
       },
       "menu": {
         "exportAsJson": "Exportar a JSON",
@@ -1024,7 +1074,8 @@
         "divider": "Divisor",
         "backToDefault": "Volver a predeterminado",
         "noFill": "Sin relleno",
-        "moreColours": "Más colores"
+        "moreColours": "Más colores",
+        "setDefaultFontSize": "Establece {{size}} como predeterminado"
       },
       "shareSnippet": {
         "renderPreviewFailed": "No se pudo procesar la vista previa del fragmento"
@@ -1047,14 +1098,18 @@
     "outline": {
       "loading": "Cargando esquema…",
       "error": "El esquema no se pudo cargar.",
-      "noTodos": "Aún no hay tareas",
       "totalTodos": "Tareas totales",
       "empty": "Agregar un segmento o carpeta del gráfico para comenzar a esbozar tu historia.",
       "outlineTodos": "Esbozar tareas",
+      "noTodos": "Aún no hay tareas",
       "noRelationships": "Todavía no hay relaciones de segmento."
     },
     "planning": {
       "addNoteTo": "Añadir nota a {{name}}",
+      "openSegment": "Abrir segmento",
+      "addReferenceImage": "Añade imagen de referencia",
+      "addReferenceImageTo": "Añade imagen de referencia a {{name}}",
+      "noteStoryBeatTooltip": "Las notas funcionan como hitos para tu historia",
       "addRelationshipTo": "Añadir relación a {{name}}",
       "completedCount": "{{count}} completado(s)",
       "editSegmentTitle": "Editar título del segmento: {{name}}",
@@ -1063,8 +1118,11 @@
       "noOpeningText": "No hay texto de apertura todavía.",
       "noSegmentsDescription": "Crea el primer segmento en esta carpeta para empezar a dar forma a su línea de tiempo de la historia.",
       "noTasksOnSegment": "Todavía no hay tareas en este segmento.",
+      "noDatedFiles": "Aún no hay archivos fechados.",
       "noneYet": "Ninguno todavía",
       "relationshipsAcrossSegments_one": "{{count}} relaciones a través de segmentos directos.",
+      "folderSidebar": "Carpeta de barra lateral",
+      "storyMap": "Mapa de la historia",
       "totalCount": "Total de {{count}}",
       "viewMore": "Ver {{count}} más"
     },
@@ -1085,6 +1143,7 @@
       "titleSpacingTooltip": "Espaciado de títulos: {{mode}}",
       "textAlignTooltip": "Alineación del texto: {{mode}}",
       "showScrollbar": "Mostrar barras de desplazamiento",
+      "showSegmentReferences": "Mostrar referencias y enlaces externos",
       "indentParagraphs": "Agregar sangría a los párrafos",
       "typewriterMode": "Modo máquina de escribir",
       "dimMode": "Modo atenuado",
@@ -1104,6 +1163,7 @@
         "dimMode": "Desvanece los párrafos inactivos para seguir centrándose en el párrafo actual.",
         "typewriterBlur": "Desenfoca los párrafos inactivos manteniendo el párrafo actual nítido.",
         "hemingwayMode": "Bloquea la redacción solo para avanzar el movimiento: no hay retroceso ni mover el cursor hacia atrás.",
+        "showSegmentReferences": "Muestra las referencias y panel de enlaces externos debajo del editor de segmentos.",
         "fixedEditorToolbar": "Mantiene los controles de formato fijados en el editor, incluyendo en modo zen."
       },
       "modes": {
@@ -1579,17 +1639,17 @@
     "navigation": {
       "world": "Mundo",
       "openSettings": "Abrir configuración",
-      "addPage": "Add page",
-      "searchPages": "Search pages to add",
-      "scrollForMorePages": "Scroll for more pages",
-      "noMatchingPages": "No matching pages.",
-      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
-      "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
-      "changePageIcon": "Change icon",
-      "hidePage": "Remove {{page}}",
-      "hidePageTitle": "Hide page?",
-      "hidePageDescription": "Hide {{page}} from the main navigation? You can add it back at any time with the + button.",
-      "hidePageConfirm": "Hide page",
+      "addPage": "Añadir página",
+      "searchPages": "Buscar páginas para añadir",
+      "scrollForMorePages": "Desplaza para ver más páginas",
+      "noMatchingPages": "No hay páginas que coincidan.",
+      "noPagesToAdd": "Todas las páginas predeterminadas están ya en la navegación. Busca para añadir un acceso directo.",
+      "reorderInstructions": "Pulsa Espacio para agarrar una página, usa las flechas del teclado para moverla, presiona Espacio para soltarla.",
+      "changePageIcon": "Cambiar icono",
+      "hidePage": "Eliminar {{page}}",
+      "hidePageTitle": "¿Ocultar página?",
+      "hidePageDescription": "¿Ocultar {{page}} de la navegación principal? Puedes añadirlo en cualquier momento con el botón +.",
+      "hidePageConfirm": "Ocultar página",
       "page": "Página",
       "newPage": "Nueva página",
       "toggleSidebar": "Alternar barra lateral",
@@ -1598,15 +1658,15 @@
       "breadcrumb": "Ruta de navegación",
       "goToFolder": "Ir a la carpeta {{name}}",
       "configureTimeSystem": "Configurar Sistema de Tiempo",
-      "untitledConcept": "Untitled concept",
-      "untitledSegment": "Untitled segment",
-      "untitledNote": "Untitled note"
+      "untitledConcept": "Concepto sin título",
+      "untitledSegment": "Segmento sin título",
+      "untitledNote": "Nota sin título"
     },
     "tabs": {
       "openTab": "Abrir pestaña {{name}}",
       "closeTab": "Cerrar pestaña {{name}}",
-      "reorderTab": "Reordenar pestaña {{name}}",
-      "reorderInstructions": "Pulsa Espacio para recoger una pestaña, usa las flechas para moverla y vuelve a pulsar Espacio para soltarla.",
+      "reorderTab": "Reordena la pestaña {{name}}",
+      "reorderInstructions": "Pulsa Espacio para agarrar una página, usa las flechas del teclado para moverla, presiona Espacio para soltarla.",
       "splitView": "Esta pestaña contiene vista dividida",
       "exitSplitView": "Salir de la vista dividida en esta pestaña",
       "loadingPane": "Cargando panel...",
@@ -1639,7 +1699,11 @@
         "chooseTags": "Seleccionar etiquetas",
         "showNone": "No mostrar ninguno",
         "excludeAllConceptsFromWordCount": "Excluir todos los conceptos en el recuento de palabras",
-        "includeAllConceptsInWordCount": "Incluye todos los conceptos en el recuento de palabras"
+        "includeAllConceptsInWordCount": "Incluye todos los conceptos en el recuento de palabras",
+        "disableHoverPreview": "Desactivar la vista previa al pasar el cursor",
+        "enableHoverPreview": "Activar la vista precia al pasar el cursor",
+        "disableFadedDotBackground": "Desactivar puntos de fondo atenuados",
+        "enableFadedDotBackground": "Activar puntos de fondo atenuados"
       },
       "items": {
         "openItem": "Abrir {{type}}: {{name}}",
@@ -1660,7 +1724,7 @@
         "changeFolderIcon": "Cambiar icono de carpeta",
         "changeFolderColor": "Cambiar color de carpeta",
         "excludeFromWordCount": "Excluir del recuento de palabras",
-        "excludeFromOutline": "Excluir del esquema",
+        "excludeFromOutline": "Excluir de la escaleta",
         "excludedFromWordCount": "Excluido del recuento de palabras",
         "types": {
           "segment": "segmento"
@@ -1757,7 +1821,8 @@
       "fileDescription": "Las versiones se crean automáticamente al guardar su archivo. De forma predeterminada, creamos una nueva versión cada 200 palabras que añadas o elimines.",
       "entityDescription": "Las versiones se crean automáticamente cuando guardas tu {{entityName}}. Por defecto, creamos una nueva versión cada 100 palabras que añadas o elimines.",
       "compareVersions": "Comparar versiones",
-      "major": "Mayor"
+      "major": "Mayor",
+      "createMajor": "Crear versión principal"
     },
     "coming_soon": {
       "title": "Próximamente",
@@ -1768,7 +1833,7 @@
         "restoreFailed": "Error al restaurar desde la carpeta seleccionada. Por favor, asegúrese de que contiene una estructura de proyecto válida."
       },
       "welcome": {
-        "title": "Bienvenido a {{appName}}",
+        "title": "Bienvenido/a a {{appName}}",
         "description": "Tu espacio de trabajo completo para novelas, historias y proyectos creativos",
         "checklistTitle": "Vamos a configurar tu espacio de trabajo de escritura:",
         "step1": "Nombra el directorio de tu espacio de trabajo",
@@ -1803,7 +1868,7 @@
       "headline": "Vamos a terminar ese proyecto de una vez por todas",
       "subheadline": "El paso más importante es el primero ;)",
       "organizeTitle": "Organiza como quieras",
-      "organizeDescription": "Trabaja como quieras, {{appName}} debería adaptarse a tu proceso, y no al revés.",
+      "organizeDescription": "Trabaja como quieras, {{appName}} debería adaptarse a tu proceso y no al revés.",
       "worldTitle": "Construye ese mundo",
       "worldDescription": "Crea personajes, escenarios y líneas temporales que sean documentos vivos y puedan evolucionar a medida que tu historia vaya desarrollándose."
     },
@@ -1839,11 +1904,11 @@
         "help": "¿Necesitas ayuda?"
       },
       "search": {
-        "placeholder": "Search settings",
-        "clear": "Clear settings search",
-        "noResults": "No settings match \"{{query}}\""
+        "placeholder": "Buscar ajustes",
+        "clear": "Limpiar la búsqueda de ajustes",
+        "noResults": "Ninguna coincidencia de configuración \"{{query}}\""
       },
-      "emailSupport": "Correo de soporte a {{supportEmail}}",
+      "emailSupport": "Correo de soporte {{supportEmail}}",
       "helpDescription": "Obtén ayuda y soporte para usar {{appName}}",
       "helpPrompt": "¿Necesitas ayuda o quieres hablar?"
     },
@@ -1866,6 +1931,25 @@
         "title": "Mostrar y contar",
         "description": "Sigo construyendo herramientas gráficas y de historias porque quiero que la gente las utilice para proyectos extraños, específicos y hermosos. Por favor muéstrenme."
       }
+    },
+    "supportSettings": {
+      "navigationLabel": "Apoya a {{appName}}",
+      "title": "Apoya a {{appName}}",
+      "description": "Ayuda a mantener {{appName}} gratis y en desarrollo.",
+      "eyebrow": "Apoyo opcional",
+      "heroTitle": "La creatividad tiene que ser libre y gratuita.",
+      "heroDescription": "Escribir, crear mundos, hacer mapas y narrar historias debería estar disponible para todos. Las funciones principales de {{appName}} se mantendrán gratuitas, sin funciones bloqueadas o mapas ocultos tras una suscripción.",
+      "promiseTitle": "Qué consecuencias tiene tu apoyo",
+      "promiseDescription": "Si decides donar, tu ayuda me da más tiempo para mejorar la app, pulir lo que ya hay y conseguir que {{appName}} llegue a manos de más escritores/as.",
+      "moreTimeTitle": "Más tiempo para desarrollar",
+      "moreTimeDescription": "Más características, pulidas con mimo y con margen para reducir la deuda técnica.",
+      "costsTitle": "Costes prácticos",
+      "costsDescription": "Ayuda con aspectos esenciales como firmar digitalmente la aplicación en Windows y mantener el proyecto en movimiento.",
+      "ctaTitle": "Si puedes ayudar",
+      "ctaDescription": "Puedes apoyar a {{appName}} directamente a través de Patreon. Cada contribución ayuda pero usar la aplicación nunca dependerá de una.",
+      "accessDescription": "Si te parece bien donar, siéntete libre de hacerlo. Tu apoyo ayuda a mantener {{appName}} como una app estupenda y gratuita para escritores que no pueden permitirse herramientas de pago. Por favor, no superes tu presupuesto por ayudar. Recuerda que incluso $1 es bastante dinero en muchas partes del mundo.",
+      "cta": "Apoya en Patreon",
+      "optional": "Totalmente opcional. {{appName}} se mantiene grauito de todas formas."
     },
     "workspace": {
       "description": "Personaliza la apariencia y preferencias de tu área de trabajo",
@@ -2035,11 +2119,11 @@
       }
     },
     "workspaceLocation": {
-      "description": "Gestione dónde {{appName}} encuentra y almacena los datos de su espacio de trabajo.",
+      "description": "Gestiona dónde {{appName}} encuentra y almacena los datos de tu espacio de trabajo.",
       "connectWorkspace": "Abrir un área de trabajo existente",
-      "connectWorkspaceDescription": "Guíe a {{appName}} a una carpeta de área de trabajo que ya está en este ordenador o unidad. Esto cambia el espacio de trabajo abierto; no mueve ningún archivo.",
+      "connectWorkspaceDescription": "Guía {{appName}} a una carpeta de área de trabajo que ya está en este ordenador o unidad. Esto cambia el espacio de trabajo abierto; no mueve ningún archivo.",
       "moveWorkspace": "Mover tu área de trabajo",
-      "moveWorkspaceDescription": "Mover esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
+      "moveWorkspaceDescription": "Mueve esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
       "currentDataLocation": "Ubicación actual de tus datos",
       "chooseNewLocation": "Destino para esta área de trabajo",
       "browse": "Explorar",
@@ -2250,7 +2334,7 @@
         "totalSize": "Tamaño total",
         "restoreBackup": "Restaurar copia de seguridad",
         "empty": "Aún no hay copias de seguridad. Crea tu primera copia de seguridad para proteger tus datos.",
-        "description": "Las copias de seguridad de la base de datos son instantáneas completas de restauración. Utilízalas cuando quieras una copia restaurable del espacio de trabajo de {{appName}}."
+        "description": "Las copias de seguridad de la base de datos son instantáneas completas de recuperación. Utilízalas cuando quieras una copia de recuperación del espacio de trabajo de {{appName}}."
       },
       "notification": {
         "isAvailable": "está disponible"
@@ -2268,7 +2352,7 @@
       },
       "readable": {
         "enable": "Habilitar copias de seguridad legibles",
-        "description": "Las copias de seguridad Legibles escriben Segmentos, Conceptos y Notas como archivos Markdown o Word en una carpeta que elijas, para que tu trabajo siga siendo accesible fuera de {{appName}}.",
+        "description": "Las copias de seguridad legibles escriben Segmentos, Conceptos y Notas como archivos Markdown o Word en una carpeta que elijas, para que tu trabajo siga siendo accesible fuera de {{appName}}.",
         "disabled": "Activar copias de seguridad legibles para configurar carpetas, formatos y sincronización manual.",
         "implications": "La primera copia de seguridad crea archivos para contenido existente y puede tomar un tiempo, especialmente con DOCX. Puedes seguir escribiendo mientras se ejecuta. Las futuras ediciones se exportan después de aproximadamente {{seconds}} segundos de inactividad. Markdown es más rápido y portátil; DOCX es más rico pero más pesado. Cambiar la carpeta inicia una nueva sincronización en la nueva ubicación y deja los archivos antiguos sin tocar. Estos archivos legibles no son instantáneas comletas de la base de datos de la app; use Actualizaciones y Copias de seguridad para copias de seguridad de la base de datos."
       },
@@ -2372,7 +2456,7 @@
           "description": "Este informe de error ha sido revisado pero no será abordado."
         }
       },
-      "discordPrompt": "También puedes unirte a Discord para solicitudes de características, errores, capturas de pantalla, gráficos de historias y charla general sobre {{appName}}."
+      "discordPrompt": "También puedes unirte a Discord para hacer solicitudes de características, errores, compartir capturas de pantalla, gráficos de historias y charla general sobre {{appName}}."
     },
     "changelog": {
       "description": "Actualizaciones recientes y notas de la versión",
@@ -2443,6 +2527,13 @@
       "noIconsFound": "No se encontraron íconos",
       "recent": "Reciente",
       "selected": "Seleccionado"
+    },
+    "ui": {
+      "colorPicker": {
+        "hexColour": "Color hexadecimal",
+        "hexPlaceholder": "FFE o FFEECC",
+        "applyHexColour": "Aplicar color hexadecimal"
+      }
     },
     "wordUsage": {
       "title": "Uso de palabras",
@@ -2582,7 +2673,7 @@
         "vocabulary": "La variedad de palabras calcula cuántas palabras nuevas poco comunes aparecen por cada 100 palabras. Describe la textura; no es una puntuación de calidad.",
         "readability": "Una guía aproximada del esfuerzo que puede suponer la lectura del texto, basada en patrones cuantificables como la longitud de las frases, las repeticiones, la voz pasiva, los adverbios, los términos que parecen especializados, las palabras ambiguas y las grafías informales. Un texto exigente no es necesariamente peor; el público, el género y la finalidad son factores importantes.",
         "flow": "Cada barra vertical es una oración, coloreada por la longitud. Seleccione una longitud debajo para resaltar cada frase coincidente en el editor.",
-        "sentenceLength": "Los «buckets» son marcadores rítmicos de {{appName}}: 1-8, 9-16, 17-24 y 25 o más palabras. Sirven para identificar el ritmo, no para evaluar la corrección.",
+        "sentenceLength": "Los Cubos son marcadores rítmicos de {{appName}}: 1-8, 9-16, 17-24 y 25 o más palabras. Sirven para identificar el ritmo, no para evaluar la corrección.",
         "sentenceRhythm": "Cada barra representa una frase. Los pasajes largos se desplazan horizontalmente para que cada oración permanezca flotante.",
         "structure": "La densidad se calcula en función del número de palabras por párrafo. Las aperturas utilizan heurísticas sencillas basadas en listas de palabras para determinar cómo comienzan las frases.",
         "paragraphDensity": "La densidad se basa en palabras por párrafo: 1-25, 26-60, 61-100 y 101+ palabras.",

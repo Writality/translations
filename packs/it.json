@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "17e04c871403-it",
-  "sourceRevision": "17e04c871403507d7934902794de7e99dd24fabf",
+  "version": "b96d23c1c468-it",
+  "sourceRevision": "b96d23c1c46884a371fe60dbd34101b7dea3e22a",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -64,6 +64,7 @@
       },
       "toggleDates": "Toggle dates",
       "noDatesLinked": "No dates linked yet.",
+      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
       "previewSegment": "Preview {{name}}"
     },
     "timeSystem": {
@@ -290,6 +291,7 @@
       "continue": "Continua",
       "cancel": "Annulla",
       "clear": "Reimposta",
+      "clearSelection": "Clear selection",
       "import": "Importa",
       "export": "Esporta",
       "edit": "Modifica",
@@ -350,6 +352,7 @@
         "addImage": "Aggiungi immagine",
         "addNote": "Aggiungi nota",
         "addRelationship": "Aggiungi Relazione",
+        "resizeSidebar": "Resize sidebar",
         "added": "Aggiunti",
         "afterMonth": "Dopo mese",
         "aliases": "Alias",
@@ -369,6 +372,7 @@
         "commandsShortcuts": "Comandi & Scorciatoie",
         "concept": "concetto",
         "content": "Contenuto",
+        "archive": "Archive",
         "create": "Crea",
         "createMyOwnTheme": "Crea un mio tema",
         "createType": "Crea tipo",
@@ -647,6 +651,9 @@
       }
     },
     "concept": {
+      "typeSelector": {
+        "removeType": "Remove type"
+      },
       "typeTree": {
         "title": "Type Hierarchy",
         "emptyDescription": "No types yet. Types help organise your concepts into categories.",
@@ -682,6 +689,7 @@
         "checkingUsage": "Checking usage...",
         "aliasOptions": "Alias options",
         "addAliasAriaLabel": "Add alias",
+        "emptyDescription": "Aliases let you refer to this concept by alternate names, titles, or spellings, making it easier to find and link while you write.",
         "removeAliasDescription": "This alias is used in {{mentionCount}} mention across {{sourceCount}} item. Removing it keeps all links intact, and those mentions will display the concept name instead."
       },
       "sidebar": {
@@ -715,6 +723,7 @@
         "removeAriaLabel": "Remove attribute value",
         "existingAttributes": "Existing attributes",
         "cancelAddAriaLabel": "Cancel add attribute",
+        "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Select concept...",
         "importNoConcepts": "No concepts found."
       }
@@ -722,9 +731,14 @@
     "relationships": {
       "editor": {
         "addDescription": "Create a new relationship between entities.",
+        "editTitle": "Edit relationship",
+        "editDescription": "Update this relationship's type or notes.",
+        "saveChanges": "Save changes",
         "currentlySource": "Currently the source",
         "currentlyTarget": "Currently the target",
         "flipSourceTarget": "Flip source and target",
+        "entityToLink": "Concept or segment to link",
+        "selectEntityPlaceholder": "Select a concept or segment to link...",
         "createNewType": "Create new type…",
         "typePlaceholder": "Eg. Family | Faction | Friend...",
         "notesPlaceholder": "Notes (optional)",
@@ -878,8 +892,44 @@
     },
     "overview": {
       "stories": "Stories",
+      "classicView": "Classic view",
       "newStory": "New Story",
       "templateStory": "Template Story",
+      "resizeArchiveShelf": "Resize archived stories shelf",
+      "noArchivedProjects": "No projects archived",
+      "moveEarlier": "Move earlier",
+      "moveLater": "Move later",
+      "bookDimensions": "Book dimensions",
+      "bookWidth": "Width",
+      "bookHeight": "Height",
+      "leanAmount": "Lean",
+      "bookDesign": "Book design",
+      "spineVariants": {
+        "cloth": {
+          "name": "Matte Cloth",
+          "blurb": "Flat colour, faint woven grain"
+        },
+        "leather": {
+          "name": "Soft Grain",
+          "blurb": "Subtle mottled texture"
+        },
+        "linen": {
+          "name": "Linen Weave",
+          "blurb": "Light crosshatch texture"
+        },
+        "vintage": {
+          "name": "Vintage",
+          "blurb": "Faded with quiet head/tail bands"
+        },
+        "modern": {
+          "name": "Modern Matte",
+          "blurb": "Flat with one soft edge line"
+        },
+        "suede": {
+          "name": "Suede",
+          "blurb": "Even colour, whisper of top light"
+        }
+      },
       "updatedToday": "Updated Today",
       "updatedThisWeek": "Updated This Week",
       "updatedThisMonth": "Updated This Month",
@@ -887,6 +937,9 @@
     },
     "projectCard": {
       "createNewProject": "Create new project",
+      "changeColor": "Change project colour",
+      "openProject": "Open {{name}}",
+      "optionsForProject": "Options for {{name}}",
       "segmentsCount": "{{count}} segments",
       "conceptsCount": "{{count}} concepts"
     },
@@ -1021,7 +1074,8 @@
         "divider": "Divider",
         "backToDefault": "Back to default",
         "noFill": "No fill",
-        "moreColours": "More colours"
+        "moreColours": "More colours",
+        "setDefaultFontSize": "Set {{size}} as default"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Could not render snippet preview"
@@ -1044,14 +1098,18 @@
     "outline": {
       "loading": "Loading outline…",
       "error": "The outline could not be loaded.",
-      "noTodos": "No todos yet",
       "totalTodos": "Total todos",
       "empty": "Add a segment or folder from the graph to begin outlining your story.",
       "outlineTodos": "Outline todos",
-      "noRelationships": "No segment relationships yet."
+      "noTodos": "No todos yet.",
+      "noRelationships": "No relationships yet."
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
+      "openSegment": "Open segment",
+      "addReferenceImage": "Add reference image",
+      "addReferenceImageTo": "Add reference image to {{name}}",
+      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Add relationship to {{name}}",
       "completedCount": "{{count}} completed",
       "editSegmentTitle": "Edit segment title: {{name}}",
@@ -1060,8 +1118,11 @@
       "noOpeningText": "No opening text yet.",
       "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
       "noTasksOnSegment": "No tasks on this segment yet.",
+      "noDatedFiles": "No dated files yet.",
       "noneYet": "None yet",
       "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
+      "folderSidebar": "Folder sidebar",
+      "storyMap": "Story map",
       "totalCount": "{{count}} total",
       "viewMore": "View {{count}} more"
     },
@@ -1082,6 +1143,7 @@
       "titleSpacingTooltip": "Title spacing: {{mode}}",
       "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
+      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
@@ -1101,6 +1163,7 @@
         "dimMode": "Fades inactive paragraphs to keep focus on the current paragraph.",
         "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
         "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
+        "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
         "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
       },
       "modes": {
@@ -1580,7 +1643,7 @@
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
       "noMatchingPages": "No matching pages.",
-      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "noPagesToAdd": "All default pages are already in navigation. You can search to add a custom pages.",
       "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
       "changePageIcon": "Change icon",
       "hidePage": "Remove {{page}}",
@@ -1636,7 +1699,11 @@
         "chooseTags": "Choose tags",
         "showNone": "Show none",
         "excludeAllConceptsFromWordCount": "Exclude all concepts from word count",
-        "includeAllConceptsInWordCount": "Include all concepts in word count"
+        "includeAllConceptsInWordCount": "Include all concepts in word count",
+        "disableHoverPreview": "Disable hover preview",
+        "enableHoverPreview": "Enable hover preview",
+        "disableFadedDotBackground": "Disable faded dot background",
+        "enableFadedDotBackground": "Enable faded dot background"
       },
       "items": {
         "openItem": "Open {{type}}: {{name}}",
@@ -1754,7 +1821,8 @@
       "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
       "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
       "compareVersions": "Compare versions",
-      "major": "Major"
+      "major": "Major",
+      "createMajor": "Create major version"
     },
     "coming_soon": {
       "title": "Coming soon",
@@ -1863,6 +1931,25 @@
         "title": "Show-and-tell",
         "description": "I keep building graph and story tools because I want people to use them for strange, specific, beautiful projects. Please show me."
       }
+    },
+    "supportSettings": {
+      "navigationLabel": "Support {{appName}}",
+      "title": "Support {{appName}}",
+      "description": "Help keep {{appName}} free and moving forward.",
+      "eyebrow": "Optional support",
+      "heroTitle": "Creativity must be free.",
+      "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
+      "promiseTitle": "What your support changes",
+      "promiseDescription": "If you choose to donate, your support gives me more time to improve the app, polish what is already here, and get {{appName}} into more writers' hands.",
+      "moreTimeTitle": "More time to build",
+      "moreTimeDescription": "More features, thoughtful polish, and room to pay down technical debt.",
+      "costsTitle": "Practical costs",
+      "costsDescription": "Help with essentials such as signing the Windows app and keeping the project moving.",
+      "ctaTitle": "If you can help",
+      "ctaDescription": "You can support {{appName}} directly through Patreon. Every contribution helps, but using the app will never depend on one.",
+      "accessDescription": "If donating is comfortable for you, please feel free. Your support helps keep {{appName}} a wonderful free app for writers who cannot afford paid tools. Please never stretch your budget. Remember even $1 is a lot of money in many parts of the world.",
+      "cta": "Support on Patreon",
+      "optional": "Completely optional. {{appName}} remains free either way."
     },
     "workspace": {
       "description": "Customise your workspace appearance and preferences",
@@ -2439,7 +2526,14 @@
       "loadMore": "Carica altre ({{count}} rimaste)",
       "noIconsFound": "Nessuna icona trovata",
       "recent": "Recenti",
-      "selected": "Selezionata"
+      "selected": "Selected"
+    },
+    "ui": {
+      "colorPicker": {
+        "hexColour": "Hex colour",
+        "hexPlaceholder": "FFE or FFEECC",
+        "applyHexColour": "Apply hex colour"
+      }
     },
     "wordUsage": {
       "title": "Word Usage",

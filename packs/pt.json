@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "17e04c871403-pt",
-  "sourceRevision": "17e04c871403507d7934902794de7e99dd24fabf",
+  "version": "b96d23c1c468-pt",
+  "sourceRevision": "b96d23c1c46884a371fe60dbd34101b7dea3e22a",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -64,7 +64,7 @@
       },
       "toggleDates": "Alternar datas",
       "noDatesLinked": "Nenhuma data associada",
-      "noDatesLinkedDescription": "Vincule datas para situar este conceito na cronologia da sua história, acompanhar acontecimentos importantes e manter a linha do tempo coerente.",
+      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
       "previewSegment": "Pré-visualizar {{name}}"
     },
     "timeSystem": {
@@ -291,6 +291,7 @@
       "continue": "Continuar",
       "cancel": "Cancelar",
       "clear": "Limpar",
+      "clearSelection": "Clear selection",
       "import": "Importar",
       "export": "Exportar",
       "edit": "Editar",
@@ -351,6 +352,7 @@
         "addImage": "Adicionar imagem",
         "addNote": "Adicionar nota",
         "addRelationship": "Adicionar relacionamento",
+        "resizeSidebar": "Resize sidebar",
         "added": "Adicionado",
         "afterMonth": "Após o mês",
         "aliases": "Nomes alternativos",
@@ -370,6 +372,7 @@
         "commandsShortcuts": "Comandos e Atalhos",
         "concept": "conceito",
         "content": "Conteúdo",
+        "archive": "Archive",
         "create": "Criar",
         "createMyOwnTheme": "Criar meu próprio tema",
         "createType": "Criar tipo",
@@ -648,6 +651,9 @@
       }
     },
     "concept": {
+      "typeSelector": {
+        "removeType": "Remove type"
+      },
       "typeTree": {
         "title": "Hierarquia do tipo",
         "emptyDescription": "Ainda não há tipos. Tipos ajudam a organizar seus conceitos em categorias.",
@@ -683,7 +689,7 @@
         "checkingUsage": "Verificando utilização...",
         "aliasOptions": "Opções de nome alternativo",
         "addAliasAriaLabel": "Adicionar nome alternativo",
-        "emptyDescription": "Nomes alternativos permitem referir-se a este conceito por outros nomes, títulos ou grafias, tornando mais fácil encontrá-lo e vinculá-lo enquanto escreve.",
+        "emptyDescription": "Aliases let you refer to this concept by alternate names, titles, or spellings, making it easier to find and link while you write.",
         "removeAliasDescription": "Este nome alternativo é usado em {{mentionCount}} menções em {{sourceCount}} itens. Removê-lo mantém todas as ligações intactas, e passa a exibir o nome do conceito em todas as menções."
       },
       "sidebar": {
@@ -717,7 +723,7 @@
         "removeAriaLabel": "Remover valor do atributo",
         "existingAttributes": "Atributos existentes",
         "cancelAddAriaLabel": "Cancelar adição de atributo",
-        "emptyDescription": "Os atributos guardam factos rápidos sobre este conceito, como função, localização ou aparência, para que os detalhes importantes sejam fáceis de consultar.",
+        "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Selecione um conceito...",
         "importNoConcepts": "Nenhum conceito encontrado."
       }
@@ -725,9 +731,14 @@
     "relationships": {
       "editor": {
         "addDescription": "Criar relacionamento entre as entidades.",
+        "editTitle": "Edit relationship",
+        "editDescription": "Update this relationship's type or notes.",
+        "saveChanges": "Save changes",
         "currentlySource": "Atualmente a fonte",
         "currentlyTarget": "Atualmente o alvo",
         "flipSourceTarget": "Trocar origem e destino",
+        "entityToLink": "Concept or segment to link",
+        "selectEntityPlaceholder": "Select a concept or segment to link...",
         "createNewType": "Criar tipo…",
         "typePlaceholder": "Ex: família, facção, amigo...",
         "notesPlaceholder": "Notas (opcional)",
@@ -881,8 +892,44 @@
     },
     "overview": {
       "stories": "Histórias",
+      "classicView": "Classic view",
       "newStory": "Nova história",
       "templateStory": "História modelo",
+      "resizeArchiveShelf": "Resize archived stories shelf",
+      "noArchivedProjects": "No projects archived",
+      "moveEarlier": "Move earlier",
+      "moveLater": "Move later",
+      "bookDimensions": "Book dimensions",
+      "bookWidth": "Width",
+      "bookHeight": "Height",
+      "leanAmount": "Lean",
+      "bookDesign": "Book design",
+      "spineVariants": {
+        "cloth": {
+          "name": "Matte Cloth",
+          "blurb": "Flat colour, faint woven grain"
+        },
+        "leather": {
+          "name": "Soft Grain",
+          "blurb": "Subtle mottled texture"
+        },
+        "linen": {
+          "name": "Linen Weave",
+          "blurb": "Light crosshatch texture"
+        },
+        "vintage": {
+          "name": "Vintage",
+          "blurb": "Faded with quiet head/tail bands"
+        },
+        "modern": {
+          "name": "Modern Matte",
+          "blurb": "Flat with one soft edge line"
+        },
+        "suede": {
+          "name": "Suede",
+          "blurb": "Even colour, whisper of top light"
+        }
+      },
       "updatedToday": "Atualizado hoje",
       "updatedThisWeek": "Atualizado esta semana",
       "updatedThisMonth": "Atualizado este mês",
@@ -890,6 +937,9 @@
     },
     "projectCard": {
       "createNewProject": "Criar novo projeto",
+      "changeColor": "Change project colour",
+      "openProject": "Open {{name}}",
+      "optionsForProject": "Options for {{name}}",
       "segmentsCount": "{{count}} segmentos",
       "conceptsCount": "{{count}} conceitos"
     },
@@ -921,8 +971,8 @@
         "pastedImage": "Imagem colada",
         "saveFailed": "Não foi possível salvar a imagem.",
         "saveIt": "Salve",
-        "unsavedAria": "A imagem não está salva no {{appName}}",
-        "unsavedDescription": "Esta imagem não está salva no {{appName}}. Salve-a para adicioná-la à sua galeria de imagens com uma miniatura."
+        "unsavedAria": "A imagem não está salva no  {{appName}}",
+        "unsavedDescription": "Esta imagem não está salva no  {{appName}}. Salve-a para adicioná-la à sua galeria de imagens com uma miniatura."
       },
       "menu": {
         "exportAsJson": "Exportar como JSON",
@@ -1024,7 +1074,8 @@
         "divider": "Divisória",
         "backToDefault": "Voltar ao padrão",
         "noFill": "Sem preenchimento",
-        "moreColours": "Mais cores"
+        "moreColours": "Mais cores",
+        "setDefaultFontSize": "Set {{size}} as default"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Não foi possível renderizar a pré-visualização do trecho"
@@ -1047,14 +1098,18 @@
     "outline": {
       "loading": "Carregando esboço",
       "error": "O esboço não pôde ser carregado.",
-      "noTodos": "Ainda não há tarefas",
       "totalTodos": "Total de tarefas",
       "empty": "Adicione um segmento ou pasta do gráfico para começar a esboçar sua história.",
       "outlineTodos": "Tarefas do esboço",
+      "noTodos": "Ainda não há tarefas.",
       "noRelationships": "Ainda não há relacionamentos entre segmentos."
     },
     "planning": {
       "addNoteTo": "Adicionar nota a {{name}}",
+      "openSegment": "Open segment",
+      "addReferenceImage": "Add reference image",
+      "addReferenceImageTo": "Add reference image to {{name}}",
+      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Adicionar relação com {{name}}",
       "completedCount": "{{count}} concluídos",
       "editSegmentTitle": "Editar título do segmento: {{name}}",
@@ -1063,8 +1118,11 @@
       "noOpeningText": "Ainda não há texto de abertura",
       "noSegmentsDescription": "Crie o primeiro segmento nesta pasta para começar a moldar a linha do tempo desta história.",
       "noTasksOnSegment": "Ainda não há tarefas neste segmento.",
+      "noDatedFiles": "No dated files yet.",
       "noneYet": "Ainda não há nada",
       "relationshipsAcrossSegments_one": "{{count}} relacionamentos entre segmentos diretos.",
+      "folderSidebar": "Folder sidebar",
+      "storyMap": "Story map",
       "totalCount": "{{count}} no total",
       "viewMore": "Ver {{count}} mais"
     },
@@ -1085,6 +1143,7 @@
       "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
       "textAlignTooltip": "Alinhamento do texto: {{mode}}",
       "showScrollbar": "Exibir barra de rolagem",
+      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indentar parágrafos",
       "typewriterMode": "Modo máquina de escrever",
       "dimMode": "Focar parágrafo atual",
@@ -1104,6 +1163,7 @@
         "dimMode": "Esmaece os parágrafos inativos para manter o foco no parágrafo atual.",
         "typewriterBlur": "Desfoca os parágrafos inativos, mantendo o parágrafo atual nítido.",
         "hemingwayMode": "Escrita sem volta: bloqueia o uso do backspace e mover o cursor para trás.",
+        "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
         "fixedEditorToolbar": "Mantém os controles de formatação fixados no editor, inclusive no modo zen."
       },
       "modes": {
@@ -1583,7 +1643,7 @@
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
       "noMatchingPages": "No matching pages.",
-      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "noPagesToAdd": "All default pages are already in navigation. You can search to add a custom pages.",
       "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
       "changePageIcon": "Change icon",
       "hidePage": "Remove {{page}}",
@@ -1605,8 +1665,8 @@
     "tabs": {
       "openTab": "Abrir aba {{name}}",
       "closeTab": "Fechar aba {{name}}",
-      "reorderTab": "Reordenar aba {{name}}",
-      "reorderInstructions": "Pressione Espaço para selecionar uma aba, use as setas para movê-la e pressione Espaço novamente para soltá-la.",
+      "reorderTab": "Reorder tab {{name}}",
+      "reorderInstructions": "Press Space to pick up a tab, use the arrow keys to move it, then press Space to drop it.",
       "splitView": "Esta aba contém visualização dividida",
       "exitSplitView": "Sair da visualização dividida nesta aba",
       "loadingPane": "Carregando painel...",
@@ -1639,7 +1699,11 @@
         "chooseTags": "Selecionar marcadores",
         "showNone": "Não mostrar nenhum",
         "excludeAllConceptsFromWordCount": "Excluir todos os conceitos da contagem de palavras",
-        "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras"
+        "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras",
+        "disableHoverPreview": "Disable hover preview",
+        "enableHoverPreview": "Enable hover preview",
+        "disableFadedDotBackground": "Disable faded dot background",
+        "enableFadedDotBackground": "Enable faded dot background"
       },
       "items": {
         "openItem": "Abrir {{type}}: {{name}}",
@@ -1660,7 +1724,7 @@
         "changeFolderIcon": "Alterar ícone da pasta",
         "changeFolderColor": "Alterar cor da pasta",
         "excludeFromWordCount": "Excluir da contagem de palavras",
-        "excludeFromOutline": "Excluir do esboço",
+        "excludeFromOutline": "Exclude from outline",
         "excludedFromWordCount": "Excluído da contagem de palavras",
         "types": {
           "segment": "segmento"
@@ -1757,7 +1821,8 @@
       "fileDescription": "Versões são criadas automaticamente quando você salva seu arquivo. Por padrão, uma nova versão é criada a cada 200 palavras adicionadas ou excluídas.",
       "entityDescription": "Versões são criadas automaticamente quando você salva seu {{entityName}}. Por padrão, uma nova versão é criada a cada 100 palavras adicionadas ou excluídas.",
       "compareVersions": "Comparar versões",
-      "major": "Principal"
+      "major": "Principal",
+      "createMajor": "Create major version"
     },
     "coming_soon": {
       "title": "Em breve",
@@ -1844,7 +1909,7 @@
         "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Suporte por e-mail em {{supportEmail}}",
-      "helpDescription": "Obtenha ajuda e suporte para usar a {{appName}}",
+      "helpDescription": "Obtenha ajuda e suporte para usar o {{appName}}",
       "helpPrompt": "Precisa de ajuda ou quer falar?"
     },
     "discordInvite": {
@@ -1866,6 +1931,25 @@
         "title": "Mostrar/ocultar",
         "description": "Eu continuo construindo gráficos e ferramentas de história porque quero que as pessoas os usem para projetos estranhos, específicos e bonitos. Por favor, mostre-me."
       }
+    },
+    "supportSettings": {
+      "navigationLabel": "Support {{appName}}",
+      "title": "Support {{appName}}",
+      "description": "Help keep {{appName}} free and moving forward.",
+      "eyebrow": "Optional support",
+      "heroTitle": "Creativity must be free.",
+      "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
+      "promiseTitle": "What your support changes",
+      "promiseDescription": "If you choose to donate, your support gives me more time to improve the app, polish what is already here, and get {{appName}} into more writers' hands.",
+      "moreTimeTitle": "More time to build",
+      "moreTimeDescription": "More features, thoughtful polish, and room to pay down technical debt.",
+      "costsTitle": "Practical costs",
+      "costsDescription": "Help with essentials such as signing the Windows app and keeping the project moving.",
+      "ctaTitle": "If you can help",
+      "ctaDescription": "You can support {{appName}} directly through Patreon. Every contribution helps, but using the app will never depend on one.",
+      "accessDescription": "If donating is comfortable for you, please feel free. Your support helps keep {{appName}} a wonderful free app for writers who cannot afford paid tools. Please never stretch your budget. Remember even $1 is a lot of money in many parts of the world.",
+      "cta": "Support on Patreon",
+      "optional": "Completely optional. {{appName}} remains free either way."
     },
     "workspace": {
       "description": "Personalize a aparência e as preferências do seu espaço de trabalho",
@@ -2442,7 +2526,14 @@
       "loadMore": "Carregar Mais ({{count}} restantes)",
       "noIconsFound": "Nenhum ícone encontrado",
       "recent": "Recente",
-      "selected": "Selecionado"
+      "selected": "Selected"
+    },
+    "ui": {
+      "colorPicker": {
+        "hexColour": "Hex colour",
+        "hexPlaceholder": "FFE or FFEECC",
+        "applyHexColour": "Apply hex colour"
+      }
     },
     "wordUsage": {
       "title": "Uso de palavras",

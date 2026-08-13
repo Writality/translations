@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "17e04c871403-fr",
-  "sourceRevision": "17e04c871403507d7934902794de7e99dd24fabf",
+  "version": "b96d23c1c468-fr",
+  "sourceRevision": "b96d23c1c46884a371fe60dbd34101b7dea3e22a",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -64,6 +64,7 @@
       },
       "toggleDates": "Toggle dates",
       "noDatesLinked": "No dates linked yet.",
+      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
       "previewSegment": "Preview {{name}}"
     },
     "timeSystem": {
@@ -290,6 +291,7 @@
       "continue": "Continue",
       "cancel": "Cancel",
       "clear": "Clear",
+      "clearSelection": "Clear selection",
       "import": "Import",
       "export": "Export",
       "edit": "Edit",
@@ -350,6 +352,7 @@
         "addImage": "Add image",
         "addNote": "Add note",
         "addRelationship": "Add Relationship",
+        "resizeSidebar": "Resize sidebar",
         "added": "Added",
         "afterMonth": "After month",
         "aliases": "Aliases",
@@ -369,6 +372,7 @@
         "commandsShortcuts": "Commands & Shortcuts",
         "concept": "concept",
         "content": "Content",
+        "archive": "Archive",
         "create": "Create",
         "createMyOwnTheme": "Create my own theme",
         "createType": "Create type",
@@ -647,6 +651,9 @@
       }
     },
     "concept": {
+      "typeSelector": {
+        "removeType": "Remove type"
+      },
       "typeTree": {
         "title": "Type Hierarchy",
         "emptyDescription": "No types yet. Types help organise your concepts into categories.",
@@ -682,6 +689,7 @@
         "checkingUsage": "Checking usage...",
         "aliasOptions": "Alias options",
         "addAliasAriaLabel": "Add alias",
+        "emptyDescription": "Aliases let you refer to this concept by alternate names, titles, or spellings, making it easier to find and link while you write.",
         "removeAliasDescription": "This alias is used in {{mentionCount}} mention across {{sourceCount}} item. Removing it keeps all links intact, and those mentions will display the concept name instead."
       },
       "sidebar": {
@@ -715,6 +723,7 @@
         "removeAriaLabel": "Remove attribute value",
         "existingAttributes": "Existing attributes",
         "cancelAddAriaLabel": "Cancel add attribute",
+        "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Select concept...",
         "importNoConcepts": "No concepts found."
       }
@@ -722,9 +731,14 @@
     "relationships": {
       "editor": {
         "addDescription": "Create a new relationship between entities.",
+        "editTitle": "Edit relationship",
+        "editDescription": "Update this relationship's type or notes.",
+        "saveChanges": "Save changes",
         "currentlySource": "Currently the source",
         "currentlyTarget": "Currently the target",
         "flipSourceTarget": "Flip source and target",
+        "entityToLink": "Concept or segment to link",
+        "selectEntityPlaceholder": "Select a concept or segment to link...",
         "createNewType": "Create new type…",
         "typePlaceholder": "Eg. Family | Faction | Friend...",
         "notesPlaceholder": "Notes (optional)",
@@ -878,8 +892,44 @@
     },
     "overview": {
       "stories": "Stories",
+      "classicView": "Classic view",
       "newStory": "New Story",
       "templateStory": "Template Story",
+      "resizeArchiveShelf": "Resize archived stories shelf",
+      "noArchivedProjects": "No projects archived",
+      "moveEarlier": "Move earlier",
+      "moveLater": "Move later",
+      "bookDimensions": "Book dimensions",
+      "bookWidth": "Width",
+      "bookHeight": "Height",
+      "leanAmount": "Lean",
+      "bookDesign": "Book design",
+      "spineVariants": {
+        "cloth": {
+          "name": "Matte Cloth",
+          "blurb": "Flat colour, faint woven grain"
+        },
+        "leather": {
+          "name": "Soft Grain",
+          "blurb": "Subtle mottled texture"
+        },
+        "linen": {
+          "name": "Linen Weave",
+          "blurb": "Light crosshatch texture"
+        },
+        "vintage": {
+          "name": "Vintage",
+          "blurb": "Faded with quiet head/tail bands"
+        },
+        "modern": {
+          "name": "Modern Matte",
+          "blurb": "Flat with one soft edge line"
+        },
+        "suede": {
+          "name": "Suede",
+          "blurb": "Even colour, whisper of top light"
+        }
+      },
       "updatedToday": "Updated Today",
       "updatedThisWeek": "Updated This Week",
       "updatedThisMonth": "Updated This Month",
@@ -887,6 +937,9 @@
     },
     "projectCard": {
       "createNewProject": "Create new project",
+      "changeColor": "Change project colour",
+      "openProject": "Open {{name}}",
+      "optionsForProject": "Options for {{name}}",
       "segmentsCount": "{{count}} segments",
       "conceptsCount": "{{count}} concepts"
     },
@@ -1021,7 +1074,8 @@
         "divider": "Divider",
         "backToDefault": "Back to default",
         "noFill": "No fill",
-        "moreColours": "More colours"
+        "moreColours": "More colours",
+        "setDefaultFontSize": "Set {{size}} as default"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Could not render snippet preview"
@@ -1044,14 +1098,18 @@
     "outline": {
       "loading": "Loading outline…",
       "error": "The outline could not be loaded.",
-      "noTodos": "No todos yet",
       "totalTodos": "Total todos",
       "empty": "Add a segment or folder from the graph to begin outlining your story.",
       "outlineTodos": "Outline todos",
-      "noRelationships": "No segment relationships yet."
+      "noTodos": "No todos yet.",
+      "noRelationships": "No relationships yet."
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
+      "openSegment": "Open segment",
+      "addReferenceImage": "Add reference image",
+      "addReferenceImageTo": "Add reference image to {{name}}",
+      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Add relationship to {{name}}",
       "completedCount": "{{count}} completed",
       "editSegmentTitle": "Edit segment title: {{name}}",
@@ -1060,8 +1118,11 @@
       "noOpeningText": "No opening text yet.",
       "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
       "noTasksOnSegment": "No tasks on this segment yet.",
+      "noDatedFiles": "No dated files yet.",
       "noneYet": "None yet",
       "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
+      "folderSidebar": "Folder sidebar",
+      "storyMap": "Story map",
       "totalCount": "{{count}} total",
       "viewMore": "View {{count}} more"
     },
@@ -1082,6 +1143,7 @@
       "titleSpacingTooltip": "Title spacing: {{mode}}",
       "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
+      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
@@ -1101,6 +1163,7 @@
         "dimMode": "Fades inactive paragraphs to keep focus on the current paragraph.",
         "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
         "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
+        "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
         "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
       },
       "modes": {
@@ -1580,7 +1643,7 @@
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
       "noMatchingPages": "No matching pages.",
-      "noPagesToAdd": "All default pages are already in navigation. Search to add a shortcut.",
+      "noPagesToAdd": "All default pages are already in navigation. You can search to add a custom pages.",
       "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",
       "changePageIcon": "Change icon",
       "hidePage": "Remove {{page}}",
@@ -1636,7 +1699,11 @@
         "chooseTags": "Choose tags",
         "showNone": "Show none",
         "excludeAllConceptsFromWordCount": "Exclude all concepts from word count",
-        "includeAllConceptsInWordCount": "Include all concepts in word count"
+        "includeAllConceptsInWordCount": "Include all concepts in word count",
+        "disableHoverPreview": "Disable hover preview",
+        "enableHoverPreview": "Enable hover preview",
+        "disableFadedDotBackground": "Disable faded dot background",
+        "enableFadedDotBackground": "Enable faded dot background"
       },
       "items": {
         "openItem": "Open {{type}}: {{name}}",
@@ -1754,7 +1821,8 @@
       "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
       "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
       "compareVersions": "Compare versions",
-      "major": "Major"
+      "major": "Major",
+      "createMajor": "Create major version"
     },
     "coming_soon": {
       "title": "Coming soon",
@@ -1824,117 +1892,136 @@
     },
     "settings": {
       "groups": {
-        "workspace": "Workspace",
-        "data": "Data",
-        "troubleshooting": "Troubleshooting",
+        "workspace": "Zone de travail",
+        "data": "Données",
+        "troubleshooting": "Dépannage",
         "support": "Support"
       },
       "sections": {
-        "editor": "Editor",
-        "import": "Import Files",
-        "workspaceLocation": "Workspace Location",
-        "help": "Need help?"
+        "editor": "Éditeur",
+        "import": "Importer des fichiers",
+        "workspaceLocation": "Emplacement de la zone de travail",
+        "help": "Besoin d'aide ?"
       },
       "search": {
-        "placeholder": "Search settings",
-        "clear": "Clear settings search",
-        "noResults": "No settings match \"{{query}}\""
+        "placeholder": "Paramètres de recherche",
+        "clear": "Effacer la recherche de paramètres",
+        "noResults": "Aucun paramètre ne correspond à \"{{query}}\""
       },
-      "emailSupport": "Email support at {{supportEmail}}",
-      "helpDescription": "Get help and support for using {{appName}}",
-      "helpPrompt": "Need help or want to talk?"
+      "emailSupport": "Envoyer un e-mail au support à {{supportEmail}}",
+      "helpDescription": "Obtenez de l'aide pour utiliser {{appName}}",
+      "helpPrompt": "Besoin d'aide ou envie d'échanger ?"
     },
     "discordInvite": {
       "eyebrow": "{{appName}} Discord",
-      "title": "Come show me what you are building ;)",
-      "description": "Bugs and feature requests are still welcome in the app, but Discord is the better place for in-depth discussions: screenshots, story graphs, questions, bugs that require more details, tiny wins, and the ideas that may require a back and forth."
+      "title": "Viens me montrer ce que tu construis ;)",
+      "description": "Les rapports de bugs et demandes de fonctionnalités restent les bienvenus dans l'app, mais Discord est l'endroit idéal pour les discussions plus poussées : captures d'écran, graphes narratifs, questions, bugs nécessitant plus de détails, petites victoires, et les idées qui demandent des échanges."
     },
     "discordSettings": {
-      "description": "Share feedback, bugs, feature requests, stories, and graphs.",
+      "description": "Partage tes retours, bugs, demandes de fonctionnalités, histoires et graphes.",
       "featureRequests": {
-        "title": "Feature requests",
-        "description": "The app form is useful, but in case we need more we have Discord now. We can talk through the shape of features and share reference images."
+        "title": "Demande de fonctionnalités",
+        "description": "Le formulaire de l'app est utile, mais si on a besoin d'aller plus loin, on a maintenant Discord. On peut discuter en détail de la forme des fonctionnalités et partager des images de référence."
       },
       "bugsWithContext": {
-        "title": "Bugs with context",
-        "description": "Some bugs need a screenshot, a short back-and-forth, or the exact shape of a workspace. This gives us room for that."
+        "title": "Bugs avec contexte",
+        "description": "Certains bugs ont besoin d'une capture d'écran, d'un court retour en arrière ou de la forme exacte d'un espace de travail. Cela nous donne de la place pour cela."
       },
       "showAndTell": {
-        "title": "Show-and-tell",
-        "description": "I keep building graph and story tools because I want people to use them for strange, specific, beautiful projects. Please show me."
+        "title": "Partage & présentation",
+        "description": "Je continue à développer des outils de graphes et d'histoires parce que je veux que les gens les utilisent pour des projets étranges, spécifiques, magnifiques. Montrez-moi ça."
       }
     },
+    "supportSettings": {
+      "navigationLabel": "Soutenir {{appName}}",
+      "title": "Soutenir {{appName}}",
+      "description": "Aide à garder {{appName}} gratuit et à le faire avancer.",
+      "eyebrow": "Support optionnel",
+      "heroTitle": "La créativité doit être gratuite.",
+      "heroDescription": "L'écriture, la création d'univers, la cartographie et le récit devraient être accessibles à tous. Les fonctionnalités principales de {{appName}} resteront gratuites, sans blocage de fonctionnalité ni cartes cachées derrière un palier payant.",
+      "promiseTitle": "Ce que votre support change",
+      "promiseDescription": "Si tu choisis de faire un don, ton soutien me donne plus de temps pour améliorer l'app, peaufiner ce qui existe déjà, et faire connaître {{appName}} auprès de davantage d'écrivains.",
+      "moreTimeTitle": "Plus de temps pour la construction",
+      "moreTimeDescription": "Plus de fonctionnalités, plus de détails et plus de place pour rembourser la dette technique.",
+      "costsTitle": "Coûts pratiques",
+      "costsDescription": "Aide à couvrir les besoins essentiels comme la signature de l'app Windows et faire avancer le projet.",
+      "ctaTitle": "Si tu peux aider",
+      "ctaDescription": "Tu peux soutenir {{appName}} directement via Patreon. Chaque contribution compte, mais l'utilisation de l'app ne dépendra jamais d'un don.",
+      "accessDescription": "Si faire un don te met à l'aise, n'hésite pas. Ton soutien aide à faire de {{appName}} une belle app gratuite pour les écrivains qui n'ont pas les moyens d'outils payants. Ne dépasse jamais ton budget pour autant. Rappelle-toi que même 1 $ représente beaucoup d'argent dans de nombreuses régions du monde.",
+      "cta": "Soutenir sur Patreon",
+      "optional": "Complètement optionnel. {{appName}} rester gratuit dans touts les cas."
+    },
     "workspace": {
-      "description": "Customise your workspace appearance and preferences",
+      "description": "Personnalise l'apparence et les préférences de votre espace de travail",
       "editorAppearance": {
-        "previewDescription": "Preview how your editor will look",
-        "conceptTitle": "Concept editor appearance",
+        "previewDescription": "Aperçu de l'apparence de l'éditeur",
+        "conceptTitle": "Apparence de l'éditeur de Concept",
         "description": "Customise editor backgrounds and labels.",
-        "segmentTitle": "Segment editor appearance",
-        "switchTo": "Switch view",
-        "title": "Editor appearance"
+        "segmentTitle": "Apparence de l'éditeur de Segments",
+        "switchTo": "Changer de vue",
+        "title": "Apparence de l'éditeur"
       },
       "theme": {
-        "title": "Theme",
-        "description": "Choose your preferred interface theme. We have custom themes for you to choose from and ensure a comfortable writing experience.",
-        "showLess": "Show Less",
-        "browseAll": "Browse All {{count}} Themes",
+        "title": "Thème",
+        "description": "Choisis ton thème d'interface préféré. Nous avons des thèmes personnalisés pour garantir une expérience d'écriture confortable.",
+        "showLess": "Afficher moins",
+        "browseAll": "Parcourir les {{count}} thèmes",
         "customTheme": {
-          "import": "Import theme",
-          "description": "Name your theme, tune the colour classes, and preview how common app UI will look.",
-          "name": "Theme name",
-          "save": "Save theme",
-          "saved": "Theme saved",
-          "deleted": "Theme deleted",
-          "imported": "Theme imported",
-          "exported": "Theme exported",
-          "conflict": "Theme name conflicts with an existing theme",
-          "defaultName": "My Theme",
-          "defaultSlug": "my-theme",
-          "saveError": "Failed to save theme",
+          "import": "Importer le thème",
+          "description": "Nomme ton thème, ajuste les classes de couleurs, et prévisualise à quoi ressemblera l'interface courante de l'app.",
+          "name": "Nom du thème",
+          "save": "Enregistrer le thème",
+          "saved": "Thème enregistré",
+          "deleted": "Thème supprimé",
+          "imported": "Thème importé",
+          "exported": "Thème exporté",
+          "conflict": "Le nom du thème est en conflit avec un thème existant",
+          "defaultName": "Mon thème",
+          "defaultSlug": "mon-thème",
+          "saveError": "Échec de l'enregistrement du thème",
           "errors": {
-            "nameRequired": "Theme name is required.",
-            "nameConflictsBundled": "Theme name conflicts with a bundled theme.",
-            "nameExists": "Theme name already exists."
+            "nameRequired": "Un nom de thème est requis.",
+            "nameConflictsBundled": "Le nom du thème entre en conflit avec un thème intégré.",
+            "nameExists": "Le nom du thème existe déjà."
           },
           "groups": {
-            "core": "Core",
-            "border": "Borders & Inputs",
-            "sidebar": "Primary Sidebar",
-            "secondarySidebar": "Secondary Sidebar",
-            "editor": "Editor & Labels"
+            "core": "Cœur",
+            "border": "Bordures & Entrées",
+            "sidebar": "Barre latérale principale",
+            "secondarySidebar": "Barre latérale secondaire",
+            "editor": "Éditeur & Labels"
           },
-          "export": "Export {{name}}",
-          "saveNew": "Save as new theme",
-          "unsavedDraft": "Unsaved",
+          "export": "Exporter {{name}}",
+          "saveNew": "Enregistrer comme nouveau thème",
+          "unsavedDraft": "Non enregistré",
           "options": {
             "grainy": {
-              "label": "Grain texture",
-              "description": "Applies subtle grain textures to selected surfaces. This does not work reliably on low DPI screens."
+              "label": "Texture de grain",
+              "description": "Applique de subtiles textures de grain aux surfaces sélectionnées. Cela ne fonctionne pas de manière fiable sur les écrans à faible résolution DPI."
             },
             "rounded": {
-              "label": "Rounded corners",
-              "description": "Rounds corners across app surfaces. Turn off for square corners."
+              "label": "Coins arrondis",
+              "description": "Arrondit les coins des surfaces de l'app. Désactive pour des coins carrés."
             },
             "sidebarItemBorders": {
-              "label": "Sidebar indentation lines",
-              "description": "Shows vertical indentation guide lines in sidebars."
+              "label": "Lignes d'indentation de la barre latérale",
+              "description": "Affiche des lignes de repère d'indentation verticales dans les barres latérales."
             }
           },
-          "delete": "Delete theme",
-          "deleteTitle": "Delete theme?"
+          "delete": "Supprimer le thème",
+          "deleteTitle": "Supprimer le thème ?"
         },
         "projectAppearance": {
-          "title": "Use project-specific appearance",
-          "description": "When off, the app uses your global appearance. When on, this project keeps its own theme and fonts."
+          "title": "Utiliser l'apparence spécifique du projet",
+          "description": "Désactivée, l'app utilise ton apparence globale. Activée, ce projet garde son propre thème et ses propres polices."
         }
       },
       "fonts": {
-        "title": "Fonts",
+        "title": "Polices",
         "interface": {
-          "title": "Interface Font",
-          "description": "Used for controls, menus, and everyday UI text.",
-          "previewTitle": "Interface Preview"
+          "title": "Police de l'interface",
+          "description": "Utilisée pour les contrôles, les menus et le texte courant de l'interface.",
+          "previewTitle": "Aperçu de l'Interface"
         },
         "heading": {
           "title": "Title Font",
@@ -2023,65 +2110,65 @@
         "title": "Keyboard Shortcuts",
         "openGlobalSearch": "Open global search",
         "closeCurrentTab": "Close current tab",
-        "backInTabHistory": "Back in tab history",
-        "forwardInTabHistory": "Forward in tab history",
-        "togglePrimarySidebar": "Toggle primary sidebar",
-        "switchTabsByIndex": "Switch tabs by index",
-        "findInEditor": "Find in editor",
-        "toggleSegmentConceptSidebar": "Toggle segment/concept sidebar"
+        "backInTabHistory": "Retour dans l'historique des onglets",
+        "forwardInTabHistory": "Avancer dans l'historique des onglets",
+        "togglePrimarySidebar": "Activer/désactiver la barre latérale principale",
+        "switchTabsByIndex": "Changer d'onglet par index",
+        "findInEditor": "Rechercher dans l'éditeur",
+        "toggleSegmentConceptSidebar": "Activer/désactiver la barre latérale segment/concept"
       }
     },
     "workspaceLocation": {
-      "description": "Manage where {{appName}} finds and stores your workspace data.",
-      "connectWorkspace": "Open an existing workspace",
-      "connectWorkspaceDescription": "Point {{appName}} to a workspace folder that is already on this computer or drive. This changes which workspace opens; it does not move any files.",
-      "moveWorkspace": "Move your workspace",
-      "moveWorkspaceDescription": "Move this workspace folder and all of its project data to a new location. {{appName}} will update the saved location and restart when the move is complete.",
-      "currentDataLocation": "Your current data location",
-      "chooseNewLocation": "Destination for this workspace",
-      "browse": "Browse",
-      "selectNewLocationHint": "Select a new location to see the workspace path preview.",
-      "chooseDifferentFolder": "Choose a different folder from your current File Location.",
-      "beforeContinue": "Before you continue",
-      "warningDoNotClose": "Do not close the app while the move is in progress.",
-      "warningFreeSpace": "Make sure the destination drive has enough free space.",
-      "moveAndRestart": "Move files and restart",
-      "confirmTitle": "Confirm Workspace Move",
-      "confirmDescription": "This will move your workspace folder, update the saved location, and restart the app.",
-      "typeToConfirmSuffix": "to confirm",
-      "workspaceNameFallback": "workspace name",
-      "moving": "Moving...",
-      "confirmAndMove": "Confirm and Move",
-      "movedTo": "Workspace moved to: {{path}}",
-      "changeDir": "Open existing workspace",
-      "changedTo": "Workspace location changed to: {{path}}",
+      "description": "Gérez où {{appName}} trouve et stocke les données de votre zone de travail.",
+      "connectWorkspace": "Ouvrir une zone de travail existant",
+      "connectWorkspaceDescription": "Indique à {{appName}} un dossier de zone de travail déjà présent sur cet ordinateur ou ce lecteur ; aucun fichier n'est déplacé.",
+      "moveWorkspace": "Déplacer votre zone de travail",
+      "moveWorkspaceDescription": "Déplace ce dossier de zone de travail et toutes ses données de projet vers un nouvel emplacement. {{appName}} mettra à jour l'emplacement enregistré et redémarrera une fois le déplacement terminé.",
+      "currentDataLocation": "Votre emplacement actuel de données",
+      "chooseNewLocation": "Destination de cette zone de travail",
+      "browse": "Parcourir",
+      "selectNewLocationHint": "Sélectionne un nouvel emplacement pour voir l'aperçu du chemin de la zone de travail.",
+      "chooseDifferentFolder": "Choisis un dossier différent de ton emplacement de fichier actuel.",
+      "beforeContinue": "Avant de continuer",
+      "warningDoNotClose": "Ne ferme pas l'application en cours de déplacement.",
+      "warningFreeSpace": "Assure-toi que le lecteur de destination a suffisamment d'espace libre.",
+      "moveAndRestart": "Déplacer les fichiers et redémarrer",
+      "confirmTitle": "Confirmer le déplacement de la zone de travail",
+      "confirmDescription": "Cela déplacera ton dossier de zone de travail, mettra à jour l'emplacement enregistré et redémarrera l'application.",
+      "typeToConfirmSuffix": "pour confirmer",
+      "workspaceNameFallback": "nom de la zone de travail",
+      "moving": "Déplacement...",
+      "confirmAndMove": "Confirmer et déplacer",
+      "movedTo": "Zone de travail déplacé vers : {{path}}",
+      "changeDir": "Ouvrir une zone de travail existant",
+      "changedTo": "Emplacement de la zone de travail changé vers : {{path}}",
       "rename": {
-        "description": "Rename the workspace folder without changing its location or contents.",
-        "confirmTitle": "Confirm workspace rename",
-        "confirmDescription": "This will rename the workspace folder, update its saved location, and restart the app.",
-        "renaming": "Renaming...",
-        "renamedTo": "Workspace renamed to: {{path}}",
-        "error": "Failed to rename workspace"
+        "description": "Renomme le dossier de la zone de travail sans changer son emplacement ni son contenu.",
+        "confirmTitle": "Confirmer le renommage de la zone de travail",
+        "confirmDescription": "Cela renommera le dossier de la zone de travail, mettra à jour son emplacement enregistré, et redémarrera l'app.",
+        "renaming": "Renommage en cours...",
+        "renamedTo": "Zone de travail déplacé vers : {{path}}",
+        "error": "Impossible de renommer la zone de travail"
       },
       "errors": {
-        "loadCurrent": "Could not load current File Location",
-        "openPicker": "Could not open folder picker",
-        "move": "Failed to move workspace",
-        "changeDir": "Failed to change workspace location: {{message}}"
+        "loadCurrent": "Impossible de charger l'emplacement actuel du fichier",
+        "openPicker": "Impossible d’ouvrir le sélecteur de dossier",
+        "move": "Impossible de déplacer la zone de travail",
+        "changeDir": "Impossible de changer l'emplacement de la zone de travail : {{message}}"
       }
     },
     "deleted": {
-      "description": "Restore your work or remove it forever. Items stay here until you permanently delete them.",
-      "recentlyDeleted": "Recently deleted",
-      "searchPlaceholder": "Search deleted items...",
-      "restoreSelected": "Restore selected",
-      "deleteSelected": "Delete selected",
-      "selectedCount": "{{count}} selected",
-      "selectProject": "Select or create a project to manage deleted items.",
-      "failedToLoad": "Failed to load deleted items.",
-      "emptyFiltered": "No deleted items match your search.",
-      "empty": "Nothing here right now. Deleted items will show up as you remove them.",
-      "deletePermanently": "Delete permanently",
+      "description": "Restaure ton travail ou supprime-le définitivement. Les éléments restent ici jusqu'à ce que tu les supprimes définitivement.",
+      "recentlyDeleted": "Corbeille",
+      "searchPlaceholder": "Rechercher les éléments supprimés...",
+      "restoreSelected": "Restaurer le(s) sélectionné(s)",
+      "deleteSelected": "Supprimer la sélection",
+      "selectedCount": "{{count}} sélectionné(s)",
+      "selectProject": "Sélectionne ou crée un projet pour gérer les éléments supprimés.",
+      "failedToLoad": "Impossible de charger les éléments supprimés.",
+      "emptyFiltered": "Aucun élément supprimé ne correspond à ta recherche.",
+      "empty": "Rien ici pour le moment. Les éléments supprimés apparaîtront au fur et à mesure qu'ils seront supprimés.",
+      "deletePermanently": "Supprimer définitivement",
       "table": {
         "selectAllAria": "Select all deleted items",
         "selectItemAria": "Select {{name}}",
@@ -2143,67 +2230,67 @@
       "deleteAria": "Delete block {{name}}",
       "renameTitle": "Rename Block",
       "table": {
-        "name": "Block",
-        "used": "Used",
-        "updated": "Updated"
+        "name": "Bloc",
+        "used": "Utilisé",
+        "updated": "Mis à jour"
       },
       "toast": {
-        "renamed": "Block renamed",
-        "deleted": "Block deleted",
-        "failedRename": "Failed to rename block",
-        "failedDelete": "Failed to delete block",
-        "failedFavorite": "Failed to update favourite"
+        "renamed": "Bloc renommé",
+        "deleted": "Bloc supprimé",
+        "failedRename": "Impossible de renommer le bloc",
+        "failedDelete": "Impossible de renommer le bloc",
+        "failedFavorite": "Impossible de mettre à jour le favori"
       }
     },
     "importSettings": {
-      "description": "Drop Word or Markdown files, then review and place them one at a time so the import feels deliberate instead of overwhelming.",
-      "bringFiles": "Bring files into your project",
-      "supportedFormats": "Supported formats: {{formats}}. Each file is imported as a new entity.",
-      "dropOrChoose": "Drop files here or choose them manually",
-      "dropHint": "Your files will be converted into concepts or segments according to your selection.",
-      "chooseFiles": "Choose files",
-      "progressHint": "We use the first heading for the title when available, then guide you one file at a time.",
-      "importProgress": "Import progress",
-      "clearImported": "Clear imported",
-      "nothingQueued": "Nothing queued yet.",
-      "whereShouldThisGo": "Where should this go?",
-      "whereHint": "Pick the destination for this file, import it, then continue with the next one.",
-      "segmentDescription": "Part of a larger document structure. Best for chapters, scenes, sections, or sequential content.",
-      "conceptDescription": "A standalone idea or reference. Best for notes, lore, definitions, characters, and connected knowledge.",
-      "removeFile": "Remove this file",
-      "importAs": "Import as",
+      "description": "Dépose des fichiers Word ou Markdown, puis vérifie-les et place-les un par un pour que l'import reste maîtrisé plutôt qu'écrasant.",
+      "bringFiles": "Importer des fichiers dans ton projet",
+      "supportedFormats": "Formats pris en charge : {{formats}}. Chaque fichier est importé comme une nouvelle entité.",
+      "dropOrChoose": "Dépose des fichiers ici ou sélectionne-les manuellement",
+      "dropHint": "Tes fichiers seront convertis en concepts ou segments en fonction de ton choix.",
+      "chooseFiles": "Choisir les fichiers",
+      "progressHint": "Nous utilisons le premier titre disponible comme titre, puis te guidons fichier par fichier.",
+      "importProgress": "Progression de l'importation",
+      "clearImported": "Thème importé",
+      "nothingQueued": "Rien dans la file d'attente.",
+      "whereShouldThisGo": "Où cela doit-il aller ?",
+      "whereHint": "Choisis la destination de ce fichier, importe-le, puis passe au suivant.",
+      "segmentDescription": "Partie d'une structure de document plus grande. Idéal pour les chapitres, les scènes, les sections ou le contenu séquentiel.",
+      "conceptDescription": "Une idée ou une référence autonome. Idéal pour les notes, les lores, les définitions, les caractères et les connaissances connectées.",
+      "removeFile": "Supprimer ce fichier",
+      "importAs": "Importer en tant que",
       "segments": "segments",
       "concepts": "concepts",
-      "segmentSplitTitle": "Split by headings",
-      "segmentSplitHint": "Create a new item each time a selected heading appears.",
-      "segmentSplitActiveHint": "Splitting on: {{levels}}",
-      "segmentSplitNone": "Do not split",
-      "segmentSplitHeading": "Heading {{level}}",
+      "segmentSplitTitle": "Diviser par titres",
+      "segmentSplitHint": "Créer un nouvel élément chaque fois qu'un en-tête sélectionné apparaît.",
+      "segmentSplitActiveHint": "Séparation sur: {{levels}}",
+      "segmentSplitNone": "Ne pas scinder",
+      "segmentSplitHeading": "Titre {{level}}",
       "segmentSplitHeadingShort": "H{{level}}",
-      "moreFilesWaiting_one": "{{count}} more file waiting after this one",
-      "stillParsing_one": "{{count}} file still parsing",
-      "noMoreFilesWaiting": "No more files waiting after this one",
-      "upNext": "Up next:",
-      "batchHandled": "Everything in this batch has been handled.",
-      "imported": "Imported {{name}}.",
-      "importedSplit": "Imported {{name}} as {{count}} {{target}}.",
+      "moreFilesWaiting_one": "{{count}} fichier en attente après celui-ci",
+      "stillParsing_one": "Le fichier {{count}} est en cours d'analyse",
+      "noMoreFilesWaiting": "Plus de fichiers en attente après celui-ci",
+      "upNext": "À suivre :",
+      "batchHandled": "Tout ce qui se trouve dans ce lot a été géré.",
+      "imported": "Importé {{name}}.",
+      "importedSplit": "Importé {{name}} en {{count}} {{target}}.",
       "status": {
-        "parsing": "Parsing",
-        "ready": "Ready",
-        "imported": "Imported",
-        "error": "Error"
+        "parsing": "Analyse",
+        "ready": "Prêt",
+        "imported": "Importé",
+        "error": "Erreur"
       },
       "errors": {
-        "dropSupported": "Drop .docx or Markdown files to import them.",
-        "parse": "Could not parse file",
-        "someSkipped": "Some files were skipped because only .docx and Markdown are supported.",
-        "importFailed": "Import failed"
+        "dropSupported": "Dépose des fichiers .docx ou Markdown pour les importer.",
+        "parse": "Impossible d'analyser le fichier",
+        "someSkipped": "Certains fichiers ont été ignorés car seuls les fichiers .docx et Markdown sont pris en charge.",
+        "importFailed": "Importation échouée"
       }
     },
     "updates": {
-      "description": "Check for software updates and manage data backups",
-      "checking": "Checking...",
-      "checkForUpdates": "Check for Updates",
+      "description": "Vérifier les mises à jour logicielles et gérer les sauvegardes de données",
+      "checking": "Vérification...",
+      "checkForUpdates": "Vérifier les mises à jour",
       "toast": {
         "noUpdates": "No updates available",
         "updateAvailable": "Update available: {{version}}",
@@ -2435,156 +2522,163 @@
       }
     },
     "iconPicker": {
-      "searchPlaceholder": "Search icons by name, category",
-      "loadMore": "Load More ({{count}} remaining)",
-      "noIconsFound": "No icons found",
-      "recent": "Recent",
+      "searchPlaceholder": "Rechercher des icônes par nom, catégorie",
+      "loadMore": "Charger plus ({{count}} restants)",
+      "noIconsFound": "Aucune icône trouvée",
+      "recent": "Récent",
       "selected": "Sélectionné"
     },
+    "ui": {
+      "colorPicker": {
+        "hexColour": "Couleur hexadécimale",
+        "hexPlaceholder": "FFE ou FFEECC",
+        "applyHexColour": "Appliquer la couleur hexadécimale"
+      }
+    },
     "wordUsage": {
-      "title": "Word Usage",
-      "sentences": "Sentences",
-      "avgWords": "Avg words",
-      "avgWordsPerSentence": "Avg words/sentence",
-      "characters": "Characters",
-      "charactersNoSpaces": "Characters, no spaces",
-      "paragraphs": "Paragraphs",
-      "textStats": "Text Stats",
-      "showTextStats": "Show text stats",
-      "vocabulary": "Vocabulary",
-      "vocabularyDiversity": "Word variety",
-      "uniqueWords": "Unique words",
-      "freshWordsPer100": "{{count}} fresh words per 100.",
-      "per100Words": "per 100 words",
-      "uniqueOfTotalWords": "unique of {{count}} words.",
-      "vocabularyHint": "For fiction, roughly 45-70 often reads natural. Lower can mean repetition or glue-heavy prose; higher can mean dense wording or synonym-chasing.",
-      "readabilitySummary": "Based on the items below. Demanding text may simply have longer sentences or specialist words.",
-      "fleschReference": "Flesch reference",
-      "fleschReferenceGuide": "Flesch reference guide",
-      "fleschReferenceHelp": "Flesch estimates reading ease from sentence length and syllables. Specialist words can lower the score, so compare it with the reader you are writing for.",
-      "strengthScore": "Effort score",
-      "readingEase": "Ease score",
-      "readingEaseHelp": "A 0-100 Flesch Reading Ease score. Higher usually means quicker to read; lower usually means denser.",
-      "gradeLevel": "Grade level",
-      "gradeLevelHelp": "Flesch-Kincaid gives a rough US school grade based on sentence length and syllables. It is about density, not whether the passage is right for your audience.",
-      "estimate": "Estimate",
-      "noReadabilityIssues": "No reading effort items to show.",
+      "title": "Utilisation de mot",
+      "sentences": "Phrases",
+      "avgWords": "Moy. mots",
+      "avgWordsPerSentence": "Moy. mots / phrases",
+      "characters": "Caractères",
+      "charactersNoSpaces": "Caractères, pas d'espaces",
+      "paragraphs": "Paragraphes",
+      "textStats": "Stats du texte",
+      "showTextStats": "Afficher les stats de texte",
+      "vocabulary": "Vocabulaire",
+      "vocabularyDiversity": "Variété de mots",
+      "uniqueWords": "Mots uniques",
+      "freshWordsPer100": "{{count}} mots uniques pour 100.",
+      "per100Words": "pour 100 mots",
+      "uniqueOfTotalWords": "uniques sur {{count}} mots.",
+      "vocabularyHint": "Pour la fiction, 45-70 sonne souvent naturel. En dessous peut signifier des répétitions ou prose trop liée ; au-dessus : un style dense ou recherche de synonymes.",
+      "readabilitySummary": "Basé sur les éléments ci-dessous. Un texte exigeant peut simplement avoir des phrases plus longues ou du vocabulaire spécialisé.",
+      "fleschReference": "Référence Flesch",
+      "fleschReferenceGuide": "Guide de référence Flesch",
+      "fleschReferenceHelp": "Flesch estime la facilité de lecture selon la longueur des phrases et le nombre de syllabes. Le vocabulaire spécialisé peut faire baisser le score, donc compare-le au public visé.",
+      "strengthScore": "Score d'effort",
+      "readingEase": "Score de Facilité",
+      "readingEaseHelp": "Un score de facilité de lecture Flesch de 0 à 100. Plus il est élevé, plus la lecture est rapide ; plus il est bas, plus le texte est dense.",
+      "gradeLevel": "Niveau scolaire",
+      "gradeLevelHelp": "Flesch-Kincaid estime le niveau scolaire US selon la longueur des phrases et le nombre de syllabes. C'est une mesure de densité, pas de pertinence pour ton public.",
+      "estimate": "Estimation",
+      "noReadabilityIssues": "Aucun élément d'effort de lecture à afficher.",
       "readabilityIssues": {
-        "adverbs": "Adverbs",
-        "passiveVoice": "Passive voice",
-        "complexWording": "Complex wording",
-        "hardSentences": "Long sentences",
-        "veryHardSentences": "Very long sentences",
-        "wordRepetition": "Repeated words",
-        "characterRepetition": "Repeated sounds",
-        "badStyle": "Punctuation and slang",
-        "weakWords": "Vague words",
-        "strongWords": "Vivid words"
+        "adverbs": "Adverbes",
+        "passiveVoice": "Voix passive",
+        "complexWording": "Formulation complexe",
+        "hardSentences": "Phrases longues",
+        "veryHardSentences": "Phrases très longues",
+        "wordRepetition": "Mots répétés",
+        "characterRepetition": "Sons répétés",
+        "badStyle": "Ponctuation et argot",
+        "weakWords": "Mots vagues",
+        "strongWords": "Mots percutants"
       },
       "readabilityIssueHelp": {
-        "adverbs": "Shows adverbs and words ending in -ly. They can add nuance; if a line feels slow, check whether the verb already says enough.",
-        "passiveVoice": "Shows likely passive voice, where something has an action done to it. This can be useful when the actor does not matter, and less clear when the actor should be named.",
-        "complexWording": "Shows very long words and a small list of complex words. Technical or science terms may belong here; check whether your reader will know them.",
-        "hardSentences": "Shows sentences of 20-24 words. Long sentences can work well; this helps you find places where readers may need more breath.",
-        "veryHardSentences": "Shows sentences of 25 words or more. These can suit complex action, reflection, or voice; they may just ask more from the reader.",
-        "wordRepetition": "Shows repeated words close together. Repetition can create rhythm, emphasis, or a motif; this helps you spot it.",
-        "characterRepetition": "Shows neighbouring words with matching starts or endings. These echoes can add music, texture, or emphasis; this helps you notice clusters.",
-        "badStyle": "Shows repeated punctuation and informal spellings such as gonna, kinda, or tho. Some belong in voice or dialogue; this makes them easy to check.",
-        "weakWords": "Shows broad or uncertain words such as maybe, somewhat, thing, or seems. They can soften voice or leave room for doubt.",
-        "strongWords": "Shows vivid, precise, or energetic words. Use it to see where the writing has extra charge."
+        "adverbs": "Anglais : Affiche les adverbes et les mots en -ly. Ils peuvent apporter de la nuance ; si une phrase semble lente, vérifie si le verbe ne suffit pas déjà.",
+        "passiveVoice": "Affiche les tournures probablement passives, où le sujet subit l'action plutôt que de l'accomplir. Utile quand l'auteur importe peu, moins clair sinon.",
+        "complexWording": "Affiche les mots très longs et une courte liste de mots complexes. Les termes techniques ou scientifiques peuvent en faire partie ; vérifie si ton lecteur les connaît.",
+        "hardSentences": "Affiche les phrases de 20 à 24 mots. Les phrases longues peuvent bien fonctionner ; ceci t'aide à repérer où le lecteur pourrait avoir besoin de souffler.",
+        "veryHardSentences": "Affiche les phrases de 25 mots ou plus. Elles peuvent convenir à l'action complexe, la réflexion ou une voix narrative marquée ; elles demandent un peu plus au lecteur.",
+        "wordRepetition": "Affiche les mots répétés à proximité les uns des autres. La répétition peut créer du rythme, de l'emphase ou un motif ; ceci t'aide à la repérer.",
+        "characterRepetition": "Affiche les mots voisins qui commencent ou finissent de façon similaire. Ces échos peuvent apporter de la musicalité, de la texture ou de l'emphase ; ceci t'aide à repérer les regroupements.",
+        "badStyle": "Anglais : Affiche la ponctuation répétée et les orthographes familières comme gonna, kinda ou tho. Certaines ont leur place dans une voix narrative ou un dialogue.",
+        "weakWords": "Anglais : Affiche les mots vagues comme maybe, somewhat, thing ou seems. Ils peuvent adoucir le ton ou laisser place au doute.",
+        "strongWords": "Anglais : Affiche les mots percutants, précis ou énergiques. Utilise-le pour repérer où l'écriture gagne en intensité."
       },
-      "sentenceLength": "Sentence Length",
-      "flow": "Flow",
-      "flowHint": "Use the chart below to see how sentence length varies across the text.",
-      "sentenceRhythm": "Sentence Rhythm",
-      "sentenceRhythmChartLabel": "Sentence rhythm chart",
-      "sentenceRhythmBarLabel": "Sentence {{index}}: {{wordCount}} words, {{label}}",
-      "sentenceLabel": "Sentence {{index}}",
-      "sentenceRhythmHint": "Each bar is a sentence; taller bars mean more words.",
-      "noSentences": "No sentences yet.",
-      "noParagraphs": "No paragraphs yet.",
-      "paragraphDensityDotLabel": "Paragraph {{index}}: {{label}}, {{wordCount}} words",
-      "paragraphDensityTooltip": "Paragraph {{index}} · {{label}} · {{wordCount}} words",
-      "englishAnalysisUnavailable": "English-specific sentence opener and readability rules are unavailable for the selected writing language.",
-      "englishReadabilityUnavailable": "English-specific Flesch and style checks are unavailable for the selected writing language. Repetition and sentence length are still checked.",
+      "sentenceLength": "Longueur des phrases",
+      "flow": "Fluidité",
+      "flowHint": "Utilisez le graphique ci-dessous pour voir comment la longueur de la phrase varie d'un texte à l'autre.",
+      "sentenceRhythm": "Rythme de phrase",
+      "sentenceRhythmChartLabel": "Graphique rythmique des phrases",
+      "sentenceRhythmBarLabel": "Phrase {{index}}: {{wordCount}} mots, {{label}}",
+      "sentenceLabel": "Phrase {{index}}",
+      "sentenceRhythmHint": "Chaque barre est une phrase ; plus elles sont grandes plus il y a de mots.",
+      "noSentences": "Pas encore de phrases.",
+      "noParagraphs": "Pas encore de paragraphes.",
+      "paragraphDensityDotLabel": "Paragraphe {{index}}: {{label}}, {{wordCount}} mots",
+      "paragraphDensityTooltip": "Paragraphe {{index}} · {{label}} · {{wordCount}} mots",
+      "englishAnalysisUnavailable": "Les règles de début de phrase et de lisibilité spécifiques à l'anglais ne sont pas disponibles pour la langue d'écriture sélectionnée.",
+      "englishReadabilityUnavailable": "Les vérifications Flesch et de style spécifiques à l'anglais ne sont pas disponibles pour la langue d'écriture sélectionnée. La répétition et la longueur des phrases restent vérifiées.",
       "sentenceLengthLabels": {
-        "veryLong": "Very long"
+        "veryLong": "Très long"
       },
       "densityLabels": {
         "simple": "Simple",
-        "moderate": "Moderate",
-        "complex": "Complex",
+        "moderate": "Modéré",
+        "complex": "Complexe",
         "dense": "Dense"
       },
       "densityHelp": {
-        "simple": "1–25 words. Select to highlight all simple paragraphs.",
-        "moderate": "26–60 words. Select to highlight all moderate paragraphs.",
-        "complex": "61–100 words. Select to highlight all complex paragraphs.",
-        "dense": "101+ words. Select to highlight all dense paragraphs."
+        "simple": "1-25 mots. Sélectionne pour surligner tous les paragraphes simples.",
+        "moderate": "26–60 mots. Sélectionne pour surligner tous les paragraphes modérés.",
+        "complex": "61-100 mots. Sélectionne pour surligner tous les paragraphes complexes.",
+        "dense": "101– mots. Sélectionne pour surligner tous les paragraphes denses."
       },
       "openerLabels": {
         "dialogue": "Dialogue",
-        "pronoun": "Pronoun",
+        "pronoun": "Pronoms",
         "article": "Article",
-        "conjunction": "Conjunction",
-        "preposition": "Preposition",
-        "adverb": "Adverb",
-        "properNoun": "Proper noun",
-        "other": "Other"
+        "conjunction": "Conjonction",
+        "preposition": "Préposition",
+        "adverb": "Adverbe",
+        "properNoun": "Noms propres",
+        "other": "Autres"
       },
       "openerHelp": {
-        "dialogue": "Starts with quoted dialogue using straight or curly quote marks.",
-        "pronoun": "Starts with a pronoun, such as she, they, it, or this.",
-        "article": "Starts with an article: a, an, or the.",
-        "conjunction": "Starts with a joining word, such as and, but, or because.",
-        "preposition": "Starts with a relationship word, such as under, near, or with.",
-        "adverb": "Starts with a known adverb or a word ending in -ly.",
-        "properNoun": "Starts with a likely specific name. Capitalisation alone is not treated as enough evidence.",
-        "other": "Does not match one of the opener patterns above."
+        "dialogue": "Commence par un dialogue entre guillemets, droits ou courbes.",
+        "pronoun": "Commence par un pronom, comme she, they, it ou this.",
+        "article": "Commence par un article : a, an ou the.",
+        "conjunction": "Commence par un mot d'association, comme and, but, ou because.",
+        "preposition": "Commence par un mot de relation, comme en under, near ou with.",
+        "adverb": "Commence par un adverbe connu ou un mot se terminant par -ly.",
+        "properNoun": "Commence probablement par un nom propre. La majuscule seule n'est pas considérée comme une preuve suffisante.",
+        "other": "Ne correspond à aucun des modèles de début de phrase ci-dessus."
       },
       "strengthLabels": {
-        "strong": "Easy read",
-        "good": "Mostly easy",
-        "needsPolish": "Takes focus",
-        "drafty": "Demanding read"
+        "strong": "Facile à lire",
+        "good": "Plutôt facile",
+        "needsPolish": "Prend de la concentration",
+        "drafty": "Lecture exigeante"
       },
       "readabilityLabels": {
-        "veryEasy": "Very easy",
-        "easy": "Easy",
-        "fairlyEasy": "Fairly easy",
-        "plainEnglish": "Plain English",
-        "fairlyDifficult": "Fairly difficult",
-        "difficult": "Difficult",
-        "veryDifficult": "Very difficult"
+        "veryEasy": "Très facile",
+        "easy": "Facile",
+        "fairlyEasy": "Plutôt facile",
+        "plainEnglish": "Français simple",
+        "fairlyDifficult": "Plutôt difficile",
+        "difficult": "Difficile",
+        "veryDifficult": "Très difficile"
       },
-      "averageWords": "Avg {{count}} words",
-      "end": "End",
-      "paragraphDensity": "Paragraph Density",
-      "paragraphDensityHint": "Each dot is a paragraph - darker reads denser.",
+      "averageWords": "Moy. {{count}} mots",
+      "end": "Fin",
+      "paragraphDensity": "Densité de paragraphe",
+      "paragraphDensityHint": "Chaque point représente un paragraphe — plus il est foncé, plus le texte est dense.",
       "structure": "Structure",
-      "sentenceOpener": "Sentence Opener",
-      "sentenceOpenerHint": "What part of speech starts each sentence.",
-      "searchPlaceholder": "Search word...",
+      "sentenceOpener": "Ouverture de phrase",
+      "sentenceOpenerHint": "Quelle catégorie grammaticale commence chaque phrase.",
+      "searchPlaceholder": "Rechercher un mot...",
       "searchAriaLabel": "Search word usage",
-      "saveWordAriaLabel": "Save searched word",
-      "queryCount": "\"{{word}}\" appears {{count}} times",
-      "searchHelper": "Search or pick a common word to see its usage count.",
-      "commonWords": "Common words",
-      "frequentWords": "Frequent words",
-      "savedWords": "Saved words",
-      "noSavedWords": "No saved words yet.",
-      "removeSavedWord": "Remove saved word {{word}}",
+      "saveWordAriaLabel": "Enregistrer le mot recherché",
+      "queryCount": "\"{{word}}\" apparaît {{count}} fois",
+      "searchHelper": "Recherche ou choisis un mot courant pour voir son nombre d'occurrences.",
+      "commonWords": "Mots courants",
+      "frequentWords": "Mots fréquents",
+      "savedWords": "Mots enregistrés",
+      "noSavedWords": "Pas de mots enregistrés.",
+      "removeSavedWord": "Supprimer le mot enregistré {{word}}",
       "help": {
-        "overview": "Counts are based on the editor text: words, detected sentences, and average words per sentence.",
-        "vocabulary": "Word variety estimates how many fresh, non-common words appear per 100 words. It describes texture; it is not a quality score.",
-        "readability": "A rough guide to how much effort the text may take to read, based on countable patterns such as sentence length, repetition, passive voice, adverbs, specialist-looking words, vague words, and informal spellings. Demanding text is not necessarily worse; audience, genre, and purpose matter.",
-        "flow": "Each vertical bar is a sentence, coloured by length. Select a length below to highlight every matching sentence in the editor.",
-        "sentenceLength": "Buckets are {{appName}} rhythm markers: 1-8, 9-16, 17-24, and 25+ words. They help spot pacing, not correctness.",
-        "sentenceRhythm": "Each bar represents one sentence. Long passages scroll horizontally so every sentence stays hoverable.",
-        "structure": "Density is based on words per paragraph. Openers use lightweight word-list heuristics for how sentences begin.",
-        "paragraphDensity": "Density is based on words per paragraph: 1-25, 26-60, 61-100, and 101+ words.",
-        "sentenceOpener": "Openers use lightweight word-list heuristics for pronouns, articles, conjunctions, prepositions, adverbs, proper nouns, and other starts.",
-        "wordUsage": "Frequent words come from this project after common stopwords are filtered for the selected spellcheck language."
+        "overview": "Les décomptes sont basés sur le texte de l'éditeur : mots, phrases détectées et moyenne de mots par phrase.",
+        "vocabulary": "La diversité lexicale estime le nombre de mots nouveaux et peu courants pour 100 mots. Elle décrit la texture du texte, ce n'est pas un score de qualité.",
+        "readability": "Une estimation approximative de l'effort de lecture que le texte peut demander, basée sur des éléments mesurables comme la longueur des phrases, la répétition, la voix passive, les adverbes, les mots vagues et les orthographes familières. Un texte exigeant n'est pas forcément moins bon : le public et le genre comptent.",
+        "flow": "Chaque barre verticale représente une phrase, colorée selon sa longueur. Sélectionne une longueur ci-dessous pour surligner toutes les phrases correspondantes dans l'éditeur.",
+        "sentenceLength": "Les catégories sont des repères de rythme {{appName}} : 1-8, 9-16, 17-24 et 25+ mots. Elles aident à repérer le rythme, pas à juger la correction du texte.",
+        "sentenceRhythm": "Chaque barre représente une phrase. Les passages longs défilent horizontalement pour que chaque phrase reste survolable.",
+        "structure": "La densité est calculée à partir du nombre de mots par paragraphe. Les débuts de phrase utilisent des heuristiques légères basées sur des listes de mots.",
+        "paragraphDensity": "La densité est calculée à partir du nombre de mots par paragraphe : 1-25, 26-60, 61-100 et 101+ mots.",
+        "sentenceOpener": "Les débuts de phrase utilisent des heuristiques légères basées sur des listes de mots pour repérer pronoms, articles, conjonctions, prépositions, adverbes, noms propres et autres cas.",
+        "wordUsage": "Les mots fréquents proviennent de ce projet, après filtrage des mots vides courants selon la langue de correction orthographique sélectionnée."
       }
     }
   }
