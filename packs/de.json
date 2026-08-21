@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "9362a2f2856d-de",
-  "sourceRevision": "9362a2f2856d89ba1ab06ed2dc75b64676caff95",
+  "version": "c6ea3632abec-de",
+  "sourceRevision": "c6ea3632abecddf07f200c52e3bd970d375c6205",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -904,6 +904,8 @@
       "bookHeight": "Height",
       "leanAmount": "Lean",
       "bookDesign": "Book design",
+      "spineTextColor": "Title colour",
+      "flipSpineText": "Flip title text",
       "spineVariants": {
         "cloth": {
           "name": "Matte Cloth",
