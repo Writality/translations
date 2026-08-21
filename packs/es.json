@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "37a86a3452b3-es",
-  "sourceRevision": "37a86a3452b3b8346438f6ee6db6287588d083e6",
+  "version": "9362a2f2856d-es",
+  "sourceRevision": "9362a2f2856d89ba1ab06ed2dc75b64676caff95",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1073,6 +1073,9 @@
         "quote": "Cita",
         "divider": "Divisor",
         "backToDefault": "Volver a predeterminado",
+        "blockSpacing": "Espaciado del bloque",
+        "letterSpacing": "Espaciado de letras",
+        "paragraphDensity": "Densidad de párrafo",
         "noFill": "Sin relleno",
         "moreColours": "Más colores",
         "setDefaultFontSize": "Establece {{size}} como predeterminado"
@@ -2417,7 +2420,7 @@
       "failedToUpdateSpellcheck": "Fallo al actualizar la corrección ortográfica.",
       "macNote": "Nota: Para macOS, la comprobación ortográfica está controlada por la configuración de idioma del sistema, que puede no coincidir con el idioma seleccionado. Cambie el idioma de su sistema y reinicie la aplicación para aplicar.",
       "word": "palabra",
-      "yourDictionary": "Tu diccionario ({{count}} {{wordLabel}})",
+      "yourDictionary": "Tu diccionario",
       "removeWord": "Eliminar palabra"
     },
     "bugs": {

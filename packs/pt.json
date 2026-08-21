@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "37a86a3452b3-pt",
-  "sourceRevision": "37a86a3452b3b8346438f6ee6db6287588d083e6",
+  "version": "9362a2f2856d-pt",
+  "sourceRevision": "9362a2f2856d89ba1ab06ed2dc75b64676caff95",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2417,7 +2417,7 @@
       "failedToUpdateSpellcheck": "Falha ao atualizar a verificação ortográfica.",
       "macNote": "Nota: Para macOS, a verificação ortográfica é controlada pelas configurações de idioma do seu sistema, que podem não corresponder ao idioma selecionado. Altere o idioma do seu sistema e reinicie o aplicativo para aplicar.",
       "word": "palavra",
-      "yourDictionary": "Seu dicionário ({{count}} {{wordLabel}})",
+      "yourDictionary": "Seu dicionário",
       "removeWord": "Excluir palavra"
     },
     "bugs": {

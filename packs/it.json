@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "37a86a3452b3-it",
-  "sourceRevision": "37a86a3452b3b8346438f6ee6db6287588d083e6",
+  "version": "9362a2f2856d-it",
+  "sourceRevision": "9362a2f2856d89ba1ab06ed2dc75b64676caff95",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2417,7 +2417,7 @@
       "failedToUpdateSpellcheck": "Failed to update spellcheck.",
       "macNote": "Note: For macOS, spell check is controlled by your system language settings, which may not match the language you selected. Change your system language and restart the app to apply.",
       "word": "word",
-      "yourDictionary": "Your Dictionary ({{count}} {{wordLabel}})",
+      "yourDictionary": "Your Dictionary",
       "removeWord": "Remove word"
     },
     "bugs": {
