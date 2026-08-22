@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "28c310668332-de",
-  "sourceRevision": "28c3106683325b54b89e43c04cf9e996a4421b38",
+  "version": "99b7da210a86-de",
+  "sourceRevision": "99b7da210a86627d729292d00025060deff957fa",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1023,6 +1023,10 @@
           "newAliasHint": "Create and use an alias"
         }
       },
+      "quickLinkConcept": "Link to \"{{name}}\"",
+      "quickLinkThisMention": "Link this mention",
+      "quickLinkAllMentions_one": "Link 1 unlinked mention in this document",
+      "quickLinkAllMentions": "Link all {{count}} unlinked mentions in this document",
       "slash": {
         "basic": "Basic",
         "insert": "Insert",
@@ -1075,6 +1079,9 @@
         "quote": "Quote",
         "divider": "Divider",
         "backToDefault": "Back to default",
+        "blockSpacing": "Block spacing",
+        "letterSpacing": "Letter spacing",
+        "paragraphDensity": "Paragraph density",
         "noFill": "No fill",
         "moreColours": "More colours",
         "setDefaultFontSize": "Set {{size}} as default"
@@ -1241,7 +1248,10 @@
         "unknown": "Unbekannt",
         "download": "Download",
         "downloaded": "Bild heruntergeladen",
-        "downloadFailed": "Bild herunterladen fehlgeschlagen"
+        "downloadFailed": "Bild herunterladen fehlgeschlagen",
+        "usedInWorkspace": "Used in workspace - {{count}}",
+        "workspaceProfile": "Workspace profile",
+        "profileAvatar": "Profile avatar"
       }
     },
     "imageSelector": {
@@ -1513,7 +1523,11 @@
         "display": "Display",
         "advanced": "Advanced",
         "arrows": "Arrows",
+        "showConcepts": "Show concepts",
+        "showSegments": "Show segments",
+        "showRelationships": "Show relationships",
         "showImages": "Show images (when available)",
+        "showMentions": "Show mentions",
         "animate": "Animate",
         "nodeSize": "Node size",
         "nodeBorderRadius": "Node border radius",
@@ -1997,6 +2011,12 @@
           "saveNew": "Save as new theme",
           "unsavedDraft": "Unsaved",
           "options": {
+            "writalityBackground": {
+              "label": "Writality background",
+              "description": "Shows the subtle Writality writing watermark behind settings.",
+              "opacity": "Background opacity",
+              "density": "Background density"
+            },
             "grainy": {
               "label": "Grain texture",
               "description": "Applies subtle grain textures to selected surfaces. This does not work reliably on low DPI screens."
@@ -2061,19 +2081,75 @@
     },
     "profile": {
       "description": "Manage your author identity for this workspace.",
+      "avatar": {
+        "changeAria": "Change profile photo",
+        "chooseAria": "Choose profile photo",
+        "remove": "Remove photo"
+      },
+      "metrics": {
+        "lifetimeWords": "Lifetime words",
+        "concepts": "Concepts",
+        "segments": "Segments",
+        "currentStreak": "Current streak",
+        "longestStreak": "Longest streak",
+        "streak": "streak",
+        "days": "days"
+      },
+      "activity": {
+        "title": "Writing activity",
+        "loading": "Loading activity…"
+      },
+      "insights": {
+        "title": "Insights",
+        "activity": "Activity insights",
+        "projects": "Projects",
+        "activeDays": "Active writing days",
+        "wordsAdded": "Words added",
+        "wordsRemoved": "Words removed",
+        "topProjects": "Most used projects",
+        "archived": "Archived",
+        "words": "{{count}} words",
+        "noProjects": "No projects yet."
+      },
       "displayName": {
         "title": "Display Name",
+        "label": "Display name",
         "description": "This is the name the app refers to you by and is used in places like the project activity feed. It does not have to be unique and can be changed at any time."
       },
       "errors": {
         "nameRequired": "Name cannot be empty",
-        "updateFailed": "Failed to update profile"
+        "updateFailed": "Failed to update profile",
+        "updatePhotoFailed": "Failed to update profile photo"
       }
     },
     "modules": {
       "description": "Enable or disable project modules to simplify the interface.",
       "available": "Available Modules",
       "toggleAria": "Toggle {{module}} module",
+      "appIntegrations": {
+        "title": "App Integrations",
+        "discordRichPresence": {
+          "title": "Discord Rich Presence",
+          "description": "Show Writing with Writality as your Discord activity.",
+          "toggleAria": "Toggle Discord Rich Presence",
+          "projectName": "Project name",
+          "projectNameDescription": "The title of the project you have open.",
+          "pageName": "Current page name",
+          "pageNameDescription": "The name of the page you are editing.",
+          "wordCount": "Current page word count",
+          "wordCountDescription": "The live word count for the open page.",
+          "projectWordCount": "Total project word count",
+          "projectWordCountDescription": "Words across every page in the project.",
+          "privateDetail": "May reveal private details",
+          "preview": "Preview",
+          "previewHeading": "Writing with Writality",
+          "previewProjectName": "Writing in The Salt Road",
+          "previewDefaultDetails": "Writing with Writality",
+          "previewPageName": "Chapter Seven",
+          "previewWordCount": "842 words",
+          "previewProjectWordCount": "Project total: 51,203 words"
+        }
+      },
       "items": {
         "timeline": {
           "label": "Timeline & Chronology",
@@ -2127,6 +2203,7 @@
       "moveWorkspace": "Move your workspace",
       "moveWorkspaceDescription": "Move this workspace folder and all of its project data to a new location. {{appName}} will update the saved location and restart when the move is complete.",
       "currentDataLocation": "Your current data location",
+      "renameWorkspace": "Rename your workspace",
       "chooseNewLocation": "Destination for this workspace",
       "browse": "Browse",
       "selectNewLocationHint": "Select a new location to see the workspace path preview.",
@@ -2377,6 +2454,7 @@
     },
     "languageSettings": {
       "title": "App Language",
+      "uiLanguage": "UI Language",
       "description": "Choose the language used for {{appName}}'s interface and spellcheck.",
       "note": "App language changes the UI text only.",
       "communityLanguages": "Community languages",

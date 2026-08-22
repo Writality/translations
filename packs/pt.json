@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "28c310668332-pt",
-  "sourceRevision": "28c3106683325b54b89e43c04cf9e996a4421b38",
+  "version": "99b7da210a86-pt",
+  "sourceRevision": "99b7da210a86627d729292d00025060deff957fa",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -679,7 +679,7 @@
         "howItWorksParagraph1Tail": "a menção se conecta ao conceito, e não apenas texto puro.",
         "howItWorksParagraph2": "Quando você muda o nome do conceito ou de um nome alternativo, as menções relacionadas são automaticamente atualizadas em todos os locais. Use menções consistentemente, para manter os nomes sincronizados no seu projeto.",
         "howItWorksParagraph3": "Se você remover um nome alternativo, as ligações permanecem intactas e as menções afetadas retornam ao nome do conceito.",
-        "howItWorksParagraph4": "You can now also link concepts without typing @. Simply start typing a concept name or alias and, if there is a match, a small suggestion will appear. Use the arrow keys if there is more than one, then press Enter or click the one you want to turn that text into a linked mention.",
+        "howItWorksParagraph4": "You can also link concepts without typing @. Start typing a concept name or alias and, if there is a match, its completion appears inline. Press Tab to turn it into a linked mention.",
         "howItWorksParagraph5": "Nothing changes just because a suggestion appears. If you keep writing or add a space, your text stays as normal text. You can also turn Concept link suggestions off from the editor view settings if they get in the way.",
         "helpAriaLabel": "Ajuda com nomes alternativos",
         "typeAliasPlaceholder": "Digite o nome alternativo...",
@@ -1023,6 +1023,10 @@
           "newAliasHint": "Criar e usar um nome alternativo"
         }
       },
+      "quickLinkConcept": "Link to \"{{name}}\"",
+      "quickLinkThisMention": "Link this mention",
+      "quickLinkAllMentions_one": "Link 1 unlinked mention in this document",
+      "quickLinkAllMentions": "Link all {{count}} unlinked mentions in this document",
       "slash": {
         "basic": "Básico",
         "insert": "Inserir",
@@ -1075,6 +1079,9 @@
         "quote": "Citação",
         "divider": "Divisória",
         "backToDefault": "Voltar ao padrão",
+        "blockSpacing": "Block spacing",
+        "letterSpacing": "Letter spacing",
+        "paragraphDensity": "Paragraph density",
         "noFill": "Sem preenchimento",
         "moreColours": "Mais cores",
         "setDefaultFontSize": "Set {{size}} as default"
@@ -1241,7 +1248,10 @@
         "unknown": "Desconhecido",
         "download": "Baixar",
         "downloaded": "Imagem baixada",
-        "downloadFailed": "Falha ao baixar a imagem"
+        "downloadFailed": "Falha ao baixar a imagem",
+        "usedInWorkspace": "Used in workspace - {{count}}",
+        "workspaceProfile": "Workspace profile",
+        "profileAvatar": "Profile avatar"
       }
     },
     "imageSelector": {
@@ -1513,7 +1523,11 @@
         "display": "Exibir",
         "advanced": "Avançado",
         "arrows": "Setas",
+        "showConcepts": "Show concepts",
+        "showSegments": "Show segments",
+        "showRelationships": "Show relationships",
         "showImages": "Exibir imagens (quando disponível)",
+        "showMentions": "Show mentions",
         "animate": "Animar",
         "nodeSize": "Tamanho do nó",
         "nodeBorderRadius": "Raio da borda do nó",
@@ -1997,6 +2011,12 @@
           "saveNew": "Salvar como novo tema",
           "unsavedDraft": "Não salvo",
           "options": {
+            "writalityBackground": {
+              "label": "Writality background",
+              "description": "Shows the subtle Writality writing watermark behind settings.",
+              "opacity": "Background opacity",
+              "density": "Background density"
+            },
             "grainy": {
               "label": "Textura de grãos",
               "description": "Aplica texturas sutis de grão a superfícies selecionadas. Não funciona de forma confiável em telas com DPI baixo."
@@ -2061,19 +2081,75 @@
     },
     "profile": {
       "description": "Gerencie sua identidade de autor para este espaço de trabalho.",
+      "avatar": {
+        "changeAria": "Change profile photo",
+        "chooseAria": "Choose profile photo",
+        "remove": "Remove photo"
+      },
+      "metrics": {
+        "lifetimeWords": "Lifetime words",
+        "concepts": "Concepts",
+        "segments": "Segments",
+        "currentStreak": "Current streak",
+        "longestStreak": "Longest streak",
+        "streak": "streak",
+        "days": "days"
+      },
+      "activity": {
+        "title": "Writing activity",
+        "loading": "Loading activity…"
+      },
+      "insights": {
+        "title": "Insights",
+        "activity": "Activity insights",
+        "projects": "Projects",
+        "activeDays": "Active writing days",
+        "wordsAdded": "Words added",
+        "wordsRemoved": "Words removed",
+        "topProjects": "Most used projects",
+        "archived": "Archived",
+        "words": "{{count}} words",
+        "noProjects": "No projects yet."
+      },
       "displayName": {
         "title": "Nome para exibição",
+        "label": "Display name",
         "description": "Seu nome de exibição no app e no feed de atividades do projeto. Não precisa ser único e pode ser alterado a qualquer momento."
       },
       "errors": {
         "nameRequired": "O nome não pode ficar vazio",
-        "updateFailed": "Falha ao atualizar o perfil"
+        "updateFailed": "Falha ao atualizar o perfil",
+        "updatePhotoFailed": "Failed to update profile photo"
       }
     },
     "modules": {
       "description": "Ative ou desative módulos do projeto para simplificar a interface.",
       "available": "Módulos disponíveis",
       "toggleAria": "Alternar módulo {{module}}",
+      "appIntegrations": {
+        "title": "App Integrations",
+        "discordRichPresence": {
+          "title": "Discord Rich Presence",
+          "description": "Show Writing with Writality as your Discord activity.",
+          "toggleAria": "Toggle Discord Rich Presence",
+          "projectName": "Project name",
+          "projectNameDescription": "The title of the project you have open.",
+          "pageName": "Current page name",
+          "pageNameDescription": "The name of the page you are editing.",
+          "wordCount": "Current page word count",
+          "wordCountDescription": "The live word count for the open page.",
+          "projectWordCount": "Total project word count",
+          "projectWordCountDescription": "Words across every page in the project.",
+          "privateDetail": "May reveal private details",
+          "preview": "Preview",
+          "previewHeading": "Writing with Writality",
+          "previewProjectName": "Writing in The Salt Road",
+          "previewDefaultDetails": "Writing with Writality",
+          "previewPageName": "Chapter Seven",
+          "previewWordCount": "842 words",
+          "previewProjectWordCount": "Project total: 51,203 words"
+        }
+      },
       "items": {
         "timeline": {
           "label": "Linha do tempo & Cronologia",
@@ -2127,6 +2203,7 @@
       "moveWorkspace": "Mover seu espaço de trabalho",
       "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O {{appName}} atualizará o caminho salvo e reiniciará após a conclusão.",
       "currentDataLocation": "Localização atual dos seus dados",
+      "renameWorkspace": "Rename your workspace",
       "chooseNewLocation": "Destino para este espaço de trabalho",
       "browse": "Navegar",
       "selectNewLocationHint": "Selecione um novo local para pré-visualizar o caminho da área de trabalho.",
@@ -2377,6 +2454,7 @@
     },
     "languageSettings": {
       "title": "Idioma do aplicativo",
+      "uiLanguage": "UI Language",
       "description": "Escolha o idioma usado para a interface e verificação ortográfica do {{appName}}.",
       "note": "O idioma do aplicativo altera apenas o texto da interface.",
       "communityLanguages": "Traduções da comunidade",

@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "28c310668332-es",
-  "sourceRevision": "28c3106683325b54b89e43c04cf9e996a4421b38",
+  "version": "99b7da210a86-es",
+  "sourceRevision": "99b7da210a86627d729292d00025060deff957fa",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1023,6 +1023,10 @@
           "newAliasHint": "Crear y usar un alias"
         }
       },
+      "quickLinkConcept": "Enlace a \"{{name}}\"",
+      "quickLinkThisMention": "Enlazar esta mención",
+      "quickLinkAllMentions_one": "Enlaza 1 mención desvinculada en este documento",
+      "quickLinkAllMentions": "Enlazar todas las menciones desvinculadas {{count}} en este documento",
       "slash": {
         "basic": "Básico",
         "insert": "Insertar",
@@ -1244,7 +1248,10 @@
         "unknown": "Desconocido",
         "download": "Descargar",
         "downloaded": "Imagen descargada",
-        "downloadFailed": "Error al descargar la imagen"
+        "downloadFailed": "Error al descargar la imagen",
+        "usedInWorkspace": "Usado en el área de trabajo - {{count}}",
+        "workspaceProfile": "Perfil de espacio de trabajo",
+        "profileAvatar": "Avatar de perfil"
       }
     },
     "imageSelector": {
@@ -1516,7 +1523,11 @@
         "display": "Mostrar",
         "advanced": "Avanzado",
         "arrows": "Flechas",
+        "showConcepts": "Show concepts",
+        "showSegments": "Show segments",
+        "showRelationships": "Show relationships",
         "showImages": "Mostrar imágenes (cuando estén disponibles)",
+        "showMentions": "Show mentions",
         "animate": "Animar",
         "nodeSize": "Tamaño del nodo",
         "nodeBorderRadius": "Radio del borde del nodo",
@@ -2000,6 +2011,12 @@
           "saveNew": "Guardar como nuevo tema",
           "unsavedDraft": "Sin guardar",
           "options": {
+            "writalityBackground": {
+              "label": "Fondo de Writality",
+              "description": "Muestra la sutil marca de agua de Writality tras el panel de ajustes.",
+              "opacity": "Opacidad del fondo",
+              "density": "Densidad de fondo"
+            },
             "grainy": {
               "label": "Textura de grano",
               "description": "Se aplica texturas sutiles de grano a superficies seleccionadas. Esto no funciona de forma fiable en pantallas de baja resolución."
@@ -2064,19 +2081,75 @@
     },
     "profile": {
       "description": "Administre su identidad de autor para esta área de trabajo.",
+      "avatar": {
+        "changeAria": "Cambiar foto de perfil",
+        "chooseAria": "Escoger foto de perfil",
+        "remove": "Eliminar foto"
+      },
+      "metrics": {
+        "lifetimeWords": "Palabras totales",
+        "concepts": "Conceptos",
+        "segments": "Segmentos",
+        "currentStreak": "Racha actual",
+        "longestStreak": "Racha más larga",
+        "streak": "racha",
+        "days": "días"
+      },
+      "activity": {
+        "title": "Actividad de escritura",
+        "loading": "Cargando actividad…"
+      },
+      "insights": {
+        "title": "Estadísticas",
+        "activity": "Estadísticas de actividad",
+        "projects": "Proyectos",
+        "activeDays": "Días de escritura activos",
+        "wordsAdded": "Palabras añadidas",
+        "wordsRemoved": "Palabras eliminadas",
+        "topProjects": "Proyectos más utilizados",
+        "archived": "Archivado",
+        "words": "{{count}} palabras",
+        "noProjects": "Todavía no hay proyectos."
+      },
       "displayName": {
         "title": "Nombre para mostrar",
+        "label": "Mostrar nombre",
         "description": "Este es el nombre con el que la aplicación se refiere a tí y se utiliza en lugares como el feed de actividad del proyecto. No tiene por qué ser único y puede cambiarse en cualquier momento."
       },
       "errors": {
         "nameRequired": "El nombre no puede quedar vacío",
-        "updateFailed": "Fallo al actualizar perfil"
+        "updateFailed": "Fallo al actualizar perfil",
+        "updatePhotoFailed": "Fallo al actualizar la foto de perfil"
       }
     },
     "modules": {
       "description": "Activar o desactivar los módulos del proyecto para simplificar la interfaz.",
       "available": "Módulos disponibles",
       "toggleAria": "Alterna el módulo {{module}}",
+      "appIntegrations": {
+        "title": "Integración con aplicaciones",
+        "discordRichPresence": {
+          "title": "Presencia Enriquecida de Discord",
+          "description": "Muestra \"escribiendo con Writality\" como tu actividad de Discord. Es opcional y Writality funciona independientemente de que Discord esté cerrado o no disponible.",
+          "toggleAria": "Alternar Presencia Enriquecida de Discord",
+          "projectName": "Nombre del proyecto",
+          "projectNameDescription": "El título del proyecto que tienes abierto.",
+          "pageName": "Nombre de la página actual",
+          "pageNameDescription": "El nombre de la página que estás editando.",
+          "wordCount": "Número de palabras de la página actual",
+          "wordCountDescription": "El conteo de palabras en vivo para la página abierta.",
+          "projectWordCount": "Total de palabras del proyecto",
+          "projectWordCountDescription": "Palabras en cada página del proyecto.",
+          "privateDetail": "Puede revelar detalles privados",
+          "preview": "Previsualización",
+          "previewHeading": "Escribiendo con Writality",
+          "previewProjectName": "Escribiendo en The Salt Road",
+          "previewDefaultDetails": "Escribiendo con Writality",
+          "previewPageName": "Capítulo Siete",
+          "previewWordCount": "842 palabras",
+          "previewProjectWordCount": "Total del proyecto: 51,203 palabras"
+        }
+      },
       "items": {
         "timeline": {
           "label": "Línea de tiempo y cronología",
@@ -2130,6 +2203,7 @@
       "moveWorkspace": "Mover tu área de trabajo",
       "moveWorkspaceDescription": "Mueve esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
       "currentDataLocation": "Ubicación actual de tus datos",
+      "renameWorkspace": "Rename your workspace",
       "chooseNewLocation": "Destino para esta área de trabajo",
       "browse": "Explorar",
       "selectNewLocationHint": "Seleccione una nueva ubicación para ver la vista previa de la ruta del espacio de trabajo.",
@@ -2380,6 +2454,7 @@
     },
     "languageSettings": {
       "title": "Idioma de la aplicación",
+      "uiLanguage": "Idioma de la interfaz",
       "description": "Elija el idioma utilizado para la interfaz de {{appName}} y la corrección ortográfica.",
       "note": "El idioma de la aplicación sólo cambia el texto de la interfaz de usuario.",
       "communityLanguages": "Idiomas de la comunidad",
