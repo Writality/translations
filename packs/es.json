@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "99b7da210a86-es",
-  "sourceRevision": "99b7da210a86627d729292d00025060deff957fa",
+  "version": "36d58c8eebb5-es",
+  "sourceRevision": "36d58c8eebb5e2b9e28b7e37493370aab584b42c",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -905,7 +905,7 @@
       "leanAmount": "Inclinar",
       "bookDesign": "Diseño del libro",
       "spineTextColor": "Color del título",
-      "flipSpineText": "Voltear texto del título",
+      "flipSpineText": "Voltear el texto del título",
       "spineVariants": {
         "cloth": {
           "name": "Tela Mate",
@@ -1523,11 +1523,11 @@
         "display": "Mostrar",
         "advanced": "Avanzado",
         "arrows": "Flechas",
-        "showConcepts": "Show concepts",
-        "showSegments": "Show segments",
-        "showRelationships": "Show relationships",
+        "showConcepts": "Mostrar conceptos",
+        "showSegments": "Mostrar segmentos",
+        "showRelationships": "Mostrar relaciones",
         "showImages": "Mostrar imágenes (cuando estén disponibles)",
-        "showMentions": "Show mentions",
+        "showMentions": "Mostrar menciones",
         "animate": "Animar",
         "nodeSize": "Tamaño del nodo",
         "nodeBorderRadius": "Radio del borde del nodo",
@@ -2203,7 +2203,7 @@
       "moveWorkspace": "Mover tu área de trabajo",
       "moveWorkspaceDescription": "Mueve esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
       "currentDataLocation": "Ubicación actual de tus datos",
-      "renameWorkspace": "Rename your workspace",
+      "renameWorkspace": "Renombra tu área de trabajo",
       "chooseNewLocation": "Destino para esta área de trabajo",
       "browse": "Explorar",
       "selectNewLocationHint": "Seleccione una nueva ubicación para ver la vista previa de la ruta del espacio de trabajo.",
