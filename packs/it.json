@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "e60d32471719-it",
-  "sourceRevision": "e60d324717194184dbde1ceb3831509be9009a85",
+  "version": "d24e71918f2d-it",
+  "sourceRevision": "d24e71918f2d585ff7ab62f4560ea53eff9c6605",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -494,7 +494,7 @@
         "addSegment": "Aggiungi segmento",
         "removeEntry": "Rimuovi elemento",
         "notAvailable": "n/d",
-        "chooseBackgroundImage": "Scegli immagine di sfondo",
+        "backgroundImage": "Scegli immagine di sfondo",
         "selectProjectToManage": "Selezionare o creare un progetto per gestire {{item}}.",
         "noSearchMatches": "Nessun {{item}} corrisponde alla tua ricerca."
       },
@@ -594,8 +594,7 @@
       },
       "sidebar": {
         "filterOnTags": "Filtra sui tag",
-        "workbench": "Segmenti e concetti per costruire la tua storia.",
-        "manuscripts": "Assembla e leggi il manoscritto."
+        "workbench": "Segmenti e concetti per costruire la tua storia."
       },
       "graph": {
         "hideAllLabels": "Nascondi etichette",
@@ -787,7 +786,6 @@
         "consistency": {
           "keepWriting": "Keep writing to see your progress!",
           "excellent": "Excellent consistency!",
-          "lower": "Lower percentages indicate less frequent activity.",
           "message": "You were active on {{activeDays}} out of {{totalDays}} days ({{consistencyRate}}% consistency) in the last {{timeframeLabel}} timeframe. {{consistencyText}}"
         },
         "activity": {
@@ -796,15 +794,6 @@
           "trimmedWords": "you trimmed {{count}} words (net)",
           "unchanged": "your net word count stayed unchanged",
           "message": "In the {{timeframeLabel}} timeframe, {{totalWordsText}} across {{activeDays}} active days, averaging {{avgWordsPerActiveDay}} net words per session. Your largest single-day change was {{maxAbsoluteDailyChange}} words."
-        },
-        "storyBalance": {
-          "start": "Start writing to see your story balance!",
-          "narrative": "narrative",
-          "worldBuilding": "world-building",
-          "message": "Your project is {{narrative}}% narrative and {{worldBuilding}}% world-building.",
-          "leansWorldBuilding": "Based on word count, your project currently leans toward world-building.",
-          "moreConcepts": "Your world could benefit from more concept development.",
-          "greatFocus": "Great {{dominant}} focus!"
         },
         "development": {
           "start": "Start developing your content to see depth insights!",
@@ -828,7 +817,6 @@
       },
       "wordCountCalendar": {
         "title": "Daily word count",
-        "yearLabel": "Year:",
         "loading": "Loading calendar...",
         "addedWords": "{{count}} words added",
         "removedWords": "{{count}} words removed",
@@ -884,7 +872,6 @@
         "thisWeek": "This week",
         "daysWritingLabel": "Days writing",
         "goalWords": "Goal {{count}} words",
-        "deadlineLabel": "Deadline {{date}}",
         "adjustGoal": "Adjust goal",
         "noGoal": "No goal — just writing",
         "setGoal": "Set a goal"
@@ -977,12 +964,10 @@
         "unsavedDescription": "This image is not saved within {{appName}}. Save it to add it to your image gallery with a thumbnail."
       },
       "menu": {
-        "exportAsJson": "Export as JSON",
         "exportAsWord": "Export as Word (.docx)",
         "exportAsPdf": "Export as PDF (.pdf)",
         "exportAsHtml": "Export as HTML (.html)",
         "exportAsMarkdown": "Export as Markdown (.md)",
-        "importFromJson": "Import from JSON",
         "importFromWord": "Import from Word (.docx)",
         "importFromMarkdown": "Import from Markdown (.md)"
       },
@@ -1152,7 +1137,6 @@
       "titleSpacingTooltip": "Title spacing: {{mode}}",
       "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
-      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
@@ -1187,9 +1171,6 @@
         "relaxed": "Relaxed"
       },
       "toasts": {
-        "noContentToExport": "No content to export",
-        "contentExported": "Content exported successfully",
-        "exportFailed": "Failed to export content",
         "exportWordSuccess": "Document exported to Word successfully",
         "exportWordFailed": "Failed to export to Word",
         "exportPdfSuccess": "Document exported to PDF successfully",
@@ -1198,9 +1179,6 @@
         "exportHtmlFailed": "Failed to export to HTML",
         "exportMarkdownSuccess": "Document exported to Markdown successfully",
         "exportMarkdownFailed": "Failed to export to Markdown",
-        "contentImported": "Content imported successfully",
-        "importInvalidJson": "Failed to import content. Invalid JSON format.",
-        "readFileFailed": "Failed to read file",
         "importWordSuccess": "Word document imported successfully",
         "importWordFailed": "Failed to import Word document",
         "importWordFileTooLarge": "File is too large. Maximum size is 10MB.",
@@ -1311,18 +1289,6 @@
         "selectSegment": "Select Segment",
         "adding": "Adding...",
         "addSegment": "Add Segment"
-      },
-      "entryDialog": {
-        "editItem": "Edit Item",
-        "labelOptional": "Label (Optional)",
-        "titleRequired": "Title *",
-        "emptySpaceType": "Empty space type",
-        "emptySpaceQuarter1": "1/4 page",
-        "emptySpaceQuarter2": "2/4 page",
-        "emptySpaceQuarter3": "3/4 page",
-        "emptySpacePageBreak": "Page break",
-        "emptySpacePlaceholder": "e.g., End of Part I",
-        "titlePlaceholder": "e.g., Chapter One"
       },
       "format": {
         "title": "Format manuscript",
@@ -1688,8 +1654,7 @@
       "loadingPane": "Loading pane...",
       "loadingConcept": "Loading concept...",
       "loadingSegment": "Loading segment...",
-      "loadingFolder": "Loading folder...",
-      "loadingManuscript": "Loading manuscript..."
+      "loadingFolder": "Loading folder..."
     },
     "sidebar": {
       "visibility": {
@@ -1775,33 +1740,19 @@
         "newManuscriptName": "New Manuscript",
         "openManuscriptActionsMenu": "Open manuscript actions menu",
         "rename": "Rename",
-        "renameManuscript": "Rename Manuscript",
-        "deleteManuscriptDescription": "This removes the manuscript structure but does not delete segments.",
         "addOptions": {
           "noMatchingSegments": "No matching segments",
           "addTitle": "Add title",
           "addEmptySpace": "Add empty space"
         },
         "entry": {
-          "untitledTitle": "Untitled title",
-          "updateTitle": "Update title",
           "hideSegmentTitle": "Hide segment title",
           "showSegmentTitle": "Show segment title",
           "openSegment": "Open segment",
-          "addAbove": "Add above",
-          "addBelow": "Add below",
           "removeEntryTitle": "Remove Entry",
           "removeEntryDescription": "This removes the entry from the manuscript structure.",
           "removeEntryConfirm": "Remove entry"
-        },
-        "toggleSection": "Toggle Manuscripts section",
-        "emptyDescription": "The manuscript is where you organise files and segments into a structured narrative. Create manuscripts like Book 1 or Book 2, then arrange them into acts, parts, or any structure that fits your story.",
-        "emptyExample1": "Book 1: The Beginning",
-        "emptyExample2": "Book 2: The Middle",
-        "emptyExample3": "Book 3: The End",
-        "emptyExample4": "Act I: The Setup",
-        "emptyExample5": "Act II: The Confrontation",
-        "emptyExample6": "Act III: The Resolution"
+        }
       },
       "examples": "Examples:",
       "toggleSection": "Toggle {{section}} section"
@@ -2106,7 +2057,6 @@
         "activeDays": "Active writing days",
         "wordsAdded": "Words added",
         "wordsRemoved": "Words removed",
-        "topProjects": "Most used projects",
         "archived": "Archived",
         "words": "{{count}} words",
         "noProjects": "No projects yet."
@@ -2158,8 +2108,8 @@
         },
         "manuscript": {
           "label": "Manuscript",
-          "description": "Manuscript composition, sidebar tab, and manuscript reader.",
-          "disabledDescription": "Turning this off hides Manuscripts in the sidebar and related features. Existing manuscripts will not be deleted and will reappear if you turn the module back on."
+          "description": "Manuscript composition and paginated preview.",
+          "disabledDescription": "Turning this off hides manuscript composition and preview controls. Existing manuscripts will not be deleted and will reappear if you turn the module back on."
         },
         "storygraph": {
           "description": "Relationship graph on Dashboard.",

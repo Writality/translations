@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "e60d32471719-fr",
-  "sourceRevision": "e60d324717194184dbde1ceb3831509be9009a85",
+  "version": "d24e71918f2d-fr",
+  "sourceRevision": "d24e71918f2d585ff7ab62f4560ea53eff9c6605",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -494,7 +494,7 @@
         "addSegment": "Ajouter un segment",
         "removeEntry": "Supprimer l'entrée",
         "notAvailable": "n/a",
-        "chooseBackgroundImage": "Choisir une image d'arrière-plan",
+        "backgroundImage": "Choisir une image d'arrière-plan",
         "selectProjectToManage": "Sélectionne ou crée un projet pour gérer {{item}}.",
         "noSearchMatches": "Aucun {{item}} ne correspond à ta recherche."
       },
@@ -594,8 +594,7 @@
       },
       "sidebar": {
         "filterOnTags": "Filtrer sur les tags",
-        "workbench": "Segments et concepts pour construire ton histoire.",
-        "manuscripts": "Assembler et lire le manuscrit."
+        "workbench": "Segments et concepts pour construire ton histoire."
       },
       "graph": {
         "hideAllLabels": "Masquer les libellés",
@@ -787,7 +786,6 @@
         "consistency": {
           "keepWriting": "Continue à écrire pour voir ta progression !",
           "excellent": "Excellent rythme !",
-          "lower": "Un pourcentage plus bas indique une activité moins fréquente.",
           "message": "Tu as été actif {{activeDays}} jours sur {{totalDays}} ({{consistencyRate}} % de régularité) au cours des {{timeframeLabel}}. {{consistencyText}}"
         },
         "activity": {
@@ -796,15 +794,6 @@
           "trimmedWords": "tu as retiré {{count}} mots (net)",
           "unchanged": "ton nombre de mots net est resté inchangé",
           "message": "Sur la période {{timeframeLabel}}, {{totalWordsText}} sur {{activeDays}} jours actifs, avec une moyenne de {{avgWordsPerActiveDay}} mots nets par session. Ta plus grande variation en une journée a été de {{maxAbsoluteDailyChange}} mots."
-        },
-        "storyBalance": {
-          "start": "Commence à écrire pour voir l'équilibre de ton histoire !",
-          "narrative": "narration",
-          "worldBuilding": "world-building",
-          "message": "Ton projet est composé de {{narrative}} % de narration et {{worldBuilding}} % de world-building.",
-          "leansWorldBuilding": "D'après le nombre de mots, ton projet penche actuellement vers le world-building.",
-          "moreConcepts": "Ton univers pourrait bénéficier de davantage de développement de concepts.",
-          "greatFocus": "Excellent focus sur {{dominant}} !"
         },
         "development": {
           "start": "Commence à développer ton contenu pour voir les indicateurs de profondeur !",
@@ -828,7 +817,6 @@
       },
       "wordCountCalendar": {
         "title": "Nombre de mots quotidiens",
-        "yearLabel": "Année :",
         "loading": "Chargement du calendrier...",
         "addedWords": "{{count}} mots ajoutés",
         "removedWords": "{{count}} mots supprimés",
@@ -884,7 +872,6 @@
         "thisWeek": "Cette semaine",
         "daysWritingLabel": "Jours d'écriture",
         "goalWords": "Objectif : {{count}} mots",
-        "deadlineLabel": "Date limite {{date}}",
         "adjustGoal": "Ajuster l'objectif",
         "noGoal": "Pas d'objectif — juste écrire",
         "setGoal": "Définir un objectif"
@@ -977,12 +964,10 @@
         "unsavedDescription": "Cette image n'est pas enregistrée dans {{appName}}. Enregistre-la pour l'ajouter à ta galerie d'images avec une miniature."
       },
       "menu": {
-        "exportAsJson": "Exporter en JSON",
         "exportAsWord": "Exporter en Word (.docx)",
         "exportAsPdf": "Exporter en PDF (.pdf)",
         "exportAsHtml": "Exporter en HTML (.html)",
         "exportAsMarkdown": "Exporter en Markdown (.md)",
-        "importFromJson": "Importer depuis JSON",
         "importFromWord": "Importer depuis Word (.docx)",
         "importFromMarkdown": "Importer depuis Markdown (.md)"
       },
@@ -1152,7 +1137,6 @@
       "titleSpacingTooltip": "Espacement du titre : {{mode}}",
       "textAlignTooltip": "Alignement du texte : {{mode}}",
       "showScrollbar": "Afficher la barre de défilement",
-      "showSegmentReferences": "Afficher les références et les rétroliens",
       "indentParagraphs": "Indenter les paragraphes",
       "typewriterMode": "Mode Machine à écrire",
       "dimMode": "Mode tamisé",
@@ -1187,9 +1171,6 @@
         "relaxed": "Aéré"
       },
       "toasts": {
-        "noContentToExport": "Aucun contenu à exporter",
-        "contentExported": "Contenu exporté avec succès",
-        "exportFailed": "Impossible d'exporter le contenu",
         "exportWordSuccess": "Document exporté vers Word avec succès",
         "exportWordFailed": "Impossible d'exporter vers Word",
         "exportPdfSuccess": "Document exporté vers PDF avec succès",
@@ -1198,9 +1179,6 @@
         "exportHtmlFailed": "Impossible d'exporter vers HTML",
         "exportMarkdownSuccess": "Document exporté vers Markdown avec succès",
         "exportMarkdownFailed": "Impossible d'exporter vers Markdown",
-        "contentImported": "Contenu importé avec succès",
-        "importInvalidJson": "Impossible d'importer le contenu. Format JSON invalide.",
-        "readFileFailed": "Impossible de lire le fichier",
         "importWordSuccess": "Document Word importé avec succès",
         "importWordFailed": "Impossible d'importer le document Word",
         "importWordFileTooLarge": "Le fichier est trop volumineux. La taille maximale est de 10 Mo.",
@@ -1311,18 +1289,6 @@
         "selectSegment": "Sélectionnez un segment",
         "adding": "Ajout...",
         "addSegment": "Ajouter un segment"
-      },
-      "entryDialog": {
-        "editItem": "Modifier l'élément",
-        "labelOptional": "Libellé (optionnel)",
-        "titleRequired": "Titre *",
-        "emptySpaceType": "Type d'espace vide",
-        "emptySpaceQuarter1": "1/4 de page",
-        "emptySpaceQuarter2": "2/4 de page",
-        "emptySpaceQuarter3": "3/4 de page",
-        "emptySpacePageBreak": "Saut de page",
-        "emptySpacePlaceholder": "ex : Fin de la partie I",
-        "titlePlaceholder": "ex : Chapitre Un"
       },
       "format": {
         "title": "Formater le manuscrit",
@@ -1688,8 +1654,7 @@
       "loadingPane": "Chargement du panneau...",
       "loadingConcept": "Chargement du concept...",
       "loadingSegment": "Chargement du segment...",
-      "loadingFolder": "Chargement du dossier...",
-      "loadingManuscript": "Chargement du manuscrit..."
+      "loadingFolder": "Chargement du dossier..."
     },
     "sidebar": {
       "visibility": {
@@ -1775,33 +1740,19 @@
         "newManuscriptName": "Nouveau manuscrit",
         "openManuscriptActionsMenu": "Ouvrir le menu des actions du manuscrit",
         "rename": "Renommer",
-        "renameManuscript": "Renommer le Manuscrit",
-        "deleteManuscriptDescription": "Cela supprime la structure du manuscrit mais ne supprime pas les segments.",
         "addOptions": {
           "noMatchingSegments": "Aucun segment correspondant",
           "addTitle": "Ajouter un titre",
           "addEmptySpace": "Ajouter un espace vide"
         },
         "entry": {
-          "untitledTitle": "Titre sans nom",
-          "updateTitle": "Mettre à jour le titre",
           "hideSegmentTitle": "Masquer le titre du segment",
           "showSegmentTitle": "Afficher le titre du segment",
           "openSegment": "Ouvrir le segment",
-          "addAbove": "Ajouter au-dessus",
-          "addBelow": "Ajouter en dessous",
           "removeEntryTitle": "Supprimer l'entrée",
           "removeEntryDescription": "Cela supprime l'entrée de la structure du manuscrit.",
           "removeEntryConfirm": "Supprimer l'entrée"
-        },
-        "toggleSection": "Activer/désactiver la section Manuscrit",
-        "emptyDescription": "Le manuscrit est l'endroit où tu organises tes fichiers et segments en un récit structuré. Crée des manuscrits comme Livre 1 ou Livre 2, puis organise-les en actes, parties, ou toute autre structure adaptée à ton histoire.",
-        "emptyExample1": "Livre 1 : Le début",
-        "emptyExample2": "Livre 2 : Le Milieu",
-        "emptyExample3": "Livre 3 : La Fin",
-        "emptyExample4": "Acte I : L'installation",
-        "emptyExample5": "Acte II : La Confrontation",
-        "emptyExample6": "Acte III : La Résolution"
+        }
       },
       "examples": "Exemples :",
       "toggleSection": "Activer/désactiver la section {{section}}"

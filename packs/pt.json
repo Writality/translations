@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "e60d32471719-pt",
-  "sourceRevision": "e60d324717194184dbde1ceb3831509be9009a85",
+  "version": "d24e71918f2d-pt",
+  "sourceRevision": "d24e71918f2d585ff7ab62f4560ea53eff9c6605",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -494,7 +494,7 @@
         "addSegment": "Adicionar segmento",
         "removeEntry": "Remover entrada",
         "notAvailable": "n/a",
-        "chooseBackgroundImage": "Escolher imagem de fundo",
+        "backgroundImage": "Escolher imagem de fundo",
         "selectProjectToManage": "Selecione ou crie um projeto para gerenciar {{item}}.",
         "noSearchMatches": "Nenhum {{item}} corresponde à sua pesquisa."
       },
@@ -594,8 +594,7 @@
       },
       "sidebar": {
         "filterOnTags": "Filtrar por marcadores",
-        "workbench": "Segmentos e conceitos para construir sua história.",
-        "manuscripts": "Construir e ler o manuscrito."
+        "workbench": "Segmentos e conceitos para construir sua história."
       },
       "graph": {
         "hideAllLabels": "Ocultar rótulos",
@@ -787,7 +786,6 @@
         "consistency": {
           "keepWriting": "Continue escrevendo para ver o seu progresso!",
           "excellent": "Excelente consistência!",
-          "lower": "Porcentagens menores indicam atividade menos frequente.",
           "message": "Você esteve ativo em {{activeDays}} de um total de {{totalDays}} dias (consistência de {{consistencyRate}}%) no último {{timeframeLabel}} período. {{consistencyText}}"
         },
         "activity": {
@@ -796,15 +794,6 @@
           "trimmedWords": "você cortou {{count}} palavras.",
           "unchanged": "sua contagem final de palavras não mudou",
           "message": "No período {{timeframeLabel}}, {{totalWordsText}} em {{activeDays}} dias ativos, média final de palavras de {{avgWordsPerActiveDay}} por sessão. A maior mudança em um único dia foi de {{maxAbsoluteDailyChange}} palavras."
-        },
-        "storyBalance": {
-          "start": "Comece a escrever para ver o saldo da sua história!",
-          "narrative": "narrativa",
-          "worldBuilding": "construção de mundo",
-          "message": "Seu projeto é {{narrative}}% narrativa e {{worldBuilding}}% construção de mundo. ",
-          "leansWorldBuilding": "Baseado na contagem de palavras, seu projeto atualmente se inclina para a construção de mundos.",
-          "moreConcepts": "O seu mundo poderia se beneficiar de mais desenvolvimento de conceitos.",
-          "greatFocus": "Grande foco em {{dominant}}!"
         },
         "development": {
           "start": "Comece a desenvolver seu conteúdo para ver insights aprofundados!",
@@ -828,7 +817,6 @@
       },
       "wordCountCalendar": {
         "title": "Contagem diária de palavras",
-        "yearLabel": "Ano:",
         "loading": "Carregando calendário...",
         "addedWords": "{{count}} palavras adicionadas",
         "removedWords": "{{count}} palavras removidas",
@@ -884,7 +872,6 @@
         "thisWeek": "Esta semana",
         "daysWritingLabel": "Dias escrevendo",
         "goalWords": "Meta {{count}} palavras",
-        "deadlineLabel": "Prazo {{date}}",
         "adjustGoal": "Ajustar meta",
         "noGoal": "Sem meta — apenas escrevendo",
         "setGoal": "Definir uma meta"
@@ -977,12 +964,10 @@
         "unsavedDescription": "Esta imagem não está salva no  {{appName}}. Salve-a para adicioná-la à sua galeria de imagens com uma miniatura."
       },
       "menu": {
-        "exportAsJson": "Exportar como JSON",
         "exportAsWord": "Exportar como Word (.docx)",
         "exportAsPdf": "Exportar como PDF (.pdf)",
         "exportAsHtml": "Exportar como HTML (.html)",
         "exportAsMarkdown": "Exportar como Markdown (.md)",
-        "importFromJson": "Importar de JSON",
         "importFromWord": "Importar de Word (.docx)",
         "importFromMarkdown": "Importar de Markdown (.md)"
       },
@@ -1152,7 +1137,6 @@
       "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
       "textAlignTooltip": "Alinhamento do texto: {{mode}}",
       "showScrollbar": "Exibir barra de rolagem",
-      "showSegmentReferences": "Show references and backlinks",
       "indentParagraphs": "Indentar parágrafos",
       "typewriterMode": "Modo máquina de escrever",
       "dimMode": "Focar parágrafo atual",
@@ -1187,9 +1171,6 @@
         "relaxed": "Relaxado"
       },
       "toasts": {
-        "noContentToExport": "Nenhum conteúdo para exportar",
-        "contentExported": "Conteúdo exportado com sucesso",
-        "exportFailed": "Falha ao exportar conteúdo",
         "exportWordSuccess": "Documento exportado para Word com sucesso",
         "exportWordFailed": "Falha ao exportar para o Word",
         "exportPdfSuccess": "Documento exportado para PDF com sucesso",
@@ -1198,9 +1179,6 @@
         "exportHtmlFailed": "Falha ao exportar para HTML",
         "exportMarkdownSuccess": "Documento exportado para Markdown com sucesso",
         "exportMarkdownFailed": "Falha ao exportar para Markdown",
-        "contentImported": "Conteúdo importado com sucesso",
-        "importInvalidJson": "Falha ao importar conteúdo. Formato JSON inválido.",
-        "readFileFailed": "Falha ao ler o arquivo",
         "importWordSuccess": "Documento Word importado com sucesso",
         "importWordFailed": "Falha ao importar o documento do Word",
         "importWordFileTooLarge": "O arquivo é muito grande. O tamanho máximo é 10MB.",
@@ -1311,18 +1289,6 @@
         "selectSegment": "Selecionar segmento",
         "adding": "Adicionando...",
         "addSegment": "Adicionar segmento"
-      },
-      "entryDialog": {
-        "editItem": "Editar Item",
-        "labelOptional": "Rótulo (opcional)",
-        "titleRequired": "Título *",
-        "emptySpaceType": "Tipo de espaço em branco",
-        "emptySpaceQuarter1": "1/4 página",
-        "emptySpaceQuarter2": "2/4 página",
-        "emptySpaceQuarter3": "3/4 página",
-        "emptySpacePageBreak": "Quebra de página",
-        "emptySpacePlaceholder": "ex.: Fim da Parte I",
-        "titlePlaceholder": "ex.: Capítulo 1"
       },
       "format": {
         "title": "Formatar manuscrito",
@@ -1688,8 +1654,7 @@
       "loadingPane": "Carregando painel...",
       "loadingConcept": "Carregando conceito...",
       "loadingSegment": "Carregando segmento...",
-      "loadingFolder": "Carregando pasta...",
-      "loadingManuscript": "Carregando manuscrito..."
+      "loadingFolder": "Carregando pasta..."
     },
     "sidebar": {
       "visibility": {
@@ -1775,33 +1740,19 @@
         "newManuscriptName": "Novo manuscrito",
         "openManuscriptActionsMenu": "Abrir menu de ações de manuscrito",
         "rename": "Renomear",
-        "renameManuscript": "Renomear manuscrito",
-        "deleteManuscriptDescription": "Isto remove a estrutura do manuscrito, mas não exclui os segmentos.",
         "addOptions": {
           "noMatchingSegments": "Nenhum segmento correspondente",
           "addTitle": "Adicionar título",
           "addEmptySpace": "Adicionar espaço em branco"
         },
         "entry": {
-          "untitledTitle": "Título sem nome",
-          "updateTitle": "Atualizar título",
           "hideSegmentTitle": "Ocultar título do segmento",
           "showSegmentTitle": "Exibir título do segmento",
           "openSegment": "Abrir segmento",
-          "addAbove": "Adicionar acima",
-          "addBelow": "Adicionar abaixo",
           "removeEntryTitle": "Remover entrada",
           "removeEntryDescription": "Isso remove a entrada da estrutura do manuscrito.",
           "removeEntryConfirm": "Remover entrada"
-        },
-        "toggleSection": "Alternar seção de manuscritos",
-        "emptyDescription": "O manuscrito organiza seus arquivos e segmentos em uma narrativa estruturada. Crie manuscritos (como Livro 1 ou Livro 2) e divida-os em atos, partes ou na estrutura que preferir.",
-        "emptyExample1": "Livro 1: O Início",
-        "emptyExample2": "Livro 2: O Meio",
-        "emptyExample3": "Livro 3: O Fim",
-        "emptyExample4": "Ato I: A Preparação",
-        "emptyExample5": "Ato II: O Confronto",
-        "emptyExample6": "Ato III: A Resolução"
+        }
       },
       "examples": "Exemplos:",
       "toggleSection": "Alternar seção {{section}}"
@@ -2106,7 +2057,6 @@
         "activeDays": "Active writing days",
         "wordsAdded": "Words added",
         "wordsRemoved": "Words removed",
-        "topProjects": "Most used projects",
         "archived": "Archived",
         "words": "{{count}} words",
         "noProjects": "No projects yet."
