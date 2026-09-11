@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "5c5700d46137-es",
-  "sourceRevision": "5c5700d46137848b08c968f5bea19af0a6c61396",
+  "version": "8af95bf40338-es",
+  "sourceRevision": "8af95bf40338a445eb62af1bb36aec37392d41e9",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -341,10 +341,13 @@
       "dismiss": "Descartar",
       "color": "color",
       "open": "Abrir",
+      "openManuscriptView": "Abrir la vista de manuscrito",
+      "closeManuscriptView": "Cerrar la vista de manuscrito",
       "remove": "Quitar",
       "default": "Por defecto",
       "concept": "Concepto",
       "segment": "Segmento",
+      "relationshipType": "Tipo de relación",
       "toggleSection": "Cambiar {{section}}",
       "completed": "Completado",
       "shared": {
@@ -366,6 +369,7 @@
         "calendarSystem": "Sistema de calendario",
         "cartography": "Cartografía",
         "changelog": "Historial de cambios",
+        "changeTheme": "Cambiar tema",
         "clearAllFilters": "Borrar todos los filtros",
         "clearFilters": "Borrar filtros",
         "color": "Color",
@@ -494,7 +498,8 @@
         "addSegment": "Añadir segmento",
         "removeEntry": "Borrar entrada",
         "notAvailable": "n/a",
-        "backgroundImage": "Elegir imagen de fondo",
+        "backgroundImage": "Imagen de fondo",
+        "headerImage": "Imagen del encabezado",
         "selectProjectToManage": "Seleccione o cree un proyecto para administrar {{item}}.",
         "noSearchMatches": "No hay {{item}} que coincida con tu búsqueda."
       },
@@ -966,10 +971,14 @@
       "menu": {
         "exportAsWord": "Exportar a Word (.docx)",
         "exportAsPdf": "Exportar a PDF (.pdf)",
+        "includeCoverInPdf": "Incluir portada",
         "exportAsHtml": "Exportar a HTML (.html)",
+        "exportAsEpub": "Exportar como EPUB (.epub)",
         "exportAsMarkdown": "Exportar a Markdown (.md)",
         "importFromWord": "Importar desde Word (.docx)",
-        "importFromMarkdown": "Importar desde Markdown (.md)"
+        "importFromMarkdown": "Importar desde Markdown (.md)",
+        "bulkImport": "Importar en masa",
+        "bulkImportTooltip": "Importa un documento grande en Ajustes para dividirlo en múltiples segmentos o conceptos por encabezado."
       },
       "blockMenu": {
         "optionsAndDrag": "Haga clic para opciones, arrastre para mover",
@@ -1128,6 +1137,7 @@
       "titleWeight": "Grosor del título",
       "textAlign": "Alineación del texto",
       "backgroundColor": "Color del fondo",
+      "image": "Imagen",
       "textColor": "Color del texto",
       "widthTooltip": "Ancho: {{mode}}",
       "fontSizeTooltip": "Tamaño de fuente: {{mode}}",
@@ -1137,6 +1147,7 @@
       "titleSpacingTooltip": "Espaciado de títulos: {{mode}}",
       "textAlignTooltip": "Alineación del texto: {{mode}}",
       "showScrollbar": "Mostrar barras de desplazamiento",
+      "showReferences": "Muestra referencias y enlaces externos",
       "indentParagraphs": "Agregar sangría a los párrafos",
       "typewriterMode": "Modo máquina de escribir",
       "dimMode": "Modo atenuado",
@@ -1157,6 +1168,7 @@
         "typewriterBlur": "Desenfoca los párrafos inactivos manteniendo el párrafo actual nítido.",
         "hemingwayMode": "Bloquea la redacción solo para avanzar el movimiento: no hay retroceso ni mover el cursor hacia atrás.",
         "showSegmentReferences": "Muestra las referencias y panel de enlaces externos debajo del editor de segmentos.",
+        "showConceptReferences": "Muestra las referencias y el panel de enlaces externos debajo del editor de conceptos.",
         "fixedEditorToolbar": "Mantiene los controles de formato fijados en el editor, incluyendo en modo zen."
       },
       "modes": {
@@ -1177,6 +1189,8 @@
         "exportPdfFailed": "Fallo al exportar a PDF",
         "exportHtmlSuccess": "Documento exportado a HTML con éxito",
         "exportHtmlFailed": "Fallo al exportar a HTML",
+        "exportEpubSuccess": "Documento exportado a EPUB con éxito",
+        "exportEpubFailed": "Fallo al exportar a EPUB",
         "exportMarkdownSuccess": "Documento exportado a Markdown con éxito",
         "exportMarkdownFailed": "Fallo al exportar a Markdown",
         "importWordSuccess": "Documento Word importado con éxito",
@@ -1186,6 +1200,8 @@
         "importMarkdownFailed": "Fallo al importar documento Markdown"
       },
       "highlightDialogue": "Resaltar diálogo",
+      "showRelationshipGraphMentions": "Mostrar menciones en los gráficos de relaciones",
+      "showRelationshipGraphMentionsTooltip": "Mostrar enlaces de mención en cada concepto y segmento del gráfico de relación de forma predeterminada. Cada gráfico puede ocultarlos temporalmente.",
       "dialogueHighlightMode": "Estilo",
       "dialogueHighlightModes": {
         "quotes": "Citas",
@@ -1284,11 +1300,20 @@
       }
     },
     "manuscript": {
+      "cover": {
+        "title": "Portada",
+        "add": "Añadir portada",
+        "emptyDescription": "Añadir imagen de portada para incluirla en exportaciones EPUB y PDF."
+      },
       "segmentPicker": {
         "title": "Añadir segmento al manuscrito",
         "selectSegment": "Seleccionar segmento",
         "adding": "Añadiendo...",
         "addSegment": "Añadir segmento"
+      },
+      "preview": {
+        "empty": "Crea un manuscrito para empezar a organizar tu borrador.",
+        "paginatedEmpty": "Crea un manuscrito para ver su vista previa paginada."
       },
       "format": {
         "title": "Formatear manuscrito",
@@ -1962,6 +1987,7 @@
           "saveNew": "Guardar como nuevo tema",
           "unsavedDraft": "Sin guardar",
           "options": {
+            "roundedness": "Redondeado",
             "writalityBackground": {
               "label": "Fondo de Writality",
               "description": "Muestra la sutil marca de agua de Writality tras el panel de ajustes.",
@@ -2021,6 +2047,11 @@
         "larger": "Más grande",
         "quickPresets": "Preajustes rápidos",
         "tip": "Sugerencia: 100% coincide con el diseño predeterminado. Utilice los ajustes predeterminados para cambios rápidos y el slider para ajustar detalladamente."
+      },
+      "textScale": {
+        "title": "Tamaño del texto",
+        "description": "Ajustar el texto de la interfaz sin cambiar el diseño de tu escritura.",
+        "ariaLabel": "Tamaño del texto de la interfaz"
       },
       "split": {
         "tileToLeft": "Mosaico a la izquierda",
@@ -2502,9 +2533,13 @@
       "custom": "Límite personalizado",
       "customPlaceholder": "Introduzca un número",
       "customHint": "Presione Enter o deje el campo para guardar el límite personalizado.",
+      "conceptVersions": "Versiones de concepto",
+      "segmentVersions": "Versiones de segmento",
+      "totalProjectVersions": "Versiones totales en el proyecto",
       "customInvalid": "Usar un número entero mayor que 0.",
       "customSaved": "Manteniendo las últimas {{count}} versiones menores.",
       "footprint": "Las instantáneas de versiones son sólo texto y suelen tener una pequeña huella de almacenamiento para la mayoría de los proyectos.",
+      "howLongShouldWeKeepVersion": "¿Cuánto tiempo deberíamos mantener tus versiones?",
       "duplicates": "Las versiones menores idénticas nunca se guardan porque primero comparamos los hash de contenido.",
       "updateFailed": "Error al actualizar la retención de la versión."
     },

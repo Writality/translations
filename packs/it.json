@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "5c5700d46137-it",
-  "sourceRevision": "5c5700d46137848b08c968f5bea19af0a6c61396",
+  "version": "8af95bf40338-it",
+  "sourceRevision": "8af95bf40338a445eb62af1bb36aec37392d41e9",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -341,10 +341,13 @@
       "dismiss": "Chiudi",
       "color": "colore",
       "open": "Apri",
+      "openManuscriptView": "Open manuscript view",
+      "closeManuscriptView": "Close manuscript view",
       "remove": "Rimuovi",
       "default": "Default",
       "concept": "Concetto",
       "segment": "Segmento",
+      "relationshipType": "Relationship type",
       "toggleSection": "Attiva/disattiva {{section}}",
       "completed": "Completati",
       "shared": {
@@ -366,6 +369,7 @@
         "calendarSystem": "Sistema di calendario",
         "cartography": "Cartografia",
         "changelog": "Changelog",
+        "changeTheme": "Change theme",
         "clearAllFilters": "Rimuovi tutti i filtri",
         "clearFilters": "Rimuovi filtri",
         "color": "Colore",
@@ -494,7 +498,8 @@
         "addSegment": "Aggiungi segmento",
         "removeEntry": "Rimuovi elemento",
         "notAvailable": "n/d",
-        "backgroundImage": "Scegli immagine di sfondo",
+        "backgroundImage": "Background image",
+        "headerImage": "Header image",
         "selectProjectToManage": "Selezionare o creare un progetto per gestire {{item}}.",
         "noSearchMatches": "Nessun {{item}} corrisponde alla tua ricerca."
       },
@@ -966,10 +971,14 @@
       "menu": {
         "exportAsWord": "Export as Word (.docx)",
         "exportAsPdf": "Export as PDF (.pdf)",
+        "includeCoverInPdf": "Include cover",
         "exportAsHtml": "Export as HTML (.html)",
+        "exportAsEpub": "Export as EPUB (.epub)",
         "exportAsMarkdown": "Export as Markdown (.md)",
         "importFromWord": "Import from Word (.docx)",
-        "importFromMarkdown": "Import from Markdown (.md)"
+        "importFromMarkdown": "Import from Markdown (.md)",
+        "bulkImport": "Bulk import",
+        "bulkImportTooltip": "Import a large document in Settings to split it into multiple segments or concepts by heading."
       },
       "blockMenu": {
         "optionsAndDrag": "Click for options, drag to move",
@@ -1128,6 +1137,7 @@
       "titleWeight": "Title weight",
       "textAlign": "Text align",
       "backgroundColor": "Background colour",
+      "image": "Image",
       "textColor": "Text colour",
       "widthTooltip": "Width: {{mode}}",
       "fontSizeTooltip": "Font size: {{mode}}",
@@ -1137,6 +1147,7 @@
       "titleSpacingTooltip": "Title spacing: {{mode}}",
       "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
+      "showReferences": "Show references and backlinks",
       "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
@@ -1157,6 +1168,7 @@
         "typewriterBlur": "Blurs inactive paragraphs while keeping the current paragraph sharp.",
         "hemingwayMode": "Locks drafting to forward motion only: no backspace and no moving the cursor backward.",
         "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
+        "showConceptReferences": "Show the references and backlinks pane below the concept editor.",
         "fixedEditorToolbar": "Keeps formatting controls pinned in the editor, including in zen mode."
       },
       "modes": {
@@ -1177,6 +1189,8 @@
         "exportPdfFailed": "Failed to export to PDF",
         "exportHtmlSuccess": "Document exported to HTML successfully",
         "exportHtmlFailed": "Failed to export to HTML",
+        "exportEpubSuccess": "Document exported to EPUB successfully",
+        "exportEpubFailed": "Failed to export to EPUB",
         "exportMarkdownSuccess": "Document exported to Markdown successfully",
         "exportMarkdownFailed": "Failed to export to Markdown",
         "importWordSuccess": "Word document imported successfully",
@@ -1186,6 +1200,8 @@
         "importMarkdownFailed": "Failed to import Markdown document"
       },
       "highlightDialogue": "Highlight dialogue",
+      "showRelationshipGraphMentions": "Show mentions in relationship graphs",
+      "showRelationshipGraphMentionsTooltip": "Show mention links in every concept and segment relationship graph by default. Each graph can still hide them temporarily.",
       "dialogueHighlightMode": "Style",
       "dialogueHighlightModes": {
         "quotes": "Quotes",
@@ -1284,11 +1300,20 @@
       }
     },
     "manuscript": {
+      "cover": {
+        "title": "Cover",
+        "add": "Add cover",
+        "emptyDescription": "Add a cover image to include it in EPUB and PDF exports."
+      },
       "segmentPicker": {
         "title": "Add Segment to Manuscript",
         "selectSegment": "Select Segment",
         "adding": "Adding...",
         "addSegment": "Add Segment"
+      },
+      "preview": {
+        "empty": "Create a manuscript to start organizing your draft.",
+        "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
         "title": "Format manuscript",
@@ -1779,7 +1804,7 @@
         "positionImage": "Position {{entity}} banner image",
         "donePositioning": "Done positioning {{entity}} banner image",
         "removeImage": "Remove {{entity}} banner image",
-        "changeBackgroundImage": "Change background image",
+        "changeBackgroundImage": "Change header image",
         "editImage": "Edit {{entity}} banner image"
       }
     },
@@ -1962,6 +1987,7 @@
           "saveNew": "Save as new theme",
           "unsavedDraft": "Unsaved",
           "options": {
+            "roundedness": "Roundedness",
             "writalityBackground": {
               "label": "Writality background",
               "description": "Shows the subtle Writality writing watermark behind settings.",
@@ -2022,6 +2048,11 @@
         "quickPresets": "Quick presets",
         "tip": "Tip: 100% matches the default layout. Use presets for quick switches and the slider for fine tuning."
       },
+      "textScale": {
+        "title": "Text size",
+        "description": "Adjust interface text without changing the layout or your writing.",
+        "ariaLabel": "Interface text size"
+      },
       "split": {
         "tileToLeft": "Tile to Left",
         "tileToRight": "Tile to Right"
@@ -2057,6 +2088,7 @@
         "activeDays": "Active writing days",
         "wordsAdded": "Words added",
         "wordsRemoved": "Words removed",
+        "topProjects": "Top projects",
         "archived": "Archived",
         "words": "{{count}} words",
         "noProjects": "No projects yet."
@@ -2501,9 +2533,13 @@
       "custom": "Custom limit",
       "customPlaceholder": "Enter a number",
       "customHint": "Press Enter or leave the field to save the custom limit.",
+      "conceptVersions": "Concept versions",
+      "segmentVersions": "Segment versions",
+      "totalProjectVersions": "Total versions in project",
       "customInvalid": "Use a whole number greater than 0.",
       "customSaved": "Keeping the last {{count}} minor versions.",
       "footprint": "Version snapshots are text-only and typically have a small storage footprint for most projects.",
+      "howLongShouldWeKeepVersion": "How long should we keep your versions?",
       "duplicates": "Identical minor versions are never saved because we compare content hashes first.",
       "updateFailed": "Failed to update version retention."
     },

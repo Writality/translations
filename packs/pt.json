@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "5c5700d46137-pt",
-  "sourceRevision": "5c5700d46137848b08c968f5bea19af0a6c61396",
+  "version": "8af95bf40338-pt",
+  "sourceRevision": "8af95bf40338a445eb62af1bb36aec37392d41e9",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -341,10 +341,13 @@
       "dismiss": "Dispensar",
       "color": "cor",
       "open": "Abrir",
+      "openManuscriptView": "Open manuscript view",
+      "closeManuscriptView": "Close manuscript view",
       "remove": "Remover",
       "default": "Padrão",
       "concept": "Conceito",
       "segment": "Segmento",
+      "relationshipType": "Relationship type",
       "toggleSection": "Alternar {{section}}",
       "completed": "Concluído",
       "shared": {
@@ -366,6 +369,7 @@
         "calendarSystem": "Sistema de calendário",
         "cartography": "Cartografia",
         "changelog": "Histórico de mudanças",
+        "changeTheme": "Change theme",
         "clearAllFilters": "Limpar todos os filtros",
         "clearFilters": "Limpar filtros",
         "color": "Cor",
@@ -494,7 +498,8 @@
         "addSegment": "Adicionar segmento",
         "removeEntry": "Remover entrada",
         "notAvailable": "n/a",
-        "backgroundImage": "Escolher imagem de fundo",
+        "backgroundImage": "Background image",
+        "headerImage": "Header image",
         "selectProjectToManage": "Selecione ou crie um projeto para gerenciar {{item}}.",
         "noSearchMatches": "Nenhum {{item}} corresponde à sua pesquisa."
       },
@@ -966,10 +971,14 @@
       "menu": {
         "exportAsWord": "Exportar como Word (.docx)",
         "exportAsPdf": "Exportar como PDF (.pdf)",
+        "includeCoverInPdf": "Include cover",
         "exportAsHtml": "Exportar como HTML (.html)",
+        "exportAsEpub": "Export as EPUB (.epub)",
         "exportAsMarkdown": "Exportar como Markdown (.md)",
         "importFromWord": "Importar de Word (.docx)",
-        "importFromMarkdown": "Importar de Markdown (.md)"
+        "importFromMarkdown": "Importar de Markdown (.md)",
+        "bulkImport": "Bulk import",
+        "bulkImportTooltip": "Import a large document in Settings to split it into multiple segments or concepts by heading."
       },
       "blockMenu": {
         "optionsAndDrag": "Clique para opções, arraste para mover",
@@ -1128,6 +1137,7 @@
       "titleWeight": "Peso do título",
       "textAlign": "Alinhamento do texto",
       "backgroundColor": "Cor de fundo",
+      "image": "Image",
       "textColor": "Cor do texto",
       "widthTooltip": "Largura: {{mode}}",
       "fontSizeTooltip": "Tamanho da fonte: {{mode}}",
@@ -1137,6 +1147,7 @@
       "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
       "textAlignTooltip": "Alinhamento do texto: {{mode}}",
       "showScrollbar": "Exibir barra de rolagem",
+      "showReferences": "Show references and backlinks",
       "indentParagraphs": "Indentar parágrafos",
       "typewriterMode": "Modo máquina de escrever",
       "dimMode": "Focar parágrafo atual",
@@ -1157,6 +1168,7 @@
         "typewriterBlur": "Desfoca os parágrafos inativos, mantendo o parágrafo atual nítido.",
         "hemingwayMode": "Escrita sem volta: bloqueia o uso do backspace e mover o cursor para trás.",
         "showSegmentReferences": "Show the references and backlinks pane below the segment editor.",
+        "showConceptReferences": "Show the references and backlinks pane below the concept editor.",
         "fixedEditorToolbar": "Mantém os controles de formatação fixados no editor, inclusive no modo zen."
       },
       "modes": {
@@ -1177,6 +1189,8 @@
         "exportPdfFailed": "Falha ao exportar para PDF",
         "exportHtmlSuccess": "Documento exportado para HTML com sucesso",
         "exportHtmlFailed": "Falha ao exportar para HTML",
+        "exportEpubSuccess": "Document exported to EPUB successfully",
+        "exportEpubFailed": "Failed to export to EPUB",
         "exportMarkdownSuccess": "Documento exportado para Markdown com sucesso",
         "exportMarkdownFailed": "Falha ao exportar para Markdown",
         "importWordSuccess": "Documento Word importado com sucesso",
@@ -1186,6 +1200,8 @@
         "importMarkdownFailed": "Falha ao importar o documento Markdown"
       },
       "highlightDialogue": "Destacar diálogo",
+      "showRelationshipGraphMentions": "Show mentions in relationship graphs",
+      "showRelationshipGraphMentionsTooltip": "Show mention links in every concept and segment relationship graph by default. Each graph can still hide them temporarily.",
       "dialogueHighlightMode": "Estilo",
       "dialogueHighlightModes": {
         "quotes": "Aspas",
@@ -1284,11 +1300,20 @@
       }
     },
     "manuscript": {
+      "cover": {
+        "title": "Cover",
+        "add": "Add cover",
+        "emptyDescription": "Add a cover image to include it in EPUB and PDF exports."
+      },
       "segmentPicker": {
         "title": "Adicionar segmento ao manuscrito",
         "selectSegment": "Selecionar segmento",
         "adding": "Adicionando...",
         "addSegment": "Adicionar segmento"
+      },
+      "preview": {
+        "empty": "Create a manuscript to start organizing your draft.",
+        "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
         "title": "Formatar manuscrito",
@@ -1876,11 +1901,11 @@
         "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Suporte por e-mail em {{supportEmail}}",
-      "helpDescription": "Obtenha ajuda e suporte para usar o {{appName}}",
+      "helpDescription": "Obtenha ajuda e suporte para usar a {{appName}}",
       "helpPrompt": "Precisa de ajuda ou quer falar?"
     },
     "discordInvite": {
-      "eyebrow": "Discord {{appName}}",
+      "eyebrow": "Discord {{appName}} ",
       "title": "Venha me mostrar o que você está construindo ;)",
       "description": "Erros e pedidos de recursos ainda são bem-vindos no aplicativo, mas o Discord é o melhor lugar para discussões aprofundadas: capturas de tela, gráficos de história, perguntas, erros que exigem mais detalhes, pequenos ganhos e as ideias que podem demandar uns e outros."
     },
@@ -1962,6 +1987,7 @@
           "saveNew": "Salvar como novo tema",
           "unsavedDraft": "Não salvo",
           "options": {
+            "roundedness": "Roundedness",
             "writalityBackground": {
               "label": "Writality background",
               "description": "Shows the subtle Writality writing watermark behind settings.",
@@ -2022,6 +2048,11 @@
         "quickPresets": "Predefinições rápidas",
         "tip": "Dica: 100% equivale ao layout padrão. Use predefinições para trocas rápidas e o controle deslizante para ajuste fino."
       },
+      "textScale": {
+        "title": "Text size",
+        "description": "Adjust interface text without changing the layout or your writing.",
+        "ariaLabel": "Interface text size"
+      },
       "split": {
         "tileToLeft": "Ajustar à esquerda",
         "tileToRight": "Ajustar à direita"
@@ -2057,6 +2088,7 @@
         "activeDays": "Active writing days",
         "wordsAdded": "Words added",
         "wordsRemoved": "Words removed",
+        "topProjects": "Top projects",
         "archived": "Archived",
         "words": "{{count}} words",
         "noProjects": "No projects yet."
@@ -2501,9 +2533,13 @@
       "custom": "Limite personalizado",
       "customPlaceholder": "Digite um número",
       "customHint": "Pressione Enter ou deixe o campo para salvar o limite personalizado.",
+      "conceptVersions": "Concept versions",
+      "segmentVersions": "Segment versions",
+      "totalProjectVersions": "Total versions in project",
       "customInvalid": "Use um número inteiro maior que 0.",
       "customSaved": "Mantendo as últimas {{count}} versões menores.",
       "footprint": "Imagens de versão são somente texto e tipicamente ocupam pouco espaço de armazenamento para a maioria dos projetos.",
+      "howLongShouldWeKeepVersion": "How long should we keep your versions?",
       "duplicates": "Versões menores idênticas nunca são salvas pois os hashes são comparados antes.",
       "updateFailed": "Falha ao atualizar a retenção da versões."
     },

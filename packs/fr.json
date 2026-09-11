@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "5c5700d46137-fr",
-  "sourceRevision": "5c5700d46137848b08c968f5bea19af0a6c61396",
+  "version": "8af95bf40338-fr",
+  "sourceRevision": "8af95bf40338a445eb62af1bb36aec37392d41e9",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -341,10 +341,13 @@
       "dismiss": "Rejeter",
       "color": "couleur",
       "open": "Ouvrir",
+      "openManuscriptView": "Open manuscript view",
+      "closeManuscriptView": "Close manuscript view",
       "remove": "Retirer",
       "default": "Défaut",
       "concept": "Concept",
       "segment": "Segment",
+      "relationshipType": "Relationship type",
       "toggleSection": "Activer/désactiver {{section}}",
       "completed": "Terminé",
       "shared": {
@@ -366,6 +369,7 @@
         "calendarSystem": "Système de calendrier",
         "cartography": "Cartographie",
         "changelog": "Changelog",
+        "changeTheme": "Change theme",
         "clearAllFilters": "Effacer tous les filtres",
         "clearFilters": "Effacer les filtres",
         "color": "Couleur",
@@ -494,7 +498,8 @@
         "addSegment": "Ajouter un segment",
         "removeEntry": "Supprimer l'entrée",
         "notAvailable": "n/a",
-        "backgroundImage": "Choisir une image d'arrière-plan",
+        "backgroundImage": "Background image",
+        "headerImage": "Header image",
         "selectProjectToManage": "Sélectionne ou crée un projet pour gérer {{item}}.",
         "noSearchMatches": "Aucun {{item}} ne correspond à ta recherche."
       },
@@ -878,21 +883,21 @@
       }
     },
     "overview": {
-      "stories": "Stories",
-      "classicView": "Classic view",
-      "newStory": "New Story",
-      "templateStory": "Template Story",
-      "resizeArchiveShelf": "Resize archived stories shelf",
-      "noArchivedProjects": "No projects archived",
-      "moveEarlier": "Move earlier",
-      "moveLater": "Move later",
-      "bookDimensions": "Book dimensions",
-      "bookWidth": "Width",
-      "bookHeight": "Height",
-      "leanAmount": "Lean",
-      "bookDesign": "Book design",
-      "spineTextColor": "Title colour",
-      "flipSpineText": "Flip title text",
+      "stories": "Histoires",
+      "classicView": "Affichage classique",
+      "newStory": "Nouvelle histoire",
+      "templateStory": "Modèle d'histoire",
+      "resizeArchiveShelf": "Redimensionner l'étagère des histoires archivées",
+      "noArchivedProjects": "Aucun projet archivé",
+      "moveEarlier": "Déplacer plus tôt",
+      "moveLater": "Déplacer plus tard",
+      "bookDimensions": "Dimensions de livre",
+      "bookWidth": "Largeur",
+      "bookHeight": "Hauteur",
+      "leanAmount": "Inclinaison",
+      "bookDesign": "Design du livre",
+      "spineTextColor": "Couleur du titre",
+      "flipSpineText": "Inverser le texte du titre",
       "spineVariants": {
         "cloth": {
           "name": "Tissu mat",
@@ -966,10 +971,14 @@
       "menu": {
         "exportAsWord": "Exporter en Word (.docx)",
         "exportAsPdf": "Exporter en PDF (.pdf)",
+        "includeCoverInPdf": "Include cover",
         "exportAsHtml": "Exporter en HTML (.html)",
+        "exportAsEpub": "Export as EPUB (.epub)",
         "exportAsMarkdown": "Exporter en Markdown (.md)",
         "importFromWord": "Importer depuis Word (.docx)",
-        "importFromMarkdown": "Importer depuis Markdown (.md)"
+        "importFromMarkdown": "Importer depuis Markdown (.md)",
+        "bulkImport": "Bulk import",
+        "bulkImportTooltip": "Import a large document in Settings to split it into multiple segments or concepts by heading."
       },
       "blockMenu": {
         "optionsAndDrag": "Cliquer pour les options, glisser pour déplacer",
@@ -1128,6 +1137,7 @@
       "titleWeight": "Épaisseur du titre",
       "textAlign": "Alignement du texte",
       "backgroundColor": "Couleur de l'arrière-plan",
+      "image": "Image",
       "textColor": "Couleur du texte",
       "widthTooltip": "Largeur : {{mode}}",
       "fontSizeTooltip": "Taille de la police : {{mode}}",
@@ -1137,6 +1147,7 @@
       "titleSpacingTooltip": "Espacement du titre : {{mode}}",
       "textAlignTooltip": "Alignement du texte : {{mode}}",
       "showScrollbar": "Afficher la barre de défilement",
+      "showReferences": "Show references and backlinks",
       "indentParagraphs": "Indenter les paragraphes",
       "typewriterMode": "Mode Machine à écrire",
       "dimMode": "Mode tamisé",
@@ -1157,6 +1168,7 @@
         "typewriterBlur": "« Floute les paragraphes inactifs tout en gardant le paragraphe en cours net.",
         "hemingwayMode": "Verrouille la rédaction en avant uniquement : pas de retour arrière, ni au clavier ni avec le curseur.",
         "showSegmentReferences": "Afficher le panneau des références et rétroliens sous l'éditeur de segment.",
+        "showConceptReferences": "Show the references and backlinks pane below the concept editor.",
         "fixedEditorToolbar": "Garde les contrôles de mise en forme épinglés dans l'éditeur, même en mode zen."
       },
       "modes": {
@@ -1177,6 +1189,8 @@
         "exportPdfFailed": "Impossible d'exporter vers PDF",
         "exportHtmlSuccess": "Document exporté en HTML avec succès",
         "exportHtmlFailed": "Impossible d'exporter vers HTML",
+        "exportEpubSuccess": "Document exported to EPUB successfully",
+        "exportEpubFailed": "Failed to export to EPUB",
         "exportMarkdownSuccess": "Document exporté vers Markdown avec succès",
         "exportMarkdownFailed": "Impossible d'exporter vers Markdown",
         "importWordSuccess": "Document Word importé avec succès",
@@ -1186,6 +1200,8 @@
         "importMarkdownFailed": "Impossible d'importer le document Markdown"
       },
       "highlightDialogue": "Mettre en évidence les dialogues",
+      "showRelationshipGraphMentions": "Show mentions in relationship graphs",
+      "showRelationshipGraphMentionsTooltip": "Show mention links in every concept and segment relationship graph by default. Each graph can still hide them temporarily.",
       "dialogueHighlightMode": "Style",
       "dialogueHighlightModes": {
         "quotes": "Citations",
@@ -1284,11 +1300,20 @@
       }
     },
     "manuscript": {
+      "cover": {
+        "title": "Cover",
+        "add": "Add cover",
+        "emptyDescription": "Add a cover image to include it in EPUB and PDF exports."
+      },
       "segmentPicker": {
         "title": "Ajouter un segment au Manuscrit",
         "selectSegment": "Sélectionnez un segment",
         "adding": "Ajout...",
         "addSegment": "Ajouter un segment"
+      },
+      "preview": {
+        "empty": "Create a manuscript to start organizing your draft.",
+        "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
         "title": "Formater le manuscrit",
@@ -1962,6 +1987,7 @@
           "saveNew": "Enregistrer comme nouveau thème",
           "unsavedDraft": "Non enregistré",
           "options": {
+            "roundedness": "Roundedness",
             "writalityBackground": {
               "label": "Arrière-plan de Writality",
               "description": "Affiche le filigrane discret de Writality en arrière-plan des paramètres.",
@@ -2021,6 +2047,11 @@
         "larger": "Plus grand",
         "quickPresets": "Préréglages rapides",
         "tip": "Astuce : 100% correspond à la mise en page par défaut. Utilise les préréglages pour les commutateurs rapides et le curseur pour un réglage précis."
+      },
+      "textScale": {
+        "title": "Text size",
+        "description": "Adjust interface text without changing the layout or your writing.",
+        "ariaLabel": "Interface text size"
       },
       "split": {
         "tileToLeft": "Aligner à gauche",
@@ -2427,29 +2458,29 @@
       "removeComplete": "{{language}} supprimé."
     },
     "dictionary": {
-      "description": "Manage your custom dictionary words",
-      "clearAll": "Clear All",
-      "loading": "Loading dictionary...",
-      "spellcheck": "Spellcheck",
-      "enableSpellcheck": "Enable Spellcheck",
-      "spellcheckDescription": "Show misspelling underlines and spelling suggestions in the editor.",
-      "spellcheckLanguage": "Spellcheck Language",
-      "enableSpellcheckToChange": "Enable spellcheck to change language preferences.",
-      "toastLanguageFallback": "Could not apply {{requested}}. Using {{effective}} instead.",
-      "activeLanguageMismatch": "Spellcheck language mismatch: requested language {{requested}}, but your system language is {{active}}.",
-      "toggle": "Toggle spellcheck",
-      "clearDialogDescription": "This will remove all {{count}} {{wordLabel}} from your custom dictionary. This action cannot be undone.",
-      "clearDialogTitle": "Clear Custom Dictionary?",
-      "clearDictionary": "Clear Dictionary",
-      "empty": "Your custom dictionary is empty.",
-      "emptyHint": "Add words above or click \"Add to Dictionary\" when spell-checking.",
-      "enterWord": "Enter a word to add...",
-      "searchWords": "Search words...",
-      "failedToUpdateSpellcheck": "Failed to update spellcheck.",
-      "macNote": "Note: For macOS, spell check is controlled by your system language settings, which may not match the language you selected. Change your system language and restart the app to apply.",
-      "word": "word",
-      "yourDictionary": "Your Dictionary",
-      "removeWord": "Remove word"
+      "description": "Gérer vos mots de dictionnaire personnalisés",
+      "clearAll": "Tout effacer",
+      "loading": "Chargement du dictionnaire...",
+      "spellcheck": "Vérification orthographique",
+      "enableSpellcheck": "Activer la vérification orthographique",
+      "spellcheckDescription": "Afficher les soulignements erronés et les suggestions orthographiques dans l'éditeur.",
+      "spellcheckLanguage": "Langues de vérification orthographique",
+      "enableSpellcheckToChange": "Activer la vérification orthographique pour modifier les préférences de langue.",
+      "toastLanguageFallback": "Impossible d'appliquer {{requested}}. Utilisation de {{effective}} à la place.",
+      "activeLanguageMismatch": "Incompatibilité de la langue de vérification orthographique : la langue demandée {{requested}}, mais votre langue système est {{active}}.",
+      "toggle": "Activer/désactiver la vérification orthographique",
+      "clearDialogDescription": "Cela supprimera les {{count}} {{wordLabel}} de ton dictionnaire personnalisé. Cette action est irréversible.",
+      "clearDialogTitle": "Vider le dictionnaire personnalisé ?",
+      "clearDictionary": "Vider le dictionnaire",
+      "empty": "Ton dictionnaire personnalisé est vide.",
+      "emptyHint": "Ajoute des mots ci-dessus ou clique sur \"Ajouter au dictionnaire\" lors de la vérification orthographique.",
+      "enterWord": "Entrer un mot à ajouter...",
+      "searchWords": "Rechercher des mots...",
+      "failedToUpdateSpellcheck": "Impossible de mettre à jour la vérification orthographique.",
+      "macNote": "Note : Pour macOS, la vérification orthographique est contrôlée par les paramètres de langue de votre système, ce qui peut ne pas correspondre à la langue que vous tu as sélectionnée. Change la langue de votre système et redémarrez l'application pour l'appliquer.",
+      "word": "mot",
+      "yourDictionary": "Ton dictionnaire",
+      "removeWord": "Supprimer un mot"
     },
     "bugs": {
       "description": "Signaler un bug ou afficher les rapports existants.",
@@ -2502,9 +2533,13 @@
       "custom": "Limite personnalisée",
       "customPlaceholder": "Saisir un nombre",
       "customHint": "Appuie sur Entrée ou laisse le champ pour enregistrer la limite personnalisée.",
+      "conceptVersions": "Concept versions",
+      "segmentVersions": "Segment versions",
+      "totalProjectVersions": "Total versions in project",
       "customInvalid": "Utilisez un nombre entier supérieur à 0.",
       "customSaved": "Garder les {{count}} dernières versions mineures.",
       "footprint": "Les instantanés de version sont uniquement du texte et ont généralement une faible empreinte de stockage pour la plupart des projets.",
+      "howLongShouldWeKeepVersion": "Combien de temps devons-nous conserver les versions?",
       "duplicates": "Les versions mineures identiques ne sont jamais sauvegardées car nous comparons les hachages de contenu en premier.",
       "updateFailed": "Impossible de mettre à jour la rétention de la version."
     },
