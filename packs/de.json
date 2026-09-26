@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "be2cfdc72bea-de",
-  "sourceRevision": "be2cfdc72beab5ebb3e0b73cad59254204f9064d",
+  "version": "cee92e544b54-de",
+  "sourceRevision": "cee92e544b547a9371a203e00013c63decaa7a3b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,7 +725,6 @@
         "namePlaceholder": "Eigenschaftsname",
         "keyAriaLabel": "Eigenschaftsschlüssel",
         "removeAriaLabel": "Eigenschaftswert entfernen",
-        "existingAttributes": "Vorhandene Eigenschaften",
         "cancelAddAriaLabel": "Eigenschaft hinzufügen abbrechen",
         "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Konzept auswählen...",

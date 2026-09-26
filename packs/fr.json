@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "be2cfdc72bea-fr",
-  "sourceRevision": "be2cfdc72beab5ebb3e0b73cad59254204f9064d",
+  "version": "cee92e544b54-fr",
+  "sourceRevision": "cee92e544b547a9371a203e00013c63decaa7a3b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,7 +725,6 @@
         "namePlaceholder": "Nom de l'attribut",
         "keyAriaLabel": "Clé d'attribut",
         "removeAriaLabel": "Retirer des valeurs d’attributs",
-        "existingAttributes": "Attributs existants",
         "cancelAddAriaLabel": "Annuler l'ajout d'attribut",
         "emptyDescription": "Les attributs capturent des informations rapides sur ce concept, comme un rôle, un lieu ou une apparence, pour garder les détails importants facilement accessibles.",
         "importPlaceholder": "Sélectionner un concept...",

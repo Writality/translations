@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "be2cfdc72bea-it",
-  "sourceRevision": "be2cfdc72beab5ebb3e0b73cad59254204f9064d",
+  "version": "cee92e544b54-it",
+  "sourceRevision": "cee92e544b547a9371a203e00013c63decaa7a3b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,7 +725,6 @@
         "namePlaceholder": "Attribute name",
         "keyAriaLabel": "Attribute key",
         "removeAriaLabel": "Remove attribute value",
-        "existingAttributes": "Existing attributes",
         "cancelAddAriaLabel": "Cancel add attribute",
         "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Select concept...",

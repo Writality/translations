@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "be2cfdc72bea-pt",
-  "sourceRevision": "be2cfdc72beab5ebb3e0b73cad59254204f9064d",
+  "version": "cee92e544b54-pt",
+  "sourceRevision": "cee92e544b547a9371a203e00013c63decaa7a3b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,7 +725,6 @@
         "namePlaceholder": "Nome do atributo",
         "keyAriaLabel": "Chave do atributo",
         "removeAriaLabel": "Remover valor do atributo",
-        "existingAttributes": "Atributos existentes",
         "cancelAddAriaLabel": "Cancelar adição de atributo",
         "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Selecione um conceito...",

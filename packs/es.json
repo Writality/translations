@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "be2cfdc72bea-es",
-  "sourceRevision": "be2cfdc72beab5ebb3e0b73cad59254204f9064d",
+  "version": "cee92e544b54-es",
+  "sourceRevision": "cee92e544b547a9371a203e00013c63decaa7a3b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -725,7 +725,6 @@
         "namePlaceholder": "Nombre del atributo",
         "keyAriaLabel": "Clave de atributo",
         "removeAriaLabel": "Quitar valores de atributo",
-        "existingAttributes": "Atributos existentes",
         "cancelAddAriaLabel": "Cancelar añadir atributo",
         "emptyDescription": "Los atributos capturan datos rápidos sobre este concepto, tales como un rol, ubicación o apariencia, por lo que los detalles importantes son fáciles de referir.",
         "importPlaceholder": "Seleccionar concepto...",
