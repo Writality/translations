@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "d8f844ef6931-fr",
-  "sourceRevision": "d8f844ef6931ba6fccf7079f5d992e6b1222d0a4",
+  "version": "fec88d192864-fr",
+  "sourceRevision": "fec88d1928641b5427cfa17b18da3de65892ed44",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1703,6 +1703,11 @@
         "showSelected": "Afficher la sélection",
         "chooseTags": "Choisir des tags",
         "showNone": "Ne rien afficher",
+        "style": {
+          "full": "Complet",
+          "compact": "Compact"
+        },
+        "displayStyle": "Style d’affichage",
         "excludeAllConceptsFromWordCount": "Exclure tous les concepts du nombre de mots",
         "includeAllConceptsInWordCount": "Inclure tous les concepts dans le nombre de mots",
         "disableHoverPreview": "Désactiver l'aperçu au survol",
