@@ -3,105 +3,110 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "3400ff31df42-pt",
-  "sourceRevision": "3400ff31df4278e8e3cf0ea57bda2498327d24af",
+  "version": "d019ae7fb108-pt",
+  "sourceRevision": "d019ae7fb1085577b75045c166c2238485d1ef20",
   "resources": {
     "chronology": {
       "conceptList": {
-        "emptyState": "Nenhuma data ainda",
-        "searchPlaceholder": "Procurar conceitos"
+        "emptyState": "Ainda sem datas",
+        "searchPlaceholder": "Pesquisar conceitos"
       },
       "empty": {
         "calendarSystem": {
-          "description": "Defina seu sistema de calendário para começar a rastrear datas."
+          "description": "Configure o seu sistema de calendário para começar a acompanhar as datas."
         },
         "customEras": {
-          "description": "Defina eras para organizar sua linha do tempo.",
+          "description": "Defina eras para organizar a linha do tempo.",
           "title": "Eras personalizadas"
         },
-        "setup": "Definir cronologia",
+        "setup": "Configurar cronologia",
         "timelineTracking": {
-          "description": "Acompanhe datas e eventos no mundo de sua história.",
-          "title": "Aconpanhamento de linha do tempo"
+          "description": "Acompanhe datas e eventos através da história do seu mundo",
+          "title": "Rastrear linha do tempo"
         }
       },
       "eventPreview": {
         "conceptNotFound": "Conceito não encontrado",
         "goTo": "Ir para conceito",
-        "noConceptDescription": "Nenhuma descrição de conceito",
-        "noDateDescription": "Nenhuma descrição de data",
-        "relatedEntities": "Entidades relacionadas"
+        "noConceptDescription": "Sem descrição do conceito",
+        "noDateDescription": "Sem descrição de data",
+        "relatedEntities": "Entidades Relacionadas"
       },
       "minimap": {
-        "addConceptDate": "Adicionar data ao conceito",
+        "addConceptDate": "Adicionar data de conceito",
         "moveTimeline": "Mover linha do tempo"
       },
       "quickAdd": {
-        "description": "Adicionar uma data à linha do tempo rapidamente.",
+        "description": "Adicionar rapidamente uma data à linha do tempo.",
         "labelPlaceholder": "Etiqueta",
         "submit": "Adicionar à linha do tempo",
-        "title": "Adição rápida",
-        "addTimelineDate": "Adicionar data à linha do tempo",
+        "title": "Adicionar rápido",
+        "addTimelineDate": "Adicionar data da linha do tempo",
         "editTimelineDate": "Editar data da linha do tempo",
         "addDescription": "Escolha um conceito e confirme a data para adicioná-lo à linha do tempo.",
-        "editDescription": "Ajuste os detalhes da data e salve suas alterações.",
-        "labelInputPlaceholder": "Ex: nascimento, fundação, coroação",
-        "selectConceptPlaceholder": "Selecione um conceito",
+        "editDescription": "Ajuste os detalhes de data e salve as suas alterações.",
+        "labelInputPlaceholder": "Ex-: Nascimento, Encontrado, Coroação",
+        "selectConceptPlaceholder": "Selecione um conceito...",
         "newEvent": "Novo evento",
-        "loadingDateDetails": "Carregando detalhes da data...",
+        "loadingDateDetails": "Carregando detalhes de data...",
         "couldNotLoadSelectedDate": "Não foi possível carregar a data selecionada.",
         "selectEntitiesPlaceholder": "Selecione conceitos e segmentos..."
       },
       "toolbar": {
-        "jumpLeft": "Pular à esquerda",
-        "jumpRight": "Pular à direita",
-        "panLeft": "Mover à esquerda",
-        "panRight": "Mover à direita",
-        "resetView": "Restaurar visualização",
-        "zoomIn": "Aumentar o zoom",
-        "zoomOut": "Diminuir o zoom",
-        "fitTimeline": "Ajustar a linha do tempo "
+        "configure": "Configurar Sistema de Tempo",
+        "enterFullscreen": "Abrir em ecrã inteiro",
+        "exitFullscreen": "Sair do ecrã inteiro",
+        "navigation": "Navegação cronológica",
+        "appearance": "Aparência cronológica",
+        "jumpLeft": "Saltar à esquerda",
+        "jumpRight": "Saltar à direita",
+        "panLeft": "Mover para esquerda",
+        "panRight": "Mover para direita",
+        "resetView": "Redefinir visualização",
+        "zoomIn": "Aumentar zoom",
+        "zoomOut": "Diminuir zoom",
+        "fitTimeline": "Ajustar linha do tempo"
       },
       "toggleDates": "Alternar datas",
-      "noDatesLinked": "Nenhuma data associada",
-      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
+      "noDatesLinked": "Nenhuma data vinculada ainda.",
+      "noDatesLinkedDescription": "Conectar datas para colocar este conceito na cronologia da sua história, acompanhar eventos importantes, e manter a sua linha cronológica consistente.",
       "previewSegment": "Pré-visualizar {{name}}"
     },
     "timeSystem": {
       "calendar": {
         "beforeMonth": "Antes do mês",
         "events": "Eventos",
-        "formatPreview": "Pré-visualizar formato",
-        "fromYear": "A partir do ano",
-        "jumpTo": "Pular para",
-        "leap": "Bissexto ",
+        "formatPreview": "Formatar pré-visualização",
+        "fromYear": "Do ano",
+        "jumpTo": "Saltar para",
+        "leap": "Bissexto",
         "moonEvents": {
-          "full": "Lua cheia ",
-          "half": "Meia lua",
+          "full": "Lua cheia",
+          "half": "Meia Lua",
           "new": "Lua nova"
         },
         "navigation": "Navegação",
-        "nextYear": "Ano seguinte",
+        "nextYear": "Próximo ano",
         "previousYear": "Ano anterior",
-        "seasonEnds": "Estação termina em",
-        "seasonStarts": "Estação começa em",
+        "seasonEnds": "Fim da estação",
+        "seasonStarts": "Começo da estação",
         "untilYear": "Até o ano",
-        "yearRange": "Intervalo de anos"
+        "yearRange": "Intervalo de ano"
       },
       "customDatePicker": {
-        "placeholder": "Insira ",
+        "placeholder": "Insira o selecionador de datas personalizado.",
         "selectEra": "Selecionar era",
-        "setupHint": "Configure seu calendário antes de escolher datas."
+        "setupHint": "Configure o seu calendário antes de escolher datas."
       },
       "dateFormatDropdown": {
-        "description": "Configurar caixa suspensa de formato de data.",
-        "noPresetSelected": "Nenhuma predefinição selecionada",
+        "description": "Configurar formato de data suspensa.",
+        "noPresetSelected": "Nenhuma pré-definição selecionada",
         "preview": "Pré-visualizar"
       },
       "days": {
         "addCustomDay": "Adicionar dia personalizado",
         "addSpecialDay": "Adicionar dia especial",
-        "customDaysDescription": "Destacar feriados ou eventos nas datas comuns do calendário. ",
+        "customDaysDescription": "Marque feriados ou eventos nas datas regulares do calendário.",
         "dayNamePlaceholder": "Nome do dia",
         "description": "Configurar dias.",
         "leapYearOnly": "Somente ano bissexto",
@@ -111,7 +116,7 @@
         "noSpecialDays": "Nenhum dia especial",
         "onlyInLeapYears": "Apenas nos anos bissextos",
         "recurrenceAnnual": "Anual",
-        "recurrenceMonthly": "Mensalmente",
+        "recurrenceMonthly": "Mensal",
         "recurrenceOneTime": "Uma única vez",
         "requiresLeapRule": "Requer regra de ano bissexto",
         "specialDayDescriptionPlaceholder": "Descreva o dia especial",
@@ -129,7 +134,7 @@
         "negativeHint": "Negativo",
         "result": "Resultado",
         "resultPrefix": "{{value}} {{unit}}",
-        "startDate": "Data de início",
+        "startDate": "Iniciar data",
         "startingDate": "Data de início",
         "swapDates": "Trocar datas",
         "totalDays": "Total de dias",
@@ -147,7 +152,7 @@
         "title": "Editor de sistema de tempo"
       },
       "eras": {
-        "backwardDescription": "Mostrar eras mais antigas primeiro.",
+        "backwardDescription": "Exibir eras mais antigas primeiro.",
         "description": "Configurar eras.",
         "eraNamePlaceholder": "Nome da era",
         "forward": "Avançar",
@@ -163,8 +168,8 @@
         "pickColor": "Escolher cor",
         "updateFailed": "Falha ao atualizar a era",
         "year": "Ano",
-        "addBackwardEra": "Adicionar era antes",
-        "addForwardEra": "Adicionar era depois",
+        "addBackwardEra": "Adicionar era anterior",
+        "addForwardEra": "Adicionar era posterior",
         "startYearPlaceholder": "Ano inicial",
         "backwardResetHint": "Os anos recomeçam no início de cada era regressiva e aumentam para o passado (ex: \"A.C.\", \"Antes da Era Comum\")",
         "errorEarlierThanMin": "O ano inicial da era não pode ser anterior a {{year}}.",
@@ -181,7 +186,7 @@
       },
       "overview": {
         "calendarStructure": "Estrutura de calendário",
-        "calendarStructureEmptyDescription": "Adicione meses, dias úteis ou dias para definir seu calendário.",
+        "calendarStructureEmptyDescription": "Adicione meses, dias da semana ou dias para definir seu calendário",
         "calendarStructureEmptyTitle": "Nenhuma estrutura de calendário ainda",
         "daysPerMonthAverage": "Média de dias por mês",
         "daysPerWeek": "Dias por semana",
@@ -201,7 +206,7 @@
       "presetSelector": {
         "apply": "Aplicar",
         "applyPreset": "Aplicar predefinição",
-        "applyWarning": "Aplicar esta predefinição substituirá seu calendário atual.",
+        "applyWarning": "A aplicação desta predefinição substituirá o calendário atual.",
         "applying": "Aplicando...",
         "categories": {
           "real-world": "Mundo real",
@@ -215,7 +220,7 @@
         "replaceDescription": "Substitua o calendário atual com esta predefinição.",
         "replaceTitle": "Substituir o calendário?",
         "restDay": "Dia de descanso",
-        "summary": "Resumo",
+        "summary": "Sumário",
         "title": "Seletor de predefinição",
         "usePreset": "Usar predefinição"
       },
@@ -236,7 +241,7 @@
         "loading": "Carregando estações...",
         "pickRange": "Selecionar intervalo",
         "season": "Estação",
-        "seasonNamePlaceholder": "Nome da estação"
+        "seasonNamePlaceholder": "Nome da Estação"
       },
       "time": {
         "description": "Configurar hora",
@@ -255,15 +260,15 @@
       },
       "weekdays": {
         "addWeekday": "Adicionar dia da semana",
-        "description": "Configurar dias.",
-        "epochWeekday": "Dia da semana inicial",
+        "description": "Configurar dias da semana.",
+        "epochWeekday": "Dia da semana segundo sistema de época",
         "epochWeekdayDescription": "O primeiro dia do ciclo do calendário.",
-        "loading": "Carregando dias...",
+        "loading": "Carregando dias da semana...",
         "selectWeekday": "Selecionar dia da semana",
         "weekdayNamePlaceholder": "Nome do dia da semana"
       },
       "leapDayModal": {
-        "defaultName": "Ano bissexto",
+        "defaultName": "Dia bissexto",
         "editTitle": "Editar dia bissexto",
         "newTitle": "Novo dia bissexto",
         "rulesTitle": "Regras de ano bissexto",
@@ -273,11 +278,70 @@
         "ruleAndEveryYears": "e a cada {{cycle}} ano(s)",
         "addRule": "Adicionar regra",
         "howItWorksTitle": "Como as regras de ano bissexto funcionam:",
-        "howItWorksBody": "As regras são avaliadas em ordem. Um ano é um ano bissexto se corresponde a qualquer regra \"Adicionar\", a menos que também corresponda a uma regra \"Pular\" subsequente. Por exemplo, o calendário Gregoriano adiciona um ano bissexto a cada 4 anos, mas pula a cada 100 anos, a menos que o ano em questão seja divisível por 400."
+        "howItWorksBody": "As regras são avaliadas em ordem. Um ano é um ano bissexto se corresponde a qualquer regra \"Adicionar\", a menos que também corresponda a uma regra \"Pular\" subsequente. Por exemplo, o calendário Gregoriano adiciona um ano bissexto a cada 4 anos, mas pula a cada 100 anos, a menos que seja também divisível por 400."
       }
     },
     "app": {
       "name": "{{appName}}"
+    },
+    "footer": {
+      "statusLabel": "Writality status",
+      "manuscript": "Manuscript",
+      "spellcheck": "Spellcheck",
+      "spellcheckEnabled": "Spellcheck enabled",
+      "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",
+      "spellcheckDisabledState": ", disabled",
+      "changeSpellcheckLanguageError": "Could not change spellcheck language",
+      "changeSpellcheckError": "Could not change spellcheck",
+      "editorAppearance": "Editor appearance",
+      "editorSettings": "Editor settings",
+      "titleFont": "Title font",
+      "titleSize": "Title size",
+      "textFont": "Text font",
+      "fontSize": "Font size",
+      "lineHeight": "Line height",
+      "serif": "Serif",
+      "monospace": "Monospace",
+      "pixelSize": "{{count}}px",
+      "lineHeightValue": "{{value}}×",
+      "editorZoom": "Editor zoom: {{zoom}}%",
+      "zoom": "Zoom",
+      "resetZoom": "Reset to 100%",
+      "writingSession": "Writing session",
+      "today": "Today",
+      "dailyGoalStatus": "Today's writing: {{current}} of {{goal}} words",
+      "recentWritingActivity": "Recent writing activity",
+      "activityUnavailable": "Could not load writing activity.",
+      "noWritingActivity": "No writing activity yet.",
+      "sessionStatus": "Writing session, {{minutes}} minutes, {{words}} words overall, {{count}} file edited",
+      "sessionStatus_other": "Writing session, {{minutes}} minutes, {{words}} words overall, {{count}} files edited",
+      "active": "Active",
+      "minutesShort": "{{count}}m",
+      "minutes": "{{count}} min",
+      "overall": "Overall",
+      "words": "{{countFormatted}} words",
+      "addedRemoved": "Added / removed",
+      "started": "Started",
+      "filesEdited": "Files edited ({{count}})",
+      "segmentOverlap": "Segment overlap",
+      "projectServices": "Project services",
+      "servicesLabel": "Services",
+      "services": {
+        "segment-overlap": "Segment overlap",
+        "dialogue-intelligence": "Dialogue intelligence"
+      },
+      "serviceDescriptions": {
+        "segment-overlap": "Suggests connections between concepts mentioned together in two or more different segments.",
+        "dialogue-intelligence": "Finds conversations and speaker changes in saved dialogue, with evidence you can inspect."
+      },
+      "serviceSaveError": "Could not save project service settings. Your previous settings were restored.",
+      "serviceState": {
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "loading": "Loading settings",
+        "fetching": "Reading saved evidence",
+        "error": "Could not load saved evidence or settings. Press to retry."
+      }
     },
     "common": {
       "loading": "Carregando...",
@@ -297,6 +361,9 @@
       "edit": "Editar",
       "delete": "Excluir",
       "more": "Mais",
+      "none": "None",
+      "off": "Off",
+      "on": "On",
       "minimize": "Minimizar",
       "maximize": "Maximizar",
       "restore": "Restaurar",
@@ -351,6 +418,7 @@
       "toggleSection": "Alternar {{section}}",
       "completed": "Concluído",
       "shared": {
+        "tags": "Tags",
         "addADescriptionOptional": "Adicionar uma descrição (opcional)",
         "addImage": "Adicionar imagem",
         "addNote": "Adicionar nota",
@@ -654,7 +722,90 @@
         "replaceAll": "Substituir todos"
       }
     },
+    "music": {
+      "home": "Home",
+      "music": "Music",
+      "musicPlayer": "Music player",
+      "nowPlaying": "Now playing",
+      "musicLibrary": "Music library",
+      "closeMusicLibrary": "Close music library",
+      "libraryFilters": "Library filters",
+      "favourites": "Favourites",
+      "songs": "Songs",
+      "playlist": "Playlist",
+      "yourSongs": "Your songs",
+      "newPlaylist": "New playlist",
+      "renamePlaylist": "Rename playlist",
+      "playlistName": "Playlist name",
+      "songActions": "More options for {{title}}",
+      "addToPlaylist": "Add to playlist",
+      "noPlaylists": "No playlists yet",
+      "loadingPlaylists": "Loading playlists…",
+      "playlistsLoadFailed": "Could not load playlists. Try again.",
+      "deletePlaylistQuestion": "Delete {{name}}?",
+      "songsStayInLibrary": "The songs will stay in your library.",
+      "deletePlaylist": "Delete playlist",
+      "loadingCollections": "Loading collections…",
+      "emptyLibraryTitle": "No music in your library yet",
+      "fetchLibrary": "Fetch library",
+      "fetchLibraryFailed": "Could not fetch the library. Try again.",
+      "changeBackgroundImage": "Change background image",
+      "restoreDefaultBackground": "Restore default background",
+      "working": "Working…",
+      "removeDownload": "Remove download",
+      "removeDownloadQuestion": "Remove {{name}} download?",
+      "canDownloadAgain": "The downloaded collection will be removed from this workspace. You can download it again later.",
+      "downloadSongs": "Download {{count}} songs",
+      "downloadSongs_one": "Download {{count}} song",
+      "downloadSongs_other": "Download {{count}} songs",
+      "play": "Play",
+      "shuffle": "Shuffle",
+      "addSongsToPlaylist": "Add songs to this playlist.",
+      "installCollectionToSeeSongs": "Install this collection to see its songs here.",
+      "collectionUnavailable": "This collection is no longer available.",
+      "downloadsUnavailable": "Downloads are unavailable right now. Installed songs still play offline.",
+      "emptyLibrary": "Your library is empty. Upload music or install a Writality collection.",
+      "emptyFavourites": "No favourites yet. Save a track with the heart button.",
+      "noSongs": "No songs found.",
+      "couldNotChangePlaylist": "Could not change the playlist.",
+      "couldNotUpdateCollection": "Could not update this collection.",
+      "couldNotRemoveTrack": "Could not remove this track. Please try again.",
+      "collectionRemoved": "{{name}} removed.",
+      "collectionReady": "{{name}} is ready offline.",
+      "dragMusicHere": "Drag and drop music files here",
+      "supportedFormats": "MP3, WAV, FLAC, M4A, AAC and OGG files",
+      "chooseFiles": "Choose Files",
+      "chooseFolder": "Choose Folder",
+      "addMusicFolder": "Add an entire folder of music",
+      "or": "or",
+      "tracksAdded": "Added {{count}} tracks.",
+      "tracksAdded_one": "Added {{count}} track.",
+      "tracksAdded_other": "Added {{count}} tracks.",
+      "noNewAudio": "No new supported audio files found.",
+      "noFilesSelected": "No files selected.",
+      "couldNotImport": "Could not import these files. Please try again.",
+      "tooManyFiles": "Choose up to 100 files at a time.",
+      "unavailableFile": "Unavailable — file moved or deleted",
+      "creditsAndLicense": "Credits and license: {{title}}",
+      "originalSource": "Original source",
+      "addToFavourites": "Add to favourites: {{title}}",
+      "removeFromFavourites": "Remove from favourites: {{title}}",
+      "removeTrack": "Remove {{title}}",
+      "previousTrack": "Previous track",
+      "nextTrack": "Next track",
+      "volumeControls": "Volume controls",
+      "volume": "Volume",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "timeOfDuration": "{{time}} of {{duration}}",
+      "skippedUnplayable": "Skipped a track that could not be played.",
+      "imageCredit": "Image credit: {{attribution}}"
+    },
     "concept": {
+      "color": "Concept colour",
+      "pickColorFromScreen": "Pick colour from anywhere on screen",
+      "screenPickerUnavailable": "Screen colour picking is unavailable on this system",
+      "screenPickerFailed": "Could not pick a screen colour. Try again or enter a hex colour.",
       "typeSelector": {
         "removeType": "Remove type"
       },
@@ -728,7 +879,40 @@
         "cancelAddAriaLabel": "Cancelar adição de atributo",
         "emptyDescription": "Attributes capture quick facts about this concept, such as a role, location, or appearance, so important details stay easy to reference.",
         "importPlaceholder": "Selecione um conceito...",
-        "importNoConcepts": "Nenhum conceito encontrado."
+        "importNoConcepts": "Nenhum conceito encontrado.",
+        "typeAriaLabel": "Attribute type",
+        "datePlaceholder": "Select date or range",
+        "types": {
+          "text": "Text",
+          "number": "Number",
+          "date": "Date"
+        },
+        "replaceTypeTitle": "Replace attribute values?",
+        "replaceTypeDescription": "Changing this type replaces all values in this attribute with one blank value.",
+        "replaceTypeConfirm": "Replace values",
+        "freezeDependentsConfirm": "Deleting this date will turn dependent dates into fixed dates. Continue?",
+        "replaceTypeFailed": "Could not replace attribute values. Please try again.",
+        "importFailed": "Could not import attributes. Please try again.",
+        "reorderAttribute": "Reorder attribute",
+        "dateType": "Date type",
+        "absoluteDate": "Absolute date",
+        "relativeDate": "Relative date",
+        "datePending": "Date pending",
+        "setDuration": "Set a duration",
+        "thisDate": "This date",
+        "before": "before",
+        "after": "after",
+        "relativePreviewLabel": "{{date}}, {{duration}} {{direction}} {{source}}",
+        "durationUnits": {
+          "years_one": "year",
+          "years_other": "years",
+          "months_one": "month",
+          "months_other": "months",
+          "weeks_one": "week",
+          "weeks_other": "weeks",
+          "days_one": "day",
+          "days_other": "days"
+        }
       }
     },
     "relationships": {
@@ -746,146 +930,235 @@
         "typePlaceholder": "Ex: família, facção, amigo...",
         "notesPlaceholder": "Notas (opcional)",
         "relationshipNotes": "Notas de relacionamento",
-        "preview": "Pré-visualizar:"
+        "preview": "Pré-visualizar:",
+        "updateError": "Could not update relationship"
       },
       "deleteTitle": "Excluir Relacionamento",
-      "deleteDescription": "Você tem certeza de que quer excluir este relacionamento? Esta ação não pode ser desfeita."
+      "deleteDescription": "Você tem certeza de que quer excluir este relacionamento? Esta ação não pode ser desfeita.",
+      "graph": {
+        "connectionsFor": "Connections for {{name}}",
+        "closeConnections": "Close connections",
+        "mentionedTogether": "Mentioned together in {{count}} segments",
+        "mentionedTogether_one": "Mentioned together in {{count}} segment",
+        "linkedByMentions": "Linked by mentions in your writing",
+        "sharedSegments": "Shared segments",
+        "openSegment": "Open segment {{id}}",
+        "readEntity": "Read {{name}}",
+        "directMentionEvidence": "This connection comes from mentions.",
+        "connect": "Create relationship",
+        "hideEvidence": "Hide evidence",
+        "viewEvidence": "View evidence",
+        "currentEntity": "Current entity",
+        "mention": "Mention",
+        "mentionCount": "{{count}} mentions",
+        "mentionCount_one": "{{count}} mention",
+        "segmentOverlap": "Segment overlap",
+        "showConnectionsFor": "Show connections for {{name}}",
+        "sharedSegmentEvidence": "Shared segment evidence",
+        "outgoingMentions": "Mentions ({{count}})",
+        "incomingMentions": "Mentioned in ({{count}})",
+        "mentions": "Mentions",
+        "connectionDetails": "Connection details",
+        "detailsHint": "Hover or select to see details and actions.",
+        "connections": "Connections",
+        "directionalMentionEvidence": "Mentions from this concept: {{outgoing}}. Mentions of this concept: {{incoming}}.",
+        "threads": "Threads",
+        "threadSources": "Thread sources",
+        "evidenceSources": "Evidence sources",
+        "dialogue": "Dialogue",
+        "suggestedConnection": "Suggested connection",
+        "suggestedConnections": "Suggested connections",
+        "dialogueInteraction": "Dialogue interaction",
+        "relationshipState": "Relationship",
+        "dialogueCounts": "Conversations with repeated alternation: {{repeated}} · Conversations with interrupted alternation: {{interrupted}} · Unknown dialogue gaps: {{gaps}}",
+        "conversationEvidence": "Conversations",
+        "savedDialogueEvidence": "From saved dialogue, in segment and document order.",
+        "dialogueLoading": "Loading conversations…",
+        "dialogueRetry": "Could not load conversations. Retry",
+        "dialogueIncomplete": "Some segments could not be read. This conversation list may be incomplete.",
+        "noConversations": "No conversations available.",
+        "unassignedSpeaker": "Unassigned",
+        "unknownSpeaker": "Unknown speaker",
+        "openEvidenceSegment": "Open segment",
+        "previousEvidence": "Previous",
+        "nextEvidence": "Next",
+        "evidencePage": "{{start}}–{{end}} of {{total}}",
+        "dialogueLevel": {
+          "adjacency": "Adjacent speaker change",
+          "repeated-alternation": "Repeated alternation",
+          "interrupted-alternation": "Interrupted alternation"
+        },
+        "dialogueConversations": "{{count}} conversations",
+        "dialogueChanges": "{{count}} direct speaker changes",
+        "dialogueSegments": "{{count}} segments",
+        "dialogueConversations_one": "{{count}} conversation",
+        "dialogueConversations_other": "{{count}} conversations",
+        "dialogueChanges_one": "{{count}} direct speaker change",
+        "dialogueChanges_other": "{{count}} direct speaker changes",
+        "dialogueSegments_one": "{{count}} segment",
+        "dialogueSegments_other": "{{count}} segments",
+        "dialogueConsecutive_one": "Their dialogue appears consecutively once.",
+        "dialogueConsecutive_other": "Their dialogue appears consecutively {{count}} times.",
+        "dialogueThread": "Dialogue thread",
+        "threadBetween": "Thread between {{first}} and {{second}}",
+        "dialogueTogether": "Shared {{conversations}} across {{segments}}.",
+        "dialogueBackAndForth_one": "They have back-and-forth dialogue in {{count}} conversation.",
+        "dialogueBackAndForth_other": "They have back-and-forth dialogue in {{count}} conversations.",
+        "dialogueContinues_one": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversation.",
+        "dialogueContinues_other": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversations.",
+        "dialogueUnassigned": "Some dialogue has no speaker assigned.",
+        "hideDetails": "Hide details",
+        "hideThread": "Hide thread from graph",
+        "restoreThreads": "Show hidden threads",
+        "threadActions": "More actions",
+        "openConcept": "Open concept",
+        "openInSegment": "Open in segment",
+        "singleEvidencePage": "{{start}} of {{total}}",
+        "conversationNumber": "Conversation {{count}}",
+        "moreConversations_one": "(and {{count}} more conversation)",
+        "moreConversations_other": "(and {{count}} more conversations)"
+      },
+      "emptyDescription": "Link an entity in your writing or add a relationship",
+      "reorderGroup": "Reorder relationship group"
     },
     "dashboard": {
-      "loadingGraph": "Carregando gráfico...",
-      "continueEditing": "Continuar editando",
-      "lastEdited": "Última edição",
+      "loadingGraph": "Carregando o gráfico...",
+      "continueEditing": "Continuar a editar",
+      "lastEdited": "Última modificação",
       "noSegmentsCreated": "Nenhum segmento criado",
       "noConceptsCreated": "Nenhum conceito criado",
-      "wordBreakdown": "Divisão por palavras",
-      "wordsInSegments": "palavras em {{count}} segmentos",
-      "wordsInConcepts": "palavras em {{count}} conceitos",
-      "writingInsights": "Insights de escrita",
-      "readingTime": "Tempo de leitura",
-      "mostProductiveDay": "Dia mais produtivo",
-      "activeDays": "Dias ativos",
-      "estimatedReadingTime": "tempo estimado de leitura",
-      "yourBestWritingDay": "seu melhor dia de escrita",
-      "daysWithContinuousWritingActivity": "dias com atividade de escrita contínua",
+      "wordBreakdown": "Análise Lexical",
+      "wordsInSegments": "Palavras em {{count}} segmentos",
+      "wordsInConcepts": "Palavras em {{count}} conceitos",
+      "writingInsights": "Dicas de Escrita",
+      "readingTime": "Tempo de Leitura",
+      "mostProductiveDay": "Dia Mais Produtivo",
+      "activeDays": "Dias Ativos",
+      "estimatedReadingTime": "Tempo estimado de leitura",
+      "yourBestWritingDay": "O seu melhor dia de escrita",
+      "daysWithContinuousWritingActivity": "Dias com atividade de escrita contínua",
       "minShort": "min",
-      "minRead": "min de leitura",
-      "notAvailable": "N/A",
+      "minRead": "min lido",
+      "notAvailable": "Não disponível",
       "storySegments": "segmentos da história",
-      "writingConsistency": "Consistência de escrita",
-      "activityPattern": "Padrão de atividade",
+      "writingConsistency": "Consistência de Escrita",
+      "activityPattern": "Atividade",
       "storyBalance": "Balanço da história",
-      "developmentDepth": "Profundidade do desenvolvimento",
-      "completionProgress": "Progresso da conclusão",
-      "conceptsWithDates": "Conceitos com datas",
-      "conceptsWithRelationships": "Conceitos com relacionamentos",
+      "developmentDepth": "Profundidade de Desenvolvimento",
+      "completionProgress": "Progresso",
+      "conceptsWithDates": "Conceitos com Datas",
+      "conceptsWithRelationships": "Conceitos com Relações",
       "of": "de",
       "timeframes": {
         "oneWeek": "1 semana",
         "twoWeeks": "2 semanas",
         "threeMonths": "3 meses",
         "oneYear": "1 ano",
-        "allTime": "desde sempre"
+        "allTime": "todo o tempo"
       },
       "analytics": {
         "consistency": {
           "keepWriting": "Continue escrevendo para ver o seu progresso!",
           "excellent": "Excelente consistência!",
-          "message": "Você esteve ativo em {{activeDays}} de um total de {{totalDays}} dias (consistência de {{consistencyRate}}%) no último {{timeframeLabel}} período. {{consistencyText}}"
+          "message": "Você esteve ativo no período {{activeDays}} de {{totalDays}} dias (consistência{{consistencyRate}}%) no último período de tempo {{timeframeLabel}} . {{consistencyText}}"
         },
         "activity": {
-          "noWriting": "Nenhuma atividade de escrita registrada para o  {{timeframeLabel}} período.",
-          "wroteWords": "você escreveu {{count}} palavras.",
-          "trimmedWords": "você cortou {{count}} palavras.",
-          "unchanged": "sua contagem final de palavras não mudou",
-          "message": "No período {{timeframeLabel}}, {{totalWordsText}} em {{activeDays}} dias ativos, média final de palavras de {{avgWordsPerActiveDay}} por sessão. A maior mudança em um único dia foi de {{maxAbsoluteDailyChange}} palavras."
+          "noWriting": "Nenhuma atividade de escrita registrada para o intervalo de tempo {{timeframeLabel}}.",
+          "wroteWords": "you wrote {{count}} words",
+          "trimmedWords": "you trimmed {{count}} words (net)",
+          "unchanged": "your net word count stayed unchanged",
+          "message": "In the {{timeframeLabel}} timeframe, {{totalWordsText}} across {{activeDays}} active days, averaging {{avgWordsPerActiveDay}} net words per session. Your largest single-day change was {{maxAbsoluteDailyChange}} words."
         },
         "development": {
-          "start": "Comece a desenvolver seu conteúdo para ver insights aprofundados!",
-          "wordsPerSegment": "{{count}} palavras por segmento",
-          "wordsPerConcept": "{{count}} palavras por conceito",
-          "message": "Você está com {{stats}} em média,"
+          "start": "Start developing your content to see depth insights!",
+          "wordsPerSegment": "{{count}} words per segment",
+          "wordsPerConcept": "{{count}} words per concept",
+          "message": "You're averaging {{stats}}."
         }
       },
       "dailyWordDiff": {
-        "title": "Palavras adicionadas e removidas hoje",
-        "wordsToday": "Palavras hoje",
-        "activity": "Atividade",
-        "noActivityYet": "Nenhuma atividade ainda",
-        "writingActivityFor": "Atividade de escrita para {{date}}",
-        "addedRemoved": "Adicionadas / removidas",
-        "changedToday": "Alteradas hoje",
-        "writingActivity": "Atividade de escrita",
-        "wordsTouched": "{{count}} palavras tocadas",
-        "goalMetToday": "Meta atingida (+{{value}})",
-        "toGoal": "{{value}} até a meta"
+        "title": "Today's words added and removed",
+        "wordsToday": "Words today",
+        "activity": "Activity",
+        "noActivityYet": "No activity yet",
+        "writingActivityFor": "Writing activity for {{date}}",
+        "addedRemoved": "Added / removed",
+        "changedToday": "Changed today",
+        "writingActivity": "Writing activity",
+        "wordsTouched": "{{count}} words touched",
+        "goalMetToday": "Goal met (+{{value}})",
+        "toGoal": "{{value}} to goal"
       },
       "wordCountCalendar": {
-        "title": "Contagem diária de palavras",
-        "loading": "Carregando calendário...",
-        "addedWords": "{{count}} palavras adicionadas",
-        "removedWords": "{{count}} palavras removidas",
-        "netWords": "Contagem final: {{value}} palavras",
-        "activityWords": "Atividade: {{value}} palavras",
-        "noActivity": "Nenhuma atividade",
-        "less": "Menos",
-        "todayDiff": "Hoje: {{value}}",
-        "touched": "Tocadas",
-        "loadingItems": "Carregando Itens...",
-        "noItemDetails": "Nenhum detalhe de item registrado para esta data"
+        "title": "Daily word count",
+        "loading": "Loading calendar...",
+        "addedWords": "{{count}} words added",
+        "removedWords": "{{count}} words removed",
+        "netWords": "Net: {{value}} words",
+        "activityWords": "Activity: {{value}} words",
+        "noActivity": "No activity",
+        "less": "Less",
+        "todayDiff": "Today: {{value}}",
+        "touched": "Touched",
+        "loadingItems": "Loading items...",
+        "noItemDetails": "No item details recorded for this date"
       },
       "goal": {
-        "title": "Meta do projeto",
-        "description": "Defina uma meta de palavras e prazo para acompanhar o ritmo diário necessário.",
-        "optionalDescription": "Metas são opcionais. Adicione uma meta de palavras quando quiser acompanhar o ritmo.",
-        "wordGoal": "Meta de palavras",
-        "activeDays": "Dias de escrita ativa",
-        "remainingWords": "Palavras restantes",
-        "activeDaysLeft": "Dias ativos restantes",
-        "requiredPerDay": "Requeridas por dia",
-        "wordsPerDay": "palavras/dia",
-        "complete": "Meta atingida.",
-        "onTrack": "Ritmo calculado a partir de dias ativos restantes.",
-        "waitingDeadline": "Defina um prazo para calcular o ritmo desejado.",
-        "successfulWeek": "Dias de escrita bem sucedidos",
-        "bonusCongrats": "Dia de bônus na escrita! {{dayName}} rendeu um ótimo impulso extra.",
-        "successOnDay": "{{dayName}} rendeu ótimas linhas!",
-        "dailyAverage": "Média diária",
-        "behindBy": "{{count}} dias ativos em atraso neste ritmo. Aumente suas palavras diárias para recuperar o atraso."
+        "title": "Project goal",
+        "description": "Set a word target and deadline to track required daily pace.",
+        "optionalDescription": "Goals are optional. Add a word target when you want pace tracking.",
+        "wordGoal": "Word goal",
+        "activeDays": "Active writing days",
+        "remainingWords": "Remaining words",
+        "activeDaysLeft": "Active days left",
+        "requiredPerDay": "Required per day",
+        "wordsPerDay": "words/day",
+        "complete": "Goal reached.",
+        "onTrack": "Pace calculated from remaining active days.",
+        "waitingDeadline": "Set a deadline to calculate required pace.",
+        "successfulWeek": "Successful writing days",
+        "bonusCongrats": "Bonus writing day on {{dayName}}. Great extra momentum!",
+        "successOnDay": "Great writing on {{dayName}}.",
+        "dailyAverage": "Daily average",
+        "behindBy": "{{count}} active days behind at this pace. Increase your daily words to catch up."
       },
       "smartGraph": {
-        "percentDone": "{{count}}% concluído",
-        "daysWriting": "Escrevendo há {{count}} dias",
-        "writtenSoFar": "Escrito até agora",
-        "onTimePace": "Ritmo em dia",
-        "currentPace": "Seu ritmo atual",
-        "keepGoing": "Se você continuar",
-        "today": "Hoje",
-        "goalNeedsMomentum": "Adicione atividade de escrita para calcular o seu ritmo atual.",
-        "noDeadlineForecastVerdict": "Neste ritmo, você terminará perto de {{date}}.",
-        "behindVerdict": "{{count}} dias ativos à frente neste ritmo.",
-        "momentumVerdict": "Visualização do impulso",
-        "goalSummary": "{{remaining}} palavras restantes. Estabeleça {{perDay}} palavras por dia como meta em cada dia ativo de escrita.",
-        "noDeadlineGoalSummary": "{{remaining}} palavras restantes. Cerca de {{days}} dias de escrita no seu ritmo atual.",
-        "noDeadlineNeedsActivitySummary": "Faltam {{remaining}} palavras. Faça uma atividade de escrita para estimar sua data final.",
-        "noGoalSummary": "Você tem escrito {{average}} palavras em média, nos dias com atividade de escrita.",
-        "yourPace": "Seu ritmo",
-        "projectedFinish": "Projeto concluído",
-        "writingDaysToGoal": "Dias de escrita até a meta",
-        "notEnoughData": "Dados insuficientes",
-        "perDay": "/dia",
-        "thisWeek": "Esta semana",
-        "daysWritingLabel": "Dias escrevendo",
-        "goalWords": "Meta {{count}} palavras",
-        "adjustGoal": "Ajustar meta",
-        "noGoal": "Sem meta — apenas escrevendo",
-        "setGoal": "Definir uma meta"
+        "percentDone": "{{count}}% done",
+        "daysWriting": "{{count}} days writing",
+        "writtenSoFar": "Written so far",
+        "onTimePace": "On-time pace",
+        "currentPace": "Your current pace",
+        "keepGoing": "If you keep going",
+        "today": "Today",
+        "goalNeedsMomentum": "Add writing activity to calculate your current pace.",
+        "noDeadlineForecastVerdict": "At this pace, you’ll finish around {{date}}.",
+        "behindVerdict": "{{count}} active days behind at this pace.",
+        "momentumVerdict": "Momentum view",
+        "goalSummary": "{{remaining}} words left. Aim for {{perDay}} words on each active writing day.",
+        "noDeadlineGoalSummary": "{{remaining}} words left. About {{days}} writing days at your current pace.",
+        "noDeadlineNeedsActivitySummary": "{{remaining}} words left. Add writing activity to estimate your finish date.",
+        "noGoalSummary": "You are averaging {{average}} words on days with writing activity.",
+        "yourPace": "Your pace",
+        "projectedFinish": "Projected finish",
+        "writingDaysToGoal": "Writing days to goal",
+        "notEnoughData": "Not enough data",
+        "perDay": "/day",
+        "thisWeek": "This week",
+        "daysWritingLabel": "Days writing",
+        "goalWords": "Goal {{count}} words",
+        "adjustGoal": "Adjust goal",
+        "noGoal": "No goal — just writing",
+        "setGoal": "Set a goal"
       }
     },
     "overview": {
-      "stories": "Histórias",
+      "stories": "Stories",
+      "continueWriting": "Continue writing",
+      "openStory": "Open Story",
       "classicView": "Classic view",
-      "newStory": "Nova história",
-      "templateStory": "História modelo",
+      "background": "Background",
+      "newStory": "New Story",
+      "templateStory": "Template Story",
       "resizeArchiveShelf": "Resize archived stories shelf",
       "noArchivedProjects": "No projects archived",
       "moveEarlier": "Move earlier",
@@ -923,40 +1196,40 @@
           "blurb": "Even colour, whisper of top light"
         }
       },
-      "updatedToday": "Atualizado hoje",
-      "updatedThisWeek": "Atualizado esta semana",
-      "updatedThisMonth": "Atualizado este mês",
-      "updatedAllTime": "Atualizado em qualquer tempo"
+      "updatedToday": "Updated Today",
+      "updatedThisWeek": "Updated This Week",
+      "updatedThisMonth": "Updated This Month",
+      "updatedAllTime": "Updated All Time"
     },
     "projectCard": {
-      "createNewProject": "Criar novo projeto",
+      "createNewProject": "Create new project",
       "changeColor": "Change project colour",
       "openProject": "Open {{name}}",
       "optionsForProject": "Options for {{name}}",
-      "segmentsCount": "{{count}} segmentos",
-      "conceptsCount": "{{count}} conceitos"
+      "segmentsCount": "{{count}} segments",
+      "conceptsCount": "{{count}} concepts"
     },
     "timer": {
-      "completeCelebrationLabel": "Logotipo do {{appName}} com um sino dourado tocando",
-      "completeDescription": "Sino pequeno, grande progresso. Recupere o fôlego e continue assim quando estiver pronto.",
-      "completeTitle": "Uau, você conseguiu!",
-      "durationMinutes": "{{count}} minutos",
-      "pause": "Pausar",
-      "placeholder": "Definir uma duração",
+      "completeCelebrationLabel": "{{appName}} logo with a jingling gold bell",
+      "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
+      "completeTitle": "Wow, you did the thing!",
+      "durationMinutes": "{{count}} minutes",
+      "pause": "Pause",
+      "placeholder": "Set a duration",
       "quickStart": {
         "focus": {
-          "description": "Sessão de trabalho focada",
-          "label": "Foco"
+          "description": "Focused work session",
+          "label": "Focus"
         },
         "long": {
-          "description": "Sessão de trabalho longa"
+          "description": "Long work session"
         },
         "pomodoro": {
-          "description": "Sessão Pomodoro",
+          "description": "Pomodoro session",
           "label": "Pomodoro"
         }
       },
-      "startPreset": "Iniciar predefinição"
+      "startPreset": "Start preset"
     },
     "editor": {
       "image": {
@@ -1081,6 +1354,25 @@
       },
       "shareSnippet": {
         "renderPreviewFailed": "Não foi possível renderizar a pré-visualização do trecho"
+      },
+      "dialogueSpeaker": {
+        "choose": "Choose dialogue speaker",
+        "search": "Search speakers",
+        "placeholder": "Search concepts…",
+        "heading": "Link this dialogue to…",
+        "remove": "Remove link",
+        "createError": "Could not create the concept. Try again.",
+        "loadError": "Could not load speakers. Close and try again.",
+        "loading": "Loading speakers…",
+        "empty": "Search for a Concept to assign.",
+        "creating": "Creating concept…",
+        "createNamed": "Create “{{name}}”…",
+        "create": "Create new concept…",
+        "suggestion": "Suggested speaker: {{name}}. Tab to accept; arrows to cycle; click to choose."
+      },
+      "conceptLinkSuggestion": {
+        "completion": "Concept link completion available{{completion}}. Press Tab to accept.",
+        "ambiguity": "{{name}} selected. Arrow keys browse concepts; Tab links it."
       }
     },
     "segment": {
@@ -1095,7 +1387,19 @@
       }
     },
     "segmentGraph": {
-      "appearance": "Aparência do gráfico"
+      "appearance": "Aparência do gráfico",
+      "searchPlaceholder": "Search folders and segments",
+      "search": "Search graph",
+      "clearSearch": "Clear graph search",
+      "navigation": "Graph navigation",
+      "fit": "Fit graph",
+      "reset": "Reset view",
+      "autoArrange": "Auto-arrange",
+      "expandAll": "Expand all",
+      "collapseAll": "Collapse all",
+      "interactionTools": "Graph interaction tools",
+      "selectNodes": "Select nodes",
+      "pan": "Pan graph"
     },
     "outline": {
       "loading": "Carregando esboço",
@@ -1146,6 +1450,7 @@
       "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
       "textAlignTooltip": "Alinhamento do texto: {{mode}}",
       "showScrollbar": "Exibir barra de rolagem",
+      "showDocumentOutline": "Show document outline",
       "showReferences": "Show references and backlinks",
       "indentParagraphs": "Indentar parágrafos",
       "typewriterMode": "Modo máquina de escrever",
@@ -1199,8 +1504,8 @@
         "importMarkdownFailed": "Falha ao importar o documento Markdown"
       },
       "highlightDialogue": "Destacar diálogo",
-      "showRelationshipGraphMentions": "Show mentions in relationship graphs",
-      "showRelationshipGraphMentionsTooltip": "Show mention links in every concept and segment relationship graph by default. Each graph can still hide them temporarily.",
+      "showRelationshipGraphMentions": "Show threads in relationship graphs",
+      "showRelationshipGraphMentionsTooltip": "Show dialogue, mentions, and shared-segment threads in relationship graphs by default. Each graph can temporarily hide threads or filter their sources.",
       "dialogueHighlightMode": "Estilo",
       "dialogueHighlightModes": {
         "quotes": "Aspas",
@@ -1263,9 +1568,16 @@
         "board": "Quadro",
         "showEmptyColumns": "Exibir colunas vazias",
         "showNestedNotes": "Exibir notas aninhadas",
+        "boardVisibility": "Board visibility",
         "showNestedNotesHelp": "Exibir notas ligadas a cada cartão diretamente sob o cartão.",
         "columnBorderStyle": "Estilo da borda da coluna",
-        "columnColorMode": "Modo de cor da coluna"
+        "columnColorMode": "Modo de cor da coluna",
+        "columnAppearance": "Column appearance",
+        "columnTintStrength": "Column tint strength",
+        "tintSubtle": "Subtle",
+        "tintSoft": "Soft",
+        "tintRich": "Rich",
+        "tintBold": "Bold"
       },
       "cards": {
         "actionsAria": "Ações para {{title}}",
@@ -1299,6 +1611,8 @@
       }
     },
     "manuscript": {
+      "read": "Read",
+      "readFullScreen": "Read manuscript full screen",
       "cover": {
         "title": "Cover",
         "add": "Add cover",
@@ -1413,6 +1727,17 @@
         "close": "Fechar lista de sprites",
         "empty": "Nenhum sprite colocado ainda.",
         "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
+      },
+      "spriteTray": {
+        "searchPlaceholder": "Search sprites...",
+        "search": "Search sprites",
+        "clearSearch": "Clear sprite search",
+        "categories": "Sprite categories",
+        "library": "Sprite library",
+        "noMatches": "No sprites match.",
+        "editTab": "Add / Edit",
+        "listTab": "Sprite list",
+        "addSprite": "Add sprite"
       },
       "errors": {
         "saveEdits": "Falha ao salvar edições do mapa"
@@ -1704,6 +2029,11 @@
         "showSelected": "Mostrar selecionados",
         "chooseTags": "Selecionar marcadores",
         "showNone": "Não mostrar nenhum",
+        "style": {
+          "full": "Full",
+          "compact": "Compact"
+        },
+        "displayStyle": "Display style",
         "excludeAllConceptsFromWordCount": "Excluir todos os conceitos da contagem de palavras",
         "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras",
         "disableHoverPreview": "Disable hover preview",
@@ -1727,6 +2057,7 @@
         "newFolder": "Nova pasta",
         "deleteFolder": "Excluir pasta",
         "changeConceptIcon": "Alterar ícone do conceito",
+        "changeConceptColor": "Change concept colour",
         "changeFolderIcon": "Alterar ícone da pasta",
         "changeFolderColor": "Alterar cor da pasta",
         "excludeFromWordCount": "Excluir da contagem de palavras",
@@ -1765,7 +2096,16 @@
         "newManuscriptName": "Novo manuscrito",
         "openManuscriptActionsMenu": "Abrir menu de ações de manuscrito",
         "rename": "Renomear",
+        "deleteTitle": "Delete manuscript?",
+        "deleteDescription": "Delete \"{{name}}\" and its manuscript layout? The segments used in it will remain in the project. This action cannot be undone.",
+        "deleteFailed": "Could not delete the manuscript. Please try again.",
         "addOptions": {
+          "newSegment": "New Segment",
+          "quarterPage": "1/4 page",
+          "halfPage": "2/4 page",
+          "threeQuarterPage": "3/4 page",
+          "pageBreak": "Page break",
+          "pageBreakTooltip": "Starts the next block on a new page.",
           "noMatchingSegments": "Nenhum segmento correspondente",
           "addTitle": "Adicionar título",
           "addEmptySpace": "Adicionar espaço em branco"
@@ -1821,6 +2161,13 @@
       "description": "Esta ação ainda não está disponível."
     },
     "setup": {
+      "recovery": {
+        "startupFailed": "Writality opened in recovery mode because startup failed. You can reselect or restore your workspace below.",
+        "windowCrashed": "The main window crashed. Recovery mode is open so you can restore your workspace.",
+        "saveCrashDetails": "Save crash details",
+        "diagnosticsSaved": "Saved diagnostics to {{path}}",
+        "diagnosticsFailed": "Could not save diagnostics. Please try again."
+      },
       "errors": {
         "restoreFailed": "Falha ao restaurar da pasta escolhida. Por favor verifique se ela contém uma estrutura válida."
       },
@@ -1946,6 +2293,10 @@
     "workspace": {
       "description": "Personalize a aparência e as preferências do seu espaço de trabalho",
       "editorAppearance": {
+        "customValue": "Custom {{label}}",
+        "background": "Background",
+        "typography": "Typography",
+        "imageFit": "Image fit",
         "previewDescription": "Pré-visualize como seu editor será exibido",
         "conceptTitle": "Conceito da aparência do editor",
         "description": "Personalizar os fundos do editor e rótulos.",
@@ -1956,6 +2307,14 @@
       "theme": {
         "title": "Tema",
         "description": "Escolha o seu tema de ‘interface’ preferido. Nós temos temas personalizados para você escolher e garantir uma experiência de escrita confortável.",
+        "mode": {
+          "title": "Appearance mode",
+          "description": "System follows your computer's light and dark appearance.",
+          "light": "Light",
+          "dark": "Dark",
+          "system": "System",
+          "palette": "palette"
+        },
         "showLess": "Mostrar menos",
         "browseAll": "Procurar todos os temas {{count}}",
         "customTheme": {
@@ -1986,6 +2345,36 @@
           "export": "Exportar {{name}}",
           "saveNew": "Salvar como novo tema",
           "unsavedDraft": "Não salvo",
+          "tokens": {
+            "shell-background": {
+              "label": "Shell background",
+              "description": "Background behind the app panels, header, and footer."
+            },
+            "shell-foreground": {
+              "label": "Shell text",
+              "description": "Text and icons in the window header and collapsed footer."
+            },
+            "shell-accent": {
+              "label": "Shell accent",
+              "description": "Selected tabs and hovered shell controls."
+            },
+            "shell-accent-foreground": {
+              "label": "Shell accent text",
+              "description": "Text and icons on the shell accent."
+            },
+            "nav-main-background": {
+              "label": "Main navigation background",
+              "description": "Background colour of the main navigation rail."
+            },
+            "nav-main-accent": {
+              "label": "Main navigation accent",
+              "description": "Active and hovered item background in the main navigation."
+            },
+            "nav-main-accent-foreground": {
+              "label": "Main navigation accent text",
+              "description": "Active item icon colour in the main navigation."
+            }
+          },
           "options": {
             "roundedness": "Roundedness",
             "writalityBackground": {
@@ -2058,7 +2447,9 @@
         "tileToRight": "Ajustar à direita"
       },
       "editorBackground": {
-        "previewTitle": "Prévia do plano de fundo"
+        "previewTitle": "Prévia do plano de fundo",
+        "previewConceptName": "The Cartographer",
+        "previewSegmentName": "Chapter One"
       }
     },
     "profile": {
@@ -2154,6 +2545,11 @@
         "map": {
           "description": "Editor de mapa, alfinetes, regiões e ferramentas de cartografia.",
           "disabledDescription": "Oculta a cartografia. Seus mapas, marcadores, regiões e ilustrações não serão apagados e reaparecerão ao reativar."
+        },
+        "music": {
+          "label": "Music",
+          "description": "Listen to local audio while writing.",
+          "disabledDescription": "Turning this off stops playback and hides the player. Imported tracks remain available when you turn it back on."
         }
       }
     },
@@ -2168,6 +2564,12 @@
       },
       "shortcuts": {
         "title": "Atalhos do teclado",
+        "change": "Change shortcut",
+        "reset": "Reset shortcut",
+        "enable": "Enable shortcut",
+        "disable": "Disable shortcut",
+        "disabled": "Disabled",
+        "pressKeys": "Press keys…",
         "openGlobalSearch": "Abrir a pesquisa global",
         "closeCurrentTab": "Fechar a aba atual",
         "backInTabHistory": "Histórico de abas: voltar",
@@ -2185,6 +2587,7 @@
       "moveWorkspace": "Mover seu espaço de trabalho",
       "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O {{appName}} atualizará o caminho salvo e reiniciará após a conclusão.",
       "currentDataLocation": "Localização atual dos seus dados",
+      "openInFiles": "Open in Files",
       "renameWorkspace": "Rename your workspace",
       "chooseNewLocation": "Destino para este espaço de trabalho",
       "browse": "Navegar",
@@ -2214,6 +2617,7 @@
       "errors": {
         "loadCurrent": "Não foi possível carregar o local do arquivo atual",
         "openPicker": "Não foi possível abrir o seletor de pastas",
+        "openInFiles": "Could not open workspace folder",
         "move": "Falha ao mover espaço de trabalho",
         "changeDir": "Falha ao alterar a localização do espaço de trabalho: {{message}}"
       }
