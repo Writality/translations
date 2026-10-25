@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "f5b10ea34de2-pt",
-  "sourceRevision": "f5b10ea34de29d7cd343454ae6925146ddc2fee6",
+  "version": "3f6c7f610224-pt",
+  "sourceRevision": "3f6c7f610224d8ee4d913989681589f386903453",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2248,7 +2248,6 @@
         "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Suporte por e-mail em {{supportEmail}}",
-      "helpDescription": "Obtenha ajuda e suporte para usar a {{appName}}",
       "helpPrompt": "Precisa de ajuda ou quer falar?"
     },
     "discordInvite": {
@@ -2274,7 +2273,6 @@
     "supportSettings": {
       "navigationLabel": "Support {{appName}}",
       "title": "Support {{appName}}",
-      "description": "Help keep {{appName}} free and moving forward.",
       "eyebrow": "Optional support",
       "heroTitle": "Creativity must be free.",
       "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
@@ -2291,7 +2289,6 @@
       "optional": "Completely optional. {{appName}} remains free either way."
     },
     "workspace": {
-      "description": "Personalize a aparência e as preferências do seu espaço de trabalho",
       "editorAppearance": {
         "customValue": "Custom {{label}}",
         "background": "Background",
@@ -2453,7 +2450,6 @@
       }
     },
     "profile": {
-      "description": "Gerencie sua identidade de autor para este espaço de trabalho.",
       "avatar": {
         "changeAria": "Change profile photo",
         "chooseAria": "Choose profile photo",
@@ -2496,7 +2492,6 @@
       }
     },
     "modules": {
-      "description": "Ative ou desative módulos do projeto para simplificar a interface.",
       "available": "Módulos disponíveis",
       "toggleAria": "Alternar módulo {{module}}",
       "appIntegrations": {
@@ -2554,7 +2549,6 @@
       }
     },
     "commands": {
-      "description": "Ações rápidas e atalhos de teclado para navegar no aplicativo",
       "palette": {
         "enterCommandMode": "Entrar no modo de comando",
         "closePalette": "Fechar paleta"
@@ -2581,7 +2575,6 @@
       }
     },
     "workspaceLocation": {
-      "description": "Gerencie onde o {{appName}} lê e armazena dados de seu espaço de trabalho.",
       "connectWorkspace": "Abrir um espaço de trabalho existente",
       "connectWorkspaceDescription": "Aponta o {{appName}} para uma pasta de espaço de trabalho já existente neste computador ou unidade. Isso muda o espaço de trabalho aberto, mas não move nenhum arquivo.",
       "moveWorkspace": "Mover seu espaço de trabalho",
@@ -2650,7 +2643,6 @@
       }
     },
     "tags": {
-      "description": "Veja cada marcador deste projeto, classifique por uso e exclua os que você não precisa mais.",
       "failedToLoad": "Falha ao carregar marcadores",
       "empty": "Ainda não há marcadores neste projeto.",
       "filterPlaceholder": "Filtrar marcadores...",
@@ -2681,7 +2673,6 @@
       "otherTags": "Outros marcadores"
     },
     "blocks": {
-      "description": "Crie e gerencie blocos de escrita reutilizáveis para este projeto.",
       "failedToLoad": "Falha ao carregar blocos",
       "empty": "Ainda não há blocos neste projeto.",
       "emptyHint": "Blocos são trechos reutilizáveis que você pode inserir durante a escrita para manter a consistência e poupar tempo.",
@@ -2708,7 +2699,6 @@
       }
     },
     "importSettings": {
-      "description": "Arrastar arquivos Word ou Markdown para revisar e importar um a um, mantendo o processo organizado e sob controle.",
       "bringFiles": "Traga arquivos para o seu projeto",
       "supportedFormats": "Formatos suportados: {{formats}}. Cada arquivo é importado como uma nova entidade.",
       "dropOrChoose": "Solte arquivos aqui ou escolha-os manualmente",
@@ -2753,7 +2743,6 @@
       }
     },
     "updates": {
-      "description": "Verificar atualizações de software e gerenciar backups de dados",
       "checking": "Verificando...",
       "checkForUpdates": "Buscar atualizações",
       "toast": {
@@ -2806,7 +2795,6 @@
       }
     },
     "readableBackups": {
-      "description": "Mantenha cópias legíveis do seu projeto em markdown ou Word fora do {{appName}}.",
       "noProject": "Selecione ou crie um projeto para configurar backups legíveis.",
       "runNow": "Fazer backup agora",
       "lastSuccess": "Último backup legível: {{date}}",
@@ -2841,7 +2829,6 @@
     "languageSettings": {
       "title": "Idioma do aplicativo",
       "uiLanguage": "UI Language",
-      "description": "Escolha o idioma usado para a interface e verificação ortográfica do {{appName}}.",
       "note": "O idioma do aplicativo altera apenas o texto da interface.",
       "communityLanguages": "Traduções da comunidade",
       "communityLanguagesDescription": "Instale as traduções da comunidade para uso off-line, em seguida, atualize-as quando as atualizações estiverem disponíveis.",
@@ -2862,7 +2849,6 @@
       "removeComplete": "{{language}} removido."
     },
     "dictionary": {
-      "description": "Gerencie as palavras do seu dicionário personalizado",
       "clearAll": "Limpar tudo",
       "loading": "Carregando dicionário...",
       "spellcheck": "Verificação ortográfica",
@@ -2887,7 +2873,6 @@
       "removeWord": "Excluir palavra"
     },
     "bugs": {
-      "description": "Relatar um erro ou ver relatórios existentes.",
       "dialogDescription": "O {{appName}} não coleta dados dos usuários. Os relatórios de erro são a única forma de melhorarmos o aplicativo. Obrigado por ajudar a tornar o {{appName}} melhor!",
       "titlePlaceholder": "Descrição resumida do erro",
       "descriptionPlaceholder": "Por favor, forneça etapas detalhadas para reproduzir o erro...",
@@ -2925,12 +2910,10 @@
       "discordPrompt": "Você também pode se juntar ao Discord para solicitações de funcionalidades, erros, capturas de tela, gráficos de história e conversas gerais sobre o {{appName}}."
     },
     "changelog": {
-      "description": "Atualizações recentes e notas de lançamento",
       "empty": "Nenhum registro de alterações foi incluído nesta versão.",
       "selectEntry": "Selecione um registro de alterações"
     },
     "versionSettings": {
-      "description": "Controle como as versões menores são mantidas para este projeto.",
       "retentionTitle": "Retenção de versões menores",
       "unlimited": "Ilimitado (padrão, sem limpeza automática)",
       "keepLast": "Manter as últimas {{count}} versões menores",
@@ -2948,7 +2931,6 @@
       "updateFailed": "Falha ao atualizar a retenção da versões."
     },
     "debug": {
-      "description": "Exibir registros da aplicação e informações de depuração",
       "console": {
         "filters": {
           "all": "Todos",
@@ -2974,7 +2956,6 @@
       }
     },
     "externalLinks": {
-      "description": "Gerencie links de pesquisa reutilizáveis para este projeto.",
       "failedToLoad": "Falha ao carregar links externos",
       "empty": "Ainda não há links externos neste projeto.",
       "emptyHint": "Links externos mantêm fontes, artigos, vídeos, entrevistas e material de referência perto de sua escrita.",

@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "f5b10ea34de2-de",
-  "sourceRevision": "f5b10ea34de29d7cd343454ae6925146ddc2fee6",
+  "version": "3f6c7f610224-de",
+  "sourceRevision": "3f6c7f610224d8ee4d913989681589f386903453",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2248,7 +2248,6 @@
         "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Email support at {{supportEmail}}",
-      "helpDescription": "Get help and support for using {{appName}}",
       "helpPrompt": "Need help or want to talk?"
     },
     "discordInvite": {
@@ -2274,7 +2273,6 @@
     "supportSettings": {
       "navigationLabel": "Support {{appName}}",
       "title": "Support {{appName}}",
-      "description": "Help keep {{appName}} free and moving forward.",
       "eyebrow": "Optional support",
       "heroTitle": "Creativity must be free.",
       "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
@@ -2291,7 +2289,6 @@
       "optional": "Completely optional. {{appName}} remains free either way."
     },
     "workspace": {
-      "description": "Customise your workspace appearance and preferences",
       "editorAppearance": {
         "customValue": "Custom {{label}}",
         "background": "Background",
@@ -2453,7 +2450,6 @@
       }
     },
     "profile": {
-      "description": "Manage your author identity for this workspace.",
       "avatar": {
         "changeAria": "Change profile photo",
         "chooseAria": "Choose profile photo",
@@ -2496,7 +2492,6 @@
       }
     },
     "modules": {
-      "description": "Enable or disable project modules to simplify the interface.",
       "available": "Available Modules",
       "toggleAria": "Toggle {{module}} module",
       "appIntegrations": {
@@ -2554,7 +2549,6 @@
       }
     },
     "commands": {
-      "description": "Quick actions and keyboard shortcuts for navigating the app",
       "palette": {
         "enterCommandMode": "Enter command mode",
         "closePalette": "Close palette"
@@ -2581,7 +2575,6 @@
       }
     },
     "workspaceLocation": {
-      "description": "Manage where {{appName}} finds and stores your workspace data.",
       "connectWorkspace": "Open an existing workspace",
       "connectWorkspaceDescription": "Point {{appName}} to a workspace folder that is already on this computer or drive. This changes which workspace opens; it does not move any files.",
       "moveWorkspace": "Move your workspace",
@@ -2650,7 +2643,6 @@
       }
     },
     "tags": {
-      "description": "View every tag in this project, sort by usage, and delete tags you no longer need.",
       "failedToLoad": "Failed to load tags",
       "empty": "No tags in this project yet.",
       "filterPlaceholder": "Filter tags...",
@@ -2681,7 +2673,6 @@
       "otherTags": "Other tags"
     },
     "blocks": {
-      "description": "Create and manage reusable writing blocks for this project.",
       "failedToLoad": "Failed to load blocks",
       "empty": "No blocks in this project yet.",
       "emptyHint": "Blocks are reusable pieces of writing you can quickly insert whilst drafting to stay consistent and save time.",
@@ -2708,7 +2699,6 @@
       }
     },
     "importSettings": {
-      "description": "Drop Word or Markdown files, then review and place them one at a time so the import feels deliberate instead of overwhelming.",
       "bringFiles": "Bring files into your project",
       "supportedFormats": "Supported formats: {{formats}}. Each file is imported as a new entity.",
       "dropOrChoose": "Drop files here or choose them manually",
@@ -2753,7 +2743,6 @@
       }
     },
     "updates": {
-      "description": "Check for software updates and manage data backups",
       "checking": "Checking...",
       "checkForUpdates": "Check for Updates",
       "toast": {
@@ -2806,7 +2795,6 @@
       }
     },
     "readableBackups": {
-      "description": "Keep readable Markdown or Word copies of your project outside {{appName}}.",
       "noProject": "Select or create a project to configure readable backups.",
       "runNow": "Back up now",
       "lastSuccess": "Last readable backup: {{date}}",
@@ -2841,7 +2829,6 @@
     "languageSettings": {
       "title": "App Language",
       "uiLanguage": "UI Language",
-      "description": "Choose the language used for {{appName}}'s interface and spellcheck.",
       "note": "App language changes the UI text only.",
       "communityLanguages": "Community languages",
       "communityLanguagesDescription": "Install community translations for offline use, then refresh them when updates are available.",
@@ -2862,7 +2849,6 @@
       "removeComplete": "{{language}} removed."
     },
     "dictionary": {
-      "description": "Manage your custom dictionary words",
       "clearAll": "Clear All",
       "loading": "Loading dictionary...",
       "spellcheck": "Spellcheck",
@@ -2887,7 +2873,6 @@
       "removeWord": "Remove word"
     },
     "bugs": {
-      "description": "Report a bug or view existing reports.",
       "dialogDescription": "{{appName}} doesn't collect any user data. Bug reports are the only way we can improve the application. Thank you for helping make {{appName}} better!",
       "titlePlaceholder": "Brief description of the bug",
       "descriptionPlaceholder": "Please provide detailed steps to reproduce the bug...",
@@ -2925,12 +2910,10 @@
       "discordPrompt": "You can also join the Discord for feature requests, bugs, screenshots, story graphs, and general {{appName}} talk."
     },
     "changelog": {
-      "description": "Recent updates and release notes",
       "empty": "No changelog entries are bundled with this build.",
       "selectEntry": "Select a changelog entry."
     },
     "versionSettings": {
-      "description": "Control how minor versions are retained for this project.",
       "retentionTitle": "Minor Version Retention",
       "unlimited": "Unlimited (default, no automatic cleanup)",
       "keepLast": "Keep last {{count}} minor versions",
@@ -2948,7 +2931,6 @@
       "updateFailed": "Failed to update version retention."
     },
     "debug": {
-      "description": "View application logs and debug information",
       "console": {
         "filters": {
           "all": "All",
@@ -2974,7 +2956,6 @@
       }
     },
     "externalLinks": {
-      "description": "Manage reusable research links for this project.",
       "failedToLoad": "Failed to load external links",
       "empty": "No external links in this project yet.",
       "emptyHint": "External links keep sources, articles, videos, interviews, and reference material close to your writing.",
