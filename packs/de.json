@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "bc0037e5d786-de",
-  "sourceRevision": "bc0037e5d786e6ac7373492821523627272be3a6",
+  "version": "c177d19b1734-de",
+  "sourceRevision": "c177d19b17349ccf3e4482eb11f68eb8b408a3bd",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1630,7 +1630,7 @@
       },
       "format": {
         "title": "Manuskript formatieren",
-        "customize": "Selbst formatieren",
+        "customise": "Selbst formatieren",
         "preset": "Voreinstellung",
         "basedOn": "Basiert auf",
         "typography": "Typografie & Layout",

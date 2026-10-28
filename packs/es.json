@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "bc0037e5d786-es",
-  "sourceRevision": "bc0037e5d786e6ac7373492821523627272be3a6",
+  "version": "c177d19b1734-es",
+  "sourceRevision": "c177d19b17349ccf3e4482eb11f68eb8b408a3bd",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1630,7 +1630,7 @@
       },
       "format": {
         "title": "Formatear manuscrito",
-        "customize": "Formatearse a sí mismo",
+        "customise": "Formatearse a sí mismo",
         "preset": "Predefinido",
         "basedOn": "Basado en",
         "typography": "Tipografía y diseño",

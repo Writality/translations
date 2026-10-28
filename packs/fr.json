@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "bc0037e5d786-fr",
-  "sourceRevision": "bc0037e5d786e6ac7373492821523627272be3a6",
+  "version": "c177d19b1734-fr",
+  "sourceRevision": "c177d19b17349ccf3e4482eb11f68eb8b408a3bd",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1630,7 +1630,7 @@
       },
       "format": {
         "title": "Formater le manuscrit",
-        "customize": "Formate-le toi-même",
+        "customise": "Formate-le toi-même",
         "preset": "Préréglage",
         "basedOn": "Basé sur",
         "typography": "Typographie et mise en page",
