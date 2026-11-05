@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "666b0dc78dde-fr",
-  "sourceRevision": "666b0dc78dde817e9ef8273a3bdb32ae51ca4a42",
+  "version": "f900b8a869c2-fr",
+  "sourceRevision": "f900b8a869c2857160e7aab66c2f58acff317d9a",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -30,7 +30,11 @@
         "goTo": "Voir le concept",
         "noConceptDescription": "Pas de description de concept",
         "noDateDescription": "Pas de description de date",
-        "relatedEntities": "Entités apparentées"
+        "relatedEntities": "Entités apparentées",
+        "openInNewTab": "Ouvrir {{name}} dans un nouvel onglet",
+        "dateActions": "Actions de date pour {{name}}",
+        "removeDate": "Supprimer la date : {{name}}",
+        "removeDateError": "Impossible de supprimer la date."
       },
       "minimap": {
         "addConceptDate": "Ajouter une date-concept",
@@ -53,11 +57,11 @@
         "selectEntitiesPlaceholder": "Sélectionnez des concepts et des segments..."
       },
       "toolbar": {
-        "configure": "Configure Time System",
-        "enterFullscreen": "Open fullscreen",
-        "exitFullscreen": "Exit fullscreen",
-        "navigation": "Chronology navigation",
-        "appearance": "Chronology appearance",
+        "configure": "Configurer le système de temps",
+        "enterFullscreen": "Ouvrir en plein écran",
+        "exitFullscreen": "Quitter le plein écran",
+        "navigation": "Navigation de chronologie",
+        "appearance": "Apparence de la chronologie",
         "jumpLeft": "Saut à gauche",
         "jumpRight": "Saut à droite",
         "panLeft": "Panneau gauche",
@@ -70,7 +74,30 @@
       "toggleDates": "Activer/désactiver les dates",
       "noDatesLinked": "Aucune date n'a encore été liée.",
       "noDatesLinkedDescription": "Lie des dates pour situer ce concept dans la chronologie de ton histoire, suivre les événements importants et garder sa chronologie cohérente.",
-      "previewSegment": "Aperçu de {{name}}"
+      "previewSegment": "Aperçu de {{name}}",
+      "disclosure": {
+        "before": "{{duration}} avant le {{endpoint}} de {{source}}",
+        "after": "{{duration}} après le {{endpoint}} de {{source}}",
+        "start": "début",
+        "end": "fin",
+        "years_one": "{{count}} an",
+        "years_other": "{{count}} années",
+        "months_one": "{{count}} mois",
+        "months_other": "{{count}} mois",
+        "weeks_one": "{{count}} semaine",
+        "weeks_other": "{{count}} semaines",
+        "days_one": "{{count}} jour",
+        "days_other": "{{count}} jours",
+        "keepLabel": "Toujours afficher le libellé",
+        "hideLabel": "Afficher le libellé automatiquement"
+      },
+      "conceptRows": {
+        "add": "Ajouter une ligne de concept",
+        "description": "Donner à un concept sa propre ligne au-dessus de la chronologie. Ses dates restent alignées avec le même calendrier.",
+        "select": "Sélectionner un concept",
+        "remove": "Supprimer la ligne {{name}}",
+        "empty": "Aucun segment correspondant."
+      }
     },
     "timeSystem": {
       "calendar": {
@@ -285,62 +312,62 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Writality status",
-      "manuscript": "Manuscript",
-      "spellcheck": "Spellcheck",
-      "spellcheckEnabled": "Spellcheck enabled",
-      "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",
-      "spellcheckDisabledState": ", disabled",
-      "changeSpellcheckLanguageError": "Could not change spellcheck language",
-      "changeSpellcheckError": "Could not change spellcheck",
-      "editorAppearance": "Editor appearance",
-      "editorSettings": "Editor settings",
-      "titleFont": "Title font",
-      "titleSize": "Title size",
-      "textFont": "Text font",
-      "fontSize": "Font size",
-      "lineHeight": "Line height",
+      "statusLabel": "Statut de Writality",
+      "manuscript": "Manuscrit",
+      "spellcheck": "Vérification orthographique",
+      "spellcheckEnabled": "Vérification orthographique activée",
+      "spellcheckLanguageStatus": "Langue de vérification orthographique : {{language}}{{state}}",
+      "spellcheckDisabledState": ", désactivé",
+      "changeSpellcheckLanguageError": "Impossible de changer la langue de la vérification orthographique",
+      "changeSpellcheckError": "Impossible de changer la vérification orthographique",
+      "editorAppearance": "Apparence de l'éditeur",
+      "editorSettings": "Paramètres de l’éditeur",
+      "titleFont": "Police du titre",
+      "titleSize": "Taille du titre",
+      "textFont": "Police de texte",
+      "fontSize": "Taille de police",
+      "lineHeight": "Hauteur de la ligne",
       "serif": "Serif",
       "monospace": "Monospace",
       "pixelSize": "{{count}}px",
       "lineHeightValue": "{{value}}×",
-      "editorZoom": "Editor zoom: {{zoom}}%",
+      "editorZoom": "Zoom de l'éditeur : {{zoom}}%",
       "zoom": "Zoom",
-      "resetZoom": "Reset to 100%",
-      "writingSession": "Writing session",
-      "today": "Today",
-      "dailyGoalStatus": "Today's writing: {{current}} of {{goal}} words",
-      "recentWritingActivity": "Recent writing activity",
-      "activityUnavailable": "Could not load writing activity.",
-      "noWritingActivity": "No writing activity yet.",
-      "sessionStatus": "Writing session, {{minutes}} minutes, {{words}} words overall, {{count}} file edited",
-      "sessionStatus_other": "Writing session, {{minutes}} minutes, {{words}} words overall, {{count}} files edited",
-      "active": "Active",
-      "minutesShort": "{{count}}m",
+      "resetZoom": "Réinitialiser à 100 %",
+      "writingSession": "Session d'écriture",
+      "today": "Aujourd'hui",
+      "dailyGoalStatus": "Historique d'aujourd'hui : {{current}} sur {{goal}} mots",
+      "recentWritingActivity": "Historique d'écriture récent",
+      "activityUnavailable": "Impossible de charger l'historique d'écriture.",
+      "noWritingActivity": "Aucun historique d'écriture.",
+      "sessionStatus": "Session d'écriture, minutes {{minutes}} , mots {{words}} dans l'ensemble, {{count}} fichier modifié",
+      "sessionStatus_other": "Session d'écriture, minutes {{minutes}} , mots {{words}} dans l'ensemble, {{count}} fichiers modifiés",
+      "active": "Actif",
+      "minutesShort": "{{count}} m",
       "minutes": "{{count}} min",
-      "overall": "Overall",
-      "words": "{{countFormatted}} words",
-      "addedRemoved": "Added / removed",
-      "started": "Started",
-      "filesEdited": "Files edited ({{count}})",
-      "segmentOverlap": "Segment overlap",
-      "projectServices": "Project services",
+      "overall": "Global",
+      "words": "{{countFormatted}} mots",
+      "addedRemoved": "Ajouté / supprimé",
+      "started": "Commencé",
+      "filesEdited": "Fichiers édités ({{count}})",
+      "segmentOverlap": "Recouvrement de segment",
+      "projectServices": "Services du projet",
       "servicesLabel": "Services",
       "services": {
-        "segment-overlap": "Segment overlap",
+        "segment-overlap": "Recouvrement de segment",
         "dialogue-intelligence": "Dialogue intelligence"
       },
       "serviceDescriptions": {
-        "segment-overlap": "Suggests connections between concepts mentioned together in two or more different segments.",
-        "dialogue-intelligence": "Finds conversations and speaker changes in saved dialogue, with evidence you can inspect."
+        "segment-overlap": "Suggère des connexions entre des concepts mentionnés ensemble dans deux ou plusieurs segments.",
+        "dialogue-intelligence": "Trouve des changements de conversations et de locuteurs dans la boîte de dialogue sauvegardée, avec des preuves que vous pouvez inspecter."
       },
-      "serviceSaveError": "Could not save project service settings. Your previous settings were restored.",
+      "serviceSaveError": "Impossible d'enregistrer les paramètres du service de projet. Tes paramètres précédents ont été restaurés.",
       "serviceState": {
-        "enabled": "Enabled",
-        "disabled": "Disabled",
-        "loading": "Loading settings",
-        "fetching": "Reading saved evidence",
-        "error": "Could not load saved evidence or settings. Press to retry."
+        "enabled": "Activé",
+        "disabled": "Désactivé",
+        "loading": "Chargement des paramètres",
+        "fetching": "Lecture des preuves sauvegardées",
+        "error": "Impossible de charger la preuve ou les paramètres enregistrés. Appuie pour réessayer."
       }
     },
     "common": {
@@ -426,6 +453,7 @@
         "resizeSidebar": "Redimensionner la barre latérale",
         "added": "Ajouté",
         "afterMonth": "Après mois",
+        "afterNamedMonth": "After {{month}}",
         "aliases": "Alias",
         "appearance": "Apparence",
         "attributeValue": "Valeur d'attribut",
@@ -577,6 +605,8 @@
       "date": "Date",
       "image": "Image",
       "note": "Note",
+      "noteLoadFailed": "Impossible de charger cette note.",
+      "retry": "Réessayer",
       "tags": "Tags",
       "blocks": "Blocs",
       "concepts": "Concepts",
@@ -613,6 +643,15 @@
       },
       "status": {
         "importing": "Importation"
+      },
+      "editorSave": {
+        "unsaved": "Unsaved changes",
+        "saving": "Saving…",
+        "saved": "Saved",
+        "error": "Could not save changes",
+        "retry": "Retry",
+        "closeInspector": "Close inspector",
+        "inspector": "Inspector"
       }
     },
     "table": {
@@ -723,89 +762,105 @@
       }
     },
     "music": {
-      "home": "Home",
-      "music": "Music",
-      "musicPlayer": "Music player",
-      "nowPlaying": "Now playing",
-      "musicLibrary": "Music library",
-      "closeMusicLibrary": "Close music library",
-      "libraryFilters": "Library filters",
-      "favourites": "Favourites",
-      "songs": "Songs",
+      "home": "Accueil",
+      "music": "Musique",
+      "musicPlayer": "Lecteur de musique",
+      "nowPlaying": "En cours de lecture",
+      "musicLibrary": "Bibliothèque de musique",
+      "closeMusicLibrary": "Fermer la bibliothèque de musique",
+      "libraryFilters": "Filtres de la bibliothèque",
+      "favourites": "Favoris",
+      "songs": "Morceaux",
       "playlist": "Playlist",
-      "yourSongs": "Your songs",
-      "newPlaylist": "New playlist",
-      "renamePlaylist": "Rename playlist",
-      "playlistName": "Playlist name",
-      "songActions": "More options for {{title}}",
-      "addToPlaylist": "Add to playlist",
-      "noPlaylists": "No playlists yet",
-      "loadingPlaylists": "Loading playlists…",
-      "playlistsLoadFailed": "Could not load playlists. Try again.",
-      "deletePlaylistQuestion": "Delete {{name}}?",
-      "songsStayInLibrary": "The songs will stay in your library.",
-      "deletePlaylist": "Delete playlist",
-      "loadingCollections": "Loading collections…",
-      "emptyLibraryTitle": "No music in your library yet",
-      "fetchLibrary": "Fetch library",
-      "fetchLibraryFailed": "Could not fetch the library. Try again.",
-      "changeBackgroundImage": "Change background image",
-      "restoreDefaultBackground": "Restore default background",
-      "working": "Working…",
-      "removeDownload": "Remove download",
-      "removeDownloadQuestion": "Remove {{name}} download?",
-      "canDownloadAgain": "The downloaded collection will be removed from this workspace. You can download it again later.",
-      "downloadSongs": "Download {{count}} songs",
-      "downloadSongs_one": "Download {{count}} song",
-      "downloadSongs_other": "Download {{count}} songs",
-      "play": "Play",
-      "shuffle": "Shuffle",
-      "addSongsToPlaylist": "Add songs to this playlist.",
-      "installCollectionToSeeSongs": "Install this collection to see its songs here.",
-      "collectionUnavailable": "This collection is no longer available.",
-      "downloadsUnavailable": "Downloads are unavailable right now. Installed songs still play offline.",
-      "emptyLibrary": "Your library is empty. Upload music or install a Writality collection.",
-      "emptyFavourites": "No favourites yet. Save a track with the heart button.",
-      "noSongs": "No songs found.",
-      "couldNotChangePlaylist": "Could not change the playlist.",
-      "couldNotUpdateCollection": "Could not update this collection.",
-      "couldNotRemoveTrack": "Could not remove this track. Please try again.",
-      "collectionRemoved": "{{name}} removed.",
-      "collectionReady": "{{name}} is ready offline.",
-      "dragMusicHere": "Drag and drop music files here",
-      "supportedFormats": "MP3, WAV, FLAC, M4A, AAC and OGG files",
-      "chooseFiles": "Choose Files",
-      "chooseFolder": "Choose Folder",
-      "addMusicFolder": "Add an entire folder of music",
-      "or": "or",
-      "tracksAdded": "Added {{count}} tracks.",
-      "tracksAdded_one": "Added {{count}} track.",
-      "tracksAdded_other": "Added {{count}} tracks.",
-      "noNewAudio": "No new supported audio files found.",
-      "noFilesSelected": "No files selected.",
-      "couldNotImport": "Could not import these files. Please try again.",
-      "tooManyFiles": "Choose up to 100 files at a time.",
-      "unavailableFile": "Unavailable — file moved or deleted",
-      "creditsAndLicense": "Credits and license: {{title}}",
-      "originalSource": "Original source",
-      "addToFavourites": "Add to favourites: {{title}}",
-      "removeFromFavourites": "Remove from favourites: {{title}}",
-      "removeTrack": "Remove {{title}}",
-      "previousTrack": "Previous track",
-      "nextTrack": "Next track",
-      "volumeControls": "Volume controls",
+      "yourSongs": "Tes morceaux",
+      "newPlaylist": "Nouvelle playlist",
+      "renamePlaylist": "Renommer la playlist",
+      "playlistName": "Nom de la playlist",
+      "songActions": "Plus d'options pour {{title}}",
+      "addToPlaylist": "Ajouter à la playlist",
+      "noPlaylists": "Aucune playlist pour le moment",
+      "loadingPlaylists": "Chargement des playlists…",
+      "playlistsLoadFailed": "Impossible de charger les playlists. Merci de réessayer.",
+      "deletePlaylistQuestion": "Supprimer {{name}}?",
+      "songsStayInLibrary": "Les morceaux resteront dans ta bibliothèque.",
+      "deletePlaylist": "Supprimer la playlist",
+      "loadingCollections": "Chargement des collections...",
+      "emptyLibraryTitle": "Pas encore de musique dans ta bibliothèque",
+      "fetchLibrary": "Récupérer la bibliothèque",
+      "fetchLibraryFailed": "Impossible de créer la bibliothèque. Merci de réessayer.",
+      "changeBackgroundImage": "Changer l'image d'arrière-plan",
+      "restoreDefaultBackground": "Restaurer l'arrière-plan par défaut",
+      "working": "En cours…",
+      "removeDownload": "Supprimer le téléchargement",
+      "removeDownloadQuestion": "Supprimer le téléchargement {{name}}?",
+      "canDownloadAgain": "La collection téléchargée sera supprimée de cet zone de travail. Tu pourras la télécharger à nouveau plus tard.",
+      "downloadSongs": "Télécharger {{count}} musiques",
+      "downloadSongs_one": "Télécharger {{count}} musique",
+      "downloadSongs_other": "Télécharger {{count}} musiques",
+      "play": "Lecture",
+      "shuffle": "Aléatoire",
+      "repeat": {
+        "off": "Répétition désactivée",
+        "all": "Répéter la file d'attente",
+        "one": "Repéter le morceau"
+      },
+      "addSongsToPlaylist": "Ajouter des morceaux à cette playlist.",
+      "installCollectionToSeeSongs": "Installer cette collection pour voir ses morceaux ici.",
+      "collectionUnavailable": "Cette collection n'est plus disponible.",
+      "downloadsUnavailable": "Les téléchargements ne sont pas disponibles pour le moment. Les morceaux installés sont toujours en mode hors connexion.",
+      "emptyLibrary": "Ta bibliothèque est vide. Télécharge de la musique ou installe une collection Writality .",
+      "emptyFavourites": "Aucun favori pour le moment. Enregistre une piste avec le bouton Coeur.",
+      "noSongs": "Aucun morceau trouvé.",
+      "couldNotChangePlaylist": "Impossible de changer la playlist.",
+      "couldNotUpdateCollection": "Impossible de mettre à jour cette collection.",
+      "couldNotRemoveTrack": "Impossible de supprimer ce morceau. Mercie de réessayer.",
+      "collectionRemoved": "{{name}} supprimé.",
+      "collectionReady": "{{name}} est prêt hors ligne.",
+      "dragMusicHere": "Glissez et déposez des fichiers musicaux ici",
+      "supportedFormats": "Fichiers MP3, WAV, FLAC, M4A, AAC et OGG",
+      "chooseFiles": "Choisis des fichiers",
+      "chooseFolder": "Choisis un dossier",
+      "addMusicFolder": "Ajouter un dossier complet de musique",
+      "or": "ou",
+      "tracksAdded": "{{count}} pistes ajoutées.",
+      "tracksAdded_one": "{{count}} piste ajoutée.",
+      "tracksAdded_other": "{{count}} piste ajoutée.",
+      "noNewAudio": "Aucun nouveau fichier audio pris en charge trouvé.",
+      "noFilesSelected": "Aucun fichier sélectionné.",
+      "couldNotImport": "Impossible d'importer ces fichiers. Merci de réessayer.",
+      "tooManyFiles": "Choisis jusqu'à 100 fichiers à la fois.",
+      "unavailableFile": "Indisponible — fichier déplacé ou supprimé",
+      "creditsAndLicense": "Crédits et licence : {{title}}",
+      "originalSource": "Source originale",
+      "addToFavourites": "Ajouter aux favoris : {{title}}",
+      "removeFromFavourites": "Retirer des favoris : {{title}}",
+      "removeTrack": "Retirer {{title}}",
+      "previousTrack": "Titre précédent",
+      "nextTrack": "Titre suivant",
+      "volumeControls": "Contrôles du volume",
       "volume": "Volume",
-      "mute": "Mute",
-      "unmute": "Unmute",
-      "timeOfDuration": "{{time}} of {{duration}}",
-      "skippedUnplayable": "Skipped a track that could not be played.",
-      "imageCredit": "Image credit: {{attribution}}"
+      "mute": "Couper le son",
+      "unmute": "Réactiver le son",
+      "timeOfDuration": "{{time}} de {{duration}}",
+      "skippedUnplayable": "Titre ignorée qui n'a pas pu être lue.",
+      "imageCredit": "Crédit de l'image : {{attribution}}"
     },
     "concept": {
-      "color": "Concept colour",
-      "pickColorFromScreen": "Pick colour from anywhere on screen",
-      "screenPickerUnavailable": "Screen colour picking is unavailable on this system",
-      "screenPickerFailed": "Could not pick a screen colour. Try again or enter a hex colour.",
+      "typeDialog": {
+        "editTitle": "Edit concept type",
+        "createTitle": "Create concept type",
+        "create": "Create Type",
+        "save": "Save changes",
+        "name": "Type name",
+        "nameRequired": "Name is required",
+        "icon": "Choose type icon",
+        "color": "Choose type color",
+        "description": "Description (optional)"
+      },
+      "color": "Couleur du concept",
+      "pickColorFromScreen": "Choisir la couleur à partir de n'importe où sur l'écran",
+      "screenPickerUnavailable": "Le choix des couleurs de l'écran n'est pas disponible sur ce système",
+      "screenPickerFailed": "Impossible de choisir une couleur d'écran. Réessaye ou entre une couleur hexadécimale.",
       "typeSelector": {
         "removeType": "Supprimer le type"
       },
@@ -851,7 +906,8 @@
         "tabs": {
           "details": "Détails",
           "versions": "Versions",
-          "wordUsage": "Aperçus de texte"
+          "wordUsage": "Aperçus de texte",
+          "voices": "Voix"
         },
         "layout": {
           "releaseToShow": "Relâcher pour afficher",
@@ -859,6 +915,26 @@
           "hidden": "Masqué",
           "releaseToHide": "Relâcher pour masquer"
         }
+      },
+      "voices": {
+        "zoomIn": "Zoomer",
+        "zoomOut": "Dézoomer",
+        "fitGraph": "Ajuster tous les partenaires de conversation",
+        "fit": "Ajusté",
+        "findPartner": "Trouver un partenaire de conversation…",
+        "sourceBlock": "Bloc de manuscrit {{number}}",
+        "readMore": "Voir plus",
+        "readLess": "Voir moins",
+        "assignError": "Impossible d'affecter le locuteur. Le segment peut avoir changé ou être en lecture seule. Actualise et réessaye.",
+        "refresh": "Actualiser les conversations",
+        "conversationCount_one": "{{count}} conversation",
+        "conversationCount_other": "{{count}} conversations",
+        "selectPartner": "Conversations avec…",
+        "loadMore": "Charger plus",
+        "noConversation": "Aucune conversation détectée pour {{name}}.",
+        "conversationHelp": "Comment les conversations sont détectées",
+        "noConversationHelp": "Assigner le dialogue à ce concept et à un autre locuteur dans un segment pour voir leurs conversations ici.",
+        "disabled": "Activer Dialogue Intelligence dans le menu Services dans le pied de page pour voir les conversations."
       },
       "imageSelector": {
         "imageAriaLabel": "Image du concept",
@@ -880,42 +956,76 @@
         "emptyDescription": "Les attributs capturent des informations rapides sur ce concept, comme un rôle, un lieu ou une apparence, pour garder les détails importants facilement accessibles.",
         "importPlaceholder": "Sélectionner un concept...",
         "importNoConcepts": "Aucun concept trouvé.",
-        "typeAriaLabel": "Attribute type",
-        "datePlaceholder": "Select date or range",
+        "typeAriaLabel": "Type d'attribut",
+        "datePlaceholder": "Sélectionner une date ou une plage",
         "types": {
-          "text": "Text",
-          "number": "Number",
+          "text": "Texte",
+          "number": "Nombre",
           "date": "Date"
         },
-        "replaceTypeTitle": "Replace attribute values?",
-        "replaceTypeDescription": "Changing this type replaces all values in this attribute with one blank value.",
-        "replaceTypeConfirm": "Replace values",
-        "freezeDependentsConfirm": "Deleting this date will turn dependent dates into fixed dates. Continue?",
-        "replaceTypeFailed": "Could not replace attribute values. Please try again.",
-        "importFailed": "Could not import attributes. Please try again.",
-        "reorderAttribute": "Reorder attribute",
-        "dateType": "Date type",
-        "absoluteDate": "Absolute date",
-        "relativeDate": "Relative date",
-        "datePending": "Date pending",
-        "setDuration": "Set a duration",
-        "thisDate": "This date",
-        "before": "before",
-        "after": "after",
+        "replaceTypeTitle": "Remplacer les valeurs d'attribut?",
+        "replaceTypeDescription": "Le changement de ce type remplace toutes les valeurs de cet attribut par une valeur vide.",
+        "replaceTypeConfirm": "Remplacer les valeurs",
+        "freezeDependentsConfirm": "La suppression de cette date transformera les dates dépendantes en dates fixes. Continuer ?",
+        "replaceTypeFailed": "Impossible de remplacer les valeurs de l'attribut. Merci de réessayer.",
+        "importFailed": "Impossible d'importer les attributs. Merci de réessayer.",
+        "reorderAttribute": "Réorganiser l'attribut",
+        "dateType": "Type de date",
+        "absoluteDate": "Date absolue",
+        "relativeDate": "Date relative",
+        "datePending": "Date en attente",
+        "setDuration": "Définir une durée",
+        "thisDate": "Cette date",
+        "before": "avant",
+        "after": "après",
         "relativePreviewLabel": "{{date}}, {{duration}} {{direction}} {{source}}",
         "durationUnits": {
-          "years_one": "year",
-          "years_other": "years",
-          "months_one": "month",
-          "months_other": "months",
-          "weeks_one": "week",
-          "weeks_other": "weeks",
-          "days_one": "day",
-          "days_other": "days"
+          "years_one": "an",
+          "years_other": "années",
+          "months_one": "mois",
+          "months_other": "mois",
+          "weeks_one": "semaine",
+          "weeks_other": "semaines",
+          "days_one": "jour",
+          "days_other": "jours"
         }
+      },
+      "segmentVoices": {
+        "focus": "Focus sur la conversation",
+        "focusHelp": "Diminue tous les textes non dialogués tout au long du segment.",
+        "timeline": "Chronologie des dialogues",
+        "nearbyTurns": "{{speaker}}: {{count}} tours proches",
+        "zoomOut": "Dézoomer",
+        "zoomIn": "Zoomer",
+        "fit": "Ajusté",
+        "start": "Début",
+        "end": "Fin",
+        "counts": "{{speakers}} locuteurs· {{turns}} tours",
+        "empty": "Aucun dialogue dans ce segment.",
+        "readError": "Impossible de lire le dialogue de ce segment. Ton texte est inchangé."
       }
     },
     "relationships": {
+      "typeDialog": {
+        "editTitle": "Edit relationship type",
+        "createTitle": "Create relationship type",
+        "create": "Create Type",
+        "name": "Type name",
+        "nameRequired": "Name is required",
+        "icon": "Choose type icon",
+        "color": "Choose type color",
+        "labels": "Labels",
+        "swapLabels": "Swap labels",
+        "forward": "Concept A → Concept B",
+        "reverse": "Concept B → Concept A",
+        "forwardExample": "e.g. Parent of",
+        "reverseExample": "e.g. Child of",
+        "labelFallback": "Leave either label blank to use the type name in that direction.",
+        "description": "Description (optional)",
+        "deleteTitle": "Delete relationship type",
+        "deleteDescription": "Are you sure you want to delete \"{{name}}\"? This will also remove it from all places it is used. This action cannot be undone.",
+        "unnamed": "this relationship type"
+      },
       "editor": {
         "addDescription": "Créer une nouvelle relation entre les entités.",
         "editTitle": "Modifier la relation",
@@ -931,98 +1041,105 @@
         "notesPlaceholder": "Notes (optionnel)",
         "relationshipNotes": "Notes de relation",
         "preview": "Aperçu :",
-        "updateError": "Could not update relationship"
+        "updateError": "Impossible de mettre à jour la relation"
       },
       "deleteTitle": "Supprimer la relation",
       "deleteDescription": "Es-tu sûr de vouloir supprimer cette relation ? Cette action est irréversible.",
       "graph": {
-        "connectionsFor": "Connections for {{name}}",
-        "closeConnections": "Close connections",
-        "mentionedTogether": "Mentioned together in {{count}} segments",
-        "mentionedTogether_one": "Mentioned together in {{count}} segment",
-        "linkedByMentions": "Linked by mentions in your writing",
-        "sharedSegments": "Shared segments",
-        "openSegment": "Open segment {{id}}",
-        "readEntity": "Read {{name}}",
-        "directMentionEvidence": "This connection comes from mentions.",
-        "connect": "Create relationship",
-        "hideEvidence": "Hide evidence",
-        "viewEvidence": "View evidence",
-        "currentEntity": "Current entity",
+        "connectionsFor": "Connexions pour {{name}}",
+        "closeConnections": "Fermer les connexions",
+        "mentionedTogether": "Mentionné ensemble dans {{count}} segments",
+        "mentionedTogether_one": "Mentionné ensemble dans {{count}} segment",
+        "linkedByMentions": "Lié par les mentions dans ton travail",
+        "sharedSegments": "Segments partagés",
+        "openSegment": "Ouvrir le segment {{id}}",
+        "readEntity": "Lire {{name}}",
+        "directMentionEvidence": "Cette connexion provient de mentions.",
+        "connect": "Créer une relation",
+        "hideEvidence": "Cacher la preuve",
+        "viewEvidence": "Voir la preuve",
+        "currentEntity": "Entité actuelle",
         "mention": "Mention",
         "mentionCount": "{{count}} mentions",
         "mentionCount_one": "{{count}} mention",
-        "segmentOverlap": "Segment overlap",
-        "showConnectionsFor": "Show connections for {{name}}",
-        "sharedSegmentEvidence": "Shared segment evidence",
+        "segmentOverlap": "Recouvrement de segment",
+        "showConnectionsFor": "Afficher les connexions pour {{name}}",
+        "sharedSegmentEvidence": "Évidence de segment partagée",
         "outgoingMentions": "Mentions ({{count}})",
-        "incomingMentions": "Mentioned in ({{count}})",
+        "incomingMentions": "Mentionné dans ({{count}})",
         "mentions": "Mentions",
-        "connectionDetails": "Connection details",
-        "detailsHint": "Hover or select to see details and actions.",
-        "connections": "Connections",
-        "directionalMentionEvidence": "Mentions from this concept: {{outgoing}}. Mentions of this concept: {{incoming}}.",
-        "threads": "Threads",
-        "threadSources": "Thread sources",
-        "evidenceSources": "Evidence sources",
+        "connectionDetails": "Détails de la connexion",
+        "detailsHint": "Survoler ou sélectionner pour voir les détails et les actions.",
+        "connections": "Connexions",
+        "directionalMentionEvidence": "Mentions de ce concept : {{outgoing}}. Mentions de ce concept : {{incoming}}.",
+        "threads": "Fils",
+        "threadSources": "Sources du fil",
+        "evidenceSources": "Sources des preuves",
         "dialogue": "Dialogue",
-        "suggestedConnection": "Suggested connection",
-        "suggestedConnections": "Suggested connections",
-        "dialogueInteraction": "Dialogue interaction",
-        "relationshipState": "Relationship",
-        "dialogueCounts": "Conversations with repeated alternation: {{repeated}} · Conversations with interrupted alternation: {{interrupted}} · Unknown dialogue gaps: {{gaps}}",
+        "suggestedConnection": "Connexion suggérée",
+        "suggestedConnections": "Connexions suggérées",
+        "dialogueInteraction": "Interaction de dialogue",
+        "relationshipState": "Relations",
+        "dialogueCounts": "Conversations avec altération répétée : {{repeated}} · Conversations avec altération interrompue : {{interrupted}} · Défaillances de dialogue inconnues : {{gaps}}",
         "conversationEvidence": "Conversations",
-        "savedDialogueEvidence": "From saved dialogue, in segment and document order.",
-        "dialogueLoading": "Loading conversations…",
-        "dialogueRetry": "Could not load conversations. Retry",
-        "dialogueIncomplete": "Some segments could not be read. This conversation list may be incomplete.",
-        "noConversations": "No conversations available.",
-        "unassignedSpeaker": "Unassigned",
-        "unknownSpeaker": "Unknown speaker",
-        "openEvidenceSegment": "Open segment",
-        "previousEvidence": "Previous",
-        "nextEvidence": "Next",
-        "evidencePage": "{{start}}–{{end}} of {{total}}",
+        "savedDialogueEvidence": "De la boîte de dialogue enregistrée, dans l'ordre des segments et des documents.",
+        "dialogueLoading": "Chargement des conversations…",
+        "dialogueRetry": "Impossible de charger les conversations. Réessaye",
+        "dialogueIncomplete": "Certains segments n'ont pas pu être lus. Cette liste de conversations peut être incomplète.",
+        "noConversations": "Aucune discussion disponible.",
+        "unassignedSpeaker": "Non affecté",
+        "unknownSpeaker": "Locuteur inconnu",
+        "openEvidenceSegment": "Ouvrir segment",
+        "previousEvidence": "Précédent",
+        "nextEvidence": "Suivant",
+        "evidencePage": "{{start}}–{{end}} de {{total}}",
         "dialogueLevel": {
-          "adjacency": "Adjacent speaker change",
-          "repeated-alternation": "Repeated alternation",
-          "interrupted-alternation": "Interrupted alternation"
+          "adjacency": "Changement direct de locuteur",
+          "repeated-alternation": "Alternance répétée",
+          "interrupted-alternation": "Alternative interrompue"
         },
         "dialogueConversations": "{{count}} conversations",
-        "dialogueChanges": "{{count}} direct speaker changes",
+        "dialogueChanges": "{{count}} changements directs de locuteur",
         "dialogueSegments": "{{count}} segments",
         "dialogueConversations_one": "{{count}} conversation",
         "dialogueConversations_other": "{{count}} conversations",
-        "dialogueChanges_one": "{{count}} direct speaker change",
-        "dialogueChanges_other": "{{count}} direct speaker changes",
+        "dialogueChanges_one": "{{count}} changement direct de locuteur",
+        "dialogueChanges_other": "{{count}} changements directs de locuteur",
         "dialogueSegments_one": "{{count}} segment",
         "dialogueSegments_other": "{{count}} segments",
-        "dialogueConsecutive_one": "Their dialogue appears consecutively once.",
-        "dialogueConsecutive_other": "Their dialogue appears consecutively {{count}} times.",
-        "dialogueThread": "Dialogue thread",
-        "threadBetween": "Thread between {{first}} and {{second}}",
-        "dialogueTogether": "Shared {{conversations}} across {{segments}}.",
-        "dialogueBackAndForth_one": "They have back-and-forth dialogue in {{count}} conversation.",
-        "dialogueBackAndForth_other": "They have back-and-forth dialogue in {{count}} conversations.",
-        "dialogueContinues_one": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversation.",
-        "dialogueContinues_other": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversations.",
-        "dialogueUnassigned": "Some dialogue has no speaker assigned.",
-        "hideDetails": "Hide details",
-        "hideThread": "Hide thread from graph",
-        "restoreThreads": "Show hidden threads",
-        "threadActions": "More actions",
-        "openConcept": "Open concept",
-        "openInSegment": "Open in segment",
-        "singleEvidencePage": "{{start}} of {{total}}",
+        "dialogueConsecutive_one": "Leur dialogue apparaît une fois consécutivement.",
+        "dialogueConsecutive_other": "Leur dialogue apparaît successivement {{count}} fois.",
+        "dialogueThread": "Sujet de dialogue",
+        "threadBetween": "Sujet entre {{first}} et {{second}}",
+        "dialogueTogether": "Partagé {{conversations}} sur {{segments}}.",
+        "dialogueBackAndForth_one": "Ils ont un dialogue de retour en arrière dans {{count}} conversation.",
+        "dialogueBackAndForth_other": "Ils ont un dialogue de retour en arrière dans {{count}} conversations.",
+        "dialogueContinues_one": "Leur conversation se poursuit à travers une brève narration ou un dialogue non assigné dans {{count}} conversation.",
+        "dialogueContinues_other": "Leur conversation se poursuit à travers une brève narration ou un dialogue non assigné dans {{count}} conversations.",
+        "dialogueUnassigned": "Certains dialogues ont aucun locuteur assigné.",
+        "hideDetails": "Masquer les détails",
+        "hideThread": "Masquer le sujet du graph",
+        "restoreThreads": "Afficher les sujets cachés",
+        "threadActions": "Plus d'actions",
+        "openConcept": "Ouvrir le concept",
+        "openInSegment": "Ouvrir dans le segment",
+        "singleEvidencePage": "{{start}} de {{total}}",
         "conversationNumber": "Conversation {{count}}",
-        "moreConversations_one": "(and {{count}} more conversation)",
-        "moreConversations_other": "(and {{count}} more conversations)"
+        "moreConversations_one": "(et {{count}} plus de conversation)",
+        "moreConversations_other": "(et {{count}} plus de conversations)"
       },
-      "emptyDescription": "Link an entity in your writing or add a relationship",
-      "reorderGroup": "Reorder relationship group"
+      "emptyDescription": "Lier une entité dans ton travail ou ajouter une relation",
+      "reorderGroup": "Réorganiser le groupe de relation"
     },
     "dashboard": {
+      "editProjectName": "Edit project name",
+      "projectSummary": "Project summary",
+      "tabs": {
+        "progress": "Progress",
+        "home": "Home"
+      },
       "loadingGraph": "Chargement du graphe...",
+      "recentItemsUnavailable": "Recent items could not be loaded.",
       "continueEditing": "Continuer à éditer",
       "noSegmentsCreated": "Aucun segment créé",
       "noConceptsCreated": "Aucun concept créé",
@@ -1070,7 +1187,14 @@
         "todayDiff": "Aujourd'hui : {{value}}",
         "touched": "Touchés",
         "loadingItems": "Chargement des éléments...",
-        "noItemDetails": "Aucun détail d'élément enregistré pour cette date"
+        "noItemDetails": "Aucun détail d'élément enregistré pour cette date",
+        "view": "Activity view",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "cumulative": "Cumulative",
+        "weekWords": "{{value}} words changed",
+        "cumulativeWords": "{{value}} words changed through this week",
+        "unavailable": "Writing activity is unavailable. Reopen this view to try again."
       },
       "goal": {
         "title": "Objectif du projet",
@@ -1118,14 +1242,55 @@
         "adjustGoal": "Ajuster l'objectif",
         "noGoal": "Pas d'objectif — juste écrire",
         "setGoal": "Définir un objectif"
+      },
+      "statsUnavailable": "Project statistics are unavailable. Reopen the dashboard to try again.",
+      "summary": {
+        "percentComplete": "{{percent}}% complete",
+        "wordsLeft": "{{words}} words left",
+        "momentum": "Momentum",
+        "currentPace": "Current pace",
+        "neededPace": "Needed pace",
+        "composition": "Project composition",
+        "storySegments": "Story segments",
+        "readingTime": "Reading time"
+      },
+      "progress": {
+        "title": "Writing activity",
+        "period": "Activity period",
+        "periods": {
+          "week": "Last 7 days",
+          "month": "Last 30 days",
+          "year": "Last 365 days",
+          "all": "All time"
+        },
+        "wordsAdded": "Words added",
+        "wordsRemoved": "Words removed",
+        "netWords": "Net words",
+        "dailyAverage": "Net words / day",
+        "activeDays": "Active days",
+        "segmentsTouched": "Segments touched",
+        "conceptsCreated": "New concepts",
+        "bestDay": "Best day (words added)",
+        "activityChart": "Words added and removed over time",
+        "bySegment": "Activity by segment",
+        "distribution": "Segment distribution",
+        "segment": "Segment",
+        "otherSegments": "Other segments",
+        "unavailableSegment": "Deleted segment #{{id}}",
+        "noSegmentActivity": "No recorded segment activity in this period.",
+        "noDistribution": "No words recorded for this measure.",
+        "empty": "No recorded writing activity in this period. Editing and revision will appear here as you work.",
+        "retry": "Try again",
+        "monthlyTotals": "Monthly totals",
+        "unavailable": "Writing activity could not be loaded."
       }
     },
     "overview": {
       "stories": "Histoires",
-      "continueWriting": "Continue writing",
-      "openStory": "Open Story",
+      "continueWriting": "Continuer à écrire",
+      "openStory": "Ouvrir l'histoire",
       "classicView": "Affichage classique",
-      "background": "Background",
+      "background": "Arrière-plan",
       "newStory": "Nouvelle histoire",
       "templateStory": "Modèle d'histoire",
       "resizeArchiveShelf": "Redimensionner l'étagère des histoires archivées",
@@ -1171,6 +1336,8 @@
       "updatedAllTime": "Mis à jour tout le temps"
     },
     "projectCard": {
+      "duplicate": "Dupliquer le projet",
+      "duplicateError": "Impossible de dupliquer le projet. Vérifie que ses images sont disponibles et qu'il y a assez d'espace disque.",
       "createNewProject": "Créer un nouveau projet",
       "changeColor": "Changer la couleur du projet",
       "openProject": "Ouvrir {{name}}",
@@ -1277,6 +1444,7 @@
         "unavailableReadOnly": "La vérification orthographique n'est pas disponible en mode lecture seule",
         "suggestionsFor": "Suggestions pour \"{{word}}\"",
         "noSuggestionsFor": "Aucune suggestion pour \"{{word}}\"",
+        "nativeNoReplacements": "Repéré par le correcteur orthographique natif, qui renvoie aucun remplacement.",
         "addToDictionary": "Ajouter au dictionnaire",
         "noErrorsDetected": "Aucune erreur d'orthographe détectée"
       },
@@ -1296,6 +1464,7 @@
         "block": "Entrer du texte, tapez / pour les commandes ou @ pour les mentions..."
       },
       "details": {
+        "toggle": "Toggle details",
         "fill": {
           "tint": "Teinté",
           "flat": "Uni",
@@ -1325,23 +1494,41 @@
         "renderPreviewFailed": "Impossible d'afficher l'aperçu de l'extrait"
       },
       "dialogueSpeaker": {
-        "choose": "Choose dialogue speaker",
-        "search": "Search speakers",
-        "placeholder": "Search concepts…",
-        "heading": "Link this dialogue to…",
-        "remove": "Remove link",
-        "createError": "Could not create the concept. Try again.",
-        "loadError": "Could not load speakers. Close and try again.",
-        "loading": "Loading speakers…",
-        "empty": "Search for a Concept to assign.",
-        "creating": "Creating concept…",
-        "createNamed": "Create “{{name}}”…",
-        "create": "Create new concept…",
-        "suggestion": "Suggested speaker: {{name}}. Tab to accept; arrows to cycle; click to choose."
+        "choose": "Choisir le locuteur de dialogue",
+        "search": "Recherche de locuteur",
+        "placeholder": "Recherche de concepts…",
+        "heading": "Lier ce dialogue à…",
+        "remove": "Supprimer le lien",
+        "createError": "Impossible de créer le concept. Merci de réessayer.",
+        "loadError": "Impossible de charger les locuteurs. Ferme et réessaye.",
+        "loading": "Chargement des locuteurs…",
+        "empty": "Rechercher un concept à assigner.",
+        "creating": "Création du concept...",
+        "createNamed": "Créez «{{name}}»…",
+        "create": "Créer un nouveau concept...",
+        "suggestion": "Haut-parleur suggéré: {{name}}. Tab pour accepter; flèches pour cycle; clique pour choisir."
       },
       "conceptLinkSuggestion": {
-        "completion": "Concept link completion available{{completion}}. Press Tab to accept.",
-        "ambiguity": "{{name}} selected. Arrow keys browse concepts; Tab links it."
+        "completion": "La réalisation du lien conceptuel{{completion}} est disponible. Appuie sur Tab pour accepter.",
+        "ambiguity": "{{name}} sélectionné. Touches flèches parcourent les concepts; Tab les lie."
+      },
+      "harper": {
+        "review": "Examiner la suggestion de grammaire",
+        "ignore": "Ignorer une fois",
+        "disableRule": "Désactiver «{{rule}}» pour ce projet",
+        "remove": "Retirer",
+        "insert": "Insérer «{{text}}»",
+        "checking": "Vérification de la grammaire…",
+        "noIssue": "Pas de suggestion de grammaire à cette position.",
+        "englishOnly": "Harper vérifie uniquement l'anglais. Choisissez une langue d'écriture en anglais dans les paramètres de langue.",
+        "error": "La vérification de grammaire n'est pas disponible. Ton texte est en sécurité, tu peux continuer à écrire.",
+        "retry": "Réessayer",
+        "preferencesError": "Impossible de mettre à jour les préférences de grammaire. Merci de réessayer.",
+        "disabledRules": "Désactiver les règles de grammaires",
+        "noDisabledRules": "Toutes les règles de grammaire par défaut sont disponibles.",
+        "restore": "Rétablir",
+        "restoreRule": "Rétablir {{rule}}",
+        "loadingPreferences": "Chargement des préférences de grammaire…"
       }
     },
     "segment": {
@@ -1357,18 +1544,18 @@
     },
     "segmentGraph": {
       "appearance": "Apparence du graphe",
-      "searchPlaceholder": "Search folders and segments",
-      "search": "Search graph",
-      "clearSearch": "Clear graph search",
-      "navigation": "Graph navigation",
-      "fit": "Fit graph",
-      "reset": "Reset view",
-      "autoArrange": "Auto-arrange",
-      "expandAll": "Expand all",
-      "collapseAll": "Collapse all",
-      "interactionTools": "Graph interaction tools",
-      "selectNodes": "Select nodes",
-      "pan": "Pan graph"
+      "searchPlaceholder": "Rechercher des dossiers et des segments",
+      "search": "Rechercher un graphe",
+      "clearSearch": "Effacer la recherche de graphe",
+      "navigation": "Navigation du graphe",
+      "fit": "Ajuster le graphe",
+      "reset": "Réinitialiser la vue",
+      "autoArrange": "Agencement automatique",
+      "expandAll": "Tout développer",
+      "collapseAll": "Tout réduire",
+      "interactionTools": "Outils d'interaction du graphe",
+      "selectNodes": "Sélectionner des nœuds",
+      "pan": "Graphe Pan"
     },
     "outline": {
       "loading": "Chargement du plan…",
@@ -1419,7 +1606,8 @@
       "titleSpacingTooltip": "Espacement du titre : {{mode}}",
       "textAlignTooltip": "Alignement du texte : {{mode}}",
       "showScrollbar": "Afficher la barre de défilement",
-      "showDocumentOutline": "Show document outline",
+      "showBubbleMenu": "Afficher le menu bulle",
+      "showDocumentOutline": "Afficher le contour du document",
       "showReferences": "Afficher les références et les rétroliens",
       "indentParagraphs": "Indenter les paragraphes",
       "typewriterMode": "Mode Machine à écrire",
@@ -1537,16 +1725,17 @@
         "board": "Tableau",
         "showEmptyColumns": "Afficher les colonnes vides",
         "showNestedNotes": "Afficher les notes imbriquées",
-        "boardVisibility": "Board visibility",
+        "boardVisibility": "Visibilité du tableau",
         "showNestedNotesHelp": "Afficher les notes liées à chaque carte directement sous la carte.",
         "columnBorderStyle": "Style de bordure de colonne",
         "columnColorMode": "Mode de couleur des colonnes",
-        "columnAppearance": "Column appearance",
-        "columnTintStrength": "Column tint strength",
-        "tintSubtle": "Subtle",
-        "tintSoft": "Soft",
-        "tintRich": "Rich",
-        "tintBold": "Bold"
+        "setColumnColor": "Définir la couleur pour {{name}}",
+        "columnAppearance": "Apparence de colonne",
+        "columnTintStrength": "Force de la teinte des colonnes",
+        "tintSubtle": "Subtil",
+        "tintSoft": "Doux",
+        "tintRich": "Riche",
+        "tintBold": "Gras"
       },
       "cards": {
         "actionsAria": "Actions pour {{title}}",
@@ -1580,8 +1769,8 @@
       }
     },
     "manuscript": {
-      "read": "Read",
-      "readFullScreen": "Read manuscript full screen",
+      "read": "Lire",
+      "readFullScreen": "Lire le manuscrit en plein écran",
       "cover": {
         "title": "Couverture",
         "add": "Ajouter une couverture",
@@ -1599,7 +1788,7 @@
       },
       "format": {
         "title": "Formater le manuscrit",
-        "customise": "Formate-le toi-même",
+        "customise": "Format yourself",
         "preset": "Préréglage",
         "basedOn": "Basé sur",
         "typography": "Typographie et mise en page",
@@ -1698,15 +1887,15 @@
         "spriteMeta": "x {{x}}, et {{y}} · {{scale}}%"
       },
       "spriteTray": {
-        "searchPlaceholder": "Search sprites...",
-        "search": "Search sprites",
-        "clearSearch": "Clear sprite search",
-        "categories": "Sprite categories",
-        "library": "Sprite library",
-        "noMatches": "No sprites match.",
-        "editTab": "Add / Edit",
-        "listTab": "Sprite list",
-        "addSprite": "Add sprite"
+        "searchPlaceholder": "Rechercher des objets...",
+        "search": "Rechercher des objets",
+        "clearSearch": "Effacer la recherche des objets",
+        "categories": "Catégories des objets",
+        "library": "Bibliothèque d'objets",
+        "noMatches": "Aucun objet correspond.",
+        "editTab": "Ajouter / Modifier",
+        "listTab": "Liste des objets",
+        "addSprite": "Ajouter un objet"
       },
       "errors": {
         "saveEdits": "Impossible d'enregistrer les modifications de la carte"
@@ -1735,7 +1924,7 @@
         "spritesAboveRegions": "Les objets dessinés au-dessus des régions"
       },
       "visibility": {
-        "label": "Visibility",
+        "label": "Visibilité",
         "landmass": "Terre",
         "regions": "Régions",
         "text": "Texte",
@@ -1938,6 +2127,8 @@
       }
     },
     "navigation": {
+      "skipToContent": "Skip to content",
+      "workspaceNavigation": "Workspace navigation",
       "world": "Monde",
       "openSettings": "Ouvrir les paramètres",
       "addPage": "Ajouter une page",
@@ -1961,7 +2152,43 @@
       "configureTimeSystem": "Configurer le système de temps",
       "untitledConcept": "Concept sans titre",
       "untitledSegment": "Segment sans titre",
-      "untitledNote": "Note sans titre"
+      "untitledNote": "Note sans titre",
+      "projectTab": "Project",
+      "docsTab": "Docs",
+      "sidebarSections": "Sidebar sections",
+      "searchDocs": "Search docs…",
+      "noDocsFound": "No guides found for “{{query}}”.",
+      "pageNotFound": "Page not found",
+      "docsPages": "Documentation pages",
+      "docsVideoUnavailable": "This video could not load. You can still follow the steps in this guide.",
+      "docsVideoLabels": {
+        "navigation": "Switch between Settings, Docs, and the project using the navigation rail.",
+        "project": "Create Epitaph of the Undying and rename the project in Study.",
+        "segment": "Create Alasdair - Chapter II and write the guide’s market-streets excerpt.",
+        "folder": "Group the two Alasdair chapters and an Old folder in the project sidebar.",
+        "scene-context": "Keep the route reminder with Chapter II and connect its viewpoint to Alasdair.",
+        "appearance": "Adjust the editor font size while keeping the scene in view.",
+        "focus": "Try typewriter and dim modes, then turn them off to return to editing.",
+        "mention": "Choose an existing concept and confirm its mention in the prose.",
+        "assembly": "Add source segments to the manuscript in reading order.",
+        "reading": "Open the manuscript reader and return to the source scene.",
+        "pdf": "Choose PDF from the manuscript export menu.",
+        "concept": "Create a character concept and write its description.",
+        "places": "Create The Crown as a concept and describe the place.",
+        "concept-context": "Give Alasdair a Character type, The boy alias, and Occupation: Assassin.",
+        "relationship": "Connect Alasdair to The Crown with Habitation, Lives in, and Inhabitants.",
+        "map": "Create a landscape map and name it.",
+        "map-pin": "Find The Crown and place its existing concept on the map.",
+        "notes": "Keep a reminder about Alasdair’s public appearances with his concept.",
+        "backups": "Inspect available database recovery copies in Updates & Backups.",
+        "shortcuts": "Open command search and toggle the project sidebar with keyboard shortcuts.",
+        "scenes": "Write the Chapter III excerpt in the existing Alasdair folder.",
+        "formatting": "Select peaceful life in Chapter II and apply italic emphasis.",
+        "chronology": "Create the practice event Walk through The Crown and open its Date attribute.",
+        "tags": "Create and assign Needs revision to Alasdair using the title’s tag control.",
+        "versions": "Preserve Chapter II by creating a major version in Version History.",
+        "themes": "Compare dark and light palettes with Alasdair’s scene and context visible."
+      }
     },
     "tabs": {
       "openTab": "Ouvrir l'onglet {{name}}",
@@ -1990,6 +2217,11 @@
         "empty": "Aucun contenu."
       },
       "options": "Options",
+      "listStyle": {
+        "label": "Liste des couleurs",
+        "calm": "Calme",
+        "colorful": "Coloré"
+      },
       "tags": {
         "menuLabel": "Options de visibilité des tags pour {{scope}}",
         "optionsMenuLabel": "Options de comptage de mots et de tags pour {{scope}}",
@@ -1999,10 +2231,10 @@
         "chooseTags": "Choisir des tags",
         "showNone": "Ne rien afficher",
         "style": {
-          "full": "Complet",
+          "full": "Plein",
           "compact": "Compact"
         },
-        "displayStyle": "Style d’affichage",
+        "displayStyle": "Style d'affichage",
         "excludeAllConceptsFromWordCount": "Exclure tous les concepts du nombre de mots",
         "includeAllConceptsInWordCount": "Inclure tous les concepts dans le nombre de mots",
         "disableHoverPreview": "Désactiver l'aperçu au survol",
@@ -2011,6 +2243,8 @@
         "enableFadedDotBackground": "Activer le fond à points estompés"
       },
       "items": {
+        "duplicate": "Dupliquer",
+        "duplicateError": "Impossible de dupliquer cet élément. Merci de réessayer.",
         "openItem": "Ouvrir {{type}}: {{name}}",
         "updateTag": "Mettre à jour le tag",
         "moreActions": "Plus d'actions",
@@ -2026,7 +2260,7 @@
         "newFolder": "Nouveau dossier",
         "deleteFolder": "Supprimer le dossier",
         "changeConceptIcon": "Changer l'icône du concept",
-        "changeConceptColor": "Change concept colour",
+        "changeConceptColor": "Changer la couleur du concept",
         "changeFolderIcon": "Changer l'icône du dossier",
         "changeFolderColor": "Changer la couleur du dossier",
         "excludeFromWordCount": "Exclure du compteur de mots",
@@ -2065,9 +2299,9 @@
         "newManuscriptName": "Nouveau manuscrit",
         "openManuscriptActionsMenu": "Ouvrir le menu des actions du manuscrit",
         "rename": "Renommer",
-        "deleteTitle": "Delete manuscript?",
-        "deleteDescription": "Delete \"{{name}}\" and its manuscript layout? The segments used in it will remain in the project. This action cannot be undone.",
-        "deleteFailed": "Could not delete the manuscript. Please try again.",
+        "deleteTitle": "Supprimer le manuscrit ?",
+        "deleteDescription": "Supprimer \"{{name}}\" et sa mise en page de manuscrit ? Les segments utilisés resteront dans le projet. Cette action ne peut pas être annulée.",
+        "deleteFailed": "Impossible de supprimer le manuscrit. Merci de réessayer.",
         "addOptions": {
           "newSegment": "Nouveau segment",
           "quarterPage": "1/4 de page",
@@ -2089,7 +2323,29 @@
         }
       },
       "examples": "Exemples :",
-      "toggleSection": "Activer/désactiver la section {{section}}"
+      "toggleSection": "Activer/désactiver la section {{section}}",
+      "customisation": {
+        "customise": "Customise sidebar…",
+        "defaults": "Sidebar defaults…",
+        "project": "Project defaults",
+        "writality": "Writality defaults",
+        "untyped": "No type",
+        "onlyConcept": "Changes affect only this concept.",
+        "typeEffect": "Applies to {{type}} and its nested types, unless customised.",
+        "projectEffect": "Applies to all concepts in this project, unless customised.",
+        "resetToType": "Reset to type defaults",
+        "resetDefaults": "Reset to inherited defaults",
+        "resetSection": "Reset {{section}} to inherited visibility",
+        "customised": "customised",
+        "from": "From {{source}}",
+        "hiddenBy": "Hidden by {{source}}",
+        "moduleDisabled": "Timeline module disabled",
+        "connections": "Connections",
+        "saveError": "Could not save. Your previous preferences are unchanged. Try again.",
+        "loadError": "Could not load sidebar preferences.",
+        "retry": "Retry",
+        "loading": "Loading sidebar preferences"
+      }
     },
     "notes": {
       "editTagsAria": "Modifier les tags sur la note {{id}}",
@@ -2123,7 +2379,10 @@
       "entityDescription": "Les versions sont créées automatiquement quand tu enregistres ton {{entityName}}. Par défaut, une nouvelle version est créée tous les 100 mots ajoutés ou supprimés.",
       "compareVersions": "Comparer les versions",
       "major": "Majeur",
-      "createMajor": "Créer une version majeure"
+      "createMajor": "Créer une version majeure",
+      "deleteTitle": "Supprimer la version ?",
+      "deleteDescription": "Cette version enregistrée sera définitivement supprimée. Ton texte actuel reste inchangé.",
+      "deleteFailed": "Impossible de supprimer la version"
     },
     "coming_soon": {
       "title": "Prochainement",
@@ -2131,22 +2390,25 @@
     },
     "setup": {
       "recovery": {
-        "startupFailed": "Writality opened in recovery mode because startup failed. You can reselect or restore your workspace below.",
-        "windowCrashed": "The main window crashed. Recovery mode is open so you can restore your workspace.",
-        "saveCrashDetails": "Save crash details",
-        "diagnosticsSaved": "Saved diagnostics to {{path}}",
-        "diagnosticsFailed": "Could not save diagnostics. Please try again."
+        "startupFailed": "Writality a été ouvert en mode récupération car le démarrage a échoué. Tu peux re-sélectionner ou restaurer ta zone de travail en dessous.",
+        "windowCrashed": "La fenêtre principale a crash. Le mode de récupération est ouvert pour que tu puisses restaurer ta zone de travail.",
+        "saveCrashDetails": "Enregistrer les détails du crash",
+        "diagnosticsSaved": "Diagnostics enregistrés dans {{path}}",
+        "diagnosticsFailed": "Impossible d'enregistrer les diagnostics. Merci de réessayer."
       },
       "errors": {
         "restoreFailed": "Échec de la restauration depuis le dossier sélectionné. Vérifie qu'il contient une structure de projet valide."
       },
       "welcome": {
         "title": "Bienvenue sur {{appName}}",
+        "tagline": "Made by me, for you. Yes, 🫵 you",
         "checklistTitle": "Configurons ta zone de travail d'écriture :",
         "step1": "Nomme le répertoire de ta zone de travail",
         "step2": "Choisis où le stocker",
         "step3": "Commence à créer des projets !",
-        "restore": "Restaurer à partir du dossier existant"
+        "restore": "Restaurer à partir du dossier existant",
+        "theme": "Theme",
+        "bundledThemes": "Bundled themes"
       },
       "details": {
         "title": "Configurer ta zone de travail",
@@ -2168,7 +2430,48 @@
       }
     },
     "tutorial": {
-      "previous": "Précédent"
+      "previous": "Précédent",
+      "demo": {
+        "play": "Play demonstration",
+        "pause": "Pause demonstration",
+        "replay": "Replay",
+        "retry": "Try again",
+        "unavailable": "The demonstration could not play."
+      },
+      "pages": {
+        "0": {
+          "title": "Quick setup",
+          "description": "Create a project and choose an image"
+        },
+        "1": {
+          "title": "Segments and Folders",
+          "description": "Create a folder, a segment, and a concept type"
+        },
+        "2": {
+          "title": "Introduce your Characters and voices",
+          "description": "Let's explore mentions, dialog and voices"
+        },
+        "3": {
+          "title": "Define relationships",
+          "description": "Connect your concepts together through the relationship"
+        },
+        "4": {
+          "title": "Concepts are flexible",
+          "description": "Let's explore a different kind of concept. Call it an event"
+        },
+        "5": {
+          "title": "Organise your narrative",
+          "description": "See how you can structure your narrative. You're free to make your own structure"
+        },
+        "6": {
+          "title": "Assemble your manuscript",
+          "description": "Now it's all coming together. Create your manuscript"
+        },
+        "7": {
+          "title": "Bring it all together",
+          "description": "Adjust your manuscript’s appearance, preview the result, and export a PDF."
+        }
+      }
     },
     "noProject": {
       "headline": "Terminons enfin ce projet",
@@ -2215,7 +2518,11 @@
         "noResults": "Aucun paramètre ne correspond à \"{{query}}\""
       },
       "emailSupport": "Envoyer un e-mail au support à {{supportEmail}}",
-      "helpPrompt": "Besoin d'aide ou envie d'échanger ?"
+      "helpPrompt": "Besoin d'aide ou envie d'échanger ?",
+      "helpDiscordTitle": "Demander sur Discord",
+      "helpDiscordDescription": "Besoin d'aide avec {{appName}}? Rejoins Discord pour poser des questions, partager des captures d'écran, signaler des bugs ou donner des idées de fonctionnalités. Tu peux y partager vos histoires et graphiques.",
+      "helpEmailTitle": "Envoie-moi un mail directement",
+      "helpEmailDescription": "Tu préfères une conversation individuelle ? Envoie-moi un e-mail directement avec tes questions ou tes commentaires."
     },
     "discordInvite": {
       "eyebrow": "{{appName}} Discord",
@@ -2257,10 +2564,10 @@
     },
     "workspace": {
       "editorAppearance": {
-        "customValue": "Custom {{label}}",
-        "background": "Background",
-        "typography": "Typography",
-        "imageFit": "Image fit",
+        "customValue": "{{label}} personnalisé",
+        "background": "Arrière-plan",
+        "typography": "Typographie",
+        "imageFit": "Ajustement de l'image",
         "previewDescription": "Aperçu de l'apparence de l'éditeur",
         "description": "Personnalise les arrière-plans de l'éditeur et les labels.",
         "switchTo": "Changer de vue",
@@ -2270,11 +2577,11 @@
         "title": "Thème",
         "description": "Choisis ton thème d'interface préféré. Nous avons des thèmes personnalisés pour garantir une expérience d'écriture confortable.",
         "mode": {
-          "title": "Appearance mode",
-          "description": "System follows your computer's light and dark appearance.",
-          "light": "Light",
-          "dark": "Dark",
-          "system": "System",
+          "title": "Mode d'apparence",
+          "description": "Système suit l'apparence de ton ordinateur.",
+          "light": "Clair",
+          "dark": "Sombre",
+          "system": "Système",
           "palette": "palette"
         },
         "showLess": "Afficher moins",
@@ -2309,28 +2616,48 @@
           "unsavedDraft": "Non enregistré",
           "tokens": {
             "shell-background": {
-              "label": "Shell background",
-              "description": "Background behind the app panels, header, and footer."
+              "label": "Arrière plan du terminal",
+              "description": "Arrière-plan derrière les panneaux de l'application, l'en-tête et le pied de page."
             },
             "shell-foreground": {
-              "label": "Shell text",
-              "description": "Text and icons in the window header and collapsed footer."
+              "label": "Texte du terminal",
+              "description": "Texte et icônes dans l'en-tête de la fenêtre et pied de page réduit."
             },
             "shell-accent": {
-              "label": "Shell accent",
-              "description": "Selected tabs and hovered shell controls."
+              "label": "Accent du terminal",
+              "description": "Onglets sélectionnés et contrôles survolés du terminal."
             },
             "shell-accent-foreground": {
-              "label": "Shell accent text",
-              "description": "Text and icons on the shell accent."
+              "label": "Texte d'accentudation du terminal",
+              "description": "Texte et icônes sur l'accent du terminal."
             },
             "nav-main-accent": {
-              "label": "Main navigation accent",
-              "description": "Active and hovered item background in the main navigation."
+              "label": "Accent de la navigation principale",
+              "description": "Arrière-plan actif et survol des éléments dans la navigation principale."
             },
             "nav-main-accent-foreground": {
-              "label": "Main navigation accent text",
-              "description": "Active item icon colour in the main navigation."
+              "label": "Texte d'accentuation de la navigation principale",
+              "description": "Couleur de l'icône active dans la navigation principale."
+            },
+            "primary-foreground": {
+              "label": "Primary text",
+              "description": "Text on filled primary actions."
+            },
+            "destructive-foreground": {
+              "label": "Destructive text",
+              "description": "Text on filled destructive actions."
+            },
+            "sidebar-primary": {
+              "label": "Sidebar primary",
+              "description": "Accent labels on the main sidebar surface."
+            },
+            "secondary-sidebar-primary": {
+              "label": "Secondary sidebar primary",
+              "description": "Accent for actions and labels in secondary surfaces."
+            },
+            "secondary-sidebar-primary-foreground": {
+              "label": "Secondary sidebar primary text",
+              "description": "Text on filled actions in secondary surfaces."
             }
           },
           "options": {
@@ -2406,8 +2733,8 @@
       },
       "editorBackground": {
         "previewTitle": "Aperçu de l'arrière-plan",
-        "previewConceptName": "The Cartographer",
-        "previewSegmentName": "Chapter One"
+        "previewConceptName": "Le Cartographe",
+        "previewSegmentName": "Chapitre Un"
       }
     },
     "profile": {
@@ -2503,9 +2830,14 @@
           "disabledDescription": "Désactiver cette option masque la zone de travail Cartographie. Les cartes, points, régions et illustrations existantes ne sont pas supprimées et réapparaîtront si tu réactives le module."
         },
         "music": {
-          "label": "Music",
-          "description": "Listen to local audio while writing.",
-          "disabledDescription": "Turning this off stops playback and hides the player. Imported tracks remain available when you turn it back on."
+          "label": "Musique",
+          "description": "Écoute de l'audio local pendant l'écriture.",
+          "disabledDescription": "Désactiver cette option arrête la lecture et masque le lecteur. Les pistes importées restent disponibles lorsque que tu l'actives."
+        },
+        "harper": {
+          "label": "Harper",
+          "description": "Local English grammar and punctuation checking in your editors. Uses your selected English writing language.",
+          "disabledDescription": "Désactiver cette option arrête la vérification de la grammaire et supprime les soulignés."
         }
       }
     },
@@ -2541,7 +2873,7 @@
       "moveWorkspace": "Déplacer votre zone de travail",
       "moveWorkspaceDescription": "Déplace ce dossier de zone de travail et toutes ses données de projet vers un nouvel emplacement. {{appName}} mettra à jour l'emplacement enregistré et redémarrera une fois le déplacement terminé.",
       "currentDataLocation": "Votre emplacement actuel de données",
-      "openInFiles": "Open in Files",
+      "openInFiles": "Ouvrir dans Fichiers",
       "renameWorkspace": "Renommer ta zone de travail",
       "chooseNewLocation": "Destination de cette zone de travail",
       "browse": "Parcourir",
@@ -2571,7 +2903,7 @@
       "errors": {
         "loadCurrent": "Impossible de charger l'emplacement actuel du fichier",
         "openPicker": "Impossible d’ouvrir le sélecteur de dossier",
-        "openInFiles": "Could not open workspace folder",
+        "openInFiles": "Impossible d'ouvrir le dossier de la zone de travail",
         "move": "Impossible de déplacer la zone de travail",
         "changeDir": "Impossible de changer l'emplacement de la zone de travail : {{message}}"
       }
@@ -2756,6 +3088,7 @@
     },
     "readableBackups": {
       "noProject": "Sélectionne ou créé un projet pour configurer des sauvegardes lisibles.",
+      "statusLoadFailed": "Impossible de charger le statut de la sauvegarde.",
       "runNow": "Sauvegarder maintenant",
       "lastSuccess": "Dernière sauvegarde lisible : {{date}}",
       "noSuccessfulRun": "Aucune sauvegarde lisible n'a encore été effectuée.",
@@ -2871,7 +3204,13 @@
     },
     "changelog": {
       "empty": "Aucune entrée de changelog n'est fournie avec cette version.",
-      "selectEntry": "Sélectionne une entrée de changelog."
+      "selectEntry": "Sélectionne une entrée de changelog.",
+      "allVersions": "All versions",
+      "releaseHistory": "Release history",
+      "otherVersions": "Other versions",
+      "older": "Older",
+      "newer": "Newer",
+      "loadError": "Failed to load changelog entries."
     },
     "versionSettings": {
       "retentionTitle": "Rétention de version mineure",
@@ -2932,6 +3271,32 @@
         "failedDelete": "Impossible de supprimer le lien externe"
       }
     },
+    "licensesSettings": {
+      "title": "Licences & Attributions",
+      "readLicense": "Lire {{title}}",
+      "artwork": {
+        "title": "Arrière-plan de Writality",
+        "description": "Robin a fait ce fond pour la Writalité. Merci de donner à ce petit espace d'écriture autant de caractère. <3"
+      },
+      "music": {
+        "title": "Musique pour écrire",
+        "description": "Merci aux artistes qui ont rendu leur musique disponible gratuitement. Ces collections sont des téléchargements optionnels dans la bibliothèque musicale.",
+        "fantasy": "La musique de la collection Fantasy, des MP3 originaux de Free Music Archive.",
+        "lofi": "La musique de la collection Lo-Fi 128 kbps MP3 du flux de l’artiste Bandcamp.",
+        "covers": "Les photos de la collection sont de Mary Ray (Fantasy) et Raj Gautam (Lo-Fi).",
+        "allCredits": "Crédits musicaux complets et détails des sources"
+      },
+      "harper": "Harper vérifie localement l'orthographe et la grammaire en anglais. Fabriqué par Elijah Potter et les contributeurs de Harper. Writality a sa propre intégration d'éditeur.",
+      "icons": {
+        "title": "Icônes",
+        "description": "Les icônes de jeu par les créateurs ci-dessous, de Game-icons.net. Les SVG utilisent les couleurs de Writality. Sous licence Creative Commons Attribution 3.0."
+      },
+      "software": {
+        "title": "Logiciels et polices open source",
+        "description": "Writality s'appuie également sur des outils open-source, des icônes, des dictionnaires et des polices. Je suis reconnaissant à tous ceux qui les fabriquent et les entretiennent. Leurs avis et conditions de licence sont conservés ici.",
+        "notices": "notifications tierces"
+      }
+    },
     "iconPicker": {
       "searchPlaceholder": "Rechercher des icônes par nom, catégorie",
       "loadMore": "Charger plus ({{count}} restants)",
@@ -2943,10 +3308,13 @@
       "colorPicker": {
         "hexColour": "Couleur hexadécimale",
         "hexPlaceholder": "FFE ou FFEECC",
-        "applyHexColour": "Appliquer la couleur hexadécimale"
+        "applyHexColour": "Appliquer la couleur hexadécimale",
+        "recentColours": "Recent colours"
       }
     },
     "wordUsage": {
+      "analyzing": "Analyzing text…",
+      "analysisError": "Could not analyze this text. Edit the document or reopen Text Insights to retry.",
       "title": "Utilisation de mot",
       "sentences": "Phrases",
       "avgWords": "Moy. mots",
@@ -2955,6 +3323,7 @@
       "charactersNoSpaces": "Caractères, pas d'espaces",
       "paragraphs": "Paragraphes",
       "textStats": "Stats du texte",
+      "statsLoadFailed": "Could not load text statistics.",
       "showTextStats": "Afficher les stats de texte",
       "vocabulary": "Vocabulaire",
       "vocabularyDiversity": "Variété de mots",
@@ -3090,7 +3459,9 @@
         "paragraphDensity": "La densité est calculée à partir du nombre de mots par paragraphe : 1-25, 26-60, 61-100 et 101+ mots.",
         "sentenceOpener": "Les débuts de phrase utilisent des heuristiques légères basées sur des listes de mots pour repérer pronoms, articles, conjonctions, prépositions, adverbes, noms propres et autres cas.",
         "wordUsage": "Les mots fréquents proviennent de ce projet, après filtrage des mots vides courants selon la langue de correction orthographique sélectionnée."
-      }
+      },
+      "updatingProjectWords": "Mise à jour du vocabulaire du projet…",
+      "projectWordsError": "Le vocabulaire du projet n'a pas pu être mis à jour. Modifie le document ou rouvre les indices de texte pour réessayer."
     }
   }
 }
