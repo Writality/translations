@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "c177d19b1734-it",
-  "sourceRevision": "c177d19b17349ccf3e4482eb11f68eb8b408a3bd",
+  "version": "666b0dc78dde-it",
+  "sourceRevision": "666b0dc78dde817e9ef8273a3bdb32ae51ca4a42",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1024,7 +1024,6 @@
     "dashboard": {
       "loadingGraph": "Loading graph...",
       "continueEditing": "Continue editing",
-      "lastEdited": "Last edited",
       "noSegmentsCreated": "No segments created",
       "noConceptsCreated": "No concepts created",
       "wordBreakdown": "Word Breakdown",
@@ -1041,41 +1040,11 @@
       "minRead": "min read",
       "notAvailable": "N/A",
       "storySegments": "story segments",
-      "writingConsistency": "Writing Consistency",
-      "activityPattern": "Activity Pattern",
       "storyBalance": "Story Balance",
-      "developmentDepth": "Development Depth",
       "completionProgress": "Completion Progress",
       "conceptsWithDates": "Concepts with Dates",
       "conceptsWithRelationships": "Concepts with Relationships",
       "of": "of",
-      "timeframes": {
-        "oneWeek": "1 week",
-        "twoWeeks": "2 weeks",
-        "threeMonths": "3 months",
-        "oneYear": "1 year",
-        "allTime": "all time"
-      },
-      "analytics": {
-        "consistency": {
-          "keepWriting": "Keep writing to see your progress!",
-          "excellent": "Excellent consistency!",
-          "message": "You were active on {{activeDays}} out of {{totalDays}} days ({{consistencyRate}}% consistency) in the last {{timeframeLabel}} timeframe. {{consistencyText}}"
-        },
-        "activity": {
-          "noWriting": "No writing activity recorded for the {{timeframeLabel}} timeframe.",
-          "wroteWords": "you wrote {{count}} words",
-          "trimmedWords": "you trimmed {{count}} words (net)",
-          "unchanged": "your net word count stayed unchanged",
-          "message": "In the {{timeframeLabel}} timeframe, {{totalWordsText}} across {{activeDays}} active days, averaging {{avgWordsPerActiveDay}} net words per session. Your largest single-day change was {{maxAbsoluteDailyChange}} words."
-        },
-        "development": {
-          "start": "Start developing your content to see depth insights!",
-          "wordsPerSegment": "{{count}} words per segment",
-          "wordsPerConcept": "{{count}} words per concept",
-          "message": "You're averaging {{stats}}."
-        }
-      },
       "dailyWordDiff": {
         "title": "Today's words added and removed",
         "wordsToday": "Words today",
@@ -2173,7 +2142,6 @@
       },
       "welcome": {
         "title": "Welcome to {{appName}}",
-        "description": "Your complete writing workspace for novels, stories, and creative projects",
         "checklistTitle": "Let's set up your writing workspace:",
         "step1": "Name your workspace directory",
         "step2": "Choose where to store it",
@@ -2191,7 +2159,6 @@
       "storage": {
         "title": "Choose storage location",
         "subtitle": "Where should we save your workspace?",
-        "yourWorkspace": "Your workspace",
         "author": "Author",
         "folderLabel": "Storage folder",
         "chooseFolder": "Click to choose folder",
@@ -2295,9 +2262,7 @@
         "typography": "Typography",
         "imageFit": "Image fit",
         "previewDescription": "Preview how your editor will look",
-        "conceptTitle": "Concept editor appearance",
         "description": "Customise editor backgrounds and labels.",
-        "segmentTitle": "Segment editor appearance",
         "switchTo": "Switch view",
         "title": "Editor appearance"
       },
@@ -2358,10 +2323,6 @@
             "shell-accent-foreground": {
               "label": "Shell accent text",
               "description": "Text and icons on the shell accent."
-            },
-            "nav-main-background": {
-              "label": "Main navigation background",
-              "description": "Background colour of the main navigation rail."
             },
             "nav-main-accent": {
               "label": "Main navigation accent",
@@ -2769,7 +2730,6 @@
         "buildReady": "Build {{version}} is staged and ready when you are.",
         "synced": "You're synced with the latest stable release.",
         "joined": "Joined {{date}}",
-        "buildLabel": "{{appName}} build",
         "currentVersion": "Current Version"
       },
       "download": {

@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "c177d19b1734-fr",
-  "sourceRevision": "c177d19b17349ccf3e4482eb11f68eb8b408a3bd",
+  "version": "666b0dc78dde-fr",
+  "sourceRevision": "666b0dc78dde817e9ef8273a3bdb32ae51ca4a42",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1024,7 +1024,6 @@
     "dashboard": {
       "loadingGraph": "Chargement du graphe...",
       "continueEditing": "Continuer à éditer",
-      "lastEdited": "Dernière modification",
       "noSegmentsCreated": "Aucun segment créé",
       "noConceptsCreated": "Aucun concept créé",
       "wordBreakdown": "Répartition des mots",
@@ -1041,41 +1040,11 @@
       "minRead": "min de lecture",
       "notAvailable": "Non disponible",
       "storySegments": "segments d'histoires",
-      "writingConsistency": "Régularité d'écriture",
-      "activityPattern": "Rythme d'activité",
       "storyBalance": "Équilibre narratif",
-      "developmentDepth": "Profondeur du développement",
       "completionProgress": "Progression",
       "conceptsWithDates": "Concepts avec dates",
       "conceptsWithRelationships": "Concepts avec relations",
       "of": "de",
-      "timeframes": {
-        "oneWeek": "1 semaine",
-        "twoWeeks": "2 semaines",
-        "threeMonths": "3 mois",
-        "oneYear": "1 an",
-        "allTime": "tout le temps"
-      },
-      "analytics": {
-        "consistency": {
-          "keepWriting": "Continue à écrire pour voir ta progression !",
-          "excellent": "Excellent rythme !",
-          "message": "Tu as été actif {{activeDays}} jours sur {{totalDays}} ({{consistencyRate}} % de régularité) au cours des {{timeframeLabel}}. {{consistencyText}}"
-        },
-        "activity": {
-          "noWriting": "Aucune activité d'écriture enregistrée pour la période {{timeframeLabel}}.",
-          "wroteWords": "tu as écrit {{count}} mots",
-          "trimmedWords": "tu as retiré {{count}} mots (net)",
-          "unchanged": "ton nombre de mots net est resté inchangé",
-          "message": "Sur la période {{timeframeLabel}}, {{totalWordsText}} sur {{activeDays}} jours actifs, avec une moyenne de {{avgWordsPerActiveDay}} mots nets par session. Ta plus grande variation en une journée a été de {{maxAbsoluteDailyChange}} mots."
-        },
-        "development": {
-          "start": "Commence à développer ton contenu pour voir les indicateurs de profondeur !",
-          "wordsPerSegment": "{{count}} mots par segment",
-          "wordsPerConcept": "{{count}} mots par concept",
-          "message": "Tu as une moyenne de {{stats}}."
-        }
-      },
       "dailyWordDiff": {
         "title": "Mots du jour ajoutés et supprimés",
         "wordsToday": "Mots d'aujourd'hui",
@@ -2173,7 +2142,6 @@
       },
       "welcome": {
         "title": "Bienvenue sur {{appName}}",
-        "description": "Ta zone de travail complète pour romans, nouvelles et projets créatifs",
         "checklistTitle": "Configurons ta zone de travail d'écriture :",
         "step1": "Nomme le répertoire de ta zone de travail",
         "step2": "Choisis où le stocker",
@@ -2191,7 +2159,6 @@
       "storage": {
         "title": "Choisis l'emplacement de stockage",
         "subtitle": "Où devrions-nous enregistrer ta zone de travail ?",
-        "yourWorkspace": "Ta zone de travail",
         "author": "Auteur",
         "folderLabel": "Dossier de stockage",
         "chooseFolder": "Clique pour choisir un dossier",
@@ -2295,9 +2262,7 @@
         "typography": "Typography",
         "imageFit": "Image fit",
         "previewDescription": "Aperçu de l'apparence de l'éditeur",
-        "conceptTitle": "Apparence de l'éditeur de Concept",
         "description": "Personnalise les arrière-plans de l'éditeur et les labels.",
-        "segmentTitle": "Apparence de l'éditeur de Segments",
         "switchTo": "Changer de vue",
         "title": "Apparence de l'éditeur"
       },
@@ -2358,10 +2323,6 @@
             "shell-accent-foreground": {
               "label": "Shell accent text",
               "description": "Text and icons on the shell accent."
-            },
-            "nav-main-background": {
-              "label": "Main navigation background",
-              "description": "Background colour of the main navigation rail."
             },
             "nav-main-accent": {
               "label": "Main navigation accent",
@@ -2769,7 +2730,6 @@
         "buildReady": "La version {{version}} est prête et t'attend.",
         "synced": "Tu es synchronisé avec la dernière version stable.",
         "joined": "Inscrit(e) le {{date}}",
-        "buildLabel": "Version {{appName}}",
         "currentVersion": "Version actuelle"
       },
       "download": {
