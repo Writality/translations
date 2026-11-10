@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "17beccfa6e68-fr",
-  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
+  "version": "35337ee85db9-fr",
+  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2207,13 +2207,7 @@
           "full": "Plein",
           "compact": "Compact"
         },
-        "displayStyle": "Style d'affichage",
-        "excludeAllConceptsFromWordCount": "Exclure tous les concepts du nombre de mots",
-        "includeAllConceptsInWordCount": "Inclure tous les concepts dans le nombre de mots",
-        "disableHoverPreview": "Désactiver l'aperçu au survol",
-        "enableHoverPreview": "Activer l'aperçu au survol",
-        "disableFadedDotBackground": "Désactiver le fond à points estompés",
-        "enableFadedDotBackground": "Activer le fond à points estompés"
+        "displayStyle": "Style d'affichage"
       },
       "items": {
         "duplicate": "Dupliquer",

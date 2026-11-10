@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "17beccfa6e68-de",
-  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
+  "version": "35337ee85db9-de",
+  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2207,13 +2207,7 @@
           "full": "Voll",
           "compact": "Kompakt"
         },
-        "displayStyle": "Darstellungsstil",
-        "excludeAllConceptsFromWordCount": "Alle Konzepte aus der Wortzahl ausschließen",
-        "includeAllConceptsInWordCount": "Alle Konzepte in der Wortzahl einbeziehen",
-        "disableHoverPreview": "Vorschau beim Drüberfahren deaktivieren",
-        "enableHoverPreview": "Vorschau beim Drüberfahren aktivieren",
-        "disableFadedDotBackground": "Hintergrund mit verblassten Punkten deaktivieren",
-        "enableFadedDotBackground": "Hintergrund mit verblassten Punkten aktivieren"
+        "displayStyle": "Darstellungsstil"
       },
       "items": {
         "duplicate": "Duplizieren",

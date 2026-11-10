@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "17beccfa6e68-es",
-  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
+  "version": "35337ee85db9-es",
+  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2207,13 +2207,7 @@
           "full": "Completa",
           "compact": "Compacta"
         },
-        "displayStyle": "Estilo de visualización",
-        "excludeAllConceptsFromWordCount": "Excluir todos los conceptos en el recuento de palabras",
-        "includeAllConceptsInWordCount": "Incluye todos los conceptos en el recuento de palabras",
-        "disableHoverPreview": "Desactivar la vista previa al pasar el cursor",
-        "enableHoverPreview": "Activar la vista precia al pasar el cursor",
-        "disableFadedDotBackground": "Desactivar puntos de fondo atenuados",
-        "enableFadedDotBackground": "Activar puntos de fondo atenuados"
+        "displayStyle": "Estilo de visualización"
       },
       "items": {
         "duplicate": "Duplicar",

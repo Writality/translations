@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "17beccfa6e68-pt",
-  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
+  "version": "35337ee85db9-pt",
+  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2207,13 +2207,7 @@
           "full": "Full",
           "compact": "Compact"
         },
-        "displayStyle": "Display style",
-        "excludeAllConceptsFromWordCount": "Excluir todos os conceitos da contagem de palavras",
-        "includeAllConceptsInWordCount": "Incluir todos os conceitos da contagem de palavras",
-        "disableHoverPreview": "Disable hover preview",
-        "enableHoverPreview": "Enable hover preview",
-        "disableFadedDotBackground": "Disable faded dot background",
-        "enableFadedDotBackground": "Enable faded dot background"
+        "displayStyle": "Display style"
       },
       "items": {
         "duplicate": "Duplicate",
