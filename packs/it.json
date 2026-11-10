@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "d92da46d38bb-it",
-  "sourceRevision": "d92da46d38bb8c4d3da6bd4953d3e30078c6ca6a",
+  "version": "17beccfa6e68-it",
+  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1136,35 +1136,8 @@
       "bookWidth": "Width",
       "bookHeight": "Height",
       "leanAmount": "Lean",
-      "bookDesign": "Book design",
       "spineTextColor": "Title colour",
       "flipSpineText": "Flip title text",
-      "spineVariants": {
-        "cloth": {
-          "name": "Matte Cloth",
-          "blurb": "Flat colour, faint woven grain"
-        },
-        "leather": {
-          "name": "Soft Grain",
-          "blurb": "Subtle mottled texture"
-        },
-        "linen": {
-          "name": "Linen Weave",
-          "blurb": "Light crosshatch texture"
-        },
-        "vintage": {
-          "name": "Vintage",
-          "blurb": "Faded with quiet head/tail bands"
-        },
-        "modern": {
-          "name": "Modern Matte",
-          "blurb": "Flat with one soft edge line"
-        },
-        "suede": {
-          "name": "Suede",
-          "blurb": "Even colour, whisper of top light"
-        }
-      },
       "updatedToday": "Updated Today",
       "updatedThisWeek": "Updated This Week",
       "updatedThisMonth": "Updated This Month",
@@ -2179,13 +2152,15 @@
       "worldDescription": "Create characters, locations, and timelines that are living documents and can evolve as your story grows."
     },
     "searchPage": {
-      "commandCount": "{{count}} comandi",
+      "commandCount_one": "{{count}} comando",
+      "commandCount_other": "{{count}} comandi",
       "description": "Cerca comandi e scorciatoie",
       "footerHint": "Premi Invio per selezionare",
       "noCommands": "Nessun comando corrisponde a \"{{query}}\"",
       "noResults": "Nessun risultato per \"{{query}}\"",
       "placeholder": "Cerca comandi",
-      "resultCount": "{{count}} risultati",
+      "resultCount_one": "{{count}} risultato",
+      "resultCount_other": "{{count}} risultati",
       "typeMore": "Digita ancora per cercare"
     },
     "tagFilter": {

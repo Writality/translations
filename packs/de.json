@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "d92da46d38bb-de",
-  "sourceRevision": "d92da46d38bb8c4d3da6bd4953d3e30078c6ca6a",
+  "version": "17beccfa6e68-de",
+  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1301,35 +1301,8 @@
       "bookWidth": "Breite",
       "bookHeight": "Höhe",
       "leanAmount": "Schlank",
-      "bookDesign": "Buchdesign",
       "spineTextColor": "Titel Farbe",
       "flipSpineText": "Titeltext spiegeln",
-      "spineVariants": {
-        "cloth": {
-          "name": "Mattes Tuch",
-          "blurb": "Einfarbig, dezente Webstruktur"
-        },
-        "leather": {
-          "name": "Weiche Maserung",
-          "blurb": "Dezent marmorierte Struktur"
-        },
-        "linen": {
-          "name": "Leinenbindung",
-          "blurb": "Leichte Kreuzschraffur"
-        },
-        "vintage": {
-          "name": "Vintage",
-          "blurb": "Verblassen mit dezenten Kopf- und Endstreifen"
-        },
-        "modern": {
-          "name": "Modern Matt",
-          "blurb": "Flach mit einer weichen Kantenlinie"
-        },
-        "suede": {
-          "name": "Wildleder",
-          "blurb": "Gleichmäßige Farbe, ein Hauch von Oberlicht"
-        }
-      },
       "updatedToday": "Heute aktualisiert",
       "updatedThisWeek": "Diese Woche aktualisiert",
       "updatedThisMonth": "Diesen Monat aktualisiert",
@@ -2482,13 +2455,15 @@
       "worldDescription": "Erschaffen Sie Charaktere, Orte und Zeitlinien die in Ihren Dokumenten leben und sich entwickeln können, wenn Ihre Geschichte wächst."
     },
     "searchPage": {
-      "commandCount": "{{count}} -Befehle",
+      "commandCount_one": "{{count}} Befehl",
+      "commandCount_other": "{{count}} Befehle",
       "description": "Befehle und Verknüpfungen durchsuchen",
       "footerHint": "Enter drücken um auszuwählen",
       "noCommands": "Keine Befehle stimmen überein \"{{query}}\"",
       "noResults": "Keine Ergebnisse gefunden für \"{{query}}\"",
       "placeholder": "Befehle suchen",
-      "resultCount": "{{count}} Einträge",
+      "resultCount_one": "{{count}} Eintrag",
+      "resultCount_other": "{{count}} Einträge",
       "typeMore": "Mehr zum Suchen eingeben"
     },
     "tagFilter": {

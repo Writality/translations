@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "d92da46d38bb-es",
-  "sourceRevision": "d92da46d38bb8c4d3da6bd4953d3e30078c6ca6a",
+  "version": "17beccfa6e68-es",
+  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1301,35 +1301,8 @@
       "bookWidth": "Ancho",
       "bookHeight": "Alto",
       "leanAmount": "Inclinar",
-      "bookDesign": "Diseño del libro",
       "spineTextColor": "Color del título",
       "flipSpineText": "Voltear el texto del título",
-      "spineVariants": {
-        "cloth": {
-          "name": "Tela Mate",
-          "blurb": "Color plano, granulado textil tenue"
-        },
-        "leather": {
-          "name": "Granulado suave",
-          "blurb": "Textura moteada sutil"
-        },
-        "linen": {
-          "name": "Tramado de lino",
-          "blurb": "Textura de rayado cruzado ligero"
-        },
-        "vintage": {
-          "name": "Vintage",
-          "blurb": "Atenuado con cabezadas sutiles"
-        },
-        "modern": {
-          "name": "Mate moderno",
-          "blurb": "Plano con una línea de borde suave"
-        },
-        "suede": {
-          "name": "Ante",
-          "blurb": "Color uniforme con un destello superior suave"
-        }
-      },
       "updatedToday": "Actualizado hoy",
       "updatedThisWeek": "Actualizado esta semana",
       "updatedThisMonth": "Actualizado este mes",
@@ -2482,13 +2455,15 @@
       "worldDescription": "Crea personajes, escenarios y líneas temporales que sean documentos vivos y puedan evolucionar a medida que tu historia vaya desarrollándose."
     },
     "searchPage": {
-      "commandCount": "{{count}} comandos",
+      "commandCount_one": "{{count}} comando",
+      "commandCount_other": "{{count}} comandos",
       "description": "Buscar comandos y atajos",
       "footerHint": "Presiona Enter para seleccionar",
       "noCommands": "Ningún comando coincide con \"{{query}}\"",
       "noResults": "Sin resultados para \"{{query}}\"",
       "placeholder": "Buscar comandos",
-      "resultCount": "{{count}} resultados",
+      "resultCount_one": "{{count}} resultado",
+      "resultCount_other": "{{count}} resultados",
       "typeMore": "Escriba más para buscar"
     },
     "tagFilter": {

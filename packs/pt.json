@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "d92da46d38bb-pt",
-  "sourceRevision": "d92da46d38bb8c4d3da6bd4953d3e30078c6ca6a",
+  "version": "17beccfa6e68-pt",
+  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1301,35 +1301,8 @@
       "bookWidth": "Width",
       "bookHeight": "Height",
       "leanAmount": "Lean",
-      "bookDesign": "Book design",
       "spineTextColor": "Title colour",
       "flipSpineText": "Flip title text",
-      "spineVariants": {
-        "cloth": {
-          "name": "Matte Cloth",
-          "blurb": "Flat colour, faint woven grain"
-        },
-        "leather": {
-          "name": "Soft Grain",
-          "blurb": "Subtle mottled texture"
-        },
-        "linen": {
-          "name": "Linen Weave",
-          "blurb": "Light crosshatch texture"
-        },
-        "vintage": {
-          "name": "Vintage",
-          "blurb": "Faded with quiet head/tail bands"
-        },
-        "modern": {
-          "name": "Modern Matte",
-          "blurb": "Flat with one soft edge line"
-        },
-        "suede": {
-          "name": "Suede",
-          "blurb": "Even colour, whisper of top light"
-        }
-      },
       "updatedToday": "Atualizado hoje",
       "updatedThisWeek": "Atualizado esta semana",
       "updatedThisMonth": "Atualizado este mês",
@@ -2482,13 +2455,15 @@
       "worldDescription": "Crie personagens, locais e cronologias vivos, que evoluem junto com a sua história."
     },
     "searchPage": {
-      "commandCount": "{{count}} Segmentos",
+      "commandCount_one": "{{count}} comando",
+      "commandCount_other": "{{count}} comandos",
       "description": "Procurar comandos e atalhos",
       "footerHint": "Pressione Enter para salvar",
       "noCommands": "Nenhum comando corresponde \"{{query}}\"",
       "noResults": "Sem resultados para \"{{query}}\"",
       "placeholder": "Pesquisar comandos",
-      "resultCount": "{{count}} Resultados",
+      "resultCount_one": "{{count}} resultado",
+      "resultCount_other": "{{count}} resultados",
       "typeMore": "Digite mais para pesquisar"
     },
     "tagFilter": {

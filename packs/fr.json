@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "d92da46d38bb-fr",
-  "sourceRevision": "d92da46d38bb8c4d3da6bd4953d3e30078c6ca6a",
+  "version": "17beccfa6e68-fr",
+  "sourceRevision": "17beccfa6e68179856d357417e18be177703ed39",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1301,35 +1301,8 @@
       "bookWidth": "Largeur",
       "bookHeight": "Hauteur",
       "leanAmount": "Inclinaison",
-      "bookDesign": "Design du livre",
       "spineTextColor": "Couleur du titre",
       "flipSpineText": "Inverser le texte du titre",
-      "spineVariants": {
-        "cloth": {
-          "name": "Tissu mat",
-          "blurb": "Couleur plate, grain tissé pâle"
-        },
-        "leather": {
-          "name": "Grain doux",
-          "blurb": "Texture mottée subtile"
-        },
-        "linen": {
-          "name": "Tissu de lin",
-          "blurb": "Texture de hachures légères"
-        },
-        "vintage": {
-          "name": "Vintage",
-          "blurb": "Estompé avec des bandes discrètes en haut et en bas"
-        },
-        "modern": {
-          "name": "Mate moderne",
-          "blurb": "Uni avec un léger trait sur un bord"
-        },
-        "suede": {
-          "name": "Cuir daim",
-          "blurb": "Couleur uniforme, légère touche de lumière en haut"
-        }
-      },
       "updatedToday": "Mis à jour aujourd'hui",
       "updatedThisWeek": "Mis à jour de cette semaine",
       "updatedThisMonth": "Mis à jour ce mois",
@@ -2482,13 +2455,15 @@
       "worldDescription": "Crée des personnages, des lieux et des chronologies qui sont des documents vivants et peuvent évoluer avec ton histoire."
     },
     "searchPage": {
-      "commandCount": "{{count}} commandes",
+      "commandCount_one": "{{count}} commande",
+      "commandCount_other": "{{count}} commandes",
       "description": "Rechercher des commandes et des raccourcis",
       "footerHint": "Appuie sur Entrée pour sélectionner",
       "noCommands": "Aucune commande ne correspond à \"{{query}}\"",
       "noResults": "Aucun résultat trouvé pour \"{{query}}\"",
       "placeholder": "Rechercher des commandes",
-      "resultCount": "{{count}} résultats",
+      "resultCount_one": "{{count}} résultat",
+      "resultCount_other": "{{count}} résultats",
       "typeMore": "Tapez plus pour rechercher"
     },
     "tagFilter": {
