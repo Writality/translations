@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "35337ee85db9-es",
-  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
+  "version": "666818457b78-es",
+  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -118,7 +118,14 @@
         "seasonEnds": "Fin de temporada",
         "seasonStarts": "Inicio de temporada",
         "untilYear": "Hasta el año",
-        "yearRange": "Rango de años"
+        "yearRange": "Rango de años",
+        "chooseMonthAndYear": "Elige mes y año",
+        "chooseYear": "Elegir año",
+        "jumpToYear": "Ir a un año",
+        "jumpToYearHint": "Escribe un año y presiona Enter",
+        "select": "Seleccionar",
+        "setEnd": "Fijar fin",
+        "setStart": "Fijar inicio"
       },
       "customDatePicker": {
         "placeholder": "Introducir un selector de fecha personalizado.",
@@ -126,6 +133,24 @@
         "setupHint": "Configurar su calendario antes de elegir fechas."
       },
       "dateFormatDropdown": {
+        "categories": {
+          "alternate": {
+            "description": "Día, mes y año con puntos o guiones.",
+            "label": "Alternativo"
+          },
+          "common": {
+            "description": "Formatos numéricos utilizados en la mayor parte del mundo.",
+            "label": "Común"
+          },
+          "era": {
+            "description": "Formatos numéricos que muestran la Era antes o después de la fecha.",
+            "label": "Con la Era"
+          },
+          "fantasy": {
+            "description": "Separadores inusuales para calendarios inventados.",
+            "label": "Fantasía"
+          }
+        },
         "description": "Configurar formato de fecha desplegable.",
         "noPresetSelected": "Ningún preajuste seleccionado",
         "preview": "Vista previa"
@@ -387,6 +412,7 @@
       "export": "Exportar",
       "edit": "Editar",
       "delete": "Borrar",
+      "deleteEllipsis": "Eliminar…",
       "more": "Más",
       "none": "Ninguno",
       "off": "Desactivado",
@@ -645,12 +671,12 @@
         "importing": "Importando"
       },
       "editorSave": {
-        "unsaved": "Unsaved changes",
-        "saving": "Saving…",
-        "saved": "Saved",
-        "error": "Could not save changes",
-        "retry": "Retry",
-        "closeInspector": "Close inspector",
+        "unsaved": "Cambios no guardados",
+        "saving": "Guardando…",
+        "saved": "Guardado",
+        "error": "No se han podido guardar cambios",
+        "retry": "Reintentar",
+        "closeInspector": "Cerrar inspector",
         "inspector": "Inspector"
       }
     },
@@ -845,17 +871,71 @@
       "skippedUnplayable": "Se omitió una canción que no se pudo reproducir.",
       "imageCredit": "Créditos de la imagen: {{attribution}}"
     },
+    "projectStorage": {
+      "blockedTitle": "{{appName}} no puede acceder a la carpeta de tu proyecto",
+      "blockedDescription": "Algo en este equipo está bloqueando los cambios en los archivos de la carpeta del proyecto, por lo que el proyecto no puede abrirse y las copias de seguridad no pueden ser restauradas. Nada ha sido cambiado o eliminado. Comprueba el software de seguridad (en Windows, control de acceso a la carpeta) y cualquier sincronización en la nube para esta carpeta y reinicia {{appName}}."
+    },
+    "cloudSyncFolder": {
+      "warning": "{{provider}} sincroniza esta carpeta. Las aplicaciones sincronizadas pueden mantener o mover el archivo del proyecto mientras {{appName}} está guardando, por lo que los cambios pueden no guardarse. Mantén el espacio de trabajo en una carpeta de este equipo y en su lugar envía copias de seguridad legibles a la carpeta en la nube.",
+      "providers": {
+        "googleDrive": "Google Drive",
+        "icloud": "iCloud Drive",
+        "oneDrive": "OneDrive",
+        "dropbox": "Dropbox",
+        "box": "Box",
+        "other": "Una aplicación de sincronización en la nube"
+      }
+    },
+    "notices": {
+      "trigger_one": "{{count}} notificación",
+      "trigger": "{{count}} notificaciones",
+      "untitled": "Sin título",
+      "open": "Abrir",
+      "failedSave": {
+        "title": "“{{name}}” aún no se ha guardado",
+        "description": "{{appName}} sigue intentando guardar. Mantén esta ventana abierta hasta que se guarde.",
+        "retry": "Reintentar ahora"
+      },
+      "recovery": {
+        "title": "Texto no guardado de una sesión anterior en “{{name}}”",
+        "description": "Ábrelo para restaurar o descartar el texto.",
+        "noteDescription": "Abre la nota de su segmento, concepto o Notas para restaurar o descartar el texto."
+      },
+      "cloudFolder": {
+        "title": "Tu área de trabajo está en {{provider}}",
+        "description": "{{appName}} guarda tu proyecto en una base de datos SQLite. Las aplicaciones de sincronización pueden bloquear, subir o reemplazar ese archivo mientras {{appName}} está escribiendo en él. Esto puede hacer que los guardados fallen, que se pierdan los cambios recientes o que se generen copias conflictivas tu proyecto.\n\nConsérvalo aquí solo si sabes cómo se comporta SQLite en una carpeta sincronizada. De lo contrario, mueve el espacio de trabajo a una carpeta de este equipo y, en su lugar, envía copias de seguridad legibles a la nube.",
+        "settings": "Ubicación del espacio de trabajo",
+        "accept": "Entiendo el riesgo"
+      },
+      "dismiss": "Descartar",
+      "startupBackup": {
+        "title": "La copia de seguridad automática no pudo completarse",
+        "description": "Tu texto sigue estando disponible pero {{appName}} no pudo crear su copia de seguridad automática al iniciar. {{reason}}",
+        "settings": "Copias de seguridad"
+      },
+      "readableBackup": {
+        "title": "Las copias de seguridad legibles no se están actualizando",
+        "description": "Lo que escribes está seguro en {{appName}}, pero las copias legibles en tu carpeta de copia de seguridad pueden estar desactualizadas. {{reason}}",
+        "settings": "Copias de seguridad legibles"
+      },
+      "readableBackupSetup": {
+        "title": "Las copias de seguridad legibles no están configuradas",
+        "description": "{{appName}} puede mantener copias en Markdown o Word de este proyecto en una carpeta que elijas para que aquello que escribas se mantenga legible fuera de la aplicación.",
+        "setUp": "Configurar",
+        "dontRemind": "No me lo recuerdes"
+      }
+    },
     "concept": {
       "typeDialog": {
-        "editTitle": "Edit concept type",
-        "createTitle": "Create concept type",
-        "create": "Create Type",
-        "save": "Save changes",
-        "name": "Type name",
-        "nameRequired": "Name is required",
-        "icon": "Choose type icon",
-        "color": "Choose type color",
-        "description": "Description (optional)"
+        "editTitle": "Editar concepto del tipo",
+        "createTitle": "Crear concepto del tipo",
+        "create": "Crear tipo",
+        "save": "Guardar cambios",
+        "name": "Nombre del tipo",
+        "nameRequired": "Se requiere un nombre",
+        "icon": "Elige icono del tipo",
+        "color": "Elige color del tipo",
+        "description": "Descripción (opcional)"
       },
       "color": "Color del concepto",
       "pickColorFromScreen": "Elige un color desde cualquier lugar de la pantalla",
@@ -1003,28 +1083,38 @@
         "counts": "{{speakers}} interlocutores/as · {{turns}} turnos",
         "empty": "No hay diálogo en este segmento.",
         "readError": "No se ha podido leer el diálogo de este segmento. Tu texto no ha cambiado."
+      },
+      "deletedNotice": {
+        "message": "Este concepto está en Elementos eliminados, por lo que los cambios no se pueden guardar. Restáuralo para seguir editando.",
+        "restore": "Restaurar"
+      },
+      "sharedDate": {
+        "sharedWith_one": "Esta fecha se comparte con {{count}} otro elemento.",
+        "sharedWith_other": "Esta fecha se comparte con {{count}} otros elementos.",
+        "sharedWithUpdates_one": "Esta fecha se comparte con {{count}} otro elemento. Al cambiarla, se actualizarán todos.",
+        "sharedWithUpdates_other": "Esta fecha se comparte con {{count}} otros elementos. Al cambiarla, se actualizarán todos."
       }
     },
     "relationships": {
       "typeDialog": {
-        "editTitle": "Edit relationship type",
-        "createTitle": "Create relationship type",
-        "create": "Create Type",
-        "name": "Type name",
-        "nameRequired": "Name is required",
-        "icon": "Choose type icon",
-        "color": "Choose type color",
-        "labels": "Labels",
-        "swapLabels": "Swap labels",
-        "forward": "Concept A → Concept B",
-        "reverse": "Concept B → Concept A",
-        "forwardExample": "e.g. Parent of",
-        "reverseExample": "e.g. Child of",
-        "labelFallback": "Leave either label blank to use the type name in that direction.",
-        "description": "Description (optional)",
-        "deleteTitle": "Delete relationship type",
-        "deleteDescription": "Are you sure you want to delete \"{{name}}\"? This will also remove it from all places it is used. This action cannot be undone.",
-        "unnamed": "this relationship type"
+        "editTitle": "Editar relación del tipo",
+        "createTitle": "Crear relación del tipo",
+        "create": "Crear tipo",
+        "name": "Nombre del tipo",
+        "nameRequired": "Se requiere un nombre",
+        "icon": "Elige icono del tipo",
+        "color": "Elige color del tipo",
+        "labels": "Etiquetas",
+        "swapLabels": "Intercambiar etiquetas",
+        "forward": "Concepto A → Concepto B",
+        "reverse": "Concepto B → Concepto A",
+        "forwardExample": "ej. Padre de",
+        "reverseExample": "ej. Hijo de",
+        "labelFallback": "Deja cualquiera de las etiquetas en blanco para usar el nombre del tipo en esa dirección.",
+        "description": "Descripción (opcional)",
+        "deleteTitle": "Borrar relación del tipo",
+        "deleteDescription": "¿Estás seguro de eliminar \"{{name}}\"? Esto también lo eliminará de todos los lugares en los que se utiliza. Esta acción no se puede deshacer.",
+        "unnamed": "esta relación del tipo"
       },
       "editor": {
         "addDescription": "Crear una nueva relación entre entidades.",
@@ -1132,14 +1222,14 @@
       "reorderGroup": "Reordenar grupo de relaciones"
     },
     "dashboard": {
-      "editProjectName": "Edit project name",
-      "projectSummary": "Project summary",
+      "editProjectName": "Editar nombre del proyecto",
+      "projectSummary": "Resumen del proyecto",
       "tabs": {
-        "progress": "Progress",
-        "home": "Home"
+        "progress": "Progreso",
+        "home": "Inicio"
       },
       "loadingGraph": "Cargando gráfico...",
-      "recentItemsUnavailable": "Recent items could not be loaded.",
+      "recentItemsUnavailable": "No se han podido cargar los elementos recientes.",
       "continueEditing": "Continuar editando",
       "noSegmentsCreated": "No hay segmentos creados",
       "noConceptsCreated": "No hay conceptos creados",
@@ -1188,13 +1278,13 @@
         "touched": "Tocadas",
         "loadingItems": "Cargando elementos...",
         "noItemDetails": "Ningún detalles de elemento registrado para esta fecha",
-        "view": "Activity view",
-        "daily": "Daily",
-        "weekly": "Weekly",
-        "cumulative": "Cumulative",
-        "weekWords": "{{value}} words changed",
-        "cumulativeWords": "{{value}} words changed through this week",
-        "unavailable": "Writing activity is unavailable. Reopen this view to try again."
+        "view": "Vista de actividad",
+        "daily": "Diariamente",
+        "weekly": "Semanalmente",
+        "cumulative": "Acumulativo",
+        "weekWords": "{{value}} palabras cambiadas",
+        "cumulativeWords": "{{value}} palabras cambiadas esta semana",
+        "unavailable": "Actividad de escritura no disponible. Vuelve a abrir esta vista para volver a intentarlo."
       },
       "goal": {
         "title": "Objetivo del proyecto",
@@ -1243,52 +1333,54 @@
         "noGoal": "Ningún objetivo: solo escribiendo",
         "setGoal": "Establecer objetivo"
       },
-      "statsUnavailable": "Project statistics are unavailable. Reopen the dashboard to try again.",
+      "statsUnavailable": "Las estadísticas del proyecto no están disponibles. Vuelve a abrir el panel de control para intentarlo de nuevo.",
       "summary": {
-        "percentComplete": "{{percent}}% complete",
-        "wordsLeft": "{{words}} words left",
+        "percentComplete": "{{percent}}% completado",
+        "wordsLeft": "{{words}} palabras restantes",
         "momentum": "Momentum",
-        "currentPace": "Current pace",
-        "neededPace": "Needed pace",
-        "composition": "Project composition",
-        "storySegments": "Story segments",
-        "readingTime": "Reading time"
+        "currentPace": "Ritmo actual",
+        "neededPace": "Ritmo necesario",
+        "composition": "Composición del proyecto",
+        "storySegments": "Segmentos de historia",
+        "readingTime": "Tiempo de lectura"
       },
       "progress": {
-        "title": "Writing activity",
-        "period": "Activity period",
+        "title": "Actividad de escritura",
+        "period": "Periodo de actividad",
         "periods": {
-          "week": "Last 7 days",
-          "month": "Last 30 days",
-          "year": "Last 365 days",
-          "all": "All time"
+          "week": "Últimos 7 días",
+          "month": "Últimos 30 días",
+          "year": "Últimos 365 días",
+          "all": "De todos los tiempos"
         },
-        "wordsAdded": "Words added",
-        "wordsRemoved": "Words removed",
-        "netWords": "Net words",
-        "dailyAverage": "Net words / day",
-        "activeDays": "Active days",
-        "segmentsTouched": "Segments touched",
-        "conceptsCreated": "New concepts",
-        "bestDay": "Best day (words added)",
-        "activityChart": "Words added and removed over time",
-        "bySegment": "Activity by segment",
-        "distribution": "Segment distribution",
-        "segment": "Segment",
-        "otherSegments": "Other segments",
-        "unavailableSegment": "Deleted segment #{{id}}",
-        "noSegmentActivity": "No recorded segment activity in this period.",
-        "noDistribution": "No words recorded for this measure.",
-        "empty": "No recorded writing activity in this period. Editing and revision will appear here as you work.",
-        "retry": "Try again",
-        "monthlyTotals": "Monthly totals",
-        "unavailable": "Writing activity could not be loaded."
+        "wordsAdded": "Palabras añadidas",
+        "wordsRemoved": "Palabras eliminadas",
+        "netWords": "Palabras netas",
+        "dailyAverage": "Palabras netas / día",
+        "activeDays": "Días activos",
+        "segmentsTouched": "Segmentos modificados",
+        "conceptsCreated": "Nuevos conceptos",
+        "bestDay": "Mejor día (palabras añadidas)",
+        "activityChart": "Palabras añadidas y eliminadas a lo largo del tiempo",
+        "bySegment": "Actividad por segmento",
+        "distribution": "Distribución de segmentos",
+        "segment": "Segmento",
+        "otherSegments": "Otros segmentos",
+        "unavailableSegment": "Segmento eliminado #{{id}}",
+        "noSegmentActivity": "No hay actividad de segmento registrada en este periodo.",
+        "noDistribution": "No hay palabras registradas para esta métrica.",
+        "empty": "No hay actividad de escritura registrada en este periodo. La edición y revisión aparecerán aquí mientras trabajas.",
+        "retry": "Inténtalo de nuevo",
+        "monthlyTotals": "Totales mensuales",
+        "unavailable": "No se pudo cargar la actividad de escritura."
       }
     },
     "overview": {
       "stories": "Historias",
       "continueWriting": "Seguir escribiendo",
       "openStory": "Abrir historia",
+      "libraryView": "Vista de biblioteca",
+      "bookshelfView": "Vista del estante",
       "classicView": "Vista clásica",
       "background": "Fondo",
       "newStory": "Nueva historia",
@@ -1297,16 +1389,119 @@
       "noArchivedProjects": "Sin proyectos archivados",
       "moveEarlier": "Mover antes",
       "moveLater": "Mover después",
+      "reorder": "Reordenar",
       "bookDimensions": "Dimensiones del libro",
       "bookWidth": "Ancho",
       "bookHeight": "Alto",
+      "bookSize": "Tamaño",
+      "bookSizes": {
+        "slim": "Delgado",
+        "regular": "Normal",
+        "wide": "Ancho"
+      },
       "leanAmount": "Inclinar",
+      "renameBook": "Renombrar libro",
+      "customizeBook": "Personalizar libro",
+      "customizeBookEllipsis": "Personalizar libro…",
+      "resetBookAppearance": "Restablecer a valores predeterminados",
+      "bookMarks": "Marcas",
+      "bookMarkSlot": "Ubicación del ornamento",
+      "bookMarkSlots": {
+        "frame": "Marco",
+        "emblem": "Emblema",
+        "rule": "Divisor"
+      },
+      "bookOrnaments": {
+        "none": "Ninguno",
+        "marks": {
+          "north-star": "Estrella Polar",
+          "wayfinder": "Guía",
+          "solar-seal": "Sello Solar",
+          "quatrefoil": "Cuadrilóbulo",
+          "olive-sprig": "Ramita de Olivo",
+          "fleur-de-lis": "Flor de lis",
+          "interlocking-knot": "Nudo Entrelazado",
+          "nocturne": "Nocturno",
+          "laurel-wreath": "Corona de Laurel",
+          "axis-flourish": "Adorno del Eje",
+          "compass-flourish": "Adorno de la Brújula",
+          "laurel-vine": "Viña de Laurel"
+        },
+        "frames": {
+          "folio": "Marco de Folio",
+          "mitred": "Marco a Inglete",
+          "heraldic": "Marco Heráldico",
+          "straight-corners": "Esquinas Rectas",
+          "clipped-corners": "Esquinas Recortadas"
+        },
+        "rules": {
+          "diamond": "Regla de Diamante",
+          "star": "Regla de Estrella",
+          "laurel": "Regla de Laurel",
+          "hexagon": "Regla de Hexágono",
+          "echo": "Regla de Eco",
+          "orbit": "Regla de Órbita",
+          "cadence": "Regla de Cadencia",
+          "floret": "Regla de Florete",
+          "diamond-dashes": "Guiones de Diamante"
+        }
+      },
+      "bookColor": "Color del libro",
       "spineTextColor": "Color del título",
       "flipSpineText": "Voltear el texto del título",
       "updatedToday": "Actualizado hoy",
       "updatedThisWeek": "Actualizado esta semana",
       "updatedThisMonth": "Actualizado este mes",
-      "updatedAllTime": "Actualizado todo el tiempo"
+      "updatedAllTime": "Actualizado todo el tiempo",
+      "library": {
+        "newShelf": "Nuevo estante",
+        "newStory": "Nueva historia",
+        "blankStory": "Historia en blanco",
+        "shelfName": "Nombre del estante",
+        "renameShelf": "Renombrar estante",
+        "moveShelfUp": "Subir el estante",
+        "moveShelfDown": "Bajar el estante",
+        "deleteShelf": "Borrar el estante",
+        "deleteShelfDescription": "Libros en “{{name}}” van a “{{defaultShelf}}”. No se han eliminado libros.",
+        "shelfOptions": "Opciones de estante para {{name}}",
+        "emptyShelf": "Arrastra un libro aquí",
+        "shelf": "Estante",
+        "moveToShelf": "Mover al estante",
+        "series": "Series",
+        "addToSeries": "Añadir a la serie",
+        "changeSeries": "Cambiar serie",
+        "standalone": "Independiente",
+        "newSeries": "Nueva serie",
+        "seriesName": "Nombre de la serie",
+        "renameSeries": "Renombrar serie",
+        "moveSeriesToShelf": "Mover serie al estante",
+        "deleteSeries": "Eliminar serie",
+        "deleteSeriesDescription": "Libros en “{{name}}” se vuelven independientes. No se han eliminado libros.",
+        "seriesOptions": "Opciones de serie para {{name}}",
+        "seriesSplit": "{{count}} de {{total}}",
+        "seriesOptionsSplit": "Opciones de serie para {{name}}, {{count}}, de {{total}} libros en este estante",
+        "saveError": "No se ha podido guardar ese cambio en la biblioteca.",
+        "createStoryError": "No se ha podido crear la historia.",
+        "bookNumber": "Libro {{number}}",
+        "showCover": "Mostrar portada",
+        "addImage": "Añadir imagen",
+        "imageError": "No se ha podido usar esa imagen. Prueba un archivo PNG, JPEG, WebP o GIF.",
+        "image": "Imagen en la estantería",
+        "imageHint": "Arrastra para mover, arrastra la esquina para cambiar redimensionarla (mantén pulsada la tecla Mayús para mantener las proporciones). Las teclas de dirección lo mueven, más y menos cambian su tamaño, Enter abre sus opciones.",
+        "resizeImage": "Redimensionar imagen",
+        "imageOptions": "Opciones de imagen",
+        "imageFrame": "Marco",
+        "restoreProportions": "Restaurar proporciones",
+        "imageToFront": "Traer al frente",
+        "removeImage": "Eliminar de la estantería",
+        "frames": {
+          "none": "Ninguno",
+          "black": "Delgado",
+          "mount": "Grueso"
+        },
+        "spaceBefore": "Espacio antes de {{name}}",
+        "spaceHint": "Arrastra o usa las flechas de dirección para cambiar el espacio. Doble click o pulsa Suprimir para cerrarlo."
+      }
     },
     "projectCard": {
       "duplicate": "Duplicar proyecto",
@@ -1437,7 +1632,7 @@
         "block": "Introducir texto, tipo / para comandos o @ para mencionar..."
       },
       "details": {
-        "toggle": "Toggle details",
+        "toggle": "Alternar detalles",
         "fill": {
           "tint": "Tinte",
           "flat": "Plano",
@@ -1462,6 +1657,23 @@
         "noFill": "Sin relleno",
         "moreColours": "Más colores",
         "setDefaultFontSize": "Establece {{size}} como predeterminado"
+      },
+      "divider": {
+        "style": "Estilo de divisor",
+        "color": "Color de divisor",
+        "plain": "Línea simple",
+        "delete": "Borrar divisor",
+        "styles": {
+          "diamond": "Diamante",
+          "star": "Estrella",
+          "laurel": "Laurel",
+          "hexagon": "Hexágono",
+          "echo": "Eco",
+          "orbit": "Órbita",
+          "cadence": "Cadencia",
+          "floret": "Florete",
+          "diamond-dashes": "Guiones de Diamante"
+        }
       },
       "shareSnippet": {
         "renderPreviewFailed": "No se pudo procesar la vista previa del fragmento"
@@ -1502,6 +1714,34 @@
         "restore": "Restaurar",
         "restoreRule": "Restaurar {{rule}}",
         "loadingPreferences": "Cargando preferencias gramaticales..."
+      },
+      "recovery": {
+        "message_one": "{{appName}} conservó {{count}} palabra que no se pudo guardar {{time}}.",
+        "message": "{{appName}} conservó {{count}} palabras que no se pudieron guardar {{time}}.",
+        "restore": "Restaurar",
+        "restored": "Texto no guardado restaurado. El texto que ha reemplazado ha sido guardado como una versión.",
+        "failed": "No se ha podido restaurar el texto no guardado.",
+        "discard": "Descartar",
+        "discardTitle": "¿Descartar texto no guardado?",
+        "discardDescription": "Esto elimina permanentemente la copia del texto que no se ha podido guardar. No afecta al texto actual del editor.",
+        "discardFailed": "No se ha podido descartar el texto no guardado.",
+        "discarding": "Descartando…",
+        "conflict": "Este texto se modificó en otro lugar, por lo que tus últimas ediciones no se guardaron. El editor muestra ahora el texto guardado; tus cambios se mantienen por encima para que puedas restaurarlos o descartarlos."
+      },
+      "closeGuard": {
+        "message": "Algunos cambios no se han podido guardar",
+        "detail": "Un editor muestra “{{status}}”. Cerrar ahora perderá ese texto. Cópialo en algún lugar seguro o pulsa {{retry}} primero.",
+        "keepOpen": "Mantener {{appName}} abierto",
+        "closeWithoutSaving": "Cerrar sin guardar",
+        "stillSavingMessage": "Tus últimos cambios todavía están guardándose",
+        "stillSavingDetail": "{{appName}} no ha podido confirmar que tu texto más reciente fuera guardado. Cerrarlo ahora puede hacer que se pierda. Mantén {{appName}} abierto, espera un momento y vuélvelo a cerrar.",
+        "closeAnyway": "Cerrar de todos modos"
+      },
+      "selectionStats": {
+        "words_one": "{{count, number}} palabra",
+        "words_other": "{{count, number}} palabras",
+        "characters_one": "{{count, number}} carácter",
+        "characters_other": "{{count, number}} caracteres"
       }
     },
     "segment": {
@@ -2097,11 +2337,13 @@
             "decrease": "Disminuir: los nodos conectados se acercan."
           }
         }
-      }
+      },
+      "mentionCount_one": "{{count}} mención",
+      "mentionCount_other": "{{count}} menciones"
     },
     "navigation": {
-      "skipToContent": "Skip to content",
-      "workspaceNavigation": "Workspace navigation",
+      "skipToContent": "Ir directamente al contenido",
+      "workspaceNavigation": "Navegación por el espacio de trabajo",
       "world": "Mundo",
       "openSettings": "Abrir configuración",
       "addPage": "Añadir página",
@@ -2126,41 +2368,41 @@
       "untitledConcept": "Concepto sin título",
       "untitledSegment": "Segmento sin título",
       "untitledNote": "Nota sin título",
-      "projectTab": "Project",
-      "docsTab": "Docs",
-      "sidebarSections": "Sidebar sections",
-      "searchDocs": "Search docs…",
-      "noDocsFound": "No guides found for “{{query}}”.",
-      "pageNotFound": "Page not found",
-      "docsPages": "Documentation pages",
-      "docsVideoUnavailable": "This video could not load. You can still follow the steps in this guide.",
+      "projectTab": "Proyecto",
+      "docsTab": "Documentos",
+      "sidebarSections": "Secciones de la barra lateral",
+      "searchDocs": "Buscar documentos...",
+      "noDocsFound": "No se han encontrado guías para “{{query}}”.",
+      "pageNotFound": "Página no encontrada",
+      "docsPages": "Páginas de la documentación",
+      "docsVideoUnavailable": "No se ha podido cargar este vídeo. Puedes seguir los pasos de esta guía.",
       "docsVideoLabels": {
-        "navigation": "Switch between Settings, Docs, and the project using the navigation rail.",
-        "project": "Create Epitaph of the Undying and rename the project in Study.",
-        "segment": "Create Alasdair - Chapter II and write the guide’s market-streets excerpt.",
-        "folder": "Group the two Alasdair chapters and an Old folder in the project sidebar.",
-        "scene-context": "Keep the route reminder with Chapter II and connect its viewpoint to Alasdair.",
-        "appearance": "Adjust the editor font size while keeping the scene in view.",
-        "focus": "Try typewriter and dim modes, then turn them off to return to editing.",
-        "mention": "Choose an existing concept and confirm its mention in the prose.",
-        "assembly": "Add source segments to the manuscript in reading order.",
-        "reading": "Open the manuscript reader and return to the source scene.",
-        "pdf": "Choose PDF from the manuscript export menu.",
-        "concept": "Create a character concept and write its description.",
-        "places": "Create The Crown as a concept and describe the place.",
-        "concept-context": "Give Alasdair a Character type, The boy alias, and Occupation: Assassin.",
-        "relationship": "Connect Alasdair to The Crown with Habitation, Lives in, and Inhabitants.",
-        "map": "Create a landscape map and name it.",
-        "map-pin": "Find The Crown and place its existing concept on the map.",
-        "notes": "Keep a reminder about Alasdair’s public appearances with his concept.",
-        "backups": "Inspect available database recovery copies in Updates & Backups.",
-        "shortcuts": "Open command search and toggle the project sidebar with keyboard shortcuts.",
-        "scenes": "Write the Chapter III excerpt in the existing Alasdair folder.",
-        "formatting": "Select peaceful life in Chapter II and apply italic emphasis.",
-        "chronology": "Create the practice event Walk through The Crown and open its Date attribute.",
-        "tags": "Create and assign Needs revision to Alasdair using the title’s tag control.",
-        "versions": "Preserve Chapter II by creating a major version in Version History.",
-        "themes": "Compare dark and light palettes with Alasdair’s scene and context visible."
+        "navigation": "Cambiar entre Configuración, Documentos y el proyecto usando el raíl de navegación.",
+        "project": "Crear Epitafio del Imperecedero y renombrar el proyecto en Estudio.",
+        "segment": "Crear Alasdair - Capítulo II y escribe el extracto de la guía sobre las calles del mercado.",
+        "folder": "Agrupar los dos capítulos de Alasdair y una Antigua carpeta en la barra lateral del proyecto.",
+        "scene-context": "Mantener el recordatorio de la ruta con el Capítulo II y conecta su punto de vista a Alasdair.",
+        "appearance": "Ajuste el tamaño de la fuente del editor mientras mantiene la escena a la vista.",
+        "focus": "Prueba la máquina de escribir y los modos de atenuación, luego apágalos para poder volver a editar.",
+        "mention": "Elige un concepto existente y confirma su mención en la prosa.",
+        "assembly": "Añade segmentos de origen al manuscrito en orden de lectura.",
+        "reading": "Abre el lector de manuscritos y vuelve a la escena de origen.",
+        "pdf": "Elige PDF del menú de exportación del manuscrito.",
+        "concept": "Crea un concepto de personaje y escribe su descripción.",
+        "places": "Crea La Corona como un concepto y describe el lugar.",
+        "concept-context": "Dale a Alasdair un tipo de Personaje, El alias del chico y Ocupación: Asesino.",
+        "relationship": "Conecta Alasdair a la Corona con Habitación, Vive en y Habitantes.",
+        "map": "Crear y nombrar un mapa horizontal.",
+        "map-pin": "Encuentra La Corona y coloca su concepto existente en el mapa.",
+        "notes": "Mantener un recordatorio de las apariciones públicas de Alasdair con su concepto.",
+        "backups": "Inspecciona copias de recuperación de bases de datos disponibles en Actualizaciones y Copias de Seguridad.",
+        "shortcuts": "Abrir la búsqueda de comandos y alternar la barra lateral del proyecto con atajos de teclado.",
+        "scenes": "Escriba el extracto del Capítulo III en la carpeta existente de Alasdair.",
+        "formatting": "Selecciona la vida tranquila en el Capítulo II y aplique el énfasis en cursiva.",
+        "chronology": "Crear el evento de práctica Caminar a través de la Corona y abrir su atributo de Fecha.",
+        "tags": "Crear y asignar Necesita Revisión a Alasdair usando el control de etiquetas de título.",
+        "versions": "Preservar el Capítulo II creando una versión principal en Historial de Versiones.",
+        "themes": "Comparar las paletas oscuras y claras manteniendo visibles la escena y el contexto de Alasdair."
       }
     },
     "tabs": {
@@ -2207,7 +2449,10 @@
           "full": "Completa",
           "compact": "Compacta"
         },
-        "displayStyle": "Estilo de visualización"
+        "displayStyle": "Estilo de visualización",
+        "excludeAllFromWordCount": "Excluir todo del recuento de palabras",
+        "hoverPreview": "Vista previa al pasar el cursor",
+        "fadedDotBackground": "Activar fondo de puntos atenuados"
       },
       "items": {
         "duplicate": "Duplicar",
@@ -2317,7 +2562,12 @@
     "notes": {
       "editTagsAria": "Editar etiquetas en la nota {{id}}",
       "linkedToEditor": "Esta nota está vinculada al editor",
-      "linkedToEditorCount": "Vinculado al editor {{count}} veces"
+      "linkedToEditorCount": "Vinculado al editor {{count}} veces",
+      "readMore": "Leer más",
+      "showLess": "Mostrar menos",
+      "recoveryRestored": "Los párrafos no guardados fueron añadidos al final de la nota.",
+      "recoveryAlreadyPresent": "La nota ya contiene todo el texto no guardado.",
+      "recoveryOnlyRemovesOrReorders": "La copia no guardada solo elimina o reordena párrafos por lo que la nota se dejó sin cambios. Descarta la copia si ya no la necesitas."
     },
     "editableTitle": {
       "ariaLabel": "Título {{entityType}} editable",
@@ -2342,6 +2592,8 @@
     },
     "versionHistory": {
       "noVersionsYet": "Aún no hay versiones",
+      "loading": "Cargando versión…",
+      "loadFailed": "No se ha podido cargar esta versión.",
       "fileDescription": "Las versiones se crean automáticamente al guardar su archivo. De forma predeterminada, creamos una nueva versión cada 200 palabras que añadas o elimines.",
       "entityDescription": "Las versiones se crean automáticamente cuando guardas tu {{entityName}}. Por defecto, creamos una nueva versión cada 100 palabras que añadas o elimines.",
       "compareVersions": "Comparar versiones",
@@ -2349,7 +2601,13 @@
       "createMajor": "Crear versión principal",
       "deleteTitle": "¿Eliminar versión?",
       "deleteDescription": "Esta versión guardada se eliminará permanentemente. El texto actual permanece sin cambios.",
-      "deleteFailed": "No se ha podido eliminar la versión"
+      "deleteFailed": "No se ha podido eliminar la versión",
+      "replaced": "Versión reemplazada. El contenido anterior fue guardado como una nueva versión.",
+      "replaceFailed": "No se ha podido reemplazar el texto.",
+      "readonlyReplace": {
+        "segments": "Los segmentos de solo lectura no pueden ser reemplazados.",
+        "concepts": "Los conceptos de solo lectura no pueden ser reemplazados."
+      }
     },
     "coming_soon": {
       "title": "Próximamente",
@@ -2361,21 +2619,27 @@
         "windowCrashed": "La ventana principal se cerró. El modo de recuperación está abierto para que puedas restaurar tu espacio de trabajo.",
         "saveCrashDetails": "Guardar detalles del cierre inesperado",
         "diagnosticsSaved": "Diagnósticos guardados en {{path}}",
-        "diagnosticsFailed": "No se pudieron guardar los diagnósticos. Por favor, inténtalo de nuevo."
+        "diagnosticsFailed": "No se pudieron guardar los diagnósticos. Por favor, inténtalo de nuevo.",
+        "restoreBackup": "Restaurar copia de seguridad",
+        "backupListLabel": "Base de datos de copias de seguridad",
+        "restoreDescription": "Tus datos actuales se sustituirán por la copia de seguridad seleccionada. Si todavía se pueden leer, {{appName}} guardará una copia primero. Después, {{appName}} se reiniciará.",
+        "restoreSelected": "Restaurar y reiniciar",
+        "restoring": "Restaurando…",
+        "restoreFailed": "Esta copia de seguridad no se ha podido restaurar. Prueba una copia anterior o guarda los detalles del cierre inesperado."
       },
       "errors": {
         "restoreFailed": "Error al restaurar desde la carpeta seleccionada. Por favor, asegúrese de que contiene una estructura de proyecto válida."
       },
       "welcome": {
         "title": "Bienvenido/a a {{appName}}",
-        "tagline": "Made by me, for you. Yes, 🫵 you",
+        "tagline": "Hecho por mí para ti. Sí, 🫵 tú",
         "checklistTitle": "Vamos a configurar tu espacio de trabajo de escritura:",
         "step1": "Nombra el directorio de tu espacio de trabajo",
         "step2": "Elige dónde guardarlo",
         "step3": "¡Empieza a crear proyectos!",
         "restore": "Restaurar desde una carpeta existente",
-        "theme": "Theme",
-        "bundledThemes": "Bundled themes"
+        "theme": "Tema",
+        "bundledThemes": "Temas incluidos"
       },
       "details": {
         "title": "Configura tu espacio de trabajo",
@@ -2399,48 +2663,49 @@
     "tutorial": {
       "previous": "Previo",
       "demo": {
-        "play": "Play demonstration",
-        "pause": "Pause demonstration",
-        "replay": "Replay",
-        "retry": "Try again",
-        "unavailable": "The demonstration could not play."
+        "play": "Reproducir demostración",
+        "pause": "Pausar demostración",
+        "replay": "Reproducir de nuevo",
+        "retry": "Inténtalo de nuevo",
+        "unavailable": "La demostración no pudo reproducirse."
       },
       "pages": {
         "0": {
-          "title": "Quick setup",
-          "description": "Create a project and choose an image"
+          "title": "Configuración rápida",
+          "description": "Crear un proyecto y seleccionar una imagen"
         },
         "1": {
-          "title": "Segments and Folders",
-          "description": "Create a folder, a segment, and a concept type"
+          "title": "Segmentos y Carpetas",
+          "description": "Crear una carpeta, un segmento y un tipo de concepto"
         },
         "2": {
-          "title": "Introduce your Characters and voices",
-          "description": "Let's explore mentions, dialog and voices"
+          "title": "Presenta tus Personajes y voces",
+          "description": "Exploremos menciones, diálogos y voces"
         },
         "3": {
-          "title": "Define relationships",
-          "description": "Connect your concepts together through the relationship"
+          "title": "Definir relaciones",
+          "description": "Conecta tus conceptos juntos a través de la relación"
         },
         "4": {
-          "title": "Concepts are flexible",
-          "description": "Let's explore a different kind of concept. Call it an event"
+          "title": "Los conceptos son flexibles",
+          "description": "Exploremos un tipo diferente de concepto. Llámalo un evento"
         },
         "5": {
-          "title": "Organise your narrative",
-          "description": "See how you can structure your narrative. You're free to make your own structure"
+          "title": "Organiza tu narrativa",
+          "description": "Mira cómo puedes estructurar tu narrativa. Puedes hacer tu propia estructura"
         },
         "6": {
-          "title": "Assemble your manuscript",
-          "description": "Now it's all coming together. Create your manuscript"
+          "title": "Monta tu manuscrito",
+          "description": "Ahora va encajando todo. Crea tu manuscrito"
         },
         "7": {
-          "title": "Bring it all together",
-          "description": "Adjust your manuscript’s appearance, preview the result, and export a PDF."
+          "title": "Hacer que todo encaje",
+          "description": "Ajusta la apariencia de tu manuscrito, previsualiza el resultado y exporta un PDF."
         }
       }
     },
     "noProject": {
+      "welcome": "Bienvenido/a",
       "headline": "Vamos a terminar ese proyecto de una vez por todas",
       "subheadline": "El paso más importante es el primero ;)",
       "organizeTitle": "Organiza como quieras",
@@ -2537,6 +2802,7 @@
         "background": "Fondo",
         "typography": "Tipografía",
         "imageFit": "Ajuste de imagen",
+        "previewError": "No se ha podido cargar la vista previa de una historia. Pulsa para reintentar.",
         "previewDescription": "Vista previa de cómo se verá tu editor",
         "description": "Personaliza los fondos y etiquetas del editor.",
         "switchTo": "Cambiar vista",
@@ -2609,24 +2875,24 @@
               "description": "Color del icono del elemento activo en la navegación principal."
             },
             "primary-foreground": {
-              "label": "Primary text",
-              "description": "Text on filled primary actions."
+              "label": "Texto primario",
+              "description": "Texto en acciones primarias rellenadas."
             },
             "destructive-foreground": {
-              "label": "Destructive text",
-              "description": "Text on filled destructive actions."
+              "label": "Texto destructivo",
+              "description": "Texto en acciones destructivas rellenadas."
             },
             "sidebar-primary": {
-              "label": "Sidebar primary",
-              "description": "Accent labels on the main sidebar surface."
+              "label": "Barra lateral primaria",
+              "description": "Etiquetas de acento en la superficie lateral principal."
             },
             "secondary-sidebar-primary": {
-              "label": "Secondary sidebar primary",
-              "description": "Accent for actions and labels in secondary surfaces."
+              "label": "Sección primaria de la barra lateral secundaria",
+              "description": "Acento para acciones y etiquetas en superficies secundarias."
             },
             "secondary-sidebar-primary-foreground": {
-              "label": "Secondary sidebar primary text",
-              "description": "Text on filled actions in secondary surfaces."
+              "label": "Texto primario de la barra lateral secundaria",
+              "description": "Texto sobre acciones rellenadas en superficies secundarias."
             }
           },
           "options": {
@@ -2678,7 +2944,9 @@
           "added": "Fuentes personalizadas añadidas.",
           "skipped": "Algunas fuentes ya fueron añadidas y se omitieron.",
           "addFailed": "Fallo al añadir fuentes personalizadas.",
-          "removeFailed": "Fallo al eliminar fuente personalizada."
+          "removeFailed": "Fallo al eliminar fuente personalizada.",
+          "faceCount_one": "{{count}} cara",
+          "faceCount_other": "{{count}} caras"
         }
       },
       "scale": {
@@ -3020,6 +3288,7 @@
         "failedCreateBackup": "Fallo al crear la copia de seguridad.",
         "backupRestored": "Copia de seguridad restaurada con éxito",
         "failedRestoreBackup": "Fallo al restaurar la copia de seguridad",
+        "restoreWaitingForSaves": "Tus últimos cambios aún no se han guardado, por lo que tus datos actuales se mantuvieron intactos. Espera un momento o pulsa Reintentar en cualquier editor que no haya podido guardar y después, vuelve a restaurar.",
         "backupDeleted": "Copia de seguridad eliminada con éxito",
         "failedDeleteBackup": "Error al eliminar copia de seguridad",
         "unknownError": "Error desconocido",
@@ -3045,11 +3314,17 @@
         "createBackup": "Crear copia de seguridad",
         "manualBackup": "Copia de seguridad manual",
         "restoreConfirm": "¿Estás seguro de que quieres restaurar esta copia de seguridad? Esto sobrescribirá tus datos actuales.",
+        "restoreAndRestartConfirm": "¿Restaurar esta copia de seguridad? Reemplaza los datos actuales. Si los datos actuales todavía pueden leerse, {{appName}} guarda una copia primero. {{appName}} después, se reinicia.",
         "deleteDescription": "Esto eliminará permanentemente la copia de seguridad seleccionada.",
         "totalSize": "Tamaño total",
         "restoreBackup": "Restaurar copia de seguridad",
         "empty": "Aún no hay copias de seguridad. Crea tu primera copia de seguridad para proteger tus datos.",
-        "description": "Las copias de seguridad de la base de datos son instantáneas completas de recuperación. Utilízalas cuando quieras una copia de recuperación del espacio de trabajo de {{appName}}."
+        "description": "Las copias de seguridad de la base de datos son instantáneas completas de recuperación. Utilízalas cuando quieras una copia de recuperación del espacio de trabajo de {{appName}}.",
+        "localCopyTitle": "Guardar una copia en este equipo",
+        "localCopyDescription": "Tus dos copias de seguridad diarias más recientes también se copian en la carpeta de datos de {{appName}}. Así sobreviven si la carpeta del espacio de trabajo se mueve, se elimina o si un servicio de sincronización la bloquea.",
+        "showLocalCopyFolder": "Mostrar carpeta",
+        "localCopyFailed": "No se ha podido cambiar la configuración de copia de seguridad",
+        "showLocalCopyFolderFailed": "No se ha podido abrir la carpeta de la copia de seguridad"
       },
       "notification": {
         "isAvailable": "está disponible"
@@ -3174,12 +3449,12 @@
     "changelog": {
       "empty": "No hay entradas de registro de cambios que se incluyan con esta versión.",
       "selectEntry": "Seleccione una entrada de registro de cambios.",
-      "allVersions": "All versions",
-      "releaseHistory": "Release history",
-      "otherVersions": "Other versions",
-      "older": "Older",
-      "newer": "Newer",
-      "loadError": "Failed to load changelog entries."
+      "allVersions": "Todas las versiones",
+      "releaseHistory": "Historial de versiones",
+      "otherVersions": "Otras versiones",
+      "older": "Más antiguo",
+      "newer": "Más reciente",
+      "loadError": "Error al cargar entradas del registro de cambios."
     },
     "versionSettings": {
       "retentionTitle": "Retención de versiones menores",
@@ -3278,12 +3553,19 @@
         "hexColour": "Color hexadecimal",
         "hexPlaceholder": "FFE o FFEECC",
         "applyHexColour": "Aplicar color hexadecimal",
-        "recentColours": "Recent colours"
+        "recentColours": "Colores recientes",
+        "moreColours": "Más colores…"
+      },
+      "deleteDialog": {
+        "title": "Confirmar eliminación",
+        "description": "¿Estás seguro de que quieres eliminar este elemento? Esta acción no se puede deshacer.",
+        "itemDescription": "¿Estás seguro de que quieres eliminar \"{{name}}\"? Esta acción no se puede deshacer.",
+        "deleting": "Eliminando…"
       }
     },
     "wordUsage": {
-      "analyzing": "Analyzing text…",
-      "analysisError": "Could not analyze this text. Edit the document or reopen Text Insights to retry.",
+      "analyzing": "Analizando texto…",
+      "analysisError": "No se ha podido analizar este texto. Edita el documento o reabre Análisis del texto para volver a intentarlo.",
       "title": "Uso de palabras",
       "sentences": "Oraciones",
       "avgWords": "Palabras promedio",
@@ -3292,7 +3574,7 @@
       "charactersNoSpaces": "Caracteres, sin espacios",
       "paragraphs": "Párrafos",
       "textStats": "Estadísticas de texto",
-      "statsLoadFailed": "Could not load text statistics.",
+      "statsLoadFailed": "No se han podido cargar las estadísticas de texto.",
       "showTextStats": "Mostrar estadísticas de texto",
       "vocabulary": "Vocabulario",
       "vocabularyDiversity": "Variedad de palabras",

@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "35337ee85db9-fr",
-  "sourceRevision": "35337ee85db922bf27808f84836d874e5a211e7b",
+  "version": "666818457b78-fr",
+  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -118,7 +118,14 @@
         "seasonEnds": "Fin de saison",
         "seasonStarts": "Début de saison",
         "untilYear": "Jusqu'à l'année",
-        "yearRange": "Plage d'années"
+        "yearRange": "Plage d'années",
+        "chooseMonthAndYear": "Choose month and year",
+        "chooseYear": "Choose year",
+        "jumpToYear": "Jump to year",
+        "jumpToYearHint": "Type a year and press Enter",
+        "select": "Select",
+        "setEnd": "Set end",
+        "setStart": "Set start"
       },
       "customDatePicker": {
         "placeholder": "Ouvrir le sélecteur de date personnalisé.",
@@ -126,6 +133,24 @@
         "setupHint": "Configure ton calendrier avant de choisir des dates."
       },
       "dateFormatDropdown": {
+        "categories": {
+          "alternate": {
+            "description": "Day, month and year with dots or dashes.",
+            "label": "Alternate"
+          },
+          "common": {
+            "description": "Numeric formats used in most of the world.",
+            "label": "Common"
+          },
+          "era": {
+            "description": "Numeric formats that show the era before or after the date.",
+            "label": "With era"
+          },
+          "fantasy": {
+            "description": "Unusual separators for invented calendars.",
+            "label": "Fantasy"
+          }
+        },
         "description": "Configurer le menu déroulant de format de date.",
         "noPresetSelected": "Aucun préréglage sélectionné",
         "preview": "Aperçu"
@@ -387,6 +412,7 @@
       "export": "Exporter",
       "edit": "Éditer",
       "delete": "Supprimer",
+      "deleteEllipsis": "Delete…",
       "more": "Plus",
       "none": "Aucun",
       "off": "Désactivé",
@@ -845,6 +871,60 @@
       "skippedUnplayable": "Titre ignorée qui n'a pas pu être lue.",
       "imageCredit": "Crédit de l'image : {{attribution}}"
     },
+    "projectStorage": {
+      "blockedTitle": "{{appName}} can’t access your project folder",
+      "blockedDescription": "Something on this computer is blocking changes to files in the project folder, so the project can’t open and backups can’t be restored. Nothing has been changed or deleted. Check security software (on Windows, Controlled folder access) and any cloud sync for this folder, then restart {{appName}}."
+    },
+    "cloudSyncFolder": {
+      "warning": "{{provider}} syncs this folder. Sync apps can hold or move the project file while {{appName}} is saving, so changes may not save. Keep the workspace in a folder on this computer, and send readable backups to the cloud folder instead.",
+      "providers": {
+        "googleDrive": "Google Drive",
+        "icloud": "iCloud Drive",
+        "oneDrive": "OneDrive",
+        "dropbox": "Dropbox",
+        "box": "Box",
+        "other": "A cloud sync app"
+      }
+    },
+    "notices": {
+      "trigger_one": "{{count}} notice",
+      "trigger": "{{count}} notices",
+      "untitled": "Untitled",
+      "open": "Open",
+      "failedSave": {
+        "title": "“{{name}}” isn’t saved yet",
+        "description": "{{appName}} keeps trying to save it. Keep this window open until it’s saved.",
+        "retry": "Retry now"
+      },
+      "recovery": {
+        "title": "Unsaved text from an earlier session in “{{name}}”",
+        "description": "Open it to restore or discard the text.",
+        "noteDescription": "Open the note from its segment, concept or Notes to restore or discard the text."
+      },
+      "cloudFolder": {
+        "title": "Your workspace is in {{provider}}",
+        "description": "{{appName}} keeps your project in a SQLite database. Sync apps can lock, upload or replace that file while {{appName}} is writing to it, which can make saves fail, lose recent changes, or leave conflicting copies of your project.\n\nKeep it here only if you know how SQLite behaves in a synced folder. Otherwise, move the workspace to a folder on this computer and send readable backups to the cloud instead.",
+        "settings": "Workspace location",
+        "accept": "I understand the risk"
+      },
+      "dismiss": "Dismiss",
+      "startupBackup": {
+        "title": "Automatic backup couldn’t finish",
+        "description": "Your writing is still available, but {{appName}} couldn’t create its automatic backup when it started. {{reason}}",
+        "settings": "Backups"
+      },
+      "readableBackup": {
+        "title": "Readable backups aren’t being updated",
+        "description": "Your writing is safe in {{appName}}, but the readable copies in your backup folder may be out of date. {{reason}}",
+        "settings": "Readable backups"
+      },
+      "readableBackupSetup": {
+        "title": "Readable backups aren’t set up",
+        "description": "{{appName}} can keep Markdown or Word copies of this project in a folder you choose, so your writing stays readable outside the app.",
+        "setUp": "Set up",
+        "dontRemind": "Don’t remind me"
+      }
+    },
     "concept": {
       "typeDialog": {
         "editTitle": "Edit concept type",
@@ -1003,6 +1083,16 @@
         "counts": "{{speakers}} locuteurs· {{turns}} tours",
         "empty": "Aucun dialogue dans ce segment.",
         "readError": "Impossible de lire le dialogue de ce segment. Ton texte est inchangé."
+      },
+      "deletedNotice": {
+        "message": "This concept is in Deleted Items, so changes can't be saved. Restore it to keep editing.",
+        "restore": "Restore"
+      },
+      "sharedDate": {
+        "sharedWith_one": "This date is shared with {{count}} other item.",
+        "sharedWith_other": "This date is shared with {{count}} other items.",
+        "sharedWithUpdates_one": "This date is shared with {{count}} other item. Changing it updates all of them.",
+        "sharedWithUpdates_other": "This date is shared with {{count}} other items. Changing it updates all of them."
       }
     },
     "relationships": {
@@ -1289,6 +1379,8 @@
       "stories": "Histoires",
       "continueWriting": "Continuer à écrire",
       "openStory": "Ouvrir l'histoire",
+      "libraryView": "Library view",
+      "bookshelfView": "Bookshelf view",
       "classicView": "Affichage classique",
       "background": "Arrière-plan",
       "newStory": "Nouvelle histoire",
@@ -1297,16 +1389,119 @@
       "noArchivedProjects": "Aucun projet archivé",
       "moveEarlier": "Déplacer plus tôt",
       "moveLater": "Déplacer plus tard",
+      "reorder": "Reorder",
       "bookDimensions": "Dimensions de livre",
       "bookWidth": "Largeur",
       "bookHeight": "Hauteur",
+      "bookSize": "Size",
+      "bookSizes": {
+        "slim": "Slim",
+        "regular": "Regular",
+        "wide": "Wide"
+      },
       "leanAmount": "Inclinaison",
+      "renameBook": "Rename book",
+      "customizeBook": "Customise book",
+      "customizeBookEllipsis": "Customise book…",
+      "resetBookAppearance": "Reset to default",
+      "bookMarks": "Marks",
+      "bookMarkSlot": "Ornament placement",
+      "bookMarkSlots": {
+        "frame": "Frame",
+        "emblem": "Emblem",
+        "rule": "Divider"
+      },
+      "bookOrnaments": {
+        "none": "None",
+        "marks": {
+          "north-star": "North Star",
+          "wayfinder": "Wayfinder",
+          "solar-seal": "Solar Seal",
+          "quatrefoil": "Quatrefoil",
+          "olive-sprig": "Olive Sprig",
+          "fleur-de-lis": "Fleur-de-lis",
+          "interlocking-knot": "Interlocking Knot",
+          "nocturne": "Nocturne",
+          "laurel-wreath": "Laurel Wreath",
+          "axis-flourish": "Axis Flourish",
+          "compass-flourish": "Compass Flourish",
+          "laurel-vine": "Laurel Vine"
+        },
+        "frames": {
+          "folio": "Folio Frame",
+          "mitred": "Mitred Frame",
+          "heraldic": "Heraldic Frame",
+          "straight-corners": "Straight Corners",
+          "clipped-corners": "Clipped Corners"
+        },
+        "rules": {
+          "diamond": "Diamond Rule",
+          "star": "Star Rule",
+          "laurel": "Laurel Rule",
+          "hexagon": "Hexagon Rule",
+          "echo": "Echo Rule",
+          "orbit": "Orbit Rule",
+          "cadence": "Cadence Rule",
+          "floret": "Floret Rule",
+          "diamond-dashes": "Diamond Dashes"
+        }
+      },
+      "bookColor": "Book colour",
       "spineTextColor": "Couleur du titre",
       "flipSpineText": "Inverser le texte du titre",
       "updatedToday": "Mis à jour aujourd'hui",
       "updatedThisWeek": "Mis à jour de cette semaine",
       "updatedThisMonth": "Mis à jour ce mois",
-      "updatedAllTime": "Mis à jour tout le temps"
+      "updatedAllTime": "Mis à jour tout le temps",
+      "library": {
+        "newShelf": "New shelf",
+        "newStory": "New story",
+        "blankStory": "Blank story",
+        "shelfName": "Shelf name",
+        "renameShelf": "Rename shelf",
+        "moveShelfUp": "Move shelf up",
+        "moveShelfDown": "Move shelf down",
+        "deleteShelf": "Delete shelf",
+        "deleteShelfDescription": "Books on “{{name}}” move to “{{defaultShelf}}”. No books are deleted.",
+        "shelfOptions": "Shelf options for {{name}}",
+        "emptyShelf": "Drag a book here",
+        "shelf": "Shelf",
+        "moveToShelf": "Move to shelf",
+        "series": "Series",
+        "addToSeries": "Add to series",
+        "changeSeries": "Change series",
+        "standalone": "Standalone",
+        "newSeries": "New series",
+        "seriesName": "Series name",
+        "renameSeries": "Rename series",
+        "moveSeriesToShelf": "Move series to shelf",
+        "deleteSeries": "Delete series",
+        "deleteSeriesDescription": "Books in “{{name}}” become standalone. No books are deleted.",
+        "seriesOptions": "Series options for {{name}}",
+        "seriesSplit": "{{count}} of {{total}}",
+        "seriesOptionsSplit": "Series options for {{name}}, {{count}} of {{total}} books on this shelf",
+        "saveError": "Could not save that change to the library.",
+        "createStoryError": "Could not create the story.",
+        "bookNumber": "Book {{number}}",
+        "showCover": "Show cover",
+        "addImage": "Add image",
+        "imageError": "Could not use that image. Try a PNG, JPEG, WebP or GIF file.",
+        "image": "Image on the bookshelf",
+        "imageHint": "Drag to move, drag the corner to reshape (hold Shift to keep proportions). Arrow keys move it, plus and minus resize it, Enter opens its options.",
+        "resizeImage": "Resize image",
+        "imageOptions": "Image options",
+        "imageFrame": "Frame",
+        "restoreProportions": "Restore proportions",
+        "imageToFront": "Bring to front",
+        "removeImage": "Remove from bookshelf",
+        "frames": {
+          "none": "None",
+          "black": "Thin",
+          "mount": "Thick"
+        },
+        "spaceBefore": "Space before {{name}}",
+        "spaceHint": "Drag or use arrow keys to change the space. Double-click or press Delete to close it."
+      }
     },
     "projectCard": {
       "duplicate": "Dupliquer le projet",
@@ -1463,6 +1658,23 @@
         "moreColours": "Plus de couleurs",
         "setDefaultFontSize": "Définir {{size}} par défaut"
       },
+      "divider": {
+        "style": "Divider style",
+        "color": "Divider colour",
+        "plain": "Plain line",
+        "delete": "Delete divider",
+        "styles": {
+          "diamond": "Diamond",
+          "star": "Star",
+          "laurel": "Laurel",
+          "hexagon": "Hexagon",
+          "echo": "Echo",
+          "orbit": "Orbit",
+          "cadence": "Cadence",
+          "floret": "Floret",
+          "diamond-dashes": "Diamond Dashes"
+        }
+      },
       "shareSnippet": {
         "renderPreviewFailed": "Impossible d'afficher l'aperçu de l'extrait"
       },
@@ -1502,6 +1714,34 @@
         "restore": "Rétablir",
         "restoreRule": "Rétablir {{rule}}",
         "loadingPreferences": "Chargement des préférences de grammaire…"
+      },
+      "recovery": {
+        "message_one": "{{appName}} kept {{count}} word that couldn’t be saved {{time}}.",
+        "message": "{{appName}} kept {{count}} words that couldn’t be saved {{time}}.",
+        "restore": "Restore",
+        "restored": "Unsaved text restored. The text it replaced was saved as a version.",
+        "failed": "Could not restore the unsaved text.",
+        "discard": "Discard",
+        "discardTitle": "Discard unsaved text?",
+        "discardDescription": "This permanently deletes the copy of text that couldn’t be saved. The text currently in the editor is not affected.",
+        "discardFailed": "Could not discard the unsaved text.",
+        "discarding": "Discarding…",
+        "conflict": "This text was changed elsewhere, so your latest edits were not saved over it. The editor now shows the saved text; your edits are kept above it to restore or discard."
+      },
+      "closeGuard": {
+        "message": "Some changes could not be saved",
+        "detail": "An editor shows “{{status}}”. Closing now will lose that text. Copy it somewhere safe or press {{retry}} first.",
+        "keepOpen": "Keep {{appName}} open",
+        "closeWithoutSaving": "Close without saving",
+        "stillSavingMessage": "Your latest changes are still saving",
+        "stillSavingDetail": "{{appName}} couldn’t confirm that your most recent text was saved. Closing now may lose it. Keep {{appName}} open, wait a moment, then close again.",
+        "closeAnyway": "Close anyway"
+      },
+      "selectionStats": {
+        "words_one": "{{count, number}} word",
+        "words_other": "{{count, number}} words",
+        "characters_one": "{{count, number}} char",
+        "characters_other": "{{count, number}} chars"
       }
     },
     "segment": {
@@ -2097,7 +2337,9 @@
             "decrease": "Diminuer : les nœuds connectés se rapprochent."
           }
         }
-      }
+      },
+      "mentionCount_one": "{{count}} mention",
+      "mentionCount_other": "{{count}} mentions"
     },
     "navigation": {
       "skipToContent": "Skip to content",
@@ -2207,7 +2449,10 @@
           "full": "Plein",
           "compact": "Compact"
         },
-        "displayStyle": "Style d'affichage"
+        "displayStyle": "Style d'affichage",
+        "excludeAllFromWordCount": "Exclude all from word count",
+        "hoverPreview": "Hover preview",
+        "fadedDotBackground": "Faded dot background"
       },
       "items": {
         "duplicate": "Dupliquer",
@@ -2317,7 +2562,12 @@
     "notes": {
       "editTagsAria": "Modifier les tags sur la note {{id}}",
       "linkedToEditor": "Cette note est liée à l'éditeur",
-      "linkedToEditorCount": "Lié à l'éditeur {{count}} fois"
+      "linkedToEditorCount": "Lié à l'éditeur {{count}} fois",
+      "readMore": "Read more",
+      "showLess": "Show less",
+      "recoveryRestored": "The unsaved paragraphs were added to the end of the note.",
+      "recoveryAlreadyPresent": "The note already contains all of the unsaved text.",
+      "recoveryOnlyRemovesOrReorders": "The unsaved copy only removes or reorders paragraphs, so the note was left unchanged. Discard the copy if you no longer need it."
     },
     "editableTitle": {
       "ariaLabel": "Titre {{entityType}} modifiable",
@@ -2342,6 +2592,8 @@
     },
     "versionHistory": {
       "noVersionsYet": "Aucune version pour l'instant",
+      "loading": "Loading version…",
+      "loadFailed": "Could not load this version.",
       "fileDescription": "Les versions sont créées automatiquement quand tu enregistres ton fichier. Par défaut, une nouvelle version est créée tous les 200 mots ajoutés ou supprimés.",
       "entityDescription": "Les versions sont créées automatiquement quand tu enregistres ton {{entityName}}. Par défaut, une nouvelle version est créée tous les 100 mots ajoutés ou supprimés.",
       "compareVersions": "Comparer les versions",
@@ -2349,7 +2601,13 @@
       "createMajor": "Créer une version majeure",
       "deleteTitle": "Supprimer la version ?",
       "deleteDescription": "Cette version enregistrée sera définitivement supprimée. Ton texte actuel reste inchangé.",
-      "deleteFailed": "Impossible de supprimer la version"
+      "deleteFailed": "Impossible de supprimer la version",
+      "replaced": "Version replaced. Previous content was saved as a new version.",
+      "replaceFailed": "Could not replace the text.",
+      "readonlyReplace": {
+        "segments": "Read-only segments cannot be replaced.",
+        "concepts": "Read-only concepts cannot be replaced."
+      }
     },
     "coming_soon": {
       "title": "Prochainement",
@@ -2361,7 +2619,13 @@
         "windowCrashed": "La fenêtre principale a crash. Le mode de récupération est ouvert pour que tu puisses restaurer ta zone de travail.",
         "saveCrashDetails": "Enregistrer les détails du crash",
         "diagnosticsSaved": "Diagnostics enregistrés dans {{path}}",
-        "diagnosticsFailed": "Impossible d'enregistrer les diagnostics. Merci de réessayer."
+        "diagnosticsFailed": "Impossible d'enregistrer les diagnostics. Merci de réessayer.",
+        "restoreBackup": "Restore a backup",
+        "backupListLabel": "Database backups",
+        "restoreDescription": "Your current data is replaced by the selected backup. If it can still be read, {{appName}} saves a copy of it first. {{appName}} then restarts.",
+        "restoreSelected": "Restore and restart",
+        "restoring": "Restoring…",
+        "restoreFailed": "This backup couldn’t be restored. Try an earlier backup, or save crash details."
       },
       "errors": {
         "restoreFailed": "Échec de la restauration depuis le dossier sélectionné. Vérifie qu'il contient une structure de projet valide."
@@ -2441,6 +2705,7 @@
       }
     },
     "noProject": {
+      "welcome": "Welcome",
       "headline": "Terminons enfin ce projet",
       "subheadline": "L'étape la plus importante est la première ;)",
       "organizeTitle": "Organise comme bon te semble",
@@ -2449,15 +2714,15 @@
       "worldDescription": "Crée des personnages, des lieux et des chronologies qui sont des documents vivants et peuvent évoluer avec ton histoire."
     },
     "searchPage": {
-      "commandCount_one": "{{count}} commande",
-      "commandCount_other": "{{count}} commandes",
+      "commandCount_one": "{{count}} command",
+      "commandCount_other": "{{count}} commands",
       "description": "Rechercher des commandes et des raccourcis",
       "footerHint": "Appuie sur Entrée pour sélectionner",
       "noCommands": "Aucune commande ne correspond à \"{{query}}\"",
       "noResults": "Aucun résultat trouvé pour \"{{query}}\"",
       "placeholder": "Rechercher des commandes",
-      "resultCount_one": "{{count}} résultat",
-      "resultCount_other": "{{count}} résultats",
+      "resultCount_one": "{{count}} result",
+      "resultCount_other": "{{count}} results",
       "typeMore": "Tapez plus pour rechercher"
     },
     "tagFilter": {
@@ -2537,6 +2802,7 @@
         "background": "Arrière-plan",
         "typography": "Typographie",
         "imageFit": "Ajustement de l'image",
+        "previewError": "Could not load a story preview. Press to retry.",
         "previewDescription": "Aperçu de l'apparence de l'éditeur",
         "description": "Personnalise les arrière-plans de l'éditeur et les labels.",
         "switchTo": "Changer de vue",
@@ -2678,7 +2944,9 @@
           "added": "Police personnalisée ajoutée.",
           "skipped": "Certaines polices ont déjà été ajoutées et ont été ignorées.",
           "addFailed": "Échec de l'ajout de polices personnalisées.",
-          "removeFailed": "Impossible de supprimer la police personnalisée."
+          "removeFailed": "Impossible de supprimer la police personnalisée.",
+          "faceCount_one": "{{count}} face",
+          "faceCount_other": "{{count}} faces"
         }
       },
       "scale": {
@@ -3020,6 +3288,7 @@
         "failedCreateBackup": "Impossible de créer la sauvegarde",
         "backupRestored": "Sauvegarde restaurée avec succès",
         "failedRestoreBackup": "Impossible de restaurer la sauvegarde",
+        "restoreWaitingForSaves": "Your latest changes weren’t saved yet, so your current data was left in place. Wait a moment, or press Retry on any editor that couldn’t save, then restore again.",
         "backupDeleted": "Sauvegarde supprimée avec succès",
         "failedDeleteBackup": "Impossible de supprimer la sauvegarde",
         "unknownError": "Erreur inconnue",
@@ -3045,11 +3314,17 @@
         "createBackup": "Créer une sauvegarde",
         "manualBackup": "Sauvegarde manuelle",
         "restoreConfirm": "Es-tu sûr de vouloir restaurer cette sauvegarde ? Cela va écraser tes données actuelles.",
+        "restoreAndRestartConfirm": "Restore this backup? It replaces your current data. If the current data can still be read, {{appName}} saves a copy of it first. {{appName}} then restarts.",
         "deleteDescription": "Cela supprimera définitivement la sauvegarde sélectionnée.",
         "totalSize": "Taille totale",
         "restoreBackup": "Restaurer une sauvegarde",
         "empty": "Pas encore de sauvegarde. Créé ta première sauvegarde pour protéger tes données.",
-        "description": "Les sauvegardes de base de données sont des instantanés de restauration complète de l'app. Utilise-les quand tu veux une copie restaurable de la zone de travail {{appName}}."
+        "description": "Les sauvegardes de base de données sont des instantanés de restauration complète de l'app. Utilise-les quand tu veux une copie restaurable de la zone de travail {{appName}}.",
+        "localCopyTitle": "Keep a copy on this computer",
+        "localCopyDescription": "Your two newest daily backups are also copied to {{appName}}'s own data folder, so they survive if the workspace folder is moved, deleted or held by a sync service.",
+        "showLocalCopyFolder": "Show folder",
+        "localCopyFailed": "Could not change the backup copy setting",
+        "showLocalCopyFolderFailed": "Could not open the backup copy folder"
       },
       "notification": {
         "isAvailable": "est disponible"
@@ -3278,7 +3553,14 @@
         "hexColour": "Couleur hexadécimale",
         "hexPlaceholder": "FFE ou FFEECC",
         "applyHexColour": "Appliquer la couleur hexadécimale",
-        "recentColours": "Recent colours"
+        "recentColours": "Recent colours",
+        "moreColours": "More colours…"
+      },
+      "deleteDialog": {
+        "title": "Confirm deletion",
+        "description": "Are you sure you want to delete this item? This action cannot be undone.",
+        "itemDescription": "Are you sure you want to delete “{{name}}”? This action cannot be undone.",
+        "deleting": "Deleting…"
       }
     },
     "wordUsage": {
