@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "666818457b78-es",
-  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
+  "version": "fa4dabf532fa-es",
+  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2590,25 +2590,6 @@
         "editImage": "Editar imagen del banner {{entity}}"
       }
     },
-    "versionHistory": {
-      "noVersionsYet": "Aún no hay versiones",
-      "loading": "Cargando versión…",
-      "loadFailed": "No se ha podido cargar esta versión.",
-      "fileDescription": "Las versiones se crean automáticamente al guardar su archivo. De forma predeterminada, creamos una nueva versión cada 200 palabras que añadas o elimines.",
-      "entityDescription": "Las versiones se crean automáticamente cuando guardas tu {{entityName}}. Por defecto, creamos una nueva versión cada 100 palabras que añadas o elimines.",
-      "compareVersions": "Comparar versiones",
-      "major": "Mayor",
-      "createMajor": "Crear versión principal",
-      "deleteTitle": "¿Eliminar versión?",
-      "deleteDescription": "Esta versión guardada se eliminará permanentemente. El texto actual permanece sin cambios.",
-      "deleteFailed": "No se ha podido eliminar la versión",
-      "replaced": "Versión reemplazada. El contenido anterior fue guardado como una nueva versión.",
-      "replaceFailed": "No se ha podido reemplazar el texto.",
-      "readonlyReplace": {
-        "segments": "Los segmentos de solo lectura no pueden ser reemplazados.",
-        "concepts": "Los conceptos de solo lectura no pueden ser reemplazados."
-      }
-    },
     "coming_soon": {
       "title": "Próximamente",
       "description": "Esta sección no está disponible todavía."
@@ -3458,8 +3439,6 @@
     },
     "versionSettings": {
       "retentionTitle": "Retención de versiones menores",
-      "unlimited": "Ilimitado (por defecto, sin limpieza automática)",
-      "keepLast": "Mantener las últimas {{count}} versiones menores ",
       "custom": "Límite personalizado",
       "customPlaceholder": "Introduzca un número",
       "customHint": "Presione Enter o deje el campo para guardar el límite personalizado.",

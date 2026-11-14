@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "666818457b78-pt",
-  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
+  "version": "fa4dabf532fa-pt",
+  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2590,25 +2590,6 @@
         "editImage": "Editar imagem do banner {{entity}}"
       }
     },
-    "versionHistory": {
-      "noVersionsYet": "Ainda não há versões",
-      "loading": "Loading version…",
-      "loadFailed": "Could not load this version.",
-      "fileDescription": "Versões são criadas automaticamente quando você salva seu arquivo. Por padrão, uma nova versão é criada a cada 200 palavras adicionadas ou excluídas.",
-      "entityDescription": "Versões são criadas automaticamente quando você salva seu {{entityName}}. Por padrão, uma nova versão é criada a cada 100 palavras adicionadas ou excluídas.",
-      "compareVersions": "Comparar versões",
-      "major": "Principal",
-      "createMajor": "Create major version",
-      "deleteTitle": "Delete version?",
-      "deleteDescription": "This saved version will be permanently deleted. Your current text stays unchanged.",
-      "deleteFailed": "Could not delete version",
-      "replaced": "Version replaced. Previous content was saved as a new version.",
-      "replaceFailed": "Could not replace the text.",
-      "readonlyReplace": {
-        "segments": "Read-only segments cannot be replaced.",
-        "concepts": "Read-only concepts cannot be replaced."
-      }
-    },
     "coming_soon": {
       "title": "Em breve",
       "description": "Esta ação ainda não está disponível."
@@ -3458,8 +3439,6 @@
     },
     "versionSettings": {
       "retentionTitle": "Retenção de versões menores",
-      "unlimited": "Ilimitado (padrão, sem limpeza automática)",
-      "keepLast": "Manter as últimas {{count}} versões menores",
       "custom": "Limite personalizado",
       "customPlaceholder": "Digite um número",
       "customHint": "Pressione Enter ou deixe o campo para salvar o limite personalizado.",

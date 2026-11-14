@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "666818457b78-it",
-  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
+  "version": "fa4dabf532fa-it",
+  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2084,14 +2084,6 @@
         "editImage": "Edit {{entity}} banner image"
       }
     },
-    "versionHistory": {
-      "noVersionsYet": "No versions yet",
-      "fileDescription": "Versions are created automatically when you save your file. By default, we create a new version every 200 words you add or delete.",
-      "entityDescription": "Versions are created automatically when you save your {{entityName}}. By default, we create a new version every 100 words you add or delete.",
-      "compareVersions": "Compare versions",
-      "major": "Major",
-      "createMajor": "Create major version"
-    },
     "coming_soon": {
       "title": "Coming soon",
       "description": "This section is not available yet."
@@ -2844,8 +2836,6 @@
     },
     "versionSettings": {
       "retentionTitle": "Minor Version Retention",
-      "unlimited": "Unlimited (default, no automatic cleanup)",
-      "keepLast": "Keep last {{count}} minor versions",
       "custom": "Custom limit",
       "customPlaceholder": "Enter a number",
       "customHint": "Press Enter or leave the field to save the custom limit.",

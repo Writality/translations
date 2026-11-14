@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "666818457b78-de",
-  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
+  "version": "fa4dabf532fa-de",
+  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2590,25 +2590,6 @@
         "editImage": "{{entity}} Bannerbild bearbeiten"
       }
     },
-    "versionHistory": {
-      "noVersionsYet": "Bisher keine Versionen",
-      "loading": "Lade Version…",
-      "loadFailed": "Konnte diese Version nicht laden.",
-      "fileDescription": "Versionen werden automatisch erzeugt, wenn Sie Ihre Datei speichern. Standardmäßig erstellen wir eine neue Version alle 200 Wörter, die Sie hinzufügen oder löschen.",
-      "entityDescription": "Versionen werden automatisch erzeugt, wenn Sie Ihr {{entityName}} speichern. Standardmäßig erstellen wir eine neue Version alle 100 Wörter, die Sie hinzufügen oder löschen.",
-      "compareVersions": "Versionen vergleichen",
-      "major": "Hauptversion",
-      "createMajor": "Hauptversion erstellen",
-      "deleteTitle": "Version löschen?",
-      "deleteDescription": "Diese gespeicherte Version wird endgültig gelöscht. Ihr aktueller Text bleibt unverändert.",
-      "deleteFailed": "Version konnte nicht gelöscht werden",
-      "replaced": "Version ersetzt. Der vorherige Inhalt wurde als neue Version gespeichert.",
-      "replaceFailed": "Der Text konnte nicht ersetzt werden.",
-      "readonlyReplace": {
-        "segments": "Schreibgeschützte Segmente können nicht ersetzt werden.",
-        "concepts": "Schreibgeschützte Konzepte können nicht ersetzt werden."
-      }
-    },
     "coming_soon": {
       "title": "Bald verfügbar",
       "description": "Dieser Abschnitt ist noch nicht verfügbar."
@@ -3458,8 +3439,6 @@
     },
     "versionSettings": {
       "retentionTitle": "Beibehaltung der Nebenversion",
-      "unlimited": "Unbegrenzt (Standard, keine automatische Bereinigung)",
-      "keepLast": "Die letzten {{count}} Nebenversionen beibehalten",
       "custom": "Benutzerdefiniertes Limit",
       "customPlaceholder": "Geben Sie eine Zahl ein",
       "customHint": "Drücken Sie die Eingabetaste oder verlassen Sie das Feld, um das benutzerdefinierte Limit zu speichern.",

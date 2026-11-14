@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "666818457b78-fr",
-  "sourceRevision": "666818457b78e42c87ea93bd2c0787b58b0ed094",
+  "version": "fa4dabf532fa-fr",
+  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -2590,25 +2590,6 @@
         "editImage": "Modifier l'image de la bannière {{entity}}"
       }
     },
-    "versionHistory": {
-      "noVersionsYet": "Aucune version pour l'instant",
-      "loading": "Loading version…",
-      "loadFailed": "Could not load this version.",
-      "fileDescription": "Les versions sont créées automatiquement quand tu enregistres ton fichier. Par défaut, une nouvelle version est créée tous les 200 mots ajoutés ou supprimés.",
-      "entityDescription": "Les versions sont créées automatiquement quand tu enregistres ton {{entityName}}. Par défaut, une nouvelle version est créée tous les 100 mots ajoutés ou supprimés.",
-      "compareVersions": "Comparer les versions",
-      "major": "Majeur",
-      "createMajor": "Créer une version majeure",
-      "deleteTitle": "Supprimer la version ?",
-      "deleteDescription": "Cette version enregistrée sera définitivement supprimée. Ton texte actuel reste inchangé.",
-      "deleteFailed": "Impossible de supprimer la version",
-      "replaced": "Version replaced. Previous content was saved as a new version.",
-      "replaceFailed": "Could not replace the text.",
-      "readonlyReplace": {
-        "segments": "Read-only segments cannot be replaced.",
-        "concepts": "Read-only concepts cannot be replaced."
-      }
-    },
     "coming_soon": {
       "title": "Prochainement",
       "description": "Cette section n'est pas encore disponible."
@@ -3458,8 +3439,6 @@
     },
     "versionSettings": {
       "retentionTitle": "Rétention de version mineure",
-      "unlimited": "Illimité (par défaut, pas de nettoyage automatique)",
-      "keepLast": "Garder les {{count}} dernières versions mineures",
       "custom": "Limite personnalisée",
       "customPlaceholder": "Saisir un nombre",
       "customHint": "Appuie sur Entrée ou laisse le champ pour enregistrer la limite personnalisée.",
