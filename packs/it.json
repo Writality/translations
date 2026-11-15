@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "fa4dabf532fa-it",
-  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
+  "version": "7f2336424c60-it",
+  "sourceRevision": "7f2336424c60f7e83ff977b4d93ece82209892b5",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1152,26 +1152,9 @@
       "conceptsCount": "{{count}} concepts"
     },
     "timer": {
-      "completeCelebrationLabel": "{{appName}} logo with a jingling gold bell",
       "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
       "completeTitle": "Wow, you did the thing!",
-      "durationMinutes": "{{count}} minutes",
-      "pause": "Pause",
-      "placeholder": "Set a duration",
-      "quickStart": {
-        "focus": {
-          "description": "Focused work session",
-          "label": "Focus"
-        },
-        "long": {
-          "description": "Long work session"
-        },
-        "pomodoro": {
-          "description": "Pomodoro session",
-          "label": "Pomodoro"
-        }
-      },
-      "startPreset": "Start preset"
+      "pause": "Pause"
     },
     "editor": {
       "image": {

@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "fa4dabf532fa-fr",
-  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
+  "version": "7f2336424c60-fr",
+  "sourceRevision": "7f2336424c60f7e83ff977b4d93ece82209892b5",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1369,7 +1369,6 @@
         "unavailableSegment": "Deleted segment #{{id}}",
         "noSegmentActivity": "No recorded segment activity in this period.",
         "noDistribution": "No words recorded for this measure.",
-        "empty": "No recorded writing activity in this period. Editing and revision will appear here as you work.",
         "retry": "Try again",
         "monthlyTotals": "Monthly totals",
         "unavailable": "Writing activity could not be loaded."
@@ -1514,26 +1513,9 @@
       "conceptsCount": "{{count}} concepts"
     },
     "timer": {
-      "completeCelebrationLabel": "Logo {{appName}} avec une clochette dorée",
       "completeDescription": "Petite clochette, grand progrès. Prends une respiration, puis reprends quand tu es prêt.",
       "completeTitle": "Waouh, tu l'as fait !",
-      "durationMinutes": "{{count}} minutes",
-      "pause": "Pause",
-      "placeholder": "Définir une durée",
-      "quickStart": {
-        "focus": {
-          "description": "Session de travail concentrée",
-          "label": "Focus"
-        },
-        "long": {
-          "description": "Longue session de travail"
-        },
-        "pomodoro": {
-          "description": "Pomodoro session",
-          "label": "Pomodoro"
-        }
-      },
-      "startPreset": "Lancer le préréglage"
+      "pause": "Pause"
     },
     "editor": {
       "image": {

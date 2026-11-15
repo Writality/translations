@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "fa4dabf532fa-de",
-  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
+  "version": "7f2336424c60-de",
+  "sourceRevision": "7f2336424c60f7e83ff977b4d93ece82209892b5",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1369,7 +1369,6 @@
         "unavailableSegment": "Gelöschtes Segment #{{id}}",
         "noSegmentActivity": "Keine aufgezeichnete Segmentaktivität in diesem Zeitraum.",
         "noDistribution": "Keine Wörter für diese Maßnahme aufgezeichnet.",
-        "empty": "In diesem Zeitraum wurden keine Schreibaktivitäten erfasst. Bearbeitungen und Überarbeitungen werden im Laufe Ihrer Arbeit hier angezeigt.",
         "retry": "Erneut versuchen",
         "monthlyTotals": "Monatliche Gesamtwerte",
         "unavailable": "Schreibaktivität konnte nicht geladen werden."
@@ -1514,26 +1513,9 @@
       "conceptsCount": "{{count}} Konzepte"
     },
     "timer": {
-      "completeCelebrationLabel": "{{appName}} Logo mit einer klingelnden goldenen Glocke",
       "completeDescription": "Kleine Glocke, großer Fortschritt. Atme tief durch und mach weiter, wenn du bereit bist.",
       "completeTitle": "Wow, das hast du wirklich geschafft!",
-      "durationMinutes": "{{count}} Minuten",
-      "pause": "Pause",
-      "placeholder": "Dauer festlegen",
-      "quickStart": {
-        "focus": {
-          "description": "Konzentrierte Arbeitssitzung",
-          "label": "Konzentration"
-        },
-        "long": {
-          "description": "Lange Arbeitssitzung"
-        },
-        "pomodoro": {
-          "description": "Pomodoro-Sitzung",
-          "label": "Pomodoro"
-        }
-      },
-      "startPreset": "Startvorlage"
+      "pause": "Pause"
     },
     "editor": {
       "image": {

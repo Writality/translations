@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "fa4dabf532fa-es",
-  "sourceRevision": "fa4dabf532fad790d2e6d7fa3eb0058e4e6f34b8",
+  "version": "7f2336424c60-es",
+  "sourceRevision": "7f2336424c60f7e83ff977b4d93ece82209892b5",
   "resources": {
     "chronology": {
       "conceptList": {
@@ -1369,7 +1369,6 @@
         "unavailableSegment": "Segmento eliminado #{{id}}",
         "noSegmentActivity": "No hay actividad de segmento registrada en este periodo.",
         "noDistribution": "No hay palabras registradas para esta métrica.",
-        "empty": "No hay actividad de escritura registrada en este periodo. La edición y revisión aparecerán aquí mientras trabajas.",
         "retry": "Inténtalo de nuevo",
         "monthlyTotals": "Totales mensuales",
         "unavailable": "No se pudo cargar la actividad de escritura."
@@ -1514,26 +1513,9 @@
       "conceptsCount": "{{count}} conceptos"
     },
     "timer": {
-      "completeCelebrationLabel": "Logo de {{appName}} con una campanita dorada que tintinea",
       "completeDescription": "Una pequeña campana, un gran avance. Respira hondo y sigue adelante cuando estés listo.",
       "completeTitle": "¡Vaya, has hecho la cosa!",
-      "durationMinutes": "{{count}} minutos",
-      "pause": "Pausa",
-      "placeholder": "Definir una duración",
-      "quickStart": {
-        "focus": {
-          "description": "Sesión de trabajo enfocada",
-          "label": "Enfocarse"
-        },
-        "long": {
-          "description": "Sesión de trabajo larga"
-        },
-        "pomodoro": {
-          "description": "Sesión Pomodoro",
-          "label": "Pomodoro"
-        }
-      },
-      "startPreset": "Iniciar pre-ajuste"
+      "pause": "Pausa"
     },
     "editor": {
       "image": {
