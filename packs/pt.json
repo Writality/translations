@@ -3,57 +3,21 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "eba05beb021a-pt",
-  "sourceRevision": "eba05beb021a209a49cc023603e1d3de1a46c504",
+  "version": "a9db88be3c41-pt",
+  "sourceRevision": "a9db88be3c411fa61747584e2aab11a6f54c23f0",
   "resources": {
     "chronology": {
-      "conceptList": {
-        "emptyState": "Nenhuma data ainda",
-        "searchPlaceholder": "Procurar conceitos"
-      },
-      "empty": {
-        "calendarSystem": {
-          "description": "Defina seu sistema de calendário para começar a rastrear datas."
-        },
-        "customEras": {
-          "description": "Defina eras para organizar sua linha do tempo.",
-          "title": "Eras personalizadas"
-        },
-        "setup": "Definir cronologia",
-        "timelineTracking": {
-          "description": "Acompanhe datas e eventos no mundo de sua história.",
-          "title": "Aconpanhamento de linha do tempo"
-        }
-      },
       "eventPreview": {
-        "conceptNotFound": "Conceito não encontrado",
-        "goTo": "Ir para conceito",
-        "noConceptDescription": "Nenhuma descrição de conceito",
-        "noDateDescription": "Nenhuma descrição de data",
-        "relatedEntities": "Entidades relacionadas",
         "openInNewTab": "Open {{name}} in a new tab",
         "dateActions": "Date actions for {{name}}",
         "removeDate": "Remove date: {{name}}",
         "removeDateError": "Could not remove the date."
       },
-      "minimap": {
-        "addConceptDate": "Adicionar data ao conceito",
-        "moveTimeline": "Mover linha do tempo"
-      },
       "quickAdd": {
-        "description": "Adicionar uma data à linha do tempo rapidamente.",
-        "labelPlaceholder": "Etiqueta",
-        "submit": "Adicionar à linha do tempo",
-        "title": "Adição rápida",
         "addTimelineDate": "Adicionar data à linha do tempo",
-        "editTimelineDate": "Editar data da linha do tempo",
         "addDescription": "Escolha um conceito e confirme a data para adicioná-lo à linha do tempo.",
-        "editDescription": "Ajuste os detalhes da data e salve suas alterações.",
         "labelInputPlaceholder": "Ex: nascimento, fundação, coroação",
         "selectConceptPlaceholder": "Selecione um conceito",
-        "newEvent": "Novo evento",
-        "loadingDateDetails": "Carregando detalhes da data...",
-        "couldNotLoadSelectedDate": "Não foi possível carregar a data selecionada.",
         "selectEntitiesPlaceholder": "Selecione conceitos e segmentos..."
       },
       "toolbar": {
@@ -62,19 +26,10 @@
         "exitFullscreen": "Exit fullscreen",
         "navigation": "Chronology navigation",
         "appearance": "Chronology appearance",
-        "jumpLeft": "Pular à esquerda",
-        "jumpRight": "Pular à direita",
-        "panLeft": "Mover à esquerda",
-        "panRight": "Mover à direita",
-        "resetView": "Restaurar visualização",
         "zoomIn": "Aumentar o zoom",
         "zoomOut": "Diminuir o zoom",
         "fitTimeline": "Ajustar a linha do tempo "
       },
-      "toggleDates": "Alternar datas",
-      "noDatesLinked": "Nenhuma data associada",
-      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
-      "previewSegment": "Pré-visualizar {{name}}",
       "disclosure": {
         "before": "{{duration}} before the {{endpoint}} of {{source}}",
         "after": "{{duration}} after the {{endpoint}} of {{source}}",
@@ -93,7 +48,6 @@
       },
       "conceptRows": {
         "add": "Add concept row",
-        "description": "Give a concept its own row above the timeline. Its dates stay aligned with the same calendar.",
         "select": "Select a concept",
         "remove": "Remove {{name}} row",
         "empty": "No matching concepts."
@@ -104,7 +58,6 @@
         "beforeMonth": "Antes do mês",
         "events": "Eventos",
         "formatPreview": "Pré-visualizar formato",
-        "fromYear": "A partir do ano",
         "jumpTo": "Pular para",
         "leap": "Bissexto ",
         "moonEvents": {
@@ -117,8 +70,6 @@
         "previousYear": "Ano anterior",
         "seasonEnds": "Estação termina em",
         "seasonStarts": "Estação começa em",
-        "untilYear": "Até o ano",
-        "yearRange": "Intervalo de anos",
         "chooseMonthAndYear": "Choose month and year",
         "chooseYear": "Choose year",
         "jumpToYear": "Jump to year",
@@ -126,11 +77,6 @@
         "select": "Select",
         "setEnd": "Set end",
         "setStart": "Set start"
-      },
-      "customDatePicker": {
-        "placeholder": "Insira ",
-        "selectEra": "Selecionar era",
-        "setupHint": "Configure seu calendário antes de escolher datas."
       },
       "dateFormatDropdown": {
         "categories": {
@@ -175,23 +121,6 @@
         "specialDayNamePlaceholder": "Nome do dia especial",
         "specialDaysDescription": "Crie dias adicionais à parte dos meses normais."
       },
-      "duration": {
-        "addSubtract": "Adicionar subtração",
-        "addToDate": "Adicionar à data",
-        "amountPlaceholder": "Quantidade",
-        "betweenDates": "Entre datas",
-        "endDate": "Data final",
-        "enterCompleteDateAndAmount": "Digite a data e o valor completo",
-        "enterCompleteDates": "Digite datas completas",
-        "negativeHint": "Negativo",
-        "result": "Resultado",
-        "resultPrefix": "{{value}} {{unit}}",
-        "startDate": "Data de início",
-        "startingDate": "Data de início",
-        "swapDates": "Trocar datas",
-        "totalDays": "Total de dias",
-        "unit": "Unidade"
-      },
       "editor": {
         "groups": {
           "calendar": "Calendário"
@@ -204,7 +133,6 @@
         "title": "Editor de sistema de tempo"
       },
       "eras": {
-        "backwardDescription": "Mostrar eras mais antigas primeiro.",
         "description": "Configurar eras.",
         "eraNamePlaceholder": "Nome da era",
         "forward": "Avançar",
@@ -375,7 +303,6 @@
       "addedRemoved": "Added / removed",
       "started": "Started",
       "filesEdited": "Files edited ({{count}})",
-      "segmentOverlap": "Segment overlap",
       "projectServices": "Project services",
       "servicesLabel": "Services",
       "services": {
@@ -407,13 +334,11 @@
       "continue": "Continuar",
       "cancel": "Cancelar",
       "clear": "Limpar",
-      "clearSelection": "Clear selection",
       "import": "Importar",
       "export": "Exportar",
       "edit": "Editar",
       "delete": "Excluir",
       "deleteEllipsis": "Delete…",
-      "more": "Mais",
       "none": "None",
       "off": "Off",
       "on": "On",
@@ -421,14 +346,12 @@
       "maximize": "Maximizar",
       "restore": "Restaurar",
       "refresh": "Atualizar",
-      "projects": "Projetos",
       "allProjects": "Biblioteca",
       "newProject": "Novo projeto",
       "new": "Novo",
       "dashboard": "Escritório",
       "gallery": "Galeria",
       "chronology": "Cronologia",
-      "files": "Bancada de trabalho",
       "manuscripts": "Manuscritos",
       "collapseAllFolders": "Recolher todas as pastas",
       "expandAllFolders": "Expandir todas as pastas",
@@ -437,11 +360,6 @@
       "continueWhereYouLeftOff": "Continue onde você parou",
       "language": "Idioma",
       "english": "Inglês",
-      "spanish": "Espanhol",
-      "french": "Francês",
-      "italian": "Italiano",
-      "portuguese": "Português",
-      "norwegian": "Norueguês",
       "selectLanguage": "Selecionar idioma",
       "name": "Nome",
       "description": "Descrição",
@@ -449,17 +367,12 @@
       "abbreviation": "Abreviatura",
       "noDescription": "Nenhuma descrição",
       "item": "item",
-      "german": "Alemão",
-      "dutch": "Holandês",
-      "slovak": "Eslovaco",
-      "russian": "Russo",
       "save": "Salvar",
       "update": "Atualizar",
       "saving": "Salvando...",
       "add": "Adicionar",
       "confirm": "Confirmar",
       "dismiss": "Dispensar",
-      "color": "cor",
       "open": "Abrir",
       "openManuscriptView": "Open manuscript view",
       "closeManuscriptView": "Close manuscript view",
@@ -468,11 +381,8 @@
       "concept": "Conceito",
       "segment": "Segmento",
       "relationshipType": "Relationship type",
-      "toggleSection": "Alternar {{section}}",
       "completed": "Concluído",
       "shared": {
-        "tags": "Tags",
-        "addADescriptionOptional": "Adicionar uma descrição (opcional)",
         "addImage": "Adicionar imagem",
         "addNote": "Adicionar nota",
         "addRelationship": "Adicionar relacionamento",
@@ -487,7 +397,6 @@
         "backups": "Backups",
         "backward": "Para trás",
         "beforeFirstMonth": "Antes do primeiro mês",
-        "bugReports": "Relatórios de erro",
         "calendarSystem": "Sistema de calendário",
         "cartography": "Cartografia",
         "changelog": "Histórico de mudanças",
@@ -500,14 +409,12 @@
         "content": "Conteúdo",
         "archive": "Archive",
         "create": "Criar",
-        "createMyOwnTheme": "Criar meu próprio tema",
         "createType": "Criar tipo",
         "created": "Criado",
         "custom": "Personalizado",
         "customDays": "Dias personalizados",
         "dashed": "Tracejado",
         "dateFormat": "Formato da data",
-        "dates": "Datas",
         "day": "Dia",
         "daysPerYear": "Dias por ano",
         "deadline": "Data limite",
@@ -518,12 +425,9 @@
         "deleteTag": "Excluir marcador",
         "deleteType": "Excluir tipo",
         "deleteCount": "Excluir {{name}}",
-        "deletedItems": "Itens excluídos",
         "dictionary": "Dicionário",
-        "discord": "Discord",
         "downloading": "Fazendo o download...",
         "editType": "Editar tipo",
-        "emptySpace": "Espaço em branco",
         "era": "Era",
         "externalLinks": "Links externos",
         "folder": "Pasta",
@@ -551,7 +455,6 @@
         "noEstimate": "Nenhuma estimativa",
         "noImagesFound": "Nenhuma imagem encontrada",
         "noSegmentsYet": "Nenhum segmento ainda",
-        "noTimelineYet": "Nenhuma linha do tempo ainda",
         "noType": "Nenhum tipo",
         "none": "Nenhum",
         "notSetUp": "Não configurado",
@@ -572,8 +475,6 @@
         "scope": "Escopo",
         "searchSegments": "Pesquisar segmentos...",
         "seasons": "Estações",
-        "selectDateOrRange": "Selecionar data ou intervalo",
-        "setUpTheTimeSystemFirst": "Configure o sistema de tempo primeiro.",
         "short": "Curto",
         "showLabels": "Exibir rótulos",
         "showLess": "Mostrar menos",
@@ -586,11 +487,8 @@
         "studio": "Estúdio",
         "time": "Hora",
         "timer": "Cronômetro",
-        "title": "Título",
         "titleSize": "Tamanho do título",
         "titleSpacing": "Espaçamento do título",
-        "toggleSidebarCount": "Alternar barra lateral ({{shortcut}})",
-        "totalWords": "Total de palavras",
         "turnInto": "Transformar em",
         "types": "Tipos",
         "updatedCount": "Atualizado {{time}}",
@@ -602,12 +500,10 @@
         "years": "Anos",
         "yourName": "Seu nome",
         "countActiveDaysAheadAtThis": "{{count}} dias ativos à frente neste ritmo.",
-        "countDates": "{{count}} datas",
         "countFilesStillParsing": "{{count}} arquivos ainda em análise",
         "countItemsPermanentlyDeleted": "{{count}} itens permanentemente excluídos",
         "countItemsRestored": "{{count}} itens restaurados",
         "countMoreFilesWaitingAfterThis": "{{count}} arquivos aguardando depois deste",
-        "countRelationshipsAcrossDirectSegments": "{{count}} relacionamentos entre segmentos diretos.",
         "and": "e",
         "insertBlock": "Inserir bloco",
         "createBlock": "Criar bloco",
@@ -615,10 +511,7 @@
         "addAttribute": "Adicionar atributo",
         "titleFont": "Fonte do título",
         "commandPalette": "Paleta de comandos",
-        "reportABug": "Relatar um erro",
-        "deleteManuscript": "Excluir manuscrito",
         "addSegment": "Adicionar segmento",
-        "removeEntry": "Remover entrada",
         "notAvailable": "n/a",
         "backgroundImage": "Background image",
         "headerImage": "Header image",
@@ -652,8 +545,6 @@
       "workspaceName": "Nome do espaço de trabalho",
       "fontSize": "Tamanho da fonte",
       "justify": "Justificar",
-      "left": "Esquerda",
-      "center": "Centralizado",
       "long": "Longo",
       "position": "Posição",
       "eras": "Eras",
@@ -664,7 +555,6 @@
       "words": "palavras",
       "count": {
         "words": "{{count}} palavras",
-        "ready": "{{count}} pronto",
         "imported": "{{count}} importado"
       },
       "status": {
@@ -678,7 +568,9 @@
         "retry": "Retry",
         "closeInspector": "Close inspector",
         "inspector": "Inspector"
-      }
+      },
+      "left": "Esquerda",
+      "center": "Centralizado"
     },
     "table": {
       "clearFilter": "Limpar filtro",
@@ -698,7 +590,6 @@
         "resetSidebarToDefaultSize": "Redefinir barra lateral para o tamanho padrao"
       },
       "concept": {
-        "expandImage": "Expandir imagem",
         "positionImage": "Posicionar imagem ",
         "addOrChangeImage": "Adicionar/alterar imagem",
         "removeImage": "Remover imagem"
@@ -731,12 +622,7 @@
         }
       },
       "sidebar": {
-        "filterOnTags": "Filtrar por marcadores",
-        "workbench": "Segmentos e conceitos para construir sua história."
-      },
-      "graph": {
-        "hideAllLabels": "Ocultar rótulos",
-        "expandGraph": "Expandir o gráfico"
+        "filterOnTags": "Filtrar por marcadores"
       },
       "relationship": {
         "swapSourceTarget": "Trocar origem e destino"
@@ -766,23 +652,12 @@
         "underline": "Sublinhado",
         "strikethrough": "Tachado",
         "textColor": "Cor do texto",
-        "highlightColor": "Cor do destaque",
         "clearFormatting": "Limpar formatação",
-        "linkEntity": "Criar link com entidade",
-        "boldShortcut": "Negrito ({{shortcut}})",
-        "italicShortcut": "Itálico ({{shortcut}})",
-        "underlineShortcut": "Sublinhado ({{shortcut}})",
-        "searchShortcut": "Procurar (Ctrl+F)",
-        "undoShortcut": "Desfazer (Ctrl+Z)",
-        "redoShortcut": "Refazer (Ctrl+Shift+Z)",
         "searchPlaceholder": "Procurar...",
         "replaceWithPlaceholder": "Substituir por...",
-        "previousShiftEnter": "Anterior (Shift+Enter)",
-        "nextEnter": "Próximo (Enter)",
         "caseSensitive": "Diferenciar maiúsculas de minúsculas",
         "matchWholeWord": "Corresponder palavra inteira",
         "showReplace": "Mostrar Substituir",
-        "closeEsc": "Fechar (Esc)",
         "replaceCurrent": "Substituir atual",
         "replaceAll": "Substituir todos"
       }
@@ -939,29 +814,13 @@
       },
       "color": "Concept colour",
       "pickColorFromScreen": "Pick colour from anywhere on screen",
-      "screenPickerUnavailable": "Screen colour picking is unavailable on this system",
       "screenPickerFailed": "Could not pick a screen colour. Try again or enter a hex colour.",
       "typeSelector": {
         "removeType": "Remove type"
       },
-      "typeTree": {
-        "title": "Hierarquia do tipo",
-        "emptyDescription": "Ainda não há tipos. Tipos ajudam a organizar seus conceitos em categorias.",
-        "newTypeName": "Novo Tipo",
-        "addSubtype": "Adicionar subtipo"
-      },
       "dateEditor": {
-        "noDateSet": "Nenhuma data definida",
         "deleteDateTitle": "Excluir data",
-        "deleteDateDescription": "Você tem certeza de que quer excluir \"{{label}}\"? Esta ação não pode ser desfeita.",
-        "noCalendarSystemConfigured": "Nenhum sistema de calendário configurado",
-        "configureCalendar": "Configurar Calendário"
-      },
-      "dateEditorDialog": {
-        "editDateTitle": "Editar Data",
-        "addDateDescription": "Adicionar uma nova data para acompanhar momentos importantes.",
-        "editDateDescription": "Editar os detalhes da data.",
-        "labelPlaceholder": "Ex: nascimento, fundação, reinado"
+        "deleteDateDescription": "Você tem certeza de que quer excluir \"{{label}}\"? Esta ação não pode ser desfeita."
       },
       "aliases": {
         "howItWorksTitle": "Como os nomes alternativos funcionam",
@@ -985,15 +844,8 @@
       "sidebar": {
         "tabs": {
           "details": "Detalhes",
-          "versions": "Versões",
           "wordUsage": "Insights de texto",
           "voices": "Voices"
-        },
-        "layout": {
-          "releaseToShow": "Solte para mostrar",
-          "dropToShow": "Solte aqui para mostrar a seção",
-          "hidden": "Oculto",
-          "releaseToHide": "Solte para esconder"
         }
       },
       "voices": {
@@ -1018,7 +870,6 @@
       },
       "imageSelector": {
         "imageAriaLabel": "Imagem do conceito",
-        "expandImageAriaLabel": "Expandir imagem do conceito",
         "positionImageAriaLabel": "Posicionar imagem do conceito",
         "done": "Concluído",
         "donePositioningAriaLabel": "Posicionamento da imagem do conceito concluído.",
@@ -1143,10 +994,8 @@
         "linkedByMentions": "Linked by mentions in your writing",
         "sharedSegments": "Shared segments",
         "openSegment": "Open segment {{id}}",
-        "readEntity": "Read {{name}}",
         "directMentionEvidence": "This connection comes from mentions.",
         "connect": "Create relationship",
-        "hideEvidence": "Hide evidence",
         "viewEvidence": "View evidence",
         "currentEntity": "Current entity",
         "mention": "Mention",
@@ -1154,7 +1003,6 @@
         "mentionCount_one": "{{count}} mention",
         "segmentOverlap": "Segment overlap",
         "showConnectionsFor": "Show connections for {{name}}",
-        "sharedSegmentEvidence": "Shared segment evidence",
         "outgoingMentions": "Mentions ({{count}})",
         "incomingMentions": "Mentioned in ({{count}})",
         "mentions": "Mentions",
@@ -1170,50 +1018,27 @@
         "suggestedConnections": "Suggested connections",
         "dialogueInteraction": "Dialogue interaction",
         "relationshipState": "Relationship",
-        "dialogueCounts": "Conversations with repeated alternation: {{repeated}} · Conversations with interrupted alternation: {{interrupted}} · Unknown dialogue gaps: {{gaps}}",
         "conversationEvidence": "Conversations",
-        "savedDialogueEvidence": "From saved dialogue, in segment and document order.",
         "dialogueLoading": "Loading conversations…",
         "dialogueRetry": "Could not load conversations. Retry",
         "dialogueIncomplete": "Some segments could not be read. This conversation list may be incomplete.",
         "noConversations": "No conversations available.",
         "unassignedSpeaker": "Unassigned",
         "unknownSpeaker": "Unknown speaker",
-        "openEvidenceSegment": "Open segment",
-        "previousEvidence": "Previous",
-        "nextEvidence": "Next",
-        "evidencePage": "{{start}}–{{end}} of {{total}}",
-        "dialogueLevel": {
-          "adjacency": "Adjacent speaker change",
-          "repeated-alternation": "Repeated alternation",
-          "interrupted-alternation": "Interrupted alternation"
-        },
         "dialogueConversations": "{{count}} conversations",
-        "dialogueChanges": "{{count}} direct speaker changes",
         "dialogueSegments": "{{count}} segments",
         "dialogueConversations_one": "{{count}} conversation",
         "dialogueConversations_other": "{{count}} conversations",
-        "dialogueChanges_one": "{{count}} direct speaker change",
-        "dialogueChanges_other": "{{count}} direct speaker changes",
         "dialogueSegments_one": "{{count}} segment",
         "dialogueSegments_other": "{{count}} segments",
-        "dialogueConsecutive_one": "Their dialogue appears consecutively once.",
-        "dialogueConsecutive_other": "Their dialogue appears consecutively {{count}} times.",
-        "dialogueThread": "Dialogue thread",
         "threadBetween": "Thread between {{first}} and {{second}}",
         "dialogueTogether": "Shared {{conversations}} across {{segments}}.",
-        "dialogueBackAndForth_one": "They have back-and-forth dialogue in {{count}} conversation.",
-        "dialogueBackAndForth_other": "They have back-and-forth dialogue in {{count}} conversations.",
-        "dialogueContinues_one": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversation.",
-        "dialogueContinues_other": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversations.",
         "dialogueUnassigned": "Some dialogue has no speaker assigned.",
         "hideDetails": "Hide details",
         "hideThread": "Hide thread from graph",
         "restoreThreads": "Show hidden threads",
         "threadActions": "More actions",
-        "openConcept": "Open concept",
         "openInSegment": "Open in segment",
-        "singleEvidencePage": "{{start}} of {{total}}",
         "conversationNumber": "Conversation {{count}}",
         "moreConversations_one": "(and {{count}} more conversation)",
         "moreConversations_other": "(and {{count}} more conversations)"
@@ -1228,43 +1053,12 @@
         "progress": "Progress",
         "home": "Home"
       },
-      "loadingGraph": "Carregando gráfico...",
       "recentItemsUnavailable": "Recent items could not be loaded.",
       "continueEditing": "Continuar editando",
       "noSegmentsCreated": "Nenhum segmento criado",
       "noConceptsCreated": "Nenhum conceito criado",
-      "wordBreakdown": "Divisão por palavras",
-      "wordsInSegments": "palavras em {{count}} segmentos",
-      "wordsInConcepts": "palavras em {{count}} conceitos",
       "writingInsights": "Insights de escrita",
-      "readingTime": "Tempo de leitura",
-      "mostProductiveDay": "Dia mais produtivo",
-      "activeDays": "Dias ativos",
-      "estimatedReadingTime": "tempo estimado de leitura",
-      "yourBestWritingDay": "seu melhor dia de escrita",
-      "daysWithContinuousWritingActivity": "dias com atividade de escrita contínua",
       "minShort": "min",
-      "minRead": "min de leitura",
-      "notAvailable": "N/A",
-      "storySegments": "segmentos da história",
-      "storyBalance": "Balanço da história",
-      "completionProgress": "Progresso da conclusão",
-      "conceptsWithDates": "Conceitos com datas",
-      "conceptsWithRelationships": "Conceitos com relacionamentos",
-      "of": "de",
-      "dailyWordDiff": {
-        "title": "Palavras adicionadas e removidas hoje",
-        "wordsToday": "Palavras hoje",
-        "activity": "Atividade",
-        "noActivityYet": "Nenhuma atividade ainda",
-        "writingActivityFor": "Atividade de escrita para {{date}}",
-        "addedRemoved": "Adicionadas / removidas",
-        "changedToday": "Alteradas hoje",
-        "writingActivity": "Atividade de escrita",
-        "wordsTouched": "{{count}} palavras tocadas",
-        "goalMetToday": "Meta atingida (+{{value}})",
-        "toGoal": "{{value}} até a meta"
-      },
       "wordCountCalendar": {
         "title": "Contagem diária de palavras",
         "loading": "Carregando calendário...",
@@ -1289,25 +1083,12 @@
       "goal": {
         "title": "Meta do projeto",
         "description": "Defina uma meta de palavras e prazo para acompanhar o ritmo diário necessário.",
-        "optionalDescription": "Metas são opcionais. Adicione uma meta de palavras quando quiser acompanhar o ritmo.",
         "wordGoal": "Meta de palavras",
         "activeDays": "Dias de escrita ativa",
         "remainingWords": "Palavras restantes",
-        "activeDaysLeft": "Dias ativos restantes",
-        "requiredPerDay": "Requeridas por dia",
-        "wordsPerDay": "palavras/dia",
-        "complete": "Meta atingida.",
-        "onTrack": "Ritmo calculado a partir de dias ativos restantes.",
-        "waitingDeadline": "Defina um prazo para calcular o ritmo desejado.",
-        "successfulWeek": "Dias de escrita bem sucedidos",
-        "bonusCongrats": "Dia de bônus na escrita! {{dayName}} rendeu um ótimo impulso extra.",
-        "successOnDay": "{{dayName}} rendeu ótimas linhas!",
-        "dailyAverage": "Média diária",
-        "behindBy": "{{count}} dias ativos em atraso neste ritmo. Aumente suas palavras diárias para recuperar o atraso."
+        "complete": "Meta atingida."
       },
       "smartGraph": {
-        "percentDone": "{{count}}% concluído",
-        "daysWriting": "Escrevendo há {{count}} dias",
         "writtenSoFar": "Escrito até agora",
         "onTimePace": "Ritmo em dia",
         "currentPace": "Seu ritmo atual",
@@ -1321,14 +1102,9 @@
         "noDeadlineGoalSummary": "{{remaining}} palavras restantes. Cerca de {{days}} dias de escrita no seu ritmo atual.",
         "noDeadlineNeedsActivitySummary": "Faltam {{remaining}} palavras. Faça uma atividade de escrita para estimar sua data final.",
         "noGoalSummary": "Você tem escrito {{average}} palavras em média, nos dias com atividade de escrita.",
-        "yourPace": "Seu ritmo",
-        "projectedFinish": "Projeto concluído",
-        "writingDaysToGoal": "Dias de escrita até a meta",
-        "notEnoughData": "Dados insuficientes",
         "perDay": "/dia",
         "thisWeek": "Esta semana",
         "daysWritingLabel": "Dias escrevendo",
-        "goalWords": "Meta {{count}} palavras",
         "adjustGoal": "Ajustar meta",
         "noGoal": "Sem meta — apenas escrevendo",
         "setGoal": "Definir uma meta"
@@ -1376,8 +1152,6 @@
     },
     "overview": {
       "stories": "Histórias",
-      "continueWriting": "Continue writing",
-      "openStory": "Open Story",
       "libraryView": "Library view",
       "bookshelfView": "Bookshelf view",
       "classicView": "Classic view",
@@ -1464,9 +1238,7 @@
         "deleteShelfDescription": "Books on “{{name}}” move to “{{defaultShelf}}”. No books are deleted.",
         "shelfOptions": "Shelf options for {{name}}",
         "emptyShelf": "Drag a book here",
-        "shelf": "Shelf",
         "moveToShelf": "Move to shelf",
-        "series": "Series",
         "addToSeries": "Add to series",
         "changeSeries": "Change series",
         "standalone": "Standalone",
@@ -1547,7 +1319,6 @@
         "shareSnippet": "Compartilhar trecho",
         "createLink": "Criar link",
         "createConcept": "Criar conceito a partir da seleção",
-        "conceptType": "Tipo de conceito",
         "blockName": "Nome do bloco",
         "pressEnterToSave": "Pressione Enter para salvar",
         "searchConceptsOrSegments": "Pesquisar conceitos ou segmentos...",
@@ -1591,12 +1362,10 @@
         "insertSavedBlockContent": "Inserir conteúdo de bloco salvo"
       },
       "spellcheck": {
-        "unavailableReadOnly": "A verificação ortográfica está indisponível no modo somente leitura",
         "suggestionsFor": "Sugestões para \"{{word}}\"",
         "noSuggestionsFor": "Nenhuma sugestão para \"{{word}}\"",
         "nativeNoReplacements": "Flagged by the native spellchecker, which returned no replacements.",
-        "addToDictionary": "Adicionar ao dicionário",
-        "noErrorsDetected": "Nenhum erro de ortografia detectado"
+        "addToDictionary": "Adicionar ao dicionário"
       },
       "alignment": {
         "trigger": "Alinhamento do texto"
@@ -1729,12 +1498,9 @@
     "segment": {
       "notes": {
         "createNote": "Criar nota",
-        "noNotesYet": "Nenhuma nota ainda",
         "emptyDescription": "Notas são uma ótima maneira de acompanhar ideias e pensamentos e garantir que você não se esqueça de detalhes importantes.",
         "deleteTitle": "Excluir nota",
-        "deleteDescription": "Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.",
-        "expandAction": "Expandir nota",
-        "emptyNote": "Nota vazia"
+        "deleteDescription": "Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita."
       }
     },
     "segmentGraph": {
@@ -1753,38 +1519,18 @@
       "pan": "Pan graph"
     },
     "outline": {
-      "loading": "Carregando esboço",
-      "error": "O esboço não pôde ser carregado.",
-      "totalTodos": "Total de tarefas",
-      "empty": "Adicione um segmento ou pasta do gráfico para começar a esboçar sua história.",
-      "outlineTodos": "Tarefas do esboço",
-      "noTodos": "Ainda não há tarefas.",
-      "noRelationships": "Ainda não há relacionamentos entre segmentos."
+      "error": "O esboço não pôde ser carregado."
     },
     "planning": {
       "addNoteTo": "Adicionar nota a {{name}}",
       "openSegment": "Open segment",
       "addReferenceImage": "Add reference image",
       "addReferenceImageTo": "Add reference image to {{name}}",
-      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Adicionar relação com {{name}}",
-      "completedCount": "{{count}} concluídos",
-      "editSegmentTitle": "Editar título do segmento: {{name}}",
       "markComplete": "Marcar {{name}} como concluída",
-      "markIncomplete": "Marcar {{name}} como incompleta",
-      "noOpeningText": "Ainda não há texto de abertura",
-      "noSegmentsDescription": "Crie o primeiro segmento nesta pasta para começar a moldar a linha do tempo desta história.",
-      "noTasksOnSegment": "Ainda não há tarefas neste segmento.",
-      "noDatedFiles": "No dated files yet.",
-      "noneYet": "Ainda não há nada",
-      "relationshipsAcrossSegments_one": "{{count}} relacionamentos entre segmentos diretos.",
-      "folderSidebar": "Folder sidebar",
-      "storyMap": "Story map",
-      "totalCount": "{{count}} no total",
-      "viewMore": "Ver {{count}} mais"
+      "markIncomplete": "Marcar {{name}} como incompleta"
     },
     "topbarSettings": {
-      "tooltip": "Ver configurações",
       "font": "Fonte",
       "editorWidth": "Largura do editor",
       "textWeight": "Peso do texto",
@@ -1793,13 +1539,6 @@
       "backgroundColor": "Cor de fundo",
       "image": "Image",
       "textColor": "Cor do texto",
-      "widthTooltip": "Largura: {{mode}}",
-      "fontSizeTooltip": "Tamanho da fonte: {{mode}}",
-      "titleSizeTooltip": "Tamanho do título: {{mode}}",
-      "lineHeightTooltip": "Altura da linha: {{mode}}",
-      "paragraphSpacingTooltip": "Espaçamento dos parágrafos: {{mode}}",
-      "titleSpacingTooltip": "Espaçamento do título: {{mode}}",
-      "textAlignTooltip": "Alinhamento do texto: {{mode}}",
       "showScrollbar": "Exibir barra de rolagem",
       "showBubbleMenu": "Show bubble menu",
       "showDocumentOutline": "Show document outline",
@@ -1829,14 +1568,7 @@
       },
       "modes": {
         "serif": "Serifa",
-        "mono": "Mono",
-        "tight": "Apertado",
-        "flush": "Sem recuo",
-        "regular": "Regular",
-        "wide": "Largo",
-        "small": "Pequeno",
-        "large": "Grande",
-        "relaxed": "Relaxado"
+        "mono": "Mono"
       },
       "toasts": {
         "exportWordSuccess": "Documento exportado para Word com sucesso",
@@ -1863,7 +1595,6 @@
         "quotes": "Aspas",
         "raya": "Travessão"
       },
-      "inheritBackground": "Herdar plano de fundo",
       "background": "Plano de fundo",
       "backgroundImage": "Imagem de fundo",
       "blur": "Desfoque",
@@ -1915,9 +1646,6 @@
     "kanban": {
       "settings": {
         "ariaLabel": "Configurações da visualização kanban",
-        "title": "Configurações do quadro",
-        "list": "Lista",
-        "board": "Quadro",
         "showEmptyColumns": "Exibir colunas vazias",
         "showNestedNotes": "Exibir notas aninhadas",
         "boardVisibility": "Board visibility",
@@ -1936,28 +1664,19 @@
         "actionsAria": "Ações para {{title}}",
         "removeFromBoard": "Remover do quadro",
         "editTagsAria": "Editar marcadores em {{entityType}} {{entityId}}",
-        "filterTags": "Filtrar marcadores",
         "noMatchingTags": "Sem marcadores correspondentes",
         "nestedNotes": "Notas aninhadas",
         "conceptFallback": "Conceito #{{id}}",
         "segmentFallback": "Segmento #{{id}}",
         "noContent": "Nenhum conteúdo",
         "openLinkedEntity": "Abrir {{entityType}} {{name}} vinculado",
-        "dragNoteAria": "Arrastar nota {{id}}",
-        "dragEntityAria": "Arrastar {{entityType}} {{id}}",
         "deleted": "{{type}} excluído.",
         "deleteTitle": "Excluir {{type}}",
         "deleteDescription": "Tem certeza que deseja excluir este item? Esta ação não pode ser desfeita.",
         "deleteFailed": "Não foi possível excluir este cartão."
       },
       "list": {
-        "noMatchingItems": "Não há itens correspondentes",
-        "noAvailableItems": "Nenhum item disponível",
-        "newNote": "Nova nota",
-        "existingNotes": "Notas existentes",
-        "existingConcepts": "Conceitos existentes",
-        "existingSegments": "Segmentos existentes",
-        "existingImages": "Imagens existentes"
+        "newNote": "Nova nota"
       },
       "dialog": {
         "placeholder": "Escreva sua nota"
@@ -1968,101 +1687,19 @@
       "readFullScreen": "Read manuscript full screen",
       "cover": {
         "title": "Cover",
-        "add": "Add cover",
-        "emptyDescription": "Add a cover image to include it in EPUB and PDF exports."
-      },
-      "segmentPicker": {
-        "title": "Adicionar segmento ao manuscrito",
-        "selectSegment": "Selecionar segmento",
-        "adding": "Adicionando...",
-        "addSegment": "Adicionar segmento"
+        "add": "Add cover"
       },
       "preview": {
         "empty": "Create a manuscript to start organizing your draft.",
         "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
-        "title": "Formatar manuscrito",
-        "customise": "Format yourself",
-        "preset": "Predefinição",
-        "basedOn": "Baseado em",
-        "typography": "Tipografia & layout",
-        "contentWidth": "Largura do conteúdo",
-        "paragraph": "Comportamento do parágrafo",
-        "indentFirstParagraph": "Recuar primeiro parágrafo",
-        "indentAfterHeadings": "Recuar após os cabeçalhos",
-        "firstLineIndent": "Recuo da primeira linha",
-        "paragraphSpacingPercentage": "Porcentagem de espaçamento dos parágrafos",
-        "align": {
-          "right": "Direita"
-        },
-        "presets": {
-          "writality": {
-            "description": "Sem formatação extra. A exportação mantém o estilo do editor."
-          },
-          "book_manuscript": {
-            "label": "Formato do manuscrito do livro",
-            "description": "Formatação de manuscrito no padrão da indústria para envio a editoras e agentes."
-          },
-          "classic_manuscript": {
-            "label": "Manuscrito clássico",
-            "description": "Estilo tradicional de envio, inspirado no formato de manuscrito Shunn."
-          },
-          "web_novel": {
-            "label": "Web novel",
-            "description": "Espaçamento fluido para episódios, inspirado no padrão de leitura do Tapas."
-          },
-          "screenplay": {
-            "label": "Roteiro",
-            "description": "Formatação de roteiro em fonte Courier, alinhada aos padrões do Nicholl."
-          },
-          "poetry": {
-            "label": "Poesia",
-            "description": "Espaçamento por ritmo para legibilidade de estrofes."
-          },
-          "kindle_reflowable": {
-            "label": "Layout fluido para Kindle",
-            "description": "Configurações padrão para e-books reajustáveis, alinhadas com o KDP."
-          }
-        },
-        "emptySpaceAfterSegments": "Adicionar quebra de página após cada segmento",
-        "bundledFontLabel": "{{font}} (embutida)",
-        "helpFor": "Ajuda para {{label}}",
-        "textColumnWidth": "Largura da coluna de texto",
-        "indentBodyParagraphs": "Recuar a primeira linha de parágrafos do corpo",
-        "indentFirstSegmentParagraph": "Recuar primeiro parágrafo em cada segmento",
-        "indent": "Recuar",
-        "runningHeaderFooter": "Cabeçalho e Rodapé",
-        "availableTokens": "Tokens disponíveis (exportações + visualização paginada)",
-        "runningTextTokenHelpPrefix": "Digite seu nome, pen name ou qualquer outro texto diretamente nos campos do cabeçalho ou rodapé. Apenas",
-        "runningTextTokenHelpSuffix": "são substituídos automaticamente.",
-        "header": "Cabeçalho",
-        "footer": "Rodapé",
-        "enableRunningHeader": "Habilitar cabeçalho",
-        "enableRunningFooter": "Habilitar rodapé",
-        "runningHeaderText": "Texto do cabeçalho",
-        "runningFooterText": "Texto do rodapé",
-        "alignment": "Alinhamento",
-        "runningHeaderDisabled": "Cabeçalho está desativado.",
-        "runningFooterDisabled": "Rodapé está desativado.",
-        "titleStyles": "Estilos de título",
-        "titlePreview": "Capítulo Um",
         "fontWeights": {
           "light": "Light (300)",
           "regular": "Regular (400)",
           "medium": "Medium (500)",
           "semibold": "Semibold (600)",
           "bold": "Bold (700)"
-        },
-        "hints": {
-          "fontSize": "Tamanho do texto do corpo em pontos",
-          "lineHeight": "Espaço entre as linhas de texto",
-          "textColumnWidth": "Largura da área de texto do corpo do manuscrito",
-          "indent": "Recuo da primeira linha aplicado a parágrafos recuados",
-          "paragraphSpacing": "Espaço extra entre parágrafos",
-          "runningText": "Use {page} para o número da página e {title} para o título do manuscrito. Adicione seu nome ou qualquer outro texto como texto simples. Controles de alinhamento onde esta linha fica na página (visão paginada, PDF, HTML e Word).",
-          "titleSize": "Tamanho dos títulos dos manuscritos e segmentos",
-          "titleSpacing": "Espaço entre o título do capítulo/segmento e o texto seguinte"
         }
       }
     },
@@ -2077,7 +1714,6 @@
         "marker": "Marcador de nota"
       },
       "spriteList": {
-        "close": "Fechar lista de sprites",
         "empty": "Nenhum sprite colocado ainda.",
         "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
       },
@@ -2106,13 +1742,9 @@
         "newMap": "Novo mapa",
         "exportMap": "Exportar mapa",
         "deleteMap": "Excluir mapa",
-        "hideSpriteList": "Ocultar lista de sprites",
-        "showSpriteList": "Exibir lista de sprites",
         "movePin": "Mover..."
       },
       "layers": {
-        "drawing": "Desenho",
-        "interactive": "Interativo",
         "artTooltip": "Desenhar e editar o mapa principal",
         "interactiveTooltip": "Editar elementos interativos do mapa",
         "regionsAboveSprites": "Regiões desenhadas acima dos sprites",
@@ -2155,15 +1787,7 @@
     },
     "graph": {
       "mapCreate": {
-        "title": "Criar novo mapa",
-        "changeImage": "Alterar",
-        "selectImage": "Selecionar Imagem",
-        "mapName": "Nome do mapa",
-        "mapNamePlaceholder": "Digite o nome do mapa",
-        "descriptionOptional": "Descrição (opcional)",
-        "descriptionPlaceholder": "Descreva este mapa (opcional)",
-        "creating": "Criando...",
-        "createMap": "Criar mapa"
+        "mapName": "Nome do mapa"
       },
       "empty": {
         "description": "Crie conceitos com relacionamentos para ver o gráfico"
@@ -2180,17 +1804,10 @@
         "success": "Imagem do gráfico exportada",
         "failure": "Não foi possível exportar a imagem do gráfico"
       },
-      "selectedNode": {
-        "title": "Nó selecionado",
-        "clickNodeHint": "Clique em um nó no gráfico para ver seus detalhes",
-        "notFound": "Nó não encontrado",
-        "noContentYet": "Este conceito ainda não tem conteúdo. Clique acima para abrir e começar a editar."
-      },
       "preferences": {
         "tooltip": "Preferências do gráfico",
         "close": "Fechar preferências do gráfico",
         "display": "Exibir",
-        "advanced": "Avançado",
         "arrows": "Setas",
         "showConcepts": "Show concepts",
         "showSegments": "Show segments",
@@ -2201,16 +1818,7 @@
         "nodeSize": "Tamanho do nó",
         "nodeBorderRadius": "Raio da borda do nó",
         "linkThickness": "Espessura do link",
-        "lineType": "Tipo de linha",
-        "forces": "Forças",
-        "centreForce": "Centralizar força",
         "centerForce": "Centralizando força",
-        "axisForceX": "Força do eixo X",
-        "axisForceY": "Força do eixo Y",
-        "radialForce": "Força radial",
-        "orbit": "Órbita",
-        "orbitOuterRadius": "Raio externo da órbita",
-        "orbitStrength": "Força da órbita",
         "repelForce": "Repelir força",
         "chargeDistance": "Distância da carga",
         "linkForce": "Força do link",
@@ -2221,23 +1829,7 @@
           "toggleDetails": "Alternar detalhes do grupo",
           "groupName": "Nome do grupo",
           "matchBy": "Correspondência por",
-          "matchValue": "Selecionar valor",
-          "queryPlaceholder": "Digite a consulta...",
-          "queryHelp": "Operadores de consulta: type:, tag:, name:, id:, ou texto sem formatação.",
-          "searchOptions": "Opções de pesquisa",
-          "optionType": "corresponder ao tipo de conceito",
-          "optionTag": "corresponder ao marcador/etiqueta de conceito",
-          "optionName": "corresponder ao texto do nome do conceito",
-          "optionId": "corresponder ao ID exato do conceito",
-          "optionPlain": "texto sem formatação corresponde ao nome do conceito",
-          "examples": "Exemplos: type:personagem, tag:aliado, name:rei, id:42",
-          "clusterStrength": "Força do agrupamento (ficar junto)",
-          "clusterRadius": "Raio do agrupamento (quão grande é o grupo)",
-          "repelStrength": "Capacidade de repelir inimigo",
-          "repelDistance": "Distância de repelimento inimigo",
-          "hostility": "Grupos inimigos",
-          "hostilityStrength": "Força da hostilidade",
-          "hostilityDistance": "Distância mínima de separação"
+          "matchValue": "Selecionar valor"
         },
         "filters": {
           "title": "Filtros",
@@ -2327,7 +1919,6 @@
       "skipToContent": "Skip to content",
       "workspaceNavigation": "Workspace navigation",
       "world": "Mundo",
-      "openSettings": "Abrir configurações",
       "addPage": "Add page",
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
@@ -2346,11 +1937,9 @@
       "goForward": "Avançar",
       "breadcrumb": "Trilha de navegação",
       "goToFolder": "Ir para pasta {{name}}",
-      "configureTimeSystem": "Configurar sistema de tempo",
       "untitledConcept": "Untitled concept",
       "untitledSegment": "Untitled segment",
       "untitledNote": "Untitled note",
-      "projectTab": "Project",
       "docsTab": "Docs",
       "sidebarSections": "Sidebar sections",
       "searchDocs": "Search docs…",
@@ -2390,11 +1979,6 @@
     "tabs": {
       "openTab": "Abrir aba {{name}}",
       "closeTab": "Fechar aba {{name}}",
-      "reorderTab": "Reorder tab {{name}}",
-      "reorderInstructions": "Press Space to pick up a tab, use the arrow keys to move it, then press Space to drop it.",
-      "splitView": "Esta aba contém visualização dividida",
-      "exitSplitView": "Sair da visualização dividida nesta aba",
-      "loadingPane": "Carregando painel...",
       "loadingConcept": "Carregando conceito...",
       "loadingSegment": "Carregando segmento...",
       "loadingFolder": "Carregando pasta..."
@@ -2410,10 +1994,8 @@
         "confirmHide": "Ocultar ({{count}})"
       },
       "preview": {
-        "loading": "Carregando pré-visualização...",
         "empty": "Ainda não há conteúdo."
       },
-      "options": "Opções",
       "listStyle": {
         "label": "List colours",
         "calm": "Calm",
@@ -2522,18 +2104,13 @@
         "customise": "Customise sidebar…",
         "defaults": "Sidebar defaults…",
         "project": "Project defaults",
-        "writality": "Writality defaults",
-        "untyped": "No type",
         "onlyConcept": "Changes affect only this concept.",
         "typeEffect": "Applies to {{type}} and its nested types, unless customised.",
         "projectEffect": "Applies to all concepts in this project, unless customised.",
         "resetToType": "Reset to type defaults",
         "resetDefaults": "Reset to inherited defaults",
         "resetSection": "Reset {{section}} to inherited visibility",
-        "customised": "customised",
-        "from": "From {{source}}",
         "hiddenBy": "Hidden by {{source}}",
-        "moduleDisabled": "Timeline module disabled",
         "connections": "Connections",
         "saveError": "Could not save. Your previous preferences are unchanged. Try again.",
         "loadError": "Could not load sidebar preferences.",
@@ -2572,14 +2149,8 @@
         "editImage": "Editar imagem do banner {{entity}}"
       }
     },
-    "coming_soon": {
-      "title": "Em breve",
-      "description": "Esta ação ainda não está disponível."
-    },
     "setup": {
       "recovery": {
-        "startupFailed": "Writality opened in recovery mode because startup failed. You can reselect or restore your workspace below.",
-        "windowCrashed": "The main window crashed. Recovery mode is open so you can restore your workspace.",
         "saveCrashDetails": "Save crash details",
         "diagnosticsSaved": "Os diagnósticos foram salvos em {{path}}",
         "diagnosticsFailed": "Não foi possível salvar os diagnósticos. Por favor, tente novamente.",
@@ -2711,69 +2282,31 @@
       },
       "search": {
         "placeholder": "Search settings",
-        "clear": "Clear settings search",
         "noResults": "No settings match \"{{query}}\""
       },
       "emailSupport": "Suporte por e-mail em {{supportEmail}}",
-      "helpPrompt": "Precisa de ajuda ou quer falar?",
       "helpDiscordTitle": "Ask on Discord",
       "helpDiscordDescription": "Need help with {{appName}}? Join the Discord to ask questions, share screenshots, report bugs, or talk through feature ideas. You can share your stories and graphs there too.",
       "helpEmailTitle": "Email me directly",
       "helpEmailDescription": "Prefer a one-to-one conversation? Email me directly with your questions or feedback."
     },
-    "discordInvite": {
-      "eyebrow": "Discord {{appName}} ",
-      "title": "Venha me mostrar o que você está construindo ;)",
-      "description": "Erros e pedidos de recursos ainda são bem-vindos no aplicativo, mas o Discord é o melhor lugar para discussões aprofundadas: capturas de tela, gráficos de história, perguntas, erros que exigem mais detalhes, pequenos ganhos e as ideias que podem demandar uns e outros."
-    },
-    "discordSettings": {
-      "description": "Compartilhe comentários, erros, solicitações de funcionalidades, histórias e gráficos.",
-      "featureRequests": {
-        "title": "Sugestões de recursos",
-        "description": "O formulário do aplicativo é útil, mas, caso precisemos de mais, é o Discord agora. Podemos conversar sobre o formato dos recursos e compartilhar imagens de referência."
-      },
-      "bugsWithContext": {
-        "title": "Erros com contexto",
-        "description": "Alguns erros precisam de uma captura de tela, uma gravação curta e reversa, ou da representação exata de um espaço de trabalho. Isto nos dá espaço para isso."
-      },
-      "showAndTell": {
-        "title": "Mostrar/ocultar",
-        "description": "Eu continuo construindo gráficos e ferramentas de história porque quero que as pessoas os usem para projetos estranhos, específicos e bonitos. Por favor, mostre-me."
-      }
-    },
     "supportSettings": {
       "navigationLabel": "Support {{appName}}",
       "title": "Support {{appName}}",
-      "eyebrow": "Optional support",
       "heroTitle": "Creativity must be free.",
-      "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
-      "promiseTitle": "What your support changes",
-      "promiseDescription": "If you choose to donate, your support gives me more time to improve the app, polish what is already here, and get {{appName}} into more writers' hands.",
-      "moreTimeTitle": "More time to build",
-      "moreTimeDescription": "More features, thoughtful polish, and room to pay down technical debt.",
-      "costsTitle": "Practical costs",
-      "costsDescription": "Help with essentials such as signing the Windows app and keeping the project moving.",
-      "ctaTitle": "If you can help",
-      "ctaDescription": "You can support {{appName}} directly through Patreon. Every contribution helps, but using the app will never depend on one.",
-      "accessDescription": "If donating is comfortable for you, please feel free. Your support helps keep {{appName}} a wonderful free app for writers who cannot afford paid tools. Please never stretch your budget. Remember even $1 is a lot of money in many parts of the world.",
-      "cta": "Support on Patreon",
-      "optional": "Completely optional. {{appName}} remains free either way."
+      "cta": "Support on Patreon"
     },
     "workspace": {
       "editorAppearance": {
-        "customValue": "Custom {{label}}",
         "background": "Background",
         "typography": "Typography",
         "imageFit": "Image fit",
         "previewError": "Could not load a story preview. Press to retry.",
         "previewDescription": "Pré-visualize como seu editor será exibido",
-        "description": "Personalizar os fundos do editor e rótulos.",
-        "switchTo": "Alternar visualização",
         "title": "Aparência do editor"
       },
       "theme": {
         "title": "Tema",
-        "description": "Escolha o seu tema de ‘interface’ preferido. Nós temos temas personalizados para você escolher e garantir uma experiência de escrita confortável.",
         "mode": {
           "title": "Appearance mode",
           "description": "System follows your computer's light and dark appearance.",
@@ -2782,32 +2315,15 @@
           "system": "System",
           "palette": "palette"
         },
-        "showLess": "Mostrar menos",
-        "browseAll": "Procurar todos os temas {{count}}",
         "customTheme": {
           "import": "Importar tema",
-          "description": "Nomeie seu tema, ajuste as classes de cores e pré-visualize como a ‘interface’ de usuário de aplicativos comum irá parecer.",
           "name": "Nome do tema",
-          "save": "Salvar tema",
           "saved": "Tema salvo",
           "deleted": "Tema apagado",
           "imported": "Tema importado",
           "exported": "Tema exportado",
-          "conflict": "O nome do tema está em conflito com um tema existente",
-          "defaultName": "Meu tema",
-          "defaultSlug": "meu-tema",
-          "saveError": "Falha ao salvar o tema",
           "errors": {
-            "nameRequired": "O nome do tema é obrigatório.",
-            "nameConflictsBundled": "O nome do tema está em conflito com um tema embutido.",
-            "nameExists": "O nome do tema já existe."
-          },
-          "groups": {
-            "core": "Essencial",
-            "border": "Bordas e Entradas",
-            "sidebar": "Barra Lateral Principal",
-            "secondarySidebar": "Barra lateral secundária",
-            "editor": "Editor & Marcadores"
+            "nameRequired": "O nome do tema é obrigatório."
           },
           "export": "Exportar {{name}}",
           "saveNew": "Salvar como novo tema",
@@ -2860,12 +2376,6 @@
           },
           "options": {
             "roundedness": "Roundedness",
-            "writalityBackground": {
-              "label": "Writality background",
-              "description": "Shows the subtle Writality writing watermark behind settings.",
-              "opacity": "Background opacity",
-              "density": "Background density"
-            },
             "grainy": {
               "label": "Textura de grãos",
               "description": "Aplica texturas sutis de grão a superfícies selecionadas. Não funciona de forma confiável em telas com DPI baixo."
@@ -2888,16 +2398,9 @@
         }
       },
       "fonts": {
-        "title": "Fontes",
         "interface": {
           "title": "Fonte da interface",
-          "description": "Usado para controles, menus e texto da interface.",
-          "previewTitle": "Pré-visualização da interface"
-        },
-        "heading": {
-          "title": "Fonte do título",
-          "description": "Usado para os cabeçalhos H1-H4 em todo o aplicativo.",
-          "previewTitle": "Pré-visualização do título"
+          "description": "Usado para controles, menus e texto da interface."
         },
         "custom": {
           "title": "Fontes personalizadas",
@@ -2915,12 +2418,7 @@
       "scale": {
         "title": "Escala",
         "description": "Ajuste o tamanho geral da interface para conforto.",
-        "ariaLabel": "Escala do aplicativo",
-        "ariaLabelPercent": "Porcentagem da escala do aplicativo",
-        "smaller": "Menor",
-        "larger": "Maior",
-        "quickPresets": "Predefinições rápidas",
-        "tip": "Dica: 100% equivale ao layout padrão. Use predefinições para trocas rápidas e o controle deslizante para ajuste fino."
+        "ariaLabel": "Escala do aplicativo"
       },
       "textScale": {
         "title": "Text size",
@@ -2930,11 +2428,6 @@
       "split": {
         "tileToLeft": "Ajustar à esquerda",
         "tileToRight": "Ajustar à direita"
-      },
-      "editorBackground": {
-        "previewTitle": "Prévia do plano de fundo",
-        "previewConceptName": "The Cartographer",
-        "previewSegmentName": "Chapter One"
       }
     },
     "profile": {
@@ -2953,8 +2446,7 @@
         "days": "days"
       },
       "activity": {
-        "title": "Writing activity",
-        "loading": "Loading activity…"
+        "title": "Writing activity"
       },
       "insights": {
         "title": "Insights",
@@ -2969,9 +2461,7 @@
         "noProjects": "No projects yet."
       },
       "displayName": {
-        "title": "Nome para exibição",
-        "label": "Display name",
-        "description": "Seu nome de exibição no app e no feed de atividades do projeto. Não precisa ser único e pode ser alterado a qualquer momento."
+        "label": "Display name"
       },
       "errors": {
         "nameRequired": "O nome não pode ficar vazio",
@@ -3062,7 +2552,6 @@
         "backInTabHistory": "Histórico de abas: voltar",
         "forwardInTabHistory": "Histórico de abas: avançar",
         "togglePrimarySidebar": "Alternar barra lateral primária",
-        "switchTabsByIndex": "Trocar abas pelo índice",
         "findInEditor": "Localizar no editor",
         "toggleSegmentConceptSidebar": "Alternar barra lateral de segmentos/conceitos"
       }
@@ -3109,30 +2598,12 @@
       }
     },
     "deleted": {
-      "description": "Restaure seu trabalho ou remova-o para sempre. Os itens permanecem até que você os exclua permanentemente.",
-      "recentlyDeleted": "Excluídos recentemente",
-      "searchPlaceholder": "Pesquisar itens excluídos...",
-      "restoreSelected": "Restaurar selecionados",
-      "deleteSelected": "Excluir selecionados",
-      "selectedCount": "{{count}} selecionados",
-      "selectProject": "Selecione ou crie um projeto para gerenciar itens excluídos.",
-      "failedToLoad": "Falha ao carregar itens excluídos.",
-      "emptyFiltered": "Nenhum item excluído corresponde à sua pesquisa.",
       "empty": "Não há nada aqui no momento. Itens excluídos serão exibidos quando você os remover.",
       "deletePermanently": "Excluir permanentemente",
-      "table": {
-        "selectAllAria": "Selecionar todos os itens excluídos",
-        "selectItemAria": "Selecionar {{name}}",
-        "item": "Item"
-      },
       "toast": {
         "restored": "{{type}} restaurado",
-        "permanentlyDeleted": "{{type}} excluído permanentemente",
         "failedRestore": "Falha ao restaurar o item",
-        "failedDelete": "Falha ao excluir item",
-        "bulkRestored_one": "{{count}} itens restaurados",
-        "bulkDeleted_one": "{{count}} itens excluídos permanentemente",
-        "failedBulk": "Falha ao {{action}} itens selecionados"
+        "failedDelete": "Falha ao excluir item"
       }
     },
     "tags": {
@@ -3141,13 +2612,11 @@
       "filterPlaceholder": "Filtrar marcadores...",
       "deleteAria": "Excluir marcador {{name}}",
       "deleted": "Marcador excluído",
-      "updated": "Marcador atualizado",
       "duplicateName": "Já existe um marcador com este nome",
       "failedCreate": "Falha ao criar marcador",
       "failedDelete": "Falha ao excluir marcador",
       "failedUpdate": "Falha ao atualizar marcador",
       "failedUpdateOrder": "Falha ao atualizar ordem do marcador",
-      "orderUpdated": "Ordem do marcador atualizada",
       "dragHandle": "Reordenar {{name}}",
       "table": {
         "order": "Ordenar",
@@ -3174,21 +2643,15 @@
       "emptyExample2": "Um modelo de descrição de personagem para novos membros do elenco",
       "emptyExample3": "Um formato de nota padrão para detalhes de construção de mundo",
       "filterPlaceholder": "Filtrar blocos...",
-      "favoriteAria": "Alternar favorito para bloco {{name}}",
-      "renameAria": "Renomear bloco {{name}}",
-      "deleteAria": "Excluir bloco {{name}}",
       "renameTitle": "Renomear bloco",
       "table": {
-        "name": "Bloco",
-        "used": "Em uso",
-        "updated": "Atualizado"
+        "used": "Em uso"
       },
       "toast": {
         "renamed": "Bloco renomeado",
         "deleted": "Bloco excluído",
         "failedRename": "Falha ao renomear bloco",
-        "failedDelete": "Falha ao excluir bloco",
-        "failedFavorite": "Falha ao atualizar favorito"
+        "failedDelete": "Falha ao excluir bloco"
       }
     },
     "importSettings": {
@@ -3197,12 +2660,10 @@
       "dropOrChoose": "Solte arquivos aqui ou escolha-os manualmente",
       "dropHint": "Seus arquivos serão convertidos em conceitos ou segmentos de acordo com a sua seleção.",
       "chooseFiles": "Selecionar arquivos",
-      "progressHint": "Utilizamos o primeiro cabeçalho como título quando disponível, em seguida te guiamos um arquivo de cada vez.",
       "importProgress": "Progresso da Importação",
       "clearImported": "Limpar importados",
       "nothingQueued": "Nada na fila ainda.",
       "whereShouldThisGo": "Para onde deveria ir?",
-      "whereHint": "Escolha o destino para este arquivo, importe-o e depois continue com o próximo.",
       "segmentDescription": "Parte de uma estrutura de documentos maior. Melhor para capítulos, cenas, seções ou conteúdo sequencial.",
       "conceptDescription": "Uma ideia ou referência independente. Ideal para notas, lore, definições, personagens e conhecimento conectado.",
       "removeFile": "Remover este arquivo",
@@ -3212,11 +2673,8 @@
       "segmentSplitTitle": "Dividir por cabeçalhos",
       "segmentSplitHint": "Cria um novo item cada vez que um cabeçalho selecionado aparecer.",
       "segmentSplitActiveHint": "Dividindo em: {{levels}}",
-      "segmentSplitNone": "Não dividir",
       "segmentSplitHeading": "Cabeçalho {{level}}",
       "segmentSplitHeadingShort": "H{{level}}",
-      "moreFilesWaiting_one": "{{count}} arquivos aguardando depois deste",
-      "stillParsing_one": "{{count}} arquivos ainda em análise",
       "noMoreFilesWaiting": "Não há mais arquivos aguardando depois deste",
       "upNext": "A seguir:",
       "batchHandled": "Tudo neste lote foi resolvido.",
@@ -3276,7 +2734,6 @@
         "searchPlaceholder": "Pesquisar backups...",
         "createBackup": "Criar backup",
         "manualBackup": "Backup manual",
-        "restoreConfirm": "Tem certeza que deseja restaurar este backup? Isto irá substituir seus dados atuais.",
         "restoreAndRestartConfirm": "Restore this backup? It replaces your current data. If the current data can still be read, {{appName}} saves a copy of it first. {{appName}} then restarts.",
         "deleteDescription": "Isto irá remover permanentemente o backup selecionado.",
         "totalSize": "Tamanho total",
@@ -3349,7 +2806,6 @@
       "removeComplete": "{{language}} removido."
     },
     "dictionary": {
-      "clearAll": "Limpar tudo",
       "loading": "Carregando dicionário...",
       "spellcheck": "Verificação ortográfica",
       "enableSpellcheck": "Habilitar verificação ortográfica",
@@ -3372,46 +2828,8 @@
       "yourDictionary": "Seu dicionário",
       "removeWord": "Excluir palavra"
     },
-    "bugs": {
-      "dialogDescription": "O {{appName}} não coleta dados dos usuários. Os relatórios de erro são a única forma de melhorarmos o aplicativo. Obrigado por ajudar a tornar o {{appName}} melhor!",
-      "titlePlaceholder": "Descrição resumida do erro",
-      "descriptionPlaceholder": "Por favor, forneça etapas detalhadas para reproduzir o erro...",
-      "knownBugsPrefix": "Erros conhecidos",
-      "knownBugsSuffix": "estão listados nas configurações.",
-      "submit": "Enviar relatório",
-      "submitting": "Enviando...",
-      "submitted": "Relatório de erro enviado! Obrigado por seu feedback.",
-      "failed": "Falha ao enviar o relatório de erro",
-      "viewKnownBugs": "Ver erros conhecidos nas configurações",
-      "searchPlaceholder": "Pesquisar relatórios de erro...",
-      "filterByStatus": "Filtrar por status",
-      "emptyFiltered": "Nenhum relatório de erro corresponde aos seus filtros.",
-      "empty": "Nenhum erro relatado ainda.",
-      "table": {
-        "status": "Status"
-      },
-      "status": {
-        "not_started": {
-          "label": "Não iniciado",
-          "description": "Este erro foi relatado, mas ainda não foi revisado ou trabalhado."
-        },
-        "started": {
-          "label": "Em andamento",
-          "description": "Este erro está sendo investigado ou trabalhado no momento."
-        },
-        "completed": {
-          "description": "Esse erro foi corrigido e a solução está implementada."
-        },
-        "rejected": {
-          "label": "Rejeitado",
-          "description": "Este relatório de erro foi revisado, mas não será endereçado.."
-        }
-      },
-      "discordPrompt": "Você também pode se juntar ao Discord para solicitações de funcionalidades, erros, capturas de tela, gráficos de história e conversas gerais sobre o {{appName}}."
-    },
     "changelog": {
       "empty": "Nenhum registro de alterações foi incluído nesta versão.",
-      "selectEntry": "Selecione um registro de alterações",
       "allVersions": "All versions",
       "releaseHistory": "Release history",
       "otherVersions": "Other versions",
@@ -3527,9 +2945,7 @@
     "wordUsage": {
       "analyzing": "Analyzing text…",
       "analysisError": "Could not analyze this text. Edit the document or reopen Text Insights to retry.",
-      "title": "Uso de palavras",
       "sentences": "Frases",
-      "avgWords": "Média de palavras",
       "avgWordsPerSentence": "Média de palavras/frase",
       "characters": "Caracteres",
       "charactersNoSpaces": "Caracteres, sem espaços",
@@ -3538,22 +2954,16 @@
       "statsLoadFailed": "Could not load text statistics.",
       "showTextStats": "Exibir estatísticas do texto",
       "vocabulary": "Vocabulário",
-      "vocabularyDiversity": "Diversidade de palavras",
-      "uniqueWords": " Palavras únicas",
-      "freshWordsPer100": "{{count}} palavras novas por 100.",
       "per100Words": "por 100 palavras",
-      "uniqueOfTotalWords": "único de {{count}} palavras.",
       "vocabularyHint": "Na ficção, entre 45-70 flui melhor. Menos indica repetição ou excesso de conectivos; mais indica texto denso ou caça a sinônimos.",
       "readabilitySummary": "Com base nos itens abaixo. Textos exigentes podem ter frases longas ou termos técnicos.",
       "fleschReference": "Referência Flesch",
       "fleschReferenceGuide": "Guia de referência Flesch",
       "fleschReferenceHelp": "O Flesch avalia a leitura pelas sílabas e tamanho das frases. Termos técnicos baixam a nota, então compare com o seu público-alvo.",
-      "strengthScore": "Pontuação de esforço",
       "readingEase": "Pontuação de facilidade",
       "readingEaseHelp": "Pontuação Flesch de 0 a 100. Notas maiores indicam leitura rápida; menores indicam texto denso.",
       "gradeLevel": "Nível de escolaridade",
       "gradeLevelHelp": "O Flesch-Kincaid estima a série escolar americana por sílabas e frases. Avalia a densidade, não se o texto é adequado ao seu público.",
-      "estimate": "Estimativa",
       "noReadabilityIssues": "Nenhum item do esforço de leitura para mostrar.",
       "readabilityIssues": {
         "adverbs": "Advérbios",
@@ -3579,14 +2989,11 @@
         "weakWords": "Mostra palavras vagas ou incertas (talvez, algo, parece). Elas podem suavizar a voz narrativa ou deixar margem para dúvida.",
         "strongWords": "Mostra palavras vívidas, precisas ou enérgicas. Use para ver onde o texto tem mais força."
       },
-      "sentenceLength": "Comprimento da frase",
       "flow": "Fluxo",
       "flowHint": "Use o gráfico abaixo para ver como o comprimento da frase varia no texto.",
-      "sentenceRhythm": "Ritmo da frase",
       "sentenceRhythmChartLabel": "Gráfico de ritmo da frase",
       "sentenceRhythmBarLabel": "Frase {{index}}: {{wordCount}} palavras, {{label}}",
       "sentenceLabel": "Frase {{index}}",
-      "sentenceRhythmHint": "Cada barra é uma frase; barras mais altas indicam mais palavras.",
       "noSentences": "Ainda não há frases.",
       "noParagraphs": "Ainda não há parágrafos.",
       "paragraphDensityDotLabel": "Parágrafo {{index}}: {{label}}, {{wordCount}} palavras",
@@ -3646,31 +3053,22 @@
       "averageWords": "{{count}} palavras/média",
       "end": "Fim",
       "paragraphDensity": "Densidade do parágrafo",
-      "paragraphDensityHint": "Cada ponto é um parágrafo; tons mais escuros indicam texto mais denso.",
       "structure": "Estrutura",
       "sentenceOpener": "Abridor de frase",
-      "sentenceOpenerHint": "Qual classe gramatical inicia cada frase",
       "searchPlaceholder": "Pesquisar palavra...",
       "searchAriaLabel": "Pesquisar uso de palavra",
       "saveWordAriaLabel": "Salvar palavra pesquisada",
       "queryCount": "\"{{word}}\" aparece {{count}} vezes",
       "searchHelper": "Busque ou escolha uma palavra comum para ver sua contagem de uso.",
-      "commonWords": "Palavras comuns",
       "frequentWords": "Palavras frequentes",
       "savedWords": "Palavras salvas",
       "noSavedWords": "Ainda não há palavras salvas.",
       "removeSavedWord": "Remover palavra salva {{word}}",
       "help": {
-        "overview": "As contagens são baseadas no texto do editor: palavras, frases detectadas e média de palavras por frase.",
         "vocabulary": "A variedade lexical estima quantas palavras novas e incomuns aparecem a cada 100 palavras. Descreve a textura do texto; não é uma nota de qualidade.",
         "readability": "Um guia aproximado do esforço de leitura do texto, baseado em padrões quantificáveis como comprimento das frases, repetição, voz passiva, advérbios, termos técnicos, palavras vagas e grafias informais. Um texto exigente não é necessariamente pior; o público, o gênero e o propósito importam.",
         "flow": "Cada barra vertical é uma frase, colorida por comprimento. Selecione um tamanho abaixo para destacar as frases correspondentes no editor.",
-        "sentenceLength": "As faixas são marcadores de ritmo do {{appName}}: 1-8, 9-16, 17-24 e 25+ palavras. Elas ajudam a notar o ritmo, não a correção.",
-        "sentenceRhythm": "Cada barra representa uma frase. Trechos longos têm rolagem horizontal para que todas as frases continuem interativas.",
-        "structure": "Densidade baseada em palavras por parágrafo. Inícios de frase usam listas de palavras para analisar como as frases começam.",
-        "paragraphDensity": "Densidade baseada em palavras por parágrafo. 1-25, 26-60, 61-100, e 101+ palavras.",
-        "sentenceOpener": "Os inícios de frase usam heurísticas simples de listas de palavras para pronomes, artigos, conjunções, preposições, advérbios, nomes próprios e outros começos.",
-        "wordUsage": "As palavras frequentes vêm deste projeto, após a filtragem de palavras vazias (stopwords) para o idioma selecionado no corretor ortográfico."
+        "structure": "Densidade baseada em palavras por parágrafo. Inícios de frase usam listas de palavras para analisar como as frases começam."
       },
       "updatingProjectWords": "Updating project vocabulary…",
       "projectWordsError": "Project vocabulary could not be updated. Edit the document or reopen Text Insights to retry."

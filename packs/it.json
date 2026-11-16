@@ -3,53 +3,15 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "eba05beb021a-it",
-  "sourceRevision": "eba05beb021a209a49cc023603e1d3de1a46c504",
+  "version": "a9db88be3c41-it",
+  "sourceRevision": "a9db88be3c411fa61747584e2aab11a6f54c23f0",
   "resources": {
     "chronology": {
-      "conceptList": {
-        "emptyState": "No dates yet",
-        "searchPlaceholder": "Search concepts"
-      },
-      "empty": {
-        "calendarSystem": {
-          "description": "Set up your calendar system to start tracking dates."
-        },
-        "customEras": {
-          "description": "Define eras to organise your timeline.",
-          "title": "Custom eras"
-        },
-        "setup": "Set up chronology",
-        "timelineTracking": {
-          "description": "Track dates and events across your story world.",
-          "title": "Timeline tracking"
-        }
-      },
-      "eventPreview": {
-        "conceptNotFound": "Concept not found",
-        "goTo": "Go to concept",
-        "noConceptDescription": "No concept description",
-        "noDateDescription": "No date description",
-        "relatedEntities": "Related entities"
-      },
-      "minimap": {
-        "addConceptDate": "Add concept date",
-        "moveTimeline": "Move timeline"
-      },
       "quickAdd": {
-        "description": "Quickly add a date to the timeline.",
-        "labelPlaceholder": "Label",
-        "submit": "Add to timeline",
-        "title": "Quick add",
         "addTimelineDate": "Add Timeline Date",
-        "editTimelineDate": "Edit Timeline Date",
         "addDescription": "Pick a concept and confirm the date to add it to the timeline.",
-        "editDescription": "Adjust the date details and save your changes.",
         "labelInputPlaceholder": "e.g., Birth, Founding, Coronation",
         "selectConceptPlaceholder": "Select a concept...",
-        "newEvent": "New event",
-        "loadingDateDetails": "Loading date details...",
-        "couldNotLoadSelectedDate": "Could not load the selected date.",
         "selectEntitiesPlaceholder": "Select concepts and segments..."
       },
       "toolbar": {
@@ -58,26 +20,16 @@
         "exitFullscreen": "Exit fullscreen",
         "navigation": "Chronology navigation",
         "appearance": "Chronology appearance",
-        "jumpLeft": "Jump left",
-        "jumpRight": "Jump right",
-        "panLeft": "Pan left",
-        "panRight": "Pan right",
-        "resetView": "Reset view",
         "zoomIn": "Zoom in",
         "zoomOut": "Zoom out",
         "fitTimeline": "Fit timeline"
-      },
-      "toggleDates": "Toggle dates",
-      "noDatesLinked": "No dates linked yet.",
-      "noDatesLinkedDescription": "Link dates to place this concept in your story's chronology, track important events, and keep its timeline consistent.",
-      "previewSegment": "Preview {{name}}"
+      }
     },
     "timeSystem": {
       "calendar": {
         "beforeMonth": "Before month",
         "events": "Events",
         "formatPreview": "Format preview",
-        "fromYear": "From year",
         "jumpTo": "Jump to",
         "leap": "Leap",
         "moonEvents": {
@@ -89,14 +41,7 @@
         "nextYear": "Next year",
         "previousYear": "Previous year",
         "seasonEnds": "Season ends",
-        "seasonStarts": "Season starts",
-        "untilYear": "Until year",
-        "yearRange": "Year range"
-      },
-      "customDatePicker": {
-        "placeholder": "Enter custom date picker.",
-        "selectEra": "Select era",
-        "setupHint": "Configure your calendar before choosing dates."
+        "seasonStarts": "Season starts"
       },
       "dateFormatDropdown": {
         "description": "Configure date format dropdown.",
@@ -123,23 +68,6 @@
         "specialDayNamePlaceholder": "Special day name",
         "specialDaysDescription": "Create extra days that sit outside the normal months."
       },
-      "duration": {
-        "addSubtract": "Add Subtract",
-        "addToDate": "Add To Date",
-        "amountPlaceholder": "Amount",
-        "betweenDates": "Between Dates",
-        "endDate": "End date",
-        "enterCompleteDateAndAmount": "Enter Complete Date And Amount",
-        "enterCompleteDates": "Enter Complete Dates",
-        "negativeHint": "Negative",
-        "result": "Result",
-        "resultPrefix": "{{value}} {{unit}}",
-        "startDate": "Start date",
-        "startingDate": "Starting date",
-        "swapDates": "Swap dates",
-        "totalDays": "Total Days",
-        "unit": "Unit"
-      },
       "editor": {
         "groups": {
           "calendar": "Calendar"
@@ -152,7 +80,6 @@
         "title": "Time system editor"
       },
       "eras": {
-        "backwardDescription": "Show earlier eras first.",
         "description": "Configure eras.",
         "eraNamePlaceholder": "Era name",
         "forward": "Forward",
@@ -323,7 +250,6 @@
       "addedRemoved": "Added / removed",
       "started": "Started",
       "filesEdited": "Files edited ({{count}})",
-      "segmentOverlap": "Segment overlap",
       "projectServices": "Project services",
       "servicesLabel": "Services",
       "services": {
@@ -355,12 +281,10 @@
       "continue": "Continua",
       "cancel": "Annulla",
       "clear": "Reimposta",
-      "clearSelection": "Clear selection",
       "import": "Importa",
       "export": "Esporta",
       "edit": "Modifica",
       "delete": "Cancella",
-      "more": "Altro",
       "none": "None",
       "off": "Off",
       "on": "On",
@@ -368,14 +292,12 @@
       "maximize": "Massimizza",
       "restore": "Ripristina",
       "refresh": "Aggiorna",
-      "projects": "Progetti",
       "allProjects": "Libreria",
       "newProject": "Nuovo progetto",
       "new": "Nuovo",
       "dashboard": "Studio",
       "gallery": "Galleria",
       "chronology": "Cronologia",
-      "files": "Banco da lavoro",
       "manuscripts": "Manoscritto",
       "collapseAllFolders": "Comprimi tutte le cartelle",
       "expandAllFolders": "Espandi tutte le cartelle",
@@ -384,11 +306,6 @@
       "continueWhereYouLeftOff": "Continua da dove hai lasciato",
       "language": "Lingua",
       "english": "Inglese",
-      "spanish": "Spagnolo",
-      "french": "Francese",
-      "italian": "Italiano",
-      "portuguese": "Portoghese",
-      "norwegian": "Norvegese",
       "selectLanguage": "Seleziona lingua",
       "name": "Nome",
       "description": "Descrizione",
@@ -396,17 +313,12 @@
       "abbreviation": "Abbreviazione",
       "noDescription": "Nessuna descrizione",
       "item": "elemento",
-      "german": "Tedesco",
-      "dutch": "Olandese",
-      "slovak": "Slovacco",
-      "russian": "Russo",
       "save": "Salva",
       "update": "Aggiorna",
       "saving": "Salvataggio in corso...",
       "add": "Aggiungi",
       "confirm": "Conferma",
       "dismiss": "Chiudi",
-      "color": "colore",
       "open": "Apri",
       "openManuscriptView": "Open manuscript view",
       "closeManuscriptView": "Close manuscript view",
@@ -415,11 +327,8 @@
       "concept": "Concetto",
       "segment": "Segmento",
       "relationshipType": "Relationship type",
-      "toggleSection": "Attiva/disattiva {{section}}",
       "completed": "Completati",
       "shared": {
-        "tags": "Tags",
-        "addADescriptionOptional": "Aggiungi una descrizione (facoltativo)",
         "addImage": "Aggiungi immagine",
         "addNote": "Aggiungi nota",
         "addRelationship": "Aggiungi Relazione",
@@ -433,7 +342,6 @@
         "backups": "Backup",
         "backward": "Indietro",
         "beforeFirstMonth": "Prima del primo mese",
-        "bugReports": "Segnalazioni di bug",
         "calendarSystem": "Sistema di calendario",
         "cartography": "Cartografia",
         "changelog": "Changelog",
@@ -446,14 +354,12 @@
         "content": "Contenuto",
         "archive": "Archive",
         "create": "Crea",
-        "createMyOwnTheme": "Crea un mio tema",
         "createType": "Crea tipo",
         "created": "Creato",
         "custom": "Personalizzato",
         "customDays": "Giorni personalizzati",
         "dashed": "Tratteggiato",
         "dateFormat": "Formato data",
-        "dates": "Date",
         "day": "Giorno",
         "daysPerYear": "Giorni per anno",
         "deadline": "Scadenza",
@@ -464,12 +370,9 @@
         "deleteTag": "Elimina Tag",
         "deleteType": "Elimina Tipo",
         "deleteCount": "Elimina {{name}}",
-        "deletedItems": "Elementi Eliminati",
         "dictionary": "Vocabolario",
-        "discord": "Discord",
         "downloading": "Download in corso...",
         "editType": "Modifica tipo",
-        "emptySpace": "Spazio vuoto",
         "era": "Era",
         "externalLinks": "Link Esterni",
         "folder": "Cartella",
@@ -497,7 +400,6 @@
         "noEstimate": "Nessuna stima",
         "noImagesFound": "Nessuna immagine trovata",
         "noSegmentsYet": "Ancora nessun segmento",
-        "noTimelineYet": "Ancora nessuna timeline",
         "noType": "Nessun tipo",
         "none": "Nessuno",
         "notSetUp": "Non configurato",
@@ -518,8 +420,6 @@
         "scope": "Ambito",
         "searchSegments": "Cerca segmenti...",
         "seasons": "Stagioni",
-        "selectDateOrRange": "Seleziona data o intervallo",
-        "setUpTheTimeSystemFirst": "Configura prima il sistema temporale.",
         "short": "Corto",
         "showLabels": "Mostra etichette",
         "showLess": "Mostra di meno",
@@ -532,11 +432,8 @@
         "studio": "Studio",
         "time": "Tempo",
         "timer": "Timer",
-        "title": "Titolo",
         "titleSize": "Dimensione titolo",
         "titleSpacing": "Spaziatura titolo",
-        "toggleSidebarCount": "Attiva/disattiva barra laterale ({{shortcut}})",
-        "totalWords": "Parole totali",
         "turnInto": "Trasforma in",
         "types": "Tipi",
         "updatedCount": "Aggiornato {{time}}",
@@ -548,12 +445,10 @@
         "years": "Anni",
         "yourName": "Il tuo nome",
         "countActiveDaysAheadAtThis": "{{count}} giorni attivi a questo ritmo.",
-        "countDates": "{{count}} date",
         "countFilesStillParsing": "{{count}} file ancora da analizzare",
         "countItemsPermanentlyDeleted": "{{count}} elementi eliminati definitivamente",
         "countItemsRestored": "{{count}} elementi ripristinati",
         "countMoreFilesWaitingAfterThis": "{{count}} altri file in attesa dopo questo",
-        "countRelationshipsAcrossDirectSegments": "{{count}} relazioni tra segmenti diretti.",
         "and": "e",
         "insertBlock": "Inserisci blocco",
         "createBlock": "Crea blocco",
@@ -561,10 +456,7 @@
         "addAttribute": "Aggiungi un attributo",
         "titleFont": "Carattere del titolo",
         "commandPalette": "Palette dei comandi",
-        "reportABug": "Segnala un bug",
-        "deleteManuscript": "Elimina manoscritto",
         "addSegment": "Aggiungi segmento",
-        "removeEntry": "Rimuovi elemento",
         "notAvailable": "n/d",
         "backgroundImage": "Background image",
         "headerImage": "Header image",
@@ -596,8 +488,6 @@
       "workspaceName": "Nome del workspace",
       "fontSize": "Dimensioni carattere",
       "justify": "Giustifica",
-      "left": "Sinistra",
-      "center": "Centro",
       "long": "Lungo",
       "position": "Posizione",
       "eras": "Ere",
@@ -608,12 +498,13 @@
       "words": "parole",
       "count": {
         "words": "{{count}} parole",
-        "ready": "{{count}}% pronto",
         "imported": "{{count}} importati"
       },
       "status": {
         "importing": "Importando"
-      }
+      },
+      "left": "Sinistra",
+      "center": "Centro"
     },
     "table": {
       "clearFilter": "Rimuovi filtro",
@@ -633,7 +524,6 @@
         "resetSidebarToDefaultSize": "Ripristina la dimensione predefinita della barra laterale"
       },
       "concept": {
-        "expandImage": "Espandi immagine",
         "positionImage": "Posizione immagine",
         "addOrChangeImage": "Aggiungi/Cambia immagine",
         "removeImage": "Rimuovi immagine"
@@ -666,12 +556,7 @@
         }
       },
       "sidebar": {
-        "filterOnTags": "Filtra sui tag",
-        "workbench": "Segmenti e concetti per costruire la tua storia."
-      },
-      "graph": {
-        "hideAllLabels": "Nascondi etichette",
-        "expandGraph": "Espandi grafico"
+        "filterOnTags": "Filtra sui tag"
       },
       "relationship": {
         "swapSourceTarget": "Scambia origine e destinazione"
@@ -701,23 +586,12 @@
         "underline": "Sottolineato",
         "strikethrough": "Barrato",
         "textColor": "Colore del testo",
-        "highlightColor": "Colore evidenziazione",
         "clearFormatting": "Rimuovi formattazione",
-        "linkEntity": "Link entità",
-        "boldShortcut": "Grassetto ({{shortcut}})",
-        "italicShortcut": "Corsivo ({{shortcut}})",
-        "underlineShortcut": "Sottolineato ({{shortcut}})",
-        "searchShortcut": "Cerca (Ctrl + F)",
-        "undoShortcut": "Annulla (Ctrl+Z)",
-        "redoShortcut": "Ripristina (Ctrl+Maiusc+Z)",
         "searchPlaceholder": "Cerca...",
         "replaceWithPlaceholder": "Sostituisci con...",
-        "previousShiftEnter": "Precedente (Shift+Enter)",
-        "nextEnter": "Successivo (Enter)",
         "caseSensitive": "Distingui Maiuscole",
         "matchWholeWord": "Corrispondenza parola intera",
         "showReplace": "Mostra Sostituzione",
-        "closeEsc": "Chiudi (Esc)",
         "replaceCurrent": "Sostituisci attuale",
         "replaceAll": "Sostituisci tutti"
       }
@@ -804,29 +678,13 @@
     "concept": {
       "color": "Concept colour",
       "pickColorFromScreen": "Pick colour from anywhere on screen",
-      "screenPickerUnavailable": "Screen colour picking is unavailable on this system",
       "screenPickerFailed": "Could not pick a screen colour. Try again or enter a hex colour.",
       "typeSelector": {
         "removeType": "Remove type"
       },
-      "typeTree": {
-        "title": "Type Hierarchy",
-        "emptyDescription": "No types yet. Types help organise your concepts into categories.",
-        "newTypeName": "New Type",
-        "addSubtype": "Add subtype"
-      },
       "dateEditor": {
-        "noDateSet": "No date set",
         "deleteDateTitle": "Delete Date",
-        "deleteDateDescription": "Are you sure you want to delete \"{{label}}\"? This action cannot be undone.",
-        "noCalendarSystemConfigured": "No calendar system configured",
-        "configureCalendar": "Configure Calendar"
-      },
-      "dateEditorDialog": {
-        "editDateTitle": "Edit Date",
-        "addDateDescription": "Add a new date to track important moments.",
-        "editDateDescription": "Edit the date details.",
-        "labelPlaceholder": "e.g., Birth, Founded, Reign"
+        "deleteDateDescription": "Are you sure you want to delete \"{{label}}\"? This action cannot be undone."
       },
       "aliases": {
         "howItWorksTitle": "How aliases and concept linking work",
@@ -850,19 +708,11 @@
       "sidebar": {
         "tabs": {
           "details": "Details",
-          "versions": "Versions",
           "wordUsage": "Text Insights"
-        },
-        "layout": {
-          "releaseToShow": "Release to show",
-          "dropToShow": "Drop here to show section",
-          "hidden": "Hidden",
-          "releaseToHide": "Release to hide"
         }
       },
       "imageSelector": {
         "imageAriaLabel": "Concept image",
-        "expandImageAriaLabel": "Expand concept image",
         "positionImageAriaLabel": "Position concept image",
         "done": "Done",
         "donePositioningAriaLabel": "Done positioning concept image",
@@ -943,10 +793,8 @@
         "linkedByMentions": "Linked by mentions in your writing",
         "sharedSegments": "Shared segments",
         "openSegment": "Open segment {{id}}",
-        "readEntity": "Read {{name}}",
         "directMentionEvidence": "This connection comes from mentions.",
         "connect": "Create relationship",
-        "hideEvidence": "Hide evidence",
         "viewEvidence": "View evidence",
         "currentEntity": "Current entity",
         "mention": "Mention",
@@ -954,7 +802,6 @@
         "mentionCount_one": "{{count}} mention",
         "segmentOverlap": "Segment overlap",
         "showConnectionsFor": "Show connections for {{name}}",
-        "sharedSegmentEvidence": "Shared segment evidence",
         "outgoingMentions": "Mentions ({{count}})",
         "incomingMentions": "Mentioned in ({{count}})",
         "mentions": "Mentions",
@@ -970,50 +817,27 @@
         "suggestedConnections": "Suggested connections",
         "dialogueInteraction": "Dialogue interaction",
         "relationshipState": "Relationship",
-        "dialogueCounts": "Conversations with repeated alternation: {{repeated}} · Conversations with interrupted alternation: {{interrupted}} · Unknown dialogue gaps: {{gaps}}",
         "conversationEvidence": "Conversations",
-        "savedDialogueEvidence": "From saved dialogue, in segment and document order.",
         "dialogueLoading": "Loading conversations…",
         "dialogueRetry": "Could not load conversations. Retry",
         "dialogueIncomplete": "Some segments could not be read. This conversation list may be incomplete.",
         "noConversations": "No conversations available.",
         "unassignedSpeaker": "Unassigned",
         "unknownSpeaker": "Unknown speaker",
-        "openEvidenceSegment": "Open segment",
-        "previousEvidence": "Previous",
-        "nextEvidence": "Next",
-        "evidencePage": "{{start}}–{{end}} of {{total}}",
-        "dialogueLevel": {
-          "adjacency": "Adjacent speaker change",
-          "repeated-alternation": "Repeated alternation",
-          "interrupted-alternation": "Interrupted alternation"
-        },
         "dialogueConversations": "{{count}} conversations",
-        "dialogueChanges": "{{count}} direct speaker changes",
         "dialogueSegments": "{{count}} segments",
         "dialogueConversations_one": "{{count}} conversation",
         "dialogueConversations_other": "{{count}} conversations",
-        "dialogueChanges_one": "{{count}} direct speaker change",
-        "dialogueChanges_other": "{{count}} direct speaker changes",
         "dialogueSegments_one": "{{count}} segment",
         "dialogueSegments_other": "{{count}} segments",
-        "dialogueConsecutive_one": "Their dialogue appears consecutively once.",
-        "dialogueConsecutive_other": "Their dialogue appears consecutively {{count}} times.",
-        "dialogueThread": "Dialogue thread",
         "threadBetween": "Thread between {{first}} and {{second}}",
         "dialogueTogether": "Shared {{conversations}} across {{segments}}.",
-        "dialogueBackAndForth_one": "They have back-and-forth dialogue in {{count}} conversation.",
-        "dialogueBackAndForth_other": "They have back-and-forth dialogue in {{count}} conversations.",
-        "dialogueContinues_one": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversation.",
-        "dialogueContinues_other": "Their conversation continues across brief narration or unassigned dialogue in {{count}} conversations.",
         "dialogueUnassigned": "Some dialogue has no speaker assigned.",
         "hideDetails": "Hide details",
         "hideThread": "Hide thread from graph",
         "restoreThreads": "Show hidden threads",
         "threadActions": "More actions",
-        "openConcept": "Open concept",
         "openInSegment": "Open in segment",
-        "singleEvidencePage": "{{start}} of {{total}}",
         "conversationNumber": "Conversation {{count}}",
         "moreConversations_one": "(and {{count}} more conversation)",
         "moreConversations_other": "(and {{count}} more conversations)"
@@ -1022,42 +846,11 @@
       "reorderGroup": "Reorder relationship group"
     },
     "dashboard": {
-      "loadingGraph": "Loading graph...",
       "continueEditing": "Continue editing",
       "noSegmentsCreated": "No segments created",
       "noConceptsCreated": "No concepts created",
-      "wordBreakdown": "Word Breakdown",
-      "wordsInSegments": "words in {{count}} segments",
-      "wordsInConcepts": "words in {{count}} concepts",
       "writingInsights": "Writing Insights",
-      "readingTime": "Reading Time",
-      "mostProductiveDay": "Most Productive Day",
-      "activeDays": "Active Days",
-      "estimatedReadingTime": "estimated reading time",
-      "yourBestWritingDay": "your best writing day",
-      "daysWithContinuousWritingActivity": "days with continuous writing activity",
       "minShort": "min",
-      "minRead": "min read",
-      "notAvailable": "N/A",
-      "storySegments": "story segments",
-      "storyBalance": "Story Balance",
-      "completionProgress": "Completion Progress",
-      "conceptsWithDates": "Concepts with Dates",
-      "conceptsWithRelationships": "Concepts with Relationships",
-      "of": "of",
-      "dailyWordDiff": {
-        "title": "Today's words added and removed",
-        "wordsToday": "Words today",
-        "activity": "Activity",
-        "noActivityYet": "No activity yet",
-        "writingActivityFor": "Writing activity for {{date}}",
-        "addedRemoved": "Added / removed",
-        "changedToday": "Changed today",
-        "writingActivity": "Writing activity",
-        "wordsTouched": "{{count}} words touched",
-        "goalMetToday": "Goal met (+{{value}})",
-        "toGoal": "{{value}} to goal"
-      },
       "wordCountCalendar": {
         "title": "Daily word count",
         "loading": "Loading calendar...",
@@ -1075,25 +868,12 @@
       "goal": {
         "title": "Project goal",
         "description": "Set a word target and deadline to track required daily pace.",
-        "optionalDescription": "Goals are optional. Add a word target when you want pace tracking.",
         "wordGoal": "Word goal",
         "activeDays": "Active writing days",
         "remainingWords": "Remaining words",
-        "activeDaysLeft": "Active days left",
-        "requiredPerDay": "Required per day",
-        "wordsPerDay": "words/day",
-        "complete": "Goal reached.",
-        "onTrack": "Pace calculated from remaining active days.",
-        "waitingDeadline": "Set a deadline to calculate required pace.",
-        "successfulWeek": "Successful writing days",
-        "bonusCongrats": "Bonus writing day on {{dayName}}. Great extra momentum!",
-        "successOnDay": "Great writing on {{dayName}}.",
-        "dailyAverage": "Daily average",
-        "behindBy": "{{count}} active days behind at this pace. Increase your daily words to catch up."
+        "complete": "Goal reached."
       },
       "smartGraph": {
-        "percentDone": "{{count}}% done",
-        "daysWriting": "{{count}} days writing",
         "writtenSoFar": "Written so far",
         "onTimePace": "On-time pace",
         "currentPace": "Your current pace",
@@ -1107,14 +887,9 @@
         "noDeadlineGoalSummary": "{{remaining}} words left. About {{days}} writing days at your current pace.",
         "noDeadlineNeedsActivitySummary": "{{remaining}} words left. Add writing activity to estimate your finish date.",
         "noGoalSummary": "You are averaging {{average}} words on days with writing activity.",
-        "yourPace": "Your pace",
-        "projectedFinish": "Projected finish",
-        "writingDaysToGoal": "Writing days to goal",
-        "notEnoughData": "Not enough data",
         "perDay": "/day",
         "thisWeek": "This week",
         "daysWritingLabel": "Days writing",
-        "goalWords": "Goal {{count}} words",
         "adjustGoal": "Adjust goal",
         "noGoal": "No goal — just writing",
         "setGoal": "Set a goal"
@@ -1122,8 +897,6 @@
     },
     "overview": {
       "stories": "Stories",
-      "continueWriting": "Continue writing",
-      "openStory": "Open Story",
       "classicView": "Classic view",
       "background": "Background",
       "newStory": "New Story",
@@ -1186,7 +959,6 @@
         "shareSnippet": "Share Snippet",
         "createLink": "Create Link",
         "createConcept": "Create concept from selection",
-        "conceptType": "Concept type",
         "blockName": "Block name",
         "pressEnterToSave": "Press Enter to save",
         "searchConceptsOrSegments": "Search concepts or segments...",
@@ -1230,11 +1002,9 @@
         "insertSavedBlockContent": "Insert saved block content"
       },
       "spellcheck": {
-        "unavailableReadOnly": "Spell check is unavailable in read-only mode",
         "suggestionsFor": "Suggestions for \"{{word}}\"",
         "noSuggestionsFor": "No suggestions for \"{{word}}\"",
-        "addToDictionary": "Add to Dictionary",
-        "noErrorsDetected": "No spelling errors detected"
+        "addToDictionary": "Add to Dictionary"
       },
       "alignment": {
         "trigger": "Text alignment"
@@ -1303,12 +1073,9 @@
     "segment": {
       "notes": {
         "createNote": "Create Note",
-        "noNotesYet": "No notes yet.",
         "emptyDescription": "Notes are a great way to keep track of ideas and thoughts and make sure you do not forget important details.",
         "deleteTitle": "Delete Note",
-        "deleteDescription": "Are you sure you want to delete this note? This action cannot be undone.",
-        "expandAction": "Expand note",
-        "emptyNote": "Empty note"
+        "deleteDescription": "Are you sure you want to delete this note? This action cannot be undone."
       }
     },
     "segmentGraph": {
@@ -1327,38 +1094,18 @@
       "pan": "Pan graph"
     },
     "outline": {
-      "loading": "Loading outline…",
-      "error": "The outline could not be loaded.",
-      "totalTodos": "Total todos",
-      "empty": "Add a segment or folder from the graph to begin outlining your story.",
-      "outlineTodos": "Outline todos",
-      "noTodos": "No todos yet.",
-      "noRelationships": "No relationships yet."
+      "error": "The outline could not be loaded."
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
       "openSegment": "Open segment",
       "addReferenceImage": "Add reference image",
       "addReferenceImageTo": "Add reference image to {{name}}",
-      "noteStoryBeatTooltip": "Notes act as story beats for your story",
       "addRelationshipTo": "Add relationship to {{name}}",
-      "completedCount": "{{count}} completed",
-      "editSegmentTitle": "Edit segment title: {{name}}",
       "markComplete": "Mark {{name}} complete",
-      "markIncomplete": "Mark {{name}} incomplete",
-      "noOpeningText": "No opening text yet.",
-      "noSegmentsDescription": "Create the first segment in this folder to start shaping its story timeline.",
-      "noTasksOnSegment": "No tasks on this segment yet.",
-      "noDatedFiles": "No dated files yet.",
-      "noneYet": "None yet",
-      "relationshipsAcrossSegments_one": "{{count}} relationship across direct segments.",
-      "folderSidebar": "Folder sidebar",
-      "storyMap": "Story map",
-      "totalCount": "{{count}} total",
-      "viewMore": "View {{count}} more"
+      "markIncomplete": "Mark {{name}} incomplete"
     },
     "topbarSettings": {
-      "tooltip": "View settings",
       "font": "Font",
       "editorWidth": "Editor width",
       "textWeight": "Text weight",
@@ -1367,13 +1114,6 @@
       "backgroundColor": "Background colour",
       "image": "Image",
       "textColor": "Text colour",
-      "widthTooltip": "Width: {{mode}}",
-      "fontSizeTooltip": "Font size: {{mode}}",
-      "titleSizeTooltip": "Title size: {{mode}}",
-      "lineHeightTooltip": "Line height: {{mode}}",
-      "paragraphSpacingTooltip": "Paragraph spacing: {{mode}}",
-      "titleSpacingTooltip": "Title spacing: {{mode}}",
-      "textAlignTooltip": "Text align: {{mode}}",
       "showScrollbar": "Show scrollbar",
       "showDocumentOutline": "Show document outline",
       "showReferences": "Show references and backlinks",
@@ -1402,14 +1142,7 @@
       },
       "modes": {
         "serif": "Serif",
-        "mono": "Mono",
-        "tight": "Tight",
-        "flush": "Flush",
-        "regular": "Regular",
-        "wide": "Wide",
-        "small": "Small",
-        "large": "Large",
-        "relaxed": "Relaxed"
+        "mono": "Mono"
       },
       "toasts": {
         "exportWordSuccess": "Document exported to Word successfully",
@@ -1436,7 +1169,6 @@
         "quotes": "Quotes",
         "raya": "Raya"
       },
-      "inheritBackground": "Inherit background",
       "background": "Background",
       "backgroundImage": "Background image",
       "blur": "Blur",
@@ -1488,9 +1220,6 @@
     "kanban": {
       "settings": {
         "ariaLabel": "Kanban view settings",
-        "title": "Board settings",
-        "list": "List",
-        "board": "Board",
         "showEmptyColumns": "Show empty columns",
         "showNestedNotes": "Show nested notes",
         "boardVisibility": "Board visibility",
@@ -1508,28 +1237,19 @@
         "actionsAria": "Actions for {{title}}",
         "removeFromBoard": "Remove from board",
         "editTagsAria": "Edit tags on {{entityType}} {{entityId}}",
-        "filterTags": "Filter tags",
         "noMatchingTags": "No matching tags",
         "nestedNotes": "Nested notes",
         "conceptFallback": "Concept #{{id}}",
         "segmentFallback": "Segment #{{id}}",
         "noContent": "No content",
         "openLinkedEntity": "Open linked {{entityType}} {{name}}",
-        "dragNoteAria": "Drag note {{id}}",
-        "dragEntityAria": "Drag {{entityType}} {{id}}",
         "deleted": "{{type}} deleted.",
         "deleteTitle": "Delete {{type}}",
         "deleteDescription": "Are you sure you want to delete this item? This action cannot be undone.",
         "deleteFailed": "Could not delete this card."
       },
       "list": {
-        "noMatchingItems": "No matching items",
-        "noAvailableItems": "No available items",
-        "newNote": "New note",
-        "existingNotes": "Existing notes",
-        "existingConcepts": "Existing concepts",
-        "existingSegments": "Existing segments",
-        "existingImages": "Existing images"
+        "newNote": "New note"
       },
       "dialog": {
         "placeholder": "Write your note"
@@ -1540,101 +1260,19 @@
       "readFullScreen": "Read manuscript full screen",
       "cover": {
         "title": "Cover",
-        "add": "Add cover",
-        "emptyDescription": "Add a cover image to include it in EPUB and PDF exports."
-      },
-      "segmentPicker": {
-        "title": "Add Segment to Manuscript",
-        "selectSegment": "Select Segment",
-        "adding": "Adding...",
-        "addSegment": "Add Segment"
+        "add": "Add cover"
       },
       "preview": {
         "empty": "Create a manuscript to start organizing your draft.",
         "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
-        "title": "Format manuscript",
-        "customise": "Format yourself",
-        "preset": "Preset",
-        "basedOn": "Based on",
-        "typography": "Typography & layout",
-        "contentWidth": "Content width",
-        "paragraph": "Paragraph behaviour",
-        "indentFirstParagraph": "Indent first paragraph",
-        "indentAfterHeadings": "Indent after headings",
-        "firstLineIndent": "First-line indent",
-        "paragraphSpacingPercentage": "Paragraph spacing percentage",
-        "align": {
-          "right": "Right"
-        },
-        "presets": {
-          "writality": {
-            "description": "No extra formatting. Exports keep the editor styling."
-          },
-          "book_manuscript": {
-            "label": "Book manuscript format",
-            "description": "Industry-standard manuscript formatting for publisher and agent submissions."
-          },
-          "classic_manuscript": {
-            "label": "Classic manuscript",
-            "description": "Traditional submission style inspired by Shunn manuscript format."
-          },
-          "web_novel": {
-            "label": "Web novel",
-            "description": "Episode-friendly spacing influenced by Tapas web reading norms."
-          },
-          "screenplay": {
-            "label": "Screenplay",
-            "description": "Courier-based screenplay baseline consistent with Nicholl expectations."
-          },
-          "poetry": {
-            "label": "Poetry",
-            "description": "Rhythm-first spacing for stanza legibility and pacing."
-          },
-          "kindle_reflowable": {
-            "label": "Kindle reflowable",
-            "description": "Reflowable ebook-oriented defaults based on KDP guidance."
-          }
-        },
-        "emptySpaceAfterSegments": "Add page break after every segment",
-        "bundledFontLabel": "{{font}} (Bundled)",
-        "helpFor": "Help for {{label}}",
-        "textColumnWidth": "Text column width",
-        "indentBodyParagraphs": "Indent first line of body paragraphs",
-        "indentFirstSegmentParagraph": "Indent first paragraph in each segment",
-        "indent": "Indent",
-        "runningHeaderFooter": "Running header/footer",
-        "availableTokens": "Available tokens (exports + paginated view)",
-        "runningTextTokenHelpPrefix": "Type your name, pen name, or any other text directly in the header or footer fields. Only",
-        "runningTextTokenHelpSuffix": "are replaced automatically.",
-        "header": "Header",
-        "footer": "Footer",
-        "enableRunningHeader": "Enable running header",
-        "enableRunningFooter": "Enable running footer",
-        "runningHeaderText": "Running header text",
-        "runningFooterText": "Running footer text",
-        "alignment": "Alignment",
-        "runningHeaderDisabled": "Running header is disabled.",
-        "runningFooterDisabled": "Running footer is disabled.",
-        "titleStyles": "Title styles",
-        "titlePreview": "Chapter One",
         "fontWeights": {
           "light": "Light (300)",
           "regular": "Regular (400)",
           "medium": "Medium (500)",
           "semibold": "Semibold (600)",
           "bold": "Bold (700)"
-        },
-        "hints": {
-          "fontSize": "Body text size in points",
-          "lineHeight": "Space between lines of text",
-          "textColumnWidth": "Width of the manuscript body text area",
-          "indent": "First-line indent applied to indented paragraphs",
-          "paragraphSpacing": "Extra space between paragraphs",
-          "runningText": "Use {page} for the page number and {title} for the manuscript name. Add your name or any other wording as plain text. Alignment controls where this line sits on the page (paginated view, PDF, HTML, and Word).",
-          "titleSize": "Size of manuscript and segment titles",
-          "titleSpacing": "Space between chapter/segment title and following text"
         }
       }
     },
@@ -1649,7 +1287,6 @@
         "marker": "Note marker"
       },
       "spriteList": {
-        "close": "Close sprite list",
         "empty": "No sprites placed yet.",
         "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
       },
@@ -1678,13 +1315,9 @@
         "newMap": "New Map",
         "exportMap": "Export map",
         "deleteMap": "Delete map",
-        "hideSpriteList": "Hide sprite list",
-        "showSpriteList": "Show sprite list",
         "movePin": "Move..."
       },
       "layers": {
-        "drawing": "Drawing",
-        "interactive": "Interactive",
         "artTooltip": "Draw and edit the core map",
         "interactiveTooltip": "Edit interactive map elements",
         "regionsAboveSprites": "Regions draw above sprites",
@@ -1727,15 +1360,7 @@
     },
     "graph": {
       "mapCreate": {
-        "title": "Create new map",
-        "changeImage": "Change",
-        "selectImage": "Select Image",
-        "mapName": "Map Name",
-        "mapNamePlaceholder": "Enter map name",
-        "descriptionOptional": "Description (optional)",
-        "descriptionPlaceholder": "Describe this map (optional)",
-        "creating": "Creating...",
-        "createMap": "Create Map"
+        "mapName": "Map Name"
       },
       "empty": {
         "description": "Create concepts with relationships to see the graph"
@@ -1752,17 +1377,10 @@
         "success": "Graph image exported",
         "failure": "Could not export graph image"
       },
-      "selectedNode": {
-        "title": "Selected Node",
-        "clickNodeHint": "Click a node in the graph to view its details",
-        "notFound": "Node not found",
-        "noContentYet": "This concept has no content yet. Click above to open and start editing."
-      },
       "preferences": {
         "tooltip": "Graph preferences",
         "close": "Close graph preferences",
         "display": "Display",
-        "advanced": "Advanced",
         "arrows": "Arrows",
         "showConcepts": "Show concepts",
         "showSegments": "Show segments",
@@ -1773,16 +1391,7 @@
         "nodeSize": "Node size",
         "nodeBorderRadius": "Node border radius",
         "linkThickness": "Link thickness",
-        "lineType": "Line type",
-        "forces": "Forces",
-        "centreForce": "Centre force",
         "centerForce": "Centring force",
-        "axisForceX": "Axis force X",
-        "axisForceY": "Axis force Y",
-        "radialForce": "Radial force",
-        "orbit": "Orbit",
-        "orbitOuterRadius": "Orbit outer radius",
-        "orbitStrength": "Orbit strength",
         "repelForce": "Repel force",
         "chargeDistance": "Charge distance",
         "linkForce": "Link force",
@@ -1793,23 +1402,7 @@
           "toggleDetails": "Toggle group details",
           "groupName": "Group name",
           "matchBy": "Match by",
-          "matchValue": "Select value",
-          "queryPlaceholder": "Enter query...",
-          "queryHelp": "Query operators: type:, tag:, name:, id:, or plain text.",
-          "searchOptions": "Search options",
-          "optionType": "match concept type",
-          "optionTag": "match concept tag/label",
-          "optionName": "match concept name text",
-          "optionId": "match exact concept id",
-          "optionPlain": "plain text matches concept name",
-          "examples": "Examples: type:character tag:allied, name:king, id:42",
-          "clusterStrength": "Cluster strength (stick together)",
-          "clusterRadius": "Cluster radius (how wide the group is)",
-          "repelStrength": "Enemy repel strength",
-          "repelDistance": "Enemy repel distance",
-          "hostility": "Enemy groups",
-          "hostilityStrength": "Hostility strength",
-          "hostilityDistance": "Minimum separation distance"
+          "matchValue": "Select value"
         },
         "filters": {
           "title": "Filters",
@@ -1895,7 +1488,6 @@
     },
     "navigation": {
       "world": "World",
-      "openSettings": "Open Settings",
       "addPage": "Add page",
       "searchPages": "Search pages to add",
       "scrollForMorePages": "Scroll for more pages",
@@ -1914,7 +1506,6 @@
       "goForward": "Go forward",
       "breadcrumb": "Breadcrumb",
       "goToFolder": "Go to folder {{name}}",
-      "configureTimeSystem": "Configure Time System",
       "untitledConcept": "Untitled concept",
       "untitledSegment": "Untitled segment",
       "untitledNote": "Untitled note"
@@ -1922,11 +1513,6 @@
     "tabs": {
       "openTab": "Open tab {{name}}",
       "closeTab": "Close tab {{name}}",
-      "reorderTab": "Reorder tab {{name}}",
-      "reorderInstructions": "Press Space to pick up a tab, use the arrow keys to move it, then press Space to drop it.",
-      "splitView": "This tab contains split view",
-      "exitSplitView": "Exit split view in this tab",
-      "loadingPane": "Loading pane...",
       "loadingConcept": "Loading concept...",
       "loadingSegment": "Loading segment...",
       "loadingFolder": "Loading folder..."
@@ -1942,10 +1528,8 @@
         "confirmHide": "Hide ({{count}})"
       },
       "preview": {
-        "loading": "Loading preview...",
         "empty": "No content yet."
       },
-      "options": "Options",
       "tags": {
         "menuLabel": "Tag visibility options for {{scope}}",
         "optionsMenuLabel": "Tag and word count options for {{scope}}",
@@ -2067,14 +1651,8 @@
         "editImage": "Edit {{entity}} banner image"
       }
     },
-    "coming_soon": {
-      "title": "Coming soon",
-      "description": "This section is not available yet."
-    },
     "setup": {
       "recovery": {
-        "startupFailed": "Writality opened in recovery mode because startup failed. You can reselect or restore your workspace below.",
-        "windowCrashed": "The main window crashed. Recovery mode is open so you can restore your workspace.",
         "saveCrashDetails": "Save crash details",
         "diagnosticsSaved": "Saved diagnostics to {{path}}",
         "diagnosticsFailed": "Could not save diagnostics. Please try again."
@@ -2155,64 +1733,26 @@
       },
       "search": {
         "placeholder": "Search settings",
-        "clear": "Clear settings search",
         "noResults": "No settings match \"{{query}}\""
       },
-      "emailSupport": "Email support at {{supportEmail}}",
-      "helpPrompt": "Need help or want to talk?"
-    },
-    "discordInvite": {
-      "eyebrow": "{{appName}} Discord",
-      "title": "Come show me what you are building ;)",
-      "description": "Bugs and feature requests are still welcome in the app, but Discord is the better place for in-depth discussions: screenshots, story graphs, questions, bugs that require more details, tiny wins, and the ideas that may require a back and forth."
-    },
-    "discordSettings": {
-      "description": "Share feedback, bugs, feature requests, stories, and graphs.",
-      "featureRequests": {
-        "title": "Feature requests",
-        "description": "The app form is useful, but in case we need more we have Discord now. We can talk through the shape of features and share reference images."
-      },
-      "bugsWithContext": {
-        "title": "Bugs with context",
-        "description": "Some bugs need a screenshot, a short back-and-forth, or the exact shape of a workspace. This gives us room for that."
-      },
-      "showAndTell": {
-        "title": "Show-and-tell",
-        "description": "I keep building graph and story tools because I want people to use them for strange, specific, beautiful projects. Please show me."
-      }
+      "emailSupport": "Email support at {{supportEmail}}"
     },
     "supportSettings": {
       "navigationLabel": "Support {{appName}}",
       "title": "Support {{appName}}",
-      "eyebrow": "Optional support",
       "heroTitle": "Creativity must be free.",
-      "heroDescription": "Writing, worldbuilding, map-making, and storytelling should be available to everyone. {{appName}}'s core features will stay free, with no feature lock and no maps hidden behind a tier.",
-      "promiseTitle": "What your support changes",
-      "promiseDescription": "If you choose to donate, your support gives me more time to improve the app, polish what is already here, and get {{appName}} into more writers' hands.",
-      "moreTimeTitle": "More time to build",
-      "moreTimeDescription": "More features, thoughtful polish, and room to pay down technical debt.",
-      "costsTitle": "Practical costs",
-      "costsDescription": "Help with essentials such as signing the Windows app and keeping the project moving.",
-      "ctaTitle": "If you can help",
-      "ctaDescription": "You can support {{appName}} directly through Patreon. Every contribution helps, but using the app will never depend on one.",
-      "accessDescription": "If donating is comfortable for you, please feel free. Your support helps keep {{appName}} a wonderful free app for writers who cannot afford paid tools. Please never stretch your budget. Remember even $1 is a lot of money in many parts of the world.",
-      "cta": "Support on Patreon",
-      "optional": "Completely optional. {{appName}} remains free either way."
+      "cta": "Support on Patreon"
     },
     "workspace": {
       "editorAppearance": {
-        "customValue": "Custom {{label}}",
         "background": "Background",
         "typography": "Typography",
         "imageFit": "Image fit",
         "previewDescription": "Preview how your editor will look",
-        "description": "Customise editor backgrounds and labels.",
-        "switchTo": "Switch view",
         "title": "Editor appearance"
       },
       "theme": {
         "title": "Theme",
-        "description": "Choose light, dark, or system appearance and a palette for each mode.",
         "mode": {
           "title": "Appearance mode",
           "description": "System follows your computer's light and dark appearance.",
@@ -2221,32 +1761,15 @@
           "system": "System",
           "palette": "palette"
         },
-        "showLess": "Show Less",
-        "browseAll": "Browse All {{count}} Themes",
         "customTheme": {
           "import": "Import theme",
-          "description": "Name your theme, tune the colour classes, and preview how common app UI will look.",
           "name": "Theme name",
-          "save": "Save theme",
           "saved": "Theme saved",
           "deleted": "Theme deleted",
           "imported": "Theme imported",
           "exported": "Theme exported",
-          "conflict": "Theme name conflicts with an existing theme",
-          "defaultName": "My Theme",
-          "defaultSlug": "my-theme",
-          "saveError": "Failed to save theme",
           "errors": {
-            "nameRequired": "Theme name is required.",
-            "nameConflictsBundled": "Theme name conflicts with a bundled theme.",
-            "nameExists": "Theme name already exists."
-          },
-          "groups": {
-            "core": "Core",
-            "border": "Borders & Inputs",
-            "sidebar": "Primary Sidebar",
-            "secondarySidebar": "Secondary Sidebar",
-            "editor": "Editor & Labels"
+            "nameRequired": "Theme name is required."
           },
           "export": "Export {{name}}",
           "saveNew": "Save as new theme",
@@ -2279,12 +1802,6 @@
           },
           "options": {
             "roundedness": "Roundedness",
-            "writalityBackground": {
-              "label": "Writality background",
-              "description": "Shows the subtle Writality writing watermark behind settings.",
-              "opacity": "Background opacity",
-              "density": "Background density"
-            },
             "grainy": {
               "label": "Grain texture",
               "description": "Applies subtle grain textures to selected surfaces. This does not work reliably on low DPI screens."
@@ -2307,16 +1824,9 @@
         }
       },
       "fonts": {
-        "title": "Fonts",
         "interface": {
           "title": "Interface Font",
-          "description": "Used for controls, menus, and everyday UI text.",
-          "previewTitle": "Interface Preview"
-        },
-        "heading": {
-          "title": "Title Font",
-          "description": "Used for H1-H4 headings across the app.",
-          "previewTitle": "Title Preview"
+          "description": "Used for controls, menus, and everyday UI text."
         },
         "custom": {
           "title": "Custom fonts",
@@ -2332,12 +1842,7 @@
       "scale": {
         "title": "Scale",
         "description": "Adjust the overall interface size for comfort.",
-        "ariaLabel": "App scale",
-        "ariaLabelPercent": "App scale percentage",
-        "smaller": "Smaller",
-        "larger": "Larger",
-        "quickPresets": "Quick presets",
-        "tip": "Tip: 100% matches the default layout. Use presets for quick switches and the slider for fine tuning."
+        "ariaLabel": "App scale"
       },
       "textScale": {
         "title": "Text size",
@@ -2347,11 +1852,6 @@
       "split": {
         "tileToLeft": "Tile to Left",
         "tileToRight": "Tile to Right"
-      },
-      "editorBackground": {
-        "previewTitle": "Background preview",
-        "previewConceptName": "The Cartographer",
-        "previewSegmentName": "Chapter One"
       }
     },
     "profile": {
@@ -2370,8 +1870,7 @@
         "days": "days"
       },
       "activity": {
-        "title": "Writing activity",
-        "loading": "Loading activity…"
+        "title": "Writing activity"
       },
       "insights": {
         "title": "Insights",
@@ -2386,9 +1885,7 @@
         "noProjects": "No projects yet."
       },
       "displayName": {
-        "title": "Display Name",
-        "label": "Display name",
-        "description": "This is the name the app refers to you by and is used in places like the project activity feed. It does not have to be unique and can be changed at any time."
+        "label": "Display name"
       },
       "errors": {
         "nameRequired": "Name cannot be empty",
@@ -2474,7 +1971,6 @@
         "backInTabHistory": "Back in tab history",
         "forwardInTabHistory": "Forward in tab history",
         "togglePrimarySidebar": "Toggle primary sidebar",
-        "switchTabsByIndex": "Switch tabs by index",
         "findInEditor": "Find in editor",
         "toggleSegmentConceptSidebar": "Toggle segment/concept sidebar"
       }
@@ -2521,30 +2017,12 @@
       }
     },
     "deleted": {
-      "description": "Restore your work or remove it forever. Items stay here until you permanently delete them.",
-      "recentlyDeleted": "Recently deleted",
-      "searchPlaceholder": "Search deleted items...",
-      "restoreSelected": "Restore selected",
-      "deleteSelected": "Delete selected",
-      "selectedCount": "{{count}} selected",
-      "selectProject": "Select or create a project to manage deleted items.",
-      "failedToLoad": "Failed to load deleted items.",
-      "emptyFiltered": "No deleted items match your search.",
       "empty": "Nothing here right now. Deleted items will show up as you remove them.",
       "deletePermanently": "Delete permanently",
-      "table": {
-        "selectAllAria": "Select all deleted items",
-        "selectItemAria": "Select {{name}}",
-        "item": "Item"
-      },
       "toast": {
         "restored": "{{type}} restored",
-        "permanentlyDeleted": "{{type}} permanently deleted",
         "failedRestore": "Failed to restore item",
-        "failedDelete": "Failed to delete item",
-        "bulkRestored_one": "{{count}} item restored",
-        "bulkDeleted_one": "{{count}} item permanently deleted",
-        "failedBulk": "Failed to {{action}} selected items"
+        "failedDelete": "Failed to delete item"
       }
     },
     "tags": {
@@ -2553,13 +2031,11 @@
       "filterPlaceholder": "Filter tags...",
       "deleteAria": "Delete tag {{name}}",
       "deleted": "Tag deleted",
-      "updated": "Tag updated",
       "duplicateName": "A tag with this name already exists.",
       "failedCreate": "Failed to create tag",
       "failedDelete": "Failed to delete tag",
       "failedUpdate": "Failed to update tag",
       "failedUpdateOrder": "Failed to update tag order",
-      "orderUpdated": "Tag order updated",
       "dragHandle": "Reorder {{name}}",
       "table": {
         "order": "Order",
@@ -2586,21 +2062,15 @@
       "emptyExample2": "A character description template for new cast members",
       "emptyExample3": "A standard note format for world-building details",
       "filterPlaceholder": "Filter blocks...",
-      "favoriteAria": "Toggle favourite for block {{name}}",
-      "renameAria": "Rename block {{name}}",
-      "deleteAria": "Delete block {{name}}",
       "renameTitle": "Rename Block",
       "table": {
-        "name": "Block",
-        "used": "Used",
-        "updated": "Updated"
+        "used": "Used"
       },
       "toast": {
         "renamed": "Block renamed",
         "deleted": "Block deleted",
         "failedRename": "Failed to rename block",
-        "failedDelete": "Failed to delete block",
-        "failedFavorite": "Failed to update favourite"
+        "failedDelete": "Failed to delete block"
       }
     },
     "importSettings": {
@@ -2609,12 +2079,10 @@
       "dropOrChoose": "Drop files here or choose them manually",
       "dropHint": "Your files will be converted into concepts or segments according to your selection.",
       "chooseFiles": "Choose files",
-      "progressHint": "We use the first heading for the title when available, then guide you one file at a time.",
       "importProgress": "Import progress",
       "clearImported": "Clear imported",
       "nothingQueued": "Nothing queued yet.",
       "whereShouldThisGo": "Where should this go?",
-      "whereHint": "Pick the destination for this file, import it, then continue with the next one.",
       "segmentDescription": "Part of a larger document structure. Best for chapters, scenes, sections, or sequential content.",
       "conceptDescription": "A standalone idea or reference. Best for notes, lore, definitions, characters, and connected knowledge.",
       "removeFile": "Remove this file",
@@ -2624,11 +2092,8 @@
       "segmentSplitTitle": "Split by headings",
       "segmentSplitHint": "Create a new item each time a selected heading appears.",
       "segmentSplitActiveHint": "Splitting on: {{levels}}",
-      "segmentSplitNone": "Do not split",
       "segmentSplitHeading": "Heading {{level}}",
       "segmentSplitHeadingShort": "H{{level}}",
-      "moreFilesWaiting_one": "{{count}} more file waiting after this one",
-      "stillParsing_one": "{{count}} file still parsing",
       "noMoreFilesWaiting": "No more files waiting after this one",
       "upNext": "Up next:",
       "batchHandled": "Everything in this batch has been handled.",
@@ -2687,7 +2152,6 @@
         "searchPlaceholder": "Search backups...",
         "createBackup": "Create Backup",
         "manualBackup": "Manual backup",
-        "restoreConfirm": "Are you sure you want to restore this backup? This will overwrite your current data.",
         "deleteDescription": "This will permanently remove the selected backup.",
         "totalSize": "Total Size",
         "restoreBackup": "Restore backup",
@@ -2753,7 +2217,6 @@
       "removeComplete": "{{language}} removed."
     },
     "dictionary": {
-      "clearAll": "Clear All",
       "loading": "Loading dictionary...",
       "spellcheck": "Spellcheck",
       "enableSpellcheck": "Enable Spellcheck",
@@ -2776,46 +2239,8 @@
       "yourDictionary": "Your Dictionary",
       "removeWord": "Remove word"
     },
-    "bugs": {
-      "dialogDescription": "{{appName}} doesn't collect any user data. Bug reports are the only way we can improve the application. Thank you for helping make {{appName}} better!",
-      "titlePlaceholder": "Brief description of the bug",
-      "descriptionPlaceholder": "Please provide detailed steps to reproduce the bug...",
-      "knownBugsPrefix": "Known bugs",
-      "knownBugsSuffix": "are listed in settings.",
-      "submit": "Submit Report",
-      "submitting": "Submitting...",
-      "submitted": "Bug report submitted! Thank you for your feedback.",
-      "failed": "Failed to submit bug report",
-      "viewKnownBugs": "View known bugs in settings",
-      "searchPlaceholder": "Search bug reports...",
-      "filterByStatus": "Filter by status",
-      "emptyFiltered": "No bug reports match your filters.",
-      "empty": "No bugs reported yet.",
-      "table": {
-        "status": "Status"
-      },
-      "status": {
-        "not_started": {
-          "label": "Not Started",
-          "description": "This bug has been reported but not yet reviewed or worked on."
-        },
-        "started": {
-          "label": "In Progress",
-          "description": "This bug is currently being investigated or worked on."
-        },
-        "completed": {
-          "description": "This bug has been fixed and the solution is live."
-        },
-        "rejected": {
-          "label": "Rejected",
-          "description": "This bug report was reviewed but will not be addressed."
-        }
-      },
-      "discordPrompt": "You can also join the Discord for feature requests, bugs, screenshots, story graphs, and general {{appName}} talk."
-    },
     "changelog": {
-      "empty": "No changelog entries are bundled with this build.",
-      "selectEntry": "Select a changelog entry."
+      "empty": "No changelog entries are bundled with this build."
     },
     "versionSettings": {
       "retentionTitle": "Minor Version Retention",
@@ -2889,9 +2314,7 @@
       }
     },
     "wordUsage": {
-      "title": "Word Usage",
       "sentences": "Sentences",
-      "avgWords": "Avg words",
       "avgWordsPerSentence": "Avg words/sentence",
       "characters": "Characters",
       "charactersNoSpaces": "Characters, no spaces",
@@ -2899,22 +2322,16 @@
       "textStats": "Text Stats",
       "showTextStats": "Show text stats",
       "vocabulary": "Vocabulary",
-      "vocabularyDiversity": "Word variety",
-      "uniqueWords": "Unique words",
-      "freshWordsPer100": "{{count}} fresh words per 100.",
       "per100Words": "per 100 words",
-      "uniqueOfTotalWords": "unique of {{count}} words.",
       "vocabularyHint": "For fiction, roughly 45-70 often reads natural. Lower can mean repetition or glue-heavy prose; higher can mean dense wording or synonym-chasing.",
       "readabilitySummary": "Based on the items below. Demanding text may simply have longer sentences or specialist words.",
       "fleschReference": "Flesch reference",
       "fleschReferenceGuide": "Flesch reference guide",
       "fleschReferenceHelp": "Flesch estimates reading ease from sentence length and syllables. Specialist words can lower the score, so compare it with the reader you are writing for.",
-      "strengthScore": "Effort score",
       "readingEase": "Ease score",
       "readingEaseHelp": "A 0-100 Flesch Reading Ease score. Higher usually means quicker to read; lower usually means denser.",
       "gradeLevel": "Grade level",
       "gradeLevelHelp": "Flesch-Kincaid gives a rough US school grade based on sentence length and syllables. It is about density, not whether the passage is right for your audience.",
-      "estimate": "Estimate",
       "noReadabilityIssues": "No reading effort items to show.",
       "readabilityIssues": {
         "adverbs": "Adverbs",
@@ -2940,14 +2357,11 @@
         "weakWords": "Shows broad or uncertain words such as maybe, somewhat, thing, or seems. They can soften voice or leave room for doubt.",
         "strongWords": "Shows vivid, precise, or energetic words. Use it to see where the writing has extra charge."
       },
-      "sentenceLength": "Sentence Length",
       "flow": "Flow",
       "flowHint": "Use the chart below to see how sentence length varies across the text.",
-      "sentenceRhythm": "Sentence Rhythm",
       "sentenceRhythmChartLabel": "Sentence rhythm chart",
       "sentenceRhythmBarLabel": "Sentence {{index}}: {{wordCount}} words, {{label}}",
       "sentenceLabel": "Sentence {{index}}",
-      "sentenceRhythmHint": "Each bar is a sentence; taller bars mean more words.",
       "noSentences": "No sentences yet.",
       "noParagraphs": "No paragraphs yet.",
       "paragraphDensityDotLabel": "Paragraph {{index}}: {{label}}, {{wordCount}} words",
@@ -3007,31 +2421,22 @@
       "averageWords": "Avg {{count}} words",
       "end": "End",
       "paragraphDensity": "Paragraph Density",
-      "paragraphDensityHint": "Each dot is a paragraph - darker reads denser.",
       "structure": "Structure",
       "sentenceOpener": "Sentence Opener",
-      "sentenceOpenerHint": "What part of speech starts each sentence.",
       "searchPlaceholder": "Search word...",
       "searchAriaLabel": "Search word usage",
       "saveWordAriaLabel": "Save searched word",
       "queryCount": "\"{{word}}\" appears {{count}} times",
       "searchHelper": "Search or pick a common word to see its usage count.",
-      "commonWords": "Common words",
       "frequentWords": "Frequent words",
       "savedWords": "Saved words",
       "noSavedWords": "No saved words yet.",
       "removeSavedWord": "Remove saved word {{word}}",
       "help": {
-        "overview": "Counts are based on the editor text: words, detected sentences, and average words per sentence.",
         "vocabulary": "Word variety estimates how many fresh, non-common words appear per 100 words. It describes texture; it is not a quality score.",
         "readability": "A rough guide to how much effort the text may take to read, based on countable patterns such as sentence length, repetition, passive voice, adverbs, specialist-looking words, vague words, and informal spellings. Demanding text is not necessarily worse; audience, genre, and purpose matter.",
         "flow": "Each vertical bar is a sentence, coloured by length. Select a length below to highlight every matching sentence in the editor.",
-        "sentenceLength": "Buckets are {{appName}} rhythm markers: 1-8, 9-16, 17-24, and 25+ words. They help spot pacing, not correctness.",
-        "sentenceRhythm": "Each bar represents one sentence. Long passages scroll horizontally so every sentence stays hoverable.",
-        "structure": "Density is based on words per paragraph. Openers use lightweight word-list heuristics for how sentences begin.",
-        "paragraphDensity": "Density is based on words per paragraph: 1-25, 26-60, 61-100, and 101+ words.",
-        "sentenceOpener": "Openers use lightweight word-list heuristics for pronouns, articles, conjunctions, prepositions, adverbs, proper nouns, and other starts.",
-        "wordUsage": "Frequent words come from this project after common stopwords are filtered for the selected spellcheck language."
+        "structure": "Density is based on words per paragraph. Openers use lightweight word-list heuristics for how sentences begin."
       }
     }
   }

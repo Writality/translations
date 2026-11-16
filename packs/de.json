@@ -3,57 +3,21 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "eba05beb021a-de",
-  "sourceRevision": "eba05beb021a209a49cc023603e1d3de1a46c504",
+  "version": "a9db88be3c41-de",
+  "sourceRevision": "a9db88be3c411fa61747584e2aab11a6f54c23f0",
   "resources": {
     "chronology": {
-      "conceptList": {
-        "emptyState": "Keine vorhandenen Einträge",
-        "searchPlaceholder": "Konzepte durchsuchen"
-      },
-      "empty": {
-        "calendarSystem": {
-          "description": "Richte dein Kalendersystem ein, um Daten zu verfolgen."
-        },
-        "customEras": {
-          "description": "Richte Ären ein, um deine Zeitleiste zu organisieren.",
-          "title": "Benutzerdefinierte Ären"
-        },
-        "setup": "Richte deine Chronologie ein",
-        "timelineTracking": {
-          "description": "Verfolge Daten und Ereignisse in deiner Welt.",
-          "title": "Zeitleiste"
-        }
-      },
       "eventPreview": {
-        "conceptNotFound": "Konzept nicht gefunden",
-        "goTo": "Gehe zu Konzept",
-        "noConceptDescription": "Keine Konzeptbeschreibung",
-        "noDateDescription": "Keine Datumsbeschreibung",
-        "relatedEntities": "Verknüpfte Objekte",
         "openInNewTab": "Öffne {{name}} in einem neuen Tab",
         "dateActions": "Datumsaktionen für {{name}}",
         "removeDate": "Datum entfernen: {{name}}",
         "removeDateError": "Das Datum konnte nicht entfernt werden."
       },
-      "minimap": {
-        "addConceptDate": "Füge ein Konzeptdatum hinzu",
-        "moveTimeline": "Verschiebe die Zeitleiste"
-      },
       "quickAdd": {
-        "description": "Füge schnell ein Datum zur Zeitleiste hinzu.",
-        "labelPlaceholder": "Label",
-        "submit": "Zur Zeitleiste hinzufügen",
-        "title": "Schnelles hinzufügen",
         "addTimelineDate": "Füge ein Zeitleisten Datum hinzu",
-        "editTimelineDate": "Bearbeite ein Zeitleisten Datum",
         "addDescription": "Wähle ein Konzept und bestätige das Datum, um es zur Zeitleiste hinzuzufügen.",
-        "editDescription": "Passe die Datumsdetails an und speichere deine Änderungen.",
         "labelInputPlaceholder": "z. B. Geburt, Gründung, Krönung",
         "selectConceptPlaceholder": "Wähle ein Konzept...",
-        "newEvent": "Neues Ereignis",
-        "loadingDateDetails": "Datumsdetails werden geladen...",
-        "couldNotLoadSelectedDate": "Konnte das ausgewählte Datum nicht laden.",
         "selectEntitiesPlaceholder": "Wähle ein Konzept und Segment..."
       },
       "toolbar": {
@@ -62,19 +26,10 @@
         "exitFullscreen": "Vollbild verlassen",
         "navigation": "Chronologie Navigation",
         "appearance": "Chronologie Aussehen",
-        "jumpLeft": "Nach links springen",
-        "jumpRight": "Nach rechts springen",
-        "panLeft": "Nach links schieben",
-        "panRight": "Nach rechts schieben",
-        "resetView": "Ansicht zurücksetzen",
         "zoomIn": "Ansicht vergrößern",
         "zoomOut": "Ansicht verkleinern",
         "fitTimeline": "Zeitleiste anpassen"
       },
-      "toggleDates": "Daten umschalten",
-      "noDatesLinked": "Noch keine Daten verknüpft.",
-      "noDatesLinkedDescription": "Verlinken Sie Daten, um dieses Konzept in die Chronologie Ihrer Geschichte einzuordnen, wichtige Ereignisse nachzuverfolgen und die Zeitachse konsistent zu halten.",
-      "previewSegment": "Vorschau {{name}}",
       "disclosure": {
         "before": "{{duration}} vor dem {{endpoint}} von {{source}}",
         "after": "{{duration}} nach dem {{endpoint}} von {{source}}",
@@ -93,7 +48,6 @@
       },
       "conceptRows": {
         "add": "Konzeptzeile hinzufügen",
-        "description": "Weisen Sie einem Konzept eine eigene Zeile oberhalb der Zeitleiste zu. Die Datumsangaben dieses Konzepts bleiben dabei auf denselben Kalender abgestimmt.",
         "select": "Wähle ein Konzept",
         "remove": "Entferne {{name}} Zeile",
         "empty": "Keine passenden Konzepte."
@@ -104,7 +58,6 @@
         "beforeMonth": "Vormonat",
         "events": "Ereignisse",
         "formatPreview": "Vorschau",
-        "fromYear": "Ab Jahr",
         "jumpTo": "Gehe zu",
         "leap": "Schaltjahr",
         "moonEvents": {
@@ -117,8 +70,6 @@
         "previousYear": "Vorjahr",
         "seasonEnds": "Jahreszeit endet",
         "seasonStarts": "Jahreszeit startet",
-        "untilYear": "Bis Jahr",
-        "yearRange": "Jahreszeitraum",
         "chooseMonthAndYear": "Monat und Jahr wählen",
         "chooseYear": "Jahr wählen",
         "jumpToYear": "Zum Jahr springen",
@@ -126,11 +77,6 @@
         "select": "Wähle",
         "setEnd": "Ende setzen",
         "setStart": "Anfang setzen"
-      },
-      "customDatePicker": {
-        "placeholder": "Eigene Datumsauswahl eingeben.",
-        "selectEra": "Epoche auswählen",
-        "setupHint": "Konfiguriere deinen Kalender vor der Datumsauswahl."
       },
       "dateFormatDropdown": {
         "categories": {
@@ -175,23 +121,6 @@
         "specialDayNamePlaceholder": "Name des besonderen Tages",
         "specialDaysDescription": "Erstelle zusätzliche Tage, die außerhalb der normalen Monate liegen."
       },
-      "duration": {
-        "addSubtract": "Füge ein Substrakt hinzu",
-        "addToDate": "Zum Datum hinzufügen",
-        "amountPlaceholder": "Anzahl",
-        "betweenDates": "Zwischen den Daten",
-        "endDate": "Enddatum",
-        "enterCompleteDateAndAmount": "Gebe das komplette Datum und die Anzahl ein",
-        "enterCompleteDates": "Gebe vollständige Daten ein",
-        "negativeHint": "Negativ",
-        "result": "Ergebnis",
-        "resultPrefix": "{{value}} {{unit}}",
-        "startDate": "Startdatum",
-        "startingDate": "Startdatum",
-        "swapDates": "Daten tauschen",
-        "totalDays": "Gesamte Anzahl der Tage",
-        "unit": "Einheit"
-      },
       "editor": {
         "groups": {
           "calendar": "Kalender"
@@ -204,7 +133,6 @@
         "title": "Zeitsystem-Editor"
       },
       "eras": {
-        "backwardDescription": "Ältere Ären zuerst anzeigen.",
         "description": "Ären konfigurieren.",
         "eraNamePlaceholder": "Name der Ära",
         "forward": "Vorwärts",
@@ -375,7 +303,6 @@
       "addedRemoved": "Hinzugefügt / entfernt",
       "started": "Begonnen",
       "filesEdited": "Dateien bearbeitet ({{count}})",
-      "segmentOverlap": "Segmentüberlappung",
       "projectServices": "Projektdienste",
       "servicesLabel": "Dienste",
       "services": {
@@ -407,13 +334,11 @@
       "continue": "Fortsetzen",
       "cancel": "Abbrechen",
       "clear": "Leeren",
-      "clearSelection": "Auswahl löschen",
       "import": "Importieren",
       "export": "Exportieren",
       "edit": "Bearbeiten",
       "delete": "Löschen",
       "deleteEllipsis": "Löschen…",
-      "more": "Mehr",
       "none": "Keine",
       "off": "Aus",
       "on": "An",
@@ -421,14 +346,12 @@
       "maximize": "Maximieren",
       "restore": "Wiederherstellen",
       "refresh": "Aktualisieren",
-      "projects": "Projekte",
       "allProjects": "Bibliothek",
       "newProject": "Neues Projekt",
       "new": "Neu",
       "dashboard": "Studie",
       "gallery": "Galerie",
       "chronology": "Chronologie",
-      "files": "Werkbank",
       "manuscripts": "Manuskripte",
       "collapseAllFolders": "Alle Ordner einklappen",
       "expandAllFolders": "Alle Ordner aufklappen",
@@ -437,11 +360,6 @@
       "continueWhereYouLeftOff": "Fortsetzen, wo du aufgehört hast",
       "language": "Sprache",
       "english": "Englisch",
-      "spanish": "Spanisch",
-      "french": "Französisch",
-      "italian": "Italienisch",
-      "portuguese": "Portugiesisch",
-      "norwegian": "Norwegisch",
       "selectLanguage": "Sprache auswählen",
       "name": "Name",
       "description": "Beschreibung",
@@ -449,17 +367,12 @@
       "abbreviation": "Abkürzung",
       "noDescription": "Keine Beschreibung",
       "item": "Objekt",
-      "german": "Deutsch",
-      "dutch": "Niederländisch",
-      "slovak": "Slowakisch",
-      "russian": "Russisch",
       "save": "Speichern",
       "update": "Aktualisieren",
       "saving": "Wird gespeichert...",
       "add": "Hinzufügen",
       "confirm": "Bestätigen",
       "dismiss": "Verwerfen",
-      "color": "Farbe",
       "open": "Öffnen",
       "openManuscriptView": "Manuskriptansicht öffnen",
       "closeManuscriptView": "Manuskriptansicht schließen",
@@ -468,11 +381,8 @@
       "concept": "Konzept",
       "segment": "Segment",
       "relationshipType": "Beziehungstyp",
-      "toggleSection": "{{section}} umschalten",
       "completed": "Komplett",
       "shared": {
-        "tags": "Stichwörter",
-        "addADescriptionOptional": "Füge eine Beschreibung hinzu (optional)",
         "addImage": "Bild hinzufügen",
         "addNote": "Notiz hinzufügen",
         "addRelationship": "Beziehung hinzufügen",
@@ -487,7 +397,6 @@
         "backups": "Sicherungskopien",
         "backward": "Rückwärts",
         "beforeFirstMonth": "Vor dem ersten Monat",
-        "bugReports": "Fehlerberichte",
         "calendarSystem": "Kalendersystem",
         "cartography": "Kartografie",
         "changelog": "Änderungsverlauf",
@@ -500,14 +409,12 @@
         "content": "Inhalt",
         "archive": "Archiv",
         "create": "Erstellen",
-        "createMyOwnTheme": "Eigenes Theme erstellen",
         "createType": "Typ erstellen",
         "created": "Erstellt",
         "custom": "Benutzerdefiniert",
         "customDays": "Benutzerdefinierte Tage",
         "dashed": "Gestrichelt",
         "dateFormat": "Datumsformat",
-        "dates": "Daten",
         "day": "Tag",
         "daysPerYear": "Tage pro Jahr",
         "deadline": "Deadline",
@@ -518,12 +425,9 @@
         "deleteTag": "Etikett löschen",
         "deleteType": "Typ löschen",
         "deleteCount": "{{name}} löschen",
-        "deletedItems": "Gelöschte Elemente",
         "dictionary": "Wörterbuch",
-        "discord": "Discord",
         "downloading": "Herunterladen...",
         "editType": "Typ bearbeiten",
-        "emptySpace": "Leerer Raum",
         "era": "Ära",
         "externalLinks": "Externe Links",
         "folder": "Ordner",
@@ -551,7 +455,6 @@
         "noEstimate": "Keine Schätzung",
         "noImagesFound": "Keine Bilder gefunden",
         "noSegmentsYet": "Noch keine Segmente",
-        "noTimelineYet": "Noch keine Zeitleiste",
         "noType": "Kein Typ",
         "none": "Nichts",
         "notSetUp": "Nicht eingerichtet",
@@ -572,8 +475,6 @@
         "scope": "Umfang",
         "searchSegments": "Segmente durchsuchen...",
         "seasons": "Jahreszeiten",
-        "selectDateOrRange": "Wähle Datum oder Bereich",
-        "setUpTheTimeSystemFirst": "Richte zuerst das Zeitsystem ein.",
         "short": "Kurz",
         "showLabels": "Labels anzeigen",
         "showLess": "Weniger anzeigen",
@@ -586,11 +487,8 @@
         "studio": "Studio",
         "time": "Zeit",
         "timer": "Timer",
-        "title": "Titel",
         "titleSize": "Titelgröße",
         "titleSpacing": "Titelabstand",
-        "toggleSidebarCount": "Seitenleiste umschalten ({{shortcut}})",
-        "totalWords": "Gesamte Wörter",
         "turnInto": "Umschalten in",
         "types": "Typen",
         "updatedCount": "{{time}} aktualisiert",
@@ -602,12 +500,10 @@
         "years": "Jahre",
         "yourName": "Dein Name",
         "countActiveDaysAheadAtThis": "{{count}} aktive Tage vor diesem Abschnitt.",
-        "countDates": "{{count}} Daten",
         "countFilesStillParsing": "{{count}} Dateien werden noch verarbeitet",
         "countItemsPermanentlyDeleted": "{{count}} Elemente dauerhaft gelöscht",
         "countItemsRestored": "{{count}} Elemente wiederhergestellt",
         "countMoreFilesWaitingAfterThis": "{{count}} weitere Dateien, nach diesr",
-        "countRelationshipsAcrossDirectSegments": "{{count}} Beziehungen zwischen direkten Segmenten.",
         "and": "und",
         "insertBlock": "Block einfügen",
         "createBlock": "Block erstellen",
@@ -615,10 +511,7 @@
         "addAttribute": "Attribut hinzufügen",
         "titleFont": "Titel-Schriftart",
         "commandPalette": "Bearbeitungspalette",
-        "reportABug": "Melde einen Bug",
-        "deleteManuscript": "Manuskript löschen",
         "addSegment": "Segment hinzufügen",
-        "removeEntry": "Eintrag löschen",
         "notAvailable": "Nicht vorhanden",
         "backgroundImage": "Hintergrundbild",
         "headerImage": "Bild der Kopfzeile",
@@ -652,8 +545,6 @@
       "workspaceName": "Arbeitsbereichsname",
       "fontSize": "Schriftgröße",
       "justify": "Blocksatz",
-      "left": "Links",
-      "center": "Zentriert",
       "long": "Lang",
       "position": "Position",
       "eras": "Ären",
@@ -664,7 +555,6 @@
       "words": "Wörter",
       "count": {
         "words": "{{count}} Wörter",
-        "ready": "{{count}} bereit",
         "imported": "{{count}} importiert"
       },
       "status": {
@@ -678,7 +568,9 @@
         "retry": "Erneut versuchen",
         "closeInspector": "Prüfer schließen",
         "inspector": "Prüfer"
-      }
+      },
+      "left": "Links",
+      "center": "Zentriert"
     },
     "table": {
       "clearFilter": "Filter löschen",
@@ -698,7 +590,6 @@
         "resetSidebarToDefaultSize": "Sidebar auf Standardgröße zurücksetzen"
       },
       "concept": {
-        "expandImage": "Bild vergrößern",
         "positionImage": "Bild Position",
         "addOrChangeImage": "Bild hinzufügen/ändern",
         "removeImage": "Bild entfernen"
@@ -731,12 +622,7 @@
         }
       },
       "sidebar": {
-        "filterOnTags": "Nach Tags filtern",
-        "workbench": "Segmente und Konzepte für den Aufbau deiner Geschichte."
-      },
-      "graph": {
-        "hideAllLabels": "Beschriftungen ausblenden",
-        "expandGraph": "Graph ausklappen"
+        "filterOnTags": "Nach Tags filtern"
       },
       "relationship": {
         "swapSourceTarget": "Ausgangs- und Zieltext tauschen"
@@ -766,23 +652,12 @@
         "underline": "Unterstrichen",
         "strikethrough": "Durchgestrichen",
         "textColor": "Textfarbe",
-        "highlightColor": "Hervorhebungsfarbe",
         "clearFormatting": "Formatierung löschen",
-        "linkEntity": "Link",
-        "boldShortcut": "Fett ({{shortcut}})",
-        "italicShortcut": "Kursiv ({{shortcut}})",
-        "underlineShortcut": "Unterstreichen ({{shortcut}})",
-        "searchShortcut": "Suchen (Strg+F)",
-        "undoShortcut": "Rückgängig (Strg+Z)",
-        "redoShortcut": "Wiederholen (Strg+Umschalt+Z)",
         "searchPlaceholder": "Suche...",
         "replaceWithPlaceholder": "Ersetzen mit...",
-        "previousShiftEnter": "Vorherige (Umschalt+Enter)",
-        "nextEnter": "Nächste (Enter)",
         "caseSensitive": "Groß-/Kleinschreibung beachten",
         "matchWholeWord": "Ganzes Wort abgleichen",
         "showReplace": "Ersetzen anzeigen",
-        "closeEsc": "Schließen (Esc)",
         "replaceCurrent": "Aktuell ersetzen",
         "replaceAll": "Alle ersetzen"
       }
@@ -939,29 +814,13 @@
       },
       "color": "Konzeptfarbe",
       "pickColorFromScreen": "Farbe von überall auf dem Bildschirm wählen",
-      "screenPickerUnavailable": "Die Farbauswahl auf dem Bildschirm ist auf diesem System nicht verfügbar",
       "screenPickerFailed": "Die Bildschirmfarbe konnte nicht ausgewählt werden. Versuchen Sie es erneut oder geben Sie einen Hex-Farbwert ein.",
       "typeSelector": {
         "removeType": "Typ entfernen"
       },
-      "typeTree": {
-        "title": "Typen-Hierarchie",
-        "emptyDescription": "Noch keine Typen. Typen helfen dabei Konzepte in Kategorien zu organisieren.",
-        "newTypeName": "Neuer Typ",
-        "addSubtype": "Untertyp hinzufügen"
-      },
       "dateEditor": {
-        "noDateSet": "Kein Datum festgelegt",
         "deleteDateTitle": "Datum löschen",
-        "deleteDateDescription": "Möchten Sie \"{{label}}\" wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
-        "noCalendarSystemConfigured": "Kein Kalendersystem konfiguriert",
-        "configureCalendar": "Kalender konfigurieren"
-      },
-      "dateEditorDialog": {
-        "editDateTitle": "Datum bearbeiten",
-        "addDateDescription": "Fügen Sie ein neues Datum hinzu, um wichtige Momente zu verfolgen.",
-        "editDateDescription": "Datumsdetails bearbeiten.",
-        "labelPlaceholder": "z.B. Geburt, Gründung, Herrschaft"
+        "deleteDateDescription": "Möchten Sie \"{{label}}\" wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
       },
       "aliases": {
         "howItWorksTitle": "Wie Aliase und Konzeptverknüpfungen funktionieren",
@@ -985,15 +844,8 @@
       "sidebar": {
         "tabs": {
           "details": "Details",
-          "versions": "Versionen",
           "wordUsage": "Text-Einblicke",
           "voices": "Stimmen"
-        },
-        "layout": {
-          "releaseToShow": "Zum Anzeigen loslassen",
-          "dropToShow": "Hier ablegen, um Abschnitt anzuzeigen",
-          "hidden": "Ausgeblendet",
-          "releaseToHide": "Zum Ausblenden loslassen"
         }
       },
       "voices": {
@@ -1018,7 +870,6 @@
       },
       "imageSelector": {
         "imageAriaLabel": "Konzeptbild",
-        "expandImageAriaLabel": "Konzeptbild erweitern",
         "positionImageAriaLabel": "Konzeptbild positionieren",
         "done": "Fertig",
         "donePositioningAriaLabel": "Positionierung des Konzeptbildes abschließen",
@@ -1143,10 +994,8 @@
         "linkedByMentions": "Durch Erwähnungen in Ihren Texten miteinander verknüpft",
         "sharedSegments": "Gemeinsam genutzte Segmente",
         "openSegment": "Segment {{id}} öffnen",
-        "readEntity": "Lies {{name}}",
         "directMentionEvidence": "Diese Verbindung kommt aus Erwähnungen.",
         "connect": "Beziehung erstellen",
-        "hideEvidence": "Beweise ausblenden",
         "viewEvidence": "Beweise anzeigen",
         "currentEntity": "Aktuelles Objekt",
         "mention": "Erwähnung",
@@ -1154,7 +1003,6 @@
         "mentionCount_one": "{{count}} Erwähnung",
         "segmentOverlap": "Segment Überlappung",
         "showConnectionsFor": "Zeige Verbindungen für {{name}}",
-        "sharedSegmentEvidence": "Beweise für gemeinsame Segmente",
         "outgoingMentions": "Erwähnungen ({{count}})",
         "incomingMentions": "Erwähnt in ({{count}})",
         "mentions": "Erwähnungen",
@@ -1170,50 +1018,27 @@
         "suggestedConnections": "Empfohlene Verbindungen",
         "dialogueInteraction": "Dialoginteraktion",
         "relationshipState": "Beziehung",
-        "dialogueCounts": "Gespräche mit wiederholter Wechselrede: {{repeated}} · Gespräche mit unterbrochener Wechselrede: {{interrupted}} · Unbekannte Lücken im Dialog: {{gaps}}",
         "conversationEvidence": "Unterhaltungen",
-        "savedDialogueEvidence": "Aus dem gespeicherten Dialog, in Segment- und Dokumentreihenfolge.",
         "dialogueLoading": "Unterhaltungen werden geladen...",
         "dialogueRetry": "Die Unterhaltungen konnten nicht geladen werden. Wiederholen",
         "dialogueIncomplete": "Einige Segmente konnten nicht gelesen werden. Diese Gesprächsliste ist möglicherweise unvollständig.",
         "noConversations": "Keine Unterhaltungen vorhanden.",
         "unassignedSpeaker": "Nicht zugewiesen",
         "unknownSpeaker": "Unbekannter Sprecher",
-        "openEvidenceSegment": "Segment öffnen",
-        "previousEvidence": "Vorherige",
-        "nextEvidence": "Nächste",
-        "evidencePage": "{{start}}–{{end}} von {{total}}",
-        "dialogueLevel": {
-          "adjacency": "Wechsel des benachbarten Sprechers",
-          "repeated-alternation": "Wiederholter Wechsel",
-          "interrupted-alternation": "Unterbrochener Wechsel"
-        },
         "dialogueConversations": "{{count}} Unterhaltungen",
-        "dialogueChanges": "{{count}} direkte Sprecherwechsel",
         "dialogueSegments": "{{count}} Segmente",
         "dialogueConversations_one": "{{count}} Unterhaltung",
         "dialogueConversations_other": "{{count}} Unterhaltungen",
-        "dialogueChanges_one": "{{count}} direkte Sprecherwechsel",
-        "dialogueChanges_other": "{{count}} direkte Sprecherwechsel",
         "dialogueSegments_one": "{{count}} Segment",
         "dialogueSegments_other": "{{count}} Segmente",
-        "dialogueConsecutive_one": "Ihr Dialog erscheint einmal nacheinander.",
-        "dialogueConsecutive_other": "Ihr Dialog erscheint {{count}} Mal nacheinander.",
-        "dialogueThread": "Dialogthema",
         "threadBetween": "Thema zwischen {{first}} und {{second}}",
         "dialogueTogether": "Gemeinsame {{conversations}} über {{segments}} hinweg.",
-        "dialogueBackAndForth_one": "In {{count}} Gespräch führen sie einen Dialog, bei dem sie sich abwechseln.",
-        "dialogueBackAndForth_other": "In {{count}} Gesprächen führen sie einen Dialog, bei dem sie sich abwechseln.",
-        "dialogueContinues_one": "Ihr Gespräch setzt sich in {{count}} Gespräch fort, unterbrochen von kurzen Erzählpassagen oder nicht zugeordneten Dialogen.",
-        "dialogueContinues_other": "Ihr Gespräch setzt sich in {{count}} Gesprächen in Form von kurzen Erzählpassagen oder nicht zugeordneten Dialogen fort.",
         "dialogueUnassigned": "Einigen Dialogen ist kein Sprecher zugeordnet.",
         "hideDetails": "Details ausblenden",
         "hideThread": "Thema aus Graph ausblenden",
         "restoreThreads": "Versteckte Themen anzeigen",
         "threadActions": "Weitere Aktionen",
-        "openConcept": "Konzept öffnen",
         "openInSegment": "Im Segment öffnen",
-        "singleEvidencePage": "{{start}} von {{total}}",
         "conversationNumber": "Gespräch {{count}}",
         "moreConversations_one": "(und {{count}} weitere Unterhaltung)",
         "moreConversations_other": "(und {{count}} weitere Unterhaltungen)"
@@ -1228,43 +1053,12 @@
         "progress": "Fortschritt",
         "home": "Startseite"
       },
-      "loadingGraph": "Graph wird geladen...",
       "recentItemsUnavailable": "Die neuesten Einträge konnten nicht geladen werden.",
       "continueEditing": "Bearbeitung fortsetzen",
       "noSegmentsCreated": "Keine Segmente erstellt",
       "noConceptsCreated": "Keine Konzepte erstellt",
-      "wordBreakdown": "Wortaufteilung",
-      "wordsInSegments": "Wörter in {{count}} Segmenten",
-      "wordsInConcepts": "Wörter in {{count}} Konzepten",
       "writingInsights": "Schreibeinsichten",
-      "readingTime": "Lesedauer",
-      "mostProductiveDay": "Der produktivste Tag",
-      "activeDays": "Aktive Tage",
-      "estimatedReadingTime": "Geschätzte Lesezeit",
-      "yourBestWritingDay": "dein bester Schreibtag",
-      "daysWithContinuousWritingActivity": "Tage mit kontinuierlicher Schreibaktivität",
       "minShort": "min",
-      "minRead": "min. lesen",
-      "notAvailable": "N/V",
-      "storySegments": "Handlungssegmente",
-      "storyBalance": "Handlungsbalance",
-      "completionProgress": "Fertigstellungsfortschritt",
-      "conceptsWithDates": "Konzepte mit Datum",
-      "conceptsWithRelationships": "Konzepte mit Beziehungen",
-      "of": "von",
-      "dailyWordDiff": {
-        "title": "Heute hinzugefügte und entfernte Wörter",
-        "wordsToday": "Wörter heute",
-        "activity": "Aktivität",
-        "noActivityYet": "Bisher keine Aktivität",
-        "writingActivityFor": "Schreib-Aktivität für {{date}}",
-        "addedRemoved": "Hinzugefügt / entfernt",
-        "changedToday": "Geändert heute",
-        "writingActivity": "Schreibaktivität",
-        "wordsTouched": "{{count}} Wörter berührt",
-        "goalMetToday": "Ziel erreicht (+{{value}})",
-        "toGoal": "{{value}} bis zum Ziel"
-      },
       "wordCountCalendar": {
         "title": "Tägliche Wortzahl",
         "loading": "Kalender wird geladen...",
@@ -1289,25 +1083,12 @@
       "goal": {
         "title": "Projektziel",
         "description": "Legen Sie ein Wortziel und eine Frist fest, um das erforderliche tägliche Tempo im Blick zu behalten.",
-        "optionalDescription": "Ziele sind optional. Füge ein Wortziel hinzu, wenn du dein Tempo verfolgen möchtest.",
         "wordGoal": "Wortziel",
         "activeDays": "Aktive Schreibtage",
         "remainingWords": "Verbleibende Wörter",
-        "activeDaysLeft": "Aktive Tage übrig",
-        "requiredPerDay": "Benötigt pro Tag",
-        "wordsPerDay": "Wörter/Tag",
-        "complete": "Ziel erreicht.",
-        "onTrack": "Das Tempo wird anhand der verbleibenden aktiven Tage berechnet.",
-        "waitingDeadline": "Legen Sie eine Frist fest, um das erforderliche Tempo zu berechnen.",
-        "successfulWeek": "Erfolgreiche Schreibtage",
-        "bonusCongrats": "Zusätzlicher Schreibtag am {{dayName}}. Ein toller zusätzlicher Schwung!",
-        "successOnDay": "Toller Beitrag am {{dayName}}.",
-        "dailyAverage": "Tagesdurchschnitt",
-        "behindBy": "Bei diesem Tempo liegen Sie {{count}} aktive Tage zurück. Erhöhen Sie Ihre tägliche Wortzahl, um den Rückstand aufzuholen."
+        "complete": "Ziel erreicht."
       },
       "smartGraph": {
-        "percentDone": "{{count}} fertig",
-        "daysWriting": "{{count}} Tage Schreiben",
         "writtenSoFar": "Bisher geschrieben",
         "onTimePace": "Pünktlichkeitsrate",
         "currentPace": "Ihr aktuelles Tempo",
@@ -1321,14 +1102,9 @@
         "noDeadlineGoalSummary": "{{remaining}} Wörter verbleiben. Bei Ihrem derzeitigen Tempo sind es noch etwa {{days}} Tage Schreibzeit.",
         "noDeadlineNeedsActivitySummary": "{{remaining}} Wörter verbleiben. Füge eine Schreibaktivität hinzu, um dein voraussichtliches Fertigstellungsdatum abzuschätzen.",
         "noGoalSummary": "An Tagen, an denen du schreibst, kommst du im Durchschnitt auf {{average}} Wörter.",
-        "yourPace": "Dein Tempo",
-        "projectedFinish": "Voraussichtlicher Fertigstellungstermin",
-        "writingDaysToGoal": "Verbleibende Tage bis zum Ziel",
-        "notEnoughData": "Nicht genügend Daten",
         "perDay": "/Tag",
         "thisWeek": "Diese Woche",
         "daysWritingLabel": "Schreibtage",
-        "goalWords": "Ziel {{count}} Wörter",
         "adjustGoal": "Ziel anpassen",
         "noGoal": "Kein Ziel — nur schreiben",
         "setGoal": "Ein Ziel setzen"
@@ -1376,8 +1152,6 @@
     },
     "overview": {
       "stories": "Geschichten",
-      "continueWriting": "Schreiben fortsetzen",
-      "openStory": "Geschichte öffnen",
       "libraryView": "Bibliotheksansicht",
       "bookshelfView": "Bücherregalansicht",
       "classicView": "Klassische Ansicht",
@@ -1464,9 +1238,7 @@
         "deleteShelfDescription": "Bücher „{{name}}“ werden in „{{defaultShelf}}“ verschoben. Es werden keine Bücher gelöscht.",
         "shelfOptions": "Regaloptionen für {{name}}",
         "emptyShelf": "Ziehe ein Buch hierher",
-        "shelf": "Regal",
         "moveToShelf": "In das Regal verschieben",
-        "series": "Reihe",
         "addToSeries": "Zu Reihe hinzufügen",
         "changeSeries": "Reihe ändern",
         "standalone": "Eigenständig",
@@ -1547,7 +1319,6 @@
         "shareSnippet": "Ausschnitt teilen",
         "createLink": "Link erstellen",
         "createConcept": "Konzept aus der Auswahl erstellen",
-        "conceptType": "Konzepttyp",
         "blockName": "Blockname",
         "pressEnterToSave": "Drücken Sie Enter zum Speichern",
         "searchConceptsOrSegments": "Konzepte oder Segmente suchen...",
@@ -1591,12 +1362,10 @@
         "insertSavedBlockContent": "Gespeicherten Blockinhalt einfügen"
       },
       "spellcheck": {
-        "unavailableReadOnly": "Die Rechtschreibprüfung ist im schreibgeschützten Modus nicht verfügbar.",
         "suggestionsFor": "Vorschläge für \"{{word}}\"",
         "noSuggestionsFor": "Keine Vorschläge für \"{{word}}\"",
         "nativeNoReplacements": "Von der integrierten Rechtschreibprüfung markiert, die keine Alternativvorschläge angezeigt hat.",
-        "addToDictionary": "Zum Wörterbuch hinzufügen",
-        "noErrorsDetected": "Keine Rechtschreibfehler erkannt"
+        "addToDictionary": "Zum Wörterbuch hinzufügen"
       },
       "alignment": {
         "trigger": "Textausrichtung"
@@ -1729,12 +1498,9 @@
     "segment": {
       "notes": {
         "createNote": "Notiz erstellen",
-        "noNotesYet": "Noch keine Notizen.",
         "emptyDescription": "Notizen sind eine hervorragende Möglichkeit, Ideen und Gedanken festzuhalten und sicherzustellen, dass man wichtige Details nicht vergisst.",
         "deleteTitle": "Notiz löschen",
-        "deleteDescription": "Bist du sicher, dass du diese Notiz löschen möchtest? Dies kann nicht rückgängig gemacht werden.",
-        "expandAction": "Notiz ausklappen",
-        "emptyNote": "Leere Notiz"
+        "deleteDescription": "Bist du sicher, dass du diese Notiz löschen möchtest? Dies kann nicht rückgängig gemacht werden."
       }
     },
     "segmentGraph": {
@@ -1753,38 +1519,18 @@
       "pan": "Diagramm schwenken"
     },
     "outline": {
-      "loading": "Lade Kontur…",
-      "error": "Die Kontur konnte nicht geladen werden.",
-      "totalTodos": "Gesamtzahl der Aufgaben",
-      "empty": "Fügen Sie ein Segment oder einen Ordner aus der Grafik hinzu, um mit der Gliederung Ihrer Geschichte zu beginnen.",
-      "outlineTodos": "Aufgabenübersicht",
-      "noTodos": "Noch keine Aufgaben!",
-      "noRelationships": "Noch keine Beziehungen."
+      "error": "Die Kontur konnte nicht geladen werden."
     },
     "planning": {
       "addNoteTo": "Notiz zu {{name}} hinzufügen",
       "openSegment": "Segment öffnen",
       "addReferenceImage": "Referenzbild hinzufügen",
       "addReferenceImageTo": "Referenzbild zu {{name}} hinzufügen",
-      "noteStoryBeatTooltip": "Notizen dienen als Meilensteine für deine Geschichte",
       "addRelationshipTo": "Beziehung zu {{name}} hinzufügen",
-      "completedCount": "{{count}} abgeschlossen",
-      "editSegmentTitle": "Segmenttitel bearbeiten: {{name}}",
       "markComplete": "Markiere {{name}} als abgeschlossen",
-      "markIncomplete": "Markiere {{name}} als unvollständig",
-      "noOpeningText": "Noch kein Einleitungstext.",
-      "noSegmentsDescription": "Erstellen Sie das erste Segment in diesem Ordner, um mit der Gestaltung der zeitlichen Abfolge der Geschichte zu beginnen.",
-      "noTasksOnSegment": "Noch keine Aufgaben in diesem Segment vorhanden.",
-      "noDatedFiles": "Es gibt noch keine datierten Dateien.",
-      "noneYet": "Noch keine",
-      "relationshipsAcrossSegments_one": "{{count}} Beziehungen über direkte Segmente hinweg.",
-      "folderSidebar": "Ordner-Sideleiste",
-      "storyMap": "Geschichtenkarte",
-      "totalCount": "{{count}} insgesamt",
-      "viewMore": "{{count}} weitere anzeigen"
+      "markIncomplete": "Markiere {{name}} als unvollständig"
     },
     "topbarSettings": {
-      "tooltip": "Ansichtseinstellungen ",
       "font": "Schriftart",
       "editorWidth": "Editor Breite",
       "textWeight": "Schriftstärke",
@@ -1793,13 +1539,6 @@
       "backgroundColor": "Hintergrundfarbe",
       "image": "Bild",
       "textColor": "Textfarbe",
-      "widthTooltip": "Breite: {{mode}}",
-      "fontSizeTooltip": "Schriftgröße: {{mode}}",
-      "titleSizeTooltip": "Titelgröße: {{mode}}",
-      "lineHeightTooltip": "Zeilenhöhe: {{mode}}",
-      "paragraphSpacingTooltip": "Absatzabstand: {{mode}}",
-      "titleSpacingTooltip": "Titelabstand: {{mode}}",
-      "textAlignTooltip": "Textausrichtung: {{mode}}",
       "showScrollbar": "Scrollleiste anzeigen",
       "showBubbleMenu": "Blasenmenü anzeigen",
       "showDocumentOutline": "Dokumentgliederung anzeigen",
@@ -1829,14 +1568,7 @@
       },
       "modes": {
         "serif": "Serif",
-        "mono": "Mono",
-        "tight": "Eng",
-        "flush": "Bündig",
-        "regular": "Regulär",
-        "wide": "Breit",
-        "small": "Klein",
-        "large": "Groß",
-        "relaxed": "Entspannt"
+        "mono": "Mono"
       },
       "toasts": {
         "exportWordSuccess": "Das Dokument wurde erfolgreich nach Word exportiert",
@@ -1863,7 +1595,6 @@
         "quotes": "Zitate",
         "raya": "Raya"
       },
-      "inheritBackground": "Hintergrund vererben",
       "background": "Hintergrund",
       "backgroundImage": "Hintergrundbild",
       "blur": "Weichzeichnung",
@@ -1915,9 +1646,6 @@
     "kanban": {
       "settings": {
         "ariaLabel": "Kanban Ansichtseinstellungen",
-        "title": "Board Einstellungen",
-        "list": "Liste",
-        "board": "Board",
         "showEmptyColumns": "Zeige leere Spalten",
         "showNestedNotes": "Zeige verschachtelte Notizen",
         "boardVisibility": "Sichtbarkeit des Boards",
@@ -1936,28 +1664,19 @@
         "actionsAria": "Aktionen für {{title}}",
         "removeFromBoard": "Vom Board entfernen",
         "editTagsAria": "Tags auf {{entityType}} {{entityId}} bearbeiten",
-        "filterTags": "Tags filtern",
         "noMatchingTags": "Keine passenden Tags",
         "nestedNotes": "Verschachtelte Notizen",
         "conceptFallback": "Konzept #{{id}}",
         "segmentFallback": "Segment #{{id}}",
         "noContent": "Kein Inhalt",
         "openLinkedEntity": "Verknüpfte {{entityType}} {{name}} öffnen",
-        "dragNoteAria": "Ziehe Notiz {{id}}",
-        "dragEntityAria": "Ziehe {{entityType}} {{id}}",
         "deleted": "{{type}} gelöscht.",
         "deleteTitle": "{{type}} löschen",
         "deleteDescription": "Bist du dir sicher, dass du dieses Item wirklich löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
         "deleteFailed": "Diese Karte konnte nicht gelöscht werden."
       },
       "list": {
-        "noMatchingItems": "Keine passenden Items",
-        "noAvailableItems": "Keine verfügbaren Items",
-        "newNote": "Neue Notiz",
-        "existingNotes": "Bestehende Notizen",
-        "existingConcepts": "Bestehende Konzepte",
-        "existingSegments": "Bestehende Segmente",
-        "existingImages": "Bestehende Bilder"
+        "newNote": "Neue Notiz"
       },
       "dialog": {
         "placeholder": "Schreibe deine Notiz"
@@ -1968,101 +1687,19 @@
       "readFullScreen": "Manuskript im Vollbildmodus lesen",
       "cover": {
         "title": "Titelbild",
-        "add": "Titelbild hinzufügen",
-        "emptyDescription": "Fügen Sie ein Titelbild hinzu, damit es in den EPUB- und PDF-Exporten enthalten ist."
-      },
-      "segmentPicker": {
-        "title": "Segment zu Manuskript hinzufügen",
-        "selectSegment": "Segment auswählen",
-        "adding": "Wird hinzugefügt...",
-        "addSegment": "Segment hinzufügen"
+        "add": "Titelbild hinzufügen"
       },
       "preview": {
         "empty": "Erstellen Sie ein Manuskript, um Ihren Entwurf zu strukturieren.",
         "paginatedEmpty": "Erstellen Sie ein Manuskript, um sich die Seitenansicht anzeigen zu lassen."
       },
       "format": {
-        "title": "Manuskript formatieren",
-        "customise": "Selbst formatieren",
-        "preset": "Voreinstellung",
-        "basedOn": "Basiert auf",
-        "typography": "Typografie & Layout",
-        "contentWidth": "Inhaltsbreite",
-        "paragraph": "Absatzverhalten",
-        "indentFirstParagraph": "Einzug erster Absatz",
-        "indentAfterHeadings": "Einzug nach Überschriften",
-        "firstLineIndent": "Einzug erste Zeile",
-        "paragraphSpacingPercentage": "Absatzabstand Prozentsatz",
-        "align": {
-          "right": "Rechts"
-        },
-        "presets": {
-          "writality": {
-            "description": "Keine extra Formatierung. Exporte behalten den Editor-Stil."
-          },
-          "book_manuscript": {
-            "label": "Buchmanuskript Format",
-            "description": "Industrieübliche Manuskriptformatierung für Einreichungen bei Verlagen und Agenten."
-          },
-          "classic_manuscript": {
-            "label": "Klassisches Manuskript",
-            "description": "Traditioneller Einreichungsstil, inspiriert vom Shunn-Manuskript-Format."
-          },
-          "web_novel": {
-            "label": "Webnovel",
-            "description": "Episodenfreundliche Abstände, beeinflusst von Tapas-Weblesestandards."
-          },
-          "screenplay": {
-            "label": "Drehbuch",
-            "description": "Courier-basierte Drehbuchgrundlage, in Übereinstimmung mit Nicholl-Erwartungen."
-          },
-          "poetry": {
-            "label": "Poesie",
-            "description": "Rhythmus-fokussierte Abstände, für Strophenlesbarkeit und Tempo."
-          },
-          "kindle_reflowable": {
-            "label": "Kindle mitfließendes Format",
-            "description": "Mitfließende E-Book-orientierte Standards, basierend auf KDP Leitlinien."
-          }
-        },
-        "emptySpaceAfterSegments": "Seitenumbruch nach jedem Segment hinzufügen",
-        "bundledFontLabel": "{{font}} (Gebündelt)",
-        "helpFor": "Hilfe zu {{label}}",
-        "textColumnWidth": "Textspaltenbreite",
-        "indentBodyParagraphs": "Die erste Zeile des Absatzes einziehen",
-        "indentFirstSegmentParagraph": "Den ersten Absatz jedes Segments einziehen",
-        "indent": "Einzug",
-        "runningHeaderFooter": "Fortlaufende Kopf-/Fußzeile",
-        "availableTokens": "Vorhandene Token (Exporte + Seitenansichten)",
-        "runningTextTokenHelpPrefix": "Geben Sie Ihren Namen, Künstlernamen, oder einen anderen Text direkt in die Kopf- oder Fußzeilenfelder ein. Nur",
-        "runningTextTokenHelpSuffix": "werden automatisch ersetzt.",
-        "header": "Kopfzeile",
-        "footer": "Fußzeile",
-        "enableRunningHeader": "Fortlaufende Kopfzeile aktivieren",
-        "enableRunningFooter": "Fortlaufende Fußzeile aktivieren",
-        "runningHeaderText": "Text der fortlaufenden Kopfzeile",
-        "runningFooterText": "Text der fortlaufenden Fußzeile",
-        "alignment": "Ausrichtung",
-        "runningHeaderDisabled": "Fortlaufende Kopfzeile ist deaktiviert.",
-        "runningFooterDisabled": "Fortlaufende Fußzeile ist deaktiviert.",
-        "titleStyles": "Überschriftstile",
-        "titlePreview": "Kapitel Eins",
         "fontWeights": {
           "light": "Light (300)",
           "regular": "Regular (400)",
           "medium": "Medium (500)",
           "semibold": "Semibold (600)",
           "bold": "Bold (700)"
-        },
-        "hints": {
-          "fontSize": "Textgröße in Punkten",
-          "lineHeight": "Abstand zwischen Textzeilen",
-          "textColumnWidth": "Breite des Manuskripts-Textbereichs",
-          "indent": "Einzug der ersten Zeile auf eingezogene Absätze angewendet",
-          "paragraphSpacing": "Zusätzlicher Abstand zwischen Absätzen",
-          "runningText": "Verwende {page} für die Seitennummer und {title} für den Manuskriptnamen. Fügen Sie Ihren Namen und weitere Formulierungen als einfachen Text hinzu. Die Ausrichtung bestimmt wo diese Zeile auf der Seite steht (Seitenansicht, PDF, HTML, und Word).",
-          "titleSize": "Größe von Manuskript- und Segment-Titeln",
-          "titleSpacing": "Abstand zwischen Kapitel-/Segment-Titeln und folgendem Text"
         }
       }
     },
@@ -2077,7 +1714,6 @@
         "marker": "Notizmarker"
       },
       "spriteList": {
-        "close": "Sprite-Liste schließen",
         "empty": "Noch keine Sprites gesetzt.",
         "spriteMeta": "x {{x}}, y {{y}} · {{scale}}%"
       },
@@ -2106,13 +1742,9 @@
         "newMap": "Neue Karte",
         "exportMap": "Karte exportieren",
         "deleteMap": "Karte löschen",
-        "hideSpriteList": "Spriteliste ausblenden",
-        "showSpriteList": "Spriteliste anzeigen",
         "movePin": "Verschieben..."
       },
       "layers": {
-        "drawing": "Zeichnen",
-        "interactive": "Interaktiv",
         "artTooltip": "Grundkarte zeichnen und bearbeiten",
         "interactiveTooltip": "Interaktive Kartenelemente bearbeiten",
         "regionsAboveSprites": "Regionen zeichnen über Sprites",
@@ -2155,15 +1787,7 @@
     },
     "graph": {
       "mapCreate": {
-        "title": "Neue Karte erstellen",
-        "changeImage": "Ändern",
-        "selectImage": "Bild auswählen",
-        "mapName": "Kartenname",
-        "mapNamePlaceholder": "Kartennamen eingeben",
-        "descriptionOptional": "Beschreibung (optional)",
-        "descriptionPlaceholder": "Beschreiben Sie diese Karte (optional)",
-        "creating": "Wird erstellt …",
-        "createMap": "Karte erstellen"
+        "mapName": "Kartenname"
       },
       "empty": {
         "description": "Erstellen Sie Konzepte mit Verknüpfungen, um das Diagramm anzuzeigen."
@@ -2180,17 +1804,10 @@
         "success": "Diagramm Bild exportiert",
         "failure": "Diagrammbild konnte nicht exportieren werden"
       },
-      "selectedNode": {
-        "title": "Ausgewählter Knoten",
-        "clickNodeHint": "Klicken Sie auf einen Knoten im Diagramm um seine Details zu sehen",
-        "notFound": "Knoten nicht gefunden",
-        "noContentYet": "Dieses Konzept hat noch keine Inhalte. Klicken Sie oben um zu öffnen und mit der Bearbeitung zu beginnen."
-      },
       "preferences": {
         "tooltip": "Diagramm Einstellungen",
         "close": "Diagrammeinstellungen schließen",
         "display": "Anzeige",
-        "advanced": "Fortgeschritten",
         "arrows": "Pfeile",
         "showConcepts": "Konzepte anzeigen",
         "showSegments": "Segmente anzeigen",
@@ -2201,16 +1818,7 @@
         "nodeSize": "Knotengröße",
         "nodeBorderRadius": "Knotenrandradius",
         "linkThickness": "Verbindungsstärke",
-        "lineType": "Linientyp",
-        "forces": "Kräfte",
-        "centreForce": "Zentralkraft",
         "centerForce": "Zentrierkraft",
-        "axisForceX": "Achsenkraft X",
-        "axisForceY": "Achsenkraft Y",
-        "radialForce": "Radialkraft",
-        "orbit": "Schwenken",
-        "orbitOuterRadius": "Schwenken Außenradius",
-        "orbitStrength": "Schwenken Stärke",
         "repelForce": "Abwehrkraft",
         "chargeDistance": "Ladeentfernung",
         "linkForce": "Verknüpfungskraft",
@@ -2221,23 +1829,7 @@
           "toggleDetails": "Gruppendetails umschalten",
           "groupName": "Gruppenname",
           "matchBy": "Suche nach",
-          "matchValue": "Wert auswählen",
-          "queryPlaceholder": "Abfrage eingeben...",
-          "queryHelp": "Abfrageoperatoren: type:, tag:, name:, id:, oder reinen Text.",
-          "searchOptions": "Suchoptionen",
-          "optionType": "Konzept-Typ vergleichen",
-          "optionTag": "Konzept-Tag/-Label vergleichen",
-          "optionName": "Konzeptnamen-Text vergleichen",
-          "optionId": "Exakte Konzept-ID vergleichen",
-          "optionPlain": "reiner Text entspricht dem Konzeptnamen",
-          "examples": "Beispiele: type:character tag:allied, name:king, id:42",
-          "clusterStrength": "Clusterstärke (zusammenhalten)",
-          "clusterRadius": "Clusterradius (wie groß die Gruppe ist)",
-          "repelStrength": "Feindliche Abwehrstärke",
-          "repelDistance": "Feindliche Abwehrdistanz",
-          "hostility": "Feindliche Gruppen",
-          "hostilityStrength": "Feindseligkeitsstärke",
-          "hostilityDistance": "Minimaler Trennungsabstand"
+          "matchValue": "Wert auswählen"
         },
         "filters": {
           "title": "Filter",
@@ -2327,7 +1919,6 @@
       "skipToContent": "Zum Inhalt springen",
       "workspaceNavigation": "Arbeitsbereich-Navigation",
       "world": "Welt",
-      "openSettings": "Einstellungen öffnen",
       "addPage": "Seite hinzufügen",
       "searchPages": "Seiten zum Hinzufügen suchen",
       "scrollForMorePages": "Für mehr Seiten scrollen",
@@ -2346,11 +1937,9 @@
       "goForward": "Vorwärts",
       "breadcrumb": "Brotkrümel",
       "goToFolder": "Gehe zum Ordner {{name}}",
-      "configureTimeSystem": "Zeitsystem konfigurieren",
       "untitledConcept": "Unbenanntes Konzept",
       "untitledSegment": "Unbenanntes Segment",
       "untitledNote": "Unbenannte Notiz",
-      "projectTab": "Projekt",
       "docsTab": "Dokumente",
       "sidebarSections": "Seitenleistenabschnitte",
       "searchDocs": "Dokumentation durchsuchen...",
@@ -2390,11 +1979,6 @@
     "tabs": {
       "openTab": "Reiter {{name}} öffnen",
       "closeTab": "Reiter {{name}} schließen",
-      "reorderTab": "Reiter {{name}} neu anordnen",
-      "reorderInstructions": "Drücke die Leertaste, um einen Reiter aufzunehmen, bewege ihn mit den Pfeiltasten und drücke dann die Leertaste, um ihn abzulegen.",
-      "splitView": "Dieser Reiter enthält die geteilte Ansicht",
-      "exitSplitView": "Geteilte Ansicht in diesem Reiter beenden",
-      "loadingPane": "Fenster wird geladen...",
       "loadingConcept": "Konzept wird geladen...",
       "loadingSegment": "Segment wird geladen...",
       "loadingFolder": "Ordner wird geladen..."
@@ -2410,10 +1994,8 @@
         "confirmHide": "Verberge ({{count}})"
       },
       "preview": {
-        "loading": "Vorschau wird geladen...",
         "empty": "Noch keine Inhalte"
       },
-      "options": "Optionen",
       "listStyle": {
         "label": "Farbe auflisten",
         "calm": "Entspannt",
@@ -2522,18 +2104,13 @@
         "customise": "Seitenleiste anpassen…",
         "defaults": "Seitenleistenstandard",
         "project": "Projektstandard",
-        "writality": "Writality Standards",
-        "untyped": "Kein Typ",
         "onlyConcept": "Änderungen betreffen nur dieses Konzept.",
         "typeEffect": "Gilt für {{type}} und dessen verschachtelte Typen, sofern keine Anpassungen vorgenommen wurden.",
         "projectEffect": "Gilt für alle Konzepte in diesem Projekt, sofern keine Anpassungen vorgenommen wurden.",
         "resetToType": "Auf Standardwerte zurücksetzen",
         "resetDefaults": "Auf geerbte Standardwerte zurücksetzen",
         "resetSection": "{{section}} auf „geerbte Sichtbarkeit“ zurücksetzen",
-        "customised": "Angepasst",
-        "from": "Aus {{source}}",
         "hiddenBy": "Ausgeblendet durch {{source}}",
-        "moduleDisabled": "Zeitleistenmodul deaktiviert",
         "connections": "Verbindungen",
         "saveError": "Das Speichern ist fehlgeschlagen. Ihre bisherigen Einstellungen bleiben unverändert. Versuchen Sie es erneut.",
         "loadError": "Konnte die Seitenleisteneinstellungen nicht laden.",
@@ -2572,14 +2149,8 @@
         "editImage": "{{entity}} Bannerbild bearbeiten"
       }
     },
-    "coming_soon": {
-      "title": "Bald verfügbar",
-      "description": "Dieser Abschnitt ist noch nicht verfügbar."
-    },
     "setup": {
       "recovery": {
-        "startupFailed": "Writality wurde im Wiederherstellungsmodus gestartet, da der Startvorgang fehlgeschlagen ist. Sie können Ihren Arbeitsbereich unten erneut auswählen oder wiederherstellen.",
-        "windowCrashed": "Das Hauptfenster ist abgestürzt. Der Wiederherstellungsmodus ist geöffnet, sodass Sie Ihren Arbeitsbereich wiederherstellen können.",
         "saveCrashDetails": "Absturzdetails speichern",
         "diagnosticsSaved": "Diagnosedaten unter {{path}} gespeichert",
         "diagnosticsFailed": "Die Diagnosedaten konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
@@ -2711,69 +2282,31 @@
       },
       "search": {
         "placeholder": "Einstellungen durchsuchen",
-        "clear": "Einstellungssuche löschen",
         "noResults": "Keine Einstellungen stimmten mit „{{query}}“ überein"
       },
       "emailSupport": "E-Mail Support unter {{supportEmail}}",
-      "helpPrompt": "Brauchen Sie Hilfe oder wollen Sie sprechen?",
       "helpDiscordTitle": "Bei Discord fragen",
       "helpDiscordDescription": "Brauchst du Hilfe bei {{appName}}? Tritt dem Discord-Server bei, um Fragen zu stellen, Screenshots zu teilen, Fehler zu melden oder Ideen für neue Funktionen zu besprechen. Dort kannst du auch deine Geschichten und Grafiken teilen.",
       "helpEmailTitle": "Schreib mir direkt eine E-Mail",
       "helpEmailDescription": "Bevorzugen Sie ein persönliches Gespräch? Dann senden Sie mir Ihre Fragen oder Ihr Feedback direkt per E-Mail."
     },
-    "discordInvite": {
-      "eyebrow": "{{appName}} Discord",
-      "title": "Komm und zeige mir was du baust ;)",
-      "description": "Fehlermeldungen und Feature-Anfragen sind in der App weiterhin willkommen, aber Discord ist der bessere Ort für ausführliche Diskussionen: Screenshots, Ablaufdiagramme, Fragen, Fehler, die weitere Details erfordern, kleine Erfolge und Ideen, die möglicherweise einen intensiven Austausch erfordern."
-    },
-    "discordSettings": {
-      "description": "Teilen Sie uns Ihr Feedback, Fehlermeldungen, Feature-Wünsche, Erfahrungsberichte und Grafiken mit.",
-      "featureRequests": {
-        "title": "Funktionswünsche",
-        "description": "Das App-Formular ist nützlich, aber falls wir mehr brauchen, haben wir jetzt Discord. Dort können wir die Gestaltung der Funktionen besprechen und Referenzbilder austauschen."
-      },
-      "bugsWithContext": {
-        "title": "Fehler mit Kontext",
-        "description": "Bei manchen Fehlern sind ein Screenshot, ein kurzer Austausch oder die genaue Darstellung eines Arbeitsbereichs erforderlich. Das gibt uns den nötigen Spielraum dafür."
-      },
-      "showAndTell": {
-        "title": "Zeigen und erzählen",
-        "description": "Ich entwickle immer weiter Diagramm und Geschichten Tools, weil ich mir wünsche, dass die Leute sie für ungewöhnliche, ganz spezielle und wunderschöne Projekte nutzen. Zeigt sie mir bitte."
-      }
-    },
     "supportSettings": {
       "navigationLabel": "Unterstütze {{appName}}",
       "title": "Unterstütze {{appName}}",
-      "eyebrow": "Optionale Unterstützung",
       "heroTitle": "Kreativität muss kostenlos sein.",
-      "heroDescription": "Schreiben, das Erschaffen von Welten, das Erstellen von Karten und das Erzählen von Geschichten sollten für alle zugänglich sein. Die Kernfunktionen von {{appName}} bleiben kostenlos – ohne Funktionssperren und ohne Karten, die hinter einem kostenpflichtigen Zugang versteckt sind.",
-      "promiseTitle": "Was Ihre Unterstützung ändert",
-      "promiseDescription": "Wenn Sie sich für eine Spende entscheiden, gibt mir Ihre Unterstützung mehr Zeit, die App zu verbessern, die bestehenden Funktionen zu optimieren und {{appName}} noch mehr Autoren zugänglich zu machen.",
-      "moreTimeTitle": "Mehr Zeit zum Entwickeln",
-      "moreTimeDescription": "Mehr Funktionen, durchdachte Feinabstimmung und Spielraum, um technische Schulden abzubauen.",
-      "costsTitle": "Praxiskosten",
-      "costsDescription": "Unterstützung bei grundlegenden Aufgaben wie der Signierung der Windows-App und der Weiterführung des Projekts.",
-      "ctaTitle": "Wenn Sie helfen können",
-      "ctaDescription": "Sie können {{appName}} direkt über Patreon unterstützen. Jeder Beitrag hilft, aber die Nutzung der App hängt niemals von einem einzelnen Beitrag ab.",
-      "accessDescription": "Wenn Sie gerne spenden möchten, können Sie das gerne tun. Ihre Unterstützung trägt dazu bei, dass {{appName}} eine wunderbare kostenlose App für Autoren bleibt, die sich kostenpflichtige Tools nicht leisten können. Bitte überfordern Sie Ihr Budget dabei nicht. Denken Sie daran, dass schon 1 Dollar in vielen Teilen der Welt eine Menge Geld ist.",
-      "cta": "Auf Patreon unterstützen",
-      "optional": "Komplett optional. {{appName}} bleibt in jedem Fall kostenlos."
+      "cta": "Auf Patreon unterstützen"
     },
     "workspace": {
       "editorAppearance": {
-        "customValue": "Benutzerdefinierter {{label}}",
         "background": "Hintergrund",
         "typography": "Typografie",
         "imageFit": "Bildpassung",
         "previewError": "Eine Story-Vorschau konnte nicht geladen werden. Zum erneuten Versuch drücken.",
         "previewDescription": "Vorschau, wie Ihr Editor aussehen wird",
-        "description": "Passen Sie die Hintergründe und Beschriftungen des Editors an.",
-        "switchTo": "Ansicht wechseln",
         "title": "Editor Aussehen"
       },
       "theme": {
         "title": "Erscheinungsbild",
-        "description": "Wählen Sie für jeden Modus zwischen „Hell“, „Dunkel“ oder „Systemdesign“ sowie eine Farbpalette aus.",
         "mode": {
           "title": "Darstellungsmodus",
           "description": "Das System passt sich dem hellen bzw. dunklen Erscheinungsbild Ihres Computers an.",
@@ -2782,32 +2315,15 @@
           "system": "System",
           "palette": "Palette"
         },
-        "showLess": "Weniger anzeigen",
-        "browseAll": "Alle {{count}} Themen durchsuchen",
         "customTheme": {
           "import": "Thema importieren",
-          "description": "Geben Sie Ihrem Design einen Namen, passen Sie die Farbklassen an und sehen Sie sich in der Vorschau an, wie die Benutzeroberfläche der Common App aussehen wird.",
           "name": "Themen Name",
-          "save": "Thema speichern",
           "saved": "Thema gespeichert",
           "deleted": "Thema gelöscht",
           "imported": "Thema importiert",
           "exported": "Thema exportiert",
-          "conflict": "Der Name des Themas steht in Konflikt mit einem bereits vorhandenen Thema",
-          "defaultName": "Mein Thema",
-          "defaultSlug": "mein-Thema",
-          "saveError": "Thema konnte nicht gespeichert werden",
           "errors": {
-            "nameRequired": "Der Name des Themas ist erforderlich.",
-            "nameConflictsBundled": "Der Name des Themas steht im Widerspruch zu einem gebündelten Thema.",
-            "nameExists": "Thema Name bereits vorhanden."
-          },
-          "groups": {
-            "core": "Kern",
-            "border": "Ränder & Eingaben",
-            "sidebar": "Primäre Seitenleiste",
-            "secondarySidebar": "Sekundäre Seitenleiste",
-            "editor": "Editor & Etiketten"
+            "nameRequired": "Der Name des Themas ist erforderlich."
           },
           "export": "Exportiere {{name}}",
           "saveNew": "Als neues Thema speichern",
@@ -2860,12 +2376,6 @@
           },
           "options": {
             "roundedness": "Rundung",
-            "writalityBackground": {
-              "label": "Writality Hintergrund",
-              "description": "Zeigt das dezente „Writality“-Schriftwasserzeichen hinter den Einstellungen an.",
-              "opacity": "Hintergrundtransparenz",
-              "density": "Hintergrunddichte"
-            },
             "grainy": {
               "label": "Kornstruktur",
               "description": "Wendet dezente Körnungsstrukturen auf ausgewählte Oberflächen an. Auf Bildschirmen mit niedriger DPI-Auflösung funktioniert dies nicht zuverlässig."
@@ -2888,16 +2398,9 @@
         }
       },
       "fonts": {
-        "title": "Schriftarten",
         "interface": {
           "title": "Schriftart der Benutzeroberfläche",
-          "description": "Wird für Bedienelemente, Menüs und allgemeine UI-Texte verwendet.",
-          "previewTitle": "Vorschau der Benutzeroberfläche"
-        },
-        "heading": {
-          "title": "Titel-Schriftart",
-          "description": "Wird für Überschriften der Ebenen H1 bis H4 in der gesamten App verwendet.",
-          "previewTitle": "Titel Vorschau"
+          "description": "Wird für Bedienelemente, Menüs und allgemeine UI-Texte verwendet."
         },
         "custom": {
           "title": "Benutzerdefinierte Schriftarten",
@@ -2915,12 +2418,7 @@
       "scale": {
         "title": "Maßstab",
         "description": "Passen Sie die Gesamtgröße der Benutzeroberfläche an, um eine optimale Bedienbarkeit zu gewährleisten.",
-        "ariaLabel": "App Skalierung",
-        "ariaLabelPercent": "Prozentuale Skalierung der App",
-        "smaller": "Kleiner",
-        "larger": "Größer",
-        "quickPresets": "Schnellvorlagen",
-        "tip": "Tipp: Bei „100 %“ entspricht das Layout der Standardeinstellung. Verwenden Sie Voreinstellungen für schnelle Änderungen und den Schieberegler zur Feinabstimmung."
+        "ariaLabel": "App Skalierung"
       },
       "textScale": {
         "title": "Textgröße",
@@ -2930,11 +2428,6 @@
       "split": {
         "tileToLeft": "Kachel nach links",
         "tileToRight": "Kachel nach rechts"
-      },
-      "editorBackground": {
-        "previewTitle": "Hintergrundvorschau",
-        "previewConceptName": "Der Kartograf",
-        "previewSegmentName": "Kapitel Eins"
       }
     },
     "profile": {
@@ -2953,8 +2446,7 @@
         "days": "Tage"
       },
       "activity": {
-        "title": "Schreibaktivität",
-        "loading": "Lade Aktivität…"
+        "title": "Schreibaktivität"
       },
       "insights": {
         "title": "Einsichten",
@@ -2969,9 +2461,7 @@
         "noProjects": "Noch keine Projekte."
       },
       "displayName": {
-        "title": "Anzeigename",
-        "label": "Anzeigename",
-        "description": "Dies ist der Name, unter dem die App Sie anspricht, und der beispielsweise im Projekt-Aktivitätsfeed verwendet wird. Er muss nicht eindeutig sein und kann jederzeit geändert werden."
+        "label": "Anzeigename"
       },
       "errors": {
         "nameRequired": "Der Name darf nicht leer sein",
@@ -3062,7 +2552,6 @@
         "backInTabHistory": "Zurück zum Reiter-Verlauf",
         "forwardInTabHistory": "Vorwärts im Reiter-Verlauf",
         "togglePrimarySidebar": "Primäre Seitenleiste umschalten",
-        "switchTabsByIndex": "Zwischen Reitern nach Index wechseln",
         "findInEditor": "Im Editor suchen",
         "toggleSegmentConceptSidebar": "Segment/Konzept-Seitenleiste umschalten"
       }
@@ -3109,30 +2598,12 @@
       }
     },
     "deleted": {
-      "description": "Stellen Sie Ihre Arbeit wieder her oder löschen Sie sie endgültig. Die Elemente bleiben hier, bis Sie sie endgültig löschen.",
-      "recentlyDeleted": "Kürzlich gelöscht",
-      "searchPlaceholder": "Gelöschte Elemente durchsuchen...",
-      "restoreSelected": "Ausgewählte wiederherstellen",
-      "deleteSelected": "Ausgewählte löschen",
-      "selectedCount": "{{count}} ausgewählt",
-      "selectProject": "Wählen Sie ein Projekt aus oder erstellen Sie eines, um gelöschte Elemente zu verwalten.",
-      "failedToLoad": "Das Laden der gelöschten Elemente ist fehlgeschlagen.",
-      "emptyFiltered": "Es wurden keine gelöschten Elemente gefunden, die Ihrer Suche entsprechen.",
       "empty": "Im Moment ist hier nichts zu sehen. Gelöschte Elemente werden angezeigt, sobald Sie sie entfernen.",
       "deletePermanently": "Endgültig löschen",
-      "table": {
-        "selectAllAria": "Alle gelöschten Elemente auswählen",
-        "selectItemAria": "Wähle {{name}} aus.",
-        "item": "Element"
-      },
       "toast": {
         "restored": "{{type}} wiederhergestellt",
-        "permanentlyDeleted": "{{type}} dauerhaft gelöscht",
         "failedRestore": "Fehler beim Wiederherstellen des Elementes.",
-        "failedDelete": "Fehler beim Löschen des Elements",
-        "bulkRestored_one": "{{count}} Elemente wiederhergestellt",
-        "bulkDeleted_one": "{{count}} Elemente dauerhaft gelöscht",
-        "failedBulk": "Fehler beim {{action}} der ausgewählten Elemente"
+        "failedDelete": "Fehler beim Löschen des Elements"
       }
     },
     "tags": {
@@ -3141,13 +2612,11 @@
       "filterPlaceholder": "Stichwörter filtern...",
       "deleteAria": "Stichwort {{name}} löschen",
       "deleted": "Stichwort gelöscht",
-      "updated": "Stichwort aktualisiert",
       "duplicateName": "Ein Stichwort mit diesem Namen existiert bereits.",
       "failedCreate": "Stichwort konnte nicht erstellt werden",
       "failedDelete": "Stichwort konnte nicht gelöscht werden",
       "failedUpdate": "Stichwort konnte nicht aktualisiert werden",
       "failedUpdateOrder": "Fehler beim Aktualisieren der Stichwörter-Reihenfolge",
-      "orderUpdated": "Stichwörter-Reihenfolge aktualisiert",
       "dragHandle": "{{name}} neu anordnen",
       "table": {
         "order": "Reihenfolge",
@@ -3174,21 +2643,15 @@
       "emptyExample2": "Eine Vorlage zur Charakterbeschreibung für neue Darsteller",
       "emptyExample3": "Ein einheitliches Notizformat für Details zur Weltgestaltung",
       "filterPlaceholder": "Blöcke filtern...",
-      "favoriteAria": "Favoriten für Block {{name}} umschalten",
-      "renameAria": "Block umbenennen {{name}}",
-      "deleteAria": "Block {{name}} löschen",
       "renameTitle": "Block umbenennen",
       "table": {
-        "name": "Block",
-        "used": "Benutzt",
-        "updated": "Aktualisiert"
+        "used": "Benutzt"
       },
       "toast": {
         "renamed": "Block umbenannt",
         "deleted": "Blöcke gelöscht",
         "failedRename": "Block konnte nicht umbenannt werden",
-        "failedDelete": "Block konnte nicht gelöscht werden",
-        "failedFavorite": "Fehler beim Aktualisieren der Favoriten"
+        "failedDelete": "Block konnte nicht gelöscht werden"
       }
     },
     "importSettings": {
@@ -3197,12 +2660,10 @@
       "dropOrChoose": "Ziehen Sie die Dateien hierhin oder wählen Sie sie manuell aus",
       "dropHint": "Ihre Dateien werden entsprechend Ihrer Auswahl in Konzepte oder Segmente umgewandelt.",
       "chooseFiles": "Dateien wählen",
-      "progressHint": "Wir verwenden die erste Überschrift als Titel, sofern vorhanden, und führen Sie dann Datei für Datei durch den Vorgang.",
       "importProgress": "Importfortschritt",
       "clearImported": "Importierte löschen",
       "nothingQueued": "Noch nichts in der Warteschlange.",
       "whereShouldThisGo": "Wohin sollte das gehen?",
-      "whereHint": "Wählen Sie den Speicherort für diese Datei aus, importieren Sie sie und fahren Sie dann mit der nächsten fort.",
       "segmentDescription": "Teil einer übergeordneten Dokumentstruktur. Am besten geeignet für Kapitel, Szenen, Abschnitte oder aufeinanderfolgende Inhalte.",
       "conceptDescription": "Eine eigenständige Idee oder Referenz. Am besten geeignet für Notizen, Hintergrundinformationen, Definitionen, Figuren und damit zusammenhängendes Wissen.",
       "removeFile": "Diese Datei entfernen",
@@ -3212,11 +2673,8 @@
       "segmentSplitTitle": "Nach Überschriften aufteilen",
       "segmentSplitHint": "Erstelle jedes Mal, wenn eine ausgewählte Überschrift erscheint, ein neues Element.",
       "segmentSplitActiveHint": "Aufteilung nach: {{levels}}",
-      "segmentSplitNone": "Nicht aufteilen",
       "segmentSplitHeading": "Überschrift {{level}}",
       "segmentSplitHeadingShort": "H{{level}}",
-      "moreFilesWaiting_one": "{{count}} weitere Dateien folgen nach dieser",
-      "stillParsing_one": "{{count}} Datei wird noch analysiert",
       "noMoreFilesWaiting": "Nach dieser Datei gibt es keine weiteren mehr",
       "upNext": "Als nächstes:",
       "batchHandled": "Alles in dieser Charge wurde bearbeitet.",
@@ -3276,7 +2734,6 @@
         "searchPlaceholder": "Sicherungen suchen...",
         "createBackup": "Sicherung erstellen",
         "manualBackup": "Manuelle Sicherung",
-        "restoreConfirm": "Sind Sie sicher, dass Sie diese Sicherung wiederherstellen möchten? Dies wird Ihre aktuellen Daten überschreiben.",
         "restoreAndRestartConfirm": "Dieses Backup wiederherstellen? Es ersetzt Ihre aktuellen Daten. Falls die aktuellen Daten noch gelesen werden können, speichert {{appName}} zunächst eine Kopie davon. Anschließend startet {{appName}} neu.",
         "deleteDescription": "Dies wird die ausgewählte Sicherung dauerhaft entfernen.",
         "totalSize": "Gesamtgröße",
@@ -3349,7 +2806,6 @@
       "removeComplete": "{{language}} entfernt."
     },
     "dictionary": {
-      "clearAll": "Alles löschen",
       "loading": "Wörterbuch wird geladen...",
       "spellcheck": "Rechtschreibprüfung",
       "enableSpellcheck": "Rechtschreibprüfung aktivieren",
@@ -3372,46 +2828,8 @@
       "yourDictionary": "Dein Wörterbuch",
       "removeWord": "Wort entfernen"
     },
-    "bugs": {
-      "dialogDescription": "{{appName}} erfasst keine Nutzerdaten. Nur durch Fehlermeldungen können wir die Anwendung verbessern. Vielen Dank, dass Sie dazu beitragen, {{appName}} noch besser zu machen!",
-      "titlePlaceholder": "Kurzbeschreibung des Fehlers",
-      "descriptionPlaceholder": "Bitte geben Sie detaillierte Schritte an, mit denen sich der Fehler reproduzieren lässt...",
-      "knownBugsPrefix": "Bekannte Fehler",
-      "knownBugsSuffix": "sind in den Einstellungen aufgeführt.",
-      "submit": "Bericht einreichen",
-      "submitting": "Wird gesendet...",
-      "submitted": "Fehlermeldung gesendet! Vielen Dank für Ihr Feedback.",
-      "failed": "Fehlerbericht konnte nicht gesendet werden",
-      "viewKnownBugs": "Bekannte Fehler in den Einstellungen anzeigen",
-      "searchPlaceholder": "Fehlermeldungen suchen...",
-      "filterByStatus": "Nach Status filtern",
-      "emptyFiltered": "Es wurden keine Fehlermeldungen gefunden, die Ihren Filtern entsprechen.",
-      "empty": "Bisher wurden keine Fehler gemeldet.",
-      "table": {
-        "status": "Status"
-      },
-      "status": {
-        "not_started": {
-          "label": "Nicht gestartet",
-          "description": "Dieser Fehler wurde gemeldet, aber noch nicht geprüft oder behoben."
-        },
-        "started": {
-          "label": "In Bearbeitung",
-          "description": "Dieser Fehler wird derzeit untersucht bzw. behoben."
-        },
-        "completed": {
-          "description": "Dieser Fehler wurde behoben und die Lösung ist bereits implementiert."
-        },
-        "rejected": {
-          "label": "Abgelehnt",
-          "description": "Dieser Fehlerbericht wurde geprüft, wird jedoch nicht behoben."
-        }
-      },
-      "discordPrompt": "Du kannst auch dem Discord-Server beitreten, um Feature-Wünsche zu äußern, Fehler zu melden, Screenshots zu teilen, Story-Diagramme zu veröffentlichen und dich allgemein über {{appName}} auszutauschen."
-    },
     "changelog": {
       "empty": "Dieser Version liegen keine Einträge im Änderungsprotokoll bei.",
-      "selectEntry": "Wählen Sie einen Eintrag im Änderungsprotokoll aus.",
       "allVersions": "Alle Versionen",
       "releaseHistory": "Versionshistorie",
       "otherVersions": "Andere Versionen",
@@ -3527,9 +2945,7 @@
     "wordUsage": {
       "analyzing": "Text wird analysiert…",
       "analysisError": "Der Text konnte nicht analysiert werden. Bearbeite das Dokument oder öffne „Text Insights“ erneut, um es noch einmal zu versuchen.",
-      "title": "Wortnutzung",
       "sentences": "Sätze",
-      "avgWords": "Durchschnittliche Wörter",
       "avgWordsPerSentence": "Durchschnittliche Wörter/Satz",
       "characters": "Buchstaben",
       "charactersNoSpaces": "Buchstaben, keine Leerzeichen",
@@ -3538,22 +2954,16 @@
       "statsLoadFailed": "Textstatistiken konnten nicht geladen werden.",
       "showTextStats": "Textstatistiken anzeigen",
       "vocabulary": "Vokabular",
-      "vocabularyDiversity": "Wortvielfalt",
-      "uniqueWords": "Einzigartige Wörter",
-      "freshWordsPer100": "{{count}} frische Wörter pro 100.",
       "per100Words": "pro 100 Wörter",
-      "uniqueOfTotalWords": "einzigartig von {{count}} Wörtern.",
       "vocabularyHint": "Bei fiktionalen Texten wirkt ein Wert von etwa 45 bis 70 oft natürlich. Ein niedrigerer Wert kann auf Wiederholungen oder eine überladene Schreibweise hindeuten; ein höherer Wert kann auf eine schwerfällige Ausdrucksweise oder die übermäßige Verwendung von Synonymen hindeuten.",
       "readabilitySummary": "Basierend auf den folgenden Punkten. Anspruchsvolle Texte können einfach längere Sätze oder Fachbegriffe enthalten.",
       "fleschReference": "Flesch-Referenz",
       "fleschReferenceGuide": "Flesch-Referenzhandbuch",
       "fleschReferenceHelp": "Flesch ermittelt die Lesbarkeit anhand der Satzlänge und der Silbenzahl. Fachbegriffe können den Wert senken; vergleichen Sie ihn daher mit dem Laserniveau, für das Sie schreiben.",
-      "strengthScore": "Aufwandsbewertung",
       "readingEase": "Einfachheitsbewertung",
       "readingEaseHelp": "Ein Flesch-Lesbarkeitsindex von 0 bis 100. Ein höherer Wert bedeutet in der Regel, dass der Text schneller zu lesen ist; ein niedrigerer Wert bedeutet in der Regel, dass der Text komplexer ist.",
       "gradeLevel": "Klassenstufe",
       "gradeLevelHelp": "Flesch-Kincaid ermittelt anhand der Satzlänge und der Silbenanzahl eine ungefähre Einstufung nach dem US-amerikanischen Schulnotensystem. Dabei geht es um die Textdichte und nicht darum, ob der Text für Ihre Zielgruppe geeignet ist.",
-      "estimate": "Schätzung",
       "noReadabilityIssues": "Es sind keine Aufgaben zum Leseverständnis vorhanden.",
       "readabilityIssues": {
         "adverbs": "Adverbien",
@@ -3579,14 +2989,11 @@
         "weakWords": "Enthält allgemeine oder unbestimmte Wörter wie „vielleicht“, „irgendwie“, „Ding“ oder „scheint“. Diese können den Ton abmildern oder Raum für Zweifel lassen.",
         "strongWords": "Zeigt lebhafte, präzise oder energiegeladene Wörter an. Nutzen Sie diese Funktion, um zu erkennen, an welchen Stellen der Text besonders ausdrucksstark ist."
       },
-      "sentenceLength": "Satzlänge",
       "flow": "Fluss",
       "flowHint": "Anhand der folgenden Tabelle können Sie sehen, wie sich die Satzlänge im Text verändert.",
-      "sentenceRhythm": "Satzrhythmus",
       "sentenceRhythmChartLabel": "Satzrhythmus Diagramm",
       "sentenceRhythmBarLabel": "Satz {{index}}: {{wordCount}} Wörter, {{label}}",
       "sentenceLabel": "Satz {{index}}",
-      "sentenceRhythmHint": "Jeder Balken steht für einen Satz; je höher der Balken, desto mehr Wörter.",
       "noSentences": "Noch keine Sätze vorhanden.",
       "noParagraphs": "Noch keine Absätze vorhanden.",
       "paragraphDensityDotLabel": "Absatz {{index}}: {{label}}, {{wordCount}} Wörter",
@@ -3646,31 +3053,22 @@
       "averageWords": "Durchschnittlich {{count}} Wörter",
       "end": "Ende",
       "paragraphDensity": "Absatzdichte",
-      "paragraphDensityHint": "Jeder Punkt steht für einen Absatz – je dunkler, desto dichter der Text.",
       "structure": "Struktur",
       "sentenceOpener": "Einleitung",
-      "sentenceOpenerHint": "Mit welcher Wortart beginnt jeder Satz?",
       "searchPlaceholder": "Suchbegriff...",
       "searchAriaLabel": "Verwendung von Suchbegriffen",
       "saveWordAriaLabel": "Suchbegriff speichern",
       "queryCount": "„{{word}}“ kommt {{count}} Mal vor",
       "searchHelper": "Suchen Sie nach einem Wort oder wählen Sie ein gängiges Wort aus, um die Häufigkeit seiner Verwendung anzuzeigen.",
-      "commonWords": "Gewöhnliche Wörter",
       "frequentWords": "Häufige Wörter",
       "savedWords": "Gespeicherte Wörter",
       "noSavedWords": "Es wurden noch keine Wörter gespeichert.",
       "removeSavedWord": "Gespeichertes Wort {{word}} entfernen",
       "help": {
-        "overview": "Die Zählungen basieren auf dem Editortext: Wörter, erkannte Sätze und durchschnittliche Wortanzahl pro Satz.",
         "vocabulary": "Die Wortvielfalt gibt an, wie viele neue, nicht alltägliche Wörter pro 100 Wörter vorkommen. Sie beschreibt die Struktur des Textes; es handelt sich dabei nicht um eine Qualitätsbewertung.",
         "readability": "Ein grober Anhaltspunkt dafür, wie viel Aufwand das Lesen des Textes erfordern könnte, basierend auf quantifizierbaren Merkmalen wie Satzlänge, Wiederholungen, Passivkonstruktionen, Adverbien, fachspezifisch anmutenden Wörtern, vagen Begriffen und informeller Schreibweise. Ein anspruchsvoller Text ist nicht unbedingt schlechter; Zielgruppe, Gattung und Zweck spielen eine Rolle.",
         "flow": "Jeder vertikale Balken steht für einen Satz, dessen Farbe von der Länge abhängt. Wählen Sie unten eine Länge aus, um alle entsprechenden Sätze im Editor hervorzuheben.",
-        "sentenceLength": "„Buckets“ sind Rhythmusmarkierungen in {{appName}}: 1–8, 9–16, 17–24 und 25+ Wörter. Sie dienen dazu, das Tempo zu erkennen, nicht die Korrektheit.",
-        "sentenceRhythm": "Jeder Balken steht für einen Satz. Lange Textabschnitte werden horizontal gescrollt, sodass jeder Satz weiterhin mit der Maus anvisiert werden kann.",
-        "structure": "Die Dichte wird anhand der Wortanzahl pro Absatz ermittelt. Aufmacher verwenden einfache Wortlisten-Heuristiken, um zu ermitteln, wie Sätze beginnen.",
-        "paragraphDensity": "Die Dichte richtet sich nach der Anzahl der Wörter pro Absatz: 1–25, 26–60, 61–100 und 101+ Wörter.",
-        "sentenceOpener": "„Aufmacher“ verwenden einfache Wortlisten-Heuristiken für Pronomen, Artikel, Konjunktionen, Präpositionen, Adverbien, Eigennamen und andere Wortanfänge.",
-        "wordUsage": "Häufig vorkommende Wörter stammen aus diesem Projekt, nachdem gängige Stoppwörter für die ausgewählte Rechtschreibprüfungssprache herausgefiltert wurden."
+        "structure": "Die Dichte wird anhand der Wortanzahl pro Absatz ermittelt. Aufmacher verwenden einfache Wortlisten-Heuristiken, um zu ermitteln, wie Sätze beginnen."
       },
       "updatingProjectWords": "Projektvokabular wird aktualisiert…",
       "projectWordsError": "Das Projektvokabular konnte nicht aktualisiert werden. Bearbeiten Sie das Dokument oder öffnen Sie Text Insights erneut, um es erneut zu versuchen."
