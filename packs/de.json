@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "d36109473a41-de",
-  "sourceRevision": "d36109473a41c9478ff09c49c5796f1fad27e586",
+  "version": "003f8a381896-de",
+  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -2740,8 +2740,6 @@
         "restoreBackup": "Sicherung wiederherstellen",
         "empty": "Noch keine Sicherungen. Erstellen Sie Ihr erstes Backup zum Schutz Ihrer Daten.",
         "description": "Bei Datenbanksicherungen werden ausschließlich Ihre {{appName}}-Daten gesichert. Projektbilder und andere Assets bleiben bei der Wiederherstellung an ihrem Platz.",
-        "localCopyTitle": "Eine Kopie auf diesem Computer aufbewahren",
-        "localCopyDescription": "Ihre beiden neuesten täglichen Backups werden zudem in den eigenen Datenordner von {{appName}} kopiert; so bleiben sie erhalten, selbst wenn der Arbeitsbereichsordner verschoben oder gelöscht wird oder von einem Synchronisierungsdienst belegt ist.",
         "showLocalCopyFolder": "Ordner anzeigen",
         "localCopyFailed": "Die Einstellung für die Sicherungskopie konnte nicht geändert werden.",
         "showLocalCopyFolderFailed": "Der Ordner für die Sicherungskopien konnte nicht geöffnet werden."

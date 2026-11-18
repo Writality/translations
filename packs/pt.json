@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "d36109473a41-pt",
-  "sourceRevision": "d36109473a41c9478ff09c49c5796f1fad27e586",
+  "version": "003f8a381896-pt",
+  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -2740,8 +2740,6 @@
         "restoreBackup": "Restaurar backup",
         "empty": "Nenhum backup ainda. Crie seu primeiro backup para proteger seus dados.",
         "description": "Os backups do banco de dados são uma restauração completa de snapshots. Use-os quando você quiser uma cópia restaurável do espaço de trabalho {{appName}}.",
-        "localCopyTitle": "Keep a copy on this computer",
-        "localCopyDescription": "Your two newest daily backups are also copied to {{appName}}'s own data folder, so they survive if the workspace folder is moved, deleted or held by a sync service.",
         "showLocalCopyFolder": "Show folder",
         "localCopyFailed": "Could not change the backup copy setting",
         "showLocalCopyFolderFailed": "Could not open the backup copy folder"

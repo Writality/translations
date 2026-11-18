@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "d36109473a41-fr",
-  "sourceRevision": "d36109473a41c9478ff09c49c5796f1fad27e586",
+  "version": "003f8a381896-fr",
+  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -2740,8 +2740,6 @@
         "restoreBackup": "Restaurer une sauvegarde",
         "empty": "Pas encore de sauvegarde. Créé ta première sauvegarde pour protéger tes données.",
         "description": "Les sauvegardes de base de données sont des instantanés de restauration complète de l'app. Utilise-les quand tu veux une copie restaurable de la zone de travail {{appName}}.",
-        "localCopyTitle": "Keep a copy on this computer",
-        "localCopyDescription": "Your two newest daily backups are also copied to {{appName}}'s own data folder, so they survive if the workspace folder is moved, deleted or held by a sync service.",
         "showLocalCopyFolder": "Show folder",
         "localCopyFailed": "Could not change the backup copy setting",
         "showLocalCopyFolderFailed": "Could not open the backup copy folder"

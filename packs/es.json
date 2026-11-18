@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "d36109473a41-es",
-  "sourceRevision": "d36109473a41c9478ff09c49c5796f1fad27e586",
+  "version": "003f8a381896-es",
+  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -2740,8 +2740,6 @@
         "restoreBackup": "Restaurar copia de seguridad",
         "empty": "Aún no hay copias de seguridad. Crea tu primera copia de seguridad para proteger tus datos.",
         "description": "Las copias de seguridad de la base de datos son instantáneas completas de recuperación. Utilízalas cuando quieras una copia de recuperación del espacio de trabajo de {{appName}}.",
-        "localCopyTitle": "Guardar una copia en este equipo",
-        "localCopyDescription": "Tus dos copias de seguridad diarias más recientes también se copian en la carpeta de datos de {{appName}}. Así sobreviven si la carpeta del espacio de trabajo se mueve, se elimina o si un servicio de sincronización la bloquea.",
         "showLocalCopyFolder": "Mostrar carpeta",
         "localCopyFailed": "No se ha podido cambiar la configuración de copia de seguridad",
         "showLocalCopyFolderFailed": "No se ha podido abrir la carpeta de la copia de seguridad"
