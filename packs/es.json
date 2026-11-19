@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "003f8a381896-es",
-  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
+  "version": "f108cfd27ace-es",
+  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -266,7 +266,6 @@
     },
     "footer": {
       "statusLabel": "Estado de Writality",
-      "manuscript": "Manuscrito",
       "spellcheck": "Corrector ortográfico",
       "spellcheckEnabled": "Comprobación ortográfica activada",
       "spellcheckLanguageStatus": "Idioma del corrector ortográfico: {{language}}{{state}}",

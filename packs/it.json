@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "003f8a381896-it",
-  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
+  "version": "f108cfd27ace-it",
+  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -213,7 +213,6 @@
     },
     "footer": {
       "statusLabel": "Writality status",
-      "manuscript": "Manuscript",
       "spellcheck": "Spellcheck",
       "spellcheckEnabled": "Spellcheck enabled",
       "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",

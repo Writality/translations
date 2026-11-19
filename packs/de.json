@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "003f8a381896-de",
-  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
+  "version": "f108cfd27ace-de",
+  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -266,7 +266,6 @@
     },
     "footer": {
       "statusLabel": "Writality Statusf",
-      "manuscript": "Manuskript",
       "spellcheck": "Rechtschreibprüfung",
       "spellcheckEnabled": "Rechtschreibprüfung aktiviert",
       "spellcheckLanguageStatus": "Rechtschreibprüfsprache: {{language}}{{state}}",

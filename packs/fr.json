@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "003f8a381896-fr",
-  "sourceRevision": "003f8a381896cbb6aafa412833ac4717b9100c50",
+  "version": "f108cfd27ace-fr",
+  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -266,7 +266,6 @@
     },
     "footer": {
       "statusLabel": "Statut de Writality",
-      "manuscript": "Manuscrit",
       "spellcheck": "Vérification orthographique",
       "spellcheckEnabled": "Vérification orthographique activée",
       "spellcheckLanguageStatus": "Langue de vérification orthographique : {{language}}{{state}}",
