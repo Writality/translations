@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "f108cfd27ace-fr",
-  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
+  "version": "194ed23af144-fr",
+  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -1185,37 +1185,12 @@
       },
       "bookOrnaments": {
         "none": "None",
-        "marks": {
-          "north-star": "North Star",
-          "wayfinder": "Wayfinder",
-          "solar-seal": "Solar Seal",
-          "quatrefoil": "Quatrefoil",
-          "olive-sprig": "Olive Sprig",
-          "fleur-de-lis": "Fleur-de-lis",
-          "interlocking-knot": "Interlocking Knot",
-          "nocturne": "Nocturne",
-          "laurel-wreath": "Laurel Wreath",
-          "axis-flourish": "Axis Flourish",
-          "compass-flourish": "Compass Flourish",
-          "laurel-vine": "Laurel Vine"
-        },
         "frames": {
           "folio": "Folio Frame",
           "mitred": "Mitred Frame",
           "heraldic": "Heraldic Frame",
           "straight-corners": "Straight Corners",
           "clipped-corners": "Clipped Corners"
-        },
-        "rules": {
-          "diamond": "Diamond Rule",
-          "star": "Star Rule",
-          "laurel": "Laurel Rule",
-          "hexagon": "Hexagon Rule",
-          "echo": "Echo Rule",
-          "orbit": "Orbit Rule",
-          "cadence": "Cadence Rule",
-          "floret": "Floret Rule",
-          "diamond-dashes": "Diamond Dashes"
         }
       },
       "bookColor": "Book colour",
@@ -1409,21 +1384,8 @@
         "setDefaultFontSize": "Définir {{size}} par défaut"
       },
       "divider": {
-        "style": "Divider style",
         "color": "Divider colour",
-        "plain": "Plain line",
-        "delete": "Delete divider",
-        "styles": {
-          "diamond": "Diamond",
-          "star": "Star",
-          "laurel": "Laurel",
-          "hexagon": "Hexagon",
-          "echo": "Echo",
-          "orbit": "Orbit",
-          "cadence": "Cadence",
-          "floret": "Floret",
-          "diamond-dashes": "Diamond Dashes"
-        }
+        "delete": "Delete divider"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Impossible d'afficher l'aperçu de l'extrait"
@@ -1542,7 +1504,6 @@
       "showBubbleMenu": "Afficher le menu bulle",
       "showDocumentOutline": "Afficher le contour du document",
       "showReferences": "Afficher les références et les rétroliens",
-      "indentParagraphs": "Indenter les paragraphes",
       "typewriterMode": "Mode Machine à écrire",
       "dimMode": "Mode tamisé",
       "typewriterBlur": "Flou de Machine à écrire",
@@ -1920,7 +1881,6 @@
       "world": "Monde",
       "addPage": "Ajouter une page",
       "searchPages": "Rechercher des pages à ajouter",
-      "scrollForMorePages": "Défiler pour plus de pages",
       "noMatchingPages": "Aucune page correspondante.",
       "noPagesToAdd": "Toutes les pages par défaut sont déjà dans la navigation. Tu peux effectuer une recherche pour ajouter des pages personnalisées.",
       "reorderInstructions": "Appuie sur Espace pour saisir une page, utilise les flèches pour la déplacer, puis appuie de nouveau sur Espace pour la déposer.",

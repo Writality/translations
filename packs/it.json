@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "f108cfd27ace-it",
-  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
+  "version": "194ed23af144-it",
+  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -1116,7 +1116,6 @@
       "showScrollbar": "Show scrollbar",
       "showDocumentOutline": "Show document outline",
       "showReferences": "Show references and backlinks",
-      "indentParagraphs": "Indent paragraphs",
       "typewriterMode": "Typewriter mode",
       "dimMode": "Dim mode",
       "typewriterBlur": "Typewriter blur",
@@ -1262,7 +1261,7 @@
         "add": "Add cover"
       },
       "preview": {
-        "empty": "Create a manuscript to start organizing your draft.",
+        "empty": "Create a manuscript to start organising your draft.",
         "paginatedEmpty": "Create a manuscript to see its paginated preview."
       },
       "format": {
@@ -1489,7 +1488,6 @@
       "world": "World",
       "addPage": "Add page",
       "searchPages": "Search pages to add",
-      "scrollForMorePages": "Scroll for more pages",
       "noMatchingPages": "No matching pages.",
       "noPagesToAdd": "All default pages are already in navigation. You can search to add a custom pages.",
       "reorderInstructions": "Press Space to pick up a page, use the arrow keys to move it, then press Space to drop it.",

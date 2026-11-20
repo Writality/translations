@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "f108cfd27ace-es",
-  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
+  "version": "194ed23af144-es",
+  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -1185,37 +1185,12 @@
       },
       "bookOrnaments": {
         "none": "Ninguno",
-        "marks": {
-          "north-star": "Estrella Polar",
-          "wayfinder": "Guía",
-          "solar-seal": "Sello Solar",
-          "quatrefoil": "Cuadrilóbulo",
-          "olive-sprig": "Ramita de Olivo",
-          "fleur-de-lis": "Flor de lis",
-          "interlocking-knot": "Nudo Entrelazado",
-          "nocturne": "Nocturno",
-          "laurel-wreath": "Corona de Laurel",
-          "axis-flourish": "Adorno del Eje",
-          "compass-flourish": "Adorno de la Brújula",
-          "laurel-vine": "Viña de Laurel"
-        },
         "frames": {
           "folio": "Marco de Folio",
           "mitred": "Marco a Inglete",
           "heraldic": "Marco Heráldico",
           "straight-corners": "Esquinas Rectas",
           "clipped-corners": "Esquinas Recortadas"
-        },
-        "rules": {
-          "diamond": "Regla de Diamante",
-          "star": "Regla de Estrella",
-          "laurel": "Regla de Laurel",
-          "hexagon": "Regla de Hexágono",
-          "echo": "Regla de Eco",
-          "orbit": "Regla de Órbita",
-          "cadence": "Regla de Cadencia",
-          "floret": "Regla de Florete",
-          "diamond-dashes": "Guiones de Diamante"
         }
       },
       "bookColor": "Color del libro",
@@ -1409,21 +1384,8 @@
         "setDefaultFontSize": "Establece {{size}} como predeterminado"
       },
       "divider": {
-        "style": "Estilo de divisor",
         "color": "Color de divisor",
-        "plain": "Línea simple",
-        "delete": "Borrar divisor",
-        "styles": {
-          "diamond": "Diamante",
-          "star": "Estrella",
-          "laurel": "Laurel",
-          "hexagon": "Hexágono",
-          "echo": "Eco",
-          "orbit": "Órbita",
-          "cadence": "Cadencia",
-          "floret": "Florete",
-          "diamond-dashes": "Guiones de Diamante"
-        }
+        "delete": "Borrar divisor"
       },
       "shareSnippet": {
         "renderPreviewFailed": "No se pudo procesar la vista previa del fragmento"
@@ -1542,7 +1504,6 @@
       "showBubbleMenu": "Mostrar menú flotante",
       "showDocumentOutline": "Mostrar esquema del documento",
       "showReferences": "Muestra referencias y enlaces externos",
-      "indentParagraphs": "Agregar sangría a los párrafos",
       "typewriterMode": "Modo máquina de escribir",
       "dimMode": "Modo atenuado",
       "typewriterBlur": "Desenfoque de máquina de escribir",
@@ -1920,7 +1881,6 @@
       "world": "Mundo",
       "addPage": "Añadir página",
       "searchPages": "Buscar páginas para añadir",
-      "scrollForMorePages": "Desplaza para ver más páginas",
       "noMatchingPages": "No hay páginas que coincidan.",
       "noPagesToAdd": "Todas las páginas predeterminadas están ya en la navegación. Busca para añadir un acceso directo.",
       "reorderInstructions": "Pulsa Espacio para agarrar una página, usa las flechas del teclado para moverla, presiona Espacio para soltarla.",

@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "f108cfd27ace-de",
-  "sourceRevision": "f108cfd27acef34b0b2f1b71e36c2fe5f546d674",
+  "version": "194ed23af144-de",
+  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -1185,37 +1185,12 @@
       },
       "bookOrnaments": {
         "none": "Keine",
-        "marks": {
-          "north-star": "Nord Stern",
-          "wayfinder": "Wegweiser",
-          "solar-seal": "Solar-Versiegelung",
-          "quatrefoil": "Vierpass",
-          "olive-sprig": "Olivenzweig",
-          "fleur-de-lis": "Lilie",
-          "interlocking-knot": "Ineinandergreifender Knoten",
-          "nocturne": "Nocturne",
-          "laurel-wreath": "Lorbeerkranz",
-          "axis-flourish": "Achsen-Entfaltung",
-          "compass-flourish": "Kompass-Verzierung",
-          "laurel-vine": "Lorbeerranke"
-        },
         "frames": {
           "folio": "Folio-Rahmen",
           "mitred": "Gehrungsrahmen",
           "heraldic": "Heraldischer Rahmen",
           "straight-corners": "Gerade Ecken",
           "clipped-corners": "Abgeschnittene Ecken"
-        },
-        "rules": {
-          "diamond": "Diamant-Regel",
-          "star": "Stern-Regel",
-          "laurel": "Lorbeer-Regel",
-          "hexagon": "Hexagon-Regel",
-          "echo": "Echo-Regel",
-          "orbit": "Orbit-Regel",
-          "cadence": "Kadenz-Regel",
-          "floret": "Floret-Regel",
-          "diamond-dashes": "Diamant-Gestrichelt"
         }
       },
       "bookColor": "Buchfarbe",
@@ -1409,21 +1384,8 @@
         "setDefaultFontSize": "{{size}} als Standard festlegen"
       },
       "divider": {
-        "style": "Trennstil",
         "color": "Farbe des Trennelements",
-        "plain": "Einfache Linie",
-        "delete": "Trenner löschen",
-        "styles": {
-          "diamond": "Diamant",
-          "star": "Stern",
-          "laurel": "Lorbeer",
-          "hexagon": "Hexagon",
-          "echo": "Echo",
-          "orbit": "Orbit",
-          "cadence": "Kadenz",
-          "floret": "Blümchen",
-          "diamond-dashes": "Diamant-Gestrichelt"
-        }
+        "delete": "Trenner löschen"
       },
       "shareSnippet": {
         "renderPreviewFailed": "Ausschnitt-Vorschau konnte nicht gerendert werden"
@@ -1542,7 +1504,6 @@
       "showBubbleMenu": "Blasenmenü anzeigen",
       "showDocumentOutline": "Dokumentgliederung anzeigen",
       "showReferences": "Referenzen und Backlinks anzeigen",
-      "indentParagraphs": "Absätze einrücken",
       "typewriterMode": "Schreibmaschinenmodus",
       "dimMode": "Abgedunkelter Modus",
       "typewriterBlur": "Schreibmaschinenunschärfe",
@@ -1920,7 +1881,6 @@
       "world": "Welt",
       "addPage": "Seite hinzufügen",
       "searchPages": "Seiten zum Hinzufügen suchen",
-      "scrollForMorePages": "Für mehr Seiten scrollen",
       "noMatchingPages": "Keine passenden Seiten.",
       "noPagesToAdd": "Alle Standardseiten sind bereits in der Navigation enthalten. Sie können nach benutzerdefinierten Seiten suchen, um diese hinzuzufügen.",
       "reorderInstructions": "Drücke die Leertaste, um eine Seite aufzunehmen, bewege sie mit den Pfeiltasten und drücke dann die Leertaste, um sie abzulegen.",
