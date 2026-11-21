@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "194ed23af144-pt",
-  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
+  "version": "3eab13f19236-pt",
+  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -211,7 +211,6 @@
         "noMonths": "Nenhum mês",
         "pickEnd": "Selecione o término",
         "pickStartEnd": "Selecionar Início Término",
-        "resetDraft": "Limpar rascunho",
         "wrapHint": "Mantenha Shift pressionado para voltar ao início."
       },
       "seasons": {
@@ -523,7 +522,6 @@
       "date": "Data",
       "image": "Imagem",
       "note": "Nota",
-      "noteLoadFailed": "Could not load this note.",
       "retry": "Retry",
       "tags": "Marcadores",
       "blocks": "Blocos",
@@ -1487,9 +1485,7 @@
       "openSegment": "Open segment",
       "addReferenceImage": "Add reference image",
       "addReferenceImageTo": "Add reference image to {{name}}",
-      "addRelationshipTo": "Adicionar relação com {{name}}",
-      "markComplete": "Marcar {{name}} como concluída",
-      "markIncomplete": "Marcar {{name}} como incompleta"
+      "addRelationshipTo": "Adicionar relação com {{name}}"
     },
     "topbarSettings": {
       "font": "Fonte",

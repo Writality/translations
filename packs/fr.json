@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "194ed23af144-fr",
-  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
+  "version": "3eab13f19236-fr",
+  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -211,7 +211,6 @@
         "noMonths": "Pas de mois",
         "pickEnd": "Choisir la fin",
         "pickStartEnd": "Choisir début/fin",
-        "resetDraft": "Réinitialiser le brouillon",
         "wrapHint": "Maintiens Maj pour boucler."
       },
       "seasons": {
@@ -523,7 +522,6 @@
       "date": "Date",
       "image": "Image",
       "note": "Note",
-      "noteLoadFailed": "Impossible de charger cette note.",
       "retry": "Réessayer",
       "tags": "Tags",
       "blocks": "Blocs",
@@ -1487,9 +1485,7 @@
       "openSegment": "Ouvrir segment",
       "addReferenceImage": "Ajouter une image de référence",
       "addReferenceImageTo": "Ajouter une image de référence à {{name}}",
-      "addRelationshipTo": "Ajouter une relation à {{name}}",
-      "markComplete": "Marquer {{name}} comme terminé",
-      "markIncomplete": "Marquer {{name}} comme incomplet"
+      "addRelationshipTo": "Ajouter une relation à {{name}}"
     },
     "topbarSettings": {
       "font": "Police",

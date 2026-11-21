@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "194ed23af144-it",
-  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
+  "version": "3eab13f19236-it",
+  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -158,7 +158,6 @@
         "noMonths": "No months",
         "pickEnd": "Pick End",
         "pickStartEnd": "Pick Start End",
-        "resetDraft": "Reset draft",
         "wrapHint": "Hold Shift to wrap around."
       },
       "seasons": {
@@ -1100,9 +1099,7 @@
       "openSegment": "Open segment",
       "addReferenceImage": "Add reference image",
       "addReferenceImageTo": "Add reference image to {{name}}",
-      "addRelationshipTo": "Add relationship to {{name}}",
-      "markComplete": "Mark {{name}} complete",
-      "markIncomplete": "Mark {{name}} incomplete"
+      "addRelationshipTo": "Add relationship to {{name}}"
     },
     "topbarSettings": {
       "font": "Font",

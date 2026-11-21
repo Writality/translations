@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "194ed23af144-de",
-  "sourceRevision": "194ed23af1445eda7709e293d45ee791254103d9",
+  "version": "3eab13f19236-de",
+  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -211,7 +211,6 @@
         "noMonths": "Keine Monate",
         "pickEnd": "Ende auswählen",
         "pickStartEnd": "Wähle den Start des Endes",
-        "resetDraft": "Entwurf zurücksetzen",
         "wrapHint": "Halte Shift, um zu umwickeln."
       },
       "seasons": {
@@ -523,7 +522,6 @@
       "date": "Datum",
       "image": "Bild",
       "note": "Notiz",
-      "noteLoadFailed": "Konnte diese Notiz nicht laden.",
       "retry": "Wiederholen",
       "tags": "Tags",
       "blocks": "Blöcke",
@@ -1487,9 +1485,7 @@
       "openSegment": "Segment öffnen",
       "addReferenceImage": "Referenzbild hinzufügen",
       "addReferenceImageTo": "Referenzbild zu {{name}} hinzufügen",
-      "addRelationshipTo": "Beziehung zu {{name}} hinzufügen",
-      "markComplete": "Markiere {{name}} als abgeschlossen",
-      "markIncomplete": "Markiere {{name}} als unvollständig"
+      "addRelationshipTo": "Beziehung zu {{name}} hinzufügen"
     },
     "topbarSettings": {
       "font": "Schriftart",
