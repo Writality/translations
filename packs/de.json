@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "3eab13f19236-de",
-  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
+  "version": "926738483be2-de",
+  "sourceRevision": "926738483be2c41af9fff6d7dae98a1d181b8380",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -482,7 +482,6 @@
         "specialDays": "Besondere Tage",
         "sprites": "Grafiken",
         "start": "Start",
-        "studio": "Studio",
         "time": "Zeit",
         "timer": "Timer",
         "titleSize": "Titelgröße",

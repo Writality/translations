@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "3eab13f19236-it",
-  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
+  "version": "926738483be2-it",
+  "sourceRevision": "926738483be2c41af9fff6d7dae98a1d181b8380",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -427,7 +427,6 @@
         "specialDays": "Giorni speciali",
         "sprites": "Sprite",
         "start": "Inizia",
-        "studio": "Studio",
         "time": "Tempo",
         "timer": "Timer",
         "titleSize": "Dimensione titolo",

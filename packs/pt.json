@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "3eab13f19236-pt",
-  "sourceRevision": "3eab13f192365f5f67a2bd84b3c599a123391ac0",
+  "version": "926738483be2-pt",
+  "sourceRevision": "926738483be2c41af9fff6d7dae98a1d181b8380",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -482,7 +482,6 @@
         "specialDays": "Dias especiais",
         "sprites": "Sprites",
         "start": "Inicio",
-        "studio": "Estúdio",
         "time": "Hora",
         "timer": "Cronômetro",
         "titleSize": "Tamanho do título",
