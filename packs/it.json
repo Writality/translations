@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "025d11675754-it",
-  "sourceRevision": "025d11675754d54e1ba356f0d73609cc45012891",
+  "version": "a4f7269a8173-it",
+  "sourceRevision": "a4f7269a81731e9ae2d0653fee6b36e705bd7cda",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -16,12 +16,9 @@
       },
       "toolbar": {
         "configure": "Configure Time System",
-        "enterFullscreen": "Open fullscreen",
         "exitFullscreen": "Exit fullscreen",
         "navigation": "Chronology navigation",
         "appearance": "Chronology appearance",
-        "zoomIn": "Zoom in",
-        "zoomOut": "Zoom out",
         "fitTimeline": "Fit timeline"
       }
     },
@@ -212,28 +209,18 @@
     },
     "footer": {
       "statusLabel": "Writality status",
-      "spellcheck": "Spellcheck",
       "spellcheckEnabled": "Spellcheck enabled",
       "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",
       "spellcheckDisabledState": ", disabled",
       "changeSpellcheckLanguageError": "Could not change spellcheck language",
       "changeSpellcheckError": "Could not change spellcheck",
-      "editorAppearance": "Editor appearance",
-      "editorSettings": "Editor settings",
-      "titleFont": "Title font",
-      "titleSize": "Title size",
       "textFont": "Text font",
-      "fontSize": "Font size",
-      "lineHeight": "Line height",
-      "serif": "Serif",
       "monospace": "Monospace",
       "pixelSize": "{{count}}px",
       "lineHeightValue": "{{value}}×",
       "editorZoom": "Editor zoom: {{zoom}}%",
-      "zoom": "Zoom",
       "resetZoom": "Reset to 100%",
       "writingSession": "Writing session",
-      "today": "Today",
       "dailyGoalStatus": "Today's writing: {{current}} of {{goal}} words",
       "recentWritingActivity": "Recent writing activity",
       "activityUnavailable": "Could not load writing activity.",
@@ -393,13 +380,11 @@
         "newSegment": "Nuovo segmento",
         "newTab": "Nuova scheda",
         "newType": "Nuovo tipo",
-        "next": "Avanti",
         "nextMonth": "Mese successivo",
         "noEstimate": "Nessuna stima",
         "noImagesFound": "Nessuna immagine trovata",
         "noSegmentsYet": "Ancora nessun segmento",
         "noType": "Nessun tipo",
-        "none": "Nessuno",
         "notSetUp": "Non configurato",
         "noteCount": "Nota #{{id}}",
         "notes": "Note",
@@ -494,7 +479,6 @@
       "conceptName": "Nome del concetto",
       "words": "parole",
       "count": {
-        "words": "{{count}} parole",
         "imported": "{{count}} importati"
       },
       "status": {
@@ -507,10 +491,7 @@
       "clearFilter": "Rimuovi filtro",
       "rowCount": "{{filtered}} di {{total}} righe",
       "rowsPerPage": "Righe per pagina",
-      "pageOf": "Pagina {{page}} di {{total}}",
       "firstPage": "Prima pagina",
-      "previousPage": "Pagina precedente",
-      "nextPage": "Pagina successiva",
       "lastPage": "Ultima pagina"
     },
     "tooltips": {
@@ -582,7 +563,6 @@
         "italic": "Corsivo",
         "underline": "Sottolineato",
         "strikethrough": "Barrato",
-        "textColor": "Colore del testo",
         "clearFormatting": "Rimuovi formattazione",
         "searchPlaceholder": "Cerca...",
         "replaceWithPlaceholder": "Sostituisci con...",
@@ -594,7 +574,6 @@
       }
     },
     "music": {
-      "home": "Home",
       "music": "Music",
       "musicPlayer": "Music player",
       "nowPlaying": "Now playing",
@@ -645,8 +624,6 @@
       "collectionReady": "{{name}} is ready offline.",
       "dragMusicHere": "Drag and drop music files here",
       "supportedFormats": "MP3, WAV, FLAC, M4A, AAC and OGG files",
-      "chooseFiles": "Choose Files",
-      "chooseFolder": "Choose Folder",
       "addMusicFolder": "Add an entire folder of music",
       "or": "or",
       "tracksAdded": "Added {{count}} tracks.",
@@ -767,7 +744,6 @@
         "addDescription": "Create a new relationship between entities.",
         "editTitle": "Edit relationship",
         "editDescription": "Update this relationship's type or notes.",
-        "saveChanges": "Save changes",
         "currentlySource": "Currently the source",
         "currentlyTarget": "Currently the target",
         "flipSourceTarget": "Flip source and target",
@@ -804,7 +780,6 @@
         "mentions": "Mentions",
         "connectionDetails": "Connection details",
         "detailsHint": "Hover or select to see details and actions.",
-        "connections": "Connections",
         "directionalMentionEvidence": "Mentions from this concept: {{outgoing}}. Mentions of this concept: {{incoming}}.",
         "threads": "Threads",
         "threadSources": "Thread sources",
@@ -833,7 +808,6 @@
         "hideDetails": "Hide details",
         "hideThread": "Hide thread from graph",
         "restoreThreads": "Show hidden threads",
-        "threadActions": "More actions",
         "openInSegment": "Open in segment",
         "conversationNumber": "Conversation {{count}}",
         "moreConversations_one": "(and {{count}} more conversation)",
@@ -849,7 +823,6 @@
       "writingInsights": "Writing Insights",
       "minShort": "min",
       "wordCountCalendar": {
-        "title": "Daily word count",
         "loading": "Loading calendar...",
         "addedWords": "{{count}} words added",
         "removedWords": "{{count}} words removed",
@@ -866,7 +839,6 @@
         "title": "Project goal",
         "description": "Set a word target and deadline to track required daily pace.",
         "wordGoal": "Word goal",
-        "activeDays": "Active writing days",
         "remainingWords": "Remaining words",
         "complete": "Goal reached."
       },
@@ -875,7 +847,6 @@
         "onTimePace": "On-time pace",
         "currentPace": "Your current pace",
         "keepGoing": "If you keep going",
-        "today": "Today",
         "goalNeedsMomentum": "Add writing activity to calculate your current pace.",
         "noDeadlineForecastVerdict": "At this pace, you’ll finish around {{date}}.",
         "behindVerdict": "{{count}} active days behind at this pace.",
@@ -895,14 +866,10 @@
     "overview": {
       "stories": "Stories",
       "classicView": "Classic view",
-      "background": "Background",
-      "newStory": "New Story",
       "templateStory": "Template Story",
-      "resizeArchiveShelf": "Resize archived stories shelf",
       "noArchivedProjects": "No projects archived",
       "moveEarlier": "Move earlier",
       "moveLater": "Move later",
-      "bookDimensions": "Book dimensions",
       "bookWidth": "Width",
       "bookHeight": "Height",
       "leanAmount": "Lean",
@@ -923,8 +890,7 @@
     },
     "timer": {
       "completeDescription": "Tiny bell, huge progress. Take a breath, then keep going when you're ready.",
-      "completeTitle": "Wow, you did the thing!",
-      "pause": "Pause"
+      "completeTitle": "Wow, you did the thing!"
     },
     "editor": {
       "image": {
@@ -949,8 +915,7 @@
       },
       "blockMenu": {
         "optionsAndDrag": "Click for options, drag to move",
-        "copyToClipboard": "Copy to clipboard",
-        "duplicate": "Duplicate"
+        "copyToClipboard": "Copy to clipboard"
       },
       "createMenu": {
         "shareSnippet": "Share Snippet",
@@ -965,13 +930,11 @@
         "segmentName": "Segment name"
       },
       "mention": {
-        "untitledConcept": "Untitled Concept",
         "createConceptWithName": "Create concept \"{{name}}\"",
         "selectType": "Select type",
         "createAs": "Create \"{{name}}\" as",
         "searchType": "Search type...",
         "noMatchingTypes": "No matching types",
-        "creatingConcept": "Creating concept...",
         "displayForConcept": "Mention display for {{name}}",
         "availableAliases": "{{count}} available",
         "noAliasesYet": "No aliases yet",
@@ -1057,7 +1020,6 @@
         "loadError": "Could not load speakers. Close and try again.",
         "loading": "Loading speakers…",
         "empty": "Search for a Concept to assign.",
-        "creating": "Creating concept…",
         "createNamed": "Create “{{name}}”…",
         "create": "Create new concept…",
         "suggestion": "Suggested speaker: {{name}}. Tab to accept; arrows to cycle; click to choose."
@@ -1095,7 +1057,6 @@
     },
     "planning": {
       "addNoteTo": "Add note to {{name}}",
-      "openSegment": "Open segment",
       "addReferenceImage": "Add reference image",
       "addReferenceImageTo": "Add reference image to {{name}}",
       "addRelationshipTo": "Add relationship to {{name}}"
@@ -1107,8 +1068,6 @@
       "titleWeight": "Title weight",
       "textAlign": "Text align",
       "backgroundColor": "Background colour",
-      "image": "Image",
-      "textColor": "Text colour",
       "showScrollbar": "Show scrollbar",
       "showDocumentOutline": "Show document outline",
       "showReferences": "Show references and backlinks",
@@ -1163,17 +1122,13 @@
         "quotes": "Quotes",
         "raya": "Raya"
       },
-      "background": "Background",
-      "backgroundImage": "Background image",
       "blur": "Blur",
-      "editorSettingsTooltip": "Editor settings",
       "fit": "Fit",
       "opacity": "Opacity",
       "positionX": "Position X",
       "positionY": "Position Y",
       "removeBackgroundImage": "Remove background image",
-      "useDefaultBackgroundImage": "Use default background image",
-      "zoom": "Zoom"
+      "useDefaultBackgroundImage": "Use default background image"
     },
     "gallery": {
       "searchPlaceholder": "Search images",
@@ -1192,7 +1147,6 @@
       "imageDialog": {
         "nameUpdated": "Image name updated successfully",
         "failedUpdateName": "Failed to update image name",
-        "dimensions": "Dimensions",
         "fileSize": "File Size",
         "unknown": "Unknown",
         "download": "Download",
@@ -1239,7 +1193,6 @@
         "openLinkedEntity": "Open linked {{entityType}} {{name}}",
         "deleted": "{{type}} deleted.",
         "deleteTitle": "Delete {{type}}",
-        "deleteDescription": "Are you sure you want to delete this item? This action cannot be undone.",
         "deleteFailed": "Could not delete this card."
       },
       "list": {
@@ -1300,7 +1253,6 @@
       },
       "labels": {
         "newLabel": "New label",
-        "colour": "Colour",
         "region": "Region",
         "newRegion": "New Region",
         "numberedMap": "Map {{number}}"
@@ -1362,9 +1314,6 @@
       "goTo": "Go to",
       "clearSelection": "Clear Selection",
       "fitToView": "Fit to view",
-      "fullscreen": {
-        "open": "Open fullscreen"
-      },
       "export": {
         "button": "Export graph",
         "exporting": "Exporting graph...",
@@ -1540,7 +1489,6 @@
       "items": {
         "openItem": "Open {{type}}: {{name}}",
         "updateTag": "Update tag",
-        "moreActions": "More actions",
         "openMenu": "Open menu",
         "openFolderActionsMenu": "Open folder actions menu",
         "openTypeActionsMenu": "Open type actions menu",
@@ -1596,7 +1544,6 @@
         "deleteDescription": "Delete \"{{name}}\" and its manuscript layout? The segments used in it will remain in the project. This action cannot be undone.",
         "deleteFailed": "Could not delete the manuscript. Please try again.",
         "addOptions": {
-          "newSegment": "New Segment",
           "quarterPage": "1/4 page",
           "halfPage": "2/4 page",
           "threeQuarterPage": "3/4 page",
@@ -1609,8 +1556,6 @@
         "entry": {
           "hideSegmentTitle": "Hide segment title",
           "showSegmentTitle": "Show segment title",
-          "openSegment": "Open segment",
-          "removeEntryTitle": "Remove Entry",
           "removeEntryDescription": "This removes the entry from the manuscript structure.",
           "removeEntryConfirm": "Remove entry"
         }
@@ -1680,9 +1625,6 @@
         "createWorkspace": "Create Workspace"
       }
     },
-    "tutorial": {
-      "previous": "Previous"
-    },
     "noProject": {
       "headline": "Let's get that project finally finished",
       "subheadline": "The most important step is the first one ;)",
@@ -1731,21 +1673,17 @@
       "emailSupport": "Email support at {{supportEmail}}"
     },
     "supportSettings": {
-      "navigationLabel": "Support {{appName}}",
       "title": "Support {{appName}}",
       "heroTitle": "Creativity must be free.",
       "cta": "Support on Patreon"
     },
     "workspace": {
       "editorAppearance": {
-        "background": "Background",
         "typography": "Typography",
         "imageFit": "Image fit",
-        "previewDescription": "Preview how your editor will look",
-        "title": "Editor appearance"
+        "previewDescription": "Preview how your editor will look"
       },
       "theme": {
-        "title": "Theme",
         "mode": {
           "title": "Appearance mode",
           "description": "System follows your computer's light and dark appearance.",
@@ -1854,36 +1792,15 @@
         "remove": "Remove photo"
       },
       "metrics": {
-        "lifetimeWords": "Lifetime words",
-        "concepts": "Concepts",
-        "segments": "Segments",
         "currentStreak": "Current streak",
-        "longestStreak": "Longest streak",
-        "streak": "streak",
-        "days": "days"
-      },
-      "activity": {
-        "title": "Writing activity"
-      },
-      "insights": {
-        "title": "Insights",
-        "activity": "Activity insights",
-        "projects": "Projects",
-        "activeDays": "Active writing days",
-        "wordsAdded": "Words added",
-        "wordsRemoved": "Words removed",
-        "topProjects": "Top projects",
-        "archived": "Archived",
-        "words": "{{count}} words",
-        "noProjects": "No projects yet."
+        "longestStreak": "Longest streak"
       },
       "displayName": {
         "label": "Display name"
       },
       "errors": {
         "nameRequired": "Name cannot be empty",
-        "updateFailed": "Failed to update profile",
-        "updatePhotoFailed": "Failed to update profile photo"
+        "updateFailed": "Failed to update profile"
       }
     },
     "modules": {
@@ -2039,7 +1956,6 @@
       "enterTagName": "Enter tag name...",
       "selectScopes": "Select scopes...",
       "editTag": "Edit Tag",
-      "saveChanges": "Save Changes",
       "createTag": "Create Tag",
       "moveFirst": "Move to front",
       "moveLeft": "Move left",
@@ -2071,7 +1987,6 @@
       "supportedFormats": "Supported formats: {{formats}}. Each file is imported as a new entity.",
       "dropOrChoose": "Drop files here or choose them manually",
       "dropHint": "Your files will be converted into concepts or segments according to your selection.",
-      "chooseFiles": "Choose files",
       "importProgress": "Import progress",
       "clearImported": "Clear imported",
       "nothingQueued": "Nothing queued yet.",
@@ -2131,7 +2046,6 @@
         "scanning": "Scanning for newer builds...",
         "buildReady": "Build {{version}} is staged and ready when you are.",
         "synced": "You're synced with the latest stable release.",
-        "joined": "Joined {{date}}",
         "currentVersion": "Current Version"
       },
       "download": {
@@ -2172,8 +2086,7 @@
       },
       "folder": {
         "title": "Backup folder",
-        "missing": "Choose a folder before enabling readable backups.",
-        "choose": "Choose folder"
+        "missing": "Choose a folder before enabling readable backups."
       },
       "formats": {
         "markdown": "Markdown (.md)",
@@ -2201,7 +2114,6 @@
       "completionPercent": "{{percent}}% translated",
       "installedVersion": "Installed {{version}}",
       "install": "Install",
-      "update": "Update",
       "installFailed": "Failed to install language.",
       "installComplete": "{{language}} installed.",
       "refreshFailed": "Failed to refresh language.",
@@ -2211,7 +2123,6 @@
     },
     "dictionary": {
       "loading": "Loading dictionary...",
-      "spellcheck": "Spellcheck",
       "enableSpellcheck": "Enable Spellcheck",
       "spellcheckDescription": "Show misspelling underlines and spelling suggestions in the editor.",
       "spellcheckLanguage": "Spellcheck Language",
@@ -2296,7 +2207,6 @@
       "searchPlaceholder": "Cerca icona per nome, categoria",
       "loadMore": "Carica altre ({{count}} rimaste)",
       "noIconsFound": "Nessuna icona trovata",
-      "recent": "Recenti",
       "selected": "Selected"
     },
     "ui": {
@@ -2412,7 +2322,6 @@
         "veryDifficult": "Very difficult"
       },
       "averageWords": "Avg {{count}} words",
-      "end": "End",
       "paragraphDensity": "Paragraph Density",
       "structure": "Structure",
       "sentenceOpener": "Sentence Opener",

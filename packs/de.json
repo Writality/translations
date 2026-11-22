@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "025d11675754-de",
-  "sourceRevision": "025d11675754d54e1ba356f0d73609cc45012891",
+  "version": "a4f7269a8173-de",
+  "sourceRevision": "a4f7269a81731e9ae2d0653fee6b36e705bd7cda",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -22,12 +22,9 @@
       },
       "toolbar": {
         "configure": "Zeitsystem konfigurieren",
-        "enterFullscreen": "Im Vollbild öffnen",
         "exitFullscreen": "Vollbild verlassen",
         "navigation": "Chronologie Navigation",
         "appearance": "Chronologie Aussehen",
-        "zoomIn": "Ansicht vergrößern",
-        "zoomOut": "Ansicht verkleinern",
         "fitTimeline": "Zeitleiste anpassen"
       },
       "disclosure": {
@@ -265,28 +262,18 @@
     },
     "footer": {
       "statusLabel": "Writality Statusf",
-      "spellcheck": "Rechtschreibprüfung",
       "spellcheckEnabled": "Rechtschreibprüfung aktiviert",
       "spellcheckLanguageStatus": "Rechtschreibprüfsprache: {{language}}{{state}}",
       "spellcheckDisabledState": ", ausgeschaltett",
       "changeSpellcheckLanguageError": "Sprache der Rechtschreibprüfung konnte nicht geändert werden",
       "changeSpellcheckError": "Rechtschreibprüfung konnte nicht geändert werden",
-      "editorAppearance": "Editor Aussehen",
-      "editorSettings": "Editoreinstellungen",
-      "titleFont": "Titel-Schriftart",
-      "titleSize": "Titelgröße",
       "textFont": "Textschriftart",
-      "fontSize": "Schriftgröße",
-      "lineHeight": "Zeilenhöhe",
-      "serif": "Serif",
       "monospace": "Monospace",
       "pixelSize": "{{count}}px",
       "lineHeightValue": "{{value}}×",
       "editorZoom": "Editor vergrößern : {{zoom}}%",
-      "zoom": "Vergrößern",
       "resetZoom": "Auf 100% zurücksetzen",
       "writingSession": "Schreibrunde",
-      "today": "Heute",
       "dailyGoalStatus": "Heutiges Schreiben: {{current}} von {{goal}} Wörtern",
       "recentWritingActivity": "Kürzliche Schreibaktivität",
       "activityUnavailable": "Schreibaktivität konnte nicht geladen werden.",
@@ -448,13 +435,11 @@
         "newSegment": "Neues Segment",
         "newTab": "Neuer Tab",
         "newType": "Neuer Typ",
-        "next": "Nächste",
         "nextMonth": "Nächster Monat",
         "noEstimate": "Keine Schätzung",
         "noImagesFound": "Keine Bilder gefunden",
         "noSegmentsYet": "Noch keine Segmente",
         "noType": "Kein Typ",
-        "none": "Nichts",
         "notSetUp": "Nicht eingerichtet",
         "noteCount": "Notiz #{{id}}",
         "notes": "Notizen",
@@ -550,7 +535,6 @@
       "conceptName": "Konzeptname",
       "words": "Wörter",
       "count": {
-        "words": "{{count}} Wörter",
         "imported": "{{count}} importiert"
       },
       "status": {
@@ -561,7 +545,6 @@
         "saving": "Speichern…",
         "saved": "Gespeichert",
         "error": "Änderungen konnten nicht gespeichert werden",
-        "retry": "Erneut versuchen",
         "closeInspector": "Prüfer schließen",
         "inspector": "Prüfer"
       },
@@ -572,10 +555,7 @@
       "clearFilter": "Filter löschen",
       "rowCount": "{{filtered}} von {{total}} Zeilen",
       "rowsPerPage": "Zeilen pro Seite",
-      "pageOf": "Seite {{page}} von {{total}}",
       "firstPage": "Erste Seite",
-      "previousPage": "Vorherige Seite",
-      "nextPage": "Nächste Seite",
       "lastPage": "Letzte Seite"
     },
     "tooltips": {
@@ -647,7 +627,6 @@
         "italic": "Kursiv",
         "underline": "Unterstrichen",
         "strikethrough": "Durchgestrichen",
-        "textColor": "Textfarbe",
         "clearFormatting": "Formatierung löschen",
         "searchPlaceholder": "Suche...",
         "replaceWithPlaceholder": "Ersetzen mit...",
@@ -659,7 +638,6 @@
       }
     },
     "music": {
-      "home": "Startseite",
       "music": "Musik",
       "musicPlayer": "Musikplayer",
       "nowPlaying": "Aktuelle wiedergabe",
@@ -715,8 +693,6 @@
       "collectionReady": "{{name}} ist offline verfügbar.",
       "dragMusicHere": "Ziehen Sie Musikdateien per Drag & Drop hierher",
       "supportedFormats": "MP3, WAV, FLAC, M4A, AAC und OGG Dateien",
-      "chooseFiles": "Dateien auswählen",
-      "chooseFolder": "Ordner auswählen",
       "addMusicFolder": "Kompletten Musikordner hinzufügen",
       "or": "oder",
       "tracksAdded": "{{count}} Titel hinzugefügt.",
@@ -760,8 +736,6 @@
     "notices": {
       "trigger_one": "{{count}} Hinweis",
       "trigger": "{{count}} Hinweise",
-      "untitled": "Unbenannt",
-      "open": "Öffnen",
       "failedSave": {
         "title": "„{{name}}” ist noch nicht gespeichert",
         "description": "{{appName}} versucht es weiterhin zu speichern. Lassen Sie dieses Fenster geöffnet bis es gespeichert ist.",
@@ -778,11 +752,9 @@
         "settings": "Standort des Arbeitsbereichs",
         "accept": "Ich verstehe das Risiko"
       },
-      "dismiss": "Verwerfen",
       "startupBackup": {
         "title": "Automatische Sicherung konnte nicht abgeschlossen werden",
-        "description": "Deine Texte sind weiterhin verfügbar, aber {{appName}} konnte beim Start kein automatisches Backup erstellen. {{reason}}",
-        "settings": "Sicherungen"
+        "description": "Deine Texte sind weiterhin verfügbar, aber {{appName}} konnte beim Start kein automatisches Backup erstellen. {{reason}}"
       },
       "readableBackup": {
         "title": "Lesbare Sicherungen werden nicht aktualisiert",
@@ -799,14 +771,7 @@
     "concept": {
       "typeDialog": {
         "editTitle": "Konzepttyp bearbeiten",
-        "createTitle": "Konzepttyp erstellen",
-        "create": "Typ erstellen",
-        "save": "Änderungen Speichern",
-        "name": "Typen Name",
-        "nameRequired": "Name ist erforderlich",
-        "icon": "Typ-Symbol wählen",
-        "color": "Farbe des Typs auswählen",
-        "description": "Beschreibung (optional)"
+        "createTitle": "Konzepttyp erstellen"
       },
       "color": "Konzeptfarbe",
       "pickColorFromScreen": "Farbe von überall auf dem Bildschirm wählen",
@@ -845,13 +810,10 @@
         }
       },
       "voices": {
-        "zoomIn": "Vergrößern",
-        "zoomOut": "Verkleinern",
         "fitGraph": "Alle Gesprächspartner anpassen",
         "fit": "Anpassen",
         "findPartner": "Finde einen Gesprächspartner…",
         "sourceBlock": "Manuskriptblock {{number}}",
-        "readMore": "Mehr lesen",
         "readLess": "Weniger lesen",
         "assignError": "Konnte Sprecher nicht zuweisen. Das Segment kann geändert oder schreibgeschützt sein. Aktualisieren und erneut versuchen.",
         "refresh": "Unterhaltungen aktualisieren",
@@ -922,18 +884,12 @@
         "focusHelp": "Sämtliche Texte ohne Dialog im Segment abdunkeln.",
         "timeline": "Dialog Zeitleiste",
         "nearbyTurns": "{{speaker}}: {{count}} benachbarte Beiträge",
-        "zoomOut": "Verkleinern",
-        "zoomIn": "Vergrößern",
-        "fit": "Anpassen",
-        "start": "Anfang",
-        "end": "Ende",
         "counts": "{{speakers}} Sprecher · {{turns}} Runden",
         "empty": "Kein Dialog in diesem Segment.",
         "readError": "Der Dialog dieses Segments konnte nicht gelesen werden. Ihr Text ist unverändert."
       },
       "deletedNotice": {
-        "message": "Dieses Konzept ist in gelöschten Elementen, daher können die Änderungen nicht gespeichert werden. Wiederherstellen um weiter zu bearbeiten.",
-        "restore": "Wiederherstellen"
+        "message": "Dieses Konzept ist in gelöschten Elementen, daher können die Änderungen nicht gespeichert werden. Wiederherstellen um weiter zu bearbeiten."
       },
       "sharedDate": {
         "sharedWith_one": "Dieses Datum wird mit {{count}} anderen Elementen geteilt.",
@@ -946,11 +902,6 @@
       "typeDialog": {
         "editTitle": "Beziehungstyp bearbeiten",
         "createTitle": "Beziehungstyp erstellen",
-        "create": "Typ erstellen",
-        "name": "Typen Name",
-        "nameRequired": "Name ist erforderlich",
-        "icon": "Typ-Symbol wählen",
-        "color": "Farbe des Typs auswählen",
         "labels": "Labels",
         "swapLabels": "Labels tauschen",
         "forward": "Konzept A → Konzept B",
@@ -958,7 +909,6 @@
         "forwardExample": "z.B. Elternteil von",
         "reverseExample": "z.B. Kind von",
         "labelFallback": "Lassen Sie eines der beiden Felder leer, um den Typnamen in dieser Richtung zu verwenden.",
-        "description": "Beschreibung (optional)",
         "deleteTitle": "Beziehungstyp löschen",
         "deleteDescription": "Möchtest du „{{name}}“ wirklich löschen? Dadurch wird es auch an allen Stellen entfernt, an denen es verwendet wird. Diese Aktion kann nicht rückgängig gemacht werden.",
         "unnamed": "diesen Beziehungstyp"
@@ -967,7 +917,6 @@
         "addDescription": "Erstelle eine neue Beziehung zwischen Objekten.",
         "editTitle": "Beziehung bearbeiten",
         "editDescription": "Aktualisiere den Typ oder die Notizen dieser Beziehung.",
-        "saveChanges": "Änderungen speichern",
         "currentlySource": "Aktuell die Quelle",
         "currentlyTarget": "Aktuell das Ziel",
         "flipSourceTarget": "Quelle und Ziel tauschen",
@@ -1004,7 +953,6 @@
         "mentions": "Erwähnungen",
         "connectionDetails": "Verbindungsdetails",
         "detailsHint": "Bewegen Sie den Mauszeiger darüber oder wählen Sie die Option aus, um Details und Aktionen anzuzeigen.",
-        "connections": "Verbindungen",
         "directionalMentionEvidence": "Erwähnungen zu diesem Konzept: {{outgoing}}. Erwähnt dieses Konzept: {{incoming}}.",
         "threads": "Themen",
         "threadSources": "Themen Quellen",
@@ -1033,7 +981,6 @@
         "hideDetails": "Details ausblenden",
         "hideThread": "Thema aus Graph ausblenden",
         "restoreThreads": "Versteckte Themen anzeigen",
-        "threadActions": "Weitere Aktionen",
         "openInSegment": "Im Segment öffnen",
         "conversationNumber": "Gespräch {{count}}",
         "moreConversations_one": "(und {{count}} weitere Unterhaltung)",
@@ -1046,8 +993,7 @@
       "editProjectName": "Projektnamen bearbeiten",
       "projectSummary": "Projektzusammenfassung",
       "tabs": {
-        "progress": "Fortschritt",
-        "home": "Startseite"
+        "progress": "Fortschritt"
       },
       "recentItemsUnavailable": "Die neuesten Einträge konnten nicht geladen werden.",
       "continueEditing": "Bearbeitung fortsetzen",
@@ -1056,7 +1002,6 @@
       "writingInsights": "Schreibeinsichten",
       "minShort": "min",
       "wordCountCalendar": {
-        "title": "Tägliche Wortzahl",
         "loading": "Kalender wird geladen...",
         "addedWords": "{{count}} Wörter hinzugefügt",
         "removedWords": "{{count}} Wörter entfernt",
@@ -1080,7 +1025,6 @@
         "title": "Projektziel",
         "description": "Legen Sie ein Wortziel und eine Frist fest, um das erforderliche tägliche Tempo im Blick zu behalten.",
         "wordGoal": "Wortziel",
-        "activeDays": "Aktive Schreibtage",
         "remainingWords": "Verbleibende Wörter",
         "complete": "Ziel erreicht."
       },
@@ -1089,7 +1033,6 @@
         "onTimePace": "Pünktlichkeitsrate",
         "currentPace": "Ihr aktuelles Tempo",
         "keepGoing": "Wenn du weitermachst",
-        "today": "Heute",
         "goalNeedsMomentum": "Fügen Sie Schreibaktivität hinzu, um das aktuelle Tempo zu berechnen.",
         "noDeadlineForecastVerdict": "Bei diesem Tempo wirst du etwa am {{date}} fertig sein.",
         "behindVerdict": "Bei diesem Tempo liegen noch {{count}} aktive Tage zurück.",
@@ -1117,7 +1060,6 @@
         "readingTime": "Lesezeit"
       },
       "progress": {
-        "title": "Schreibaktivität",
         "period": "Aktivitätszeitraum",
         "periods": {
           "week": "Letzten 7 Tage",
@@ -1136,12 +1078,10 @@
         "activityChart": "Wörter hinzugefügt und entfernt im Laufe der Zeit",
         "bySegment": "Aktivität nach Segment",
         "distribution": "Segmentverteilung",
-        "segment": "Segment",
         "otherSegments": "Andere Segmente",
         "unavailableSegment": "Gelöschtes Segment #{{id}}",
         "noSegmentActivity": "Keine aufgezeichnete Segmentaktivität in diesem Zeitraum.",
         "noDistribution": "Keine Wörter für diese Maßnahme aufgezeichnet.",
-        "retry": "Erneut versuchen",
         "monthlyTotals": "Monatliche Gesamtwerte",
         "unavailable": "Schreibaktivität konnte nicht geladen werden."
       }
@@ -1151,18 +1091,13 @@
       "libraryView": "Bibliotheksansicht",
       "bookshelfView": "Bücherregalansicht",
       "classicView": "Klassische Ansicht",
-      "background": "Hintergrund",
-      "newStory": "Neue Geschichte",
       "templateStory": "Vorlagengeschichte",
-      "resizeArchiveShelf": "Größe des Archivs anpassen",
       "noArchivedProjects": "Keine Projekte archiviert",
       "moveEarlier": "Nach vorne verschieben",
       "moveLater": "Nach hinten verschieben",
       "reorder": "Umsortieren",
-      "bookDimensions": "Buchmaße",
       "bookWidth": "Breite",
       "bookHeight": "Höhe",
-      "bookSize": "Größe",
       "bookSizes": {
         "slim": "Schlank",
         "regular": "Regulär",
@@ -1181,7 +1116,6 @@
         "rule": "Trenner"
       },
       "bookOrnaments": {
-        "none": "Keine",
         "frames": {
           "folio": "Folio-Rahmen",
           "mitred": "Gehrungsrahmen",
@@ -1226,7 +1160,6 @@
         "createStoryError": "Die Geschichte konnte nicht erstellt werden.",
         "bookNumber": "Buch- {{number}}",
         "showCover": "Cover anzeigen",
-        "addImage": "Bild hinzufügen",
         "imageError": "Dieses Bild konnte nicht verwendet werden. Versuche es mit einer PNG-, JPEG-, WebP- oder GIF-Datei.",
         "image": "Bild im Bücherregal",
         "imageHint": "Zum Verschieben ziehen; an der Ecke ziehen, um die Form anzupassen (Umschalttaste gedrückt halten, um die Proportionen beizubehalten). Mit den Pfeiltasten verschieben, mit Plus und Minus die Größe ändern, mit der Eingabetaste die Optionen öffnen.",
@@ -1257,8 +1190,7 @@
     },
     "timer": {
       "completeDescription": "Kleine Glocke, großer Fortschritt. Atme tief durch und mach weiter, wenn du bereit bist.",
-      "completeTitle": "Wow, das hast du wirklich geschafft!",
-      "pause": "Pause"
+      "completeTitle": "Wow, das hast du wirklich geschafft!"
     },
     "editor": {
       "image": {
@@ -1283,8 +1215,7 @@
       },
       "blockMenu": {
         "optionsAndDrag": "Klicken für Optionen, ziehen zum Verschieben",
-        "copyToClipboard": "In die Zwischenablage kopieren",
-        "duplicate": "Duplizieren"
+        "copyToClipboard": "In die Zwischenablage kopieren"
       },
       "createMenu": {
         "shareSnippet": "Ausschnitt teilen",
@@ -1299,13 +1230,11 @@
         "segmentName": "Segmentname"
       },
       "mention": {
-        "untitledConcept": "Unbenanntes Konzept",
         "createConceptWithName": "Konzept \"{{name}}\" erstellen",
         "selectType": "Typ wählen",
         "createAs": "Erstelle \"{{name}}\" als",
         "searchType": "Typ suchen...",
         "noMatchingTypes": "Keine passenden Typen",
-        "creatingConcept": "Erstelle Konzept...",
         "displayForConcept": "Erwähnungsanzeige für {{name}}",
         "availableAliases": "{{count}} verfügbar",
         "noAliasesYet": "Noch keine Aliase",
@@ -1397,7 +1326,6 @@
         "loadError": "Die Sprecher konnten nicht geladen werden. Schließen Sie das Fenster und versuchen Sie es erneut.",
         "loading": "Sprecher werden geladen…",
         "empty": "Suche nach einem Konzept zum Zuweisen.",
-        "creating": "Konzept wird erstellt…",
         "createNamed": "Erstelle “{{name}}“…",
         "create": "Neues Konzept erstellen…",
         "suggestion": "Vorgeschlagener Sprecher: {{name}}. Mit der Tabulatortaste bestätigen; mit den Pfeiltasten durchblättern; zum Auswählen anklicken."
@@ -1410,24 +1338,20 @@
         "review": "Grammatikvorschlag überprüfen",
         "ignore": "Einmal ignorieren",
         "disableRule": "Deaktiviere “{{rule}}” für dieses Projekt",
-        "remove": "Entfernen",
         "insert": "„{{text}}“ einfügen",
         "checking": "Grammatik wird überprüft…",
         "noIssue": "Kein Grammatikvorschlag an dieser Stelle.",
         "englishOnly": "Harper überprüft ausschließlich englische Texte. Wählen Sie in den Spracheinstellungen „Englisch“ als Schreibsprache aus.",
         "error": "Die Rechtschreibprüfung ist nicht verfügbar. Dein Text ist sicher; du kannst einfach weiter schreiben.",
-        "retry": "Wiederholen",
         "preferencesError": "Die Grammatikeinstellungen konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
         "disabledRules": "Deaktivierte Grammatikregeln",
         "noDisabledRules": "Es stehen alle Standard-Grammatikregeln zur Verfügung.",
-        "restore": "Wiederherstellen",
         "restoreRule": "{{rule}} wiederherstellen",
         "loadingPreferences": "Grammatikeinstellungen werden geladen…"
       },
       "recovery": {
         "message_one": "{{appName}} hat {{count}} Wort, das nicht gespeichert werden konnte, beibehalten ({{time}}).",
         "message": "{{appName}} hat {{count}} Wörter beibehalten, die um {{time}} nicht gespeichert werden konnten.",
-        "restore": "Wiederherstellen",
         "restored": "Nicht gespeicherter Text wiederhergestellt. Der ersetzte Text wurde als Version gespeichert.",
         "failed": "Der ungespeicherte Text konnte nicht wiederhergestellt werden.",
         "discard": "Verwerfen",
@@ -1447,8 +1371,6 @@
         "closeAnyway": "Trotzdem schließen"
       },
       "selectionStats": {
-        "words_one": "{{count, number}} Wort",
-        "words_other": "{{count, number}} Wörter",
         "characters_one": "{{count, number}} Zeichen",
         "characters_other": "{{count, number}} Zeichen"
       }
@@ -1481,7 +1403,6 @@
     },
     "planning": {
       "addNoteTo": "Notiz zu {{name}} hinzufügen",
-      "openSegment": "Segment öffnen",
       "addReferenceImage": "Referenzbild hinzufügen",
       "addReferenceImageTo": "Referenzbild zu {{name}} hinzufügen",
       "addRelationshipTo": "Beziehung zu {{name}} hinzufügen"
@@ -1493,8 +1414,6 @@
       "titleWeight": "Titelstärke",
       "textAlign": "Textausrichtung",
       "backgroundColor": "Hintergrundfarbe",
-      "image": "Bild",
-      "textColor": "Textfarbe",
       "showScrollbar": "Scrollleiste anzeigen",
       "showBubbleMenu": "Blasenmenü anzeigen",
       "showDocumentOutline": "Dokumentgliederung anzeigen",
@@ -1550,17 +1469,13 @@
         "quotes": "Zitate",
         "raya": "Raya"
       },
-      "background": "Hintergrund",
-      "backgroundImage": "Hintergrundbild",
       "blur": "Weichzeichnung",
-      "editorSettingsTooltip": "Editoreinstellungen",
       "fit": "Anpassen",
       "opacity": "Deckkraft",
       "positionX": "Position X",
       "positionY": "Position Y",
       "removeBackgroundImage": "Hintergrundbild entfernen",
-      "useDefaultBackgroundImage": "Standard Hintergrundbild verwenden",
-      "zoom": "Vergrößern"
+      "useDefaultBackgroundImage": "Standard Hintergrundbild verwenden"
     },
     "gallery": {
       "searchPlaceholder": "Bilder suchen",
@@ -1579,7 +1494,6 @@
       "imageDialog": {
         "nameUpdated": "Bildname erfolgreich geändert",
         "failedUpdateName": "Bildname ändern fehlgeschlagen",
-        "dimensions": "Dimensionen",
         "fileSize": "Dateigröße",
         "unknown": "Unbekannt",
         "download": "Download",
@@ -1627,7 +1541,6 @@
         "openLinkedEntity": "Verknüpfte {{entityType}} {{name}} öffnen",
         "deleted": "{{type}} gelöscht.",
         "deleteTitle": "{{type}} löschen",
-        "deleteDescription": "Bist du dir sicher, dass du dieses Item wirklich löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
         "deleteFailed": "Diese Karte konnte nicht gelöscht werden."
       },
       "list": {
@@ -1688,7 +1601,6 @@
       },
       "labels": {
         "newLabel": "Neues Label",
-        "colour": "Farbe",
         "region": "Region",
         "newRegion": "Neue Region",
         "numberedMap": "Karte {{number}}"
@@ -1750,9 +1662,6 @@
       "goTo": "Gehe zu",
       "clearSelection": "Auswahl aufheben",
       "fitToView": "An Ansicht anpassen",
-      "fullscreen": {
-        "open": "Vollbildmodus öffnen"
-      },
       "export": {
         "button": "Diagramm exportieren",
         "exporting": "Exportiere Diagramm...",
@@ -1973,11 +1882,9 @@
         "fadedDotBackground": "Hintergrund mit verblassten Punkten"
       },
       "items": {
-        "duplicate": "Duplizieren",
         "duplicateError": "Dieses Element konnte nicht dupliziert werden. Bitte versuche es erneut.",
         "openItem": "Öffne {{type}}: {{name}}",
         "updateTag": "Stichwörter Aktualisieren",
-        "moreActions": "Weitere Aktionen",
         "openMenu": "Menü öffnen",
         "openFolderActionsMenu": "Ordner-Aktionsmenü öffnen",
         "openTypeActionsMenu": "Typ-Aktionsmenü öffnen",
@@ -2033,7 +1940,6 @@
         "deleteDescription": "„{{name}}“ und dessen Manuskriptlayout löschen? Die darin verwendeten Segmente bleiben im Projekt erhalten. Diese Aktion kann nicht rückgängig gemacht werden.",
         "deleteFailed": "Das Manuskript konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
         "addOptions": {
-          "newSegment": "Neues Segment",
           "quarterPage": "1/4 Seite",
           "halfPage": "2/4 Seite",
           "threeQuarterPage": "3/4 Seite",
@@ -2046,8 +1952,6 @@
         "entry": {
           "hideSegmentTitle": "Segmenttitel ausblenden",
           "showSegmentTitle": "Segmenttitel anzeigen",
-          "openSegment": "Segment öffnen",
-          "removeEntryTitle": "Eintrag entfernen",
           "removeEntryDescription": "Dadurch wird der Eintrag aus der Manuskriptstruktur entfernt.",
           "removeEntryConfirm": "Eintrag löschen"
         }
@@ -2065,10 +1969,8 @@
         "resetDefaults": "Auf geerbte Standardwerte zurücksetzen",
         "resetSection": "{{section}} auf „geerbte Sichtbarkeit“ zurücksetzen",
         "hiddenBy": "Ausgeblendet durch {{source}}",
-        "connections": "Verbindungen",
         "saveError": "Das Speichern ist fehlgeschlagen. Ihre bisherigen Einstellungen bleiben unverändert. Versuchen Sie es erneut.",
         "loadError": "Konnte die Seitenleisteneinstellungen nicht laden.",
-        "retry": "Wiederholen",
         "loading": "Lade Seitenleisten-Einstellungen"
       }
     },
@@ -2076,8 +1978,6 @@
       "editTagsAria": "Tags der Notiz {{id}} bearbeiten",
       "linkedToEditor": "Diese Notiz ist mit dem Editor verknüpft",
       "linkedToEditorCount": "{{count}}-mal mit dem Editor verknüpft",
-      "readMore": "Mehr lesen",
-      "showLess": "Weniger anzeigen",
       "recoveryRestored": "Die nicht gespeicherten Absätze wurden am Ende der Notiz hinzugefügt.",
       "recoveryAlreadyPresent": "Die Notiz enthält bereits den gesamten ungespeicherten Text.",
       "recoveryOnlyRemovesOrReorders": "Die nicht gespeicherte Kopie dient lediglich dazu, Absätze zu entfernen oder neu anzuordnen; die Notiz selbst blieb daher unverändert. Verwirf die Kopie, falls du sie nicht mehr benötigst."
@@ -2126,7 +2026,6 @@
         "step2": "Speicherort auswählen",
         "step3": "Beginnen Sie mit dem Erstellen von Projekten!",
         "restore": "Wiederherstellen aus vorhandenem Ordner",
-        "theme": "Thema",
         "bundledThemes": "Gebündelte Themen"
       },
       "details": {
@@ -2149,12 +2048,10 @@
       }
     },
     "tutorial": {
-      "previous": "Vorherige",
       "demo": {
         "play": "Demo abspielen",
         "pause": "Demo anhalten",
         "replay": "Wiederholen",
-        "retry": "Erneut versuchen",
         "unavailable": "Die Demo konnte nicht abgespielt werden."
       },
       "pages": {
@@ -2245,22 +2142,18 @@
       "helpEmailDescription": "Bevorzugen Sie ein persönliches Gespräch? Dann senden Sie mir Ihre Fragen oder Ihr Feedback direkt per E-Mail."
     },
     "supportSettings": {
-      "navigationLabel": "Unterstütze {{appName}}",
       "title": "Unterstütze {{appName}}",
       "heroTitle": "Kreativität muss kostenlos sein.",
       "cta": "Auf Patreon unterstützen"
     },
     "workspace": {
       "editorAppearance": {
-        "background": "Hintergrund",
         "typography": "Typografie",
         "imageFit": "Bildpassung",
         "previewError": "Eine Story-Vorschau konnte nicht geladen werden. Zum erneuten Versuch drücken.",
-        "previewDescription": "Vorschau, wie Ihr Editor aussehen wird",
-        "title": "Editor Aussehen"
+        "previewDescription": "Vorschau, wie Ihr Editor aussehen wird"
       },
       "theme": {
-        "title": "Erscheinungsbild",
         "mode": {
           "title": "Darstellungsmodus",
           "description": "Das System passt sich dem hellen bzw. dunklen Erscheinungsbild Ihres Computers an.",
@@ -2391,36 +2284,15 @@
         "remove": "Foto entfernen"
       },
       "metrics": {
-        "lifetimeWords": "Wörter insgesamt",
-        "concepts": "Konzepte",
-        "segments": "Segmente",
         "currentStreak": "Aktuelle Serie",
-        "longestStreak": "Längste Serie",
-        "streak": "Serie",
-        "days": "Tage"
-      },
-      "activity": {
-        "title": "Schreibaktivität"
-      },
-      "insights": {
-        "title": "Einsichten",
-        "activity": "Aktivitätseinsichten",
-        "projects": "Projekte",
-        "activeDays": "Aktive Schreibtage",
-        "wordsAdded": "Wort hinzugefügt",
-        "wordsRemoved": "Wörter entfernt",
-        "topProjects": "Top Projekte",
-        "archived": "Archiviert",
-        "words": "{{count}} Wörter",
-        "noProjects": "Noch keine Projekte."
+        "longestStreak": "Längste Serie"
       },
       "displayName": {
         "label": "Anzeigename"
       },
       "errors": {
         "nameRequired": "Der Name darf nicht leer sein",
-        "updateFailed": "Profil konnte nicht aktualisiert werden",
-        "updatePhotoFailed": "Profilbild konnte nicht aktualisiert werden"
+        "updateFailed": "Profil konnte nicht aktualisiert werden"
       }
     },
     "modules": {
@@ -2581,7 +2453,6 @@
       "enterTagName": "Stichwort-Name eingeben...",
       "selectScopes": "Bereiche auswählen...",
       "editTag": "Stichwort bearbeiten",
-      "saveChanges": "Änderungen speichern",
       "createTag": "Stichwort erstellen",
       "moveFirst": "In den Vordergrund",
       "moveLeft": "Nach links",
@@ -2613,7 +2484,6 @@
       "supportedFormats": "Unterstützte Formate: {{formats}}. Jede Datei wird als neue Entität importiert.",
       "dropOrChoose": "Ziehen Sie die Dateien hierhin oder wählen Sie sie manuell aus",
       "dropHint": "Ihre Dateien werden entsprechend Ihrer Auswahl in Konzepte oder Segmente umgewandelt.",
-      "chooseFiles": "Dateien wählen",
       "importProgress": "Importfortschritt",
       "clearImported": "Importierte löschen",
       "nothingQueued": "Noch nichts in der Warteschlange.",
@@ -2674,7 +2544,6 @@
         "scanning": "Es wird nach neueren Versionen gesucht...",
         "buildReady": "Version {{version}} ist bereitgestellt und steht zur Verfügung, sobald Sie bereit sind.",
         "synced": "Sie sind mit der neuesten stabilen Version synchronisiert.",
-        "joined": "Beigetreten {{date}}",
         "currentVersion": "Aktuelle Version"
       },
       "download": {
@@ -2720,8 +2589,7 @@
       },
       "folder": {
         "title": "Sicherungsordner",
-        "missing": "Wählen Sie einen Ordner aus, bevor Sie lesbare Sicherungen aktivieren.",
-        "choose": "Ordner auswählen"
+        "missing": "Wählen Sie einen Ordner aus, bevor Sie lesbare Sicherungen aktivieren."
       },
       "formats": {
         "markdown": "Markdown (.md)",
@@ -2749,7 +2617,6 @@
       "completionPercent": "{{percent}}% übersetzt",
       "installedVersion": "Installierte {{version}}",
       "install": "Installieren",
-      "update": "Aktualisieren",
       "installFailed": "Fehler beim Installieren der Sprache.",
       "installComplete": "{{language}} installiert.",
       "refreshFailed": "Fehler beim Aktualisieren der Sprache.",
@@ -2759,7 +2626,6 @@
     },
     "dictionary": {
       "loading": "Wörterbuch wird geladen...",
-      "spellcheck": "Rechtschreibprüfung",
       "enableSpellcheck": "Rechtschreibprüfung aktivieren",
       "spellcheckDescription": "Im Editor Rechtschreibfehler unterstreichen und Rechtschreibvorschläge anzeigen.",
       "spellcheckLanguage": "Sprache der Rechtschreibprüfung",
@@ -2876,7 +2742,6 @@
       "searchPlaceholder": "Icons nach Namen, Kategorie suchen",
       "loadMore": "Lade weitere ({{count}} verbleibend)",
       "noIconsFound": "Keine Icons gefunden",
-      "recent": "Zuletzt genutzte",
       "selected": "Ausgewählt"
     },
     "ui": {
@@ -3003,7 +2868,6 @@
         "veryDifficult": "Sehr schwierig"
       },
       "averageWords": "Durchschnittlich {{count}} Wörter",
-      "end": "Ende",
       "paragraphDensity": "Absatzdichte",
       "structure": "Struktur",
       "sentenceOpener": "Einleitung",
