@@ -3,8 +3,8 @@
   "locale": "it",
   "name": "Italian",
   "nativeName": "Italiano",
-  "version": "a8aeb065357a-it",
-  "sourceRevision": "a8aeb065357aa9c8a168af7f8f0e288dbfbe21d9",
+  "version": "569d92354ddf-it",
+  "sourceRevision": "569d92354ddf3d5c48dadb6a93b9e7055d3b0d4e",
   "resources": {
     "chronology": {
       "quickAdd": {
@@ -208,7 +208,6 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Writality status",
       "spellcheckEnabled": "Spellcheck enabled",
       "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",
       "spellcheckDisabledState": ", disabled",
@@ -419,11 +418,9 @@
         "turnInto": "Trasforma in",
         "types": "Tipi",
         "updatedCount": "Aggiornato {{time}}",
-        "updatesBackups": "Aggiornamenti & Backup",
         "upload": "Carica",
         "uploadImage": "Carica immagine",
         "version": "Versione",
-        "versionHistory": "Storico Versioni",
         "years": "Anni",
         "yourName": "Il tuo nome",
         "countActiveDaysAheadAtThis": "{{count}} giorni attivi a questo ritmo.",
@@ -1663,7 +1660,6 @@
       "sections": {
         "editor": "Editor",
         "import": "Import Files",
-        "workspaceLocation": "Workspace Location",
         "help": "Need help?"
       },
       "search": {
@@ -1886,40 +1882,21 @@
       }
     },
     "workspaceLocation": {
-      "connectWorkspace": "Open an existing workspace",
-      "connectWorkspaceDescription": "Point {{appName}} to a workspace folder that is already on this computer or drive. This changes which workspace opens; it does not move any files.",
-      "moveWorkspace": "Move your workspace",
-      "moveWorkspaceDescription": "Move this workspace folder and all of its project data to a new location. {{appName}} will update the saved location and restart when the move is complete.",
       "currentDataLocation": "Your current data location",
-      "openInFiles": "Open in Files",
       "renameWorkspace": "Rename your workspace",
-      "chooseNewLocation": "Destination for this workspace",
-      "browse": "Browse",
-      "selectNewLocationHint": "Select a new location to see the workspace path preview.",
-      "chooseDifferentFolder": "Choose a different folder from your current File Location.",
-      "beforeContinue": "Before you continue",
       "warningDoNotClose": "Do not close the app while the move is in progress.",
       "warningFreeSpace": "Make sure the destination drive has enough free space.",
-      "moveAndRestart": "Move files and restart",
       "confirmTitle": "Confirm Workspace Move",
       "confirmDescription": "This will move your workspace folder, update the saved location, and restart the app.",
-      "typeToConfirmSuffix": "to confirm",
       "workspaceNameFallback": "workspace name",
       "moving": "Moving...",
       "confirmAndMove": "Confirm and Move",
-      "movedTo": "Workspace moved to: {{path}}",
-      "changeDir": "Open existing workspace",
-      "changedTo": "Workspace location changed to: {{path}}",
       "rename": {
-        "description": "Rename the workspace folder without changing its location or contents.",
-        "confirmTitle": "Confirm workspace rename",
         "confirmDescription": "This will rename the workspace folder, update its saved location, and restart the app.",
         "renaming": "Renaming...",
-        "renamedTo": "Workspace renamed to: {{path}}",
         "error": "Failed to rename workspace"
       },
       "errors": {
-        "loadCurrent": "Could not load current File Location",
         "openPicker": "Could not open folder picker",
         "openInFiles": "Could not open workspace folder",
         "move": "Failed to move workspace",
@@ -2041,21 +2018,12 @@
         "unknownError": "Unknown error",
         "failedUpdateGeneric": "Update failed. Please try again."
       },
-      "status": {
-        "versionInfoPending": "Version info will appear as soon as the updater checks in.",
-        "scanning": "Scanning for newer builds...",
-        "buildReady": "Build {{version}} is staged and ready when you are.",
-        "synced": "You're synced with the latest stable release.",
-        "currentVersion": "Current Version"
-      },
       "download": {
         "newVersionAvailable": "New Version Available",
-        "releaseNotes": "Release Notes:",
         "downloadUpdate": "Download Update",
         "installUpdate": "Install Update"
       },
       "backups": {
-        "title": "Data Backups",
         "searchPlaceholder": "Search backups...",
         "createBackup": "Create Backup",
         "manualBackup": "Manual backup",
@@ -2081,8 +2049,7 @@
       "readable": {
         "enable": "Enable readable backups",
         "description": "Readable backups write Segments, Concepts, and Notes as Markdown or Word files in a folder you choose, so your work remains accessible outside {{appName}}.",
-        "disabled": "Turn on readable backups to configure folder, formats, and manual sync.",
-        "implications": "The first backup creates files for existing content and may take a while, especially with DOCX. You can keep writing while it runs. Future edits are exported after about {{seconds}} seconds of inactivity. Markdown is faster and more portable; DOCX is richer but heavier. Changing the folder starts a fresh sync in the new location and leaves the old files untouched. These readable files are not full app restore snapshots; use Updates & Backups for database backups."
+        "disabled": "Turn on readable backups to configure folder, formats, and manual sync."
       },
       "folder": {
         "title": "Backup folder",
@@ -2145,21 +2112,6 @@
     },
     "changelog": {
       "empty": "No changelog entries are bundled with this build."
-    },
-    "versionSettings": {
-      "retentionTitle": "Minor Version Retention",
-      "custom": "Custom limit",
-      "customPlaceholder": "Enter a number",
-      "customHint": "Press Enter or leave the field to save the custom limit.",
-      "conceptVersions": "Concept versions",
-      "segmentVersions": "Segment versions",
-      "totalProjectVersions": "Total versions in project",
-      "customInvalid": "Use a whole number greater than 0.",
-      "customSaved": "Keeping the last {{count}} minor versions.",
-      "footprint": "Version snapshots are text-only and typically have a small storage footprint for most projects.",
-      "howLongShouldWeKeepVersion": "How long should we keep your versions?",
-      "duplicates": "Identical minor versions are never saved because we compare content hashes first.",
-      "updateFailed": "Failed to update version retention."
     },
     "debug": {
       "console": {

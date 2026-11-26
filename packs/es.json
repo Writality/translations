@@ -3,8 +3,8 @@
   "locale": "es",
   "name": "Spanish",
   "nativeName": "Español",
-  "version": "a8aeb065357a-es",
-  "sourceRevision": "a8aeb065357aa9c8a168af7f8f0e288dbfbe21d9",
+  "version": "569d92354ddf-es",
+  "sourceRevision": "569d92354ddf3d5c48dadb6a93b9e7055d3b0d4e",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -261,7 +261,6 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Estado de Writality",
       "spellcheckEnabled": "Comprobación ortográfica activada",
       "spellcheckLanguageStatus": "Idioma del corrector ortográfico: {{language}}{{state}}",
       "spellcheckDisabledState": ", deshabilitado",
@@ -474,11 +473,9 @@
         "turnInto": "Convertir en",
         "types": "Tipos",
         "updatedCount": "Actualizado {{time}}",
-        "updatesBackups": "Actualizaciones y copias de seguridad",
         "upload": "Subir",
         "uploadImage": "Subir imagen",
         "version": "Versión",
-        "versionHistory": "Historial de versiones",
         "years": "Años",
         "yourName": "Tu nombre",
         "countActiveDaysAheadAtThis": "{{count}} días activos por delante a este ritmo.",
@@ -2128,7 +2125,6 @@
       "sections": {
         "editor": "Editor",
         "import": "Importar archivos",
-        "workspaceLocation": "Ubicación del área de trabajo",
         "help": "¿Necesitas ayuda?"
       },
       "search": {
@@ -2383,40 +2379,21 @@
       }
     },
     "workspaceLocation": {
-      "connectWorkspace": "Abrir un área de trabajo existente",
-      "connectWorkspaceDescription": "Guía {{appName}} a una carpeta de área de trabajo que ya está en este ordenador o unidad. Esto cambia el espacio de trabajo abierto; no mueve ningún archivo.",
-      "moveWorkspace": "Mover tu área de trabajo",
-      "moveWorkspaceDescription": "Mueve esta carpeta del área de trabajo y todos los datos de tu proyecto a una nueva ubicación. {{appName}} actualizará la ubicación guardada y se reiniciará cuando se complete el movimiento.",
       "currentDataLocation": "Ubicación actual de tus datos",
-      "openInFiles": "Abrir en Archivos",
       "renameWorkspace": "Renombra tu área de trabajo",
-      "chooseNewLocation": "Destino para esta área de trabajo",
-      "browse": "Explorar",
-      "selectNewLocationHint": "Seleccione una nueva ubicación para ver la vista previa de la ruta del espacio de trabajo.",
-      "chooseDifferentFolder": "Eligir una carpeta diferente a tu ubicación de archivo actual.",
-      "beforeContinue": "Antes de continuar",
       "warningDoNotClose": "No cierre la aplicación mientras el traslado está en curso.",
       "warningFreeSpace": "Asegúrate de que la unidad de destino tenga suficiente espacio libre.",
-      "moveAndRestart": "Mover archivos y reiniciar",
       "confirmTitle": "Confirmar movimiento de área de trabajo",
       "confirmDescription": "Esto moverá la carpeta del área de trabajo, actualizará la ubicación guardada y reiniciará la aplicación.",
-      "typeToConfirmSuffix": "por confirmar",
       "workspaceNameFallback": "nombre del área de trabajo",
       "moving": "Moviendo...",
       "confirmAndMove": "Confirmar y mover",
-      "movedTo": "Área de trabajo movido a: {{path}}",
-      "changeDir": "Abrir área de trabajo existente",
-      "changedTo": "Localización del área de trabajo cambió a: {{path}}",
       "rename": {
-        "description": "Renombrar la carpeta del área de trabajo sin cambiar su ubicación o contenido.",
-        "confirmTitle": "Confirmar renombrado del área de trabajo",
         "confirmDescription": "Esto renombrará la carpeta del área de trabajo, actualizará su ubicación guardada y reiniciará la aplicación.",
         "renaming": "Renombrando...",
-        "renamedTo": "Área de trabajo renombrado a: {{path}}",
         "error": "Fallo al renombrar el área de trabajo"
       },
       "errors": {
-        "loadCurrent": "No se pudo cargar la ubicación actual del archivo",
         "openPicker": "No se pudo abrir el selector de carpetas",
         "openInFiles": "No se pudo abrir la carpeta del espacio de trabajo",
         "move": "Fallo al mover el área de trabajo",
@@ -2539,21 +2516,12 @@
         "unknownError": "Error desconocido",
         "failedUpdateGeneric": "Actualización fallida. Vuelve a intentarlo."
       },
-      "status": {
-        "versionInfoPending": "La información de la versión aparecerá tan pronto como el actualizador lo haga.",
-        "scanning": "Buscando nuevas versiones...",
-        "buildReady": "Versión {{version}} está preparada y lista cuando quieras.",
-        "synced": "Estás sincronizado con la última versión estable.",
-        "currentVersion": "Versión actual"
-      },
       "download": {
         "newVersionAvailable": "Nueva versión disponible",
-        "releaseNotes": "Notas de la versión:",
         "downloadUpdate": "Descargar actualización",
         "installUpdate": "Instalar actualización"
       },
       "backups": {
-        "title": "Copias de seguridad de datos",
         "searchPlaceholder": "Buscar copias de seguridad...",
         "createBackup": "Crear copia de seguridad",
         "manualBackup": "Copia de seguridad manual",
@@ -2563,7 +2531,6 @@
         "restoreBackup": "Restaurar copia de seguridad",
         "empty": "Aún no hay copias de seguridad. Crea tu primera copia de seguridad para proteger tus datos.",
         "description": "Las copias de seguridad de la base de datos son instantáneas completas de recuperación. Utilízalas cuando quieras una copia de recuperación del espacio de trabajo de {{appName}}.",
-        "showLocalCopyFolder": "Mostrar carpeta",
         "localCopyFailed": "No se ha podido cambiar la configuración de copia de seguridad",
         "showLocalCopyFolderFailed": "No se ha podido abrir la carpeta de la copia de seguridad"
       },
@@ -2584,8 +2551,7 @@
       "readable": {
         "enable": "Habilitar copias de seguridad legibles",
         "description": "Las copias de seguridad legibles escriben Segmentos, Conceptos y Notas como archivos Markdown o Word en una carpeta que elijas, para que tu trabajo siga siendo accesible fuera de {{appName}}.",
-        "disabled": "Activar copias de seguridad legibles para configurar carpetas, formatos y sincronización manual.",
-        "implications": "La primera copia de seguridad crea archivos para contenido existente y puede tomar un tiempo, especialmente con DOCX. Puedes seguir escribiendo mientras se ejecuta. Las futuras ediciones se exportan después de aproximadamente {{seconds}} segundos de inactividad. Markdown es más rápido y portátil; DOCX es más rico pero más pesado. Cambiar la carpeta inicia una nueva sincronización en la nueva ubicación y deja los archivos antiguos sin tocar. Estos archivos legibles no son instantáneas comletas de la base de datos de la app; use Actualizaciones y Copias de seguridad para copias de seguridad de la base de datos."
+        "disabled": "Activar copias de seguridad legibles para configurar carpetas, formatos y sincronización manual."
       },
       "folder": {
         "title": "Carpeta de copia de seguridad",
@@ -2654,21 +2620,6 @@
       "older": "Más antiguo",
       "newer": "Más reciente",
       "loadError": "Error al cargar entradas del registro de cambios."
-    },
-    "versionSettings": {
-      "retentionTitle": "Retención de versiones menores",
-      "custom": "Límite personalizado",
-      "customPlaceholder": "Introduzca un número",
-      "customHint": "Presione Enter o deje el campo para guardar el límite personalizado.",
-      "conceptVersions": "Versiones de concepto",
-      "segmentVersions": "Versiones de segmento",
-      "totalProjectVersions": "Versiones totales en el proyecto",
-      "customInvalid": "Usar un número entero mayor que 0.",
-      "customSaved": "Manteniendo las últimas {{count}} versiones menores.",
-      "footprint": "Las instantáneas de versiones son sólo texto y suelen tener una pequeña huella de almacenamiento para la mayoría de los proyectos.",
-      "howLongShouldWeKeepVersion": "¿Cuánto tiempo deberíamos mantener tus versiones?",
-      "duplicates": "Las versiones menores idénticas nunca se guardan porque primero comparamos los hash de contenido.",
-      "updateFailed": "Error al actualizar la retención de la versión."
     },
     "debug": {
       "console": {

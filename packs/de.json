@@ -3,8 +3,8 @@
   "locale": "de",
   "name": "German",
   "nativeName": "Deutsch",
-  "version": "a8aeb065357a-de",
-  "sourceRevision": "a8aeb065357aa9c8a168af7f8f0e288dbfbe21d9",
+  "version": "569d92354ddf-de",
+  "sourceRevision": "569d92354ddf3d5c48dadb6a93b9e7055d3b0d4e",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -261,7 +261,6 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Writality Statusf",
       "spellcheckEnabled": "Rechtschreibprüfung aktiviert",
       "spellcheckLanguageStatus": "Rechtschreibprüfsprache: {{language}}{{state}}",
       "spellcheckDisabledState": ", ausgeschaltett",
@@ -474,11 +473,9 @@
         "turnInto": "Umschalten in",
         "types": "Typen",
         "updatedCount": "{{time}} aktualisiert",
-        "updatesBackups": "Updates & Sicherungen",
         "upload": "Hochladen",
         "uploadImage": "Bild hochladen",
         "version": "Version",
-        "versionHistory": "Versionsverlauf",
         "years": "Jahre",
         "yourName": "Dein Name",
         "countActiveDaysAheadAtThis": "{{count}} aktive Tage vor diesem Abschnitt.",
@@ -2128,7 +2125,6 @@
       "sections": {
         "editor": "Editor",
         "import": "Dateien importieren",
-        "workspaceLocation": "Standort des Arbeitsbereichs",
         "help": "Benötigen Sie Hilfe?"
       },
       "search": {
@@ -2383,40 +2379,21 @@
       }
     },
     "workspaceLocation": {
-      "connectWorkspace": "Öffne einen existierenden Arbeitsbereich",
-      "connectWorkspaceDescription": "Verweisen Sie {{appName}} auf einen Arbeitsbereichsordner, der sich bereits auf diesem Computer oder Laufwerk befindet. Dadurch wird geändert, welcher Arbeitsbereich geöffnet wird; es werden keine Dateien verschoben.",
-      "moveWorkspace": "Arbeitsbereich verschieben",
-      "moveWorkspaceDescription": "Verschieben Sie diesen Arbeitsbereichsordner und alle darin enthaltenen Projektdaten an einen neuen Speicherort. {{appName}} aktualisiert den gespeicherten Speicherort und startet nach Abschluss des Verschiebungsvorgangs neu.",
       "currentDataLocation": "Ihr aktueller Datenspeicherort",
-      "openInFiles": "In Dateien öffnen",
       "renameWorkspace": "Arbeitsbereich umbenennen",
-      "chooseNewLocation": "Zielort für diesen Arbeitsbereich",
-      "browse": "Durchsuchen",
-      "selectNewLocationHint": "Wählen Sie einen neuen Speicherort aus, um eine Vorschau des Arbeitsbereichspfads anzuzeigen.",
-      "chooseDifferentFolder": "Wählen Sie einen anderen Ordner als Ihren aktuellen Speicherort aus.",
-      "beforeContinue": "Bevor du fortfährst",
       "warningDoNotClose": "Schließen Sie die App nicht, solange der Vorgang noch läuft.",
       "warningFreeSpace": "Stellen Sie sicher, dass auf dem Ziellaufwerk genügend freier Speicherplatz vorhanden ist.",
-      "moveAndRestart": "Dateien verschieben und neu starten",
       "confirmTitle": "Verschiebung des Arbeitsbereichs bestätigen",
       "confirmDescription": "Dadurch wird Ihr Arbeitsbereichsordner verschoben, der gespeicherte Speicherort aktualisiert und die App neu gestartet.",
-      "typeToConfirmSuffix": "zum Bestätigen",
       "workspaceNameFallback": "Name des Arbeitsbereichs",
       "moving": "Verschiebe...",
       "confirmAndMove": "Bestätigen und verschieben",
-      "movedTo": "Arbeitsbereich verschoben nach: {{path}}",
-      "changeDir": "Öffne existierenden Arbeitsbereich",
-      "changedTo": "Standort des Arbeitsbereichs geändert zu: {{path}}",
       "rename": {
-        "description": "Benennen Sie den Arbeitsbereichsordner um, ohne dessen Speicherort oder Inhalt zu ändern.",
-        "confirmTitle": "Umbenennung des Arbeitsbereichs bestätigen",
         "confirmDescription": "Dadurch wird der Arbeitsbereichsordner umbenannt, sein Speicherort aktualisiert und die App neu gestartet.",
         "renaming": "Umbenennen...",
-        "renamedTo": "Arbeitsbereich umbenannt in: {{path}}",
         "error": "Umbenennen des Arbeitsbereichs fehlgeschlagen"
       },
       "errors": {
-        "loadCurrent": "Der aktuelle Dateispeicherort konnte nicht geladen werden",
         "openPicker": "Der Ordnerauswahl-Dialog konnte nicht geöffnet werden",
         "openInFiles": "Der Arbeitsbereichsordner konnte nicht geöffnet werden",
         "move": "Das Verschieben des Arbeitsbereichs ist fehlgeschlagen",
@@ -2539,21 +2516,12 @@
         "unknownError": "Unbekannter Fehler",
         "failedUpdateGeneric": "Aktualisierung fehlgeschlagen. Bitte versuche es erneut."
       },
-      "status": {
-        "versionInfoPending": "Die Versionsinformationen werden angezeigt, sobald der Updater die Daten abgerufen hat.",
-        "scanning": "Es wird nach neueren Versionen gesucht...",
-        "buildReady": "Version {{version}} ist bereitgestellt und steht zur Verfügung, sobald Sie bereit sind.",
-        "synced": "Sie sind mit der neuesten stabilen Version synchronisiert.",
-        "currentVersion": "Aktuelle Version"
-      },
       "download": {
         "newVersionAvailable": "Neue Version verfügbar",
-        "releaseNotes": "Versionshinweise:",
         "downloadUpdate": "Aktualisierung herunterladen",
         "installUpdate": "Installiere Aktualisierung"
       },
       "backups": {
-        "title": "Datensicherung",
         "searchPlaceholder": "Sicherungen suchen...",
         "createBackup": "Sicherung erstellen",
         "manualBackup": "Manuelle Sicherung",
@@ -2563,7 +2531,6 @@
         "restoreBackup": "Sicherung wiederherstellen",
         "empty": "Noch keine Sicherungen. Erstellen Sie Ihr erstes Backup zum Schutz Ihrer Daten.",
         "description": "Bei Datenbanksicherungen werden ausschließlich Ihre {{appName}}-Daten gesichert. Projektbilder und andere Assets bleiben bei der Wiederherstellung an ihrem Platz.",
-        "showLocalCopyFolder": "Ordner anzeigen",
         "localCopyFailed": "Die Einstellung für die Sicherungskopie konnte nicht geändert werden.",
         "showLocalCopyFolderFailed": "Der Ordner für die Sicherungskopien konnte nicht geöffnet werden."
       },
@@ -2584,8 +2551,7 @@
       "readable": {
         "enable": "Lesbare Sicherungen aktivieren",
         "description": "Lesbare Sicherung kopiert Segmente, Konzepte und Notizen als Markdown- oder Word-Dateien in einen Ordner Ihrer Wahl, sodass Ihre Arbeit auch außerhalb von {{appName}} zugänglich bleibt.",
-        "disabled": "Aktivieren Sie „Lesbare Sicherungskopien“, um Ordner, Formate und die manuelle Synchronisierung zu konfigurieren.",
-        "implications": "Bei der ersten Sicherung werden Dateien für vorhandene Inhalte erstellt, was eine Weile dauern kann, insbesondere bei DOCX-Dateien. Sie können währenddessen weiter schreiben. Zukünftige Änderungen werden nach etwa {{seconds}} Sekunden Inaktivität exportiert. Markdown ist schneller und portabler; DOCX bietet mehr Funktionen, ist aber schwerfälliger. Wenn du den Ordner wechselst, wird am neuen Speicherort eine neue Synchronisierung gestartet, wobei die alten Dateien unverändert bleiben. Diese lesbaren Dateien sind keine vollständigen Snapshots zur Wiederherstellung der App; verwende „Updates & Backups“ für Datenbank-Backups."
+        "disabled": "Aktivieren Sie „Lesbare Sicherungskopien“, um Ordner, Formate und die manuelle Synchronisierung zu konfigurieren."
       },
       "folder": {
         "title": "Sicherungsordner",
@@ -2654,21 +2620,6 @@
       "older": "Älter",
       "newer": "Neuer",
       "loadError": "Die Einträge im Änderungsprotokoll konnten nicht geladen werden."
-    },
-    "versionSettings": {
-      "retentionTitle": "Beibehaltung der Nebenversion",
-      "custom": "Benutzerdefiniertes Limit",
-      "customPlaceholder": "Geben Sie eine Zahl ein",
-      "customHint": "Drücken Sie die Eingabetaste oder verlassen Sie das Feld, um das benutzerdefinierte Limit zu speichern.",
-      "conceptVersions": "Konzeptversionen",
-      "segmentVersions": "Segmentversionen",
-      "totalProjectVersions": "Gesamte Versionen im Projekt",
-      "customInvalid": "Eine ganze Zahl größer als 0 verwenden.",
-      "customSaved": "Die letzten {{count}} Nebenversionen werden beibehalten.",
-      "footprint": "Versions-Snapshots bestehen ausschließlich aus Text und beanspruchen bei den meisten Projekten in der Regel nur wenig Speicherplatz.",
-      "howLongShouldWeKeepVersion": "Wie lange sollen wir Ihre Versionen aufbewahren?",
-      "duplicates": "Identische Nebenversionen werden niemals gespeichert, da wir zunächst die Inhalts-Hashes vergleichen.",
-      "updateFailed": "Die Aktualisierung der Versionsaufbewahrung ist fehlgeschlagen."
     },
     "debug": {
       "console": {

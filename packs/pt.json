@@ -3,8 +3,8 @@
   "locale": "pt",
   "name": "Portuguese",
   "nativeName": "Português",
-  "version": "a8aeb065357a-pt",
-  "sourceRevision": "a8aeb065357aa9c8a168af7f8f0e288dbfbe21d9",
+  "version": "569d92354ddf-pt",
+  "sourceRevision": "569d92354ddf3d5c48dadb6a93b9e7055d3b0d4e",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -261,7 +261,6 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Writality status",
       "spellcheckEnabled": "Spellcheck enabled",
       "spellcheckLanguageStatus": "Spellcheck language: {{language}}{{state}}",
       "spellcheckDisabledState": ", disabled",
@@ -474,11 +473,9 @@
         "turnInto": "Transformar em",
         "types": "Tipos",
         "updatedCount": "Atualizado {{time}}",
-        "updatesBackups": "Atualizações & Backups",
         "upload": "Carregar",
         "uploadImage": "Carregar imagem",
         "version": "Versão",
-        "versionHistory": "Histórico de versões",
         "years": "Anos",
         "yourName": "Seu nome",
         "countActiveDaysAheadAtThis": "{{count}} dias ativos à frente neste ritmo.",
@@ -2128,7 +2125,6 @@
       "sections": {
         "editor": "Editor",
         "import": "Importar arquivos",
-        "workspaceLocation": "Localização do espaço de trabalho",
         "help": "Precisa de ajuda?"
       },
       "search": {
@@ -2383,40 +2379,21 @@
       }
     },
     "workspaceLocation": {
-      "connectWorkspace": "Abrir um espaço de trabalho existente",
-      "connectWorkspaceDescription": "Aponta o {{appName}} para uma pasta de espaço de trabalho já existente neste computador ou unidade. Isso muda o espaço de trabalho aberto, mas não move nenhum arquivo.",
-      "moveWorkspace": "Mover seu espaço de trabalho",
-      "moveWorkspaceDescription": "Move esta pasta de espaço de trabalho e todos os seus projetos para um novo local. O {{appName}} atualizará o caminho salvo e reiniciará após a conclusão.",
       "currentDataLocation": "Localização atual dos seus dados",
-      "openInFiles": "Open in Files",
       "renameWorkspace": "Rename your workspace",
-      "chooseNewLocation": "Destino para este espaço de trabalho",
-      "browse": "Navegar",
-      "selectNewLocationHint": "Selecione um novo local para pré-visualizar o caminho da área de trabalho.",
-      "chooseDifferentFolder": "Escolha uma pasta diferente do local do arquivo atual.",
-      "beforeContinue": "Antes de continuar",
       "warningDoNotClose": "Não feche o aplicativo enquanto a transferência estiver em andamento.",
       "warningFreeSpace": "Certifique-se de que o drive de destino tenha espaço livre suficiente.",
-      "moveAndRestart": "Mover arquivos e reiniciar",
       "confirmTitle": "Confirmar movimentação do espaço de trabalho",
       "confirmDescription": "Isto moverá a pasta do seu espaço de trabalho, atualizará o local salvo e reiniciará o aplicativo.",
-      "typeToConfirmSuffix": "para confirmar",
       "workspaceNameFallback": "nome do espaço de trabalho",
       "moving": "Movendo...",
       "confirmAndMove": "Confirmar e mover",
-      "movedTo": "Espaço de trabalho movido para: {{path}}",
-      "changeDir": "Abrir espaço de trabalho existente",
-      "changedTo": "Local do espaço de trabalho alterado para: {{path}}",
       "rename": {
-        "description": "Renomear a pasta do espaço de trabalho sem alterar seu local ou conteúdo.",
-        "confirmTitle": "Confirmar renomeação do projeto",
         "confirmDescription": "Isto renomeará a pasta do espaço de trabalho, atualizará sua localização salva e reiniciará o aplicativo.",
         "renaming": "Renomeando...",
-        "renamedTo": "Espaço de trabalho renomeado para: {{path}}",
         "error": "Falha ao renomear espaço de trabalho"
       },
       "errors": {
-        "loadCurrent": "Não foi possível carregar o local do arquivo atual",
         "openPicker": "Não foi possível abrir o seletor de pastas",
         "openInFiles": "Could not open workspace folder",
         "move": "Falha ao mover espaço de trabalho",
@@ -2539,21 +2516,12 @@
         "unknownError": "Erro desconhecido",
         "failedUpdateGeneric": "Falha na atualização. Por favor, tente novamente."
       },
-      "status": {
-        "versionInfoPending": "As informações da versão aparecerão assim que o atualizador for verificado.",
-        "scanning": "Procurando por versões mais recentes...",
-        "buildReady": "A versão {{version}} foi preparada e está pronta para quando você quiser.",
-        "synced": "Você está sincronizado com a versão estável mais recente.",
-        "currentVersion": "Versão atual"
-      },
       "download": {
         "newVersionAvailable": "Nova versão disponível",
-        "releaseNotes": "Notas de lançamento:",
         "downloadUpdate": " Baixar atualização",
         "installUpdate": "Instalar atualização"
       },
       "backups": {
-        "title": "Backups de dados",
         "searchPlaceholder": "Pesquisar backups...",
         "createBackup": "Criar backup",
         "manualBackup": "Backup manual",
@@ -2563,7 +2531,6 @@
         "restoreBackup": "Restaurar backup",
         "empty": "Nenhum backup ainda. Crie seu primeiro backup para proteger seus dados.",
         "description": "Os backups do banco de dados são uma restauração completa de snapshots. Use-os quando você quiser uma cópia restaurável do espaço de trabalho {{appName}}.",
-        "showLocalCopyFolder": "Show folder",
         "localCopyFailed": "Could not change the backup copy setting",
         "showLocalCopyFolderFailed": "Could not open the backup copy folder"
       },
@@ -2584,8 +2551,7 @@
       "readable": {
         "enable": "Habilitar backups legíveis",
         "description": "Backups legíveis gravam segmentos, conceitos e notas como arquivos markdown ou Word em uma pasta que você escolher, mantendo seu trabalho acessível fora do {{appName}}.",
-        "disabled": "Ative os backups legíveis para configurar pastas, formatos e sincronização manual.",
-        "implications": "O primeiro backup (especialmente em .docx) pode demorar. Continue escrevendo normalmente. Edições futuras são exportadas após {{seconds}}s de inatividade. Markdown é ágil e portátil; o docx é mais pesado, mas rico em formatação. Mudar a pasta reinicia a sincronização no novo local sem apagar os arquivos antigos. Estes arquivos não restauram o sistema; use \"Atualizações e Backups\" para o banco de dados."
+        "disabled": "Ative os backups legíveis para configurar pastas, formatos e sincronização manual."
       },
       "folder": {
         "title": "Pasta de backups",
@@ -2654,21 +2620,6 @@
       "older": "Older",
       "newer": "Newer",
       "loadError": "Failed to load changelog entries."
-    },
-    "versionSettings": {
-      "retentionTitle": "Retenção de versões menores",
-      "custom": "Limite personalizado",
-      "customPlaceholder": "Digite um número",
-      "customHint": "Pressione Enter ou deixe o campo para salvar o limite personalizado.",
-      "conceptVersions": "Concept versions",
-      "segmentVersions": "Segment versions",
-      "totalProjectVersions": "Total versions in project",
-      "customInvalid": "Use um número inteiro maior que 0.",
-      "customSaved": "Mantendo as últimas {{count}} versões menores.",
-      "footprint": "Imagens de versão são somente texto e tipicamente ocupam pouco espaço de armazenamento para a maioria dos projetos.",
-      "howLongShouldWeKeepVersion": "How long should we keep your versions?",
-      "duplicates": "Versões menores idênticas nunca são salvas pois os hashes são comparados antes.",
-      "updateFailed": "Falha ao atualizar a retenção da versões."
     },
     "debug": {
       "console": {

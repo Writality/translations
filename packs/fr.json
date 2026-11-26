@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "French",
   "nativeName": "Français",
-  "version": "a8aeb065357a-fr",
-  "sourceRevision": "a8aeb065357aa9c8a168af7f8f0e288dbfbe21d9",
+  "version": "569d92354ddf-fr",
+  "sourceRevision": "569d92354ddf3d5c48dadb6a93b9e7055d3b0d4e",
   "resources": {
     "chronology": {
       "eventPreview": {
@@ -261,7 +261,6 @@
       "name": "{{appName}}"
     },
     "footer": {
-      "statusLabel": "Statut de Writality",
       "spellcheckEnabled": "Vérification orthographique activée",
       "spellcheckLanguageStatus": "Langue de vérification orthographique : {{language}}{{state}}",
       "spellcheckDisabledState": ", désactivé",
@@ -474,11 +473,9 @@
         "turnInto": "Transformer en",
         "types": "Types",
         "updatedCount": "Mis à jour {{time}}",
-        "updatesBackups": "Mises à jour et sauvegardes",
         "upload": "Téléverser",
         "uploadImage": "Téléverser une image",
         "version": "Version",
-        "versionHistory": "Historique des versions",
         "years": "Années",
         "yourName": "Ton nom",
         "countActiveDaysAheadAtThis": "{{count}} jours actifs en retard à ce rythme.",
@@ -2128,7 +2125,6 @@
       "sections": {
         "editor": "Éditeur",
         "import": "Importer des fichiers",
-        "workspaceLocation": "Emplacement de la zone de travail",
         "help": "Besoin d'aide ?"
       },
       "search": {
@@ -2383,40 +2379,21 @@
       }
     },
     "workspaceLocation": {
-      "connectWorkspace": "Ouvrir une zone de travail existant",
-      "connectWorkspaceDescription": "Indique à {{appName}} un dossier de zone de travail déjà présent sur cet ordinateur ou ce lecteur ; aucun fichier n'est déplacé.",
-      "moveWorkspace": "Déplacer votre zone de travail",
-      "moveWorkspaceDescription": "Déplace ce dossier de zone de travail et toutes ses données de projet vers un nouvel emplacement. {{appName}} mettra à jour l'emplacement enregistré et redémarrera une fois le déplacement terminé.",
       "currentDataLocation": "Votre emplacement actuel de données",
-      "openInFiles": "Ouvrir dans Fichiers",
       "renameWorkspace": "Renommer ta zone de travail",
-      "chooseNewLocation": "Destination de cette zone de travail",
-      "browse": "Parcourir",
-      "selectNewLocationHint": "Sélectionne un nouvel emplacement pour voir l'aperçu du chemin de la zone de travail.",
-      "chooseDifferentFolder": "Choisis un dossier différent de ton emplacement de fichier actuel.",
-      "beforeContinue": "Avant de continuer",
       "warningDoNotClose": "Ne ferme pas l'application en cours de déplacement.",
       "warningFreeSpace": "Assure-toi que le lecteur de destination a suffisamment d'espace libre.",
-      "moveAndRestart": "Déplacer les fichiers et redémarrer",
       "confirmTitle": "Confirmer le déplacement de la zone de travail",
       "confirmDescription": "Cela déplacera ton dossier de zone de travail, mettra à jour l'emplacement enregistré et redémarrera l'application.",
-      "typeToConfirmSuffix": "pour confirmer",
       "workspaceNameFallback": "nom de la zone de travail",
       "moving": "Déplacement...",
       "confirmAndMove": "Confirmer et déplacer",
-      "movedTo": "Zone de travail déplacé vers : {{path}}",
-      "changeDir": "Ouvrir une zone de travail existant",
-      "changedTo": "Emplacement de la zone de travail changé vers : {{path}}",
       "rename": {
-        "description": "Renomme le dossier de la zone de travail sans changer son emplacement ni son contenu.",
-        "confirmTitle": "Confirmer le renommage de la zone de travail",
         "confirmDescription": "Cela renommera le dossier de la zone de travail, mettra à jour son emplacement enregistré, et redémarrera l'app.",
         "renaming": "Renommage en cours...",
-        "renamedTo": "Zone de travail déplacé vers : {{path}}",
         "error": "Impossible de renommer la zone de travail"
       },
       "errors": {
-        "loadCurrent": "Impossible de charger l'emplacement actuel du fichier",
         "openPicker": "Impossible d’ouvrir le sélecteur de dossier",
         "openInFiles": "Impossible d'ouvrir le dossier de la zone de travail",
         "move": "Impossible de déplacer la zone de travail",
@@ -2539,21 +2516,12 @@
         "unknownError": "Erreur inconnue",
         "failedUpdateGeneric": "La mise à jour a échoué. Veuillez réessayer."
       },
-      "status": {
-        "versionInfoPending": "Les informations sur la version apparaîtront dès que la mise à jour aura été vérifiée.",
-        "scanning": "Recherche de nouvelles versions...",
-        "buildReady": "La version {{version}} est prête et t'attend.",
-        "synced": "Tu es synchronisé avec la dernière version stable.",
-        "currentVersion": "Version actuelle"
-      },
       "download": {
         "newVersionAvailable": "Nouvelle version disponible",
-        "releaseNotes": "Notes de la version:",
         "downloadUpdate": "Télécharger la mise à jour",
         "installUpdate": "Installer la mise à jour"
       },
       "backups": {
-        "title": "Sauvegarde des données",
         "searchPlaceholder": "Rechercher des sauvegardes...",
         "createBackup": "Créer une sauvegarde",
         "manualBackup": "Sauvegarde manuelle",
@@ -2563,7 +2531,6 @@
         "restoreBackup": "Restaurer une sauvegarde",
         "empty": "Pas encore de sauvegarde. Créé ta première sauvegarde pour protéger tes données.",
         "description": "Les sauvegardes de base de données sont des instantanés de restauration complète de l'app. Utilise-les quand tu veux une copie restaurable de la zone de travail {{appName}}.",
-        "showLocalCopyFolder": "Show folder",
         "localCopyFailed": "Could not change the backup copy setting",
         "showLocalCopyFolderFailed": "Could not open the backup copy folder"
       },
@@ -2584,8 +2551,7 @@
       "readable": {
         "enable": "Activer les sauvegardes lisibles",
         "description": "Les sauvegardes lisibles enregistrent les Segments, Concepts et Notes en fichiers Markdown ou Word dans un dossier de ton choix, pour que ton travail reste accessible en dehors de {{appName}}.",
-        "disabled": "Active les sauvegardes lisibles pour configurer le dossier, les formats et la synchronisation manuelle.",
-        "implications": "La première sauvegarde crée les fichiers pour le contenu existant et peut prendre du temps, surtout en DOCX. Tu peux continuer à écrire pendant l'opération. Les modifications futures sont exportées après environ {{seconds}} secondes d'inactivité. Markdown est plus rapide et portable ; DOCX est plus riche mais plus lourd. Changer de dossier démarre une nouvelle synchronisation dans le nouvel emplacement et laisse les anciens fichiers intacts. Ces fichiers lisibles ne sont pas des instantanés de restauration complète de l'app ; utilise Mises à jour et sauvegardes pour les sauvegardes de base de données."
+        "disabled": "Active les sauvegardes lisibles pour configurer le dossier, les formats et la synchronisation manuelle."
       },
       "folder": {
         "title": "Dossier de sauvegarde",
@@ -2654,21 +2620,6 @@
       "older": "Older",
       "newer": "Newer",
       "loadError": "Failed to load changelog entries."
-    },
-    "versionSettings": {
-      "retentionTitle": "Rétention de version mineure",
-      "custom": "Limite personnalisée",
-      "customPlaceholder": "Saisir un nombre",
-      "customHint": "Appuie sur Entrée ou laisse le champ pour enregistrer la limite personnalisée.",
-      "conceptVersions": "Versions de concept",
-      "segmentVersions": "Versions de segment",
-      "totalProjectVersions": "Total des versions dans le projet",
-      "customInvalid": "Utilisez un nombre entier supérieur à 0.",
-      "customSaved": "Garder les {{count}} dernières versions mineures.",
-      "footprint": "Les instantanés de version sont uniquement du texte et ont généralement une faible empreinte de stockage pour la plupart des projets.",
-      "howLongShouldWeKeepVersion": "Combien de temps devons-nous conserver les versions?",
-      "duplicates": "Les versions mineures identiques ne sont jamais sauvegardées car nous comparons les hachages de contenu en premier.",
-      "updateFailed": "Impossible de mettre à jour la rétention de la version."
     },
     "debug": {
       "console": {
